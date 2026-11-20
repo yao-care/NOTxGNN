@@ -58,7 +58,7 @@ Glukarpidase er et enzym som opprinnelig brukes for å behandle metabolske bivir
 
 ## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ut fra kjent farmakologi er glukarpidase et rekombinant karboksypeptidase G2-enzym som bryter ned metotreksat utenfor cellene til inaktive metabolitter (DAMPA og glutamat). Det gis intravenøst ved toksiske metotreksatnivåer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Glucarpidase (uoffisiell oversettelse): «Glukarpidase er et rekombinant bakterielt enzym som hydrolyserer den karboksyterminale glutamatresten fra folsyre og klassiske antifolater som metotreksat. Glukarpidase omdanner metotreksat til de inaktive metabolittene 4-deoksy-4-amino-N 10 -metylpteroinsyre (DAMPA) og glutamat.» Engelsk originaltekst: "Glucarpidase is a recombinant bacterial enzyme that hydrolyzes the carboxyl- terminal glutamate residue from folic acid and classical antifolates such as methotrexate. Glucarpidase converts methotrexate to its inactive metabolites 4-deoxy-4-amino-N 10 - methylpteroic acid (DAMPA) and glutamate." ([DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c), versjon av 2024-11-27; hentet 2026-11-19). Ut fra kjent farmakologi er glukarpidase et rekombinant karboksypeptidase G2-enzym som bryter ned metotreksat utenfor cellene til inaktive metabolitter (DAMPA og glutamat). Det gis intravenøst ved toksiske metotreksatnivåer.
 
 Det er ikke funnet noen troverdig mekanistisk kobling til diabetisk katarakt. Glukarpidase påvirker ikke polyolveien, aldosereduktase eller glykering av linseproteiner. Som et stort protein (ca. 83 kDa dimer) gitt intravenøst er det lite praktisk å nå linsen. Den høye scoren skyldes trolig grafnærhet til den opprinnelige betegnelsen «metabolske bivirkninger», ikke biologisk plausibilitet.
 
@@ -132,6 +132,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 - Prekliniske data som viser en biologisk sammenheng med linse- eller netthinnepatologi ved diabetes
 - Vurdering av administrasjonsvei og tilgang til øyevev
 - Avklaring av godkjenningsstatus i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

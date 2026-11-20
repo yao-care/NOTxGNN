@@ -60,7 +60,7 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Fostamatinib er kjent som en hemmer av milttyrosinkinase (SYK). Den aktive metabolitten R406 reduserer nedbrytningen av blodplater som skjer via Fc-reseptorer i makrofager. Dette er grunnlaget for bruk ved immun trombocytopeni (ITP).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fostamatinib (uoffisiell oversettelse): «Fostamatinib er en tyrosinkinasehemmer med påvist aktivitet mot miltens tyrosinkinase (SYK). Hovedmetabolitten av fostamatinib, R406, hemmer signaltransduksjon fra Fc-aktiverende reseptorer og B-cellereseptoren.» Engelsk originaltekst: "Fostamatinib is a tyrosine kinase inhibitor with demonstrated activity against spleen tyrosine kinase (SYK). The major metabolite of fostamatinib, R406, inhibits signal transduction of Fc-activating receptors and B-cell receptor." ([DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c), versjon av 2025-11-05; hentet 2026-11-19). Fostamatinib er kjent som en hemmer av milttyrosinkinase (SYK). Den aktive metabolitten R406 reduserer nedbrytningen av blodplater som skjer via Fc-reseptorer i makrofager. Dette er grunnlaget for bruk ved immun trombocytopeni (ITP).
 
 Den predikerte sykdommen er en arvelig (autosomal) tilstand, som vanligvis henger sammen med genetiske feil i produksjon eller funksjon av blodplater, og ikke med immunmediert nedbrytning. SYK-hemming forventes derfor ikke å ramme den underliggende patologien. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom relaterte sykdommer, ikke biologisk evidens.
 
@@ -117,6 +117,19 @@ Prediksjonene bygger kun på modellscore (evidensnivå L5), uten kliniske studie
 - Advarsler og kontraindikasjoner fra preparatomtalen, som er nødvendig for sikkerhetsscreening
 - Prekliniske eller mekanistiske studier som kan vise at SYK-hemming er relevant for den predikerte sykdommen
 - Avklaring av hvorfor godkjenningen i Norge ble kansellert, og om en ny godkjenning er aktuell
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

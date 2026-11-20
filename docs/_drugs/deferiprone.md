@@ -54,7 +54,7 @@ Deferipron er en oral jernkelator. Modellen TxGNN predikerer at legemidlet kan h
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Deferipron er likevel kjent som en oral jernkelator som binder fritt jern og reduserer tilgjengelig jern i vev.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Deferiprone (uoffisiell oversettelse): «Deferipron er et kelaterende middel med affinitet for treverdige jernioner (jern III). Deferipron bindes til treverdige jernioner og danner nøytrale 3:1-komplekser (deferipron:jern) som er stabile ved fysiologisk pH.» Engelsk originaltekst: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), versjon av 2026-01-28; hentet 2026-11-19). Deferipron er likevel kjent som en oral jernkelator som binder fritt jern og reduserer tilgjengelig jern i vev.
 
 Ved porphyria cutanea tarda driver forhøyet jern i leveren opphopningen av uroporfyrin, og aderlatning virker trolig ved å redusere leverjern. Ved kongenital erytropoietisk porfyri kan jern modifisere sykdomsalvorlighet. Den mekanistiske tanken er derfor at jernkelering kan redusere porfyrinopphopning og dempe forstyrrelser i hemsyntesen.
 
@@ -102,6 +102,19 @@ Prediksjonen har høy modellscore, men ingen kliniske studier og ingen studier s
 - Detaljerte data om virkningsmekanisme (MOA)
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Sikkerhetsplan for blant annet nøytropeni/agranulocytose og overvåking av jernstatus
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -61,7 +61,7 @@ Merk: Blant de ti predikerte indikasjonene i datagrunnlaget har flere sterkere s
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon hemmer imatinib tyrosinkinasene BCR-ABL, KIT og PDGFR. Dens effekt ved flere sykdommer med disse kinasene som drivere er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Imatinib (uoffisiell oversettelse): «Imatinibmesilat er en proteintyrosinkinasehemmer som hemmer BCR-ABL-tyrosinkinasen, den konstitutive unormale tyrosinkinasen som dannes ved Philadelphia-kromosomavviket ved KML. Imatinib hemmer proliferasjon og induserer apoptose i BCR-ABL-positive cellelinjer samt i ferske leukemiceller fra Philadelphia-kromosompositiv kronisk myelogen leukemi.» Engelsk originaltekst: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), versjon av 2026-07-13; hentet 2026-11-19). Basert på kjent informasjon hemmer imatinib tyrosinkinasene BCR-ABL, KIT og PDGFR. Dens effekt ved flere sykdommer med disse kinasene som drivere er godt dokumentert.
 
 Fibrosarkomlignende svulster, særlig dermatofibrosarcoma protuberans (DFSP) med COL1A1-PDGFB-fusjon, er avhengige av PDGFB/PDGFR-signalering. Det gir en plausibel mekanisme på klassenivå. Det finnes imidlertid ingen hjertespesifikke data, og prediksjonen for hjertefibrosarkom er derfor i hovedsak modellbasert.
 
@@ -165,6 +165,19 @@ Pakningsvedleggets advarsler og kontraindikasjoner mangler i de data som er samm
 - Avklaring av norsk markedsstatus: legemidlet er markedsført, og alle 3 godkjenninger er gyldige
 - Kliniske data eller kasuistikker for hjerte- og fibrosarkomsubtyper, samt subtypespesifikke resultater fra basket- og bløtdelssarkomstudiene
 - Sikkerhetsplan for pasienter med hjerte-, lever- og nyresykdom og for interaksjoner med eliglustat og naloxegol
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -60,7 +60,7 @@ men foreløpig er det kun **2 publikasjoner** (en kohortstudie og en kasuistikk)
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent kunnskap om legemiddelklassen er decitabin en hypometylerende forbindelse som hemmer DNA-metyltransferase. Effekten ved myeloide neoplasier er etablert, og legemidlet brukes også ved myelodysplastiske syndromer hos voksne.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Decitabine (uoffisiell oversettelse): «Decitabin antas å utøve sine antineoplastiske effekter etter fosforylering og direkte inkorporering i DNA og hemming av DNA-metyltransferase, noe som forårsaker hypometylering av DNA og cellulær differensiering eller apoptose. Decitabin hemmer DNA-metylering in vitro, noe som oppnås ved konsentrasjoner som ikke forårsaker betydelig suppresjon av DNA-syntesen.» Engelsk originaltekst: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5), versjon av 2026-11-03; hentet 2026-11-19). Basert på kjent kunnskap om legemiddelklassen er decitabin en hypometylerende forbindelse som hemmer DNA-metyltransferase. Effekten ved myeloide neoplasier er etablert, og legemidlet brukes også ved myelodysplastiske syndromer hos voksne.
 
 Refraktær cytopeni hos barn er den vanligste undergruppen av pediatrisk myelodysplastisk syndrom. Delt biologi, med epigenetisk dysregulering og klonal hematopoese, gir en plausibel mekanistisk kobling til den opprinnelige indikasjonen.
 
@@ -149,12 +149,13 @@ Prediksjonen er biologisk plausibel, men bygger i hovedsak på modellscore, én 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Dessuten er alle norske/europeiske godkjenninger opphevet, og v» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Avklare hvorfor godkjenningene er opphevet, og om legemidlet er tilgjengelig i Norge på annen måte» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
 
 <!-- review:end log -->
 

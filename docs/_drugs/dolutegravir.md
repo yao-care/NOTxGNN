@@ -54,7 +54,7 @@ Dolutegravir er en integrasehemmer som brukes mot HIV-infeksjon. TxGNN-modellen 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Dolutegravir er kjent som en hemmer av HIV-1 integrase (strand transfer-hemmer). Integrasen til SIV er strukturelt nær HIV-1-integrasen, og strukturstudier av begge virusene viser et bevart bindingssted for hemmere. Det gjør en antiviral effekt mot SIV biologisk plausibel.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Dolutegravir (uoffisiell oversettelse): «Dolutegravir er et antiretroviralt middel mot HIV-1. […] Dolutegravir hemmer HIV-integrase ved å binde seg til integrasens aktive sete og blokkere strengoverføringstrinnet i retroviral DNA-integrasjon, som er essensielt for HIVs replikasjonssyklus. Biokjemiske strengoverføringsanalyser med renset HIV-1-integrase og forhåndsprosessert substrat-DNA ga IC 50-verdier på 2,7 nM og 12,6 nM.» Engelsk originaltekst: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), versjon av 2026-08-25; hentet 2026-11-19). Dolutegravir er kjent som en hemmer av HIV-1 integrase (strand transfer-hemmer). Integrasen til SIV er strukturelt nær HIV-1-integrasen, og strukturstudier av begge virusene viser et bevart bindingssted for hemmere. Det gjør en antiviral effekt mot SIV biologisk plausibel.
 
 Samtidig er SIV-infeksjon en dyremodell for HIV og ikke en klinisk indikasjon hos mennesker. Studiene gjelder først og fremst resistensutvikling, viral persistens og farmakologi hos makaker. Evidensen er derfor prekliniske og indirekte i forhold til bruk hos mennesker.
 
@@ -105,6 +105,19 @@ Prediksjonen gjelder en dyremodell for HIV og ikke en klinisk indikasjon hos men
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Avklaring av om SIV-infeksjon har noen relevant bruk utover forskningsmodeller (f.eks. som translasjonell modell for HIV-forskning)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

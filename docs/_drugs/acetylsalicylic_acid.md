@@ -54,7 +54,7 @@ Acetylsalisylsyre (aspirin) er en etablert blodplatehemmende og betennelsesdempe
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme for dette stoffet er ikke tilgjengelige i de innsamlede dataene. Generelt er acetylsalisylsyre kjent som en irreversibel hemmer av syklooksygenase (COX). Det gir redusert blodplateaggregasjon og dempet prostaglandinmediert betennelse.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for aspirin and extended - release dipyridamole (kombinasjonspreparat med Acetylsalicylic Acid) (uoffisiell oversettelse): «Acetylsalisylsyre Acetylsalisylsyre hemmer trombocyttaggregering ved irreversibel hemming av trombocyttenes cyklooksygenase, og hemmer dermed dannelsen av tromboksan A 2, en kraftig induktor av trombocyttaggregering og vasokonstriksjon.» Engelsk originaltekst: "Aspirin Aspirin inhibits platelet aggregation by irreversible inhibition of platelet cyclooxygenase and thus inhibits the generation of thromboxane A 2, a powerful inducer of platelet aggregation and vasoconstriction." ([DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1), versjon av 2026-08-19; hentet 2026-11-19). Generelt er acetylsalisylsyre kjent som en irreversibel hemmer av syklooksygenase (COX). Det gir redusert blodplateaggregasjon og dempet prostaglandinmediert betennelse.
 
 Den høye modellscoren er en ren beregningsmessig prediksjon. Vi har ikke funnet noen plausibel mekanistisk kobling mellom COX-hemming eller antiplatelet-effekt og atrofoderma vermiculata. Tilstanden er en follikulær atrofi som tilhører gruppen keratosis pilaris-lignende atrofiske hudlidelser. Det finnes heller ingen kliniske eller litterære data som styrker koblingen. Prediksjonen bør derfor sees som en hypotese som ikke er underbygget.
 
@@ -101,6 +101,18 @@ Prediksjonen bygger kun på en modellscore (0,9959), uten kliniske studier, uten
 - En biologisk begrunnet hypotese som knytter COX-hemming eller blodplatefunksjon til patogenesen ved denne tilstanden
 - En systematisk litteratursøk, inkludert kasuistikker, for å avklare om det finnes noe klinisk signal
 - Fullstendige data om virkningsmekanisme og preparatomtale (advarsler og kontraindikasjoner) før en eventuell videre vurdering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

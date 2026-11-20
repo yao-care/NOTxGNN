@@ -55,7 +55,7 @@ TxGNN-modellen forutsier at den kan være aktuell ved **simianimmunsviktvirus-in
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de samlede dataene. Kobicistat er kjent som en mekanismebasert hemmer av CYP3A og har ingen egen antiviral aktivitet. Den brukes til å øke eksponeringen for et partnerlegemiddel mot hiv.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cobicistat (uoffisiell oversettelse): «Kobicistat er en mekanismebasert hemmer av cytokrom P450 3A (CYP3A). Kobicistats hemming av CYP3A-mediert metabolisme øker den systemiske eksponeringen for CYP3A-substratene atazanavir og darunavir.» Engelsk originaltekst: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), versjon av 2026-02-10; hentet 2026-11-19). Kobicistat er kjent som en mekanismebasert hemmer av CYP3A og har ingen egen antiviral aktivitet. Den brukes til å øke eksponeringen for et partnerlegemiddel mot hiv.
 
 SIV-infeksjon hos ikke-menneskelige primater er en veterinær og prekliniske modell for hiv, begge er lentivirus. Den høye scoren gjenspeiler trolig nærhet til hiv i modellens nettverk, snarere enn en ny terapeutisk mekanisme. All bruk ville i så fall være som forsterker for et ledsagende antiretroviralt middel. Dette er en modellorganisme-sykdom og ikke et reelt repurposing-mål for mennesker.
 
@@ -95,6 +95,19 @@ Prediksjonen bygger kun på modellscore uten støtte fra kliniske studier eller 
 - Sikkerhetsopplysninger fra preparatomtale (advarsler og kontraindikasjoner)
 - Prekliniske eller publiserte studier som direkte omhandler SIV-infeksjon
 - Avklaring av om en veterinær eller modellbasert indikasjon er relevant for en humanmedisinsk repurposing-strategi
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

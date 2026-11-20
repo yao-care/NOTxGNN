@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **renal hypourikemi**,
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Febuxostat er likevel kjent som en ikke-purin, selektiv hemmer av xantinoksidoreduktase, som senker serumurinsyre. Effekten ved gikt og hyperurikemi er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Febuxostat (uoffisiell oversettelse): «ULORIC, en xantinoksidasehemmer, oppnår sin terapeutiske effekt ved å redusere urinsyre i serum. ULORIC forventes ikke å hemme andre enzymer som er involvert i purin- og pyrimidinsyntese og -metabolisme ved terapeutiske konsentrasjoner.» Engelsk originaltekst: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), versjon av 2025-12-24; hentet 2026-11-19). Febuxostat er likevel kjent som en ikke-purin, selektiv hemmer av xantinoksidoreduktase, som senker serumurinsyre. Effekten ved gikt og hyperurikemi er godt etablert.
 
 Renal hypourikemi kjennetegnes av lav serumurinsyre på grunn av defekt reabsorpsjon av urat i nyrene (for eksempel tap av funksjon i URAT1/SLC22A12 eller GLUT9). Å senke urinsyren ytterligere er mekanistisk kontraintuitivt. Den eneste plausible koblingen er et tilfelle i litteraturen der febuxostat ble forsøkt for å forebygge treningsutløst akutt nyreskade (EIAKI) hos en ung pasient med renal hypourikemi. Mulige mekanismer er redusert urat-belastning i urinen og mindre oksidativt stress fra xantinoksidase. Dette er en hypotese, ikke påvist klinisk nytte.
 
@@ -129,6 +129,19 @@ Mekanismen er motstridende (ytterligere senking av en allerede lav urinsyre), og
 - Kontrollerte data eller større kasuistiske serier som viser nytte og sikkerhet ved renal hypourikemi
 - Vurdering av kardiovaskulær risiko, gitt kontraindikasjonssignalene for hjerte- og hjernekarsykdom
 - Avklaring av regulatorisk status i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Rasmussens subakutte 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Tolkapon er kjent som en hemmer av enzymet katekol-O-metyltransferase (COMT), som bryter ned blant annet levodopa og katekolaminer. Ved Parkinsons sykdom forlenger dette effekten av levodopa.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tolcapone (uoffisiell oversettelse): «Tolkapon er en selektiv og reversibel hemmer av katekol-O-metyltransferase (COMT). Hos pattedyr er COMT fordelt i ulike organer. Den høyeste aktiviteten finnes i lever og nyrer. COMT forekommer også i hjerte, lunger, glatt muskulatur og skjelettmuskulatur, tarmkanalen, reproduksjonsorganer, ulike kjertler, fettvev, hud, blodceller og nevronalt vev, særlig i gliaceller.» Engelsk originaltekst: "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), versjon av 2020-10-02; hentet 2026-11-19). Tolkapon er kjent som en hemmer av enzymet katekol-O-metyltransferase (COMT), som bryter ned blant annet levodopa og katekolaminer. Ved Parkinsons sykdom forlenger dette effekten av levodopa.
 
 Rasmussens encefalitt er en immunmediert, kronisk betennelsessykdom i hjernen, vanligvis i én hjernehalvdel. Det er ikke påvist noen mekanistisk sammenheng mellom COMT-hemming og denne tilstanden. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -156,12 +156,13 @@ Prediksjonen for Rasmussens subakutte encefalitt støttes verken av kliniske stu
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Godkjenningen har status avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er tolkapons godkjenning i Norge avregistrert, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **faciodigitogenital syndrom*
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datamaterialet som er samlet for denne rapporten. Basert på kjent informasjon blokkerer metylfenidat transportørene for dopamin (DAT) og noradrenalin (NET), og dette er grunnlaget for den godkjente bruken ved ADHD.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Methylphenidate (uoffisiell oversettelse): «Metylfenidathydroklorid er et sentralstimulerende middel (CNS-stimulerende middel). Det er ikke kjent hvordan METADATE CD virker terapeutisk ved behandling av ADHD hos pediatriske pasienter fra 6 år. Metylfenidat blokkerer reopptaket av noradrenalin og dopamin i det presynaptiske nevronet og øker frigjøringen av disse monoaminene til det ekstranevronale rommet.» Engelsk originaltekst: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), versjon av 2026-10-21; hentet 2026-11-19). Basert på kjent informasjon blokkerer metylfenidat transportørene for dopamin (DAT) og noradrenalin (NET), og dette er grunnlaget for den godkjente bruken ved ADHD.
 
 Faciodigitogenital syndrom er en X-bundet utviklingsforstyrrelse forårsaket av mutasjoner i FGD1-genet. ADHD-lignende atferdstrekk kan forekomme ved syndromet, noe som kan forklare hvorfor modellen knytter det til et ADHD-legemiddel. Dette er imidlertid spekulasjon og ikke bevis for nytte ved selve grunnsykdommen. Ingen mekanistisk kobling støttes av de foreliggende dataene.
 
@@ -126,6 +126,18 @@ Prediksjonen bygger kun på en beregningsmodell uten kliniske studier eller litt
 | Kondromyksoid fibrom | 0,9999 | L5 | Hold – sannsynligvis falsk positiv, ingen plausibel mekanisme |
 | Spesifikk utviklingsforstyrrelse | 0,9999 | L5 | Forskningsspørsmål – i stor grad en gjentakelse av eksisterende ADHD-indikasjon, indirekte evidens |
 | Dysthymi (dystymisk lidelse) | 0,9911 | L5 | Forskningsspørsmål – kun indirekte evidens fra ADHD med subsyndromal depresjon |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -61,7 +61,7 @@ Funnet støttes av **12 kliniske studier** og **20 publikasjoner** i de data som
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon binder trastuzumab seg til det ekstracellulære domenet til HER2, blokkerer signalering og medierer antistoffavhengig cellulær cytotoksisitet (ADCC).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Trastuzumab (uoffisiell oversettelse): «Protoonkogenet HER2 (eller c-erbB2) koder for et transmembrant reseptorprotein på 185 kDa, som er strukturelt beslektet med epidermal vekstfaktorreseptor. Trastuzumabprodukter har både i in vitro-analyser og hos dyr vist seg å hemme proliferasjonen av humane tumorceller som overuttrykker HER2.» Engelsk originaltekst: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), versjon av 2026-06-26; hentet 2026-11-19). Basert på kjent informasjon binder trastuzumab seg til det ekstracellulære domenet til HER2, blokkerer signalering og medierer antistoffavhengig cellulær cytotoksisitet (ADCC).
 
 Svulster som er både PR-positive og HER2-positive har nytte av trastuzumab. Kombinasjon med endokrin behandling adresserer samspillet mellom HER2- og hormonreseptorveiene. Dette ligger innenfor den allerede godkjente brystkreftindikasjonen, så det er ikke en ekte repurposing.
 
@@ -172,11 +172,12 @@ Det foreligger fullførte randomiserte fase 3-studier og sentrale RCT-publikasjo
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->
 

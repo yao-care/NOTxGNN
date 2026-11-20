@@ -55,7 +55,7 @@ TxGNN-modellen predikerer at legemidlet kan være aktuelt for **hyperlusent lung
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i det innsamlede datagrunnlaget. Vilanterol tilhører klassen inhalerte langtidsvirkende beta2-agonister, som gir bronkodilatasjon ved å slappe av glatt muskulatur i luftveiene. Dette er en klassebasert antakelse, ikke noe som er dokumentert i dataene som er samlet for denne rapporten.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for fluticasone furoate and vilanterol (kombinasjonspreparat med Vilanterol) (uoffisiell oversettelse): «De farmakologiske effektene av beta 2-adrenerge agonister, inkludert vilanterol, kan i det minste delvis tilskrives stimulering av intracellulær adenylatsyklase, enzymet som katalyserer omdannelsen av adenosintrifosfat (ATP) til syklisk 3′,5′-adenosinmonofosfat (syklisk AMP).» Engelsk originaltekst: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), versjon av 2024-11-21; hentet 2026-11-19). Vilanterol tilhører klassen inhalerte langtidsvirkende beta2-agonister, som gir bronkodilatasjon ved å slappe av glatt muskulatur i luftveiene. Dette er en klassebasert antakelse, ikke noe som er dokumentert i dataene som er samlet for denne rapporten.
 
 Hyperlusent lunge er et radiologisk funn som kan henge sammen med obstruktiv lungesykdom. En eventuell kobling til vilanterol vil være indirekte, via den underliggende luftveisobstruksjonen. Det er ikke påvist noen direkte mekanistisk eller klinisk sammenheng, og prediksjonen må betraktes som en hypotese.
 
@@ -94,6 +94,19 @@ Prediksjonen har høy modellscore, men ingen kliniske studier eller litteratur s
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Klinisk eller epidemiologisk evidens som direkte kobler bronkodilatasjon med vilanterol til hyperlusent lunge
 - Avklaring av om en klinisk relevant endepunktdefinisjon finnes for et radiologisk funn som dette
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

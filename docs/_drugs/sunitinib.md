@@ -58,7 +58,7 @@ Sunitinib er en oral tyrosinkinasehemmer som opprinnelig brukes mot gastrointest
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i det innsamlede grunnlaget. Det som er kjent, er at sunitinib hemmer flere reseptor-tyrosinkinaser (VEGFR, PDGFR og KIT). Disse er involvert i angiogenese og vekstsignalering i bløtvevssarkomer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sunitinib (uoffisiell oversettelse): «Sunitinib er et lite molekyl som hemmer flere reseptortyrosinkinaser (RTK), hvorav noen er involvert i tumorvekst, patologisk angiogenese og metastatisk progresjon av kreft.» Engelsk originaltekst: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), versjon av 2026-02-20; hentet 2026-11-19). Det som er kjent, er at sunitinib hemmer flere reseptor-tyrosinkinaser (VEGFR, PDGFR og KIT). Disse er involvert i angiogenese og vekstsignalering i bløtvevssarkomer.
 
 Virkning i GIST og nyrecellekarsinom er dokumentert, og begge er svulster som er avhengige av disse signalveiene. Liposarkom er et bløtvevssarkom der de samme veiene kan bidra til tumorvekst. Fase 2-data utenom GIST tyder på begrenset, men målbar aktivitet, hovedsakelig sykdomsstabilisering.
 
@@ -155,6 +155,19 @@ Blant de øvrige topp 10-prediksjonene er følgende mest interessante:
 - **Dermatofibrosarcoma protuberans (rang 6) og Xp11.2/TFE3-translokasjonsnyrecellekarsinom (rang 4):** L3, plausibel mekanisme (PDGFR-aktivering, hhv. VEGF-hemming), men evidens kun fra retrospektive serier og kasuistikker.
 - **Barnenyrecellekarsinom (rang 7):** L4, kun kasuistikker og en oversikt.
 - **Eggstokk-myksoid liposarkom, nyrecellekarsinom assosiert med nevroblastom, angiolipom og hjertefibrosarkom (rang 2, 3, 8, 10):** L4–L5, ingen eller svært begrenset evidens; Hold.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

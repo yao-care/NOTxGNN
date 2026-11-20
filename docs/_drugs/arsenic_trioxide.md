@@ -54,7 +54,7 @@ Arsenikktrioksid er et cytotoksisk kreftlegemiddel som brukes mot hematologisk k
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Arsenikktrioksid er et cytotoksisk legemiddel med kjent bruk ved hematologisk kreft, og mekanistisk kan det være aktuelt ved myelodysplastiske tilstander.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Arsenic Trioxide (uoffisiell oversettelse): «Virkningsmekanismen til TRISENOX er ikke fullstendig klarlagt. Arsentrioksid forårsaker morfologiske endringer og DNA-fragmentering som er karakteristisk for apoptose, i humane promyelocyttleukemiceller av typen NB4 in vitro. Arsentrioksid forårsaker også skade på eller nedbrytning av fusjonsproteinet promyelocyttleukemi (PML)-retinsyrereseptor (RAR)-alfa.» Engelsk originaltekst: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), versjon av 2022-06-30; hentet 2026-11-19). Arsenikktrioksid er et cytotoksisk legemiddel med kjent bruk ved hematologisk kreft, og mekanistisk kan det være aktuelt ved myelodysplastiske tilstander.
 
 Prediksjonen er trolig drevet av den nære slektskapen til myelodysplastisk syndrom (MDS). Ved MDS er det beskrevet at arsenikktrioksid induserer apoptose (blant annet via NF-kB/FLIP og modulering av BCL2-familien) og fremmer differensiering. Slike slutninger må hentes fra den overordnede MDS-diagnosen, ikke fra studier på den predikerte diagnosen selv.
 
@@ -107,6 +107,19 @@ Det finnes ingen kliniske studier eller litteratur for denne diagnosen, og predi
 - Data om virkningsmekanisme.
 - Gjennomgang av advarsler og kontraindikasjoner i preparatomtalen, særlig knyttet til QT-forlengelse og elektrolyttforstyrrelser.
 - Sikkerhetsplan for overvåking av hjerterytme og elektrolytter.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -60,7 +60,7 @@ men dette er rent en modellprediksjon: det finnes **0 kliniske studier** og **in
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon er selpercatinib en selektiv hemmer av RET-kinase, og effekten er påvist ved RET-drevet lunge- og skjoldbruskkjertelkreft.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Selpercatinib (uoffisiell oversettelse): «Selperkatinib er en kinasehemmer. Selperkatinib hemmet villtype-RET og flere muterte RET-isoformer samt VEGFR1 og VEGFR3 med IC 50 -verdier fra 0,92 nM til 67,8 nM. I andre enzymanalyser hemmet selperkatinib også FGFR 1, 2 og 3 ved høyere konsentrasjoner som fortsatt var klinisk oppnåelige.» Engelsk originaltekst: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), versjon av 2026-09-11; hentet 2026-11-19). Basert på kjent informasjon er selpercatinib en selektiv hemmer av RET-kinase, og effekten er påvist ved RET-drevet lunge- og skjoldbruskkjertelkreft.
 
 Det er ikke påvist noen etablert mekanistisk kobling mellom RET-hemming og pulmonal hypertensjon. Enkelte kinasehemmere (f.eks. dasatinib) er assosiert med pulmonal arteriell hypertensjon, men dette er et klassespesifikt sikkerhetssignal og ikke et bevis på terapeutisk nytte.
 
@@ -136,6 +136,19 @@ Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller 
 - Prekliniske data eller modellstudier som støtter effekt ved pulmonal hypertensjon
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering, inkludert vurdering av risiko for pulmonale vaskulære effekter
 - Avklaring av markedsstatus og tilgjengelighet i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

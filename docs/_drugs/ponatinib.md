@@ -61,7 +61,7 @@ For den nest rangerte prediksjonen, **liposarkom**, finnes **0 kliniske studier*
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er for øyeblikket ikke tilgjengelige i de innsamlede dataene. Ponatinib er imidlertid kjent som en multi-målrettet tyrosinkinasehemmer (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT), og effekten ved leukemi er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ponatinib (uoffisiell oversettelse): «Ponatinib er en kinasehemmer. Ponatinib hemmet in vitro tyrosinkinaseaktiviteten til ABL og T315I-mutert ABL med IC 50 -konsentrasjoner på henholdsvis 0,4 nM og 2,0 nM. Ponatinib hemmet in vitro aktiviteten til ytterligere kinaser med IC 50 -konsentrasjoner mellom 0,1 nM og 20 nM, inkludert medlemmer av VEGFR-, PDGFR-, FGFR-, EPH-reseptor- og SRC-familiene av kinaser, samt KIT, RET, TIE2 og FLT3.» Engelsk originaltekst: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), versjon av 2026-08-14; hentet 2026-11-19). Ponatinib er imidlertid kjent som en multi-målrettet tyrosinkinasehemmer (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT), og effekten ved leukemi er etablert.
 
 Signalveier drevet av kinaser (f.eks. PDGFR, FGFR og TGF-beta) kan tenkes å spille en rolle ved fibroproliferativ overvekst. Koblingen til gingival fibromatose er likevel spekulativ og understøttes ikke av sykdomsspesifikke data. Gingival fibromatose er en sjelden og for det meste godartet tilstand. Ponatinibs kjente kardiovaskulære og tromboemboliske toksisitet gjør et gunstig nytte-risiko-forhold lite sannsynlig.
 
@@ -140,11 +140,12 @@ Prediksjonen for gingival fibromatose støttes kun av en høy modellscore uten k
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
 
 <!-- review:end log -->
 

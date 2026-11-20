@@ -62,7 +62,7 @@ og dette støttes av **17 kliniske studier** og **18 publikasjoner** i de sammen
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i databasen. Ketorolac er likevel kjent som en ikke-selektiv COX-1/COX-2-hemmer som reduserer prostaglandinsyntesen.
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ketorolac (uoffisiell oversettelse): «Ketorolaktrometamol er et ikke-steroid antiinflammatorisk legemiddel (NSAID) som viser analgetisk aktivitet i dyremodeller. Virkningsmekanismen til ketorolak er, i likhet med andre NSAID-er, ikke fullstendig kjent, men kan være relatert til hemming av prostaglandinsyntetase.» Engelsk originaltekst: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), versjon av 2026-11-13; hentet 2026-11-19). Ketorolac er likevel kjent som en ikke-selektiv COX-1/COX-2-hemmer som reduserer prostaglandinsyntesen.
 
 Prostaglandiner bidrar til perifer og sentral sensitisering og nevrogen inflammasjon ved migrene og spenningshodepine. Den smertestillende og antiinflammatoriske effekten av ketorolac er derfor mekanistisk plausibel. Legemidlet er allerede i bruk ved akutt migrene på akuttmottak, og retningslinjer og metaanalyser støtter dette. Parenterale og intranasale formuleringer gir rask effekt ved akutte anfall.
 
@@ -146,6 +146,19 @@ Ketorolac brukes allerede ved akutt migrene, og systematiske oversikter, metaana
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Plan for sikkerhetsovervåking (GI-blødning, nyrefunksjon, blødningsrisiko, interaksjoner, spesielt med litium og acetylsalisylsyre)
 - Avklaring av formulering og administrasjonsvei (intravenøs, intranasal) og av regulatorisk status i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

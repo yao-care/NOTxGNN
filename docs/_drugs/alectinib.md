@@ -62,7 +62,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **lung benign ne
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er alectinib en selektiv, ATP-konkurrerende hemmer av ALK (anaplastisk lymfomkinase), og farmakologidata viser også binding mot MET. Legemidlet har dokumentert effekt ved ALK-positiv NSCLC, inkludert CNS-aktivitet og effekt mot crizotinib-resistente celler.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Alectinib (uoffisiell oversettelse): «Alektinib er en tyrosinkinasehemmer som virker på ALK og RET. I ikke-kliniske studier hemmet alektinib ALK-fosforylering og ALK-mediert aktivering av de nedstrøms signalproteinene STAT3 og AKT, og reduserte tumorcellenes viabilitet i flere cellelinjer med ALK-fusjoner, -amplifikasjoner eller aktiverende mutasjoner.» Engelsk originaltekst: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), versjon av 2026-08-21; hentet 2026-11-19). Ut fra kjent informasjon er alectinib en selektiv, ATP-konkurrerende hemmer av ALK (anaplastisk lymfomkinase), og farmakologidata viser også binding mot MET. Legemidlet har dokumentert effekt ved ALK-positiv NSCLC, inkludert CNS-aktivitet og effekt mot crizotinib-resistente celler.
 
 Prediksjonen om godartet lungeneoplasme kommer fra TxGNN-modellen (deep learning), og scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Sykdomsnavnet ligger nær lungeneoplasmer, som er den godkjente indikasjonen. Godartede lungesvulster har ingen kjent ALK-drevet biologi, og det finnes ingen plausibel begrunnelse for en kinasehemmer. Det samme gjelder de øvrige topprangerte prediksjonene (gingival fibromatose, lungefibrom, hamartom, junksjonell epidermolysis bullosa m.fl.): ingen identifisert mekanistisk kobling.
 
@@ -151,6 +151,19 @@ Alle prediksjonene er rent modellbaserte uten støtte fra kliniske studier eller
 - Biologisk rasjonale og prekliniske data som kobler ALK/MET-hemming til en av de predikerte sykdommene
 - Vurdering av om en ALK-drevet undergruppe finnes (f.eks. ALK-positive nevroendokrine svulster), og eventuelt nye studier der
 - Avklaring av årsaken til kansellert status i Norge/EØS
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

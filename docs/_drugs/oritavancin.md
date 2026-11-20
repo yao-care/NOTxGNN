@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at det kan være effektivt mot **Bacteroidaceae-infeks
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Basert på kjent farmakologi er oritavancin et lipoglykopeptid som hemmer celleveggsyntesen hos grampositive bakterier ved å binde D-Ala-D-Ala (og D-Ala-D-Lac) i peptidoglykanforløpere, og i tillegg forstyrrer membranintegriteten.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Oritavancin (uoffisiell oversettelse): «Oritavancin er et antibakterielt legemiddel. […] Oritavancin har tre virkningsmekanismer: (i) hemming av transglykosyleringstrinnet (polymeriseringstrinnet) i cellevegg-biosyntesen ved binding til stammepeptidet i peptidoglykanforløpere; (ii) hemming av transpeptideringstrinnet (kryssbindingstrinnet) i cellevegg-biosyntesen ved binding til de peptidbroende segmentene i celleveggen; og (iii) forstyrrelse av integriteten til bakteriemembranen, noe som fører til depolarisering, permeabilisering og celledød. Disse ulike mekanismene bidrar til den konsentrasjonsavhengige baktericide aktiviteten til oritavancin.» Engelsk originaltekst: "Oritavancin is an antibacterial drug. […] Oritavancin has three mechanisms of action: (i) inhibition of the transglycosylation (polymerization) step of cell wall biosynthesis by binding to the stem peptide of peptidoglycan precursors; (ii) inhibition of the transpeptidation (crosslinking) step of cell wall biosynthesis by binding to the peptide bridging segments of the cell wall; and (iii) disruption of bacterial membrane integrity, leading to depolarization, permeabilization, and cell death. These multiple mechanisms contribute to the concentration-dependent bactericidal activity of oritavancin." ([DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220), versjon av 2026-09-15; hentet 2026-11-19). Basert på kjent farmakologi er oritavancin et lipoglykopeptid som hemmer celleveggsyntesen hos grampositive bakterier ved å binde D-Ala-D-Ala (og D-Ala-D-Lac) i peptidoglykanforløpere, og i tillegg forstyrrer membranintegriteten.
 
 Bacteroidaceae (for eksempel *Bacteroides*-arter) er gramnegative anaerobe bakterier med en ytre membran som glykopeptider vanligvis ikke trenger gjennom. Den høye TxGNN-scoren (0,9948) har derfor ikke noen plausibel mekanistisk støtte. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -117,6 +117,19 @@ Prediksjonen har kun modellstøtte (L5) uten kliniske studier eller litteratur, 
 - Detaljerte data om virkningsmekanisme (MOA)
 - *In vitro*-data på følsomhet hos *Bacteroides*-arter (MIC-verdier) for å vurdere om det finnes noen reell aktivitet
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

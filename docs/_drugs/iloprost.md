@@ -60,7 +60,7 @@ Merk: De to høyest rangerte prediksjonene i modellen (hypotrichosis simplex i h
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Iloprost er likevel kjent som en inhalert prostacyklinanalog som virker via IP-reseptorer. Dette gir utvidelse av lungekar (vasodilatasjon) samt antiproliferative og blodplatehemmende effekter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Iloprost (uoffisiell oversettelse): «Iloprost er en syntetisk analog av prostasyklin PGI 2. Iloprost er en vasodilatator og hemmer trombocyttaggregasjon.» Engelsk originaltekst: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), versjon av 2026-08-13; hentet 2026-11-19). Iloprost er likevel kjent som en inhalert prostacyklinanalog som virker via IP-reseptorer. Dette gir utvidelse av lungekar (vasodilatasjon) samt antiproliferative og blodplatehemmende effekter.
 
 PAH assosiert med medfødt hjertesykdom, inkludert Eisenmenger-syndrom, har den samme lungevaskulære patologien som den godkjente indikasjonen. Mekanismen er derfor godt overførbar. Dette er snarere en utvidelse innenfor en allerede godkjent legemiddelklasse og indikasjonsgruppe enn ekte reposisjonering.
 
@@ -150,12 +150,13 @@ PAH-CHD er en undergruppe av den godkjente PAH-indikasjonen, og det finnes flere
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og iloprost har kun opphevet godkjenning i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste godkjenningen er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->
 

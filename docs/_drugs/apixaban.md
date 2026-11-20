@@ -54,7 +54,7 @@ Apiksaban er en direkte faktor Xa-hemmer (blodfortynnende middel). TxGNN-modelle
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme for apiksaban er ikke tilgjengelige i de innsamlede dataene. Apiksaban er kjent som en direkte hemmer av faktor Xa i koagulasjonskaskaden.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Apixaban (uoffisiell oversettelse): «Apiksaban er en selektiv hemmer av FXa. Det krever ikke antitrombin III for antitrombotisk aktivitet. Apiksaban hemmer fri og koagelbundet FXa samt protrombinaseaktivitet. Apiksaban har ingen direkte effekt på trombocyttaggregering, men hemmer indirekte trombocyttaggregering indusert av trombin.» Engelsk originaltekst: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), versjon av 2026-09-24; hentet 2026-11-19). Apiksaban er kjent som en direkte hemmer av faktor Xa i koagulasjonskaskaden.
 
 En mulig, men uprøvd kobling går via migrene med aura, som er satt i forbindelse med høyre-til-venstre-shunt (åpen foramen ovale) og en protrombotisk tilstand, blant annet antifosfolipidantistoffer. I slike tilfeller kan små blodpropper eller mikroemboli bidra til aura, og en faktor Xa-hemmer kan i teorien redusere dette.
 
@@ -102,6 +102,18 @@ Ingen studier støtter apiksaban ved migrene, og kasuistikkene tyder på forverr
 - Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
 - Kontrollerte studier som direkte undersøker faktor Xa-hemming ved migrene, for eksempel hos pasienter med åpen foramen ovale eller antifosfolipidantistoffer
 - Avklaring av design og midler i den retrospektive antifosfolipidstudien (PMID 33402037)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -60,7 +60,7 @@ men i dataene som er samlet inn for denne rapporten finnes **ingen kliniske stud
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er tipranavir en HIV-1-proteasehemmer. Effekten ved HIV-infeksjon er etablert, og mekanistisk kan den være aktuell for beslektede lentivirus.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tipranavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er tipranavir en HIV-1-proteasehemmer. Effekten ved HIV-infeksjon er etablert, og mekanistisk kan den være aktuell for beslektede lentivirus.
 
 Felint immunsviktvirus (FIV) er et lentivirus med en protease som er i slekt med HIV-1-proteasen, så en effekt er biologisk plausibel. FIV-proteasen skiller seg likevel fra HIV-proteasen i substratspesifisitet og følsomhet for hemmere, og ingen data om dette er tilgjengelige her.
 
@@ -130,12 +130,13 @@ Prediksjonen mangler både kliniske studier og litteratur, og den predikerte ind
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Legemidlet er dessuten avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Legemidlet er i tillegg avregistrert i Norge, og k» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->
 

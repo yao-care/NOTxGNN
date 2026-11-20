@@ -58,7 +58,7 @@ Melfalan er et alkylerende cytostatikum som brukes i behandling av blodkreft og 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om melfalans virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Melfalan er et alkylerende middel som skader DNA i delende celler, og brystkreft er i prinsippet følsom for DNA-alkylering.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Melphalan (uoffisiell oversettelse): «Melfalan er et alkylerende middel av bikloretylamintypen. Cytotoksisiteten ser derfor ut til å være relatert til omfanget av kryssbindinger mellom DNA-trådene, sannsynligvis ved binding i N 7-posisjonen på guanin.» Engelsk originaltekst: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), versjon av 2026-09-15; hentet 2026-11-19). Melfalan er et alkylerende middel som skader DNA i delende celler, og brystkreft er i prinsippet følsom for DNA-alkylering.
 
 Melfalan har historisk vært brukt mot brystkreft, blant annet som adjuvant enkeltstoff på 1980-tallet og i høydose-regimer med stamcellestøtte. Disse studiene viste at melfalan alene hadde høyere residivrate enn kombinasjonsregimer (CFP). Høydosebehandling med stamcelletransplantasjon er i dag ikke standard ved brystkreft, og melfalans egen bidrag i kombinasjonsregimer er vanskelig å isolere. Prediksjonen er derfor mekanistisk plausibel, men ikke støttet av moderne, direkte dokumentasjon.
 
@@ -144,6 +144,18 @@ Ingen studie i datagrunnlaget tester melfalan direkte som behandling av kvinneli
 - Data om virkningsmekanisme (MOA)
 - Fullstendig sikkerhetsinformasjon fra preparatomtale (advarsler og kontraindikasjoner)
 - Vurdering av nytte–risiko opp mot nåværende standardbehandling ved brystkreft, med tanke på høy risiko for myelosuppresjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

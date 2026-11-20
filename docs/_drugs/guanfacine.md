@@ -54,7 +54,7 @@ Guanfacin er en selektiv alfa-2A-adrenerg reseptoragonist som brukes ved attenti
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Guanfacin er kjent som en agonist på alfa-2A-adrenoreseptoren (i tillegg til at den binder alfa-2B og alfa-2C), og denne mekanismen forbedrer signaloverføring i prefrontal cortex, noe som er relevant for oppmerksomhet og eksekutive funksjoner.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Guanfacine (uoffisiell oversettelse): «Guanfacin er en sentral alfa 2A -adrenerg reseptoragonist. Guanfacin er ikke et sentralstimulerende middel (CNS-stimulerende middel). Virkningsmekanismen til guanfacin ved ADHD er ikke kjent.» Engelsk originaltekst: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769), versjon av 2026-10-15; hentet 2026-11-19). Guanfacin er kjent som en agonist på alfa-2A-adrenoreseptoren (i tillegg til at den binder alfa-2B og alfa-2C), og denne mekanismen forbedrer signaloverføring i prefrontal cortex, noe som er relevant for oppmerksomhet og eksekutive funksjoner.
 
 Aarskog-Scott-syndrom er en X-bundet utviklingsforstyrrelse forårsaket av mutasjoner i FGD1-genet. Det er ikke identifisert noen plausibel mekanistisk kobling mellom alfa-2A-agonisme og denne sykdommen. Enkelte pasienter har ADHD-lignende atferd, men dette er spekulativt og ikke støttet av noen data. Prediksjonen må derfor regnes som et rent modellsignal uten biologisk eller klinisk begrunnelse.
 
@@ -95,6 +95,19 @@ Prediksjonen har svært høy modellscore (0,9997), men mangler helt støtte fra 
 - Prekliniske eller kliniske data som direkte omhandler denne sykdommen
 - Detaljerte data om virkningsmekanisme (MOA)
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

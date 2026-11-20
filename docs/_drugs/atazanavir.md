@@ -54,7 +54,7 @@ Atazanavir er en proteasehemmer som brukes mot HIV-infeksjon. TxGNN-modellen pre
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene. Atazanavir er kjent som en HIV-1-proteasehemmer. SIV er et lentivirus som er nært beslektet med HIV, så aktivitet mot SIV-protease er biologisk plausibel.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Atazanavir (uoffisiell oversettelse): «Atazanavir er et antiretroviralt legemiddel mot HIV-1. […] Atazanavir (ATV) er en azapeptid HIV-1-proteasehemmer (PI). Substansen hemmer selektivt den virusspesifikke prosesseringen av virale Gag- og Gag-Pol-polyproteiner i HIV-1-infiserte celler, og forhindrer dermed dannelse av modne virioner.» Engelsk originaltekst: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), versjon av 2024-12-05; hentet 2026-11-19). Atazanavir er kjent som en HIV-1-proteasehemmer. SIV er et lentivirus som er nært beslektet med HIV, så aktivitet mot SIV-protease er biologisk plausibel.
 
 Den eneste publikasjonen er en studie fra 2010 av SIV-infiserte makaker behandlet med et høyaktivt antiretroviralt regime (HAART). Dette er en dyremodell, ikke en human terapeutisk indikasjon. Studien støtter bruk av SIV-infeksjon som prekliniske modell for antiretrovirale kombinasjoner, men viser ikke effekt av atazanavir spesifikt. Indikasjonen er derfor kun av preklinisk eller veterinærmessig interesse, og tilfører ingen ny human indikasjon.
 
@@ -98,6 +98,19 @@ Prediksjonen bygger kun på modellscore og én dyrestudie som ikke undersøker a
 - Prekliniske data som viser atazanavirs aktivitet mot SIV-protease
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - En avklaring av om en veterinær eller preklinisk anvendelse er relevant for videre arbeid
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

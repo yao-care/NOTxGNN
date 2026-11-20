@@ -61,7 +61,7 @@ Prediksjonen er derfor kun modellbasert.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige for dette legemidlet. Entakapon er kjent som en COMT-hemmer som forlenger virkningen av levodopa, og effekten ved Parkinsons sykdom er godkjent.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Entacapone (uoffisiell oversettelse): «Entakapon er en selektiv og reversibel hemmer av COMT. Hos pattedyr er COMT fordelt i ulike organer, med høyest aktivitet i lever og nyre. COMT forekommer også i hjerte, lunge, glatt muskulatur og skjelettmuskulatur, tarmkanalen, reproduksjonsorganer, ulike kjertler, fettvev, hud, blodceller og nevronalt vev, særlig i gliaceller.» Engelsk originaltekst: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), versjon av 2026-02-16; hentet 2026-11-19). Entakapon er kjent som en COMT-hemmer som forlenger virkningen av levodopa, og effekten ved Parkinsons sykdom er godkjent.
 
 PLA2G6-assosiert nevrodegenerasjon omfatter infantil nevroaksonal dystrofi og PLA2G6-relatert dystoni-parkinsonisme. Disse tilstandene har felles trekk med Parkinsons sykdom, blant annet dopaminerg og alfa-synuklein-patologi. Det er derfor teoretisk mulig at entakapon som tillegg til levodopa kan lindre parkinsonlignende symptomer.
 
@@ -164,12 +164,13 @@ Den fremste prediksjonen er basert utelukkende på en modellscore uten støtte f
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle de syv registrerte godkjenningene er annullert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden alle norske godkjenninger er annullert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
 
 <!-- review:end log -->
 

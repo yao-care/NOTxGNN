@@ -59,7 +59,7 @@ Brentuksimab vedotin er et antistoff-legemiddelkonjugat rettet mot CD30, opprinn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det innsamlede datagrunnlaget. Basert på kjent informasjon er brentuksimab vedotin et anti-CD30-antistoff koblet til det cytotoksiske stoffet MMAE. Effekten er dokumentert ved CD30-positive lymfomer, og mekanistisk kan det være aktuelt ved andre lymfomer som uttrykker CD30.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Brentuximab Vedotin (uoffisiell oversettelse): «CD30 tilhører tumornekrosefaktor-reseptorfamilien og uttrykkes på overflaten av sALCL-celler og på Hodgkin Reed-Sternberg (HRS)-celler ved cHL. CD30 uttrykkes i varierende grad i andre T-cellelymfomer. […] Brentuksimabvedotin er et antistoff-legemiddelkonjugat (ADC).» Engelsk originaltekst: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), versjon av 2025-11-11; hentet 2026-11-19). Basert på kjent informasjon er brentuksimab vedotin et anti-CD30-antistoff koblet til det cytotoksiske stoffet MMAE. Effekten er dokumentert ved CD30-positive lymfomer, og mekanistisk kan det være aktuelt ved andre lymfomer som uttrykker CD30.
 
 Det mekanistiske grunnlaget for follikulært lymfom er imidlertid begrenset. Follikulært lymfom er vanligvis CD30-lavt eller CD30-negativt, så en rolle er mest plausibel i CD30-positive undergrupper eller gjennom «bystander»-drap av nærliggende celler. Studiene som støtter prediksjonen kombinerer legemidlet med rituksimab eller bendamustin, noe som gjør det vanskelig å isolere bidraget fra brentuksimab vedotin alene.
 
@@ -142,6 +142,19 @@ Evidensen for follikulært lymfom er svak: den eneste direkte relevante studien 
 - Preparatomtale med advarsler og kontraindikasjoner (mangler i dag og blokkerer sikkerhetsvurderingen)
 - Data om virkningsmekanisme (MOA)
 - Vurdering av B-cellelymfom/DLBCL (rangert som nr. 4, evidensnivå L2) som sterkere kandidat for videre arbeid
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

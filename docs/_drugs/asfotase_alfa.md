@@ -61,7 +61,7 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 ## Hvorfor er denne prediksjonen (u)rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er asfotase alfa et rekombinant fusjonsprotein av vevsuspesifikk alkalisk fosfatase (TNSALP). Det spalter ekstracellulære substrater som uorganisk pyrofosfat, pyridoksal-5'-fosfat og fosfoetanolamin. Virkningen er godt dokumentert ved hypofosfatasi.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Asfotase Alfa (uoffisiell oversettelse): «HPP skyldes mangel på TNSALP-enzymaktivitet, noe som fører til forhøyede nivåer av flere TNSALP-substrater, inkludert uorganisk pyrofosfat (PPi). TNSALP er et metalloenzym som katalyserer hydrolysen av fosfomonoestere med frigjøring av uorganisk fosfat og alkohol.» Engelsk originaltekst: "HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol." ([DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031), versjon av 2025-12-12; hentet 2026-11-19). Basert på kjent informasjon er asfotase alfa et rekombinant fusjonsprotein av vevsuspesifikk alkalisk fosfatase (TNSALP). Det spalter ekstracellulære substrater som uorganisk pyrofosfat, pyridoksal-5'-fosfat og fosfoetanolamin. Virkningen er godt dokumentert ved hypofosfatasi.
 
 Mitokondrielle OXPHOS-sykdommer skyldes derimot defekter i den intracellulære energiproduksjonen. Det er usannsynlig at en ekstracellulær enzymerstatning kan korrigere dette. Det finnes ingen etablert mekanistisk kobling mellom TNSALP-veien og mitokondriell oksidativ fosforylering.
 
@@ -148,13 +148,14 @@ Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, o
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «I tillegg er produktet kun registrert som avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
 
 <!-- review:end log -->
 

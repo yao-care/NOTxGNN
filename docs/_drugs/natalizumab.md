@@ -61,7 +61,7 @@ Natalizumab er et monoklonalt antistoff som opprinnelig brukes til behandling av
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon blokkerer natalizumab alfa4-integrin (VLA-4), som hemmer leukocyttenes adhesjon og migrasjon over blod-hjerne-barrieren. Effekten ved MS er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Natalizumab (uoffisiell oversettelse): «Natalizumab bindes til α4-subenheten av α4β1- og α4β7-integriner uttrykt på overflaten av alle leukocytter unntatt nøytrofile, og hemmer den α4-medierte adhesjonen av leukocytter til deres motreseptor(er). Reseptorene for α4-familien av integriner omfatter vaskulært celleadhesjonsmolekyl-1 (VCAM-1), som uttrykkes på aktivert vaskulært endotel, og mukosalt adressin-celleadhesjonsmolekyl-1 (MAdCAM-1), som finnes på vaskulære endotelceller i mage-tarm-kanalen.» Engelsk originaltekst: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), versjon av 2026-10-09; hentet 2026-11-19). Basert på kjent informasjon blokkerer natalizumab alfa4-integrin (VLA-4), som hemmer leukocyttenes adhesjon og migrasjon over blod-hjerne-barrieren. Effekten ved MS er godt etablert.
 
 Psoriasis er en T-cellemediert, kronisk inflammatorisk hudsykdom. Teoretisk kan blokkering av alfa4-integrin redusere T-cellers rekruttering til huden. En liten kasusserie (PMID 33589543) beskriver bedring av samtidig psoriasis hos MS-pasienter behandlet med natalizumab.
 
@@ -132,6 +132,19 @@ Prediksjonen for psoriasis støttes bare av kasuistikker og en liten kasusserie 
 - Større observasjonsstudier eller kontrollerte studier som avklarer om natalizumab hjelper eller forverrer psoriasis
 - Vurdering av nytte-risiko opp mot eksisterende godkjent psoriasisbehandling
 - Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

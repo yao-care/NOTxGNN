@@ -56,7 +56,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de samled
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de samlede dataene. Bempedoinsyre er kjent som en hemmer av ATP-citratlyase (ACL), som virker på kolesterolsyntesen i leveren. Det finnes ingen data som knytter denne virkningen til overskudd av thyreoideahormon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bempedoic Acid (uoffisiell oversettelse): «Bempedoinsyre er en adenosintrifosfat-citratlyase (ACL)-hemmer som senker LDL-C ved å hemme kolesterolsyntesen i leveren. ACL er et enzym oppstrøms for 3-hydroksy-3-metyl-glutaryl-koenzym A (HMG-CoA)-reduktase i kolesterolets biosyntesevei.» Engelsk originaltekst: "Bempedoic acid is an adenosine triphosphate-citrate lyase (ACL) inhibitor that lowers LDL-C by inhibition of cholesterol synthesis in the liver. ACL is an enzyme upstream of 3-hydroxy-3-methyl-glutaryl-coenzyme A (HMG-CoA) reductase in the cholesterol biosynthesis pathway." ([DailyMed: Nexletol (bempedoic acid) prescribing information, Esperion Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9), versjon av 2026-06-25; hentet 2026-11-19). Bempedoinsyre er kjent som en hemmer av ATP-citratlyase (ACL), som virker på kolesterolsyntesen i leveren. Det finnes ingen data som knytter denne virkningen til overskudd av thyreoideahormon.
 
 Det er derfor ikke etablert noen mekanistisk sammenheng mellom legemidlets virkning og hypertyreose. Den høye scoren er en grafbasert modellprediksjon uten støtte fra kliniske studier eller litteratur, og må tolkes med stor forsiktighet.
 
@@ -95,6 +95,19 @@ Prediksjonen for hypertyreose er kun modellbasert (evidensnivå L5), uten klinis
 - Prekliniske eller kliniske data som direkte studerer hypertyreose
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner, som mangler i de samlede dataene
 - Vurdering av interaksjonene, særlig med kortikosteroider og statiner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nexletol (bempedoic acid) prescribing information, Esperion Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

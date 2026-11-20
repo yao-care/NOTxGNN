@@ -58,7 +58,7 @@ Formoterol er en langtidsvirkende beta2-agonist som utvider luftveiene. Modellen
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Formoterol tilhører klassen langtidsvirkende beta2-adrenerge agonister, som slapper av glatt muskulatur i luftveiene og bedrer luftstrømmen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Formoterol (uoffisiell oversettelse): «Formoterolfumarat er en langtidsvirkende beta 2 -adrenerg reseptoragonist (beta 2 -agonist). Inhalert formoterolfumarat virker lokalt i lungen som en bronkodilatator. In vitro-studier har vist at formoterol har mer enn 200 ganger høyere agonistaktivitet ved beta 2 -reseptorer enn ved beta 1 -reseptorer.» Engelsk originaltekst: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), versjon av 2025-12-10; hentet 2026-11-19). Formoterol tilhører klassen langtidsvirkende beta2-adrenerge agonister, som slapper av glatt muskulatur i luftveiene og bedrer luftstrømmen.
 
 Det er imidlertid ingen troverdig mekanistisk kobling til strukturelle, medfødte misdannelser i luftveiene. Bronkodilatasjon kan ikke korrigere utviklingsmessige anatomiske avvik. Den høye scoren gjenspeiler trolig nærhet i grafmodellen til obstruktive luftveissykdommer som astma og KOLS, snarere enn et reelt terapeutisk forhold. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
@@ -123,6 +123,19 @@ Det finnes ingen kliniske studier og ingen publikasjoner som direkte studerer lu
 - Data om virkningsmekanisme
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
 - Eventuelt prekliniske eller eksplorative kliniske data som direkte omhandler sykdommen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

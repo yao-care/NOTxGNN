@@ -58,7 +58,7 @@ Ambrisentan er en endotelin-reseptorantagonist. Til nå er den brukt mot pulmona
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i det innsamlede datagrunnlaget. Ambrisentan tilhører klassen endotelin-reseptorantagonister (selektiv for endotelin-A), som gir karutvidelse og reduserer trykket i lungekretsløpet.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ambrisentan (uoffisiell oversettelse): «Endotelin-1 (ET-1) er et potent autokrint og parakrint peptid. To reseptorsubtyper, ET A og ET B, medierer effektene av ET-1 i glatt muskulatur i karveggen og i endotelet. […] Ambrisentan er en ET A-reseptorantagonist med høy affinitet (K i =0,011 nM) og høy selektivitet for ET A- versus ET B-reseptoren (>4000 ganger).» Engelsk originaltekst: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), versjon av 2026-06-22; hentet 2026-11-19). Ambrisentan tilhører klassen endotelin-reseptorantagonister (selektiv for endotelin-A), som gir karutvidelse og reduserer trykket i lungekretsløpet.
 
 Pulmonale arteriovenøse malformasjoner ses typisk ved arvelig hemoragisk telangiektasi (HHT). Den eneste litteraturen beskriver pulmonal arteriell hypertensjon som tilleggssykdom hos en HHT-pasient, ikke behandling av selve malformasjonen. Endotelin-reseptorantagonisme er ikke en etablert mekanisme ved arteriovenøse malformasjoner, og karutvidelse kan i teorien forverre shunting. Den høye scoren skyldes trolig assosiasjonen til pulmonal arteriell hypertensjon.
 
@@ -112,6 +112,19 @@ Ingen kliniske studier eller publikasjoner studerer direkte behandling av pulmon
 - Kliniske data eller systematisk litteraturgjennomgang hos pasienter med HHT og pulmonale arteriovenøse malformasjoner
 - Preparatomtalens advarsler og kontraindikasjoner samt en vurdering av teratogenisk risiko
 - Data om virkningsmekanisme
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

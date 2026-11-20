@@ -55,12 +55,11 @@ Paliperidon er et antipsykotikum som opprinnelig brukes mot schizofreni og psyko
 | Antall markedsføringstillatelser | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 
-
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er paliperidon (9-hydroksyrisperidon, den aktive metabolitten til risperidon) en D2- og 5-HT2A-antagonist, og effekten ved schizofreni er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Paliperidone (uoffisiell oversettelse): «Paliperidon er den viktigste aktive metabolitten av risperidon. Virkningsmekanismen til paliperidon ved schizofreni er uklar. Den terapeutiske effekten ved schizofreni kan imidlertid medieres gjennom en kombinasjon av antagonisme av sentrale dopamin type 2 (D 2)- og serotonin type 2 (5HT 2A)-reseptorer.» Engelsk originaltekst: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), versjon av 2025-01-31; hentet 2026-11-19). Basert på kjent informasjon er paliperidon (9-hydroksyrisperidon, den aktive metabolitten til risperidon) en D2- og 5-HT2A-antagonist, og effekten ved schizofreni er etablert.
 
 **Toppredikasjonen (retinal dystrofi):** Det finnes ingen troverdig mekanistisk sammenheng. Paliperidon har ingen kjent rolle i signalveier ved arvelig netthinnesykdom. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -137,6 +136,19 @@ Pakningsvedlegg med advarsler og kontraindikasjoner mangler i dataene, så det m
 - For behandlingsresistent schizofreni: avklare om paliperidon er en studert arm i NCT07047651 og NCT06060886, og vurdere direkte komparative studier mot klozapin
 - Avklare hvorfor markedsføringstillatelsen er kansellert og om preparater med paliperidon er tilgjengelige i Norge
 - Vurdere om de høyest rangerte prediksjonene (netthinnesykdom, nærsynthet m.fl.) skal forkastes som grafartefakter, med mindre ny mekanistisk støtte fremkommer
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

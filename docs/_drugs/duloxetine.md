@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **benign paroksysmal to
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Duloksetin er kjent som en SNRI, og effekten er godt dokumentert ved depresjon, angst og nevropatisk smerte. Mekanistisk er det imidlertid vanskelig å se en klar kobling til den nye indikasjonen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Duloxetine (uoffisiell oversettelse): «Selv om de nøyaktige mekanismene for duloksetins antidepressive, sentralt smertehemmende og anxiolytiske virkninger hos mennesker er ukjente, antas disse virkningene å være relatert til potensering av serotonerg og noradrenerg aktivitet i CNS.» Engelsk originaltekst: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), versjon av 2026-08-20; hentet 2026-11-19). Duloksetin er kjent som en SNRI, og effekten er godt dokumentert ved depresjon, angst og nevropatisk smerte. Mekanistisk er det imidlertid vanskelig å se en klar kobling til den nye indikasjonen.
 
 Benign paroksysmal torticollis hos spedbarn regnes som en migrenerelatert tilstand i barnealder. En eventuell kobling til duloksetins hemming av serotonin- og noradrenalin-reopptak er spekulativ. Den høye scoren (0,9985) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk eller klinisk dokumentasjon.
 
@@ -126,6 +126,19 @@ Prediksjonen bygger kun på TxGNN-modellen (deep learning), uten kliniske studie
 - En vurdering av sikkerhet og dosering hos spedbarn og små barn
 
 **Merknad:** Blant de øvrige prediksjonene har **tvangslidelse (OCD)** klart sterkest støtte (evidensnivå L2). Den omfatter en dobbeltblind kontrollert studie av duloksetin som tilleggsbehandling ved behandlingsresistent OCD, en åpen studie og en fase 4-studie. Alle studiene er små, og ingen fase 3-RCT er identifisert. OCD bør vurderes som et eget forskningsspørsmål i en separat evaluering.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

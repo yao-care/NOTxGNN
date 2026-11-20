@@ -54,7 +54,7 @@ Imipenem er et bredspektret karbapenem-antibiotikum som brukes mot infeksjoner m
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene. Imipenem tilhører karbapenemene, som hemmer bakteriell celleveggsyntese via penicillinbindende proteiner.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Imipenem (uoffisiell oversettelse): «Hemmer av bakterielt penicillinbindende protein» Engelsk originaltekst: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; hentet 2026-11-19). Imipenem tilhører karbapenemene, som hemmer bakteriell celleveggsyntese via penicillinbindende proteiner.
 
 Diffus sklerodermi er en autoimmun, fibrotisk sykdom. Det er ingen plausibel mekanistisk kobling mellom en antibakteriell virkning og patologien ved sklerodermi. Den høye scoren er en ren grafbasert modellprediksjon uten støtte i studier eller litteratur. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
@@ -94,6 +94,19 @@ Prediksjonen for diffus sklerodermi har ingen kliniske studier, ingen litteratur
 - Prekliniske studier (f.eks. fibrosemodeller) som direkte undersøker sykdommen
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av antimikrobiell resistens og forvaltning ved ikke-infeksiøs bruk av et reserveantibiotikum
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

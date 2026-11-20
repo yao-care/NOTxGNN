@@ -61,7 +61,7 @@ Foreløpig finnes **0 kliniske studier** og **1 publikasjon** (en oversiktsartik
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget for denne rapporten. Basert på kjent informasjon er venetoklaks en selektiv hemmer av det antiapoptotiske proteinet BCL-2, og effekten ved KLL er godt dokumentert. Mekanistisk kan den derfor være aktuell også for undergrupper av KLL.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Venetoclax (uoffisiell oversettelse): «Venetoklaks er en selektiv og oralt biotilgjengelig småmolekylær hemmer av BCL-2, et antiapoptotisk protein. Overuttrykk av BCL-2 er påvist i KLL- og AML-celler, der det medierer tumorcellers overlevelse, og har vært forbundet med resistens mot kjemoterapeutika.» Engelsk originaltekst: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), versjon av 2026-05-20; hentet 2026-11-19). Basert på kjent informasjon er venetoklaks en selektiv hemmer av det antiapoptotiske proteinet BCL-2, og effekten ved KLL er godt dokumentert. Mekanistisk kan den derfor være aktuell også for undergrupper av KLL.
 
 Den predikerte indikasjonen er en molekylær undergruppe av KLL/SLL: umutert IGHV, med opphav i pregerminalsenter-B-celler og dårligere prognose. BCL-2-avhengighet er veletablert ved KLL, så aktivitet i denne undergruppen er mekanistisk plausibel.
 
@@ -143,11 +143,12 @@ Prediksjonen gjelder en undergruppe av den allerede godkjente KLL-indikasjonen, 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Samtidig er legemidlet kun avregistrert på det norske markedet, noe som begrenser praktisk relevans» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
 
 <!-- review:end log -->
 

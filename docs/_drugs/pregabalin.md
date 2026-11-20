@@ -62,7 +62,7 @@ Det øverste forslaget på listen, **tendinitt** (score 0,9971), har ingen direk
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innhentede dataene. Basert på kjent informasjon er pregabalin en ligand til alfa-2-delta-underenheten i spenningsstyrte kalsiumkanaler. Den reduserer frisetting av eksitatoriske nevrotransmittere som glutamat og demper sentral sensitisering. Virkningen er godt dokumentert ved epilepsi og nevropatisk smerte.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pregabalin (uoffisiell oversettelse): «Pregabalin binder seg med høy affinitet til alfa 2 ‑delta-setet (en hjelpesubenhet av spenningsstyrte kalsiumkanaler) i vev i sentralnervesystemet. Selv om virkningsmekanismen til pregabalin ikke er fullstendig klarlagt, tyder resultater med genmodifiserte mus og med forbindelser som er strukturelt beslektet med pregabalin (som gabapentin) på at binding til alfa 2 ‑delta-subenheten kan være involvert i pregabalins antinociseptive og antiepileptiske effekter hos dyr.» Engelsk originaltekst: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), versjon av 2026-03-12; hentet 2026-11-19). Basert på kjent informasjon er pregabalin en ligand til alfa-2-delta-underenheten i spenningsstyrte kalsiumkanaler. Den reduserer frisetting av eksitatoriske nevrotransmittere som glutamat og demper sentral sensitisering. Virkningen er godt dokumentert ved epilepsi og nevropatisk smerte.
 
 Migrene deler flere trekk med disse tilstandene: nevronal hyperekscitabilitet og sentral sensitisering. Prekliniske studier viser at pregabalin hever terskelen for kortikal spredt depolarisering (cortical spreading depression), som antas å ligge bak migreneaura, og at det hemmer P/Q-type kalsiumkanaler. Dette gir en plausibel mekanistisk kobling.
 
@@ -160,12 +160,13 @@ Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ing
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden alle godkjenninger er annullert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

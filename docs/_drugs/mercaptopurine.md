@@ -58,7 +58,7 @@ Merkaptopurin er et tiopurin-antimetabolitt som hemmer purinsyntesen og bygges i
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige fra legemiddeldatabasen. Ut fra kjent farmakologi tilhører merkaptopurin tiopurinene. De aktive tioguaninnukleotidene bygges inn i DNA og RNA og hemmer de novo purinsyntese. Dette er cytotoksisk for raskt prolifererende leukemiceller, inkludert myeloide blaster.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mercaptopurine (uoffisiell oversettelse): «Merkaptopurin er en purinanalog som gjennomgår intracellulær transport og aktivering for å danne metabolitter, inkludert tioguaninnukleotider (TGN). Inkorporering av TGN i DNA eller RNA fører til cellesyklusstans og celledød.» Engelsk originaltekst: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), versjon av 2026-07-22; hentet 2026-11-19). Ut fra kjent farmakologi tilhører merkaptopurin tiopurinene. De aktive tioguaninnukleotidene bygges inn i DNA og RNA og hemmer de novo purinsyntese. Dette er cytotoksisk for raskt prolifererende leukemiceller, inkludert myeloide blaster.
 
 Mekanismen er ikke begrenset til én celletype. Vedlikeholdsbehandling med merkaptopurin og metotreksat er utprøvd ved akutt myeloid leukemi (AML), og merkaptopurin inngår i flere AML- og APL-regimer (akutt promyelocytt leukemi). Evidensen stammer likevel mest fra kombinasjonsprotokoller, så merkaptopurins egen bidragsandel kan ikke isoleres.
 
@@ -149,6 +149,18 @@ Evidensnivået er L3. En kohortestudie og en prospektiv pilotstudie har brukt or
 - Verifisering av merkaptopurins rolle i regimene i de fullførte fase 3-studiene, særlig NCT00003934 og NCT00492856
 - Resultater fra de pågående fase 1/2-studiene med merkaptopurin (NCT05506332 og NCT06199557)
 - Plan for sikkerhetsovervåking, inkludert TPMT/NUDT15-testing og blodprøvekontroller
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

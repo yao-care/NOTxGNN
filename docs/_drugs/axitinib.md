@@ -54,7 +54,7 @@ Axitinib er en tyrosinkinasehemmer som hemmer VEGF-reseptorer og dermed nydannel
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Axitinib tilhører gruppen VEGFR-hemmende tyrosinkinasehemmere, som er kjent for å hemme angiogenese. Mekanistisk kan dette være relevant for svulster som er avhengige av nye blodkar.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Axitinib (uoffisiell oversettelse): «Aksitinib har vist seg å hemme reseptortyrosinkinaser, inkludert vaskulær endotelial vekstfaktor-reseptor (VEGFR)-1, VEGFR-2 og VEGFR-3, ved terapeutiske plasmakonsentrasjoner. Disse reseptorene er involvert i patologisk angiogenese, tumorvekst og kreftprogresjon.» Engelsk originaltekst: "Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression." ([DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338), versjon av 2026-03-12; hentet 2026-11-19). Axitinib tilhører gruppen VEGFR-hemmende tyrosinkinasehemmere, som er kjent for å hemme angiogenese. Mekanistisk kan dette være relevant for svulster som er avhengige av nye blodkar.
 
 Den eneste tilgjengelige studien er en preklinisk undersøkelse (Kerr et al., 2016) som viser at axitinib har antiangiogen og antitumoraktivitet i cellelinjer for myksoid liposarkom. Dette gir en plausibel VEGFR-drevet mekanisme, men studien gjelder én undertype og er ikke utført på pasienter.
 
@@ -108,6 +108,19 @@ Evidensen for liposarkom er begrenset til én preklinisk studie på myksoid lipo
 - Data om virkningsmekanisme (MOA)
 - Informasjon om advarsler og kontraindikasjoner fra godkjent preparatomtale
 - Sikkerhetsplan for interaksjoner, særlig med CYP3A4-påvirkende legemidler som klaritromycin og deksametason
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

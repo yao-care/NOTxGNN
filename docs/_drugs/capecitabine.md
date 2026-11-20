@@ -54,7 +54,7 @@ Kapecitabin er et oralt prodrug av 5-fluorouracil, brukt som kreftbehandling. Tx
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Kapecitabin er kjent som et oralt prodrug av 5-fluorouracil. Det omdannes fortrinnsvis i tumorvev av enzymet tymidinfosforylase, hemmer tymidylatsyntase og forstyrrer dermed DNA-syntesen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Capecitabine (uoffisiell oversettelse): «Kapecitabin metaboliseres til fluorouracil in vivo. Både normale celler og tumorceller metaboliserer fluorouracil til 5-fluor-2'-deoksyuridinmonofosfat (FdUMP) og 5-fluoruridintrifosfat (FUTP). Disse metabolittene forårsaker celleskade via to ulike mekanismer.» Engelsk originaltekst: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), versjon av 2026-02-05; hentet 2026-11-19). Kapecitabin er kjent som et oralt prodrug av 5-fluorouracil. Det omdannes fortrinnsvis i tumorvev av enzymet tymidinfosforylase, hemmer tymidylatsyntase og forstyrrer dermed DNA-syntesen.
 
 Den predikerte sykdommen, GAPPS, er et sjeldent arvelig syndrom knyttet til mutasjoner i APC promoter 1B, med magepolypper og risiko for magekreft. Mekanismen mot gastrisk adenokarsinom er biologisk plausibel. Den høye scoren skyldes mest sannsynlig overlapp med gastrisk adenokarsinom generelt, og ikke en syndromspesifikk mekanisme.
 
@@ -111,6 +111,19 @@ Prediksjonen har svært høy modellscore, men ingen kliniske studier eller publi
 - Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner)
 - Studier eller kasusserier som direkte omhandler GAPPS eller arvelig magekreft behandlet med kapecitabin
 - Avklaring av om prediksjonen tilfører noe utover eksisterende bruk ved magekreft
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

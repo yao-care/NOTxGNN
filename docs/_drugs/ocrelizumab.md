@@ -58,7 +58,7 @@ Okrelizumab er et anti-CD20-monoklonalt antistoff som opprinnelig brukes til beh
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Okrelizumab er et humanisert anti-CD20-antistoff som selektivt tømmer CD20-uttrykkende B-celler. Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Basert på kjent informasjon er legemidlet godkjent for MS, der B-celledepletering har vist klar effekt.
+Okrelizumab er et humanisert anti-CD20-antistoff som selektivt tømmer CD20-uttrykkende B-celler. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ocrelizumab (uoffisiell oversettelse): «Den nøyaktige mekanismen som ligger til grunn for den terapeutiske effekten av okrelizumab ved multippel sklerose er ukjent, men antas å involvere binding til CD20, et celleoverflateantigen som finnes på pre-B-lymfocytter og modne B-lymfocytter. Etter binding til celleoverflaten på B-lymfocytter fører okrelizumab til antistoffavhengig cellulær cytolyse og komplementmediert lyse.» Engelsk originaltekst: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), versjon av 2026-05-14; hentet 2026-11-19). Basert på kjent informasjon er legemidlet godkjent for MS, der B-celledepletering har vist klar effekt.
 
 Det er ikke påvist noen direkte mekanistisk sammenheng mellom CD20-rettet B-celledepletering og HER2-drevet brystkreft. Tumorinfiltrerende B-celler diskuteres i brystkreftimmunologi, men depletering av CD20-positive celler kan være nøytralt eller til og med skadelig. Dette er spekulativt. Den svært høye TxGNN-scoren (0,9989) er en ren modellprediksjon og bør ikke tolkes som klinisk evidens.
 
@@ -123,6 +123,19 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier ell
 - Prekliniske studier som undersøker B-celler og CD20 i brystkrefts tumormikromiljø
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
 - Avklaring av regulatorisk status i Norge og tilgjengelig administrasjonsvei
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

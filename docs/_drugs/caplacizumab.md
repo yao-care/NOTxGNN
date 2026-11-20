@@ -56,7 +56,7 @@ men for denne diagnosen finnes **ingen kliniske studier og ingen publikasjoner**
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er kaplasizumab et humanisert nanokropp som binder vWF A1-domenet og hemmer vWF–GPIb-IX-V-mediert adhesjon av blodplater.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Caplacizumab (uoffisiell oversettelse): «Kaplacizumab-yhdp er rettet mot A1-domenet av vWF og hemmer interaksjonen mellom vWF og blodplater, og reduserer dermed både vWF-mediert blodplateadhesjon og blodplateforbruk.» Engelsk originaltekst: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905), versjon av 2026-04-24; hentet 2026-11-19). Ut fra kjent informasjon er kaplasizumab et humanisert nanokropp som binder vWF A1-domenet og hemmer vWF–GPIb-IX-V-mediert adhesjon av blodplater.
 
 Frigjøringsforstyrrelser av blodplater skyldes defekter i sekresjon fra intracellulære granula. Koblingen til legemidlets virkning er kun en løs assosiasjon til blodplatefunksjon. Å blokkere blodplateadhesjon vil snarere forventes å forverre enn å bedre en blødningstilstand hos blodplatene. Den høye modellscoren er ikke understøttet av klinisk eller litterær evidens.
 
@@ -95,6 +95,19 @@ Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur f
 - Informasjon om advarsler og kontraindikasjoner fra preparatomtalen
 - Prekliniske eller mekanistiske studier som viser et mulig terapeutisk rasjonale ved frigjøringsforstyrrelser av blodplater
 - Vurdering av blødningsrisiko før eventuell videre utredning
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

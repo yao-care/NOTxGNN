@@ -60,7 +60,7 @@ Støtten er foreløpig svak: **ingen registrerte kliniske studier** og **kun kas
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent legemiddelklasse tilhører ertapenem karbapenemene, som hemmer syntesen av bakteriens cellevegg ved å binde seg til penicillinbindende proteiner. Effekten ved bakterielle infeksjoner er godt dokumentert.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ertapenem (uoffisiell oversettelse): «Ertapenemnatrium er et karbapenemantibiotikum. […] Ertapenem har in vitro-aktivitet mot grampositive og gramnegative aerobe og anaerobe bakterier. Den baktericide aktiviteten til ertapenem skyldes hemming av celleveggsyntesen og medieres gjennom binding av ertapenem til penicillinbindende proteiner (PBP-er).» Engelsk originaltekst: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), versjon av 2026-02-04; hentet 2026-11-19). Ut fra kjent legemiddelklasse tilhører ertapenem karbapenemene, som hemmer syntesen av bakteriens cellevegg ved å binde seg til penicillinbindende proteiner. Effekten ved bakterielle infeksjoner er godt dokumentert.
 
 Bakteriell artritt og bein- og leddinfeksjoner skyldes ofte gramnegative bakterier, anaerobe bakterier og enkelte grampositive bakterier som ertapenem dekker. Prediksjonen er derfor en utvidelse av den eksisterende antibakterielle indikasjonen, ikke en ny mekanisme.
 
@@ -145,12 +145,13 @@ Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er alle norske godkjenninger opphevet, og p» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden begge godkjenningene er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->
 

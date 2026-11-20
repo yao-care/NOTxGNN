@@ -60,7 +60,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Tildrakizumab er et anti-IL-23 p19-antistoff, og effekten ved psoriasis er etablert. Mekanistisk kan IL-23/IL-17-aksen tenkes å bidra til lavgradig kronisk betennelse og mikrovaskulær skade i netthinnen ved diabetes. Denne koblingen er hypotetisk og ikke påvist.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tildrakizumab (uoffisiell oversettelse): «Tildrakizumab er et humanisert monoklonalt IgG1/k-antistoff som bindes selektivt til p19-subenheten av IL-23 og hemmer interaksjonen med IL-23-reseptoren. IL-23 er et naturlig forekommende cytokin som er involvert i inflammatoriske responser og immunresponser.» Engelsk originaltekst: "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde), versjon av 2026-11-02; hentet 2026-11-19). Tildrakizumab er et anti-IL-23 p19-antistoff, og effekten ved psoriasis er etablert. Mekanistisk kan IL-23/IL-17-aksen tenkes å bidra til lavgradig kronisk betennelse og mikrovaskulær skade i netthinnen ved diabetes. Denne koblingen er hypotetisk og ikke påvist.
 
 Scoren på 0,9963 er en ren beregningsmessig prediksjon. Intravitreal anti-VEGF og kortikosteroidbehandling er fortsatt etablert standard, og systemisk IL-23-blokade har ingen dokumentert rolle her.
 
@@ -121,6 +121,19 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier ell
 - Prekliniske data eller observasjonsstudier som knytter IL-23-hemming til diabetisk retinopati
 - Avklaring av administrasjonsvei og forenlighet (systemisk versus intravitreal)
 - Vurdering av alternativet legemiddelindusert osteoporose, som har mest plausibel mekanisme, gjennom en målrettet litteraturgjennomgang
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

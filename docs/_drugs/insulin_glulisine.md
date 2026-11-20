@@ -54,7 +54,7 @@ Insulin glulisine er en hurtigvirkende insulinanalog som brukes ved diabetes mel
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen (MOA) er ikke tilgjengelige i de innsamlede dataene. Insulin glulisine er en rekombinant, hurtigvirkende insulinanalog som senker blodsukkeret ved å virke på insulinreseptoren.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Insulin Glulisine (uoffisiell oversettelse): «Regulering av glukosemetabolismen er den primære aktiviteten til insuliner og insulinanaloger, inkludert insulin glulisin. Insuliner senker blodglukose ved å stimulere perifert glukoseopptak i skjelettmuskulatur og fettvev, og ved å hemme glukoseproduksjonen i leveren.» Engelsk originaltekst: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), versjon av 2025-11-25; hentet 2026-11-19). Insulin glulisine er en rekombinant, hurtigvirkende insulinanalog som senker blodsukkeret ved å virke på insulinreseptoren.
 
 Tiamin-responsivt megaloblastisk anemi-syndrom omfatter diabetes som skyldes dysfunksjon i betacellene. Insulin kan derfor behandle diabeteskomponenten symptomatisk. Dette er ikke en reposisjonert, sykdomsmodifiserende effekt, og prediksjonen støttes foreløpig kun av modellens høye score.
 
@@ -92,6 +92,19 @@ Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur. 
 - Data om virkningsmekanisme (MOA)
 - Litteratursøk og studier som direkte omhandler tiamin-responsivt dysfunksjonssyndrom
 - Klargjøring av om bruken er symptomatisk erstatning eller en reell reposisjonert effekt
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

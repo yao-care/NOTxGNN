@@ -60,7 +60,7 @@ men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er evolocumab et PCSK9-hemmende monoklonalt antistoff. Ved å binde PCSK9 øker det tilgjengeligheten av LDL-reseptorer og senker LDL-kolesterol. Effekten er godt dokumentert ved hyperkolesterolemi, inkludert heterozygot og homozygot familiær form.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Evolocumab (uoffisiell oversettelse): «Evolokumab er et humant monoklonalt IgG2 rettet mot human proproteinkonvertase subtilisin/kexin type 9 (PCSK9). PCSK9 bindes til lavdensitetslipoproteinreseptoren (LDLR) på overflaten av hepatocytter og fremmer nedbrytning av LDLR i leveren.» Engelsk originaltekst: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e), versjon av 2026-10-12; hentet 2026-11-19). Ut fra kjent informasjon er evolocumab et PCSK9-hemmende monoklonalt antistoff. Ved å binde PCSK9 øker det tilgjengeligheten av LDL-reseptorer og senker LDL-kolesterol. Effekten er godt dokumentert ved hyperkolesterolemi, inkludert heterozygot og homozygot familiær form.
 
 Symptomer hos kvinnelige hemofilibærere skyldes redusert nivå av koagulasjonsfaktor VIII eller IX som følge av X-bundne varianter. Dette er en mekanisme uten kjent forbindelse til PCSK9 eller lipidmetabolisme. Vi har ikke identifisert noen plausibel mekanistisk kobling.
 
@@ -122,6 +122,19 @@ Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner
 - Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Et biologisk begrunnet hypotesegrunnlag og prekliniske data før eventuell videre vurdering
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

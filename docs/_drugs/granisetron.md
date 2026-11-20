@@ -60,7 +60,7 @@ Verken kliniske studier eller publikasjoner i de innsamlede dataene støtter ret
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Granisetron er kjent som en selektiv 5-HT3-reseptorantagonist, og effekten ved kjemoterapiindusert oppkast er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Granisetron (uoffisiell oversettelse): «Granisetron er en selektiv 5-hydroksytryptamin 3 (5-HT 3 )-reseptorantagonist med liten eller ingen affinitet for andre serotoninreseptorer, inkludert 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; for alfa 1-, alfa 2- eller betaadrenoreseptorer; for dopamin-D 2; eller for histamin-H 1-, benzodiazepin-, pikrotoksin- eller opioidreseptorer. Serotoninreseptorer av 5-HT 3 -typen er lokalisert perifert på vagale nerveterminaler og sentralt i kjemoreseptortriggersonen i area postrema.» Engelsk originaltekst: "Granisetron is a selective 5-hydroxytryptamine 3 (5-HT 3 ) receptor antagonist with little or no affinity for other serotonin receptors, including 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; for alpha 1-, alpha 2-, or beta-adrenoreceptors; for dopamine-D 2; or for histamine-H 1; benzodiazepine; picrotoxin or opioid receptors. Serotonin receptors of the 5-HT 3 type are located peripherally on vagal nerve terminals and centrally in the chemoreceptor trigger zone of the area postrema." ([DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56), versjon av 2026-04-30; hentet 2026-11-19). Granisetron er kjent som en selektiv 5-HT3-reseptorantagonist, og effekten ved kjemoterapiindusert oppkast er etablert.
 
 Serotonerg og dopaminerg dysregulering antas å spille en rolle ved mani. Hemming av 5-HT3-reseptorer kan derfor tenkes å påvirke disse signalveiene. Koblingen er plausibel, men ubekreftet, og er utledet fra generell farmakologi og ikke fra data om granisetron spesifikt.
 
@@ -139,11 +139,12 @@ Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur (
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Produktet er dessuten trukket tilbake i Norge, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 
 <!-- review:end log -->
 

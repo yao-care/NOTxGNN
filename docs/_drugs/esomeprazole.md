@@ -54,7 +54,7 @@ Esomeprazol er en protonpumpehemmer som reduserer syreproduksjonen i magesekken.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene for denne rapporten. Esomeprazol tilhører klassen protonpumpehemmere, som hemmer syreutskillelsen i magesekkens parietalceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Esomeprazole (uoffisiell oversettelse): «Esomeprazol tilhører en klasse antisekretoriske forbindelser, de substituerte benzimidazolene, som undertrykker magesyresekresjonen ved spesifikk hemming av H+/K+-ATPase-enzymsystemet på den sekretoriske overflaten av parietalcellen i magesekken. Esomeprazol protoneres og omdannes i det sure kompartmentet i parietalcellen, slik at den aktive hemmeren, det akirale sulfenamidet, dannes.» Engelsk originaltekst: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), versjon av 2025-12-19; hentet 2026-11-19). Esomeprazol tilhører klassen protonpumpehemmere, som hemmer syreutskillelsen i magesekkens parietalceller.
 
 Duodenalobstruksjon er en mekanisk eller strukturell tilstand (for eksempel atresi, stenose, ytre kompresjon eller svulst). Syrehemming kan i beste fall være støttebehandling mot sekundær slimhinneskade, og det finnes ingen klar mekanistisk begrunnelse for at legemidlet virker på selve obstruksjonen. Den høye scoren (0,9945) er en ren beregningsmessig prediksjon og er ikke underbygget av klinisk evidens. Likheten med den opprinnelige bruken er ikke vurdert.
 
@@ -94,6 +94,19 @@ Prediksjonen mangler både kliniske studier og publikasjoner, og det finnes inge
 - Data om virkningsmekanisme (MOA)
 - Advarsler og kontraindikasjoner fra godkjent preparatomtale
 - Vurdering av administrasjonsvei og aktuell pasientgruppe
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

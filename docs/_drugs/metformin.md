@@ -54,7 +54,7 @@ Metformin er et legemiddel som brukes mot diabetes mellitus type 2. TxGNN-modell
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) for metformin er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Metformin er kjent for å aktivere AMPK og redusere glukoseproduksjonen i leveren, og er et etablert legemiddel innen diabetesbehandling.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Metformin (uoffisiell oversettelse): «Metformin er et antihyperglykemisk middel som forbedrer glukosetoleransen hos pasienter med diabetes mellitus type 2, og senker både basal og postprandial plasmaglukose. Metformin reduserer hepatisk glukoseproduksjon, reduserer intestinal absorpsjon av glukose og forbedrer insulinfølsomheten ved å øke perifert glukoseopptak og -utnyttelse.» Engelsk originaltekst: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), versjon av 2026-09-21; hentet 2026-11-19). Metformin er kjent for å aktivere AMPK og redusere glukoseproduksjonen i leveren, og er et etablert legemiddel innen diabetesbehandling.
 
 Fokal stiv-lem-syndrom hører til stiv-person-spekteret, en autoimmun eller nevrologisk tilstand med muskelstivhet. Det finnes ingen etablert biologisk sammenheng mellom metformins virkemåte og denne sykdommen. Enhver begrunnelse vil derfor være spekulativ, og den høye modellscoren alene er ikke tilstrekkelig til å støtte et terapeutisk potensial.
 
@@ -105,6 +105,19 @@ Prediksjonen er kun basert på en modellberegning (evidensnivå L5). Det finnes 
 - Prekliniske eller mekanistiske studier som kan underbygge en kobling til stiv-person-spekteret
 - Litteratursøk og søk etter kliniske studier spesifikt for fokal stiv-lem-syndrom
 - Vurdering av administrasjonsvei og doseringsform for den aktuelle indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

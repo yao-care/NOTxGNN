@@ -58,7 +58,7 @@ Lapatinib er en tyrosinkinasehemmer som hemmer EGFR og HER2. TxGNN-modellen pred
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Lapatinib er kjent som en dobbel hemmer av tyrosinkinasene EGFR og HER2.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lapatinib (uoffisiell oversettelse): «Lapatinib er en 4-anilinokinazolin-kinasehemmer av de intracellulære tyrosinkinasedomenene til både epidermal vekstfaktorreseptor (EGFR [ErbB1]) og human epidermal reseptor type 2 (HER2 [ErbB2]) (estimerte K i app-verdier på henholdsvis 3nM og 13nM), med en dissosiasjonshalveringstid på 300 minutter eller mer. Lapatinib hemmer ErbB-drevet tumorcellevekst in vitro og i ulike dyremodeller.» Engelsk originaltekst: "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models." ([DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c), versjon av 2026-01-27; hentet 2026-11-19). Lapatinib er kjent som en dobbel hemmer av tyrosinkinasene EGFR og HER2.
 
 Dermatofibrosarcoma protuberans (DFSP) drives hovedsakelig av en COL1A1-PDGFB-fusjon som gir vedvarende aktivering av PDGFR-beta, og behandles med imatinib, en PDGFR-hemmer. En direkte mekanistisk kobling mellom EGFR/HER2-hemming og DFSP er derfor ikke etablert ut fra de tilgjengelige dataene.
 
@@ -124,6 +124,19 @@ Prediksjonen bygger kun på en høy modellscore (0,9930). Det finnes ingen klini
 - Data om virkningsmekanisme (MOA) for lapatinib
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening, særlig mht. QT-forlengelse, lever- og hjertetoksisitet
 - Vurdering av ruteforenlighet og likhet med opprinnelig bruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

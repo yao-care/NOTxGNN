@@ -58,7 +58,7 @@ Everolimus er en mTOR-hemmer som opprinnelig brukes ved tuberøs sklerose og ved
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon hemmer everolimus mTORC1, en sentral regulator av cellevekst og proliferasjon, og effekten er påvist ved flere krefttyper og ved tuberøs sklerose.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Everolimus (uoffisiell oversettelse): «Everolimus hemmer antigen- og interleukin (IL-2 og IL-15)-stimulert aktivering og proliferasjon av T- og B-lymfocytter. I celler bindes everolimus til et cytoplasmatisk protein, FK506-bindende protein-12 (FKBP-12), og danner et immunsuppressivt kompleks (everolimus: FKBP-12) som bindes til og hemmer mammalian target of rapamycin (mTOR), en sentral regulatorisk kinase.» Engelsk originaltekst: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), versjon av 2026-09-16; hentet 2026-11-19). Basert på kjent informasjon hemmer everolimus mTORC1, en sentral regulator av cellevekst og proliferasjon, og effekten er påvist ved flere krefttyper og ved tuberøs sklerose.
 
 Dedifferensiert liposarkom er typisk drevet av MDM2/CDK4-amplifikasjon, og PI3K/AKT/mTOR-signalveien er ofte samtidig aktivert. Kombinasjonen everolimus (mTORC1-hemming) og ribociklib (CDK4/6-hemming) angriper to konvergerende proliferasjonsveier. Det er en plausibel hypotese som støttes av en dedikert Phase 2-studie, men studien er enkeltarmet og kombinasjonsbasert, slik at everolimus' egen bidragseffekt ikke kan isoleres.
 
@@ -170,11 +170,12 @@ Data fra pakningsvedlegget (advarsler og kontraindikasjoner) mangler i de innsam
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «etter avregistreringene» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

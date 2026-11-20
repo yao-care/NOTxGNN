@@ -57,7 +57,7 @@ Niraparib er en PARP-hemmer som opprinnelig brukes mot kreft i eggstokk, egglede
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig. Basert på kjent informasjon er niraparib en hemmer av PARP1 og PARP2. Ved svulster med mangelfull homolog rekombinasjon (HRD) fører dette til syntetisk letalitet, der kreftcellene ikke klarer å reparere DNA-skader.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Niraparib (uoffisiell oversettelse): «Niraparib er en hemmer av PARP-enzymer, inkludert PARP-1 og PARP-2, som spiller en rolle i DNA-reparasjon. In vitro-studier har vist at niraparibindusert cytotoksisitet kan involvere hemming av PARP-enzymaktivitet og økt dannelse av PARP-DNA-komplekser, noe som fører til DNA-skade, apoptose og celledød.» Engelsk originaltekst: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), versjon av 2026-07-28; hentet 2026-11-19). Basert på kjent informasjon er niraparib en hemmer av PARP1 og PARP2. Ved svulster med mangelfull homolog rekombinasjon (HRD) fører dette til syntetisk letalitet, der kreftcellene ikke klarer å reparere DNA-skader.
 
 Den godkjente indikasjonen (kreft i eggstokk, eggleder og bukhinne) omfatter ofte høygradige serøse karsinomer, hvor HRD er vanlig. Studiene og artiklene som er funnet, gjelder tilsvarende serøse karsinomer, blant annet i livmorslimhinnen. Disse har lignende molekylære trekk som høygradig serøst eggstokkarsinom, som kromosomal ustabilitet.
 
@@ -127,6 +127,19 @@ Den eneste prediksjonen med reell evidens («cystisk neoplasme») støttes av en
 - Avklare hvilken konkret tumortype «cystisk neoplasme» tilsvarer, og om endometrie-serøst karsinom er relevant
 - Følge resultatene fra fase 2-studien NCT04716686 (forventet avsluttet 2026)
 - Avklare tillatelsesstatus i Norge, siden begge tillatelser er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -60,7 +60,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i de inn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme fra DrugBank mangler i det innsamlede materialet. Ut fra generell kunnskap er tivozanib en hemmer av alle tre VEGF-reseptorene (VEGFR-1, -2 og -3, kodet av genene FLT1, KDR og FLT4). Farmakologidataene bekrefter at legemidlet hemmer disse tre reseptorene med lik potens.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tivozanib (uoffisiell oversettelse): «Tivozanib er en tyrosinkinasehemmer. Cellulære kinaseanalyser in vitro viste at tivozanib hemmer fosforylering av vaskulær endotelial vekstfaktorreseptor (VEGFR)-1, VEGFR-2 og VEGFR-3, og hemmer andre kinaser, inkludert c-kit og PDGFR β, ved klinisk relevante konsentrasjoner.» Engelsk originaltekst: "Tivozanib is a tyrosine kinase inhibitor. In vitro cellular kinase assays demonstrated that tivozanib inhibits phosphorylation of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2 and VEGFR-3 and inhibits other kinases including c-kit and PDGFR β at clinically relevant concentrations." ([DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83), versjon av 2026-11-11; hentet 2026-11-19). Ut fra generell kunnskap er tivozanib en hemmer av alle tre VEGF-reseptorene (VEGFR-1, -2 og -3, kodet av genene FLT1, KDR og FLT4). Farmakologidataene bekrefter at legemidlet hemmer disse tre reseptorene med lik potens.
 
 VEGF-drevet angiogenese er viktig i biologien til livmorhalskreft, og antiangiogen behandling (bevacizumab) har dokumentert nytte ved livmorhalskreft. Dette gir et plausibelt, men ubekreftet grunnlag for at en VEGFR-hemmer kan ha effekt også ved endocervikalt karsinom.
 
@@ -128,6 +128,19 @@ Prediksjonen bygger kun på en beregningsmodell (L5) uten kliniske studier eller
 - Litteratur- og studiesøk spesifikt for tivozanib ved livmorhalskreft og andre gynekologiske karsinomer
 - Vurdering av likhet med den opprinnelige indikasjonen og av administrasjonsvei
 - Avklaring av markedsstatus i Norge, siden godkjenningen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

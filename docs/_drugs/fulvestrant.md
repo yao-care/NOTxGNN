@@ -60,7 +60,7 @@ men så langt finnes **ingen kliniske studier** og bare **2 publikasjoner** (hvo
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Fulvestrant er kjent som en selektiv østrogenreseptor-antagonist og -nedbryter (ERα), og effekten ved hormonreseptorpositiv brystkreft er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fulvestrant (uoffisiell oversettelse): «Mange brystkreftsvulster har østrogenreseptorer (ER), og veksten av disse svulstene kan stimuleres av østrogen. Fulvestrant er en østrogenreseptorantagonist som bindes til østrogenreseptoren på en kompetitiv måte med en affinitet som er sammenlignbar med østradiols, og nedregulerer ER-proteinet i humane brystkreftceller.» Engelsk originaltekst: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), versjon av 2026-10-16; hentet 2026-11-19). Fulvestrant er kjent som en selektiv østrogenreseptor-antagonist og -nedbryter (ERα), og effekten ved hormonreseptorpositiv brystkreft er godt dokumentert.
 
 Østrogenreseptor α finnes i CD4+ T-celler, og en studie fra 2026 (PMID 42430506) undersøkte hvordan ERα-ligander og midler som reverserer HIV-latens påvirker denne reseptoren. Fulvestrant kan derfor i teorien påvirke HIV-latens og immunsignalering via ERα.
 
@@ -132,6 +132,19 @@ Evidensen for HIV-infeksjon er begrenset til én preklinisk mekanistisk studie o
 ---
 
 **Merknad om andre prediksjoner:** Ingen av de øvrige ni predikerte indikasjonene har kliniske studier eller solid litteratur som støtter dem. For «multiple endokrine neoplasier» gjelder de 13 treffende studiene brystkreft (opprinnelig indikasjon) og skyldes sannsynligvis en term-/ontologikobling, ikke reell evidens. Revmatoid artritt (evidensnivå L4) har kun indirekte og retningsmessig tvetydig evidens, der en dyremodell tyder på at østrogenhemming kan forverre betennelse, og kan eventuelt være et forskningsspørsmål.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

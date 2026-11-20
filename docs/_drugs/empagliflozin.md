@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fokalt stiff-limb-syn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er empagliflozin en SGLT2-hemmer (natrium-glukose-kotransportør 2) med dokumentert effekt ved type 2-diabetes, hjertesvikt og kronisk nyresvikt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Empagliflozin (uoffisiell oversettelse): «Empagliflozin er en hemmer av SGLT2, den dominerende transportøren som er ansvarlig for reabsorpsjon av glukose fra glomerulusfiltratet tilbake til sirkulasjonen. Ved å hemme SGLT2 reduserer empagliflozin renal reabsorpsjon av filtrert glukose og senker nyreterskelen for glukose, og øker dermed glukoseutskillelsen i urinen.» Engelsk originaltekst: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), versjon av 2026-11-10; hentet 2026-11-19). Basert på kjent informasjon er empagliflozin en SGLT2-hemmer (natrium-glukose-kotransportør 2) med dokumentert effekt ved type 2-diabetes, hjertesvikt og kronisk nyresvikt.
 
 Fokalt stiff-limb-syndrom tilhører spekteret av «stiff-person»-lidelser, som er autoimmune eller nevrologiske tilstander. Ut fra dataene som er samlet inn for denne rapporten, finnes det ingen etablert mekanistisk kobling mellom SGLT2-hemming og denne sykdommen. Eventuelle hypoteser, for eksempel immunmetabolske eller antiinflammatoriske effekter, er spekulative.
 
@@ -118,6 +118,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 - Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske studier som støtter en kobling til stiff-person-spekteret
 - Avklaring av formuleringer og administrasjonsveier (ikke vurdert ennå)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

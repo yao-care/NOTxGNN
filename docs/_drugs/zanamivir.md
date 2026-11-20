@@ -60,7 +60,7 @@ Den høye modellscoren ser ut til å være et beregningsmessig artefakt og ikke 
 
 ## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i datagrunnlaget for denne rapporten. Basert på kjent informasjon er zanamivir en hemmer av det virale enzymet nevraminidase, med aktivitet mot influensa A og B.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Zanamivir (uoffisiell oversettelse): «Zanamivir er et antiviralt legemiddel med aktivitet mot influensavirus. […] Zanamivir er en hemmer av influensavirusets nevraminidase (NA), et enzym som frigjør viruspartikler fra plasmamembranen i infiserte celler og fremmer virusspredning i luftveiene. I nevraminidasehemmingsanalyser er zanamivir aktivt mot alle NA-enzymsubtyper fra N1 til N9.» Engelsk originaltekst: "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d), versjon av 2026-07-23; hentet 2026-11-19). Basert på kjent informasjon er zanamivir en hemmer av det virale enzymet nevraminidase, med aktivitet mot influensa A og B.
 
 Pyelonefritt er vanligvis en bakteriell nyreinfeksjon, oftest forårsaket av *E. coli*. Det finnes bakterielle nevraminidaser (sialidaser), men zanamivir er ikke kjent for å ha klinisk meningsfull antibakteriell aktivitet, og det foreligger ingen støttende data. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige og den predikerte indikasjonen.
 
@@ -116,6 +116,19 @@ Prediksjonen for pyelonefritt har kun modellstøtte (L5), uten kliniske studier,
 - Prekliniske data (in vitro) som viser eventuell antibakteriell aktivitet mot uropatogener som *E. coli*
 - Vurdering av administrasjonsvei og farmakokinetikk (nyre-/urinkonsentrasjoner) for den predikerte indikasjonen
 - Systematisk litteratursøk målrettet mot pyelonefritt
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -58,7 +58,7 @@ Leflunomid er en immunmodulerende legemiddelsubstans som hemmer pyrimidinsyntese
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene. Basert på allmenn farmakologisk kunnskap hemmer leflunomid, via den aktive metabolitten teriflunomid, enzymet dihydroorotatdehydrogenase (DHODH) og dermed pyrimidinsyntesen. Dette kan i teorien påvirke raskt prolifererende celler, særlig aktiverte lymfocytter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Leflunomide (uoffisiell oversettelse): «Leflunomid er et immunmodulerende isoksazolmiddel som hemmer dihydroorotatdehydrogenase (et mitokondrielt enzym involvert i de novo-pyrimidinsyntese) og har antiproliferativ aktivitet. Flere eksperimentelle in vivo- og in vitro-modeller har vist en antiinflammatorisk effekt.» Engelsk originaltekst: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), versjon av 2025-06-04; hentet 2026-11-19). Basert på allmenn farmakologisk kunnskap hemmer leflunomid, via den aktive metabolitten teriflunomid, enzymet dihydroorotatdehydrogenase (DHODH) og dermed pyrimidinsyntesen. Dette kan i teorien påvirke raskt prolifererende celler, særlig aktiverte lymfocytter.
 
 Koblingen til brakydaktyli-syndaktyli-syndrom er spekulativ. Tilstanden er en medfødt utviklingsforstyrrelse i lemmene, og det finnes ingen kjent farmakologisk angrepsflate for en immunmodulator. Tvert imot er leflunomid teratogent, og DHODH-hemming er knyttet til lemmemisdannelser (for eksempel oppstår Miller-syndrom ved tap av DHODH-funksjon). En biologisk kobling peker dermed snarere mot skade enn mot terapeutisk nytte. Den høye modellscoren gjenspeiler trolig nærhet i modellens datagrunnlag, ikke en reell behandlingsmekanisme.
 
@@ -109,6 +109,19 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier ell
 - Preparatomtale med advarsler og kontraindikasjoner
 - Prekliniske eller kliniske data som direkte undersøker brakydaktyli-syndaktyli-syndrom
 - En grundig vurdering av teratogenrisiko før eventuelle videre analyser
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

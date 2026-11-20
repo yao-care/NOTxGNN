@@ -60,7 +60,7 @@ men **ingen kliniske studier** og **ingen publikasjoner** støtter foreløpig de
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra generell kunnskap er safinamid en reversibel MAO-B-hemmer som også blokkerer spenningsstyrte natriumkanaler og hemmer frigjøring av glutamat. Dette er ikke verifisert mot dataene som er kompilert for denne rapporten.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Safinamide (uoffisiell oversettelse): «Den nøyaktige mekanismen som XADAGO utøver sine terapeutiske effekter ved PD gjennom, er ukjent. XADAGO er en hemmer av monoaminoksidase B (MAO-B). Hemming av MAO-B-aktivitet antas, ved å blokkere katabolismen av dopamin, å føre til en økning i dopaminnivåer og en påfølgende økning i dopaminerg aktivitet i hjernen.» Engelsk originaltekst: "The precise mechanism by which XADAGO exerts its therapeutic effects in PD is unknown. XADAGO is an inhibitor of monoamine oxidase B (MAO-B). Inhibition of MAO-B activity, by blocking the catabolism of dopamine, is thought to result in an increase in dopamine levels and a subsequent increase in dopaminergic activity in the brain." ([DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2), versjon av 2026-10-05; hentet 2026-11-19). Ut fra generell kunnskap er safinamid en reversibel MAO-B-hemmer som også blokkerer spenningsstyrte natriumkanaler og hemmer frigjøring av glutamat. Dette er ikke verifisert mot dataene som er kompilert for denne rapporten.
 
 Disse egenskapene kan i teorien dempe nevronal overeksitabilitet og eksitotoksisitet, noe som er relevant for anfallene ved Rasmussens encefalitt. Sykdommen drives imidlertid hovedsakelig av T-celleformidlet autoimmun betennelse, og den påvirkes ikke av safinamid. Prediksjonen kan derfor høyst gi en symptomatisk effekt, ikke en sykdomsmodifiserende.
 
@@ -118,6 +118,19 @@ Prediksjonene hviler utelukkende på en modellscore uten støtte fra kliniske st
 - Systematisk litteratur- og studiesøk for de tre predikerte indikasjonene, med prioritet på PLA2G6-assosiert nevrodegenerasjon
 - Prekliniske data eller modellstudier som viser effekt på anfall eller nevrodegenerasjon
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

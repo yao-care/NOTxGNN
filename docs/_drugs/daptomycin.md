@@ -54,7 +54,7 @@ Daptomycin er et syklisk lipopeptid-antibiotikum mot grampositive bakterier. TxG
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Daptomycin er kjent som et syklisk lipopeptid med baktericid effekt mot grampositive bakterier, og effekten på bakterielle infeksjoner er godt etablert.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Daptomycin (uoffisiell oversettelse): «Daptomycin er et antibakterielt legemiddel. […] Daptomycin binder seg til bakterielle cellemembraner og forårsaker en rask depolarisering av membranpotensialet. Dette tapet av membranpotensial fører til hemming av DNA-, RNA- og proteinsyntesen, noe som resulterer i bakteriell celledød.» Engelsk originaltekst: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), versjon av 2022-01-25; hentet 2026-11-19). Daptomycin er kjent som et syklisk lipopeptid med baktericid effekt mot grampositive bakterier, og effekten på bakterielle infeksjoner er godt etablert.
 
 Det finnes ingen holdepunkter for at daptomycin har en sykdomsmodifiserende effekt ved ikke-infeksiøs slitasjegikt. Litteraturen som er funnet, gjelder daptomycin som antibakteriell behandling ved osteoartikulære infeksjoner og protese-leddinfeksjoner (Staphylococcus, Corynebacterium). Det er den opprinnelige anti-grampositive bruken i en ben- og leddsetting, ikke en ny terapeutisk bruk. Den høye prediksjonsscoren gjenspeiler trolig en statistisk assosiasjon med leddrelaterte begreper, ikke et reelt reposisjoneringssignal.
 
@@ -110,6 +110,19 @@ Ingen studier undersøker daptomycin ved slitasjegikt som sykdom, og den tilgjen
 - Prekliniske studier i modeller for slitasjegikt
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av om antiinflammatorisk eksponering er mulig ved sikre doser, gitt risiko for muskelskade
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

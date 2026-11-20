@@ -58,7 +58,7 @@ Pazopanib er en multimålrettet tyrosinkinasehemmer med antiangiogen virkning. T
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget. Pazopanib er likevel kjent som en multimålrettet tyrosinkinasehemmer med antiangiogene og antitumorale egenskaper, med hemming av blant annet VEGFR og PDGFR. Disse signalveiene er relevante for bløtvevssarkom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pazopanib (uoffisiell oversettelse): «Pazopanib er en multityrosinkinasehemmer av vaskulær endotelial vekstfaktorreseptor (VEGFR)-1, VEGFR-2, VEGFR-3, blodplateavledet vekstfaktorreseptor (PDGFR)-α og -β, fibroblastvekstfaktorreseptor (FGFR)-1 og -3, cytokinreseptor (Kit), interleukin-2-reseptorinduserbar T-cellekinase (Itk), lymfocyttspesifikk proteintyrosinkinase (Lck) og transmembran glykoproteinreseptortyrosinkinase (c-Fms). In vitro hemmet pazopanib ligandindusert autofosforylering av VEGFR-2-, Kit- og PDGFR-β-reseptorer.» Engelsk originaltekst: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), versjon av 2025-12-16; hentet 2026-11-19). Pazopanib er likevel kjent som en multimålrettet tyrosinkinasehemmer med antiangiogene og antitumorale egenskaper, med hemming av blant annet VEGFR og PDGFR. Disse signalveiene er relevante for bløtvevssarkom.
 
 Pazopanib har regulatorisk støtte ved bløtvevssarkom av ikke-adipocytære subtyper (PALETTE-studien). Liposarkom, som er en adipocytær sarkomtype, var et unntak og ble utelatt fra den studien. Dermed er det en reell evidensmangel som de nyere fase 2-studiene forsøker å fylle.
 
@@ -142,6 +142,18 @@ Evidensnivået er L2: to fase 2-studier av pazopanib ved avansert liposarkom (NC
 - Data om virkningsmekanisme (MOA)
 - Plan for sikkerhetsovervåking (lever, blodtrykk, QT) og vurdering av interaksjoner, særlig med syrehemmende midler
 - Randomisert eller mer omfattende bekreftende evidens før bred bruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

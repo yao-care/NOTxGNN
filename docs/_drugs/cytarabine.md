@@ -58,7 +58,7 @@ Cytarabin er en cytostatika som hemmer DNA-syntesen i celler i S-fasen. Den TxGN
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent farmakologi er cytarabin en pyrimidin-nukleosidanalog som bygges inn i DNA under replikasjon og hemmer DNA-syntesen i celler i S-fasen. Dette er en plausibel cytotoksisk begrunnelse for en raskt prolifererende svulst som småcellet lungekarsinom.
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cytarabine (uoffisiell oversettelse): «Selv om virkningsmekanismen ikke er fullstendig klarlagt, ser det ut til at cytarabin virker gjennom hemming av DNA-polymerase. En begrenset, men signifikant, inkorporering av cytarabin i både DNA og RNA er også rapportert.» Engelsk originaltekst: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), versjon av 2026-10-19; hentet 2026-11-19). Ut fra kjent farmakologi er cytarabin en pyrimidin-nukleosidanalog som bygges inn i DNA under replikasjon og hemmer DNA-syntesen i celler i S-fasen. Dette er en plausibel cytotoksisk begrunnelse for en raskt prolifererende svulst som småcellet lungekarsinom.
 
 Svakheten er at størstedelen av den funne litteraturen gjelder ikke-småcellet lungekreft (NSCLC), der cytarabin ble gitt sammen med cisplatin i fase II-studier fra 1990. Det er en annen sykdom enn den predikerte. Platina/etoposid er dessuten etablert standardbehandling ved småcellet lungekreft, noe som gjør at et nytt middel må vise tydelig merverdi.
 
@@ -124,6 +124,18 @@ Det finnes en plausibel cytotoksisk mekanisme og én liten klinisk studie med h�
 - Data om virkningsmekanisme og preparatomtale (advarsler og kontraindikasjoner)
 - Prekliniske eller kliniske data som sammenligner cytarabin med dagens standardbehandling ved småcellet lungekreft
 - Vurdering av administrasjonsvei og dosering for den nye bruken
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

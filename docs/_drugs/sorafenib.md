@@ -58,7 +58,7 @@ Sorafenib er en multikinasehemmer som brukes mot kreft. TxGNN-modellen forutsier
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Sorafenib er likevel kjent som en multikinasehemmer som blokkerer RAF/MEK/ERK-signalveien samt VEGFR, PDGFR og KIT. Disse signalveiene (angiogenese, PDGFR-signalering og MAPK-aktivitet) antas å kunne drive vekst i bløtvevssarkomer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sorafenib (uoffisiell oversettelse): «Sorafenib er en kinasehemmer som reduserer tumorcelleproliferasjon in vitro. Sorafenib ble vist å hemme flere intracellulære (c-CRAF, BRAF og mutert BRAF) og celleoverflatekinaser (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3 og PDGFR-ß).» Engelsk originaltekst: "Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß)." ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), versjon av 2023-08-28; hentet 2026-11-19). Sorafenib er likevel kjent som en multikinasehemmer som blokkerer RAF/MEK/ERK-signalveien samt VEGFR, PDGFR og KIT. Disse signalveiene (angiogenese, PDGFR-signalering og MAPK-aktivitet) antas å kunne drive vekst i bløtvevssarkomer.
 
 Prekliniske data gir en viss biologisk plausibilitet: sorafenib hemmet vekst og MAPK-signalering i celler fra ondartet perifer nerveskjedesvulst, og modeller av dedifferensiert liposarkom viser PTEN-nedregulering og respons på hemming av PI3K-signalveien. Disse studiene gjelder imidlertid ikke sorafenib ved liposarkom i mennesker. Klinisk aktivitet av sorafenib ved sarkom ser ut til å variere med histologisk type, og den er begrenset for liposarkom spesielt.
 
@@ -128,6 +128,18 @@ Ingen studie har testet sorafenib spesifikt ved liposarkom. Den eneste kliniske 
 - Dokumentasjon av virkningsmekanismen
 - Sikkerhetsdata fra preparatomtalen
 - Dedikert studie av sorafenib ved liposarkom før en videre vurdering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

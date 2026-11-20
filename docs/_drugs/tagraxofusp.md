@@ -60,7 +60,7 @@ Prediksjonen bygger kun på modellen og har ingen dokumentert støtte.
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme var ikke tilgjengelig i de innsamlede dataene. Ut fra allmenn kunnskap er tagraxofusp rettet mot CD123 (IL-3-reseptorens alfa-kjede) og dreper celler som uttrykker denne reseptoren. Legemidlet er i praksis knyttet til hematologiske maligniteter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tagraxofusp (uoffisiell oversettelse): «Tagraksofusp-erzs er et CD123-rettet cytotoksin bestående av et fusjonsprotein av rekombinant humant interleukin-3 (IL-3) og trunkert difteritoksin (DT), som hemmer proteinsyntese og forårsaker celledød i CD123-uttrykkende celler.» Engelsk originaltekst: "Tagraxofusp-erzs is a CD123-directed cytotoxin composed of recombinant human interleukin-3 (IL-3) and truncated diphtheria toxin (DT) fusion protein that inhibits protein synthesis and causes cell death in CD123-expressing cells." ([DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8), versjon av 2024-12-09; hentet 2026-11-19). Ut fra allmenn kunnskap er tagraxofusp rettet mot CD123 (IL-3-reseptorens alfa-kjede) og dreper celler som uttrykker denne reseptoren. Legemidlet er i praksis knyttet til hematologiske maligniteter.
 
 Esotropi er en øyemotorisk tilstand (skjeling innover) uten kjent CD123-drevet patologi. Det finnes derfor ingen plausibel mekanistisk kobling mellom den opprinnelige indikasjonen og den foreslåtte nye indikasjonen. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -128,6 +128,19 @@ Prediksjonen har kun modellstøtte (L5), uten kliniske studier eller litteratur,
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Et biologisk rasjonale for CD123-involvering i esotropi, eller en omprioritering mot hematologiske CD123-positive tilstander
 - Prekliniske eller observasjonelle data som støtter en ny indikasjon, før noen klinisk vurdering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

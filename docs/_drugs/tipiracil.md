@@ -58,7 +58,7 @@ Tipiracil er en tymidinfosforylasehemmer som brukes i kombinasjon med trifluridi
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Tipiracil hemmer tymidinfosforylase og brukes sammen med trifluridin, en cytotoksisk nukleosidanalog. Tipiracil hindrer at trifluridin raskt brytes ned, slik at eksponeringen øker.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for trifluridine and tipiracil (kombinasjonspreparat med Tipiracil) (uoffisiell oversettelse): «LONSURF består av en tymidinbasert nukleosidanalog, trifluridin, og tymidinfosforylasehemmeren tipiracil i molforholdet 1:0,5 (vektforhold 1:0,471). Tilsetning av tipiracil øker eksponeringen for trifluridin ved å hemme metabolismen av trifluridin via tymidinfosforylase.» Engelsk originaltekst: "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), versjon av 2025-11-05; hentet 2026-11-19). Tipiracil hemmer tymidinfosforylase og brukes sammen med trifluridin, en cytotoksisk nukleosidanalog. Tipiracil hindrer at trifluridin raskt brytes ned, slik at eksponeringen øker.
 
 Villøst adenom er en premalign forandring i tykktarmen, og er dermed biologisk nær kolorektal kreft. Det kan forklare at modellen gir høy score. Selve scoren er likevel kun en beregnet prediksjon. Cytotoksisk behandling passer dårlig for en godartet forandring som vanligvis fjernes endoskopisk, og ingen studier knytter legemidlet til denne tilstanden.
 
@@ -104,6 +104,18 @@ Prediksjonen har svært høy modellscore, men ingen kliniske studier eller litte
 - Informasjon fra preparatomtale om advarsler og kontraindikasjoner
 - Prekliniske eller kliniske data som direkte omhandler villøst adenom i cecum
 - Vurdering av nytte og risiko opp mot standard endoskopisk behandling
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

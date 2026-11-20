@@ -58,7 +58,7 @@ Lopinavir er en HIV-proteasehemmer som brukes mot HIV-infeksjon. TxGNN-modellen 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Lopinavir er kjent som en HIV-1-proteasehemmer. SIV er et nært beslektet lentivirus med en strukturelt lignende protease, så antiviral aktivitet er mekanistisk plausibel.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lopinavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; hentet 2026-11-19). Lopinavir er kjent som en HIV-1-proteasehemmer. SIV er et nært beslektet lentivirus med en strukturelt lignende protease, så antiviral aktivitet er mekanistisk plausibel.
 
 Den støttende litteraturen er prekliniske studier på makaker. De omfatter blant annet kombinasjonsbehandling med flere antiretrovirale midler og en SHIV-konstruksjon med et HIV-1-avledet proteasegen. Dette er i praksis samme antivirale mekanisme som ved HIV, anvendt i en dyremodell, og ikke en ny human sykdom. Ingen av publikasjonene studerer lopinavir alene mot SIV-infeksjon i en klinisk setting.
 
@@ -118,6 +118,19 @@ Støtten for denne prediksjonen er kun prekliniske apestudier uten kliniske stud
 - Data om virkningsmekanisme (MOA)
 - Informasjon fra pakningsvedlegget om advarsler og kontraindikasjoner
 - Klargjøring av om prediksjonen har noen relevans utover veterinær- og forskningsbruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

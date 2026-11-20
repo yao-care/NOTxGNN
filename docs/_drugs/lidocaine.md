@@ -54,7 +54,7 @@ Lidokain er et lokalbedøvelsesmiddel. I Norge er det registrert i produktet For
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Lidokain er kjent som en natriumkanalblokker som brukes som lokalbedøvelse, også på øyets overflate.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lidocaine (uoffisiell oversettelse): «Lidokainhydroklorid utøver en antiarytmisk effekt ved å øke terskelen for elektrisk stimulering av ventrikkelen under diastole. I vanlige terapeutiske doser gir lidokainhydroklorid ingen endring i myokardets kontraktilitet, i systemisk arterietrykk eller i absolutt refraktærperiode.» Engelsk originaltekst: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), versjon av 2026-02-20; hentet 2026-11-19). Lidokain er kjent som en natriumkanalblokker som brukes som lokalbedøvelse, også på øyets overflate.
 
 Den høye modellscoren er en ren beregningsmessig prediksjon. Bedøvelse kan lindre symptomer, men behandler ikke den underliggende sykdommen i hornhinneepitelet. Langvarig bruk av lokalbedøvende øyedråper kan dessuten skade hornhinneepitelet. Prediksjonen bør derfor ses som en hypotese uten klinisk støtte.
 
@@ -108,6 +108,19 @@ Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur s
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Prekliniske eller kliniske studier som direkte undersøker lidokain ved denne øyesykdommen, inkludert vurdering av hornhinnetoksisitet
 - Vurdering av administrasjonsvei, siden Fortacin er et produkt til annen bruk enn øyebehandling
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

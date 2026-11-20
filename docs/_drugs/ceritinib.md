@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Ut fra kjent informasjon er ceritinib en hemmer av ALK, IGF-1R og ROS1. Effekten er vist ved ALK-positiv ikke-småcellet lungekreft, blant annet i fase 3-studien ASCEND-4 (PMID 28126333).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ceritinib (uoffisiell oversettelse): «Ceritinib er en kinasehemmer. Mål for ceritinibs hemming identifisert i enten biokjemiske eller cellulære analyser ved klinisk relevante konsentrasjoner omfatter ALK, insulinlignende vekstfaktor 1-reseptor (IGF-1R), insulinreseptor (InsR) og ROS1.» Engelsk originaltekst: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), versjon av 2026-10-28; hentet 2026-11-19). Ut fra kjent informasjon er ceritinib en hemmer av ALK, IGF-1R og ROS1. Effekten er vist ved ALK-positiv ikke-småcellet lungekreft, blant annet i fase 3-studien ASCEND-4 (PMID 28126333).
 
 Det er ikke påvist noen mekanistisk sammenheng mellom disse målene og gingival fibromatose, som er en arvelig eller legemiddelindusert fibrotisk overvekst av tannkjøttet. Den høye modellscoren (0,9986) er derfor ikke støttet av kliniske eller litteraturbaserte data. Prediksjonen bør regnes som uvalidert.
 
@@ -140,11 +140,12 @@ Prediksjonen er basert utelukkende på modellscore (evidensnivå L5), uten klini
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste norske/europeiske godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
 
 <!-- review:end log -->
 

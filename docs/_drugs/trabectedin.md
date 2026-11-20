@@ -60,7 +60,7 @@ Trabectedin er et kreftlegemiddel av marin opprinnelse som opprinnelig brukes mo
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) var ikke tilgjengelige i de innsamlede dataene. Ut fra generell kunnskap og litteraturen som ligger til grunn, er trabectedin en alkylerende substans som binder seg til DNA-ets lille fure. Dette utløser DNA-skade og cytotoksisitet som avhenger av transkripsjonskoblet nukleotidreparasjon. Legemidlet påvirker også svulstens mikromiljø, blant annet ved å redusere svulstassosierte makrofager.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Trabectedin (uoffisiell oversettelse): «Trabektedin er et alkylerende legemiddel som bindes til guaninrester i den lille furen i DNA, danner addukter og fører til at DNA-heliksen bøyes mot den store furen. Adduktdannelsen utløser en kaskade av hendelser som kan påvirke den påfølgende aktiviteten til DNA-bindende proteiner, inkludert enkelte transkripsjonsfaktorer, og DNA-reparasjonsmekanismer, noe som fører til forstyrrelse av cellesyklus og til slutt celledød.» Engelsk originaltekst: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), versjon av 2026-06-29; hentet 2026-11-19). Ut fra generell kunnskap og litteraturen som ligger til grunn, er trabectedin en alkylerende substans som binder seg til DNA-ets lille fure. Dette utløser DNA-skade og cytotoksisitet som avhenger av transkripsjonskoblet nukleotidreparasjon. Legemidlet påvirker også svulstens mikromiljø, blant annet ved å redusere svulstassosierte makrofager.
 
 Aktiviteten antas å være sterkere i svulster med mangelfull homolog rekombinasjon, for eksempel BRCA-mangelfulle svulster. Det gir en biologisk plausibel begrunnelse for bruk i en undergruppe av brystkreft, som BRCA1/2-assosiert og trippelnegativ sykdom. Eggstokkreft og brystkreft deler dessuten biologiske trekk, særlig knyttet til BRCA og DNA-reparasjon.
 
@@ -138,6 +138,19 @@ Det finnes biologisk rimelige argumenter og flere fase 2-studier i avansert brys
 - Gjennomgang av resultatene fra fase 2-studiene (PMID 25239225, 24692579, 27266804) for effektdata og sikkerhetsprofil
 - Avklaring av hvilke undergrupper (BRCA-mutert, trippelnegativ, XPG-uttrykk) som kan ha nytte
 - Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken administrasjonsvei som kreves
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

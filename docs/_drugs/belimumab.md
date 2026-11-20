@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt for **primær frigj�
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon hemmer belimumab BLyS (BAFF), noe som reduserer overlevelsen av B-celler og produksjonen av autoantistoffer. Dette forklarer effekten ved systemisk lupus erythematosus, som er en autoimmun sykdom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Belimumab (uoffisiell oversettelse): «BENLYSTA er en BLyS-spesifikk hemmer som blokkerer bindingen av løselig BLyS, en overlevelsesfaktor for B-celler, til reseptorene på B-celler. BENLYSTA binder seg ikke direkte til B-celler, men ved å binde BLyS hemmer BENLYSTA overlevelsen av B-celler, inkludert autoreaktive B-celler, og reduserer differensieringen av B-celler til immunglobulinproduserende plasmaceller.» Engelsk originaltekst: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), versjon av 2026-10-30; hentet 2026-11-19). Ut fra kjent informasjon hemmer belimumab BLyS (BAFF), noe som reduserer overlevelsen av B-celler og produksjonen av autoantistoffer. Dette forklarer effekten ved systemisk lupus erythematosus, som er en autoimmun sykdom.
 
 Primære frigjøringsforstyrrelser i blodplater er imidlertid vanligvis kvalitative funksjonsdefekter i blodplatene, ofte arvelige, og de drives ikke primært av B-celler eller autoantistoffer. Det er derfor ingen etablert direkte mekanistisk kobling mellom belimumabs virkning og denne tilstanden. Den svært høye TxGNN-scoren (0,9996) er en ren modellprediksjon uten støtte i studier eller litteratur.
 
@@ -124,6 +124,19 @@ Alle predikerte indikasjoner støttes kun av modellprediksjon (evidensnivå L5),
 - Prekliniske data eller litteraturgjennomgang, først og fremst for FNAIT som den mest biologisk sammenhengende kandidaten
 - Vurdering av sikkerhet i svangerskap (placentaoverføring av IgG og effekter på føtale B-celler) dersom FNAIT følges opp
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

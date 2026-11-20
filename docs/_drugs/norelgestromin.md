@@ -60,7 +60,7 @@ Norelgestromin er et gestagen som opprinnelig brukes til **prevensjon**. Det gis
 
 Norelgestromin er den aktive gestagenmetabolitten av norgestimat. Gestagener kan fremkalle bortfallsblødning og regulere livmorslimhinnen. Det finnes derfor en plausibel kobling til sekundær amenoré, for eksempel ved gestagentest eller syklusregulering.
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er norelgestromin en del av et kombinasjonsprodukt for hormonell prevensjon. Effekten ved prevensjon er dokumentert, og mekanistisk kan den være relevant for forstyrrelser i menstruasjonssyklusen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for norelgestromin and ethinyl estradiol (kombinasjonspreparat med Norelgestromin) (uoffisiell oversettelse): «NGMN er det aktive gestagenet som i stor grad er ansvarlig for den gestagene aktiviteten som oppstår hos kvinner etter påføring av depotplaster med norelgestromin og etinyløstradiol.» Engelsk originaltekst: "NGMN is the active progestin largely responsible for the progestational activity that occurs in women following application of norelgestromin and ethinyl estradiol transdermal system." ([DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02), versjon av 2026-04-16; hentet 2026-11-19). Ut fra kjent informasjon er norelgestromin en del av et kombinasjonsprodukt for hormonell prevensjon. Effekten ved prevensjon er dokumentert, og mekanistisk kan den være relevant for forstyrrelser i menstruasjonssyklusen.
 
 Det er likevel viktig å tolke prediksjonen med forsiktighet. Hormonelle prevensjonsmidler forårsaker ofte amenoré som en virkning. Koblingen kan derfor gjenspeile en bivirkning eller en tilfeldig sammenheng snarere enn en terapeutisk bruk. Markedsstatusen (kun opphevede godkjenninger) begrenser dessuten praktisk overføring ytterligere.
 
@@ -129,11 +129,12 @@ Prediksjonen bygger kun på modellen (evidensnivå L5), uten kliniske studier el
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og den eneste godkjenningen i Norge er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02) |
 
 <!-- review:end log -->
 

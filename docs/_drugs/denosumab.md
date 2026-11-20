@@ -61,7 +61,7 @@ men det finnes **ingen kliniske studier** og **ingen litteratur som direkte unde
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i det kompilerte datagrunnlaget. Basert på kjent informasjon er denosumab et monoklonalt antistoff som hemmer RANKL, og effekten ved osteoporose og kjempecelletumor i bein er etablert. Mekanistisk kan det tenkes at det er relevant for diabetisk retinopati.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Denosumab (uoffisiell oversettelse): «Denosumabprodukter binder seg til RANKL, et transmembrant eller løselig protein som er essensielt for dannelse, funksjon og overlevelse av osteoklaster, cellene som er ansvarlige for benresorpsjon. Denosumabprodukter forhindrer at RANKL aktiverer sin reseptor, RANK, på overflaten av osteoklaster og deres forstadier.» Engelsk originaltekst: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), versjon av 2026-11-04; hentet 2026-11-19). Basert på kjent informasjon er denosumab et monoklonalt antistoff som hemmer RANKL, og effekten ved osteoporose og kjempecelletumor i bein er etablert. Mekanistisk kan det tenkes at det er relevant for diabetisk retinopati.
 
 RANKL/RANK-signalering har blitt foreslått å spille en rolle i betennelse og karbiologi, noe som i teorien kan knyttes til mikrovaskulær sykdom i netthinnen. Dette er spekulativt og ikke validert for retinopati. Likhet mellom opprinnelig og ny indikasjon er ikke vurdert, og mekanismen kunne ikke krysskontrolleres mot kuraterte legemiddeldata.
 
@@ -135,11 +135,12 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller direkte litter
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle norske tillatelser er dessuten opphevet, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
 
 <!-- review:end log -->
 

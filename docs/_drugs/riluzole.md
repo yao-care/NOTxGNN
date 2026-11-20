@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsam
 
 ## Hvorfor kan prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Det som er kjent, er at riluzol modulerer glutamatergisk signaloverføring, og at effekten er etablert for den godkjente bruken.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Riluzole (uoffisiell oversettelse): «Mekanismen som riluzol utøver sine terapeutiske effekter gjennom hos pasienter med ALS, er ukjent.» Engelsk originaltekst: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), versjon av 2026-07-27; hentet 2026-11-19). Det som er kjent, er at riluzol modulerer glutamatergisk signaloverføring, og at effekten er etablert for den godkjente bruken.
 
 Polymikrogyri er en kortikal misdannelse med utviklingsmessig opprinnelse. En kobling mellom glutamatmodulering og denne tilstanden er spekulativ. Prediksjonen bygger utelukkende på mønstre i en grafbasert modell, og det er ikke funnet støtte i kliniske data eller litteratur. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -111,6 +111,18 @@ Prediksjonen har høy modellscore, men ingen kliniske studier eller publikasjone
 - Detaljerte data om virkningsmekanisme (MOA)
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av om det finnes et biologisk og terapeutisk vindu for behandling av denne tilstanden
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

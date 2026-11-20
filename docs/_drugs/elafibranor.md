@@ -58,7 +58,7 @@ Elafibranor er et legemiddel som opprinnelig er godkjent for behandling av bili�
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Elafibranor er en dobbel PPARα/δ-agonist (PPARA og PPARD er identifisert som målproteiner i de samlede dataene). Detaljerte data om virkningsmekanisme er ikke tilgjengelige i den opprinnelige kilden. I leverceller omdannes legemidlet til den aktive metabolitten GFT-1007. Prekliniske data viser redusert fettopphopning, betennelse og fibrose i lever.
+Elafibranor er en dobbel PPARα/δ-agonist (PPARA og PPARD er identifisert som målproteiner i de samlede dataene). Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Elafibranor (uoffisiell oversettelse): «Elafibranor og dets viktigste aktive metabolitt GFT1007 er agonister for peroksisomproliferatoraktivert reseptor (PPAR), og begge aktiverer PPAR-alfa, PPAR-gamma og PPAR-delta in vitro. Mekanismen som elafibranor utøver sine terapeutiske effekter gjennom hos pasienter med PBC, er imidlertid ikke godt forstått.» Engelsk originaltekst: "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), versjon av 2026-08-11; hentet 2026-11-19). I leverceller omdannes legemidlet til den aktive metabolitten GFT-1007. Prekliniske data viser redusert fettopphopning, betennelse og fibrose i lever.
 
 Koblingen til amenoré er spekulativ. PPAR-signalering påvirker lipid- og glukosemetabolisme samt betennelse, noe som i teorien kan påvirke eggstokk- og hypothalamus-hypofyse-gonade-aksen, for eksempel ved PCOS-relaterte menstruasjonsforstyrrelser. Det er imidlertid ikke påvist noen kausal sammenheng. Effekten kan også være indirekte, via metabolske eller leverrelaterte forhold, og amenoré kan være en sekundær manifestasjon av en underliggende sykdom fremfor et direkte behandlingsmål. Hormonelle og menstruasjonsrelaterte effekter av PPAR-agonister er lite kartlagt.
 
@@ -125,11 +125,12 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra k
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den norske godkjenningen registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
 
 <!-- review:end log -->
 

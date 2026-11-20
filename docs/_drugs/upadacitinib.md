@@ -58,7 +58,7 @@ Upadacitinib var opprinnelig godkjent for behandling av revmatoid artritt. TxGNN
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) for upadacitinib mangler i de sammenstilte dataene. Upadacitinib er generelt kjent som en JAK1-hemmer, men dette er ikke bekreftet i det foreliggende materialet. Legemidlet er godkjent ved revmatoid artritt, en immunmediert betennelsessykdom der JAK-STAT-signalering spiller en sentral rolle.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Upadacitinib (uoffisiell oversettelse): «Upadacitinib er en Janus-kinase (JAK)-hemmer. JAK-er er intracellulære enzymer som overfører signaler som oppstår fra interaksjoner mellom cytokiner eller vekstfaktorer og reseptorer på cellemembranen, og som dermed påvirker cellulære prosesser i hematopoese og immuncellefunksjon.» Engelsk originaltekst: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), versjon av 2026-06-30; hentet 2026-11-19). Upadacitinib er generelt kjent som en JAK1-hemmer, men dette er ikke bekreftet i det foreliggende materialet. Legemidlet er godkjent ved revmatoid artritt, en immunmediert betennelsessykdom der JAK-STAT-signalering spiller en sentral rolle.
 
 Det predikerte syndromet er en ekstremt sjelden utviklingsforstyrrelse, trolig av genetisk opprinnelse. Det er ingen åpenbar betennelsesdrevet eller JAK-STAT-avhengig sykdomsmekanisme som knytter tilstanden til upadacitinib. Et høyt TxGNN-score (0,9961) er ikke i seg selv et bevis. Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. En utviklingsforstyrrelse uten betennelse vil neppe svare på immunmodulering.
 
@@ -126,11 +126,12 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske stud
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske godkjenningen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
 
 <!-- review:end log -->
 

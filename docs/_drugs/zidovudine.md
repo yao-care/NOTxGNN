@@ -63,7 +63,7 @@ Merk: Rangering etter TxGNN-score har to dyreindikasjoner øverst (felin immunsv
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det innsamlede datagrunnlaget. Basert på kjent informasjon er zidovudin en nukleosid revers transkriptase-hemmer (NRTI): det er et prodrug som fosforyleres i lymfocytter og hemmer HIVs reverse transkriptase. Effekten ved HIV-infeksjon er veletablert.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Zidovudine (uoffisiell oversettelse): «Zidovudin er et antiretroviralt middel. […] Zidovudin er en syntetisk nukleosidanalog. Intracellulært fosforyleres zidovudin til sin aktive 5′-trifosfatmetabolitt, zidovudintrifosfat (ZDV-TP). Den viktigste virkningsmåten til ZDV-TP er hemming av revers transkriptase (RT) via DNA-kjedeterminering etter inkorporering av nukleotidanalogen.» Engelsk originaltekst: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), versjon av 2024-11-13; hentet 2026-11-19). Basert på kjent informasjon er zidovudin en nukleosid revers transkriptase-hemmer (NRTI): det er et prodrug som fosforyleres i lymfocytter og hemmer HIVs reverse transkriptase. Effekten ved HIV-infeksjon er veletablert.
 
 AIDS-relatert kompleks (ARC) er et symptomatisk, tidlig stadium av HIV-infeksjon. Indikasjonen ligger dermed svært nær zidovudins opprinnelige bruksområde, og prediksjonen er mekanistisk høyst plausibel. De store fase 3-studiene fra 1980- og 1990-tallet testet nettopp zidovudin hos pasienter med ARC og AIDS.
 
@@ -165,11 +165,12 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler i da
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «De to registrerte tillatelsene er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

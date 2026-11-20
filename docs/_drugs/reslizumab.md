@@ -60,7 +60,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Reslizumab er et anti-IL-5-antistoff som reduserer eosinofilenes overlevelse og aktivering. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget, så den mekanistiske sammenhengen kan ikke etterprøves.
+Reslizumab er et anti-IL-5-antistoff som reduserer eosinofilenes overlevelse og aktivering. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Reslizumab (uoffisiell oversettelse): «Reslizumab er en interleukin-5-antagonist (IgG4, kappa). IL-5 er det viktigste cytokinet som er ansvarlig for vekst og differensiering, rekruttering, aktivering og overlevelse av eosinofiler. Reslizumab bindes til IL-5 med en dissosiasjonskonstant på 81 pM, og hemmer bioaktiviteten til IL-5 ved å blokkere bindingen til alfakjeden i IL-5-reseptorkomplekset som uttrykkes på eosinofilenes overflate.» Engelsk originaltekst: "Reslizumab is an interleukin-5 antagonist (IgG4, kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Reslizumab binds to IL-5 with a dissociation constant of 81 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil surface." ([DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33), versjon av 2020-02-29; hentet 2026-11-19).
 
 Det er ikke etablert noen kjent kobling mellom IL-5-blokade og immunmediert trombocytopeni. Et spekulativt resonnement er at enkelte autoimmune cytopenier kan ha en immunregulatorisk komponent med Th2-/eosinofilaktivitet, men dette er ikke støttet av kliniske data eller litteratur. Den høye TxGNN-scoren (0,9953) er kun en beregningsbasert prediksjon.
 
@@ -129,11 +129,12 @@ Artikkelen støtter legemiddelklassens aktivitet ved eosinofilstyrte tilstander,
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er legemidlets eneste godkjenning avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33) |
 
 <!-- review:end log -->
 

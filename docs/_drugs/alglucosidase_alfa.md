@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **voksen polyglukosanle
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er alglukosidase alfa et rekombinant syre-alfa-glukosidase-enzym som bryter ned lysosomalt glykogen via alfa-1,4- og alfa-1,6-bindinger. Effekten ved Pompes sykdom er dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Alglucosidase Alfa (uoffisiell oversettelse): «Pompes sykdom (sur maltase-mangel, glykogenlagringssykdom type II, GSD II, glykogenose type II) er en arvelig sykdom i glykogenmetabolismen forårsaket av fravær av eller uttalt mangel på det lysosomale enzymet GAA. Alglukosidase alfa gir en eksogen kilde til GAA.» Engelsk originaltekst: "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df), versjon av 2025-01-10; hentet 2026-11-19). Ut fra kjent informasjon er alglukosidase alfa et rekombinant syre-alfa-glukosidase-enzym som bryter ned lysosomalt glykogen via alfa-1,4- og alfa-1,6-bindinger. Effekten ved Pompes sykdom er dokumentert.
 
 Voksen polyglukosanlegemesykdom skyldes mangel på glykogenforgreningsenzym (GBE1), som gir opphopning av dårlig forgrenet, uløselig polyglukosan i nervevev. Det finnes dermed en konseptuell kobling gjennom felles glykogenlagringspatologi. Koblingen er imidlertid svak av to grunner:
 
@@ -127,6 +127,19 @@ Prediksjonen bygger kun på en modell uten kliniske studier eller litteratur (ev
 - Prekliniske data som viser at enzymet kan nå cytosolisk polyglukosan i nervevev, inkludert vurdering av hjernepenetrasjon
 - Litteraturgjennomgang og eventuelle kasuistikker ved GBE1-relaterte sykdommer
 - Avklaring av tilgjengelighet og administrasjonsvei i Norge, gitt at produktet er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

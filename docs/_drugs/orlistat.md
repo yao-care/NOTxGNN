@@ -61,7 +61,7 @@ men for øyeblikket finnes **0 kliniske studier** og **0 publikasjoner** i de sa
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) fra kildeposten er ikke tilgjengelige. Resonnementet nedenfor bygger derfor på generell farmakologisk kunnskap, ikke på de innsamlede dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Orlistat (uoffisiell oversettelse): «Orlistat er en reversibel hemmer av gastrointestinale lipaser. Det utøver sin terapeutiske aktivitet i lumen i magesekken og tynntarmen ved å danne en kovalent binding med det aktive serinsetet i gastriske og pankreatiske lipaser.» Engelsk originaltekst: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), versjon av 2026-09-30; hentet 2026-11-19). Resonnementet nedenfor bygger derfor på generell farmakologisk kunnskap, ikke på de innsamlede dataene.
 
 Orlistat hemmer mage- og bukspyttkjertellipase og reduserer opptaket av fett fra kosten med omtrent 30 %. Fettløselige vitaminer (A, D, E og K) tas opp sammen med fett i kosten. Teoretisk kan orlistat dermed redusere opptaket av disse vitaminene og kunne hjelpe ved overskudd av fettløselige vitaminer.
 
@@ -126,11 +126,12 @@ Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. O
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden begge tillatelsene i Norge er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
 
 <!-- review:end log -->
 

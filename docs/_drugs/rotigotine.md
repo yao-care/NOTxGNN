@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan være virksomt mot **ADHD**, men det
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelige i de innsamlede dataene. Ut fra generell kunnskap er rotigotin en dopaminagonist som virker på reseptorene D1–D5 (høyest affinitet for D3), og i tillegg på 5-HT1A- og alfa-2B-reseptorer. Effekten er dokumentert ved Parkinsons sykdom og RLS.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rotigotine (uoffisiell oversettelse): «Rotigotin er en non-ergolin dopaminagonist. Den nøyaktige virkningsmekanismen til rotigotin som behandling av Parkinsons sykdom er ukjent, men den antas å være relatert til evnen til å stimulere dopaminreseptorer i caudatus-putamen i hjernen.» Engelsk originaltekst: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), versjon av 2026-11-11; hentet 2026-11-19). Ut fra generell kunnskap er rotigotin en dopaminagonist som virker på reseptorene D1–D5 (høyest affinitet for D3), og i tillegg på 5-HT1A- og alfa-2B-reseptorer. Effekten er dokumentert ved Parkinsons sykdom og RLS.
 
 ADHD er knyttet til dysregulering av dopamin- og noradrenalinsystemene, så en biologisk sammenheng er plausibel. De tre publikasjonene er imidlertid indirekte: to omhandler RLS (blant annet hos barn, hvor tilstanden ofte opptrer sammen med ADHD), og én gjelder samspillet mellom alfa-2A-adrenoreseptorer og dopamin D4-reseptorvarianter, som er relevant for ADHD-biologi. Det finnes ingen ADHD-spesifikke kliniske data for rotigotin. Den svært høye scoren er utelukkende en beregnet prediksjon.
 
@@ -122,6 +122,19 @@ Prediksjonen for ADHD bygger på en biologisk plausibel dopamin- og noradrenalin
 - Prekliniske eller tidlige kliniske data for rotigotin ved ADHD
 - Vurdering av kardiovaskulære risikoer (hypertensjon, ortostatisk hypotensjon) hos en ADHD-populasjon, inkludert barn
 - Avklaring av regulatorisk status og tilgjengelige administrasjonsveier (plaster) i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

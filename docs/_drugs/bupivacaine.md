@@ -61,7 +61,7 @@ Prediksjonen er derfor kun modellbasert.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme var ikke tilgjengelige i datagrunnlaget for denne rapporten. Bupivakain er allment kjent som et lokalbedøvende middel som blokkerer spenningsstyrte natriumkanaler og dermed hemmer nerveledning. Denne opplysningen kommer fra generell kunnskap og ikke fra de innsamlede dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bupivacaine (uoffisiell oversettelse): «Lokalanestetika blokkerer dannelsen og ledningen av nerveimpulser, antagelig ved å øke terskelen for elektrisk eksitasjon i nerven, ved å bremse forplantningen av nerveimpulsen og ved å redusere stigningshastigheten til aksjonspotensialet. Generelt er anestesiens progresjon relatert til diameter, myelinisering og ledningshastighet for de berørte nervefibrene.» Engelsk originaltekst: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), versjon av 2026-11-09; hentet 2026-11-19). Bupivakain er allment kjent som et lokalbedøvende middel som blokkerer spenningsstyrte natriumkanaler og dermed hemmer nerveledning. Denne opplysningen kommer fra generell kunnskap og ikke fra de innsamlede dataene.
 
 Akrodermatitis chronica atrophicans er en sen hudmanifestasjon av Borrelia-infeksjon, og behandlingen er antibiotika. Det er ikke påvist noen plausibel mekanistisk kobling mellom natriumkanalblokade og sykdommens forløp. Den høye scoren (0.9923) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. En eventuell nytte ville begrenset seg til symptomlindring av nevropatisk smerte, og dette er ikke underbygget av data.
 
@@ -142,12 +142,13 @@ Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Tillatelsen er trukket tilbake (status: cancelled), og p» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Den eneste norske tillatelsen er trukket tilbake, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

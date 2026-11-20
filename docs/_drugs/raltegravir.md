@@ -61,7 +61,7 @@ Evidensen består av **16 publikasjoner** (10 er vist her), alle prekliniske stu
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig i de innsamlede dataene. Raltegravir er likevel kjent som en integrasehemmer (INSTI) som blokkerer strand transfer-trinnet i retroviral replikasjon. Effekten er dokumentert ved hiv-infeksjon.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Raltegravir (uoffisiell oversettelse): «Raltegravir er et antiviralt legemiddel mot HIV-1. […] Raltegravir hemmer den katalytiske aktiviteten til HIV-1-integrase, et HIV-1-kodet enzym som er nødvendig for virusreplikasjon. Hemming av integrase forhindrer kovalent innsetting, eller integrering, av uintegrert lineært HIV-1-DNA i vertscellens genom, og forhindrer dermed dannelsen av HIV-1-provirus.» Engelsk originaltekst: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), versjon av 2026-09-16; hentet 2026-11-19). Raltegravir er likevel kjent som en integrasehemmer (INSTI) som blokkerer strand transfer-trinnet i retroviral replikasjon. Effekten er dokumentert ved hiv-infeksjon.
 
 SIV er nært beslektet med hiv-1, og integrasen er strukturelt lik. Studier viser at SIVmac239 og SIVmac251 er følsomme for integrasehemmere, og at de samme resistensmutasjonene gir tilsvarende fenotyper i begge virusene. Det gir et mekanistisk grunnlag for prediksjonen.
 
@@ -124,6 +124,19 @@ Evidensen er utelukkende preklinisk (dyre- og in vitro-studier), og det finnes i
 - Avklaring av om en veterinær eller translasjonell forskningsanvendelse er relevant, siden SIV og felin immunsvikt ikke er humane indikasjoner
 - Vurdering av muskelrelaterte sikkerhetssignaler fra kunnskapsgrafen
 - Avklaring av gjeldende regulatorisk status i Norge, siden autorisasjonen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

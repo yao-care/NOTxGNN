@@ -60,7 +60,7 @@ Den mest rimelige alternative retningen i de innsamlede dataene er trombotisk tr
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er defibrotid en antitrombotisk og profibrinolytisk oligonukleotidblanding med beskyttende effekt på endotelceller. Den er godkjent mot hepatisk veno-okklusiv sykdom, et endotelskadesyndrom etter stamcelletransplantasjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Defibrotide (uoffisiell oversettelse): «Virkningsmekanismen til defibrotidnatrium er ikke fullstendig klarlagt. In vitro forsterker defibrotidnatrium plasmins enzymatiske aktivitet for hydrolyse av fibrinkoagler. Studier som evaluerte de farmakologiske effektene av defibrotidnatrium på endotelceller (EC-er) ble hovedsakelig utført i den humane mikrovaskulære endotelcellelinjen.» Engelsk originaltekst: "The mechanism of action of defibrotide sodium has not been fully elucidated. In vitro, defibrotide sodium enhances the enzymatic activity of plasmin to hydrolyze fibrin clots. Studies evaluating the pharmacological effects of defibrotide sodium on endothelial cells (ECs) were conducted primarily in the human microvascular endothelial cell line." ([DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec), versjon av 2025-07-01; hentet 2026-11-19). Basert på kjent informasjon er defibrotid en antitrombotisk og profibrinolytisk oligonukleotidblanding med beskyttende effekt på endotelceller. Den er godkjent mot hepatisk veno-okklusiv sykdom, et endotelskadesyndrom etter stamcelletransplantasjon.
 
 Pseudo-von Willebrands sykdom er en blødningslidelse hos blodplatene, forårsaket av «gain-of-function» i GP1BA. Et antitrombotisk middel er mekanistisk lite egnet og kan forverre blødningsrisikoen. Prediksjonen er derfor ikke støttet av noen plausibel mekanistisk begrunnelse, til tross for den svært høye modellscoren.
 
@@ -144,12 +144,13 @@ Prediksjonen om pseudo-von Willebrands sykdom bygger kun på modellscore (L5), u
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Preparatet er dessuten avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec) |
 
 <!-- review:end log -->
 

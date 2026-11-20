@@ -59,7 +59,7 @@ Amifampridin (3,4-diaminopyridin) brukes opprinnelig til behandling av Lambert-E
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Ut fra generell kunnskap er amifampridin en blokker av spenningsstyrte kaliumkanaler. Ved å forlenge depolariseringen i presynaptiske nerveender øker den kalsiuminnstrømningen og frigjøringen av acetylkolin i den nevromuskulære overgangen. Dette forklarer effekten ved LEMS.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Amifampridine (uoffisiell oversettelse): «Mekanismen som amifampridin utøver sin terapeutiske effekt gjennom hos pasienter med LEMS, er ikke fullstendig klarlagt. Amifampridin er en bredspektret kaliumkanalblokker.» Engelsk originaltekst: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), versjon av 2026-04-16; hentet 2026-11-19). Ut fra generell kunnskap er amifampridin en blokker av spenningsstyrte kaliumkanaler. Ved å forlenge depolariseringen i presynaptiske nerveender øker den kalsiuminnstrømningen og frigjøringen av acetylkolin i den nevromuskulære overgangen. Dette forklarer effekten ved LEMS.
 
 Det er ikke påvist noen direkte mekanistisk kobling til glaukom (forhøyet intraokulært trykk, degenerasjon av retinale ganglieceller). En spekulativ kobling kan være modulering av kaliumkanaler i nerveceller i netthinnen eller synsnerven, men dette er ikke underbygget av de foreliggende dataene. Den høye scoren er en ren modellprediksjon og støttes ikke av kliniske data eller litteratur.
 
@@ -119,6 +119,19 @@ Prediksjonen for glaukom bygger kun på modellscore (L5), uten kliniske studier,
 - Prekliniske data eller litteratur som kan koble kaliumkanalblokkade til patofysiologien ved glaukom
 - Avklaring av administrasjonsvei og formulering som kreves for øyesykdom
 - Vurdering av markedsstatus og eventuell ny tillatelse i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

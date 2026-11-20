@@ -60,7 +60,7 @@ men for denne sykdommen er det **ingen kliniske studier og ingen publikasjoner**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Interferon beta-1b tilhører klassen type I-interferoner og virker via type I-interferonreseptoren (IFNAR). Interferon alfa, som virker via samme reseptor, har historisk vært brukt ved hårcelleleukemi, og antiproliferative og immunmodulerende effekter er derfor mekanistisk plausible også for beta-1b.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Interferon Beta-1B (uoffisiell oversettelse): «Virkningsmekanismen til BETASERON (interferon beta-1b) hos pasienter med multippel sklerose er ukjent.» Engelsk originaltekst: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), versjon av 2026-03-03; hentet 2026-11-19). Interferon beta-1b tilhører klassen type I-interferoner og virker via type I-interferonreseptoren (IFNAR). Interferon alfa, som virker via samme reseptor, har historisk vært brukt ved hårcelleleukemi, og antiproliferative og immunmodulerende effekter er derfor mekanistisk plausible også for beta-1b.
 
 Dette er en slutning på klassenivå og er ikke støttet av direkte data for interferon beta-1b. Dagens standardbehandling er purinanaloger (kladribin, pentostatin) og BRAF-hemmere, så det udekkede behovet for et interferon er trolig lavt.
 
@@ -106,6 +106,19 @@ Prediksjonen for hårcelleleukemi bygger kun på en høy modellscore (0,9916), u
 - Prekliniske data som viser effekt på hårcelleleukemiceller
 - Data om virkningsmekanisme (MOA) og preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av nytte opp mot gjeldende standardbehandling (purinanaloger og BRAF-hemmere)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

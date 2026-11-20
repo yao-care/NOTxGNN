@@ -60,7 +60,7 @@ Den mest direkte evidensen er to fase 2-studier i atopisk dermatitt, og disse vi
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ustekinumab blokkerer p40-underenheten som er felles for IL-12 og IL-23, og hemmer dermed Th1- og Th17-signalering. Denne signalveien bidrar til inflammatorisk hudsykdom, og psoriasis, en godkjent indikasjon, er prototypen. Detaljerte opplysninger om virkningsmekanisme er ikke tilgjengelige i de kompilerte dataene, så beskrivelsen bygger på kjent farmakologi.
+Ustekinumab blokkerer p40-underenheten som er felles for IL-12 og IL-23, og hemmer dermed Th1- og Th17-signalering. Denne signalveien bidrar til inflammatorisk hudsykdom, og psoriasis, en godkjent indikasjon, er prototypen. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ustekinumab (uoffisiell oversettelse): «Ustekinumabpreparater er humane IgG1κ monoklonale antistoffer som bindes spesifikt til p40-proteinsubenheten som brukes av både IL-12- og IL-23-cytokinene. IL-12 og IL-23 er naturlig forekommende cytokiner som er involvert i inflammatoriske responser og immunresponser, som aktivering av naturlige drepeceller og differensiering og aktivering av CD4+ T-celler.» Engelsk originaltekst: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), versjon av 2026-11-11; hentet 2026-11-19).
 
 Atopisk dermatitt er primært Th2-drevet, men Th1-, Th17- og Th22-aktivering bidrar i kroniske lesjoner. Det mekanistiske grunnlaget er derfor plausibelt, men bare delvis. Den svært høye TxGNN-scoren er i samsvar med denne overlappingen, men erstatter ikke klinisk evidens.
 
@@ -137,6 +137,19 @@ Den høye TxGNN-scoren støttes bare av to små fase 2-studier ved atopisk derma
 - Vurdering av om pasientundergrupper (f.eks. Th1/Th17-dominant sykdom) kan ha nytte
 - Klar markedsstatus og tilgjengelighet i Norge
 - Større randomiserte studier dersom en slik undergruppe kan identifiseres
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

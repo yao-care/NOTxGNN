@@ -54,7 +54,7 @@ Cholecalciferol (vitamin D3) er et pro-hormon som inngår i legemidler mot postm
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Det som er kjent, er at cholecalciferol omdannes i lever og nyre til aktive vitamin D-metabolitter som regulerer opptaket av kalsium og fosfat og dermed bein-mineraliseringen. Dette er grunnen til at stoffet brukes i bentilstander.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cholecalciferol (uoffisiell oversettelse): «Vitamin D-reseptoragonist» Engelsk originaltekst: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; hentet 2026-11-19). Det som er kjent, er at cholecalciferol omdannes i lever og nyre til aktive vitamin D-metabolitter som regulerer opptaket av kalsium og fosfat og dermed bein-mineraliseringen. Dette er grunnen til at stoffet brukes i bentilstander.
 
 Akromesomelisk dysplasi av Campailla–Martinelli-type er en sjelden, arvelig skjelettsykdom. Den underliggende årsaken er en genetisk defekt, og det er ikke forventet at vitamin D-tilskudd korrigerer den. Prediksjonen ser ut til å bygge på felles skjelett- og benrelaterte trekk, ikke på påvist mekanistisk eller klinisk sammenheng. Dataene som er samlet inn for denne rapporten, støtter ikke noen konkret mekanistisk kobling.
 
@@ -96,6 +96,19 @@ Prediksjonen har svært høy modellscore, men ingen kliniske studier eller litte
 - Gjennomgang av litteratur og tilfelleserier for sjeldne skjelettdysplasier
 - Pakningsvedlegg med advarsler og kontraindikasjoner for sikkerhetsscreening
 - Vurdering av administrasjonsvei og formulering for aktuell pasientgruppe
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

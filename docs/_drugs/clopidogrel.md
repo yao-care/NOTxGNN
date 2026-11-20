@@ -63,7 +63,7 @@ Det er ingen Fase 3-studie som tester clopidogrel direkte som migreneprofylakse.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Clopidogrel er en blodplatehemmer som blokkerer P2Y12-reseptoren og dermed ADP-avhengig blodplateaktivering. Effekten er godt dokumentert ved hjerte- og karsykdommer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Clopidogrel (uoffisiell oversettelse): «Klopidogrel er en hemmer av blodplateaktivering og -aggregering gjennom irreversibel binding av sin aktive metabolitt til P2Y 12 -klassen av ADP-reseptorer på blodplater.» Engelsk originaltekst: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), versjon av 2025-05-30; hentet 2026-11-19). Clopidogrel er en blodplatehemmer som blokkerer P2Y12-reseptoren og dermed ADP-avhengig blodplateaktivering. Effekten er godt dokumentert ved hjerte- og karsykdommer.
 
 Den mulige koblingen til migrene går via blodplateaktivering og paradoksale mikroemboli, særlig hos pasienter med patent foramen ovale (PFO) eller andre høyre-til-venstre-shunter. Slike mikroemboli, og frigjøring av vasoaktive stoffer som serotonin fra blodplater, kan utløse kortikal spredende depresjon, som antas å ligge bak migreneaura. Flere kasuistikker og kohortstudier viser at migrene som oppstår eller forverres etter lukking av atrieseptumdefekt, bedres med clopidogrel.
 
@@ -150,6 +150,19 @@ Blødningsrisiko er en sentral bekymring, spesielt ved kombinasjon med acetylsal
 - Data om virkningsmekanisme og fullstendig sikkerhetsinformasjon fra preparatomtale (advarsler og kontraindikasjoner)
 - Blødningsrisikovurdering og plan for håndtering av interaksjoner (særlig protonpumpehemmere og acetylsalisylsyre)
 - Avklaring av regulatorisk vei i Norge for clopidogrel, som er markedsført med 16 gyldige tillatelser
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

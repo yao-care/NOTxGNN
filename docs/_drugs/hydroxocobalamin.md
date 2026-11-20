@@ -54,7 +54,7 @@ Hydroksokobalamin er en form for vitamin B12 som brukes mot forgiftning. Den TxG
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om legemidlets opprinnelige virkningsmekanisme er ikke tilgjengelig i dataene som er samlet for denne rapporten. Det er derfor vanskelig å vurdere en mekanistisk sammenheng på et sikkert grunnlag.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Hydroxocobalamin (uoffisiell oversettelse): «Cyanid er en ekstremt toksisk gift. Uten rask og tilstrekkelig behandling kan eksponering for en høy dose cyanid føre til død i løpet av minutter på grunn av hemming av cytokromoksidase, som resulterer i stans av den cellulære respirasjonen. […] Hvert hydroksokobalaminmolekyl kan binde ett cyanidion ved å erstatte hydroksoliganden bundet til det treverdige koboltionet med dette, slik at det dannes cyanokobalamin, som deretter utskilles i urinen.» Engelsk originaltekst: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), versjon av 2023-04-27; hentet 2026-11-19). Det er derfor vanskelig å vurdere en mekanistisk sammenheng på et sikkert grunnlag.
 
 Et mulig, men rent teoretisk resonnement er at hydroksokobalamin binder nitrogenoksid (NO). Dersom NO fanges opp, kan karmotstanden øke, og det kunne i teorien påvirke portal hypertensjon, som er den underliggende årsaken til øsofagusvaricer. Dette er spekulativt og støttes ikke av noen innhentede data. Standardbehandling (ikke-selektive betablokkere og endoskopisk båndligering) virker gjennom andre, veletablerte mekanismer.
 
@@ -94,6 +94,19 @@ Prediksjonen bygger kun på modellen, uten kliniske studier eller litteratur som
 - Preparatomtale med advarsler og kontraindikasjoner
 - Prekliniske eller kliniske data som direkte undersøker effekt ved øsofagusvaricer
 - Vurdering av blodtrykkseffekter og sikkerhet hos pasienter med portal hypertensjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

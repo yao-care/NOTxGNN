@@ -58,7 +58,7 @@ Risperidon er et atypisk antipsykotikum. TxGNN-modellen predikerer at det kan ha
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelige i de innsamlede dataene. Risperidon er kjent som et atypisk antipsykotikum som blokkerer dopamin D2- og serotonin 5-HT2A-reseptorer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Risperidone (uoffisiell oversettelse): «Virkningsmekanismen til risperidon ved schizofreni er uklar. Legemidlets terapeutiske aktivitet ved schizofreni kan være mediert gjennom en kombinasjon av antagonisme av dopamin type 2 (D 2 )- og serotonin type 2 (5HT 2 )-reseptorer.» Engelsk originaltekst: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), versjon av 2026-10-23; hentet 2026-11-19). Risperidon er kjent som et atypisk antipsykotikum som blokkerer dopamin D2- og serotonin 5-HT2A-reseptorer.
 
 Den predikerte sykdommen er en sjelden arvelig tilstand knyttet til ROBO3. Den gir en strukturell nevroutviklingsfeil i hjernestammen, med forstyrret aksonveiledning. Det er ikke identifisert noen plausibel mekanistisk sammenheng. D2/5-HT2A-antagonisme kan ikke forventes å korrigere en slik utviklingsdefekt.
 
@@ -114,6 +114,18 @@ Prediksjonen bygger kun på modellberegning (evidensnivå L5). Det finnes ingen 
 - En begrunnet mekanistisk hypotese for hvordan D2/5-HT2A-antagonisme skulle påvirke sykdomsforløpet
 - Fullstendig sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Data om virkningsmekanisme fra en pålitelig kilde
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

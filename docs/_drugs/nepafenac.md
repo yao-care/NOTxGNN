@@ -61,7 +61,7 @@ Foreløpig støttes denne retningen av **40 kliniske studier** og **20 publikasj
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte virkningsmekanismedata er for tiden ikke tilgjengelige i den opprinnelige legemiddelinformasjonen. Ut fra kjent informasjon er nepafenac et prodrug som omdannes av hydrolaser i øyevev til amfenac, en hemmer av COX-1 og COX-2. Dette gir redusert prostaglandinsyntese, som igjen demper betennelse, smerte og sammenbrudd i blod-netthinne-barrieren.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nepafenac (uoffisiell oversettelse): «Etter topikal okulær dosering penetrerer nepafenak hornhinnen og omdannes av hydrolaser i øyevevet til amfenak, et NSAID. Nepafenak og amfenak antas å hemme virkningen av prostaglandin H-syntase (cyklooksygenase), et enzym som er nødvendig for prostaglandinproduksjon.» Engelsk originaltekst: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), versjon av 2026-04-01; hentet 2026-11-19). Ut fra kjent informasjon er nepafenac et prodrug som omdannes av hydrolaser i øyevev til amfenac, en hemmer av COX-1 og COX-2. Dette gir redusert prostaglandinsyntese, som igjen demper betennelse, smerte og sammenbrudd i blod-netthinne-barrieren.
 
 Mekanismen stemmer godt med den godkjente bruken ved betennelse og smerte etter operasjon. Den passer også med studert bruk ved cystoid makulaødem og netthinnetilstander. Fordeling av amfenac til bakre øyesegment er støttet av publikasjonen PMID 26474497.
 
@@ -163,11 +163,12 @@ Flere fase 3-studier med store utvalg (blant annet NCT01872611 og NCT01853072) s
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
 
 <!-- review:end log -->
 

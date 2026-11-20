@@ -59,7 +59,7 @@ Velpatasvir er en hemmer av NS5A-proteinet i hepatitt C-viruset (HCV) og brukes 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er velpatasvir en NS5A-hemmer som brukes sammen med sofosbuvir (NS5B-polymerasehemmer) og i trippelkombinasjon med voksilaprevir mot HCV.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Velpatasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er velpatasvir en NS5A-hemmer som brukes sammen med sofosbuvir (NS5B-polymerasehemmer) og i trippelkombinasjon med voksilaprevir mot HCV.
 
 HBV er et DNA-virus med en annen replikasjonsmaskineri og har ingen kjent NS5A-motpart. Velpatasvir har derfor ingen etablert direkte aktivitet mot HBV. Det kliniske signalet er indirekte: HBV kan reaktiveres under behandling med direktevirkende antivirale midler (DAA) hos pasienter med HCV/HBV-saminfeksjon. I studien NCT04997564 gis SOF/VEL sammen med forebyggende tenofovir alafenamid (TAF), og det er TAF som gir anti-HBV-effekten, mens velpatasvir behandler HCV.
 
@@ -102,7 +102,6 @@ Ingen av publikasjonene dokumenterer at velpatasvir har direkte effekt mot HBV.
 | EMEA/H/C/004210 | Epclusa | Ikke oppgitt | Kronisk hepatitt C (kansellert) |
 | EMEA/H/C/004350 | Vosevi | Ikke oppgitt | Kronisk hepatitt C (kansellert) |
 
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -136,6 +135,19 @@ Velpatasvir har ingen kjent direkte aktivitet mot HBV, og de tilgjengelige studi
 - Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.
 
 **Merknad om de øvrige predikerte indikasjonene:** Hepatitt E, hepatitt A, hepatitt hos dyr, Omsk hemoragisk feber, Kyasanur-skogsykdom, feline immunsviktsyndrom, simian immunsviktvirus og en sjelden nevroutviklingsforstyrrelse har alle evidensnivå L4–L5 og anbefalingen «Hold». Det finnes ingen plausibel mekanisme, og de høye scorene ser ut til å være modellartefakter. For HIV-infeksjon (L3) gjelder dokumentasjonen behandling av HCV hos pasienter med HIV/HCV-samInfeksjon, ikke behandling av HIV.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

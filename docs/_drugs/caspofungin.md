@@ -58,7 +58,7 @@ Kaspofungin er et soppdrepende legemiddel (echinocandin) som opprinnelig brukes 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det innsamlede datagrunnlaget. Kaspofungin er likevel kjent som et echinocandin som hemmer beta-(1,3)-D-glukansyntase og dermed forstyrrer oppbyggingen av soppens cellevegg.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Caspofungin (uoffisiell oversettelse): «Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.» Engelsk originaltekst: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), versjon av 2024-10-11; hentet 2026-11-19). Kaspofungin er likevel kjent som et echinocandin som hemmer beta-(1,3)-D-glukansyntase og dermed forstyrrer oppbyggingen av soppens cellevegg.
 
 Pattedyrceller har ingen cellevegg av beta-glukan. Det er heller ingen kjent mekanisme som knytter denne virkningen til regulering av gastrin, funksjonen til G-celler eller utskillelse av magesyre. Det er derfor ikke etablert noen mekanistisk sammenheng mellom den opprinnelige indikasjonen (soppinfeksjoner) og den predikerte indikasjonen (forstyrrelse av gastrinsekresjon).
 
@@ -119,6 +119,19 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur. De
 - Prekliniske eller mekanistiske data som kan underbygge en kobling til gastrinsekresjon
 - Gjennomgang av litteratur og studieregistre for evidens ved gastrinrelaterte tilstander
 - Vurdere administrasjonsvei og forenlighet med den nye indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid artritt**,
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om bosentans detaljerte virkningsmekanisme var ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er bosentan en dobbel ETA/ETB-reseptorantagonist, og effekten er etablert ved pulmonal hypertensjon og systemisk sklerose.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bosentan (uoffisiell oversettelse): «Bosentan er en spesifikk og kompetitiv antagonist ved endotelinreseptortypene ET A og ET B. Bosentan har en noe høyere affinitet for ET A-reseptorer enn for ET B-reseptorer. Den kliniske betydningen av dobbel endotelinblokkade er ukjent.» Engelsk originaltekst: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), versjon av 2025-11-17; hentet 2026-11-19). Basert på kjent informasjon er bosentan en dobbel ETA/ETB-reseptorantagonist, og effekten er etablert ved pulmonal hypertensjon og systemisk sklerose.
 
 Endotelin-1 bidrar til synovial inflammasjon, angiogenese og vaskulær dysfunksjon. I prekliniske modeller (kollagen-indusert og zymosan-indusert artritt hos mus) reduserer bosentan leddsmerte (hypernocisepsjon) og inflammatoriske mediatorer som TNF-alfa og LTB4. Dette gir en plausibel mekanistisk kobling til revmatoid artritt.
 
@@ -128,6 +128,19 @@ Støtten for revmatoid artritt er begrenset til prekliniske dyremodeller, uten k
 ## Andre prediksjoner av interesse
 
 Prediksjonene (blant annet brachydaktyli-syndaktyli-syndrom, pseudoxanthoma elasticum forme fruste, kyfoskoliotisk hjertesykdom, elastom, urinsyregikt og hypertrikose) har kun modellstøtte eller ingen relevant evidens og anbefales satt på vent.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

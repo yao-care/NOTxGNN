@@ -59,7 +59,7 @@ Fidaxomicin er et smalspektret makrosyklisk antibiotikum som opprinnelig brukes 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Fidaxomicin er imidlertid kjent som et smalspektret makrosyklisk antibiotikum som hemmer bakterielt RNA-polymerase, og det er hovedsakelig aktivt mot grampositive anaerobe bakterier som *C. difficile*. Legemidlet har også en viss in vitro-aktivitet mot *Staphylococcus aureus*, og det er dette som gir den biologiske koblingen til den predikerte indikasjonen.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fidaxomicin (uoffisiell oversettelse): «Fidaksomicin er et antibakterielt legemiddel. […] Fidaksomicin er et fermenteringsprodukt fra aktinomyceten Dactylosporangium aurantiacum. Fidaksomicin er et makrolid antibakterielt legemiddel som hemmer RNA-syntesen ved å binde seg til RNA-polymeraser. Fidaksomicin er baktericid mot C. difficile in vitro og viser en postantibiotisk effekt mot C. difficile på 6–10 timer.» Engelsk originaltekst: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), versjon av 2024-10-16; hentet 2026-11-19). Fidaxomicin er imidlertid kjent som et smalspektret makrosyklisk antibiotikum som hemmer bakterielt RNA-polymerase, og det er hovedsakelig aktivt mot grampositive anaerobe bakterier som *C. difficile*. Legemidlet har også en viss in vitro-aktivitet mot *Staphylococcus aureus*, og det er dette som gir den biologiske koblingen til den predikerte indikasjonen.
 
 Stafylokokk-indusert skåldet hud-syndrom er imidlertid en toksinmediert sykdom (eksfoliative toksiner) som vanligvis behandles med systemiske antistafylokokk-midler. Fidaxomicin absorberes i minimal grad systemisk, og det er derfor lite sannsynlig at det når effektive konsentrasjoner i hud eller blod. Koblingen er dermed biologisk plausibel kun in vitro og er ikke støttet klinisk.
 
@@ -131,11 +131,12 @@ Prediksjonen bygger kun på modellscoren fra TxGNN-modellen (dyp læring) (evide
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->
 

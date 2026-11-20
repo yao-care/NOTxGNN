@@ -59,7 +59,7 @@ Raloxifen er en selektiv østrogenreseptormodulator (SERM) som opprinnelig bruke
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelig i de innsamlede dataene. Raloxifen er kjent som en SERM med østrogenagonistisk effekt i bein og antagonistisk effekt i bryst- og livmorvev. Farmakologidataene viser binding til østrogenreseptor-α (ESR1), østrogenreseptor-β (ESR2) og GPER (GPER1), i tillegg til en interaksjon med aldehydoksidase 1 (AOX1).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Raloxifene (uoffisiell oversettelse): «Raloksifen er en østrogenagonist/-antagonist, vanligvis omtalt som en selektiv østrogenreseptormodulator (SERM). De biologiske virkningene av raloksifen medieres i stor grad gjennom binding til østrogenreseptorer. Denne bindingen resulterer i aktivering av østrogene signalveier i enkelte vev (agonisme) og blokkering av østrogene signalveier i andre (antagonisme).» Engelsk originaltekst: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), versjon av 2026-02-11; hentet 2026-11-19). Raloxifen er kjent som en SERM med østrogenagonistisk effekt i bein og antagonistisk effekt i bryst- og livmorvev. Farmakologidataene viser binding til østrogenreseptor-α (ESR1), østrogenreseptor-β (ESR2) og GPER (GPER1), i tillegg til en interaksjon med aldehydoksidase 1 (AOX1).
 
 Det er ikke påvist noen mekanistisk sammenheng mellom den opprinnelige indikasjonen og duodenalt sår. Én spekulativ hypotese er at østrogenreseptorsignalering kan påvirke beskyttelsen av mage- og tolvfingertarmslimhinnen, men dette er ikke bekreftet. Den høye TxGNN-scoren er en ren beregningsmessig prediksjon uten støtte fra studier eller litteratur.
 
@@ -141,13 +141,14 @@ Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasj
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
 
 <!-- review:end log -->
 

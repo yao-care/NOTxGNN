@@ -61,7 +61,7 @@ Det finnes imidlertid **ingen kliniske studier og ingen publikasjoner** som stø
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er lorlatinib en hjernepenetrerende ALK/ROS1-hemmer, og effekten i ALK-positiv NSCLC er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lorlatinib (uoffisiell oversettelse): «Lorlatinib er en kinasehemmer med in vitro-aktivitet mot ALK og ROS1 samt TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2 og ACK. Lorlatinib viste in vitro-aktivitet mot flere muterte former av ALK-enzymet, inkludert enkelte mutasjoner påvist i tumorer ved sykdomsprogresjon under behandling med krizotinib og andre ALK-hemmere.» Engelsk originaltekst: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), versjon av 2026-06-26; hentet 2026-11-19). Basert på kjent informasjon er lorlatinib en hjernepenetrerende ALK/ROS1-hemmer, og effekten i ALK-positiv NSCLC er godt dokumentert.
 
 Analysen finner **ingen identifiserbar mekanistisk kobling** mellom ALK/ROS1-hemming og gingival fibromatose. Den høye TxGNN-scoren er en grafbasert prediksjon uten støtte fra kliniske studier eller litteratur. Prediksjonen bør derfor behandles som en hypotese, ikke som et funn.
 
@@ -128,6 +128,19 @@ Prediksjonen for gingival fibromatose kommer fra TxGNN-modellen (deep learning) 
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Prekliniske data eller en biologisk hypotese som kobler ALK/ROS1-signalering til gingival fibromatose
 - Dersom en reell ompurposing-retning ønskes, bør ALK-drevne svulster utenfor lunge (f.eks. nevroblastom, der det finnes fase 1-data) vurderes mer systematisk, siden de har langt sterkere evidens enn de øvrige prediksjonene
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

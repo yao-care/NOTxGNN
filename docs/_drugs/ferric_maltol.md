@@ -54,7 +54,7 @@ Ferric maltol er et oralt jernpreparat som brukes til å behandle jernmangel. Tx
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ferric maltol er et jernkompleks som gir jern til kroppen via tarmen, og effekten er knyttet til jernmangel.
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ferric Maltol (uoffisiell oversettelse): «ACCRUFER leverer jern for opptak over tarmveggen og overføring til transferrin og ferritin.» Engelsk originaltekst: "ACCRUFER delivers iron for uptake across the intestinal wall and transfer to transferrin and ferritin." ([DailyMed: Accrufer (ferric maltol) prescribing information, Shield TX (UK) Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=367ac157-2d25-4f34-99ce-b126e0f03851), versjon av 2026-01-02; hentet 2026-11-19). Ferric maltol er et jernkompleks som gir jern til kroppen via tarmen, og effekten er knyttet til jernmangel.
 
 Megaloblastær anemi skyldes vanligvis forstyrret DNA-syntese, typisk via B12- eller folatveier eller andre metabolske defekter, og ikke jernmangel. Når tilstanden er uavhengig av B12 og folat, er det ikke påvist noen klar mekanistisk kobling til jerntilskudd. Jerntilførsel ventes ikke å rette opp en slik defekt med mindre det samtidig foreligger jernmangel.
 
@@ -92,6 +92,18 @@ Prediksjonen mangler både klinisk og litteraturbasert støtte, og det finnes in
 - Relevante kliniske studier eller case-rapporter som direkte undersøker sykdommen
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Data om virkningsmekanisme (MOA)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Accrufer (ferric maltol) prescribing information, Shield TX (UK) Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=367ac157-2d25-4f34-99ce-b126e0f03851) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

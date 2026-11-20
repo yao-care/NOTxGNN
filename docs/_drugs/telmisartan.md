@@ -60,7 +60,7 @@ Blant de øvrige prediksjonene har **cerebral arterieokklusjon** (3 kliniske stu
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om telmisartans virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Telmisartan er imidlertid kjent som en AT1-reseptorblokker, og effekten ved hypertensjon er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Telmisartan (uoffisiell oversettelse): «Angiotensin II dannes fra angiotensin I i en reaksjon katalysert av angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det viktigste pressorstoffet i renin-angiotensin-systemet, med effekter som inkluderer vasokonstriksjon, stimulering av syntese og frigjøring av aldosteron, hjertestimulering og renal reabsorpsjon av natrium. […] Telmisartan blokkerer de vasokonstriktive og aldosteronutskillende effektene av angiotensin II ved selektivt å blokkere bindingen av angiotensin II til AT 1 -reseptoren i mange vev, som glatt muskulatur i blodkar og binyrene.» Engelsk originaltekst: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), versjon av 2026-11-02; hentet 2026-11-19). Telmisartan er imidlertid kjent som en AT1-reseptorblokker, og effekten ved hypertensjon er godt etablert.
 
 Den mulige koblingen til Prinzmetal angina går via angiotensin II-mediert vasospasme og endotelial dysfunksjon. Dette er en plausibel hypotese, men den støttes ikke av noe av materialet som er innhentet. Prediksjonen bygger derfor kun på modellens score.
 
@@ -177,13 +177,14 @@ For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle 12 godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden alle godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->
 

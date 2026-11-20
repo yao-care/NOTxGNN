@@ -60,7 +60,7 @@ men det finnes foreløpig **ingen registrerte kliniske studier** og bare **2 kas
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datamaterialet. Mometason er likevel kjent som et kortikosteroid som virker via glukokortikoidreseptoren (NR3C1). Gjennom denne reseptoren dempes betennelse og immunaktivering, blant annet T-cellenes aktivering og cytokinproduksjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mometasone (uoffisiell oversettelse): «Mometasonfuroat er et kortikosteroid som viser potent antiinflammatorisk aktivitet. Den nøyaktige virkningsmekanismen til kortikosteroider ved astma er ikke kjent. Inflammasjon er en viktig komponent i patogenesen ved astma.» Engelsk originaltekst: "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), versjon av 2026-07-07; hentet 2026-11-19). Mometason er likevel kjent som et kortikosteroid som virker via glukokortikoidreseptoren (NR3C1). Gjennom denne reseptoren dempes betennelse og immunaktivering, blant annet T-cellenes aktivering og cytokinproduksjon.
 
 Astma og kutant T-cellelymfom er ulike sykdommer, men begge involverer T-celle-drevne inflammatoriske prosesser. Topikale kortikosteroider er en etablert hudrettet behandling ved tidlig mycosis fungoides, den vanligste formen for kutant T-cellelymfom. Det finnes dermed en plausibel mekanistisk kobling.
 
@@ -127,11 +127,12 @@ Prediksjonen er mekanistisk plausibel, men støttes kun av modellscore og to kas
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og den norske/europeiske godkjenningen er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->
 

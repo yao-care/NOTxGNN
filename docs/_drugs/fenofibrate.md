@@ -54,7 +54,7 @@ Fenofibrat brukes opprinnelig til behandling av dyslipidemi. TxGNN-modellen pred
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Fenofibrat er imidlertid kjent som en PPARα-agonist som øker HDL-kolesterol og senker triglyserider. Dette skjer blant annet via økt lipoproteinlipase og apolipoprotein A-I/A-II, og via påvirkning av lipidtransferproteiner.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fenofibrate (uoffisiell oversettelse): «Den aktive delen av Antara er fenofibrinsyre. De farmakologiske effektene av fenofibrinsyre hos både dyr og mennesker er studert gjennom oral administrering av fenofibrat. De lipidmodifiserende effektene av fenofibrinsyre som ses i klinisk praksis, er forklart in vivo hos transgene mus og in vitro i humane hepatocyttkulturer ved aktivering av PPAR-alfa-reseptoren.» Engelsk originaltekst: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), versjon av 2025-10-01; hentet 2026-11-19). Fenofibrat er imidlertid kjent som en PPARα-agonist som øker HDL-kolesterol og senker triglyserider. Dette skjer blant annet via økt lipoproteinlipase og apolipoprotein A-I/A-II, og via påvirkning av lipidtransferproteiner.
 
 Den tilgjengelige litteraturen peker på en indirekte kobling. I transgene mus ga kombinasjonen av PPARα-agonisme og CETP-hemming økt HDL-C og lavere LDL-C (PMID 20332533). Induksjon av genet for fosfolipidtransferprotein (PLTP) forklarer HDL-økningen under fibratbehandling (PMID 11342537). Disse funnene beskriver modulering av HDL- og lipidtransportveien, men viser ikke at fenofibrat behandler CETP-mangel.
 
@@ -104,6 +104,19 @@ Ingen studier undersøker CETP-mangel direkte, så evidensnivået er L5 (kun mod
 - Preparatomtale med advarsler og kontraindikasjoner fra det norske legemiddelregisteret
 - Klinisk eller translasjonell dokumentasjon som viser at fenofibrat gir terapeutisk nytte ved CETP-mangel, med en klar klinisk begrunnelse for behandlingsmålet
 - Vurdering av administrasjonsvei og doseringsform (opplysninger mangler i dag)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -54,7 +54,7 @@ Ganirelix er en GnRH-reseptorantagonist som brukes i assistert befruktning. Den 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ganirelix blokkerer GnRH-reseptoren i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer også kjønnshormonproduksjonen, inkludert androgener fra gonadene. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene, men målet (GnRH-reseptoren, genet GNRHR) er kjent.
+Ganirelix blokkerer GnRH-reseptoren i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer også kjønnshormonproduksjonen, inkludert androgener fra gonadene. Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ganirelix (uoffisiell oversettelse): «Den pulsatile frisettingen av GnRH stimulerer syntesen og sekresjonen av luteiniserende hormon (LH) og follikkelstimulerende hormon (FSH). Frekvensen av LH-pulser i midtre og sene follikkelfase er omtrent 1 puls per time. […] Ganirelixacetat virker ved kompetitivt å blokkere GnRH-reseptorene på de gonadotrope cellene i hypofysen og den påfølgende transduksjonsveien.» Engelsk originaltekst: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), versjon av 2026-10-16; hentet 2026-11-19).
 
 I teorien kan lavere androgensignalering påvirke androgenavhengig hårvekst (hirsutisme). Hypertrikose er imidlertid vanligvis androgenuavhengig, så den mekanistiske koblingen er svak. Den høye scoren er en ren beregningsmessig prediksjon uten støtte fra studier eller litteratur. Prediksjonen bør derfor sees på som en hypotese, ikke som et funn.
 
@@ -100,6 +100,19 @@ Prediksjonen bygger kun på en modellscore, uten kliniske studier eller litterat
 - Preparatomtale med advarsler og kontraindikasjoner
 - Prekliniske eller kliniske data som direkte undersøker ganirelix ved hypertrikose
 - Vurdering av administrasjonsvei og dosering, siden ganirelix er et kortvirkende injeksjonspreparat
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

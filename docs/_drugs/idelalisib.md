@@ -61,7 +61,7 @@ og dataene som er sammenstilt for denne rapporten viser **5 kliniske studier** o
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Idelalisib er imidlertid kjent som en selektiv hemmer av PI3Kδ, en sentral komponent i B-cellereseptorsignalering. Mantelcellelymfom er avhengig av B-cellereseptor- og PI3Kδ-signalering, og dette gir et biologisk grunnlag for prediksjonen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Idelalisib (uoffisiell oversettelse): «Idelalisib er en hemmer av fosfatidylinositol-3-kinase, PI3Kδ, som uttrykkes i normale og maligne B-celler. Idelalisib induserte apoptose og hemmet proliferasjon i cellelinjer avledet fra maligne B-celler og i primære tumorceller.» Engelsk originaltekst: "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), versjon av 2026-09-10; hentet 2026-11-19). Idelalisib er imidlertid kjent som en selektiv hemmer av PI3Kδ, en sentral komponent i B-cellereseptorsignalering. Mantelcellelymfom er avhengig av B-cellereseptor- og PI3Kδ-signalering, og dette gir et biologisk grunnlag for prediksjonen.
 
 Mantelcellelymfom er en subtype av non-Hodgkin-lymfom, og er dermed i samme sykdomsklasse som den opprinnelige indikasjonen. Dette er derfor en utvidelse innenfor en beslektet sykdomsgruppe, ikke en fjern ompakking av legemidlet.
 
@@ -140,6 +140,19 @@ Den kliniske evidensen for MCL består hovedsakelig av små fase 1-studier med k
 - Resultater fra NCT01838434 (randomisert fase 2 med lenalidomid) for MCL-spesifikk effekt
 - Sammenligning med dagens standardbehandling (BTK-hemmere) og en vurdering av nytte/risiko gitt de kjente toksisitetene
 - Avklaring av regulatorisk vei, siden preparatet er kansellert i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

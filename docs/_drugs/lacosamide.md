@@ -58,7 +58,7 @@ Lacosamid er et antiepileptikum som virker på spenningsstyrte natriumkanaler. T
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i den innhentede informasjonen. Basert på kjent kunnskap forsterker lacosamid langsom inaktivering av spenningsstyrte natriumkanaler og påvirker proteinet CRMP2. Dette kan dempe nevronal hypereksitabilitet, og mekanismen er i prinsippet overførbar til stemningslidelser, slik det er sett med andre antiepileptika som brukes som stemningsstabilisatorer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lacosamide (uoffisiell oversettelse): «Den nøyaktige mekanismen som gjør at Lakosamid mikstur utøver sine antiepileptiske effekter hos mennesker, er ennå ikke fullstendig klarlagt. Elektrofysiologiske studier in vitro har vist at lakosamid selektivt forsterker langsom inaktivering av spenningsstyrte natriumkanaler, noe som fører til stabilisering av hypereksitable nevronmembraner og hemming av repetitiv nevronfyring.» Engelsk originaltekst: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), versjon av 2026-09-09; hentet 2026-11-19). Basert på kjent kunnskap forsterker lacosamid langsom inaktivering av spenningsstyrte natriumkanaler og påvirker proteinet CRMP2. Dette kan dempe nevronal hypereksitabilitet, og mekanismen er i prinsippet overførbar til stemningslidelser, slik det er sett med andre antiepileptika som brukes som stemningsstabilisatorer.
 
 Støtten er imidlertid begrenset. En retrospektiv 30-dagers sammenligning ved bipolar lidelse uten epilepsi, en åpen 12-ukers pilotstudie ved bipolar depresjon og enkelte kasuistikker utgjør hovedgrunnlaget. Merk at en kasuistikk beskriver nøytropeni utløst av lacosamid hos en pasient med bipolar lidelse, noe som er et sikkerhetssignal.
 
@@ -112,6 +112,19 @@ Det finnes ingen kliniske studier som direkte omhandler manisk bipolar lidelse, 
 - Detaljerte data om virkningsmekanisme
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Plan for hematologisk overvåking (f.eks. nøytrofile) og kontroll av hjerteledningsforstyrrelser
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

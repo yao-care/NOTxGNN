@@ -54,7 +54,7 @@ Aripiprazol er et atypisk antipsykotikum som brukes i Norge og Europa. TxGNN-mod
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanismen (MOA) er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Aripiprazol tilhører gruppen atypiske antipsykotika og virker generelt gjennom partiell agonisme på dopamin- og serotoninreseptorer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Aripiprazole (uoffisiell oversettelse): «Virkningsmekanismen til aripiprazol ved behandling av schizofreni og bipolar lidelse type I er ukjent. Effekten av aripiprazol kan være mediert gjennom en kombinasjon av partiell agonistaktivitet på dopamin D 2 - og serotonin 5-HT 1A -reseptorer og antagonistaktivitet på 5-HT 2A -reseptorer.» Engelsk originaltekst: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), versjon av 2025-04-04; hentet 2026-11-19). Aripiprazol tilhører gruppen atypiske antipsykotika og virker generelt gjennom partiell agonisme på dopamin- og serotoninreseptorer.
 
 Den predikerte sykdommen er en sjelden nevroutviklingsforstyrrelse knyttet til ROBO3. Den kjennetegnes av medfødt begrensning i horisontale øyebevegelser og progressiv skoliose. Det er ikke identifisert noen kjent mekanistisk kobling mellom dopamin- eller serotoninmodulering og denne tilstanden. Den høye prediksjonsscoren er derfor en ren modellprediksjon uten biologisk eller klinisk støtte i dataene vi har.
 
@@ -98,6 +98,18 @@ For øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, hen
 - Detaljerte mekanismedata (MOA) og en vurdering av mulig biologisk sammenheng mellom aripiprazols reseptorprofil og ROBO3-relatert patologi
 - Prekliniske eller kliniske data som direkte studerer denne tilstanden
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner før eventuell videre vurdering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -58,7 +58,7 @@ Natriumoksybat (GHB) brukes opprinnelig mot **katapleksi og narkolepsi**. TxGNN-
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon virker natriumoksybat som agonist på GABA-B- og GHB-reseptorer. Dette øker langsomme bølger (N3-søvn) og konsoliderer nattesøvnen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sodium Oxybate (uoffisiell oversettelse): «Xyrem er et CNS-dempende middel. Virkningsmekanismen til Xyrem ved behandling av narkolepsi er ukjent. Natriumoksybat er natriumsaltet av gammahydroksybutyrat (GHB), en endogen forbindelse og metabolitt av nevrotransmitteren GABA.» Engelsk originaltekst: "Xyrem is a CNS depressant. The mechanism of action of Xyrem in the treatment of narcolepsy is unknown. Sodium oxybate is the sodium salt of gamma-hydroxybutyrate (GHB), an endogenous compound and metabolite of the neurotransmitter GABA." ([DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca), versjon av 2025-07-01; hentet 2026-11-19). Basert på kjent informasjon virker natriumoksybat som agonist på GABA-B- og GHB-reseptorer. Dette øker langsomme bølger (N3-søvn) og konsoliderer nattesøvnen.
 
 Narkolepsi er preget av fragmentert nattesøvn, og effekten på søvnarkitektur er vist i små polysomnografiske studier. Dette gjør det biologisk plausibelt at legemidlet kan hjelpe ved insomni med søvnvedlikeholdsproblemer. En fase 2-studie har dessuten sammenlignet det direkte med zolpidem ved kronisk insomni.
 
@@ -124,6 +124,19 @@ Det finnes kun én liten, direkte relevant fase 2-studie (n=48) ved insomni, og 
 - Gjennomgå de publiserte resultatene fra NCT00383643, inkludert effekt og bivirkninger mot zolpidem
 - Større, kontrollerte fase 3-studier ved insomni, med en risikoreduserende plan (misbruk, respirasjon, interaksjoner)
 - Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

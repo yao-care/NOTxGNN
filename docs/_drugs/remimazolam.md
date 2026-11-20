@@ -61,7 +61,7 @@ Foreløpig finnes det **ingen kliniske studier og ingen publikasjoner** i de sam
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Remimazolam er et benzodiazepin med ultrakort virketid. Det virker som positiv allosterisk modulator av GABA-A-reseptoren. Data om virkningsmekanisme (MOA) fra legemiddeldatabasen mangler i de sammenstilte dataene, så beskrivelsen under bygger på generell farmakologi og ikke på de innsendte dataene.
+Remimazolam er et benzodiazepin med ultrakort virketid. Det virker som positiv allosterisk modulator av GABA-A-reseptoren. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Remimazolam (uoffisiell oversettelse): «BYFAVO er et benzodiazepin. BYFAVO binder seg til benzodiazepinseter i hjernen (gamma-aminosmørsyre type A [GABA A ]-reseptorer), mens karboksylsyremetabolitten (CNS7054) har 300 ganger lavere affinitet for reseptoren.» Engelsk originaltekst: "BYFAVO is a benzodiazepine. BYFAVO binds to brain benzodiazepine sites (gamma amino butyric acid type A [GABA A ] receptors), while its carboxylic acid metabolite (CNS7054) has a 300 times lower affinity for the receptor." ([DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f), versjon av 2025-02-20; hentet 2026-11-19).
 
 Siden virkningen er den samme som hos etablerte benzodiazepiner mot søvnløshet, er en sedativ-hypnotisk effekt biologisk plausibel. Både sedasjon og insomnibehandling handler om å øke hemmende GABA-aktivitet i sentralnervesystemet.
 
@@ -117,6 +117,19 @@ Prediksjonene bygger kun på modellscore og klassebasert mekanismelikhet (eviden
 - Systematisk litteratur- og studiesøk for insomni og alkoholabstinens
 - Vurdering av administrasjonsvei og farmakokinetikk (infusjon vs. egnet formulering) for de nye indikasjonene
 - Avklaring av godkjenningsstatus i Norge, siden eksisterende godkjenning er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

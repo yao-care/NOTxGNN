@@ -63,7 +63,7 @@ Merk: Blant alle prediksjonene er pankreasagenesi (score 0,9943, evidensnivå L4
 
 ## Hvorfor er prediksjonen rimelig?
 
-Data om virkningsmekanisme er foreløpig ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon er insulin glargin et basalinsulin-analog, og effekten ved diabetes mellitus er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Insulin Glargine (uoffisiell oversettelse): «Den primære aktiviteten til insulin, inkludert insulin glargin-produkter, er regulering av glukosemetabolismen. Insulin og dets analoger senker blodglukose ved å stimulere perifert glukoseopptak, særlig i skjelettmuskulatur og fettvev, og ved å hemme glukoseproduksjonen i leveren.» Engelsk originaltekst: "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810), versjon av 2026-10-15; hentet 2026-11-19). Basert på kjent informasjon er insulin glargin et basalinsulin-analog, og effekten ved diabetes mellitus er godt dokumentert.
 
 **Autoimmun ooforitt (rangert først):** Sammenhengen er sannsynligvis et utslag av at tilstanden ofte opptrer sammen med autoimmune endokrinopatier, for eksempel polyglandulære syndromer med type 1-diabetes. Insulinerstatning behandler ikke autoimmunitet i eggstokkene. Prediksjonen gjenspeiler trolig samforekomst, ikke en terapeutisk effekt.
 
@@ -140,6 +140,19 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 - Kliniske data og kasuistikker som spesifikt gjelder insulin glargin ved pankreasagenesi
 - Avklaring av gjeldende markedsstatus i Norge og tilgjengelige administrasjonsveier
 - Vurdering av om de høyest rangerte prediksjonene (autoimmun ooforitt, stiff person-syndrom) kun reflekterer samforekomst med diabetes
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

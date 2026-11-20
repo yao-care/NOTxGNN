@@ -58,7 +58,7 @@ Levodopa er en forløper for dopamin og brukes opprinnelig til behandling av Par
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Levodopa er kjent som en dopaminforløper, og effekten ved Parkinsons sykdom er godt dokumentert. Hvorvidt den kan overføres til Rasmussens encefalitt, er imidlertid uklart.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Levodopa (uoffisiell oversettelse): «Levodopa, den metabolske forløperen til dopamin, krysser blod-hjerne-barrieren og omdannes antagelig til dopamin i hjernen. Dette antas å være mekanismen som gjør at levodopa lindrer symptomer på Parkinsons sykdom.» Engelsk originaltekst: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), versjon av 2026-07-20; hentet 2026-11-19). Levodopa er kjent som en dopaminforløper, og effekten ved Parkinsons sykdom er godt dokumentert. Hvorvidt den kan overføres til Rasmussens encefalitt, er imidlertid uklart.
 
 Rasmussens encefalitt er en sjelden, kronisk og vanligvis ensidig nevroinflammatorisk sykdom. Den er drevet av T-celle-mediert cytotoksisitet og er forbundet med vanskelig behandlbar fokal epilepsi og progressiv atrofi i en hjernehalvdel. En mulig kobling kan ligge i dopaminerg modulering av nevroinflammasjon eller motoriske symptomer, men dette er spekulativt og ikke støttet av noen studie eller publikasjon i dataene.
 
@@ -140,12 +140,13 @@ Prediksjonen er kun modellbasert (L5) uten støtte fra kliniske studier eller li
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle fire godkjenninger er registrert som opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er alle godkjenninger i Norge opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

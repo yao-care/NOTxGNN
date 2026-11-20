@@ -61,7 +61,7 @@ men for denne indikasjonen finnes det **ingen kliniske studier** og **ingen publ
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datamaterialet som er samlet inn for denne rapporten. Basert på kjent informasjon er inklisiran et siRNA som er rettet mot PCSK9-mRNA i leverceller og senker LDL-kolesterol. Effekten ved hyperkolesterolemi er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Inclisiran (uoffisiell oversettelse): «Inklisiran er et dobbelttrådet lite interfererende ribonukleinsyremolekyl (siRNA), konjugert på sensetråden med triantennær N-acetylgalaktosamin (GalNAc) for å fremme opptak i hepatocytter. I hepatocytter benytter inklisiran RNA-interferensmekanismen og styrer katalytisk nedbrytning av mRNA for PCSK9.» Engelsk originaltekst: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), versjon av 2026-08-19; hentet 2026-11-19). Basert på kjent informasjon er inklisiran et siRNA som er rettet mot PCSK9-mRNA i leverceller og senker LDL-kolesterol. Effekten ved hyperkolesterolemi er etablert.
 
 Det er imidlertid ikke identifisert noen plausibel mekanistisk kobling til kaliumhomeostase. Inklisiran har ingen kjent rolle i reguleringen av kalium. Den høye TxGNN-scoren er en ren modellprediksjon uten støtte i kliniske data eller litteratur, og likheten med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -140,13 +140,14 @@ Prediksjonen om kaliummangelsykdom bygger kun på en modellscore (evidensnivå L
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Tillatelsen er avregistrert (status: «cancelled»)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er den eneste registrerte tillatelsen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Dataene som er samlet inn til denne rapporten inneholder **én liten åpen pilot
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Abatacept er likevel kjent som en blokkering av T-celle-kostimulering via CD28/CTLA-4-banen. Mekanismen er biologisk plausibel ved immunmedierte leddsykdommer, og spondyloartritt tilhører denne gruppen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Abatacept (uoffisiell oversettelse): «Abatacept, en selektiv kostimuleringsmodulator, hemmer T-celle (T-lymfocytt)-aktivering ved å binde seg til CD80 og CD86, og blokkerer dermed interaksjonen med CD28. Denne interaksjonen gir et kostimulerende signal som er nødvendig for full aktivering av T-lymfocytter.» Engelsk originaltekst: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb), versjon av 2025-11-13; hentet 2026-11-19). Abatacept er likevel kjent som en blokkering av T-celle-kostimulering via CD28/CTLA-4-banen. Mekanismen er biologisk plausibel ved immunmedierte leddsykdommer, og spondyloartritt tilhører denne gruppen.
 
 Den høye prediksjonsscoren peker på likhet mellom ankyloserende spondylitt og sykdommer legemidlet allerede brukes mot. Klinisk støtte er imidlertid svak. Oversiktsartikler (blant annet Sieper 2016) fremhever at TNF-hemmere og IL-17-hemmere er effektive ved aksial spondyloartritt. Biologiske midler rettet mot T-celler, inkludert abatacept, er derimot ikke vist å være effektive.
 
@@ -128,6 +128,19 @@ Mekanismen er plausibel, men den eneste direkte kliniske støtten er to små, å
 - Vurdering av abatacepts plass i forhold til etablerte TNF- og IL-17-hemmere
 - Pakningsvedlegg med advarsler og kontraindikasjoner til sikkerhetsvurdering
 - Mekanismedata (MOA) som kan underbygge koblingen til aksial sykdom
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

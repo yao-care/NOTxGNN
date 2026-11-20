@@ -65,7 +65,7 @@ Rivastigmin hemmer både acetylkolinesterase og butyrylkolinesterase. Når nedbr
 
 En preklinisk studie fra 2000 viste at lokalt applisert rivastigmin senket øyetrykket hos kaniner med normalt trykk. En analyse fra 2024 av kolinerge midler for senking av IOP gir ytterligere mekanistisk bakgrunn. Dette gjør prediksjonen biologisk plausibel.
 
-Vær oppmerksom på at dokumentasjonen kun er preklinisk og beregningsbasert. Det foreligger ingen humane data på effekt eller okulær sikkerhet for rivastigmin ved glaukom. Den høye TxGNN-scoren er en modellprediksjon og regnes ikke som klinisk evidens. Data om opprinnelig virkningsmekanisme (MOA) mangler i datagrunnlaget, så mekanismen over er utledet fra kjent farmakologi og ikke fra den innsamlede dokumentasjonen.
+Vær oppmerksom på at dokumentasjonen kun er preklinisk og beregningsbasert. Det foreligger ingen humane data på effekt eller okulær sikkerhet for rivastigmin ved glaukom. Den høye TxGNN-scoren er en modellprediksjon og regnes ikke som klinisk evidens. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rivastigmine (uoffisiell oversettelse): «Selv om den nøyaktige virkningsmekanismen til rivastigmin er ukjent, antas rivastigmin å utøve sin terapeutiske effekt ved å forsterke kolinerg funksjon. Dette oppnås ved å øke konsentrasjonen av acetylkolin gjennom reversibel hemming av dets hydrolyse ved kolinesterase.» Engelsk originaltekst: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), versjon av 2025-11-11; hentet 2026-11-19).
 
 ---
 
@@ -80,7 +80,6 @@ Vær oppmerksom på at dokumentasjonen kun er preklinisk og beregningsbasert. De
 ---
 
 ## Markedsinformasjon for Norge
-
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -120,6 +119,19 @@ Evidensen er begrenset til én kaninstudie og to oversiktsarbeider, uten klinisk
 - Detaljerte data om virkningsmekanisme (MOA)
 - Humane data på effekt og okulær sikkerhet for rivastigmin ved glaukom, inkludert en vurdering av egnet administrasjonsvei (f.eks. lokal øyeapplikasjon)
 - Vurdering av kontraindikasjoner og interaksjoner (bl.a. bradykardi/hjerteledningsforstyrrelser, astma/KOLS og antikolinerge midler) i en eventuell glaukompopulasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

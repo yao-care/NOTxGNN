@@ -60,7 +60,7 @@ men for denne diagnosen er det **ingen kliniske studier** og **ingen publikasjon
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Cetuximab er kjent som et monoklonalt antistoff som binder EGFR (epidermal growth factor receptor) og hemmer reseptorens signalering. Legemidlet brukes ved EGFR-uttrykkende kreftformer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cetuximab (uoffisiell oversettelse): «Epidermal vekstfaktorreseptor (EGFR, HER1, c-ErbB-1) er et transmembrant glykoprotein som tilhører en underfamilie av type I-reseptortyrosinkinaser som omfatter EGFR, HER2, HER3 og HER4. EGFR uttrykkes konstitutivt i mange normale epitelvev, inkludert hud og hårfollikler. […] Cetuksimab bindes spesifikt til EGFR på både normale celler og tumorceller, og hemmer kompetitivt bindingen av epidermal vekstfaktor (EGF) og andre ligander, som transformerende vekstfaktor-alfa.» Engelsk originaltekst: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), versjon av 2026-04-16; hentet 2026-11-19). Cetuximab er kjent som et monoklonalt antistoff som binder EGFR (epidermal growth factor receptor) og hemmer reseptorens signalering. Legemidlet brukes ved EGFR-uttrykkende kreftformer.
 
 Koblingen til bronkiale karsinoider hos barn er ikke etablert. Disse svulstene er typisk nevroendokrine og vanligvis ikke drevet av EGFR. Prediksjonen er derfor kun modellbasert, og en mekanistisk begrunnelse støttes ikke av dataene.
 
@@ -118,6 +118,19 @@ Prediksjonen bygger kun på modellen. Det finnes ingen kliniske studier eller pu
 - Prekliniske data eller kasuistikker som direkte omhandler sykdommen
 - Innhenting og gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av nytte-risiko i en pediatrisk populasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

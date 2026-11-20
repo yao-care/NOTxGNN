@@ -61,7 +61,7 @@ Olanzapin er et antipsykotikum som opprinnelig brukes mot schizofreni og bipolar
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er satt sammen for denne rapporten. Basert på kjent informasjon blokkerer olanzapin 5-HT2A/2C-, D2- og H1-reseptorer. Dette kan dempe den økte aktiveringen (hyperarousal) og den serotonerge dysreguleringen som antas å spille en rolle ved panikklidelse og angst.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Olanzapine (uoffisiell oversettelse): «Virkningsmekanismen til olanzapin ved de angitte indikasjonene er uklar. Effekten av olanzapin ved schizofreni kan imidlertid være mediert gjennom en kombinasjon av dopamin- og serotonin type 2 (5HT 2 )-antagonisme.» Engelsk originaltekst: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), versjon av 2026-10-26; hentet 2026-11-19). Basert på kjent informasjon blokkerer olanzapin 5-HT2A/2C-, D2- og H1-reseptorer. Dette kan dempe den økte aktiveringen (hyperarousal) og den serotonerge dysreguleringen som antas å spille en rolle ved panikklidelse og angst.
 
 Agorafobi studeres vanligvis sammen med panikklidelse. Den eksisterende støtten for olanzapin kommer fra behandlingsresistent panikklidelse (med eller uten agorafobi), der olanzapin er brukt som tilleggsbehandling til SSRI. Systematiske oversikter over behandlingsresistent panikklidelse og angstlidelser plasserer antipsykotisk tilleggsbehandling som et alternativ med lav evidens.
 
@@ -89,7 +89,6 @@ Currently no related clinical trials registered (ingen registrerte kliniske stud
 ---
 
 ## Markedsinformasjon for Norge
-
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -131,6 +130,19 @@ Støtten for agorafobi/panikklidelse er begrenset til én liten åpen studie, ka
 - Data om virkningsmekanisme (MOA)
 - Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
 - Plan for overvåking av metabolsk risiko, sedasjon og legemiddelinteraksjoner (spesielt bupropion og morfin)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

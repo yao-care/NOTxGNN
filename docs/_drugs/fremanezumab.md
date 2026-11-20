@@ -54,7 +54,7 @@ Fremanezumab er et monoklonalt antistoff som er godkjent mot migrene. TxGNN-mode
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Fremanezumab er et antistoff rettet mot CGRP (calcitonin gene-related peptide), og brukes til å forebygge migrene. Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten.
+Fremanezumab er et antistoff rettet mot CGRP (calcitonin gene-related peptide), og brukes til å forebygge migrene. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fremanezumab (uoffisiell oversettelse): «Fremanezumab-vfrm er et humanisert monoklonalt antistoff som binder seg til liganden kalsitoningenrelatert peptid (CGRP) og blokkerer dens binding til reseptoren.» Engelsk originaltekst: "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), versjon av 2026-06-05; hentet 2026-11-19).
 
 Atrofoderma vermiculata er en sjelden hudsykdom med atrofi rundt hårfollikler. Det er ikke dokumentert noen CGRP-mediert patofysiologi for denne tilstanden, og det er ikke etablert noen mekanistisk kobling mellom legemidlet og sykdommen. Den høye prediksjonsscoren er utelukkende et beregningsmessig resultat og er ikke støttet av klinisk eller prekliniske data. Prediksjonen må derfor ses på som en hypotese som ikke er underbygget.
 
@@ -88,6 +88,19 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, li
 - Prekliniske data eller kasuistikker som direkte omhandler sykdommen
 - Informasjon fra pakningsvedlegget om advarsler og kontraindikasjoner for sikkerhetsvurdering
 - Vurdering av administrasjonsvei og formulering for en eventuell ny indikasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

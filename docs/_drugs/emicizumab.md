@@ -56,7 +56,7 @@ men det finnes **ingen kliniske studier og ingen publikasjoner** som direkte st�
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er emicizumab et bispesifikt antistoff som binder aktivert faktor IX og faktor X og dermed erstatter kofaktorfunksjonen til faktor VIIIa. Bindingen skjer til de koagulasjonsfaktorene som er målproteiner for legemidlet (F9 og F10).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Emicizumab (uoffisiell oversettelse): «HEMLIBRA danner en bro mellom aktivert faktor IX og faktor X for å gjenopprette funksjonen til manglende aktivert faktor VIII, som er nødvendig for effektiv hemostase.» Engelsk originaltekst: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), versjon av 2025-07-11; hentet 2026-11-19). Ut fra kjent informasjon er emicizumab et bispesifikt antistoff som binder aktivert faktor IX og faktor X og dermed erstatter kofaktorfunksjonen til faktor VIIIa. Bindingen skjer til de koagulasjonsfaktorene som er målproteiner for legemidlet (F9 og F10).
 
 Pseudo-von Willebrands sykdom er en blodplateforstyrrelse forårsaket av en «gain-of-function»-endring i GP1BA, som gir økt binding av von Willebrand-faktor. Dette er en defekt i blodplater og VWF, ikke en mangel på faktor VIII-kofaktor. Det finnes derfor ingen tydelig mekanistisk begrunnelse for at emicizumab skal virke her, og den høye scoren må ses som en ren modellprediksjon.
 
@@ -98,6 +98,19 @@ Prediksjonen for pseudo-von Willebrands sykdom bygger kun på modellscore, uten 
 - Detaljerte data om virkningsmekanisme
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - En vurdering av trombose­risiko ved bruk i en populasjon med blodplatedefekt
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

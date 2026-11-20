@@ -61,7 +61,7 @@ og foreløpig finnes det **2 kliniske studier** (begge ikke spesifikke for lipos
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de kompilerte dataene. Temsirolimus er imidlertid et velkjent rapamycin-analog og en mTOR-hemmer, og effekten er dokumentert ved nyrecellekarsinom og mantelcellelymfom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Temsirolimus (uoffisiell oversettelse): «Temsirolimus er en hemmer av mTOR (mammalian target of rapamycin). Temsirolimus bindes til et intracellulært protein (FKBP-12), og protein–legemiddelkomplekset hemmer aktiviteten til mTOR, som kontrollerer celledeling. Hemming av mTOR-aktivitet førte til vekststans i G1-fasen i behandlede tumorceller.» Engelsk originaltekst: "Temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin). Temsirolimus binds to an intracellular protein (FKBP-12), and the protein-drug complex inhibits the activity of mTOR that controls cell division. Inhibition of mTOR activity resulted in a G1 growth arrest in treated tumor cells." ([DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736), versjon av 2020-03-30; hentet 2026-11-19). Temsirolimus er imidlertid et velkjent rapamycin-analog og en mTOR-hemmer, og effekten er dokumentert ved nyrecellekarsinom og mantelcellelymfom.
 
 PI3K/AKT/mTOR-signalveien er ofte aktivert i bløtvevssarkomer, inkludert liposarkom. Ved velddifferensierte og dedifferensierte liposarkomer er dessuten MDM2/CDK4-amplifikasjon knyttet til krysskommunikasjon med PI3K/mTOR-signalering. Dette gir et plausibelt biologisk grunnlag for mTOR-hemming.
 
@@ -152,12 +152,13 @@ Det biologiske grunnlaget (mTOR-signalering i sarkomer) er plausibelt og TxGNN-s
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske/europeiske tillatelsen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
 
 <!-- review:end log -->
 

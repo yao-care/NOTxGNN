@@ -58,7 +58,7 @@ Meropenem er et bredspektret karbapenem-antibiotikum. TxGNN-modellen forutsier a
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent farmakologi er meropenem et bredspektret karbapenem som hemmer bakteriell celleveggsyntese ved binding til penicillinbindende proteiner. Det har aktivitet mot både gramnegative og grampositive bakterier, blant annet *Burkholderia pseudomallei*.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Meropenem (uoffisiell oversettelse): «Meropenem er et antibakterielt legemiddel. […] Den baktericide aktiviteten til meropenem skyldes hemming av celleveggsyntesen. Meropenem penetrerer celleveggen hos de fleste gram-positive og gram-negative bakterier og bindes til penicillinbindende protein (PBP)-mål.» Engelsk originaltekst: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), versjon av 2026-11-02; hentet 2026-11-19). Basert på kjent farmakologi er meropenem et bredspektret karbapenem som hemmer bakteriell celleveggsyntese ved binding til penicillinbindende proteiner. Det har aktivitet mot både gramnegative og grampositive bakterier, blant annet *Burkholderia pseudomallei*.
 
 Bakteriell artritt og andre ben- og leddinfeksjoner skyldes ofte bakterier som er følsomme for denne typen antibiotika. Det er derfor mekanistisk plausibelt at meropenem kan være aktuelt, særlig ved infeksjoner med multiresistente gramnegative bakterier. Data om vevspenetrasjon finnes for lungevev, men ikke spesifikt for ledd.
 
@@ -125,6 +125,18 @@ Prediksjonen har svært høy modellscore (0,9992) og er mekanistisk plausibel, m
 - Data om leddpenetrasjon og dosering i synovialvæske
 - Detaljerte data om virkningsmekanisme og preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av plass i behandlingen i forhold til etablerte regimer og antibiotikastyring (reservert for multiresistente patogener)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

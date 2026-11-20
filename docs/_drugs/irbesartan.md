@@ -54,7 +54,7 @@ Irbesartan er en selektiv blokker av angiotensin II type 1-reseptoren (AT1). TxG
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig i de innsamlede dataene. Irbesartan tilhører klassen angiotensin II-reseptorblokkere og hemmer det reninangiotensinsystemet (RAS) via AT1-reseptoren.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Irbesartan (uoffisiell oversettelse): «Angiotensin II er en potent vasokonstriktor som dannes fra angiotensin I i en reaksjon katalysert av angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det primære vasoaktive hormonet i renin-angiotensinsystemet og en viktig komponent i patofysiologien ved hypertensjon. […] Irbesartan blokkerer de vasokonstriktive og aldosteronfrigjørende effektene av angiotensin II ved selektiv binding til AT 1 angiotensin II-reseptoren, som finnes i mange vev (f.eks. glatt muskulatur i blodkar, binyre).» Engelsk originaltekst: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), versjon av 2026-08-24; hentet 2026-11-19). Irbesartan tilhører klassen angiotensin II-reseptorblokkere og hemmer det reninangiotensinsystemet (RAS) via AT1-reseptoren.
 
 Aktivering av RAS antas å bidra til utviklingen av malign nefrosklerose. Det gir en biologisk plausibel kobling mellom AT1-blokade og nyreskade ved malign hypertensjon. Legemidlet har dessuten en kjent rolle i nyrebeskyttelse, for eksempel ved diabetisk nefropati.
 
@@ -89,6 +89,19 @@ Prediksjonen er kun modellbasert (L5). Det finnes ingen kliniske studier eller p
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner, særlig ved alvorlig nyrefunksjonsnedsettelse og risiko for hyperkalemi
 - Dersom det er aktuelt, en eksplorativ klinisk studie eller registerstudie før en beslutning om å gå videre
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

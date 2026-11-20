@@ -54,7 +54,7 @@ Tocilizumab er et humanisert monoklonalt antistoff som blokkerer interleukin-6-r
 
 ## Hvorfor kan denne prediksjonen virke rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Tocilizumab er et antistoff mot IL-6-reseptoren, og legemidlet har dokumentert effekt ved flere inflammatoriske tilstander. Mekanistisk kan det derfor være aktuelt også ved ankyloserende spondylitt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tocilizumab (uoffisiell oversettelse): «Tocilizumabpreparater bindes til både løselige og membranbundne IL-6-reseptorer (sIL-6R og mIL-6R), og har vist seg å hemme IL-6-mediert signalering via disse reseptorene. IL-6 er et pleiotropt proinflammatorisk cytokin som produseres av en rekke celletyper, inkludert T- og B-celler, lymfocytter, monocytter og fibroblaster.» Engelsk originaltekst: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), versjon av 2026-10-20; hentet 2026-11-19). Tocilizumab er et antistoff mot IL-6-reseptoren, og legemidlet har dokumentert effekt ved flere inflammatoriske tilstander. Mekanistisk kan det derfor være aktuelt også ved ankyloserende spondylitt.
 
 IL-6-signalering antas å bidra til betennelse og benombygging ved spondyloartritt. Det gir et plausibelt biologisk grunnlag for å blokkere IL-6-reseptoren. Plausibilitet er likevel ikke det samme som dokumentert effekt. Oversiktsartiklene i materialet plasserer IL-6-hemming utenfor etablert behandling av ankyloserende spondylitt, der TNF-hemmere og IL-17-hemmere er standard.
 
@@ -117,6 +117,18 @@ For advarsler og kontraindikasjoner, se preparatomtalen.
 - Hente inn detaljerte data om virkningsmekanisme.
 - Hente inn sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen.
 - Sammenligne med etablert behandling (TNF-hemmere og IL-17-hemmere) før eventuell videre prioritering.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

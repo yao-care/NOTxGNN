@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypertrikose**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Cetrorelix blokkerer GnRH-reseptoren (GNRHR) i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer i sin tur produksjonen av kjønnshormoner, inkludert androgener fra gonadene. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen var ikke tilgjengelige i datamaterialet som er samlet inn til denne rapporten, så beskrivelsen bygger på kjent farmakologi.
+Cetrorelix blokkerer GnRH-reseptoren (GNRHR) i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer i sin tur produksjonen av kjønnshormoner, inkludert androgener fra gonadene. Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cetrorelix (uoffisiell oversettelse): «GnRH induserer produksjon og frigjøring av luteiniserende hormon (LH) og follikkelstimulerende hormon (FSH) fra de gonadotrope cellene i adenohypofysen. På grunn av en positiv østradiol (E2)-tilbakekobling midt i syklus økes frigjøringen av GnRH, noe som resulterer i en LH-topp.» Engelsk originaltekst: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), versjon av 2025-09-22; hentet 2026-11-19).
 
 Teoretisk kan lavere androgenpådriv hjelpe ved androgenavhengig hirsutisme. Hypertrikose er imidlertid vanligvis androgenuavhengig, så den mekanistiske koblingen er svak. Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens eller farmakologiske eller kliniske funn.
 
@@ -140,12 +140,13 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studi
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og at markedsføringstillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Fjernet: «og legemidlets markedsstatus i Norge er «kun trukket tilbake»» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
 
 <!-- review:end log -->
 

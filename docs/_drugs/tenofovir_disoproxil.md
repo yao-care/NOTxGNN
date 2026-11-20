@@ -60,7 +60,7 @@ Støtten består av **0 kliniske studier** og **20 publikasjoner**, hovedsakelig
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Basert på kjent kunnskap er tenofovir disoproxil en nukleotid revers transkriptase-hemmer (NRTI). Etter omdanning inne i cellen til tenofovirdifosfat hemmer det viral DNA-syntese gjennom kjedeterminering.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tenofovir Disoproxil (uoffisiell oversettelse): «Tenofovirdisoproksilfumarat er et antiviralt legemiddel. […] Tenofovirdisoproksilfumarat er en asyklisk nukleosidfosfonatdiester-analog av adenosinmonofosfat. Tenofovirdisoproksilfumarat krever innledende diesterhydrolyse for omdannelse til tenofovir og påfølgende fosforyleringer av cellulære enzymer for å danne tenofovirdifosfat (TFV-DP), en obligat kjedeterminator.» Engelsk originaltekst: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), versjon av 2025-02-18; hentet 2026-11-19). Basert på kjent kunnskap er tenofovir disoproxil en nukleotid revers transkriptase-hemmer (NRTI). Etter omdanning inne i cellen til tenofovirdifosfat hemmer det viral DNA-syntese gjennom kjedeterminering.
 
 SIV og SHIV har en revers transkriptase som ligner svært mye på HIV-1. Mekanismen er derfor sannsynligvis overførbar. Makakkstudier av PrEP og antiretroviral behandling, også i kombinasjon med emtricitabin, støtter effekt i prekliniske modeller.
 
@@ -135,6 +135,19 @@ Den predikerte indikasjonen (SIV) er en dyremodell uten klinisk studie og uten s
 - Hente og analysere pakningsvedlegg (advarsler og kontraindikasjoner) fra legemiddelmyndighetene, som er en blokkerende datamangel for sikkerhetsscreening
 - Fremskaffe data om virkningsmekanisme fra DrugBank
 - Avklare om et reelt humant repurposing-mål finnes, siden de øvrige prediksjonene (FIV, nevroutviklingsforstyrrelse, foreldet hyperlipidemi) mangler biologisk begrunnelse
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

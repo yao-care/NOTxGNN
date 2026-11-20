@@ -54,7 +54,7 @@ Certolizumab pegol er en TNF-alfa-hemmer som er brukt ved revmatologiske sykdomm
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er foreløpig ikke tilgjengelig i de sammenstilte dataene. Certolizumab pegol er et pegylert antigenbindende fragment (Fab) av et humanisert antistoff som nøytraliserer TNF-alfa. Legemidlet brukes ved tilstander der TNF-drevet betennelse er sentral.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Certolizumab Pegol (uoffisiell oversettelse): «Certolizumab pegol binder seg til humant TNFα med en KD på 90pM. TNFα er et sentralt proinflammatorisk cytokin med en sentral rolle i inflammatoriske prosesser. Certolizumab pegol nøytraliserer TNFα selektivt (IC 90 på 4 ng/ml for hemming av humant TNFα i in vitro-cytotoksisitetsanalysen med L929 murint fibrosarkom), men nøytraliserer ikke lymfotoksin α (TNFβ).» Engelsk originaltekst: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), versjon av 2026-10-29; hentet 2026-11-19). Certolizumab pegol er et pegylert antigenbindende fragment (Fab) av et humanisert antistoff som nøytraliserer TNF-alfa. Legemidlet brukes ved tilstander der TNF-drevet betennelse er sentral.
 
 Hypermobilitet av coccyx er en mekanisk/strukturell tilstand i halebenet. Det er ingen plausibel TNF-mediert inflammatorisk mekanisme som knytter tilstanden til legemidlets virkemåte. Den høye modellscoren (0,9975) er derfor ikke støttet av mekanistiske eller kliniske holdepunkter, og prediksjonen bør tolkes med stor forsiktighet.
 
@@ -93,6 +93,19 @@ Prediksjonen er kun modellbasert uten kliniske studier eller litteratur, og det 
 - Data om virkningsmekanisme (MOA) og en begrunnet mekanistisk hypotese for tilstanden
 - Prekliniske eller kliniske data som direkte studerer hypermobilitet av coccyx
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner for sikkerhetsvurdering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

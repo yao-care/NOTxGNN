@@ -54,7 +54,7 @@ Glimepirid er et legemiddel i sulfonylureagruppen. TxGNN-modellen forutsier at d
 
 ## Hvorfor kan prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Glimepirid tilhører sulfonylureaene, som virker på KATP-kanaler i bukspyttkjertelens betaceller og øker insulinutskillelsen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Glimepiride (uoffisiell oversettelse): «Glimepirid senker blodglukose hovedsakelig ved å stimulere frisetting av insulin fra betaceller i pankreas. Sulfonylureaer binder seg til sulfonylureareseptoren i plasmamembranen til betacellene i pankreas, noe som fører til lukking av den ATP-sensitive kaliumkanalen og dermed stimulerer frisetting av insulin.» Engelsk originaltekst: "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa), versjon av 2024-08-20; hentet 2026-11-19). Glimepirid tilhører sulfonylureaene, som virker på KATP-kanaler i bukspyttkjertelens betaceller og øker insulinutskillelsen.
 
 Stive-lem-syndromer henger sammen med autoimmun svekkelse av GABAerg og glycinerg hemming (blant annet anti-GAD65-antistoffer), og forekommer hyppig sammen med diabetes og andre autoimmune sykdommer. Dette er en mulig, men uverifisert forbindelse. Glimepirid har ingen kjent mekanisme som kan påvirke den nevrologiske sykdomsprosessen. Den høye scoren gjenspeiler trolig nettverksassosiasjon med diabetes og GAD-autoimmunitet, ikke en reell terapeutisk effekt.
 
@@ -92,6 +92,19 @@ Prediksjonen bygger kun på modellberegning (evidensnivå L5). Det finnes ingen 
 - Data om virkningsmekanisme
 - Sikkerhetsdata fra pakningsvedlegget (advarsler og kontraindikasjoner)
 - Vurdering opp mot etablert behandling (benzodiazepiner, baklofen, IVIG)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -54,7 +54,7 @@ Memantin er en NMDA-reseptorantagonist som er markedsført i Norge. TxGNN-modell
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene. Memantin er kjent som en ikke-kompetitiv NMDA-reseptorantagonist, og det er mekanistisk tenkelig at glutamat/NMDA-reseptoraksen kan ha betydning i lungekarbiologi. En studie fra 2021 om NMDA-reseptoraktivering og insulinfølsomhet/lipidmetabolisme (PMID 33500723) nevner at denne aksen er foreslått å bidra til pulmonal arteriell hypertensjon. Dette er imidlertid kun prekliniske og mekanistiske data, og koblingen er hypotetisk.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Memantine (uoffisiell oversettelse): «Vedvarende aktivering av N-metyl-D-aspartat (NMDA)-reseptorer i sentralnervesystemet av den eksitatoriske aminosyren glutamat er antatt å bidra til symptomatologien ved Alzheimers sykdom. Memantin antas å utøve sin terapeutiske effekt gjennom sin virkning som en ukompetitiv (åpen kanal) NMDA-reseptorantagonist med lav til moderat affinitet, som fortrinnsvis bindes til de NMDA-reseptorstyrte kationkanalene.» Engelsk originaltekst: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), versjon av 2026-11-11; hentet 2026-11-19). Memantin er kjent som en ikke-kompetitiv NMDA-reseptorantagonist, og det er mekanistisk tenkelig at glutamat/NMDA-reseptoraksen kan ha betydning i lungekarbiologi. En studie fra 2021 om NMDA-reseptoraktivering og insulinfølsomhet/lipidmetabolisme (PMID 33500723) nevner at denne aksen er foreslått å bidra til pulmonal arteriell hypertensjon. Dette er imidlertid kun prekliniske og mekanistiske data, og koblingen er hypotetisk.
 
 Den høye scoren (0,9954) er en beregnet modellprediksjon og er ikke støttet av kliniske data i det som er sammenstilt for denne rapporten.
 
@@ -111,6 +111,18 @@ Prediksjonen bygger kun på en beregnet modellscore. Ingen studie har undersøkt
 - Data om virkningsmekanisme (MOA) som underbygger koblingen til lungekarsykdom
 - Vurdering av sikkerhet og preparatomtale for aktuelle pasientgrupper
 - Eventuelt en liten pilotstudie dersom prekliniske data er lovende
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

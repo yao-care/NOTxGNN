@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal hypertensjon
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Alpelisib er kjent som en PI3Kα-selektiv hemmer, og effekten ved brystkreft er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Alpelisib (uoffisiell oversettelse): «Alpelisib er en hemmer av fosfatidylinositol-3-kinase (PI3K) med hemmende aktivitet hovedsakelig mot PI3Kα. Funksjonsfremmende mutasjoner i genet som koder for den katalytiske α-subenheten av PI3K (PIK3CA), fører til aktivering av PI3Kα og Akt-signalering, cellulær transformasjon og tumordannelse i in vitro- og in vivo-modeller.» Engelsk originaltekst: "Alpelisib is an inhibitor of phosphatidylinositol-3-kinase (PI3K) with inhibitory activity predominantly against PI3Kα. Gain-of-function mutations in the gene encoding the catalytic α-subunit of PI3K (PIK3CA) lead to activation of PI3Kα and Akt-signaling, cellular transformation and the generation of tumors in in vitro and in vivo models." ([DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b), versjon av 2026-10-28; hentet 2026-11-19). Alpelisib er kjent som en PI3Kα-selektiv hemmer, og effekten ved brystkreft er etablert.
 
 Mekanistisk er det biologisk plausibelt at hemming av PI3K/AKT/mTOR-signalveien kan påvirke pulmonal vaskulær remodellering, blant annet proliferasjon av glatte muskelceller i lungearteriene og endotel-dysfunksjon. Dette er imidlertid en teoretisk kobling uten støtte fra kliniske data.
 
@@ -135,11 +135,12 @@ Prediksjonen er kun modellbasert (evidensnivå L5) uten kliniske studier, og den
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske autorisasjonen opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b) |
 
 <!-- review:end log -->
 

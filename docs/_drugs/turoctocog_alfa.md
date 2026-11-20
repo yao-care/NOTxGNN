@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er turoctocog alfa en rekombinant, B-domene-avkortet faktor VIII som erstatter manglende faktor VIII ved hemofili A, og effekten er dokumentert for denne indikasjonen.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Turoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er turoctocog alfa en rekombinant, B-domene-avkortet faktor VIII som erstatter manglende faktor VIII ved hemofili A, og effekten er dokumentert for denne indikasjonen.
 
 Primær frigjøringsforstyrrelse i blodplater er en medfødt defekt i selve blodplatefunksjonen (sekresjon), ikke en mangel på faktor VIII. Det foreligger derfor ingen klar mekanistisk begrunnelse. Den svært høye TxGNN-scoren (0,9999) er en ren beregningsmessig prediksjon fra TxGNN-modellen (dyp læring) og er ikke underbygget av studier eller litteratur. Scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -131,11 +131,12 @@ Alle predikerte indikasjoner har kun modellbasert støtte (L5), uten kliniske st
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
 
 <!-- review:end log -->
 

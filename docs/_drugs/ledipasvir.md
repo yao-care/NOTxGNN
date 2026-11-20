@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **hepatitt B-virusinfe
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Ledipasvir er kjent som en hemmer av HCV-proteinet NS5A, og er i Harvoni kombinert med sofosbuvir, en nukleotidanalog som hemmer NS5B-polymerasen. Effekten ved kronisk hepatitt C er godt dokumentert.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Ledipasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; hentet 2026-11-19). Ledipasvir er kjent som en hemmer av HCV-proteinet NS5A, og er i Harvoni kombinert med sofosbuvir, en nukleotidanalog som hemmer NS5B-polymerasen. Effekten ved kronisk hepatitt C er godt dokumentert.
 
 Mekanistisk er koblingen til HBV svak. HBV har ingen kjent NS5A-homolog, så en direkte anti-HBV-effekt av ledipasvir er uklar. Sofosbuvirs bidrag er også usikkert og trolig beskjedent. Den høye scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -134,6 +134,19 @@ Den eneste direkte studien ved HBV-infeksjon er liten (n=21), åpen og uten kont
 ---
 
 *Merknad: De øvrige predikerte indikasjonene (blant annet hepatitt E, hepatitt A, HIV og flere flavivirus- og dyresykdommer) har enten svært begrenset evidens eller bare indirekte data fra HCV-studier, og anbefales satt på vent (Hold).*
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

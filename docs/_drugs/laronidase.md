@@ -58,7 +58,7 @@ Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opp
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme fra legemiddeldatabasen er for øyeblikket ikke tilgjengelige. Basert på kjent informasjon er laronidase rekombinant alfa-L-iduronidase, som bryter ned glykosaminoglykanene dermatansulfat og heparansulfat. Effekten ved MPS I er dokumentert, og mekanistisk kan den være relevant for beslektede lysosomale lagringssykdommer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Laronidase (uoffisiell oversettelse): «Mukopolysakkarid-lagringssykdommer skyldes mangel på spesifikke lysosomale enzymer som er nødvendige for katabolismen av glykosaminoglykaner (GAG). Mukopolysakkaridose I (MPS I) kjennetegnes av mangel på α-L-iduronidase, en lysosomal hydrolase som katalyserer hydrolysen av terminale α-L-iduronsyrerester i dermatansulfat og heparansulfat. […] Cellenes opptak av ALDURAZYME i lysosomer medieres mest sannsynlig ved at de mannose-6-fosfat-terminerte oligosakkaridkjedene på laronidase bindes til spesifikke mannose-6-fosfatreseptorer.» Engelsk originaltekst: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), versjon av 2026-09-11; hentet 2026-11-19). Basert på kjent informasjon er laronidase rekombinant alfa-L-iduronidase, som bryter ned glykosaminoglykanene dermatansulfat og heparansulfat. Effekten ved MPS I er dokumentert, og mekanistisk kan den være relevant for beslektede lysosomale lagringssykdommer.
 
 Den predikerte indikasjonen er i hovedsak identisk med den godkjente MPS I-indikasjonen. MPS I (Hurler/Scheie) er en lysosomal lagringssykdom med betydelig skjelettinvolvering (dysostosis multiplex), så dette er ikke en reell ny bruk. En in vitro-studie (PMID 18758061) viser at laronidase tas opp av dyrkede fibroblaster og osteoblaster, noe som støtter en plausibel cellulær vei til benvev.
 
@@ -132,6 +132,19 @@ Sanfilippo syndrom (MPS III) skyldes mangel på andre enzymer i nedbrytningen av
 | [23251908](https://pubmed.ncbi.nlm.nih.gov/23251908/) | 2012 | Prekliniske (in vitro) | Acta Biochim Pol | Sammenligning av siRNA-basert substratreduksjon og ERT i cellekultur; laronidase var ikke cytotoksisk. |
 
 All litteratur gjelder MPS I og er indirekte evidens for Sanfilippo syndrom.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

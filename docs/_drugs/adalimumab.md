@@ -58,7 +58,7 @@ Adalimumab er et biologisk legemiddel som hemmer tumornekrosefaktor-alfa (TNF-α
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Adalimumab er kjent som en TNF-α-hemmer, og effekten antas å bygge på dempet TNF-drevet betennelse.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Adalimumab (uoffisiell oversettelse): «Adalimumabpreparater binder seg spesifikt til TNF-alfa og blokkerer interaksjonen med p55- og p75-TNF-reseptorene på celleoverflaten. Adalimumabpreparater lyserer også celler som uttrykker TNF på overflaten, in vitro i nærvær av komplement.» Engelsk originaltekst: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), versjon av 2026-11-11; hentet 2026-11-19). Adalimumab er kjent som en TNF-α-hemmer, og effekten antas å bygge på dempet TNF-drevet betennelse.
 
 Hypermobilitet i halebenet er derimot først og fremst en mekanisk eller strukturell tilstand, og det er ikke påvist noen plausibel TNF-drevet betennelsesmekanisme bak den. Den høye prediksjonsscoren er et rent beregningsresultat. Den er ikke støttet av biologiske eller kliniske data, og den mekanistiske koblingen mellom legemidlet og tilstanden er svak.
 
@@ -109,6 +109,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5). Det finnes ingen klin
 - Systematisk litteratursøk og registrering av eventuelle kliniske studier
 - Data om virkningsmekanisme (MOA)
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

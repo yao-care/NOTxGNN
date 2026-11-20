@@ -59,7 +59,7 @@ Fosaprepitant er en forløper (prodrug) til aprepitant og var opprinnelig godkje
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i det innsamlede datagrunnlaget. Basert på kjent informasjon er fosaprepitant en forløper til aprepitant, en antagonist mot NK1-reseptoren (substans P-reseptoren). Effekten ved kjemoterapiindusert kvalme og oppkast er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fosaprepitant (uoffisiell oversettelse): «Fosaprepitant er et prodrug av aprepitant, og de antiemetiske effektene kan følgelig tilskrives aprepitant. Aprepitant er en selektiv høyaffinitetsantagonist av humane substans P/nevrokinin 1 (NK-1)-reseptorer. Aprepitant har liten eller ingen affinitet for serotonin- (5-HT 3 ), dopamin- og kortikosteroidreseptorer, som er målene for eksisterende behandlinger av kjemoterapiindusert kvalme og oppkast (CINV).» Engelsk originaltekst: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), versjon av 2026-07-29; hentet 2026-11-19). Basert på kjent informasjon er fosaprepitant en forløper til aprepitant, en antagonist mot NK1-reseptoren (substans P-reseptoren). Effekten ved kjemoterapiindusert kvalme og oppkast er godt etablert.
 
 NSIAD skyldes derimot aktiverende (gain-of-function) mutasjoner i vasopressin V2-reseptoren (AVPR2). Dette er en annen reseptorvei enn NK1-antagonisme, og det er ikke påvist noen mekanistisk kobling mellom de to. Den høye scoren er en grafbasert prediksjon uten støtte i kliniske data eller litteratur, og må tolkes med stor forsiktighet.
 
@@ -127,6 +127,19 @@ Prediksjonen for nefrogent syndrom med uhensiktsmessig antidiurese har evidensni
 - Mekanistisk og preklinisk validering av sammenhengen mellom NK1-antagonisme og AVPR2-drevet NSIAD
 - Vurdering av om retinitt (preklinisk støtte, evidensnivå L4) bør prioriteres som en mer lovende forskningsretning
 - Avklaring av administrasjonsvei og formuleringskompatibilitet for en eventuell ny indikasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

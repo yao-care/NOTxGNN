@@ -54,7 +54,7 @@ Lasmiditan er en selektiv 5-HT1F-reseptoragonist. Modellen TxGNN predikerer at l
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i det sammenstilte datagrunnlaget. Det som er kjent, er at lasmiditan virker som agonist på 5-HT1F-reseptoren (kodet av genet HTR1F), og at det er den første legemiddelklassen av denne typen for akutt behandling av migrene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lasmiditan (uoffisiell oversettelse): «Lasmiditan bindes med høy affinitet til 5-HT 1F-reseptoren. Lasmiditan utøver antagelig sine terapeutiske effekter ved behandling av migrene gjennom agonisteffekter på 5-HT 1F-reseptoren; den nøyaktige mekanismen er imidlertid ukjent.» Engelsk originaltekst: "Lasmiditan binds with high affinity to the 5-HT 1F receptor. Lasmiditan presumably exerts its therapeutic effects in the treatment of migraine through agonist effects at the 5-HT 1F receptor; however, the precise mechanism is unknown." ([DailyMed: Reyvow (lasmiditan) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea3358c-ff41-4490-9e6d-c7bf7b3de13f), versjon av 2026-01-08; hentet 2026-11-19). Det som er kjent, er at lasmiditan virker som agonist på 5-HT1F-reseptoren (kodet av genet HTR1F), og at det er den første legemiddelklassen av denne typen for akutt behandling av migrene.
 
 Det er ikke funnet noen identifiserbar mekanistisk kobling mellom 5-HT1F-agonisme og atrofoderma vermiculata. Sistnevnte er en follikulær atrofisk hudlidelse, og 5-HT1F-reseptoren har ingen etablert rolle i sykdomsmekanismen. Den høye scoren (0,9959) er en beregnet prediksjon uten støtte i kliniske data, og bør tolkes med stor forsiktighet.
 
@@ -87,6 +87,19 @@ Prediksjonen bygger kun på modellberegning, uten kliniske studier, publikasjone
 - Data om virkningsmekanisme (MOA) og en biologisk begrunnelse for sammenhengen mellom 5-HT1F-agonisme og sykdommen
 - Preklinisk eller observasjonell dokumentasjon som direkte omhandler atrofoderma vermiculata
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Reyvow (lasmiditan) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea3358c-ff41-4490-9e6d-c7bf7b3de13f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

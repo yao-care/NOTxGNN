@@ -60,7 +60,7 @@ Støtten er svak: **ingen kliniske studier** og **1 publikasjon** (en studie av 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Basert på kjent informasjon er cyclosporin en kalsineurinhemmer som hemmer aktivering av T-celler. Dette er grunnlaget for bruk ved transplantasjon og ved immunmedierte øyesykdommer.
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cyclosporine (uoffisiell oversettelse): «Ciklosporin er et potent immunsuppressivt middel som hos dyr forlenger overlevelsen av allogene transplantater av hud, nyre, lever, hjerte, pankreas, benmarg, tynntarm og lunge. Det er vist at ciklosporin hos mange dyrearter og for en rekke organer hemmer noe humoral immunitet og i større grad cellemedierte immunreaksjoner som allograftavstøtning, forsinket hypersensitivitet, eksperimentell allergisk encefalomyelitt, Freunds adjuvansartritt og graft-versus-host-sykdom.» Engelsk originaltekst: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), versjon av 2026-09-10; hentet 2026-11-19). Basert på kjent informasjon er cyclosporin en kalsineurinhemmer som hemmer aktivering av T-celler. Dette er grunnlaget for bruk ved transplantasjon og ved immunmedierte øyesykdommer.
 
 Ved CGD kan cyclosporin tenkes brukt som immundempende støtte, for eksempel som forebygging av graft-versus-host-sykdom (GVHD) rundt hematopoietisk stamcelletransplantasjon. Dette er en støttende rolle i transplantasjonsregimet. Det er ikke en behandling av den underliggende defekten i NADPH-oksidase.
 
@@ -133,6 +133,18 @@ Alle har anbefalingen Hold. Evidensen er svak.
 | 5 | Føtal erytroblastose | 0,9937 | L5 | Kun en in vitro-studie om bilirubintransport. |
 | 6 | Brakydaktyli-syndaktyli-syndrom | 0,9931 | L5 | Ingen evidens utover modellen. |
 | 7 | Prolaps av tårekjertelen | 0,9908 | L5 | Ingen evidens. Tilstanden er mekanisk/strukturell. |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

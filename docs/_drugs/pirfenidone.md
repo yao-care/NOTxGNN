@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **ekstrakutant mastocytom**, 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) for pirfenidon var ikke tilgjengelig i dataene som er samlet inn til denne rapporten. Ut fra kjent informasjon er pirfenidon et antifibrotisk og antiinflammatorisk legemiddel som modulerer TGF-β og TNF-α. Effekten er dokumentert ved idiopatisk lungefibrose.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pirfenidone (uoffisiell oversettelse): «Virkningsmekanismen til pirfenidon ved behandling av IPF er ikke fastslått.» Engelsk originaltekst: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), versjon av 2025-12-05; hentet 2026-11-19). Ut fra kjent informasjon er pirfenidon et antifibrotisk og antiinflammatorisk legemiddel som modulerer TGF-β og TNF-α. Effekten er dokumentert ved idiopatisk lungefibrose.
 
 Mekanistisk kan dette tenkes å berøre fibrose knyttet til mastceller, men dette er spekulativt. Det foreligger ingen direkte mekanistisk evidens for ekstrakutant mastocytom. Den høye TxGNN-scoren (0,9971) er en ren modellprediksjon og bør tolkes med forsiktighet.
 
@@ -124,6 +124,19 @@ Prediksjonen for ekstrakutant mastocytom bygger kun på en modellscore uten klin
 - Prekliniske studier (for eksempel i mastcellemodeller) som kan gi en mekanistisk kobling
 - Avklaring av administrasjonsvei og legemiddelform, samt gjeldende markedsstatus
 - En egen vurdering av fibroblastisk neoplasme (rang 9, L4) som mulig mer forskningsverdig kandidat, med særlig oppmerksomhet på sikkerhetssignalene fra kasuistikkene
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

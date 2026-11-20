@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid artritt**,
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er rivaroksaban en direkte faktor Xa-hemmer, og effekten ved tromboembolisme er veldokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rivaroxaban (uoffisiell oversettelse): «XARELTO er en selektiv hemmer av FXa. Det krever ikke en kofaktor (som antitrombin III) for aktivitet. Rivaroksaban hemmer fri FXa og protrombinaseaktivitet. Rivaroksaban har ingen direkte effekt på blodplateaggregering, men hemmer indirekte blodplateaggregering indusert av trombin.» Engelsk originaltekst: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), versjon av 2026-09-10; hentet 2026-11-19). Basert på kjent informasjon er rivaroksaban en direkte faktor Xa-hemmer, og effekten ved tromboembolisme er veldokumentert.
 
 Et mulig indirekte forhold er at revmatoid artritt innebærer kronisk betennelse og en hyperkoagulabel tilstand, og at trombindannelsen er endret ved autoimmune sykdommer. Hemming av faktor Xa kan teoretisk påvirke samspillet mellom koagulasjon og betennelse.
 
@@ -123,6 +123,19 @@ Den høye TxGNN-scoren er en ren beregningsmessig prediksjon uten klinisk støtt
 - Prekliniske data eller eksplorative studier som tester faktor Xa-hemming mot sykdomsaktivitet ved revmatoid artritt
 - Vurdering av blødningsrisiko og interaksjoner i en populasjon som ofte bruker NSAID, kortikosteroider og andre legemidler
 - Avklaring av markedsstatus og eventuell ny godkjenning i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

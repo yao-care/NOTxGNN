@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Pioglitazon er kjent som en PPAR-gamma-agonist og insulinsensitiserer, og effekten ved diabetes mellitus type 2 er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pioglitazone (uoffisiell oversettelse): «ACTOS er et tiazolidindion som er avhengig av tilstedeværelse av insulin for sin virkningsmekanisme. ACTOS reduserer insulinresistens perifert og i leveren, noe som resulterer i økt insulinavhengig glukoseopptak og redusert hepatisk glukoseproduksjon. […] Pioglitazon er ikke et insulinsekretagogum.» Engelsk originaltekst: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), versjon av 2025-03-28; hentet 2026-11-19). Pioglitazon er kjent som en PPAR-gamma-agonist og insulinsensitiserer, og effekten ved diabetes mellitus type 2 er godt dokumentert.
 
 Opsismodysplasi er en sjelden skjelettdysplasi forårsaket av mutasjoner i INPPL1 (SHIP2), som påvirker PI3K-/insulinsignalering og utvikling av vekstplaten. En spekulativ kobling via insulin-/PI3K-signalering er tenkelig, men den støttes ikke av noen studie eller litteratur. Den høye scoren (0,9959) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -128,11 +128,12 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litte
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

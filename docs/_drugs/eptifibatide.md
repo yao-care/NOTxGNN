@@ -61,7 +61,7 @@ TxGNN-modellen rangerer **revmatoid artritt** øverst på listen over prediksjon
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i det innsamlede datagrunnlaget. Basert på kjent informasjon er eptifibatid en syntetisk peptidhemmer av αIIbβ3-reseptoren (GP IIb/IIIa) på blodplater. Den har dokumentert effekt ved akutt koronarsyndrom, og mekanistisk kan den være aktuell ved sigdcellesykdom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Eptifibatide (uoffisiell oversettelse): «Eptifibatid hemmer reversibelt blodplateaggregering ved å forhindre binding av fibrinogen, von Willebrand-faktor og andre adhesive ligander til GP IIb/IIIa. Ved intravenøs administrering hemmer eptifibatid ex vivo blodplateaggregering på en dose- og konsentrasjonsavhengig måte.» Engelsk originaltekst: "Eptifibatide reversibly inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands to GP IIb/IIIa. When administered intravenously, eptifibatide inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner." ([DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764), versjon av 2026-10-02; hentet 2026-11-19). Basert på kjent informasjon er eptifibatid en syntetisk peptidhemmer av αIIbβ3-reseptoren (GP IIb/IIIa) på blodplater. Den har dokumentert effekt ved akutt koronarsyndrom, og mekanistisk kan den være aktuell ved sigdcellesykdom.
 
 Ved sigdcellesykdom bidrar blodplateaktivering, betennelse og vaso-okklusjon til smertekriser. Ved å blokkere blodplateaggregasjon og blodplatemediert adhesjon kan eptifibatid i teorien redusere mikrovaskulær okklusjon. Studiene som er identifisert, undersøker nettopp denne hypotesen, blant annet effekt på inflammasjonsmarkører.
 
@@ -156,13 +156,14 @@ Pakningsvedlegget (varsler og kontraindikasjoner) er ikke tilgjengelig i datagru
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Begge markedsføringstillatelsene er gyldige, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «med to gyldige markedsføringstillatelser» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden alle norske godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
 
 <!-- review:end log -->
 

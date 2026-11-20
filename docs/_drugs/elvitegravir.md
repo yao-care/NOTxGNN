@@ -56,7 +56,7 @@ men det finnes **0 kliniske studier** og **0 publikasjoner** som direkte studere
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er for tiden ikke tilgjengelige i de innsamlede dataene. Ut fra kjent legemiddelklasse er elvitegravir en integrase-strengoverføringshemmer (INSTI) som blokkerer innsettingen av viralt DNA i vertscellens genom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (kombinasjonspreparat med Elvitegravir) (uoffisiell oversettelse): «STRIBILD er en kombinasjon med fast dose av de antiretrovirale legemidlene elvitegravir (boostet med CYP3A-hemmeren kobicistat), emtricitabin og TDF.» Engelsk originaltekst: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), versjon av 2025-02-04; hentet 2026-11-19). Ut fra kjent legemiddelklasse er elvitegravir en integrase-strengoverføringshemmer (INSTI) som blokkerer innsettingen av viralt DNA i vertscellens genom.
 
 Felint immunsviktvirus (FIV) er et lentivirus som er i slekt med HIV-1, og det har et integraseenzym som er strukturelt beslektet med HIV-1-integrase. Det gjør en antiviral effekt biologisk plausibel.
 
@@ -98,6 +98,19 @@ Prediksjonen om felint ervervet immunsviktsyndrom støttes bare av modellscoren.
 - Prekliniske data (in vitro-aktivitet mot FIV-integrase) som viser at elvitegravir hemmer FIV
 - Avklaring av om det finnes veterinærfaglig eller regulatorisk grunnlag for bruk
 - Gjennomgang av sikkerhetsopplysninger i preparatomtalen (advarsler og kontraindikasjoner mangler i dataene)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

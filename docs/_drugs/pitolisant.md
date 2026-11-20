@@ -61,7 +61,7 @@ Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner som d
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Pitolisant blokkerer histamin H3-autoreseptorer og øker dermed frigjøringen av histamin i hjernen, noe som fremmer våkenhet. Detaljerte data om virkningsmekanismen fra legemiddeldatabasen er ikke tilgjengelige i de sammenstilte dataene, men den farmakologiske virkningen er velkjent fra litteraturen.
+Pitolisant blokkerer histamin H3-autoreseptorer og øker dermed frigjøringen av histamin i hjernen, noe som fremmer våkenhet. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pitolisant (uoffisiell oversettelse): «Virkningsmekanismen til pitolisant ved uttalt søvnighet på dagtid (EDS) eller katapleksi hos pasienter fra 6 år med narkolepsi er uklar. Effekten kan imidlertid være mediert gjennom dets aktivitet som antagonist/invers agonist ved histamin-3 (H3)-reseptorer.» Engelsk originaltekst: "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors." ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), versjon av 2026-02-13; hentet 2026-11-19).
 
 Narkolepsi og obstruktiv søvnapné behandles med pitolisant for å redusere søvnighet. Insomni er det motsatte problemet: pasientene har for lite søvn og for høy våkenhet. Økt histaminerg aktivitet kan i teorien forverre insomni.
 
@@ -160,13 +160,14 @@ Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, o
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Begge tillatelsene er europeiske sentrale markedsføringstillatelser (EMA) og er registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er begge norske tillatelser avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden begge tillatelsene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
 
 <!-- review:end log -->
 

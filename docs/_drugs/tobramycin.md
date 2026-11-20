@@ -58,7 +58,7 @@ Tobramycin er et aminoglykosid-antibiotikum som opprinnelig brukes mot luftveisi
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Tobramycin er et bredspektret aminoglykosid som er velkjent for aktivitet mot gramnegative bakterier, særlig *Pseudomonas aeruginosa*. Det brukes inhalert ved cystisk fibrose og lokalt i øyet ved bakteriell keratitt og konjunktivitt.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tobramycin (uoffisiell oversettelse): «Tobramycin er et antibakterielt aminoglykosid. […] Tobramycin er et antibakterielt aminoglykosid som produseres av Streptomyces tenebrarius. Det virker primært ved å forstyrre proteinsyntesen, noe som fører til endret permeabilitet i cellemembranen, progressiv nedbrytning av cellehylsteret og til slutt celledød.» Engelsk originaltekst: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), versjon av 2026-04-15; hentet 2026-11-19). Tobramycin er et bredspektret aminoglykosid som er velkjent for aktivitet mot gramnegative bakterier, særlig *Pseudomonas aeruginosa*. Det brukes inhalert ved cystisk fibrose og lokalt i øyet ved bakteriell keratitt og konjunktivitt.
 
 Eksposjonskeratitt er en overflatelidelse i hornhinnen, ofte ved ufullstendig øyelukking, som kan bli sekundært infisert. Antibakteriell profylakse eller behandling er derfor biologisk plausibelt.
 
@@ -137,11 +137,12 @@ Av de øvrige ni prediksjonene har bare **otitis externa** (evidensnivå L4, anb
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Fjernet: «Begge norske godkjenninger er avsluttet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

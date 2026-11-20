@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **akutt lymfatis
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige fra de innhentede kildene. Ut fra generell kunnskap om legemiddelklassen fungerer sotatercept som en ligandfelle for aktivin og vekstdifferensieringsfaktorer (GDF-er). Dermed gjenoppretter det balansen mellom proliferative og antiproliferative signaler i BMPR-II/aktivin-banen, noe som er grunnlaget for effekten ved pulmonal hypertensjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sotatercept (uoffisiell oversettelse): «Sotatercept-csrk, et rekombinant aktivinreseptor type IIA-Fc (ActRIIA-Fc)-fusjonsprotein, er en hemmer av aktivinsignalering som binder seg til aktivin A og andre ligander i TGF- β-superfamilien. Som et resultat forbedrer sotatercept-csrk balansen mellom proproliferativ (ActRIIA/Smad2/3-mediert) og antiproliferativ (BMPRII/Smad1/5/8-mediert) signalering for å modulere vaskulær proliferasjon.» Engelsk originaltekst: "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), versjon av 2026-09-21; hentet 2026-11-19). Ut fra generell kunnskap om legemiddelklassen fungerer sotatercept som en ligandfelle for aktivin og vekstdifferensieringsfaktorer (GDF-er). Dermed gjenoppretter det balansen mellom proliferative og antiproliferative signaler i BMPR-II/aktivin-banen, noe som er grunnlaget for effekten ved pulmonal hypertensjon.
 
 Koblingen til akutt lymfatisk leukemi er foreløpig bare spekulativ. Signalveiene i aktivin/TGF-beta-familien bidrar til reguleringen av bloddannelsen, men det foreligger verken direkte mekanistiske data eller kliniske data som viser en sammenheng. Den høye TxGNN-scoren (0,9978) er utelukkende en beregningsbasert prediksjon og bør ikke tolkes som klinisk støtte.
 
@@ -125,6 +125,19 @@ Alle predikerte indikasjoner har evidensnivå L5, det vil si kun modellprediksjo
 - Prekliniske data som kan underbygge koblingen mellom aktivin/GDF-fangst og den aktuelle sykdommen
 - Avklaring av administrasjonsvei og forenlighet for hver ny indikasjon
 - Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

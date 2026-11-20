@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at det kan være virksomt mot **Staphylococcus aureus-
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon hemmer cilastatin dehydropeptidase-1 i nyretubuli og hindrer dermed nedbrytning av imipenem. Cilastatin har ingen egen antibakteriell aktivitet.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cilastatin (uoffisiell oversettelse): «Renal dipeptidasehemmer» Engelsk originaltekst: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon hemmer cilastatin dehydropeptidase-1 i nyretubuli og hindrer dermed nedbrytning av imipenem. Cilastatin har ingen egen antibakteriell aktivitet.
 
 Prediksjonen er derfor ikke mekanistisk knyttet til cilastatin selv. Eventuell effekt mot S. aureus, inkludert MRSA-kombinasjoner, skyldes imipenem. Koblingen er et farmakokinetisk partnerskap og ikke en cilastatin-spesifikk mekanisme. Cilastatins nyrebeskyttende effekt (redusert nefrotoksisitet) kan være av tilleggsinteresse.
 
@@ -132,11 +132,12 @@ Evidensen for S. aureus-infeksjon er hovedsakelig indirekte og gjelder imipenem/
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Den eneste godkjenningen i Norge er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
 
 <!-- review:end log -->
 

@@ -63,7 +63,7 @@ For den nærliggende indikasjonen **infeksjon med simian immunsviktvirus (SIV)**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er tenofovir alafenamid en nukleotid revers transkriptase-hemmer (en forløper av tenofovir), og effekten er dokumentert ved hepatitt B og HIV. Mekanistisk kan det være aktuelt også for FIV.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tenofovir Alafenamide (uoffisiell oversettelse): «Tenofoviralafenamid er et antiviralt legemiddel mot hepatitt B-virus. […] Tenofoviralafenamid er et fosfonamidat-prodrug av tenofovir (2'-deoksyadenosinmonofosfat-analog). Tenofoviralafenamid er en lipofil, cellepermeabel forbindelse som tas opp i primære hepatocytter ved passiv diffusjon og via de hepatiske opptakstransportørene OATP1B1 og OATP1B3.» Engelsk originaltekst: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), versjon av 2025-07-14; hentet 2026-11-19). Ut fra kjent informasjon er tenofovir alafenamid en nukleotid revers transkriptase-hemmer (en forløper av tenofovir), og effekten er dokumentert ved hepatitt B og HIV. Mekanistisk kan det være aktuelt også for FIV.
 
 Felint immunsviktvirus (FIV) er et lentivirus som, i likhet med HIV-1, formerer seg via revers transkriptase. Det gjør aktivitet plausibel ut fra legemiddelklassens mekanisme. Den høye TxGNN-scoren gjenspeiler sannsynligvis likheten med den godkjente HIV-indikasjonen. Det finnes imidlertid ingen FIV-spesifikke data i datagrunnlaget, så vurderingen bygger på generell kunnskap om legemiddelklassen.
 
@@ -143,12 +143,13 @@ Prediksjonen for FIV bygger bare på modellscore og klassemekanisme, uten klinis
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Via» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

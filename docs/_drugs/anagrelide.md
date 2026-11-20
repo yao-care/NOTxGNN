@@ -59,7 +59,7 @@ Anagrelid er et plateletsenkende legemiddel som opprinnelig brukes til behandlin
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Basert på kjent informasjon senker anagrelid blodplatetall ved å hemme modning og differensiering av megakaryocytter, og dette er grunnlaget for bruken ved essensiell trombocytemi, en primær og klonal trombocytose.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Anagrelide (uoffisiell oversettelse): «Den nøyaktige mekanismen som anagrelid reduserer antall blodplater ved, er ukjent. I cellekulturstudier hemmet anagrelid uttrykket av transkripsjonsfaktorer, inkludert GATA-1 og FOG-1, som er nødvendige for megakaryocytopoesen, noe som til slutt førte til redusert blodplateproduksjon.» Engelsk originaltekst: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), versjon av 2026-04-08; hentet 2026-11-19). Basert på kjent informasjon senker anagrelid blodplatetall ved å hemme modning og differensiering av megakaryocytter, og dette er grunnlaget for bruken ved essensiell trombocytemi, en primær og klonal trombocytose.
 
 Reaktiv (sekundær) trombocytose skyldes cytokiner som IL-6 og trombopoietin, som frigjøres ved betennelse, jernmangel, infeksjon, kreft eller etter miltfjerning. Den plateletsenkende effekten kan i prinsippet være relevant. Reaktiv trombocytose er imidlertid vanligvis godartet og selvbegrensende med lav trombose­risiko, slik at cytoreduktiv behandling sjelden er indisert.
 
@@ -140,12 +140,13 @@ Prediksjonen for reaktiv trombocytose bygger i hovedsak på modellens likhetssco
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Begge tillatelsene er oppført som opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden begge tillatelser er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
 
 <!-- review:end log -->
 

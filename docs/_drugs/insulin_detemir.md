@@ -58,7 +58,7 @@ Insulin detemir er et langtidsvirkende insulin som brukes ved diabetes mellitus.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig for denne rapporten. Insulin detemir er en insulinanalog med forlenget virketid, og effekten på blodsukkerregulering er godt kjent. Det finnes imidlertid ingen etablert mekanisme som kobler insulin detemir til autoimmun betennelse i eggstokkene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Insulin Detemir (uoffisiell oversettelse): «Den primære aktiviteten til insulin, inkludert LEVEMIR, er regulering av glukosemetabolismen. Insuliner og insulinanaloger senker blodglukosen ved å stimulere perifert glukoseopptak, særlig i skjelettmuskulatur og fett, og ved å hemme glukoseproduksjonen i leveren.» Engelsk originaltekst: "The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c), versjon av 2024-10-09; hentet 2026-11-19). Insulin detemir er en insulinanalog med forlenget virketid, og effekten på blodsukkerregulering er godt kjent. Det finnes imidlertid ingen etablert mekanisme som kobler insulin detemir til autoimmun betennelse i eggstokkene.
 
 Den høye modellscoren (0,9967) er en beregningsmessig prediksjon. Likheten mellom den opprinnelige og den nye indikasjonen er ikke vurdert, og ruteforenlighet er ikke avklart. Prediksjonen bør derfor ikke tolkes som et terapeutisk signal uten videre dokumentasjon.
 
@@ -110,6 +110,19 @@ Prediksjonen om autoimmun ooforitt bygger kun på modellscore, uten kliniske stu
 - En plausibel mekanistisk kobling til autoimmun ooforitt, støttet av prekliniske eller kliniske data
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
 - Vurdering av ruteforenlighet og likhet med den opprinnelige indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

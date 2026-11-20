@@ -58,7 +58,7 @@ Lumacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er lumacaftor en CFTR-korrektor som bedrer foldingen og transporten av F508del-CFTR-proteinet til cellemembranen. Effekten er dokumentert ved cystisk fibrose.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for lumacaftor and ivacaftor (kombinasjonspreparat med Lumacaftor) (uoffisiell oversettelse): «Lumakaftor forbedrer den konformasjonelle stabiliteten til F508del-CFTR, noe som fører til økt prosessering og transport av modent protein til celleoverflaten. Studier in vitro har vist at både lumakaftor og ivakaftor virker direkte på CFTR-proteinet i primære humane bronkiale epitelkulturer og andre cellelinjer som bærer F508del-CFTR-mutasjonen, og øker mengden, stabiliteten og funksjonen av F508del-CFTR på celleoverflaten, noe som fører til økt transport av kloridioner.» Engelsk originaltekst: "Lumacaftor improves the conformational stability of F508del-CFTR, resulting in increased processing and trafficking of mature protein to the cell surface. In vitro studies have demonstrated that both lumacaftor and ivacaftor act directly on the CFTR protein in primary human bronchial epithelial cultures and other cell lines harboring the F508del-CFTR mutation to increase the quantity, stability, and function of F508del-CFTR at the cell surface, resulting in increased chloride ion transport." ([DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600), versjon av 2026-03-24; hentet 2026-11-19). Basert på kjent informasjon er lumacaftor en CFTR-korrektor som bedrer foldingen og transporten av F508del-CFTR-proteinet til cellemembranen. Effekten er dokumentert ved cystisk fibrose.
 
 Det finnes ingen etablert mekanistisk kobling mellom CFTR-korreksjon og lepra. Lepra skyldes infeksjon med *Mycobacterium leprae*, og har ingen kjent CFTR-avhengig patofysiologi. Den høye scoren (0,9944) er en prediksjon fra TxGNN-modellen (dyp læring) og kan skyldes nettverksnærhet via felles biologiske traséer, for eksempel proteinfolding i verten, kloridtransport eller betennelsesrelaterte og mykobakterie-relaterte koblinger til cystisk fibrose. Dette er spekulativt og ikke støttet av direkte data.
 
@@ -127,12 +127,13 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, li
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Legemidlet er dessuten ikke lenger markedsført i Norge, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden eneste godkjenning er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600) |
 
 <!-- review:end log -->
 

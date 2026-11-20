@@ -60,7 +60,7 @@ Det finnes **ingen kliniske studier** og **1 publikasjon** (en in vitro-studie) 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datamaterialet som er sammenstilt for denne rapporten. Abacavir er imidlertid kjent som en nukleosid revers transkriptasehemmer: legemidlet omdannes inne i cellene til karbovirtrifosfat, som stopper forlengelsen av viral DNA-kjede.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for abacavir and lamivudine (kombinasjonspreparat med Abacavir) (uoffisiell oversettelse): «Abakavir og lamivudin er et antiretroviralt middel med aktivitet mot HIV-1.» Engelsk originaltekst: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), versjon av 2026-09-18; hentet 2026-11-19). Abacavir er imidlertid kjent som en nukleosid revers transkriptasehemmer: legemidlet omdannes inne i cellene til karbovirtrifosfat, som stopper forlengelsen av viral DNA-kjede.
 
 SIV er et lentivirus som er nært beslektet med HIV og har en tilsvarende revers transkriptase. Virkningen er derfor biologisk plausibel. Den høye TxGNN-scoren gjenspeiler i hovedsak likhet med den kjente bruken mot HIV.
 
@@ -115,6 +115,19 @@ Prediksjonen bygger bare på en in vitro-studie og modellscore. Det finnes ingen
 - Preparatomtale med advarsler og kontraindikasjoner
 - Prekliniske data i SIV-modeller som viser effekt av abacavir alene
 - Avklaring av om forskningsbruk alene gir tilstrekkelig verdi for videre arbeid
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

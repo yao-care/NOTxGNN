@@ -54,7 +54,7 @@ Omalizumab er et humanisert monoklonalt antistoff som binder immunglobulin E (Ig
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Omalizumab binder fritt IgE og hemmer dermed IgE-bindingen til høyaffinitetsreseptoren FcεRI på mastceller og basofile granulocytter. Dette reduserer allergisk luftveisbetennelse. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen mangler, men farmakologidata bekrefter at målet er IgE (IGHE-genet).
+Omalizumab binder fritt IgE og hemmer dermed IgE-bindingen til høyaffinitetsreseptoren FcεRI på mastceller og basofile granulocytter. Dette reduserer allergisk luftveisbetennelse. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Omalizumab (uoffisiell oversettelse): «Astma, kronisk rhinosinusitt med nesepolypper og IgE-mediert matallergi Omalizumabprodukter hemmer bindingen av IgE til høyaffinitets-IgE-reseptoren (FcεRI) på overflaten av mastceller, basofiler og dendrittiske celler, noe som fører til nedregulering av FcεRI på disse cellene. Hos allergiske astmatikere hemmer behandling med omalizumabprodukter IgE-mediert inflammasjon, noe som vises ved reduserte eosinofiler i blod og vev og reduserte inflammatoriske mediatorer, inkludert IL-4, IL-5 og IL-13.» Engelsk originaltekst: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), versjon av 2026-10-06; hentet 2026-11-19).
 
 Koblingen til bronkitt er **indirekte**. Den hviler hovedsakelig på at kroniske bronkittrekk kan forekomme sammen med allergisk luftveissykdom, og at IgE-drevet inflammasjon kan bidra der. Ingen av de funnede studiene undersøker bronkitt som selvstendig tilstand. Den høye modellscoren bør derfor tolkes som en hypotese og ikke som klinisk støtte.
 
@@ -105,6 +105,18 @@ Evidensnivået er L5. Ingen publisert studie viser at omalizumab har effekt ved 
 - Det trengs en klart definert bronkittpopulasjon, for eksempel eosinofil bronkitt med høyt IgE, og en eksplisitt hypotese for effekt.
 - Det bør utføres en systematisk litteraturgjennomgang og eventuelt en liten randomisert pilotstudie med klinisk relevante endepunkter.
 - Detaljerte data om virkningsmekanisme og advarsler og kontraindikasjoner fra preparatomtalen bør innhentes.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

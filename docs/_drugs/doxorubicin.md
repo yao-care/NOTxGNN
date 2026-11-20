@@ -54,7 +54,7 @@ Doksorubicin er et antracyklin-cytostatikum som hemmer topoisomerase II og binde
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Basert på kjent informasjon er doksorubicin en topoisomerase II-hemmer (målprotein TOP2A) og DNA-interkalator som er cytotoksisk for raskt delende svulstceller. Bindingsdata for målproteinet er ikke offentlig tilgjengelige i kilden.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Doxorubicin (uoffisiell oversettelse): «Den cytotoksiske effekten av doksorubicinhydroklorid på maligne celler og de toksiske effektene på ulike organer antas å være relatert til doksorubicins interkalering mellom nukleotidbaser og binding til lipider i cellemembranen. Interkalering hemmer nukleotidreplikasjon og virkningen av DNA- og RNA-polymeraser.» Engelsk originaltekst: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), versjon av 2026-11-12; hentet 2026-11-19). Basert på kjent informasjon er doksorubicin en topoisomerase II-hemmer (målprotein TOP2A) og DNA-interkalator som er cytotoksisk for raskt delende svulstceller. Bindingsdata for målproteinet er ikke offentlig tilgjengelige i kilden.
 
 Doksorubicin er en bærebjelke i standard kombinasjonsregimer ved Ewing-sarkom (VDC/IE og VAC/VAI). Konsensusanbefalinger og randomiserte studier støtter bruken. Dette er dermed snarere en etablert bruk i behandlingsprotokoller enn en ny repurposing-kandidat. Fase 3-studiene i litteraturen (blant annet EURO-EWING 99, Euro Ewing 2012 og ganitumab med intervallkomprimert kjemoterapi) tester regimeroppsett og kombinasjoner, ikke doksorubicin alene.
 
@@ -124,6 +124,19 @@ Doksorubicin er allerede en kjerne-komponent i etablerte regimer ved Ewing-sarko
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Kardiologisk overvåkingsplan (kumulativ dosegrense, LVEF-oppfølging, vurdering av deksrazoksan)
 - Avklaring av doksorubicins bidrag isolert fra de øvrige midlene i kombinasjonsregimene
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

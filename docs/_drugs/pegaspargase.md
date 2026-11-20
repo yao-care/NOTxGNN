@@ -58,7 +58,7 @@ Pegaspargase er en pegylert form av enzymet L-asparaginase og brukes mot **preku
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme mangler i de innsamlede dataene. Basert på kjent informasjon virker pegaspargase ved å bryte ned sirkulerende asparagin. Lymfoblaster har lavt uttrykk av asparaginsyntetase og er avhengige av asparagin utenfra, slik at uttømming av aminosyren fører til selektiv celledød i leukemiceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pegaspargase (uoffisiell oversettelse): «L-asparaginase er et enzym som katalyserer omdannelsen av aminosyren L-asparagin til asparaginsyre og ammoniakk. Den farmakologiske effekten av ONCASPAR antas å være basert på drap av leukemiceller på grunn av uttømming av plasmaasparagin.» Engelsk originaltekst: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), versjon av 2024-10-07; hentet 2026-11-19). Basert på kjent informasjon virker pegaspargase ved å bryte ned sirkulerende asparagin. Lymfoblaster har lavt uttrykk av asparaginsyntetase og er avhengige av asparagin utenfra, slik at uttømming av aminosyren fører til selektiv celledød i leukemiceller.
 
 Siden prediksjonen gjelder den allerede godkjente indikasjonen, er mekanismen den samme. Pegaspargase inngår i flerlegemiddelregimer for akutt lymfoblastisk leukemi (ALL), og fase 3-studier som NCT00967057, NCT00103285 og NCT02003222 bruker slike regimer. Effekten av pegaspargase alene kan likevel ikke isoleres i disse studiene, fordi den er blandet med kombinasjonsbehandlingen.
 
@@ -183,12 +183,13 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Merk: Markedsstatusen "kun avregistrert" bør kontrolleres med tanke på tilgjengelighet i regionen» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden eneste godkjenning er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 
 <!-- review:end log -->
 

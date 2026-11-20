@@ -56,7 +56,7 @@ men det finnes for øyeblikket **0 kliniske studier** og **0 publikasjoner** som
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Levetiracetam er kjent som en modulator av SV2A (synaptisk vesikkelprotein 2A), og effekten i epilepsi er godt etablert. Dette er likevel en generell beskrivelse og ikke en dokumentert mekanisme for den predikerte sykdommen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Levetiracetam (uoffisiell oversettelse): «Den eller de nøyaktige mekanismene som levetiracetam utøver sin antiepileptiske effekt gjennom, er ukjent. Et mettbart og stereoselektivt nevronalt bindingssete i hjernevev fra rotte er beskrevet for levetiracetam. Eksperimentelle data indikerer at dette bindingssetet er det synaptiske vesikkelproteinet SV2A, som antas å være involvert i reguleringen av vesikkeleksocytose.» Engelsk originaltekst: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), versjon av 2026-11-11; hentet 2026-11-19). Levetiracetam er kjent som en modulator av SV2A (synaptisk vesikkelprotein 2A), og effekten i epilepsi er godt etablert. Dette er likevel en generell beskrivelse og ikke en dokumentert mekanisme for den predikerte sykdommen.
 
 Beta-ketotiolase-mangel er en arvelig metabolsk lidelse som rammer nedbrytningen av ketonlegemer og isoleucin. Det er ikke noen åpenbar mekanistisk sammenheng mellom SV2A-modulering og denne metabolske defekten. En eventuell nytte ville trolig være begrenset til symptomatisk anfallskontroll, ikke til å korrigere den underliggende enzymdefekten.
 
@@ -103,6 +103,19 @@ Prediksjonen bygger kun på modellscore (0,9990) uten kliniske studier, uten pub
 - Prekliniske eller mekanistiske studier som kan belyse en eventuell sammenheng med den predikerte sykdommen
 - Litteratur- og studiesøk som spesifikt omfatter beta-ketotiolase-mangel
 - Vurdering av administrasjonsvei og forhold til målpopulasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

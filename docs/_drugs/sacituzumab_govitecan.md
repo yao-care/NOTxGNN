@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at det kan være effektivt mot **legemiddelindusert os
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i datagrunnlaget for denne rapporten. Det er kjent at sacituzumab govitecan er et Trop-2-rettet antistoff-legemiddelkonjugat med SN-38 som cytotoksisk last, og at effekten ved trippelnegativ brystkreft er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sacituzumab Govitecan (uoffisiell oversettelse): «Sacituzumab govitekan-hziy er et Trop-2-rettet antistoff-legemiddelkonjugat. Sacituzumab er et humanisert antistoff som gjenkjenner Trop-2. Småmolekylet SN-38 er en topoisomerase I-hemmer, som er kovalent bundet til antistoffet via en linker.» Engelsk originaltekst: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), versjon av 2026-06-24; hentet 2026-11-19). Det er kjent at sacituzumab govitecan er et Trop-2-rettet antistoff-legemiddelkonjugat med SN-38 som cytotoksisk last, og at effekten ved trippelnegativ brystkreft er etablert.
 
 Datagrunnlaget gir ingen støtte for en mekanistisk kobling til benmetabolisme. Den høye TxGNN-scoren (0,9978) er en ren grafbasert prediksjon. Cytotoksiske legemidler er generelt oftere forbundet med benmargstoksisitet enn med beskyttende effekt på skjelettet. Det er heller ingen likhet mellom den opprinnelige indikasjonen (kreft) og den predikerte indikasjonen (osteoporose) som kan forklare prediksjonen.
 
@@ -145,6 +145,19 @@ Prediksjonen er rent modellbasert (L5) uten kliniske studier eller publikasjoner
 - Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel)
 - Prekliniske eller mekanistiske studier som kan underbygge en kobling til benmetabolisme
 - Avklaring av markedsstatus og tilgjengelighet i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

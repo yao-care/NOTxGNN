@@ -60,7 +60,7 @@ For denne indikasjonen er det foreløpig **0 kliniske studier** og **0 publikasj
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er foreløpig ikke tilgjengelige. Amlodipin er likevel kjent som en dihydropyridin-kalsiumkanalblokker. Den gir utvidelse av blodkar og senker blodtrykket. Effekten ved hypertensjon er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Amlodipine (uoffisiell oversettelse): «Amlodipin er en dihydropyridin-kalsiumantagonist (kalsiumionantagonist eller blokker av langsomme kanaler) som hemmer den transmembrane innstrømningen av kalsiumioner i glatt muskulatur i karveggen og i hjertemuskulaturen. Eksperimentelle data tyder på at amlodipin binder seg til både dihydropyridin- og ikke-dihydropyridin-bindingsseter.» Engelsk originaltekst: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), versjon av 2026-09-28; hentet 2026-11-19). Amlodipin er likevel kjent som en dihydropyridin-kalsiumkanalblokker. Den gir utvidelse av blodkar og senker blodtrykket. Effekten ved hypertensjon er godt dokumentert.
 
 Den mulige koblingen til hjernestamme­infarkt går via blodtrykkssenkning og karutvidelse. Blodtrykkskontroll er sentralt i sekundærforebygging etter hjerneslag. Dette er imidlertid en teoretisk hypotese. Den er ikke støttet av noen innhentede studier for akkurat denne tilstanden. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -146,11 +146,12 @@ Blant de øvrige prediksjonene har **intrakraniell blødning (intracerebral hemo
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle åtte godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

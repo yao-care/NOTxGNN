@@ -60,7 +60,7 @@ Rapporten vurderer derfor hepatitt E som hovedkandidat, fordi hepatitt B mangler
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelig. Basert på kjent informasjon er sofosbuvir en forløper (prodrug) som omdannes til et aktivt trifosfat. Dette hemmer RNA-avhengige RNA-polymeraser (RdRp). Effekten er dokumentert ved hepatitt C, og mekanistisk kan den være aktuell for andre RNA-virus.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sofosbuvir (uoffisiell oversettelse): «Sofosbuvir er et direktevirkende antiviralt middel mot hepatitt C-virus. […] Sofosbuvir er en hemmer av HCV NS5B RNA-avhengig RNA-polymerase, som er essensiell for virusreplikasjon. Sofosbuvir er et nukleotidprodrug som gjennomgår intracellulær metabolisme for å danne det farmakologisk aktive uridinanalog-trifosfatet (GS-461203), som kan inkorporeres i HCV-RNA av NS5B-polymerasen og virker som kjedeterminator.» Engelsk originaltekst: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), versjon av 2024-12-26; hentet 2026-11-19). Basert på kjent informasjon er sofosbuvir en forløper (prodrug) som omdannes til et aktivt trifosfat. Dette hemmer RNA-avhengige RNA-polymeraser (RdRp). Effekten er dokumentert ved hepatitt C, og mekanistisk kan den være aktuell for andre RNA-virus.
 
 **Hepatitt E:** HEV har sin egen RdRp. Laboratoriestudier viser at sofosbuvir hemmer HEV-replikasjon, med additiv effekt sammen med ribavirin. Dette er den mest plausible mekanistiske koblingen blant kandidatene. De kliniske resultatene er imidlertid blandede: en liten pilotstudie og kasuistikker viser begrenset eller forbigående effekt, og resistensvarianter oppstod under behandling.
 
@@ -108,7 +108,6 @@ For hepatitt B er de nærmeste studiene [NCT03312023](https://clinicaltrials.gov
 | EMEA/H/C/004210 | Epclusa | – | Kronisk hepatitt C |
 | EMEA/H/C/004350 | Vosevi | – | Kronisk hepatitt C |
 
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -139,6 +138,19 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 - Kontrollerte studier av sofosbuvir ved kronisk hepatitt E, gjerne i kombinasjon med ribavirin og med oppfølging av resistens
 - Avklaring av markedsstatus i Norge, der legemidlet er markedsført og 4 av 4 godkjenninger er gyldige
 - Vurdering av HBV-reaktiveringsrisiko og interaksjonsprofil før eventuell videre utvikling
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

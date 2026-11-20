@@ -67,7 +67,7 @@ Det mest underbygde alternativet blant de predikerte indikasjonene er **migrene 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er prasugrel en tienopyridin som hemmer P2Y12-reseptoren på blodplater og dermed reduserer blodplateaktivering og aggregasjon. Effekten er godt dokumentert ved akutt koronarsyndrom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Prasugrel (uoffisiell oversettelse): «Prasugrel er en hemmer av blodplateaktivering og -aggregering gjennom irreversibel binding av den aktive metabolitten til P2Y 12 -klassen av ADP-reseptorer på blodplater.» Engelsk originaltekst: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), versjon av 2022-09-07; hentet 2026-11-19). Basert på kjent informasjon er prasugrel en tienopyridin som hemmer P2Y12-reseptoren på blodplater og dermed reduserer blodplateaktivering og aggregasjon. Effekten er godt dokumentert ved akutt koronarsyndrom.
 
 Ved pulmonal hypertensjon kan blodplateaktivering og mikrotrombose bidra til remodellering av lungekarene, så P2Y12-hemming er biologisk plausibelt. Det finnes imidlertid ingen direkte klinisk dokumentasjon for prasugrel ved denne tilstanden, og TxGNN-scoren er kun en modellprediksjon.
 
@@ -164,12 +164,13 @@ For pulmonal hypertensjon er prediksjonen utelukkende modellbasert (L5), uten kl
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Merk: Den eneste registrerte tillatelsen (Efient, EMEA/H/C/000984) er en sentral europeisk tillatelse og er markert som trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

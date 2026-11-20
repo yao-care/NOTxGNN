@@ -60,7 +60,7 @@ og det er så langt funnet **2 kliniske studier** (kun indirekte relevante) og *
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på generell farmakologisk kunnskap er midazolam et kortvirkende benzodiazepin som fungerer som positiv allosterisk modulator av GABA-A-reseptoren og dermed forsterker hemmende nevrotransmisjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Midazolam (uoffisiell oversettelse): «Midazolam er et korttidsvirkende benzodiazepin som demper sentralnervesystemet (CNS).» Engelsk originaltekst: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), versjon av 2025-07-31; hentet 2026-11-19). Basert på generell farmakologisk kunnskap er midazolam et kortvirkende benzodiazepin som fungerer som positiv allosterisk modulator av GABA-A-reseptoren og dermed forsterker hemmende nevrotransmisjon.
 
 Denne beroligende og søvninduserende virkningen er direkte relevant for innsovning og søvnopprettholdelse. Midazolam tilhører samme legemiddelklasse som etablerte sovemidler som flurazepam og triazolam. Den antiepileptiske effekten (dempet nevronal eksitabilitet) og den hypnotiske effekten bygger på samme GABA-mekanisme, noe som gjør prediksjonen biologisk plausibel.
 
@@ -124,6 +124,19 @@ Mekanismen er plausibel og eldre studier fra 1980–1990-tallet viser hypnotisk 
 - Vurdering av de eldre studiene (1981–1990) opp mot dagens retningslinjer, der benzodiazepiner ved insomni er begrenset av risiko for avhengighet og toleranse
 - Sammenligning med nåværende sovemidler og vurdering av egnet administrasjonsvei (kompatibilitet er ikke avklart)
 - Sikkerhetsplan for risikogrupper (KOLS, lever- og nyresvikt, glaukom, eldre)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

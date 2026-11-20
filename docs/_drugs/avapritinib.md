@@ -54,7 +54,7 @@ Avapritinib er en kinasehemmer rettet mot KIT og PDGFRA. TxGNN-modellen forutsie
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelige i de innsamlede dataene. Avapritinib er kjent som en hemmer av KIT og PDGFRA, to reseptortyrosinkinaser som driver visse svulster.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Avapritinib (uoffisiell oversettelse): «Avapritinib er en tyrosinkinasehemmer som er rettet mot KIT D816V, PDGFRA og PDGFRA D842-mutanter samt flere KIT-mutanter i ekson 11, 11/17 og 17, med halvmaksimale hemmende konsentrasjoner (IC 50-verdier) under 25 nM i biokjemiske analyser. Visse mutasjoner i PDGFRA og KIT kan føre til autofosforylering og konstitutiv aktivering av disse reseptorene, noe som kan bidra til proliferasjon av tumorceller og mastceller.» Engelsk originaltekst: "Avapritinib is a tyrosine kinase inhibitor that targets KIT D816V, PDGFRA and PDGFRA D842 mutants as well as multiple KIT exon 11, 11/17 and 17 mutants with half maximal inhibitory concentrations (IC 50s ) less than 25 nM in biochemical assays. Certain mutations in PDGFRA and KIT can result in the autophosphorylation and constitutive activation of these receptors which can contribute to tumor and mast cell proliferation." ([DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9), versjon av 2026-10-20; hentet 2026-11-19). Avapritinib er kjent som en hemmer av KIT og PDGFRA, to reseptortyrosinkinaser som driver visse svulster.
 
 Aksial spondylometafysær dysplasi er en sjelden skjelettsykdom, knyttet til varianter i CFAP410 (C21orf2). Det er ingen kjent sammenheng mellom denne sykdommen og KIT/PDGFRA-signalering. Det er derfor ikke etablert noen mekanistisk kobling, og den høye scoren (0,9992) er et rent modellresultat uten støtte fra studier eller litteratur.
 
@@ -102,6 +102,19 @@ Prediksjonen er kun basert på en modellscore uten kliniske studier, litteratur 
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
 - Vurdering av nytte–risiko, gitt den kjente toksisiteten til legemiddelklassen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

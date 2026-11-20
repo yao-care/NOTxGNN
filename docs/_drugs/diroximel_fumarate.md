@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **diabetisk katarakt**,
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er diroksimelfumarat et prodrug av monometylfumarat, som aktiverer den antioksidative Nrf2-signalveien og kan redusere oksidativt stress. Dette er en slutning ut fra legemiddelklassen og er ikke validert her.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Diroximel Fumarate (uoffisiell oversettelse): «Mekanismen som diroksimelfumarat utøver sin terapeutiske effekt ved multippel sklerose gjennom, er ukjent. MMF, den aktive metabolitten av diroksimelfumarat, har vist seg å aktivere Nrf2-signalveien (nuclear factor (erythroid-derived 2)-like 2) in vitro og in vivo hos dyr og mennesker.» Engelsk originaltekst: "The mechanism by which diroximel fumarate exerts its therapeutic effect in multiple sclerosis is unknown. MMF, the active metabolite of diroximel fumarate, has been shown to activate the nuclear factor (erythroid-derived 2)-like 2 (Nrf2) pathway in vitro and in vivo in animals and humans." ([DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774), versjon av 2025-05-29; hentet 2026-11-19). Basert på kjent informasjon er diroksimelfumarat et prodrug av monometylfumarat, som aktiverer den antioksidative Nrf2-signalveien og kan redusere oksidativt stress. Dette er en slutning ut fra legemiddelklassen og er ikke validert her.
 
 Oksidativt stress og skade via polyolveien bidrar til linseopasitet ved diabetes, så en kobling er tenkelig. Det er imidlertid en betydelig begrensning at systemisk oral dosering kanskje ikke gir relevante konsentrasjoner i linsen. Høy score for flere katarakttyper (blant annet tetanisk, kortikal, moden og kraniostenose-katarakt) skyldes sannsynligvis felles nettverksegenskaper i modellen, ikke en spesifikk mekanisme.
 
@@ -129,11 +129,12 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske stud
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Tillatelsen er registrert som avregistrert (innehaver: Biogen Netherlands B.V.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774) |
 
 <!-- review:end log -->
 

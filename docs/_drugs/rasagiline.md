@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt på **PLA2G6-assosiert nev
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i det innsamlede materialet. Ut fra allment kjent kunnskap er rasagilin en irreversibel MAO-B-hemmer som reduserer nedbrytningen av dopamin og dermed øker tilgjengeligheten av dopamin. Effekten ved Parkinsons sykdom er godt etablert, og legemidlet kan i tillegg ha nevrobeskyttende egenskaper. Denne mekanismebeskrivelsen er ikke hentet fra de innsamlede dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rasagiline (uoffisiell oversettelse): «AZILECT er en selektiv, irreversibel MAO-B-hemmer indisert for behandling av idiopatisk Parkinsons sykdom. Resultatene fra en klinisk studie utformet for å undersøke effektene av AZILECT på blodtrykket når det gis sammen med økende doser tyramin, indikerer at den funksjonelle selektiviteten kan være ufullstendig når friske forsøkspersoner inntar store mengder tyramin mens de får anbefalte doser AZILECT. […] I ex vivo-dyrestudier i hjerne-, lever- og tarmvev ble rasagilin vist å være en potent, irreversibel selektiv hemmer av monoaminoksidase type B (MAO-B).» Engelsk originaltekst: "AZILECT is a selective, irreversible MAO-B inhibitor indicated for the treatment of idiopathic Parkinson’s disease. The results of a clinical trial designed to examine the effects of AZILECT on blood pressure when it is administered with increasing doses of tyramine indicates the functional selectivity can be incomplete when healthy subjects ingest large amounts of tyramine while receiving recommended doses of AZILECT. […] In ex vivo animal studies in brain, liver, and intestinal tissues, rasagiline was shown to be a potent, irreversible monoamine oxidase type B (MAO-B) selective inhibitor." ([DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60), versjon av 2020-06-30; hentet 2026-11-19). Ut fra allment kjent kunnskap er rasagilin en irreversibel MAO-B-hemmer som reduserer nedbrytningen av dopamin og dermed øker tilgjengeligheten av dopamin. Effekten ved Parkinsons sykdom er godt etablert, og legemidlet kan i tillegg ha nevrobeskyttende egenskaper. Denne mekanismebeskrivelsen er ikke hentet fra de innsamlede dataene.
 
 PLA2G6-assosiert nevrodegenerasjon omfatter blant annet infantil nevroaksonal dystrofi og PLA2G6-relatert dystoni-parkinsonisme. Disse tilstandene har fellestrekk med Parkinsons sykdom, som dopaminerg dysfunksjon, alfa-synuklein-patologi og mitokondriell/oksidativ stress. Symptomlindring ved den parkinsonistiske fenotypen er derfor teoretisk plausibel.
 
@@ -129,11 +129,12 @@ Blant de øvrige predikerte indikasjonene er **juvenil parkinsonisme (Hunt-type)
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle norske godkjenninger er dessuten opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
 
 <!-- review:end log -->
 

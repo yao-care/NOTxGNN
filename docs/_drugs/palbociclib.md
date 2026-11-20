@@ -62,7 +62,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **revmatoid artr
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Palbociclib er kjent som en hemmer av syklinavhengige kinaser 4 og 6 (CDK4/6), som styrer celleinndelingen i G1-fasen. Effekten ved brystkreft er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Palbociclib (uoffisiell oversettelse): «Palbociklib er en hemmer av syklinavhengige kinaser (CDK) 4 og 6. Syklin D1 og CDK4/6 ligger nedstrøms for signalveier som fører til celleproliferasjon. In vitro reduserte palbociklib celleproliferasjonen i østrogenreseptor (ER)-positive brystkreftcellelinjer ved å blokkere cellens progresjon fra G1- til S-fasen i cellesyklusen.» Engelsk originaltekst: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), versjon av 2026-07-06; hentet 2026-11-19). Palbociclib er kjent som en hemmer av syklinavhengige kinaser 4 og 6 (CDK4/6), som styrer celleinndelingen i G1-fasen. Effekten ved brystkreft er godt etablert.
 
 Ved revmatoid artritt driver unormal celleproliferasjon i synovialfibroblaster og immunceller sykdomsprosessen. Prekliniske data tyder på at hemming av cellesyklus kan dempe leddbetennelse uten å svekke ervervet immunitet (PMID 25165034). En musestudie fra 2025 peker på at synovial hyperplasi er avhengig av CDK6, men ikke av CDK4 (PMID 39940918). En kasuistikk beskriver bedring av revmatoid artritt hos en brystkreftpasient som fikk palbociclib (PMID 33587021).
 
@@ -145,6 +145,19 @@ Revmatoid artritt har en plausibel biologisk begrunnelse, men evidensen er begre
 - Et tydelig forskningsspørsmål, for eksempel selektiv CDK6-hemming eller en pilotstudie ved revmatoid artritt
 - Vurdering av sikkerhet, særlig myelosuppresjon, tromboembolisme og interaksjoner, i en ikke-kreftpopulasjon
 - Avklaring av reguleringsstatus og tilgjengelig legemiddelform i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

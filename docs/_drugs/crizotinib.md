@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fibromatose i gingiva
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme var ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon er crizotinib en ATP-konkurrerende liten molekylhemmer av reseptortyrosinkinasene ALK, ROS1 og MET. Effekten er godt dokumentert ved ALK- og ROS1-positiv ikke-småcellet lungekreft.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Crizotinib (uoffisiell oversettelse): «Krizotinib er en hemmer av reseptortyrosinkinaser, inkludert ALK, hepatocyttvekstfaktorreseptor (HGFR, c-Met), ROS1 (c-ros) og Recepteur d'Origine Nantais (RON). Translokasjoner kan påvirke ALK-genet og føre til uttrykk av onkogene fusjonsproteiner.» Engelsk originaltekst: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), versjon av 2026-10-29; hentet 2026-11-19). Ut fra kjent informasjon er crizotinib en ATP-konkurrerende liten molekylhemmer av reseptortyrosinkinasene ALK, ROS1 og MET. Effekten er godt dokumentert ved ALK- og ROS1-positiv ikke-småcellet lungekreft.
 
 Det er ikke påvist noen mekanistisk kobling mellom crizotinib og fibromatose i gingiva. Den høye TxGNN-scoren er en ren grafbasert prediksjon, og verken kliniske studier eller litteratur knytter legemidlet til tilstanden. Prediksjonen bør derfor betraktes som en hypotese og ikke som et signal med støtte i data.
 
@@ -127,6 +127,19 @@ Prediksjonen for fibromatose i gingiva bygger kun på en grafbasert modellscore,
 - Prekliniske data eller en mekanistisk hypotese som kobler ALK/ROS1/MET-signalering til fibromatose i gingiva
 - Avklaring av hvorfor godkjenningen i Norge er kansellert, og av hvilke administrasjonsveier som er relevante
 - Hvis man vil prioritere en annen kandidat: en egen vurdering av lungegerminalcelletumor eller ALK-drevne svulster, med molekylær seleksjon av pasienter
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

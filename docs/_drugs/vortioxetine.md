@@ -61,7 +61,7 @@ Den høye prediksjonsscoren gjenspeiler trolig nærheten til MDD i ontologien, i
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er vortioksetin et antidepressivum med dokumentert effekt ved alvorlig depressiv lidelse, og det kan mekanistisk tenkes å være relevant for nevrotisk lidelse. Litteraturen som er innhentet beskriver vortioksetin som en serotoninreopptakshemmer med modulerende effekt på flere 5-HT-reseptorer, men dette er ikke verifisert mot MOA-feltet i datasettet.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Vortioxetine (uoffisiell oversettelse): «Mekanismen bak den antidepressive effekten av vortioksetin er ikke fullstendig klarlagt, men antas å være relatert til forsterkning av serotonerg aktivitet i CNS gjennom hemming av gjenopptaket av serotonin (5-HT). Vortioksetin har også flere andre virkninger, inkludert antagonisme ved 5-HT3-reseptoren og agonisme ved 5-HT1A-reseptoren.» Engelsk originaltekst: "The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism." ([DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e), versjon av 2026-04-23; hentet 2026-11-19). Ut fra kjent informasjon er vortioksetin et antidepressivum med dokumentert effekt ved alvorlig depressiv lidelse, og det kan mekanistisk tenkes å være relevant for nevrotisk lidelse. Litteraturen som er innhentet beskriver vortioksetin som en serotoninreopptakshemmer med modulerende effekt på flere 5-HT-reseptorer, men dette er ikke verifisert mot MOA-feltet i datasettet.
 
 «Nevrotisk lidelse» er en bred, historisk diagnosekategori som i stor grad overlapper med depressive lidelser og angstlidelser. Den høye TxGNN-scoren speiler derfor trolig ontologisk nærhet til MDD snarere enn selvstendig evidens. Den eneste litteraturen er en russiskspråklig narrativ artikkel om behandling av nevrotisk depresjon (kasuistikk med antidepressiva og kognitiv atferdsterapi), som ikke vurderer vortioksetin.
 
@@ -140,12 +140,13 @@ Det finnes ingen kliniske studier og kun én litteraturreferanse uten direkte ko
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «I tillegg er produktet kun registrert som avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
 
 <!-- review:end log -->
 

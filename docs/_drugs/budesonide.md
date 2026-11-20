@@ -58,7 +58,7 @@ Budesonid er et kortikosteroid som opprinnelig brukes mot kronisk obstruktiv lun
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Budesonid er et glukokortikoid med bred antiinflammatorisk og immundempende virkning. Effekten er godt dokumentert ved kols, astma og eosinofil øsofagitt, som alle er kroniske, inflammatoriske slimhinnetilstander.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Budesonide (uoffisiell oversettelse): «Budesonid er et antiinflammatorisk kortikosteroid som har kraftig glukokortikoid aktivitet og svak mineralokortikoid aktivitet. I standard in vitro- og dyremodeller har budesonid omtrent 200 ganger høyere affinitet for glukokortikoidreseptoren og 1000 ganger høyere topikal antiinflammatorisk potens enn kortisol (krotonolje-øreødemtest hos rotte).» Engelsk originaltekst: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), versjon av 2026-06-10; hentet 2026-11-19). Budesonid er et glukokortikoid med bred antiinflammatorisk og immundempende virkning. Effekten er godt dokumentert ved kols, astma og eosinofil øsofagitt, som alle er kroniske, inflammatoriske slimhinnetilstander.
 
 Atopisk eksem er en Th2-drevet inflammatorisk hudsykdom, og topiske kortikosteroider er allerede standardbehandling. Mekanismen er derfor biologisk plausibel. Likevel viser den innhentede litteraturen ingen klinisk effekt av budesonid ved atopisk eksem. Den eneste direkte relevante publikasjonen er en preklinisk studie av budesonid-nanopartikler i hydrogel. Resten omhandler eosinofil øsofagitt, kontaktallergi, kortikosteroid-overfølsomhet og binyresuppresjon. Den høye TxGNN-scoren er en ren prediksjon og understøttes ikke av kliniske data.
 
@@ -148,12 +148,13 @@ Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og li
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «og alle norske godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN-modellen forutsier at det kan ha effekt ved flere sykdommer. Den best unde
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er diflunisal et salisylsyrederivat og NSAID som hemmer COX-1 og COX-2, og det virker også som transthyretin-stabilisator. Den siste egenskapen ligger bak den opprinnelige indikasjonen ved familiær amyloid nevropati.
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Diflunisal (uoffisiell oversettelse): «Den nøyaktige mekanismen for de analgetiske og antiinflammatoriske virkningene av diflunisal er ikke kjent. Diflunisal er en prostaglandinsyntetasehemmer. Hos dyr sensibiliserer prostaglandiner afferente nerver og potenserer virkningen av bradykinin ved induksjon av smerte.» Engelsk originaltekst: "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain." ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b), versjon av 2025-10-06; hentet 2026-11-19). Basert på kjent informasjon er diflunisal et salisylsyrederivat og NSAID som hemmer COX-1 og COX-2, og det virker også som transthyretin-stabilisator. Den siste egenskapen ligger bak den opprinnelige indikasjonen ved familiær amyloid nevropati.
 
 For toppranket sykdom, acromesomelic dysplasia av Hunter-Thompson-typen, finnes det ingen plausibel mekanistisk kobling. Dette er en genetisk skjelettdysplasi (CDMP1/GDF5-veien), og verken COX-hemming eller transthyretin-stabilisering adresserer sykdomsbiologien. Den høye scoren er en ren grafbasert prediksjon uten kliniske eller litteraturbaserte holdepunkter. Det samme gjelder flere andre rangerte sykdommer (brachyolmia, brachyolmia-amelogenesis imperfecta-syndrom, colobomatøs mikroftalmi-rhizomel dysplasi-syndrom og myosklerose).
 
@@ -125,11 +125,12 @@ Se preparatomtalen for advarsler og kontraindikasjoner fra produsenten.
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
 
 <!-- review:end log -->
 

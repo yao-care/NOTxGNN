@@ -61,7 +61,7 @@ men for øyeblikket finnes **ingen kliniske studier** og **ingen publikasjoner**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Basert på generell kunnskap om legemiddelklassen er cobimetinib en hemmer av MEK1/2 i MAPK/ERK-signalveien. Effekten ved melanom er påvist, og mekanistisk kan hemming av denne signalveien tenkes å være relevant for ALS.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cobimetinib (uoffisiell oversettelse): «Kobimetinib er en reversibel hemmer av mitogenaktivert proteinkinase (MAPK)/ekstracellulært signalregulert kinase 1 (MEK1) og MEK2. MEK-proteiner er oppstrømsregulatorer av signalveien for ekstracellulær signalrelatert kinase (ERK), som fremmer celleproliferasjon.» Engelsk originaltekst: "Cobimetinib is a reversible inhibitor of mitogen-activated protein kinase (MAPK)/extracellular signal regulated kinase 1 (MEK1) and MEK2. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6), versjon av 2026-07-29; hentet 2026-11-19). Basert på generell kunnskap om legemiddelklassen er cobimetinib en hemmer av MEK1/2 i MAPK/ERK-signalveien. Effekten ved melanom er påvist, og mekanistisk kan hemming av denne signalveien tenkes å være relevant for ALS.
 
 Aktivering av MAPK/ERK-signalveien og nevroinflammasjon har vært koblet til ALS-biologi, så en hypotetisk sammenheng finnes. Datagrunnlaget inneholder imidlertid verken studier eller litteratur som underbygger den. Den høye scoren (0,9973) er en ren modellprediksjon.
 
@@ -148,6 +148,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5) uten kliniske studier 
 - Prekliniske data eller litteratursøk som kobler MEK/ERK-hemming til ALS-patofysiologi
 - Vurdering av markedstilgjengelighet i Norge gitt at autorisasjonen er kansellert
 - Sikkerhetsvurdering for MEK-hemmer i motornevronsykdom (CK-økning, retinopati, utslett)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

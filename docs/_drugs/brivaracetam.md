@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 ## Hvorfor er denne prediksjonen (eller ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i det innsamlede materialet. Brivaracetam er kjent som en modulator av det synaptiske vesikkelproteinet SV2A, og er et antiepileptikum.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Brivaracetam (uoffisiell oversettelse): «Den nøyaktige mekanismen som BRIVIACT utøver sin antikonvulsive aktivitet ved, er ikke kjent. Brivaracetam viser høy og selektiv affinitet for synaptisk vesikkelprotein 2A (SV2A) i hjernen, noe som kan bidra til den antikonvulsive effekten.» Engelsk originaltekst: "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), versjon av 2026-11-05; hentet 2026-11-19). Brivaracetam er kjent som en modulator av det synaptiske vesikkelproteinet SV2A, og er et antiepileptikum.
 
 Beta-ketothiolase-mangel er en medfødt feil i omsetningen av ketonlegemer og isoleucin. Det er ingen opplagt mekanistisk kobling mellom SV2A-modulering og denne metabolske sykdommen. Den høye modellscoren skyldes trolig en tilfeldig assosiasjon, for eksempel via anfallsrelaterte fenotyper under metabolske kriser. Likheten med den opprinnelige bruken er foreløpig ikke vurdert.
 
@@ -108,6 +108,19 @@ Prediksjonen mangler både kliniske studier og litteratur, og det finnes ingen p
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Prekliniske eller mekanistiske studier som kan belyse en eventuell kobling til ketonlegeme- og isoleucinmetabolismen
 - Vurdering av om prediksjonen skyldes anfallsrelaterte fenotyper snarere enn en reell sykdomsmekanisme
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

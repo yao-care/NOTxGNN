@@ -61,7 +61,7 @@ Prediksjonen støttes likevel **ikke av noen kliniske studier** og **ikke av noe
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Nitrogenoksid er kjent som en selektiv pulmonal vasodilator når det gis inhalert. Effekten er godt dokumentert ved pulmonal hypertensjon og respirasjonssvikt, men mekanismen kan ikke knyttes til den predikerte indikasjonen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nitric Oxide (uoffisiell oversettelse): «Nitrogenmonoksid relakserer glatt muskulatur i karene ved å binde seg til hemdelen av cytosolisk guanylatsyklase, noe som aktiverer guanylatsyklase og øker de intracellulære nivåene av syklisk guanosin-3',5'-monofosfat, som deretter fører til vasodilatasjon. Ved inhalasjon dilaterer nitrogenmonoksid selektivt lungekarene, og har på grunn av effektiv fjerning av hemoglobin minimal effekt på de systemiske karene.» Engelsk originaltekst: "Nitric oxide relaxes vascular smooth muscle by binding to the heme moiety of cytosolic guanylate cyclase, activating guanylate cyclase and increasing intracellular levels of cyclic guanosine 3',5'-monophosphate, which then leads to vasodilation. When inhaled, nitric oxide selectively dilates the pulmonary vasculature, and because of efficient scavenging by hemoglobin, has minimal effect on the systemic vasculature." ([DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a), versjon av 2025-12-12; hentet 2026-11-19). Nitrogenoksid er kjent som en selektiv pulmonal vasodilator når det gis inhalert. Effekten er godt dokumentert ved pulmonal hypertensjon og respirasjonssvikt, men mekanismen kan ikke knyttes til den predikerte indikasjonen.
 
 Analysen av sammenhengen mellom opprinnelig og ny indikasjon gir ingen plausibel kobling. Litteraturen som ble funnet handler om periodontitt, tannkjøttbetennelse og plantebaserte antiinflammatoriske stoffer i celle- og dyremodeller. Én studie omhandler hvordan den orale mikrobiotaen håndterer nitritt. Ingen av disse viser at inhalert nitrogenoksid har en terapeutisk rolle ved et strukturelt misdannelsessyndrom. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk eller klinisk evidens.
 
@@ -128,6 +128,19 @@ De data som er samlet inn for rapporten inneholder bedre støttede prediksjoner,
 - Dokumentasjon av en biologisk mekanisme som kobler NO til den predikerte tilstanden. Foreløpig finnes ingen.
 - Mekanismedata (MOA) og preparatomtalens advarsler og kontraindikasjoner, som mangler i dagens datagrunnlag.
 - En vurdering av om de bedre støttede PAH-relaterte prediksjonene bør prioriteres fremfor denne.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

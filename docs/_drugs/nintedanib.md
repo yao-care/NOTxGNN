@@ -58,7 +58,7 @@ Nintedanib er en tyrosinkinasehemmer som hemmer PDGFR, FGFR og VEGFR. Legemidlet
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ut fra kjent farmakologi er nintedanib en trippel angiokinasehemmer som blokkerer PDGFR alfa/beta, FGFR 1–3 og VEGFR 1–3.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nintedanib (uoffisiell oversettelse): «Nintedanib er et lite molekyl som hemmer flere reseptortyrosinkinaser (RTK-er) og ikke-reseptortyrosinkinaser (nRTK-er). Nintedanib hemmer følgende RTK-er: blodplateavledet vekstfaktorreseptor (PDGFR) α og β, fibroblastvekstfaktorreseptor (FGFR) 1-3, vaskulær endotelial vekstfaktorreseptor (VEGFR) 1-3, kolonistimulerende faktor 1-reseptor (CSF1R) og Fms-lignende tyrosinkinase-3 (FLT-3).» Engelsk originaltekst: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), versjon av 2026-04-21; hentet 2026-11-19). Ut fra kjent farmakologi er nintedanib en trippel angiokinasehemmer som blokkerer PDGFR alfa/beta, FGFR 1–3 og VEGFR 1–3.
 
 Dermatofibrosarcoma protuberans drives vanligvis av COL1A1-PDGFB-fusjonen, som gir vedvarende aktivering av PDGFRB. Blokkade av PDGFR gir derfor en plausibel mekanistisk kobling. Imatinib er allerede etablert som PDGFR-rettet behandling ved denne sykdommen, så nintedanib må vise en fordel, for eksempel ved imatinibresistent sykdom.
 
@@ -127,6 +127,18 @@ Det finnes ingen kliniske studier eller litteratur som studerer nintedanib ved d
 - Detaljerte data om virkningsmekanisme
 - Sikkerhetsopplysninger fra pakningsvedlegget (advarsler og kontraindikasjoner)
 - Vurdering av interaksjonsrisiko, særlig med antikoagulantia og blodplatehemmere
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

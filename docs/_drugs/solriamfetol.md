@@ -54,7 +54,7 @@ Solriamfetol er et våkenhetsfremmende legemiddel som hemmer reopptaket av dopam
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Vurderingen bygger derfor på kjent farmakologi. Solriamfetol er en hemmer av reopptaket av dopamin og noradrenalin. De innsamlede dataene viser at stoffet binder seg til noradrenalintransportøren (NET, SLC6A2) og dopamintransportøren (DAT, SLC6A3).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Solriamfetol (uoffisiell oversettelse): «Virkningsmekanismen til solriamfetol for å bedre våkenhet hos pasienter med overdreven søvnighet på dagtid forbundet med narkolepsi eller obstruktiv søvnapné er uklar. Effekten kan imidlertid være mediert gjennom dets aktivitet som en dopamin- og noradrenalinreopptakshemmer (DNRI).» Engelsk originaltekst: "The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI)." ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), versjon av 2026-05-05; hentet 2026-11-19). Vurderingen bygger derfor på kjent farmakologi. Solriamfetol er en hemmer av reopptaket av dopamin og noradrenalin. De innsamlede dataene viser at stoffet binder seg til noradrenalintransportøren (NET, SLC6A2) og dopamintransportøren (DAT, SLC6A3).
 
 Økt katekolaminerg signalering i prefrontale kretser er den etablerte mekanismen bak godkjente ADHD-legemidler som metylfenidat og atomoksetin. Mekanismen er derfor biologisk sammenfallende med ADHD-patofysiologien. Solriamfetol deler også sympatomimetiske egenskaper med legemidler som allerede brukes ved ADHD. Det har dessuten vært undersøkt som et alternativ til tradisjonelle sentralstimulerende midler.
 
@@ -105,6 +105,18 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen, inkludert vurdering av kardiovaskulære effekter og misbrukspotensial hos personer med ADHD
 - En overvåkingsplan for sikkerhet hos barn og ungdom
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

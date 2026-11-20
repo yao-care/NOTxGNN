@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hyp
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er silodosin en selektiv alfa-1A-adrenerg reseptorantagonist. Effekten ved godartet prostataforstørrelse er godt etablert, og skyldes avslapning av glatt muskulatur i prostata og blærehals.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Silodosin (uoffisiell oversettelse): «Silodosin er en selektiv antagonist av postsynaptiske alfa-1-adrenoreseptorer, som er lokalisert i human prostata, blærebasis, blærehals, prostatakapsel og prostatisk uretra. Blokade av disse alfa-1-adrenoreseptorene kan føre til at glatt muskulatur i disse vevene relakserer, noe som gir bedret urinstrøm og reduksjon av BPH-symptomer.» Engelsk originaltekst: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), versjon av 2026-10-30; hentet 2026-11-19). Basert på kjent informasjon er silodosin en selektiv alfa-1A-adrenerg reseptorantagonist. Effekten ved godartet prostataforstørrelse er godt etablert, og skyldes avslapning av glatt muskulatur i prostata og blærehals.
 
 Ambras-syndrom er en sjelden medfødt tilstand knyttet til genomiske omleiringer som påvirker reguleringen av *TRPS1*. Det er ingen kjent signalvei som knytter alfa-1A-blokade til denne mekanismen.
 
@@ -127,11 +127,12 @@ Prediksjonen bygger kun på en grafbasert modellscore (evidensnivå L5), uten kl
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle tre tillatelsene (innehaver: Recordati Ireland Ltd) har status trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
 
 <!-- review:end log -->
 

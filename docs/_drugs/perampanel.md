@@ -58,7 +58,7 @@ Perampanel (handelsnavn Fycompa) er et antiepileptikum som opprinnelig brukes mo
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Perampanel er en selektiv, ikke-kompetitiv antagonist av AMPA-reseptoren. Den reduserer glutamatmediert eksitatorisk nevrotransmisjon. Detaljerte mekanismedata var ikke tilgjengelige i datagrunnlaget for denne rapporten, men denne virkningsmekanismen er godt beskrevet i litteraturen.
+Perampanel er en selektiv, ikke-kompetitiv antagonist av AMPA-reseptoren. Den reduserer glutamatmediert eksitatorisk nevrotransmisjon. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Perampanel (uoffisiell oversettelse): «Perampanel er en ikke-kompetitiv antagonist av den ionotrope α-amino-3-hydroksy-5-metyl-4-isoksazolpropionsyre (AMPA)-glutamatreseptoren på postsynaptiske nevroner. Glutamat er den primære eksitatoriske nevrotransmitteren i sentralnervesystemet og er implisert i en rekke nevrologiske lidelser forårsaket av nevronal overeksitasjon.» Engelsk originaltekst: "Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation." ([DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122), versjon av 2022-12-28; hentet 2026-11-19).
 
 Visuell (fotosensitiv) epilepsi er en refleksepilepsi med kortikal hypereksitabilitet, og er nær beslektet med den godkjente indikasjonen, fokal epilepsi. Siden AMPA-reseptorer er sentrale for synkronisering og spredning av epileptisk aktivitet, er det mekanistisk plausibelt at perampanel kan dempe synsutløste anfall.
 
@@ -128,6 +128,19 @@ For øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, vis
 - Eventuelt en pilotstudie dersom det kliniske behovet bekreftes
 
 Der pågår en fase 2-studie (NCT06401707) om forebygging av status epilepticus etter hjertestans.*
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

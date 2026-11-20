@@ -62,7 +62,7 @@ og de samlede dataene viser **2 kliniske studier** og **2 publikasjoner** for de
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i det innsamlede materialet. Basert på kjent informasjon er tikagrelor en reversibel P2Y12-antagonist som reduserer blodplateaggregasjon. Effekten er godt dokumentert ved akutt koronarsyndrom, og mekanismen kan være overførbar til andre arterielle sykdommer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ticagrelor (uoffisiell oversettelse): «Tikagrelor og dets hovedmetabolitt interagerer reversibelt med blodplatenes P2Y 12 ADP-reseptor og hindrer dermed signaltransduksjon og blodplateaktivering. Tikagrelor og dets aktive metabolitt er omtrent like potente.» Engelsk originaltekst: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), versjon av 2026-05-07; hentet 2026-11-19). Basert på kjent informasjon er tikagrelor en reversibel P2Y12-antagonist som reduserer blodplateaggregasjon. Effekten er godt dokumentert ved akutt koronarsyndrom, og mekanismen kan være overførbar til andre arterielle sykdommer.
 
 Intrakraniell aterosklerotisk stenose gir iskemisk hjerneslag gjennom blodplaterik trombedannelse og embolier fra arterie til arterie. Hemming av P2Y12 er derfor mekanistisk plausibelt. Tikagrelorbasert dobbel platehemming brukes allerede i nevrointervensjonelle prosedyrer, blant annet intrakraniell stenting.
 
@@ -135,6 +135,19 @@ Den ledende prediksjonen (intrakraniell arteriosklerose) er mekanistisk plausibe
 - Data om virkningsmekanisme fra DrugBank
 - Plan for blødningsrisiko, pasientutvalg (blant annet CYP2C19-status) og varighet av dobbel platehemming
 - Avklaring av regulatorisk status, siden den norske godkjenningen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

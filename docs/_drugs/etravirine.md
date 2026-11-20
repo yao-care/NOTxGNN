@@ -54,7 +54,7 @@ Etravirin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) som brukes mot
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Etravirin er kjent som en NNRTI som hemmer revers transkriptase hos HIV-1. SIV er en nær lentiviral slektning av HIV, og et felles revers transkriptase-mål er derfor konseptuelt mulig.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Etravirine (uoffisiell oversettelse): «Etravirin er et antiretroviralt legemiddel. […] Etravirin er en NNRTI for HIV-1. Etravirin bindes direkte til revers transkriptase (RT) og blokkerer de RNA-avhengige og DNA-avhengige DNA-polymeraseaktivitetene ved å forårsake en forstyrrelse av enzymets katalytiske sete. Etravirin hemmer ikke de humane DNA-polymerasene α, β og γ.» Engelsk originaltekst: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), versjon av 2023-08-15; hentet 2026-11-19). Etravirin er kjent som en NNRTI som hemmer revers transkriptase hos HIV-1. SIV er en nær lentiviral slektning av HIV, og et felles revers transkriptase-mål er derfor konseptuelt mulig.
 
 Den mekanistiske koblingen er likevel svak. SIV er, i likhet med HIV-2, i hovedsak naturlig resistent mot de fleste NNRTI-er. Den høye prediksjonsscoren gjenspeiler trolig likhet med HIV i modellens data, ikke dokumentert aktivitet mot SIV. Indikasjonen gjelder dessuten en dyremodell/veterinærmedisinsk sammenheng med liten klinisk relevans for mennesker.
 
@@ -100,6 +100,19 @@ Prediksjonen bygger kun på modellscore uten kliniske studier og uten litteratur
 - Data om virkningsmekanisme (MOA)
 - Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
 - En klar begrunnelse for relevans i dyremodell eller veterinærbruk før videre prioritering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

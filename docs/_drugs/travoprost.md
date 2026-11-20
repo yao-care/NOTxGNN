@@ -58,7 +58,7 @@ Travoprost er en prostaglandin F2-alfa-analog som opprinnelig brukes som øyedr�
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Travoprost er kjent som en prostaglandin F2-alfa-analog (FP-reseptoragonist) med lokal karutvidende effekt. Ved glaukom senker den øyetrykket, først og fremst ved å øke uveoskleral avrenning.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Travoprost (uoffisiell oversettelse): «Travoprost fri syre, en prostaglandinanalog, er en selektiv agonist ved FP-prostanoidreseptoren, som antas å redusere IOP ved å øke det uveosklerale utløpet. Den nøyaktige virkningsmekanismen er foreløpig ukjent.» Engelsk originaltekst: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), versjon av 2026-09-28; hentet 2026-11-19). Travoprost er kjent som en prostaglandin F2-alfa-analog (FP-reseptoragonist) med lokal karutvidende effekt. Ved glaukom senker den øyetrykket, først og fremst ved å øke uveoskleral avrenning.
 
 Det er vanskelig å finne en rimelig mekanistisk kobling til visceral kalcifylaksi. Sykdommen kjennetegnes av karforkalkning og trombose, og det er ikke påvist noen sammenheng mellom FP-reseptoragonisme og disse prosessene. Dessuten gir lokal dosering i øyet minimal systemisk eksponering, noe som gjør en systemisk effekt på visceral sykdom lite sannsynlig.
 
@@ -130,11 +130,12 @@ Prediksjonen kommer kun fra TxGNN-modellen (deep learning) (evidensnivå L5), og
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden de norske godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

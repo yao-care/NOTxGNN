@@ -60,7 +60,7 @@ Den høye prediksjonsscoren er mest sannsynlig en grafbasert artefakt og ikke et
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Ropeginterferon alfa-2b er et monopegylert interferon som virker via JAK/STAT-signalering og brukes til å kontrollere myeloproliferative neoplasmer, blant annet polycytemia vera.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ropeginterferon Alfa-2B (uoffisiell oversettelse): «Interferon alfa tilhører klassen av type I-interferoner, som utøver sine cellulære effekter ved polycytemia vera og essensiell trombocytemi i benmargen ved å binde seg til en transmembranreseptor kalt interferon alfa-reseptor (IFNAR). Binding til IFNAR initierer en nedstrøms signalkaskade gjennom aktivering av kinaser, spesielt Janus-kinase 1 (JAK1) og tyrosinkinase 2 (TYK2), og aktivator av transkripsjon (STAT)-proteiner.» Engelsk originaltekst: "Interferon alfa belongs to the class of type I interferons, which exhibit their cellular effects in polycythemia vera and essential thrombocythemia in the bone marrow by binding to a transmembrane receptor termed interferon alfa receptor (IFNAR). Binding to IFNAR initiates a downstream signaling cascade through the activation of kinases, in particular Janus kinase 1 (JAK1) and tyrosine kinase 2 (TYK2) and activator of transcription (STAT) proteins." ([DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb), versjon av 2026-08-25; hentet 2026-11-19). Ropeginterferon alfa-2b er et monopegylert interferon som virker via JAK/STAT-signalering og brukes til å kontrollere myeloproliferative neoplasmer, blant annet polycytemia vera.
 
 Laubry-Pezzi syndrom (ventrikkelseptumdefekt med aortainsuffisiens) er en strukturell medfødt hjertemisdannelse. Det er ingen plausibel mekanisme der et interferon rettet mot myeloproliferasjon kan korrigere en slik strukturell defekt. Det finnes ingen identifisert sammenheng mellom den opprinnelige og den nye indikasjonen.
 
@@ -137,11 +137,12 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Preparatet er i tillegg kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb) |
 
 <!-- review:end log -->
 

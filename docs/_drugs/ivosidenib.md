@@ -61,7 +61,7 @@ To av de tre toppforutsigelsene (AML/MDS relatert til alkyleringsmidler og strå
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ivosidenib hemmer mutert IDH1-enzym og senker nivået av onkometabolitten 2-hydroksyglutarat i IDH1-muterte svulster. Data om legemidlets detaljerte virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten, så vurderingen bygger på allment kjent farmakologi.
+Ivosidenib hemmer mutert IDH1-enzym og senker nivået av onkometabolitten 2-hydroksyglutarat i IDH1-muterte svulster. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ivosidenib (uoffisiell oversettelse): «Ivosidenib er en småmolekylær hemmer rettet mot det muterte enzymet isocitratdehydrogenase 1 (IDH1). Hos pasienter med AML defineres mottakelige IDH1-mutasjoner som mutasjoner som fører til økte nivåer av 2-hydroksyglutarat (2-HG) i leukemicellene, og der effekt predikeres av 1) klinisk betydningsfulle remisjoner med anbefalt dose ivosidenib og/eller 2) hemming av mutert IDH1-enzymaktivitet ved konsentrasjoner av ivosidenib som kan opprettholdes ved anbefalt dosering, i henhold til validerte metoder.» Engelsk originaltekst: "Ivosidenib is a small molecule inhibitor that targets the mutant isocitrate dehydrogenase 1 (IDH1) enzyme. In patients with AML, susceptible IDH1 mutations are defined as those leading to increased levels of 2-hydroxyglutarate (2-HG) in the leukemia cells and where efficacy is predicted by 1) clinically meaningful remissions with the recommended dose of ivosidenib and/or 2) inhibition of mutant IDH1 enzymatic activity at concentrations of ivosidenib sustainable at the recommended dosage according to validated methods." ([DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d), versjon av 2025-12-22; hentet 2026-11-19).
 
 For den toppredikerte indikasjonen, **bulbær polio**, er det ikke identifisert noen plausibel mekanistisk kobling. Bulbær polio er en virusinfeksjon i motoriske nevroner forårsaket av poliovirus, og ingen IDH1-avhengig mekanisme er kjent. Den svært høye scoren (0,9931) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og den har ingen støtte fra studier eller litteratur.
 
@@ -127,6 +127,19 @@ Toppprediksjonen (bulbær polio) mangler både mekanistisk støtte og enhver kli
 - Subgruppeanalyser fra pivotale AML-studier (sekundær eller behandlingsrelatert AML/MDS) med IDH1-mutasjonsstatus
 - Avklaring av hvorfor den norske tillatelsen er kansellert, og om en ny søknad er aktuell
 - Vurdering av QT-relaterte og CYP3A4-relaterte interaksjoner før eventuell klinisk bruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

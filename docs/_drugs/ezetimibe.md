@@ -54,7 +54,7 @@ Ezetimib er et kolesterolsenkende legemiddel som opprinnelig brukes ved hyperkol
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Ezetimib er kjent for å hemme NPC1L1-mediert opptak av kolesterol i tarmen og dermed senke LDL-kolesterol. Denne mekanismen er ikke bekreftet av de innsamlede dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ezetimibe (uoffisiell oversettelse): «Ezetimib reduserer kolesterol i blodet ved å hemme absorpsjonen av kolesterol i tynntarmen. Det molekylære målet for ezetimib har vist seg å være steroltransportøren Niemann-Pick C1-Like 1 (NPC1L1), som er involvert i intestinalt opptak av kolesterol og fytosteroler.» Engelsk originaltekst: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), versjon av 2026-10-08; hentet 2026-11-19). Ezetimib er kjent for å hemme NPC1L1-mediert opptak av kolesterol i tarmen og dermed senke LDL-kolesterol. Denne mekanismen er ikke bekreftet av de innsamlede dataene.
 
 CETP-mangel er en genetisk tilstand som gir forhøyet HDL-kolesterol og redusert LDL-kolesterol gjennom svekket overføring av kolesterolestere. De to tilstandene ligger langs samme akse i lipidmetabolismen, men koblingen er indirekte. CETP-mangel er stort sett godartet og er ikke en anerkjent sykdom som krever behandling. Den høye scoren (0,9909) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -104,6 +104,19 @@ Prediksjonen bygger kun på TxGNN-modellen (dyp læring) (evidensnivå L5). Det 
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Klinisk og biologisk begrunnelse for at CETP-mangel er en tilstand som bør behandles
 - Direkte studier eller mekanistiske data som knytter ezetimib til denne tilstanden
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -60,7 +60,7 @@ Det finnes foreløpig **ingen kliniske studier** og bare **1 indirekte publikasj
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om valsartans virkningsmekanisme var ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er valsartan en ARB, og effekten ved hypertensjon er godt dokumentert. Mekanistisk kan den derfor være aktuell ved malign hypertensiv nyresykdom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Valsartan (uoffisiell oversettelse): «Angiotensin II dannes fra angiotensin I i en reaksjon katalysert av angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det viktigste pressorstoffet i renin-angiotensinsystemet, med virkninger som omfatter vasokonstriksjon, stimulering av syntese og frisetting av aldosteron, hjertestimulering og renal reabsorpsjon av natrium. […] Diovan (valsartan) blokkerer de vasokonstriktive og aldosteronsekresjonsfremmende virkningene av angiotensin II ved selektivt å blokkere bindingen av angiotensin II til AT 1-reseptoren i mange vev, som glatt muskulatur i karveggen og binyren.» Engelsk originaltekst: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213), versjon av 2026-08-11; hentet 2026-11-19). Basert på kjent informasjon er valsartan en ARB, og effekten ved hypertensjon er godt dokumentert. Mekanistisk kan den derfor være aktuell ved malign hypertensiv nyresykdom.
 
 Blokkade av AT1-reseptoren kan beskytte nyrene ved alvorlig hypertensjon gjennom redusert vasokonstriksjon, lavere trykk i glomeruli og mindre fibrose. Den eneste publikasjonen som er funnet (PMID 24368192) gjelder avosentan, en endotelinantagonist, og ikke valsartan. Den gir derfor bare indirekte kontekst.
 
@@ -151,12 +151,13 @@ Prediksjonen bygger på en høy modellscore og et plausibelt mekanistisk grunnla
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle 9 godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er alle norske/europeiske godkjenninger opphevet, og v» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
 
 <!-- review:end log -->
 

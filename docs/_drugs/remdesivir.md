@@ -60,7 +60,7 @@ Den høyest rangerte prediksjonen, multippel endokrin neoplasi, har ingen støtt
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er remdesivir en nukleotidanalog-prodrug som hemmer viral RNA-avhengig RNA-polymerase. Effekten mot COVID-19 er dokumentert i flere fase 3-studier.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Remdesivir (uoffisiell oversettelse): «Remdesivir er et antiviralt legemiddel med aktivitet mot alvorlig akutt respiratorisk syndrom-koronavirus 2 (SARS-CoV-2). […] Remdesivir er en hemmer av SARS-CoV-2 RNA-avhengig RNA-polymerase (RdRp), som er essensiell for virusreplikasjon. Remdesivir er et adenosinnukleotid-prodrug som distribueres inn i celler, der det metaboliseres til et nukleosidmonofosfat-intermediat av karboksylesterase 1 og/eller katepsin A, avhengig av celletypen.» Engelsk originaltekst: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), versjon av 2026-07-29; hentet 2026-11-19). Ut fra kjent informasjon er remdesivir en nukleotidanalog-prodrug som hemmer viral RNA-avhengig RNA-polymerase. Effekten mot COVID-19 er dokumentert i flere fase 3-studier.
 
 HIV er også et RNA-virus, noe som gir en løs konseptuell begrunnelse. Likevel er HIV-replikasjon avhengig av revers transkriptase og integrasjon i vertens DNA, og remdesivir har ingen etablert anti-HIV-aktivitet. Den høye TxGNN-scoren er derfor først og fremst en grafbasert likhetsprediksjon, ikke en mekanistisk bekreftet kobling.
 
@@ -131,6 +131,19 @@ Prediksjonene er kun støttet av modellscore. Den eneste studien er en farmakoki
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Prekliniske data (in vitro-aktivitet mot HIV) før noen klinisk vurdering
 - Avklaring av doseringsform og administrasjonsvei (remdesivir gis intravenøst)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

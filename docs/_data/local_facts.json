@@ -21,11 +21,12 @@
   "items_current": 943
  },
  "reviews": {
-  "records": 217,
-  "pages": 150,
-  "public_pages_with_records": 149,
+  "records": 585,
+  "pages": 396,
+  "public_pages_with_records": 395,
   "by_action": {
-   "correct": 217
+   "correct": 217,
+   "mechanism": 368
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "Fokal stiv-lem-syndrom"
   },
   {
@@ -48,7 +49,7 @@
    "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 0,
+   "r": 1,
    "i": "Felint ervervet immunsviktsyndrom"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 16,
    "lv": 16,
-   "r": 0,
+   "r": 1,
    "i": "migraine with brainstem aura"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L5",
    "lt": 14,
    "lv": 14,
-   "r": 0,
+   "r": 1,
    "i": "Esotropi"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L4",
    "lt": 14,
    "lv": 14,
-   "r": 0,
+   "r": 1,
    "i": "Simian immunsviktvirus-infeksjon"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L2",
    "lt": 13,
    "lv": 12,
-   "r": 0,
+   "r": 1,
    "i": "Dermatitt"
   },
   {
@@ -93,7 +94,7 @@
    "l": "L5",
    "lt": 11,
    "lv": 11,
-   "r": 0,
+   "r": 1,
    "i": "Hypermobilitet i halebenet"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 11,
    "lv": 11,
-   "r": 0,
+   "r": 1,
    "i": "severe nonproliferative diabetic retinopathy"
   }
  ],
@@ -113,7 +114,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Akutt kvinnelig bekkenperitonitt"
   },
   {
@@ -122,7 +123,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Hodgkins lymfom"
   },
   {
@@ -131,7 +132,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "arvelig trombocytopeni med normale blodplater"
   },
   {
@@ -140,7 +141,7 @@
    "l": "L4",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Migrene"
   },
   {
@@ -149,7 +150,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "congenital coronary artery anomaly"
   }
  ],
@@ -161,7 +162,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 4,
+   "r": 5,
    "i": "drug-induced osteoporosis"
   },
   {
@@ -170,7 +171,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 3,
+   "r": 4,
    "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
   },
   {
@@ -179,7 +180,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 1,
-   "r": 3,
+   "r": 4,
    "i": "rheumatoid arthritis"
   },
   {
@@ -188,7 +189,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 3,
+   "r": 4,
    "i": "Kaliummangelsykdom"
   },
   {
@@ -197,7 +198,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 2,
-   "r": 3,
+   "r": 4,
    "i": "insomnia (disease)"
   },
   {
@@ -206,7 +207,7 @@
    "l": "L5",
    "lt": 3,
    "lv": 2,
-   "r": 3,
+   "r": 4,
    "i": "duodenal ulcer (disease)"
   }
  ],
@@ -216,7 +217,7 @@
   "l": "L1",
   "lt": 5,
   "lv": 5,
-  "r": 0,
+  "r": 1,
   "i": "Seboreisk dermatitt"
  },
  "recent_reviews": [

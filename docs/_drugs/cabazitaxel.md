@@ -60,7 +60,7 @@ Så langt finnes det **ingen registrerte kliniske studier** i datagrunnlaget, og
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i datagrunnlaget. Cabazitaxel er et taxan som stabiliserer mikrotubuli og dermed hemmer celledeling (mitose). Effekten ved prostatakreft er vist, og mekanismen er den samme som for docetaksel og paklitaksel.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cabazitaxel (uoffisiell oversettelse): «Kabazitaksel er en mikrotubulushemmer. Kabazitaksel binder seg til tubulin og fremmer sammensetningen av tubulin til mikrotubuli, samtidig som det hemmer nedbrytningen. Dette fører til stabilisering av mikrotubuli, noe som resulterer i hemming av cellulære funksjoner i mitose og interfase.» Engelsk originaltekst: "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), versjon av 2025-10-07; hentet 2026-11-19). Cabazitaxel er et taxan som stabiliserer mikrotubuli og dermed hemmer celledeling (mitose). Effekten ved prostatakreft er vist, og mekanismen er den samme som for docetaksel og paklitaksel.
 
 Docetaksel og paklitaksel er etablerte behandlinger ved brystkreft, så det finnes en rimelig koblingslinje på klasseniveau. Cabazitaxel er dessuten et svakt substrat for P-glykoprotein, og kan i prinsippet være aktivt mot taxan-resistente svulster. Prekliniske studier i brystkreftcellelinjer og xenograft-modeller peker i samme retning.
 
@@ -148,6 +148,19 @@ Evidensen for brystkreft er på nivå L4: det finnes en plausibel mekanistisk ko
 - Vurdere konkurranse fra etablerte taxaner (docetaksel, paklitaksel) ved brystkreft for å avklare den kliniske merverdien
 
 Øvrige prediksjoner i datagrunnlaget (bl.a. sigdcellesykdom-varianter, HIV, hypertyreose, nevroblastom og revmatoid artritt) mangler både kliniske studier og litteratur, har evidensnivå L5 og mangler troverdig mekanistisk begrunnelse, og anbefales derfor satt på vent (Hold).
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -61,7 +61,7 @@ men det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner**
 
 ## Hvorfor er prediksjonen rimelig (eller ikke)?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig for denne rapporten. Temoporfin er et fotosensibiliserende middel brukt i fotodynamisk terapi mot plateepitelkarsinom i hode og hals. Det antas at stoffet hoper seg opp i uregelmessig vev og, når det aktiveres av lys, gir celleskade i proliferende vev.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Temoporfin (uoffisiell oversettelse): «Fotosensibilisator» Engelsk originaltekst: "Photosensitizer" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; hentet 2026-11-19). Temoporfin er et fotosensibiliserende middel brukt i fotodynamisk terapi mot plateepitelkarsinom i hode og hals. Det antas at stoffet hoper seg opp i uregelmessig vev og, når det aktiveres av lys, gir celleskade i proliferende vev.
 
 Koblingen til nasofaryngealt teratom er kun en prediksjon fra TxGNN-modellen (dyp læring) (høy TxGNN-score). Teratomer er biologisk forskjellige fra plateepitelkarsinom, og det finnes verken kliniske studier eller litteratur som støtter bruken. Prediksjonen er derfor svakt underbygd.
 
@@ -155,11 +155,12 @@ Den primære prediksjonen (nasofaryngealt teratom) har kun modellstøtte (L5) ut
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den norske tillatelsen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576) |
 
 <!-- review:end log -->
 

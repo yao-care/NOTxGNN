@@ -54,7 +54,7 @@ Dantrolen er et muskelavslappende legemiddel som virker på kalsiumfrigjøring i
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i dataene som er samlet for rapporten. Dantrolen er likevel kjent som en hemmer av ryanodinreseptoren i skjelettmuskulatur (RYR1), som styrer frigjøring av kalsium fra det sarkoplasmatiske retikulum.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Dantrolene (uoffisiell oversettelse): «I isolerte nerve-muskel-preparater er det vist at dantrolen gir relaksasjon ved å påvirke muskelens kontraktile respons på et sted utenfor den nevromuskulære overgangen. I skjelettmuskulatur opphever dantrolen eksitasjons-kontraksjonskoblingen, sannsynligvis ved å hemme frisettingen av Ca ++ fra det sarkoplasmatiske retikulum.» Engelsk originaltekst: "In isolated nerve-muscle preparation, dantrolene has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, dantrolene dissociates the excitation-contraction coupling, probably by interfering with the release of Ca ++ from the sarcoplasmic reticulum." ([DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698), versjon av 2024-10-30; hentet 2026-11-19). Dantrolen er likevel kjent som en hemmer av ryanodinreseptoren i skjelettmuskulatur (RYR1), som styrer frigjøring av kalsium fra det sarkoplasmatiske retikulum.
 
 Multiminicore-sykdom er en medfødt muskelsykdom som ofte er knyttet til varianter i genene *RYR1* eller *SEPN1*. Et mekanistisk resonnement finnes bare for den RYR1-relaterte undergruppen, der forstyrret kalsiumregulering er en sentral mekanisme. For SEPN1-relaterte tilfeller er koblingen til dantrolen ikke underbygget.
 
@@ -97,6 +97,19 @@ Prediksjonen har svært høy modellscore, men støttes verken av kliniske studie
 - Data om virkningsmekanisme (MOA) for dantrolen.
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner, spesielt ved lever- og muskelsykdom.
 - Vurdering av administrasjonsvei og formulering, som ikke er avklart.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

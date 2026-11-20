@@ -54,7 +54,7 @@ Salmeterol er en langtidsvirkende beta2-agonist som brukes til behandling av ast
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Salmeterol tilhører klassen langtidsvirkende beta2-adrenerge agonister, som gir bronkodilatasjon via beta2-reseptorer i luftveiene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Salmeterol (uoffisiell oversettelse): «Salmeterol er en selektiv LABA. In vitro-studier viser at salmeterol er minst 50 ganger mer selektivt for beta 2 -adrenoseptorer enn salbutamol. Selv om beta 2 -adrenoseptorer er de dominerende adrenerge reseptorene i glatt muskulatur i bronkiene og beta 1 -adrenoseptorer er de dominerende reseptorene i hjertet, finnes det også beta 2 -adrenoseptorer i det humane hjertet, som utgjør 10% til 50% av de totale beta-adrenoseptorene.» Engelsk originaltekst: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), versjon av 2022-10-10; hentet 2026-11-19). Salmeterol tilhører klassen langtidsvirkende beta2-adrenerge agonister, som gir bronkodilatasjon via beta2-reseptorer i luftveiene.
 
 Det finnes ingen tydelig mekanistisk kobling mellom salmeterol og luftveismisdannelse. Den høye scoren gjenspeiler trolig delt annotasjon med luftveissykdommer og ciliedysfunksjon. En spekulativ tanke er at beta2-agonister kan øke cilienes slagfrekvens, noe som kan være relevant ved primær ciliær dyskinesi eller cystisk fibrose. Dette er ikke en etablert bruk av salmeterol ved misdannelser, og en strukturell misdannelse lar seg i utgangspunktet ikke behandle medikamentelt på samme måte som funksjonelle luftveislidelser.
 
@@ -116,11 +116,12 @@ Prediksjonen bygger kun på en beregningsmessig modell med høy score (0,9991). 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Siden bruken i stor grad overlapper med eksisterende praksis, og fordi preparatet i dag kun har en avregistrert godkjenning i Norge, bør bru» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->
 

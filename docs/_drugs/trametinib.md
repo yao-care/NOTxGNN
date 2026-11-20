@@ -59,12 +59,11 @@ TxGNN-modellen predikerer høy score for **koroideremi** (0,9931), men uten klin
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Trametinib er kjent som en MEK1/MEK2-hemmer (målgener MAP2K1 og MAP2K2) og brukes ved BRAF V600-mutert melanom, ofte sammen med dabrafenib.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Trametinib (uoffisiell oversettelse): «Trametinib er en reversibel hemmer av aktivering av mitogenaktivert ekstracellulær signalregulert kinase 1 (MEK1) og MEK2 og av kinaseaktiviteten til MEK1 og MEK2. MEK-proteiner er oppstrømsregulatorer av signalveien for ekstracellulær signalrelatert kinase (ERK), som fremmer celleproliferasjon.» Engelsk originaltekst: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), versjon av 2026-05-07; hentet 2026-11-19). Trametinib er kjent som en MEK1/MEK2-hemmer (målgener MAP2K1 og MAP2K2) og brukes ved BRAF V600-mutert melanom, ofte sammen med dabrafenib.
 
 **Koroideremi:** Sykdommen er en X-bundet netthinnedegenerasjon forårsaket av tap av funksjon i CHM-genet (REP1). Den er ikke en MAPK-drevet kreftsykdom, og det finnes ikke noe etablert grunnlag for MEK-hemming. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan reflektere likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -159,6 +158,19 @@ Prediksjonen for koroideremi bygger kun på modellscore, uten studier, litteratu
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - For ikke-kutant melanom: subtypespesifikke resultater fra studier, fortrinnsvis med kartlegging av BRAF/NRAS/NF1/KIT-status
 - Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

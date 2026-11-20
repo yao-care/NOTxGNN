@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Vonicog alfa er rekombinant von Willebrand-faktor, som medierer blodplatenes adhesjon og aggregasjon ved karskade og bærer faktor VIII. Effekten er dokumentert ved von Willebrands sykdom.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vonicog Alfa (uoffisiell oversettelse): «Eksogent von Willebrand-faktorprotein» Engelsk originaltekst: "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; hentet 2026-11-19). Vonicog alfa er rekombinant von Willebrand-faktor, som medierer blodplatenes adhesjon og aggregasjon ved karskade og bærer faktor VIII. Effekten er dokumentert ved von Willebrands sykdom.
 
 Primær frigjøringsforstyrrelse i blodplater er en iboende funksjonsfeil i blodplatene (defekt granulefrigjøring). Tilførsel av ekstern VWF forventes derfor ikke å korrigere denne defekten. Den høye modellscoren er en nettverksbasert prediksjon uten støtte i studier eller litteratur, og den mekanistiske sammenhengen er svak.
 
@@ -127,6 +127,19 @@ Den predikerte indikasjonen støttes kun av modellscore (evidensnivå L5), uten 
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Prekliniske eller kliniske data som direkte undersøker blodplatefrigjøringsforstyrrelser
 - Eventuelt en mer relevant kandidatindikasjon (for eksempel ervervet von Willebrand-syndrom) som bør vurderes separat
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

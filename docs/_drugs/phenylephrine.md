@@ -62,7 +62,7 @@ TxGNN-modellen forutsier at det kan være effektivt ved **sykdom i nesehulen** (
 
 Fenylefrin er en alfa-1-adrenerg agonist som trekker sammen blodkar i slimhinnen. I nesen reduserer dette hevelse og tetthet, og mekanismen er velkjent fra topikale nesedekongestiva. Den brukes også for å redusere blødning ved endoskopisk bihulekirurgi. Den svært høye TxGNN-scoren stemmer med denne kjente farmakologien.
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i det innsamlede datagrunnlaget. Basert på kjent informasjon er fenylefrin en vasokonstriktor, og denne effekten kan i prinsippet overføres til slimhinnetilstander i nesehulen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Phenylephrine (uoffisiell oversettelse): «Fenylefrinhydroklorid er en α-1-adrenerg reseptoragonist.» Engelsk originaltekst: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), versjon av 2026-03-31; hentet 2026-11-19). Basert på kjent informasjon er fenylefrin en vasokonstriktor, og denne effekten kan i prinsippet overføres til slimhinnetilstander i nesehulen.
 
 Den opprinnelige indikasjonen (øyekirurgi, hovedsakelig pupilleutvidelse og smertekontroll) ligger langt fra nesesykdom, og likheten mellom indikasjonene er ikke vurdert. Den mekanistiske koblingen er derfor plausibel, men ikke bekreftet av direkte data.
 
@@ -127,6 +127,19 @@ Den farmakologiske mekanismen er plausibel for nesehulen, men det finnes ingen r
 - Direkte kliniske data for fenylefrin alene ved nesesykdom (ikke i kombinasjonsprodukter)
 - Avklaring av administrasjonsvei og tilgjengelige formuleringer for nasal bruk
 - Vurdering av kardiovaskulær sikkerhet, særlig ved hypertensjon, og interaksjoner med antidiabetika
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

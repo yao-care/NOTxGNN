@@ -60,7 +60,7 @@ Prediksjonen har foreløpig **ingen støtte** fra kliniske studier eller publika
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Insulin aspart er en rekombinant insulinanalog. Den binder seg til insulinreseptoren og styrer glukoseopptak og stoffskifte, men en direkte virkning på eggstokkvev er ikke dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Insulin Aspart (uoffisiell oversettelse): «Den primære aktiviteten til insulin, inkludert NOVOLOG MIX 70/30, er regulering av glukosemetabolismen. Insulin og dets analog senker blodglukose ved å stimulere perifert glukoseopptak, særlig i skjelettmuskulatur og fettvev, og ved å hemme glukoseproduksjonen i leveren.» Engelsk originaltekst: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), versjon av 2026-05-18; hentet 2026-11-19). Insulin aspart er en rekombinant insulinanalog. Den binder seg til insulinreseptoren og styrer glukoseopptak og stoffskifte, men en direkte virkning på eggstokkvev er ikke dokumentert.
 
 Det finnes ingen kjent direkte mekanisme for at insulin aspart skal påvirke autoimmunitet i eggstokkene. Prediksjonen kan gjenspeile felles trekk i autoimmune nettverk, altså at sykdommene opptrer sammen eller har overlappende biologi, og ikke en reell terapeutisk effekt. Prediksjonen bør derfor leses som en hypotese som må prøves ut, og ikke som et funn.
 
@@ -102,6 +102,19 @@ Prediksjonen bygger kun på modellen. Det finnes ingen kliniske studier eller pu
 - En systematisk litteratursøk som direkte undersøker insulin og autoimmun ooforitt.
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering.
 - En biologisk begrunnelse for hvorfor insulinsignalering skulle være relevant ved autoimmun ooforitt, før eventuelle prekliniske eller kliniske studier planlegges.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

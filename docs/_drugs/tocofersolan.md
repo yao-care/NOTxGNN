@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **amenoré**, men det f
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er tokofersolan en vannløselig vitamin E-formulering (alfa-tokoferol med TPGS) som korrigerer vitamin E-mangel ved kolestase, der fettløselige vitaminer absorberes dårlig.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tocofersolan (uoffisiell oversettelse): «Ernæringsstøtte» Engelsk originaltekst: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er tokofersolan en vannløselig vitamin E-formulering (alfa-tokoferol med TPGS) som korrigerer vitamin E-mangel ved kolestase, der fettløselige vitaminer absorberes dårlig.
 
 Det er ikke påvist noen direkte mekanistisk sammenheng mellom dette og amenoré. En spekulativ forklaring er at antioksidante eller ernæringsmessige effekter kan påvirke reproduktiv funksjon, eller at korrigering av malabsorpsjonsrelaterte mangler sekundært kan påvirke menstruasjonsregelmessighet. Ingen kliniske data eller litteratur i datagrunnlaget støtter dette. Den høye scoren (0,9931) er en ren beregningsmessig prediksjon.
 
@@ -124,12 +124,13 @@ Prediksjonen for amenoré hviler utelukkende på en modellscore uten støtte fra
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Den eneste tillatelsen i Norge er trukket tilbake, og sikkerhetsdata og virkningsmekanisme mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden tilgjengelige produkter er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
 
 <!-- review:end log -->
 

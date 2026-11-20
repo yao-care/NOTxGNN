@@ -59,7 +59,7 @@ Vareniklin er et legemiddel som opprinnelig brukes til **røykeslutt (tobakksavv
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent farmakologi er vareniklin en partiell agonist på nikotinske acetylkolinreseptorer av typen α4β2 og en full agonist på α7-reseptorer. Effekten ved røykeslutt skyldes at det reduserer sug og abstinenssymptomer og samtidig reduserer den belønnende effekten av røyking.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Varenicline (uoffisiell oversettelse): «Vareniklin bindes med høy affinitet og selektivitet til nevronale nikotinerge α4β2-acetylkolinreseptorer. Effekten av CHANTIX ved røykeslutt antas å skyldes vareniklins aktivitet ved α4β2-subtypen av nikotinreseptoren, der bindingen gir agonistaktivitet samtidig som den hindrer nikotin i å binde seg til disse reseptorene.» Engelsk originaltekst: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), versjon av 2026-01-23; hentet 2026-11-19). Ut fra kjent farmakologi er vareniklin en partiell agonist på nikotinske acetylkolinreseptorer av typen α4β2 og en full agonist på α7-reseptorer. Effekten ved røykeslutt skyldes at det reduserer sug og abstinenssymptomer og samtidig reduserer den belønnende effekten av røyking.
 
 Nikotinerg kolinerg signalering kan i teorien knyttes til trigeminovaskulære mekanismer og «cortical spreading depression», som begge er sentrale i migrenepatofysiologien. Det finnes imidlertid ingen direkte evidens for at vareniklin har terapeutisk effekt ved migrene. Den høye TxGNN-scoren er en ren beregningsbasert prediksjon.
 
@@ -124,6 +124,19 @@ Prediksjonen for migrene bygger utelukkende på en beregningsbasert modell (evid
 - Prekliniske studier som undersøker nikotinerg modulering i migrenemodeller (trigeminovaskulære veier, «cortical spreading depression»).
 - En vurdering av om hodepine som bivirkning er forenlig med en migrenebehandling.
 - En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge er kansellert.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

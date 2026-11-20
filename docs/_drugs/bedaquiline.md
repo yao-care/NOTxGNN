@@ -54,7 +54,7 @@ Bedaquilin er et legemiddel mot tuberkulose. Den første prediksjonen fra TxGNN-
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Ut fra generell kunnskap virker bedaquilin på ATP-syntasens c-underenhet hos mykobakterier. Dette er ikke en etablert antifungal mekanisme.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bedaquiline (uoffisiell oversettelse): «Bedakilin er et antimykobakterielt legemiddel av typen diarylkinolin. […] SIRTURO er et antimykobakterielt legemiddel av typen diarylkinolin som hemmer mykobakteriell ATP (adenosin-5'-trifosfat)-syntase ved å binde seg til subenhet c av enzymet, som er essensiell for energiproduksjonen i M. tuberculosis.» Engelsk originaltekst: "Bedaquiline is a diarylquinoline antimycobacterial drug. […] SIRTURO is a diarylquinoline antimycobacterial drug that inhibits mycobacterial ATP (adenosine 5'- triphosphate) synthase, by binding to subunit c of the enzyme that is essential for the generation of energy in M. tuberculosis." ([DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e), versjon av 2025-10-17; hentet 2026-11-19). Ut fra generell kunnskap virker bedaquilin på ATP-syntasens c-underenhet hos mykobakterier. Dette er ikke en etablert antifungal mekanisme.
 
 Det er ingen tydelig mekanistisk sammenheng mellom mykobakteriell ATP-syntase og soppinfeksjon med *Candida*. Den høye prediksjonsscoren ser ut til å være en modellartefakt, og verken kliniske studier eller litteratur underbygger den. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -93,6 +93,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5). Det finnes ingen klin
 - Prekliniske data (in vitro-aktivitet mot *Candida*)
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
 - Vurdering av administrasjonsvei og egnethet for vulvovaginal bruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

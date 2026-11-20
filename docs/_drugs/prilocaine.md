@@ -54,7 +54,7 @@ Prilokain er et amid-lokalbedøvelsesmiddel. Det er registrert for fysiologisk s
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon er prilokain et amid-lokalbedøvelsesmiddel som blokkerer spenningsstyrte natriumkanaler og dermed demper nerveledning. Effekten ved den opprinnelige indikasjonen skyldes sannsynligvis en lokal, overflatisk nervedempende virkning.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Prilocaine (uoffisiell oversettelse): «Prilokain stabiliserer nevronmembranen ved å hemme de ionestrømmene som kreves for initiering og ledning av impulser, og gir dermed lokalanestetisk virkning.» Engelsk originaltekst: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), versjon av 2021-11-10; hentet 2026-11-19). Ut fra kjent informasjon er prilokain et amid-lokalbedøvelsesmiddel som blokkerer spenningsstyrte natriumkanaler og dermed demper nerveledning. Effekten ved den opprinnelige indikasjonen skyldes sannsynligvis en lokal, overflatisk nervedempende virkning.
 
 Teoretisk kan en slik virkning gi symptomlindring på øyets overflate, for eksempel mot ubehag og smerte. Det finnes imidlertid ingen studier eller litteratur som viser at prilokain påvirker den underliggende betennelsen eller allergiske prosessen ved papillær konjunktivitt. Prediksjonen bør derfor regnes som en hypotese og ikke som støttet behandling. Likheten mellom den opprinnelige og den nye indikasjonen er ikke vurdert (status: avventer).
 
@@ -121,11 +121,12 @@ Mange av de alvorlige interaksjonene gjelder legemidler som kan fremkalle methem
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Produktet er dessuten kun avregistrert i markedet, og sikkerhetsdata fra preparatomtalen mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

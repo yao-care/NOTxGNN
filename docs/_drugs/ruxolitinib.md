@@ -62,7 +62,7 @@ Merknad: Rapporten fokuserer på den høyest rangerte indikasjonen med klinisk s
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er for tiden ikke tilgjengelige. Ut fra kjent informasjon hemmer ruxolitinib JAK1, JAK2, JAK3 og TYK2. Dette er kinaser som formidler signalering fra mange cytokiner.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ruxolitinib (uoffisiell oversettelse): «Ruksolitinib, en kinasehemmer, hemmer Janus-assosierte kinaser (JAK), JAK1 og JAK2, som medierer signaleringen til en rekke cytokiner og vekstfaktorer som er viktige for hematopoese og immunfunksjon. JAK-signalering innebærer rekruttering av STAT (signaltransdusere og aktivatorer av transkripsjon) til cytokinreseptorer, aktivering og påfølgende lokalisering av STAT til cellekjernen, noe som fører til modulering av genuttrykk.» Engelsk originaltekst: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), versjon av 2026-07-20; hentet 2026-11-19). Ut fra kjent informasjon hemmer ruxolitinib JAK1, JAK2, JAK3 og TYK2. Dette er kinaser som formidler signalering fra mange cytokiner.
 
 HLH er en livstruende hyperinflammatorisk tilstand. Den kjennetegnes av overaktivering av T-celler og makrofager og av overproduksjon av proinflammatoriske cytokiner, særlig interferon-γ (IFN-γ). Ruxolitinib demper signalering nedstrøms for IFN-γ og andre cytokiner. Dette gir en plausibel mekanistisk kobling mellom legemidlet og sykdommen.
 
@@ -108,7 +108,6 @@ Det ble funnet 20 publikasjoner totalt. Studietypene er delvis utledet fra title
 | EMEA/H/C/005843 | Opzelura | Ikke oppgitt | Vitiligo (kansellert) |
 | EMEA/H/C/002464 | Jakavi | Ikke oppgitt | Myeloproliferative sykdommer, polycytemia vera, graft-versus-host-sykdom (kansellert) |
 
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -151,6 +150,19 @@ Det finnes en klar mekanistisk kobling (JAK1/2-hemming av IFN-γ-drevet hyperinf
 - Avklaring av regulatorisk status i Norge, siden begge godkjenningene er kansellert
 - Sikkerhetsovervåkingsplan, særlig for infeksjonsrisiko og cytopeni hos pasienter med HLH
 - Avklaring av administrasjonsvei og formulering (Opzelura er en topisk krem, mens HLH krever systemisk behandling)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

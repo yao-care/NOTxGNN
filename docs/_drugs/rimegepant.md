@@ -61,7 +61,7 @@ Foreløpig finnes **ingen registrerte kliniske studier** for denne undergruppen,
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Rimegepant er likevel kjent som en CGRP-reseptorantagonist (CGRP = calcitonin gene-related peptide), godkjent for akuttbehandling av migrene med eller uten aura og for forebyggende behandling av episodisk migrene hos voksne.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rimegepant (uoffisiell oversettelse): «Rimegepant er en antagonist av reseptoren for kalsitoningenrelatert peptid.» Engelsk originaltekst: "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), versjon av 2026-06-04; hentet 2026-11-19). Rimegepant er likevel kjent som en CGRP-reseptorantagonist (CGRP = calcitonin gene-related peptide), godkjent for akuttbehandling av migrene med eller uten aura og for forebyggende behandling av episodisk migrene hos voksne.
 
 Migrene med hjernestammeaura er en undertype av migrene. Det er derfor plausibelt at den samme CGRP-medierte trigeminovaskulære mekanismen er involvert. Dokumentasjonen er imidlertid ekstrapolert fra moderindikasjonen, ikke undertypespesifikk.
 
@@ -141,11 +141,12 @@ Rimegepant har dokumentert effekt ved migrene generelt, og undertypen hjernestam
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «(avregistrert tillatelse)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
 
 <!-- review:end log -->
 

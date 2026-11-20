@@ -60,7 +60,7 @@ det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i da
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Esketamin er kjent som en NMDA-reseptorantagonist, og er godkjent for depressiv lidelse. Mekanismen kan i teorien være relevant for agorafobi, men dette er ikke bekreftet i dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Esketamine (uoffisiell oversettelse): «Esketamin, S-enantiomeren av racemisk ketamin, er en ikke-selektiv, ikke-kompetitiv antagonist av N-metyl-D-aspartat (NMDA)-reseptoren, en ionotrop glutamatreseptor. Mekanismen som esketamin utøver sin antidepressive effekt gjennom, er ukjent.» Engelsk originaltekst: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), versjon av 2026-09-22; hentet 2026-11-19). Esketamin er kjent som en NMDA-reseptorantagonist, og er godkjent for depressiv lidelse. Mekanismen kan i teorien være relevant for agorafobi, men dette er ikke bekreftet i dataene.
 
 Et mulig, men uverifisert resonnement er at esketamin øker glutamaterg signalering og synaptisk plastisitet. Dette kan påvirke nevrale kretser for angst og frykthåndtering som antas å spille en rolle ved agorafobi. Angst er dessuten ofte komorbid med depresjon. Koblingen er spekulativ, og det foreligger ingen støttende klinisk evidens eller litteratur i de innsamlede dataene.
 
@@ -129,11 +129,12 @@ TxGNN gir også en høy score (0,9949) for **godartet paroksysmal torticollis ho
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
 
 <!-- review:end log -->
 

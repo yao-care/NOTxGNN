@@ -58,7 +58,7 @@ Temozolomid er et oralt alkylerende legemiddel som er godkjent i Norge for behan
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Ut fra generell kunnskap er temozolomid et alkylerende middel som metylerer DNA (særlig O6-guanin) og gir cytotoksiske skader i delende svulstceller. Effekten reduseres når MGMT-enzymet uttrykkes.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Temozolomide (uoffisiell oversettelse): «Temozolomid er ikke direkte aktivt, men gjennomgår rask ikke-enzymatisk omdanning ved fysiologisk pH til den reaktive forbindelsen 5-(3-metyltriazen-1-yl)-imidazol-4-karboksamid (MTIC). Cytotoksisiteten til MTIC antas primært å skyldes DNA-alkylering, hovedsakelig i O 6 - og N 7 -posisjonene i guanin, noe som forårsaker DNA-dobbelttrådbrudd og resulterer i programmert celledød.» Engelsk originaltekst: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), versjon av 2026-02-20; hentet 2026-11-19). Ut fra generell kunnskap er temozolomid et alkylerende middel som metylerer DNA (særlig O6-guanin) og gir cytotoksiske skader i delende svulstceller. Effekten reduseres når MGMT-enzymet uttrykkes.
 
 Svulster i cauda equina er som regel spinale myxopapillære ependymomer, som stammer fra gliaceller i sentralnervesystemet. Det gir et biologisk plausibelt grunnlag, siden temozolomid er etablert ved gliom. Det mangler imidlertid data om MGMT-status eller kjemosensitivitet i disse svulstene. Den høye TxGNN-scoren er en beregningsbasert prediksjon og ikke klinisk evidens.
 
@@ -127,6 +127,19 @@ Evidensen er på nivå L5: ingen kliniske studier og kun én kasuistikk som ber�
 - Systematisk litteraturgjennomgang og eventuelle retrospektive serier eller kliniske studier på spinale ependymomer/cauda equina-svulster
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Sikkerhetsplan med overvåking av blodstatus og leverfunksjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

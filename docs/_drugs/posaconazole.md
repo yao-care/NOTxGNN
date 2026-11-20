@@ -60,7 +60,7 @@ men det finnes foreløpig **ingen kliniske studier som direkte tester posakonazo
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Posakonazol er et triazol-soppmiddel som hemmer soppenzymet lanosterol 14-alfa-demetylase (CYP51) og dermed blokkerer syntesen av ergosterol. Opplysninger om virkningsmekanisme fra legemiddeldatabasen mangler i datagrunnlaget, så denne beskrivelsen bygger på allment kjent farmakologi.
+Posakonazol er et triazol-soppmiddel som hemmer soppenzymet lanosterol 14-alfa-demetylase (CYP51) og dermed blokkerer syntesen av ergosterol. Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Posaconazole (uoffisiell oversettelse): «Posakonazol er et antimykotikum av azoltypen. […] Posakonazol blokkerer syntesen av ergosterol, en nøkkelkomponent i soppens cellemembran, ved å hemme det cytokrom P-450-avhengige enzymet lanosterol-14α-demetylase, som er ansvarlig for omdannelsen av lanosterol til ergosterol i soppens cellemembran. Dette fører til en opphopning av metylerte sterolforstadier og en uttømming av ergosterol i cellemembranen, noe som svekker strukturen og funksjonen til soppens cellemembran.» Engelsk originaltekst: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), versjon av 2026-02-13; hentet 2026-11-19).
 
 Pneumocystis jirovecii mangler imidlertid i hovedsak ergosterol i cellemembranen og bruker kolesterolliknende steroler. Den azolbaserte mekanismen har derfor lite biologisk grunnlag mot denne organismen. Den høye TxGNN-scoren (0,9977) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens for en spesifikk effekt mot Pneumocystis.
 
@@ -133,6 +133,19 @@ Prediksjonen mangler både direkte klinisk evidens og et plausibelt mekanistisk 
 - Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel før sikkerhetsscreening)
 - Avklaring av markedsstatus og administrasjonsveier i Norge
 - Vurdering av relevansen av interaksjoner for aktuell pasientgruppe, særlig immunsupprimerte pasienter
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

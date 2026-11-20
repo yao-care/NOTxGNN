@@ -61,7 +61,7 @@ men de data som er sammenstilt for denne rapporten inneholder **ingen kliniske s
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Galcanezumab er imidlertid kjent som et monoklonalt antistoff som nøytraliserer liganden CGRP (calcitonin gene-related peptide), og effekten ved migrene er knyttet til blokkering av denne signalveien.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Galcanezumab (uoffisiell oversettelse): «Galkanezumab er et humanisert monoklonalt antistoff som bindes til liganden kalsitoningenrelatert peptid (CGRP) og blokkerer bindingen av denne til reseptoren.» Engelsk originaltekst: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), versjon av 2026-06-05; hentet 2026-11-19). Galcanezumab er imidlertid kjent som et monoklonalt antistoff som nøytraliserer liganden CGRP (calcitonin gene-related peptide), og effekten ved migrene er knyttet til blokkering av denne signalveien.
 
 Heparinkofaktor 2-mangel skyldes en defekt i et serinproteasehemmende protein (SERPIND1) i koagulasjonssystemet. Det er ikke identifisert noen plausibel biologisk kobling mellom CGRP-blokkade og denne tilstanden. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den har ingen støtte i mekanistiske, kliniske eller litteraturbaserte data.
 
@@ -117,6 +117,19 @@ Prediksjonene bygger utelukkende på en score fra TxGNN-modellen (deep learning)
 - Mekanistisk eller prekliniske data som kan knytte CGRP-blokkade til koagulasjonsveiene
 - Sikkerhetsvurdering av vaskulære og trombotiske effekter ved CGRP-hemming i pasientgrupper med trombofili
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

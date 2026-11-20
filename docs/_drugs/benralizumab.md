@@ -55,7 +55,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **trombocytopeni som skyldes 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon bindes benralizumab til IL-5-reseptorens alfa-underenhet (IL5RA) og gir tømming av eosinofile og basofile celler via forsterket antistoffavhengig cellemediert cytotoksisitet (ADCC).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Benralizumab (uoffisiell oversettelse): «Benralizumab er et humanisert, afukosylert, monoklonalt antistoff (IgG1, kappa) som bindes direkte til alfa-subenheten av human interleukin-5-reseptor (IL-5Rα) med en dissosiasjonskonstant på 11 pM. IL-5-reseptoren uttrykkes på overflaten av eosinofiler og basofiler.» Engelsk originaltekst: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), versjon av 2026-05-13; hentet 2026-11-19). Ut fra kjent informasjon bindes benralizumab til IL-5-reseptorens alfa-underenhet (IL5RA) og gir tømming av eosinofile og basofile celler via forsterket antistoffavhengig cellemediert cytotoksisitet (ADCC).
 
 Immun trombocytopeni drives hovedsakelig av autoantistoffer og T-celle-dysregulering. En direkte kobling til eosinofil tømming er derfor ikke etablert. En rolle ved sekundære immuncytopenier forbundet med eosinofili er spekulativ.
 
@@ -93,6 +93,19 @@ Prediksjonen bygger kun på modellberegning. Det finnes ingen kliniske studier e
 - Data om virkningsmekanisme fra legemiddeldatabaser
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Eventuelt en liten eksplorativ studie i pasienter med eosinofiliassosiert immuncytopeni
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

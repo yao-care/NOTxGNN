@@ -61,7 +61,7 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er polatuzumab vedotin et antistoff-legemiddelkonjugat rettet mot CD79b, en del av B-cellereseptoren. Det leverer MMAE, et giftstoff som forstyrrer mikrotubuli. Effekten er dokumentert ved B-cellelymfom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Polatuzumab Vedotin (uoffisiell oversettelse): «Polatuzumab vedotin-piiq er et CD79b-rettet antistoff-legemiddelkonjugat med aktivitet mot B-celler i deling. Småmolekylet MMAE er et antimitotisk middel som er kovalent bundet til antistoffet via en spaltbar linker. Det monoklonale antistoffet bindes til CD79b, et B-cellespesifikt overflateprotein, som er en komponent av B-cellereseptoren.» Engelsk originaltekst: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc), versjon av 2026-08-24; hentet 2026-11-19). Basert på kjent informasjon er polatuzumab vedotin et antistoff-legemiddelkonjugat rettet mot CD79b, en del av B-cellereseptoren. Det leverer MMAE, et giftstoff som forstyrrer mikrotubuli. Effekten er dokumentert ved B-cellelymfom.
 
 Koblingen til HER2-positivt brystkarsinom er svak og indirekte. CD79b er ikke et anerkjent mål i brystkreft, og det er ikke vist at målet uttrykkes i brystkreftvev. Et tenkelig argument er den cytotoksiske MMAE-nyttelasten, som deles med andre vedotin-konjugater. Dette er imidlertid ikke validert for denne indikasjonen.
 
@@ -139,11 +139,12 @@ Den eneste støtten er en høy TxGNN-score. Det finnes ingen kliniske studier el
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske tillatelsen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
 
 <!-- review:end log -->
 

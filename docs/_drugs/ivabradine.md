@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene s
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ivabradin hemmer HCN-kanalen (If) i sinusknuten og senker dermed hjertefrekvensen. Data om den opprinnelige virkningsmekanismen (MOA) er ikke tilgjengelige i dataene som er samlet inn for denne rapporten.
+Ivabradin hemmer HCN-kanalen (If) i sinusknuten og senker dermed hjertefrekvensen. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ivabradine (uoffisiell oversettelse): «Corlanor blokkerer den hyperpolarisasjonsaktiverte, sykliske nukleotidstyrte (HCN) kanalen som er ansvarlig for kardial pacemakerstrøm I f, som regulerer hjertefrekvensen. I kliniske elektrofysiologiske studier var de kardiale effektene mest uttalt i sinusknuten (SA-knuten), men forlengelse av AH-intervallet har forekommet, i likhet med forlengelse av PR-intervallet.» Engelsk originaltekst: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), versjon av 2026-11-09; hentet 2026-11-19).
 
 Det er ikke dokumentert noen etablert mekanistisk sammenheng mellom HCN-hemming og regulering av hårvekst. Den høye scoren (0,9979) gjenspeiler trolig nærhet i et nettverk av relasjoner snarere enn en biologisk begrunnelse. Prediksjonen bør derfor regnes som en hypotese som krever grunnleggende mekanistisk avklaring før noe videre arbeid.
 
@@ -113,6 +113,19 @@ Prediksjonen for hypertrikose er kun modellbasert (evidensnivå L5), uten klinis
 - Mekanistisk og prekliniske data som kobler HCN-kanaler til hårfollikkelbiologi
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av nytte–risiko, siden ivabradin er et systemisk hjertemiddel og tilstanden er kosmetisk/sjelden
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -58,7 +58,7 @@ Simvastatin er et kolesterolsenkende legemiddel (statin) som i de lokale lisense
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de samlede dataene. Simvastatin tilhører statinene, som hemmer HMG-CoA-reduktase og senker kolesterol. Effekten ved dyslipidemi er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Simvastatin (uoffisiell oversettelse): «Simvastatin er et prodrug og hydrolyseres etter administrering til sin aktive β-hydroksysyreform, simvastatinsyre. Simvastatinsyre og dens metabolitter er hemmere av HMG-CoA-reduktase, det hastighetsbegrensende enzymet som omdanner HMG-CoA til mevalonat, en forløper for kolesterol.» Engelsk originaltekst: "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), versjon av 2025-03-28; hentet 2026-11-19). Simvastatin tilhører statinene, som hemmer HMG-CoA-reduktase og senker kolesterol. Effekten ved dyslipidemi er etablert.
 
 Statiner antas å ha pleiotrope nevrobeskyttende effekter, som antiinflammatoriske virkninger, bedret endotelfunksjon og plakkstabilisering. Mekanismen kan derfor teoretisk være relevant ved hjerneinfarkt. Dette er imidlertid en hypotese: den høye modellscoren er kun en prediksjon, og ingen av de hentede studiene undersøker simvastatin ved hjernestamme-infarkt.
 
@@ -107,6 +107,19 @@ Prediksjonen bygger kun på modellscore. Det finnes ingen kliniske studier, og d
 - Studier som direkte undersøker simvastatin ved hjernestamme-infarkt
 - Data om virkningsmekanisme (MOA)
 - Preparatomtale med advarsler og kontraindikasjoner for en sikkerhetsvurdering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -54,7 +54,7 @@ Lanadelumab er et monoklonalt antistoff som hemmer plasma-kallikrein. TxGNN-mode
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelige i de sammenstilte dataene. Basert på kjent informasjon binder lanadelumab seg til plasma-kallikrein (KLKB1) og hemmer dermed kallikrein-bradykinin-aksen. Det er et antistoff som er godkjent som forebyggende behandling mot anfall av arvelig angioødem hos pasienter fra 12 år.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lanadelumab (uoffisiell oversettelse): «Lanadelumab-flyo er et fullt humant monoklonalt antistoff (IgG1/κ-lettkjede) som binder plasmakallikrein og hemmer dets proteolytiske aktivitet. Plasmakallikrein er en protease som spalter høymolekylært kininogen (HMWK) og danner spaltet HMWK (cHMWK) og bradykinin, en potent vasodilatator som øker vaskulær permeabilitet, noe som resulterer i hevelse og smerte forbundet med HAE.» Engelsk originaltekst: "Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE." ([DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8), versjon av 2026-09-18; hentet 2026-11-19). Basert på kjent informasjon binder lanadelumab seg til plasma-kallikrein (KLKB1) og hemmer dermed kallikrein-bradykinin-aksen. Det er et antistoff som er godkjent som forebyggende behandling mot anfall av arvelig angioødem hos pasienter fra 12 år.
 
 Koblingen til den predikerte sykdommen er svak. Serpinfamilien omfatter proteaseinhibitorer som er relevante for kallikrein-systemet, men toksisk serpinpolymerisering er en egen mekanisme (gain-of-function) som ikke åpenbart påvirkes av kallikreinhemming. Den høye scoren gjenspeiler trolig nærhet i nettverket til beslektede serpinrelaterte tilstander, ikke en dokumentert terapeutisk sammenheng. Enhver kobling må derfor regnes som spekulativ.
 
@@ -91,6 +91,18 @@ Prediksjonen bygger kun på en modellscore (0,9999) uten kliniske studier eller 
 - Prekliniske data i relevante modeller som kan understøtte hypotesen
 - Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
 - Vurdering av om det finnes en definert pasientpopulasjon og målbare endepunkter for denne sjeldne tilstanden
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

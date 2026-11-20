@@ -58,7 +58,7 @@ Palonosetron er en 5-HT3-reseptorantagonist som opprinnelig brukes mot oppkast o
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er palonosetron en 5-HT3-reseptorantagonist. Effekten ved kjemoterapiindusert kvalme og oppkast er etablert, og mekanistisk kan serotonerge signalveier også ha betydning ved migrene, så en biologisk sammenheng er plausibel.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Palonosetron (uoffisiell oversettelse): «Palonosetron er en 5-HT 3 -reseptorantagonist med sterk bindingsaffinitet for denne reseptoren og liten eller ingen affinitet for andre reseptorer. Kjemoterapi mot kreft kan være forbundet med høy forekomst av kvalme og oppkast, særlig når visse midler, som cisplatin, brukes.» Engelsk originaltekst: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), versjon av 2025-04-29; hentet 2026-11-19). Basert på kjent informasjon er palonosetron en 5-HT3-reseptorantagonist. Effekten ved kjemoterapiindusert kvalme og oppkast er etablert, og mekanistisk kan serotonerge signalveier også ha betydning ved migrene, så en biologisk sammenheng er plausibel.
 
 Retningen på effekten er imidlertid uavklart. Den eneste publikasjonen som støtter prediksjonen, er en kasuistikk om migrenelignende hodepine utløst av palonosetron. Det peker i motsatt retning av en terapeutisk bruk. Den høye scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -128,6 +128,19 @@ Prediksjonen bygger på en høy modellscore, men den eneste litteraturen er en k
 - Gjennomgang av litteratur om 5-HT3-antagonister generelt ved migrene
 - Vurdering av QT-risiko og interaksjoner med triptaner og andre serotonerge legemidler
 - Avklaring av administrasjonsvei og tilgjengelige formuleringer, siden legemidlet er markedsført med 3 gyldige markedsføringstillatelser av 3
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

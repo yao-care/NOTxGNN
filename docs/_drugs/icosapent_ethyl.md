@@ -60,7 +60,7 @@ men for øyeblikket finnes **ingen kliniske studier** og **ingen publikasjoner**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er ikosapent etyl en høyrenset etylester av omega-3-fettsyren EPA, og effekten ved dyslipidemi er kjent. Mekanistisk sett er det derfor ikke mulig å verifisere en direkte kobling til hemoglobinopati ut fra de foreliggende dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Icosapent Ethyl (uoffisiell oversettelse): «Studier tyder på at EPA reduserer syntesen og/eller sekresjonen av triglyserider i svært lavdensitetslipoprotein (VLDL-TG) i leveren og øker clearance av TG fra sirkulerende VLDL-partikler. Mulige virkningsmekanismer omfatter økt β-oksidasjon; hemming av acyl-CoA:1,2-diacylglyserolacyltransferase (DGAT); redusert lipogenese i leveren; og økt aktivitet av lipoproteinlipase i plasma.» Engelsk originaltekst: "Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity." ([DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924), versjon av 2026-08-10; hentet 2026-11-19). Basert på kjent informasjon er ikosapent etyl en høyrenset etylester av omega-3-fettsyren EPA, og effekten ved dyslipidemi er kjent. Mekanistisk sett er det derfor ikke mulig å verifisere en direkte kobling til hemoglobinopati ut fra de foreliggende dataene.
 
 En mulig hypotese, som **ikke** støttes av de innsamlede dataene, er at EPA kan dempe betennelse, oksidativt stress og avvik i røde blodcellers membran. Dette er relevant ved hemoglobinopatier som sigdcellesykdom. Hypotesen må testes i egne studier.
 
@@ -125,12 +125,13 @@ Prediksjonen er kun modellbasert (evidensnivå L5) uten støtte fra kliniske stu
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Avklare om det finnes et tilgjengelig produkt og en egnet administrasjonsvei, siden markedsstatusen er «kun avregistrert»» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «og den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter de
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Filgrastim er en G-CSF som stimulerer produksjon, modning og aktivering av nøytrofile granulocytter. Effekten er knyttet til nøytrofil-linjen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Filgrastim (uoffisiell oversettelse): «Kolonistimulerende faktorer er glykoproteiner som virker på hematopoetiske celler ved å binde seg til spesifikke reseptorer på celleoverflaten og stimulere proliferasjon, differensieringsforpliktelse og noe funksjonell aktivering av endeceller. Endogen G-CSF er en linjespesifikk kolonistimulerende faktor som produseres av monocytter, fibroblaster og endotelceller.» Engelsk originaltekst: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), versjon av 2026-11-10; hentet 2026-11-19). Filgrastim er en G-CSF som stimulerer produksjon, modning og aktivering av nøytrofile granulocytter. Effekten er knyttet til nøytrofil-linjen.
 
 Primær frigjøringsforstyrrelse i blodplater er en funksjonsdefekt i blodplatenes sekresjon. Dette er ikke et opplagt mål for G-CSF, og det er ikke etablert noen mekanistisk kobling. Den høye modellscoren er derfor en ren prediksjon uten støtte i kliniske eller publiserte data, og den bør tolkes med stor forsiktighet.
 
@@ -112,6 +112,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 - Prekliniske eller kliniske studier som direkte undersøker denne sykdommen
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Vurdering av administrasjonsvei og formuleringer
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

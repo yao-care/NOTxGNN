@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **myeloid leukem
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Zanubrutinib er imidlertid kjent som en selektiv nestegenerasjons BTK-hemmer. Dokumentert klinisk nytte gjelder B-cellemalignitet (KLL/SLL og Waldenströms makroglobulinemi).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Zanubrutinib (uoffisiell oversettelse): «Zanubrutinib er en småmolekylær hemmer av Brutons tyrosinkinase (BTK). Zanubrutinib danner en kovalent binding med en cysteinrest i det aktive setet i BTK, noe som fører til hemming av BTK-aktiviteten. BTK er et signalmolekyl i signalveiene for B-celle-antigenreseptoren (BCR) og cytokinreseptorer.» Engelsk originaltekst: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), versjon av 2026-09-04; hentet 2026-11-19). Zanubrutinib er imidlertid kjent som en selektiv nestegenerasjons BTK-hemmer. Dokumentert klinisk nytte gjelder B-cellemalignitet (KLL/SLL og Waldenströms makroglobulinemi).
 
 Disse sykdommene er lymfoide, ikke myeloide. BTK-signalering forekommer i enkelte myeloide celler og AML-blaster, så en biologisk begrunnelse er mulig. Det foreligger likevel ingen direkte kliniske data for zanubrutinib ved myeloid leukemi.
 
@@ -165,12 +165,13 @@ Prediksjonen for myeloid leukemi bygger i hovedsak på modellscore. Den eneste s
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Dessuten er den norske autorisasjonen opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden eksisterende autorisasjon er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
 
 <!-- review:end log -->
 

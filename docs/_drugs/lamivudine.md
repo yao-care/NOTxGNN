@@ -60,7 +60,7 @@ Dette støttes av **0 kliniske studier** og **3 publikasjoner** (kohortstudier p
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Lamivudin er en NRTI som hemmer virusets DNA-syntese ved kjedeterminering. Felint immunsviktvirus (FIV) er et lentivirus hvis revers transkriptase ligner på den til HIV-1, og en felles mekanisme er derfor plausibel.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lamivudine (uoffisiell oversettelse): «Lamivudin er et antiretroviralt middel. […] Lamivudin er en syntetisk nukleosidanalog. Intracellulært fosforyleres lamivudin til den aktive 5′-trifosfatmetabolitten, lamivudintrifosfat (3TC-TP). Den viktigste virkningsmåten til 3TC-TP er hemming av HIV-1 revers transkriptase (RT) via DNA-kjedeterminering etter inkorporering av nukleotidanalogen.» Engelsk originaltekst: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), versjon av 2024-08-15; hentet 2026-11-19). Lamivudin er en NRTI som hemmer virusets DNA-syntese ved kjedeterminering. Felint immunsviktvirus (FIV) er et lentivirus hvis revers transkriptase ligner på den til HIV-1, og en felles mekanisme er derfor plausibel.
 
 Publiserte arbeider omfatter kombinasjonsregimer med antiretrovirale midler hos naturlig infiserte katter. I den ene studien ble zidovudin + lamivudin sammenlignet med andre protokoller. Studiene gjelder imidlertid kombinasjoner (zidovudin, lamivudin, abakavir), ikke lamivudin alene, og effekten av lamivudin som enkeltstoff kan ikke utledes.
 
@@ -119,6 +119,19 @@ Ingen kliniske studier er registrert, og de tre publikasjonene er kohortstudier 
 - Sikkerhetsdata fra preparatomtale (advarsler og kontraindikasjoner)
 - Kontrollerte veterinærstudier som isolerer effekten av lamivudin som enkeltstoff
 - Avklaring av om veterinærindikasjonen faller innenfor omfanget av humanlegemiddelvurderingen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

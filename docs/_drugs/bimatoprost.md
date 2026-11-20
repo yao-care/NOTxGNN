@@ -56,7 +56,7 @@ For denne prediksjonen finnes det **ingen kliniske studier** og **ingen publikas
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om detaljert virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Bimatoprost tilhører prostamid-/prostaglandin F2α-analogene, som virker på prostanoidreseptorer og påvirker bl.a. hårfollikkelens vekstfase.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bimatoprost (uoffisiell oversettelse): «Bimatoprost, en prostaglandinanalog, er en syntetisk strukturanalog av prostaglandin med okulær hypotensiv aktivitet. Bimatoprost antas å senke IOP hos mennesker ved å øke utstrømningen av kammervann via både trabekelverket (konvensjonell) og uveoskleral vei (ukonvensjonell).» Engelsk originaltekst: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), versjon av 2024-10-16; hentet 2026-11-19). Bimatoprost tilhører prostamid-/prostaglandin F2α-analogene, som virker på prostanoidreseptorer og påvirker bl.a. hårfollikkelens vekstfase.
 
 Det finnes ingen plausibel mekanistisk kobling mellom prostamidaktivitet og et utviklingsmessig malformasjonssyndrom med tann- og/eller tannkjøttkomponent. Den høye scoren gjenspeiler trolig nærhet i modellens nettverk, sannsynligvis via fenotyper knyttet til hår og ektoderm, og ikke en dokumentert farmakologisk sammenheng.
 
@@ -95,6 +95,19 @@ Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur, o
 - Prekliniske data som direkte undersøker sykdommen
 - Data om virkningsmekanisme og preparatomtale-informasjon (advarsler og kontraindikasjoner)
 - Vurdering av administrasjonsvei og formulering for den aktuelle tilstanden
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

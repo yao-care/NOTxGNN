@@ -58,7 +58,7 @@ Imiglucerase er en rekombinant form av enzymet beta-glukocerebrosidase og brukes
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Imiglucerase er likevel et rekombinant beta-glukocerebrosidase som spalter glukocerebrosid. Hurlers syndrom (MPS I) skyldes mangel på enzymet alfa-L-iduronidase, noe som gir opphopning av glykosaminoglykaner (dermatan- og heparansulfat).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Imiglucerase (uoffisiell oversettelse): «Gauchers sykdom kjennetegnes av mangel på β-glukocerebrosidaseaktivitet, noe som fører til opphopning av glukocerebrosid i ulike vev, inkludert lever, milt og benmarg. Mannosesukkerne på imiglukerase medierer binding til og internalisering i celler, inkludert makrofager.» Engelsk originaltekst: "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), versjon av 2026-08-27; hentet 2026-11-19). Imiglucerase er likevel et rekombinant beta-glukocerebrosidase som spalter glukocerebrosid. Hurlers syndrom (MPS I) skyldes mangel på enzymet alfa-L-iduronidase, noe som gir opphopning av glykosaminoglykaner (dermatan- og heparansulfat).
 
 Begge sykdommene er lysosomale lagringssykdommer som behandles med enzymerstatning, og dette forklarer trolig den høye prediksjonsscoren. Enzymenes substrater er imidlertid ulike, og imiglucerase har ingen kjent aktivitet mot iduronidase-substrater. Koblingen er derfor på klassenivå (felles prinsipp om enzymerstatning), ikke en direkte mekanistisk sammenheng. Godkjent behandling for MPS I er laronidase.
 
@@ -117,11 +117,12 @@ Prediksjonen bygger kun på modellscore og et klassenivå-argument om enzymersta
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
 
 <!-- review:end log -->
 

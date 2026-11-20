@@ -54,7 +54,7 @@ Bevacizumab er et monoklonalt antistoff som nøytraliserer VEGF-A og hemmer tumo
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de samlede dataene. Ut fra kjent farmakologi binder bevacizumab VEGF-A og hindrer at det aktiverer VEGF-reseptorene på endotelceller, noe som reduserer tumorens angiogenese.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bevacizumab (uoffisiell oversettelse): «Bevacizumabprodukter binder VEGF og hindrer interaksjonen mellom VEGF og dets reseptorer (Flt-1 og KDR) på overflaten av endotelceller. Interaksjonen mellom VEGF og dets reseptorer fører til endotelcelleproliferasjon og dannelse av nye blodkar i in vitro-modeller av angiogenese.» Engelsk originaltekst: "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis." ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe), versjon av 2026-08-21; hentet 2026-11-19). Ut fra kjent farmakologi binder bevacizumab VEGF-A og hindrer at det aktiverer VEGF-reseptorene på endotelceller, noe som reduserer tumorens angiogenese.
 
 Hode- og halssvulster, inkludert lesjoner i epiglottis, regnes som VEGF-avhengige, og en mekanisme er derfor biologisk plausibel. Det finnes imidlertid ingen studier som direkte undersøker denne sykdommen, og rasjonalet er derfor teoretisk.
 
@@ -111,6 +111,19 @@ Prediksjonen for epiglottisneoplasme bygger utelukkende på modellen (evidensniv
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Pakningsvedleggets advarsler og kontraindikasjoner fra lokale kilder, slik at sikkerhetsvurdering kan gjennomføres
 - Avklaring av sykdomsdefinisjon og pasientgruppe før en eventuell prekliniske eller tidlig klinisk studie planlegges
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

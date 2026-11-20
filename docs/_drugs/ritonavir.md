@@ -62,7 +62,7 @@ Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), og alle fem er 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er ritonavir en HIV-1-proteasehemmer og en CYP3A4-hemmer som brukes til farmakokinetisk forsterkning av andre legemidler. Effekten mot HIV er etablert, og mekanistisk kan den være overførbar til nært beslektede lentivirus.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ritonavir (uoffisiell oversettelse): «Ritonavir er et antiretroviralt legemiddel. […] Ritonavir er en peptidomimetisk hemmer av HIV-1-protease. Hemming av HIV-protease gjør enzymet ute av stand til å prosessere Gag-Pol-polyproteinforløperen, noe som fører til produksjon av ikke-infeksiøse, umodne HIV-partikler.» Engelsk originaltekst: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), versjon av 2026-07-23; hentet 2026-11-19). Ut fra kjent informasjon er ritonavir en HIV-1-proteasehemmer og en CYP3A4-hemmer som brukes til farmakokinetisk forsterkning av andre legemidler. Effekten mot HIV er etablert, og mekanistisk kan den være overførbar til nært beslektede lentivirus.
 
 SIV er et primat-lentivirus som er nært beslektet med HIV, og proteasen er følsom for enkelte HIV-1-proteasehemmere. Et in vitro-studie (PMID 12709355) viste at SIVmac239 ble hemmet av ritonavir med en EC50 på ca. 13 nM, mot ca. 25 nM for HIV-1. Det gir et direkte, om enn prekliniskt, holdepunkt for aktivitet.
 
@@ -141,6 +141,19 @@ SIV er en dyremodell for HIV, og den foreslåtte indikasjonen er i praksis en gj
 - Data om virkningsmekanisme fra DrugBank
 - Avklaring av om en slik prediksjon har noen reell terapeutisk verdi utover den eksisterende HIV-indikasjonen (f.eks. som forskningsmodell)
 - Avklaring av årsaken til at alle godkjenninger er kansellert og av gjeldende regulatorisk status
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

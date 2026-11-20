@@ -58,7 +58,7 @@ Docetaxel er et cellegiftmiddel (taksan) som hemmer celledeling ved å stabilise
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Docetaxel tilhører imidlertid taksanene, som stabiliserer mikrotubuli og dermed stopper celledelingen (antimitotisk effekt). Slike midler er særlig aktuelle mot raskt delende svulstceller, slik som i sarkomer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Docetaxel (uoffisiell oversettelse): «Docetaksel er et antineoplastisk middel som virker ved å forstyrre det mikrotubulære nettverket i cellene, som er essensielt for mitotiske og interfasiske cellefunksjoner. Docetaksel bindes til fritt tubulin og fremmer sammenstillingen av tubulin til stabile mikrotubuli, samtidig som det hemmer nedbrytningen av dem.» Engelsk originaltekst: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), versjon av 2025-12-17; hentet 2026-11-19). Docetaxel tilhører imidlertid taksanene, som stabiliserer mikrotubuli og dermed stopper celledelingen (antimitotisk effekt). Slike midler er særlig aktuelle mot raskt delende svulstceller, slik som i sarkomer.
 
 Gemcitabin etterfulgt av docetaxel har vist synergistisk cytotoksisitet i laboratorieforsøk og klinisk erfaring ved sarkom (PMID 15117993). Flere fase 2-studier hos barn og unge med residiverende eller refraktære sarkomer, inkludert Ewing-sarkom, har rapportert noe aktivitet. Responsene er imidlertid moderate, og kohortene er sammensatt av ulike sarkomtyper. Flere av de registrerte studiene er trukket tilbake eller er flerstoffstudier, så det er vanskelig å isolere docetaxels egen bidrag.
 
@@ -141,6 +141,19 @@ Flere fullførte fase 2-studier og publikasjoner undersøker docetaxel (hovedsak
 - Kontrollerte studier som isolerer docetaxels bidrag ved Ewing-sarkom
 - Sikkerhetsovervåkingsplan, særlig for myelosuppresjon og nevropati hos barn og unge voksne
 - Avklaring av pediatrisk dosering og administrasjonsvei
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

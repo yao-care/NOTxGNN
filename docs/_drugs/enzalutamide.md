@@ -56,7 +56,7 @@ Det er **ingen kliniske studier** og **ingen publikasjoner** som direkte unders�
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig i de sammenstilte dataene. Enzalutamid tilhører klassen androgenreseptorantagonister, og effekten av denne klassen i androgenavhengig vev er kjent. Prostata er et androgenfølsomt vev, så det er i prinsippet plausibelt at blokkering av androgenreseptoren kan påvirke svulster som oppstår der.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Enzalutamide (uoffisiell oversettelse): «Enzalutamid er en androgenreseptorhemmer som virker på ulike trinn i androgenreseptorens signalvei. Enzalutamid har vist seg å kompetitivt hemme androgenbinding til androgenreseptorer, og hemmer følgelig nukleær translokasjon av androgenreseptorer og deres interaksjon med DNA.» Engelsk originaltekst: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf), versjon av 2026-07-28; hentet 2026-11-19). Enzalutamid tilhører klassen androgenreseptorantagonister, og effekten av denne klassen i androgenavhengig vev er kjent. Prostata er et androgenfølsomt vev, så det er i prinsippet plausibelt at blokkering av androgenreseptoren kan påvirke svulster som oppstår der.
 
 Leiomyomer er imidlertid mesenkymale glattmuskelsvulster, og det er ikke påvist at de er avhengige av androgenreseptorsignalering. Prediksjonen har høy modellscore, men mangler støtte fra kliniske data eller litteratur. Den bør derfor sees som en hypotese som må underbygges.
 
@@ -104,6 +104,19 @@ Prediksjonen bygger kun på modellscore (0,9957) uten kliniske studier eller lit
 - Litteratursøk og tilfellerapporter som direkte omhandler sykdommen
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner, som mangler i dataene
 - Vurdering av interaksjonsrisiko, særlig for legemidler med alvorlig interaksjonsnivå
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

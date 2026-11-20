@@ -60,7 +60,7 @@ For denne forutsigelsen finnes det **ingen kliniske studier og ingen publikasjon
 
 ## Hvorfor er denne forutsigelsen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Bictegravir tilhører klassen integrase-strand-transferhemmere (INSTI), og denne klassen hemmer det virale integraseenzymet som er nødvendig for at viralt DNA settes inn i vertscellens genom.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Bictegravir (uoffisiell oversettelse): «Integrasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; hentet 2026-11-19). Bictegravir tilhører klassen integrase-strand-transferhemmere (INSTI), og denne klassen hemmer det virale integraseenzymet som er nødvendig for at viralt DNA settes inn i vertscellens genom.
 
 Felint immunsviktvirus (FIV) er et lentivirus med et integraseenzym som er beslektet med det hos hiv-1. Det gjør det biologisk plausibelt at en INSTI kan virke antiviralt. Dette er likevel ikke verifisert: følsomheten til FIV-integrase for bictegravir er ikke undersøkt i de foreliggende dataene.
 
@@ -114,6 +114,19 @@ Forutsigelsen bygger bare på en modellscore, uten kliniske studier eller publik
 - In vitro-data på bictegravirs aktivitet mot FIV-integrase
 - Veterinærfaglig vurdering av relevans, sikkerhet og doseringsform for katt
 - Data om virkningsmekanisme (MOA) og informasjon fra preparatomtalen om advarsler og kontraindikasjoner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

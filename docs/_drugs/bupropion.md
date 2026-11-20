@@ -60,7 +60,7 @@ og retningen støttes for øyeblikket av **6 kliniske studier** og **20 publikas
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen mangler i de sammenstilte dataene. Basert på kjent informasjon hemmer bupropion gjenopptaket av noradrenalin (NET) og dopamin (DAT). Det er de samme katekolaminerge banene som etablerte ADHD-legemidler, som sentralstimulerende midler og atomoksetin, virker på.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bupropion (uoffisiell oversettelse): «Den nøyaktige mekanismen som bupropionhydroklorid depottabletter (SR) styrker pasientenes evne til å avstå fra røyking ved, er ikke kjent, men antas å være knyttet til noradrenerge og/eller dopaminerge mekanismer. Bupropion er en relativt svak hemmer av den nevronale gjenopptaket av noradrenalin og dopamin, og hemmer ikke gjenopptaket av serotonin.» Engelsk originaltekst: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), versjon av 2026-11-11; hentet 2026-11-19). Basert på kjent informasjon hemmer bupropion gjenopptaket av noradrenalin (NET) og dopamin (DAT). Det er de samme katekolaminerge banene som etablerte ADHD-legemidler, som sentralstimulerende midler og atomoksetin, virker på.
 
 Den opprinnelige indikasjonen (fedme/overvekt) bygger på bupropions effekt på sentrale appetitt- og belønningsbaner, og disse overlapper med de dopaminerge og noradrenerge systemene som er involvert i ADHD. Bupropion er dessuten kjent for bruk ved depresjon og røykeslutt, og litteraturen omtaler også bruk ved ADHD som ikke-stimulerende alternativ.
 
@@ -163,12 +163,13 @@ De øvrige prediksjonene har svakere støtte:
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Likevel er markedsstatus «kun avregistrert», og sikkerhetsprofilen (krampefare, hypertensjon, rusmiddelbruk, spiseforstyrrelser) krever tyde» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden Mysimba-godkjenningen er avregistrert og bupropion-produkter for andre indikasjoner må vurderes» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
 
 <!-- review:end log -->
 

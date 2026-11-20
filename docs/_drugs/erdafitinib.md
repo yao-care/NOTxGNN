@@ -61,7 +61,7 @@ Prediksjonen støttes foreløpig av **0 kliniske studier** og **0 publikasjoner*
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Erdafitinib er likevel kjent som en pan-FGFR-hemmer (FGFR1–4). Effekten ved urologiske neoplasmer er knyttet til hemming av FGFR-signalering i tumorceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Erdafitinib (uoffisiell oversettelse): «Erdafitinib er en kinasehemmer som bindes til og hemmer den enzymatiske aktiviteten til FGFR1, FGFR2, FGFR3 og FGFR4, basert på in vitro-data. Erdafitinib hemmet FGFR-fosforylering og -signalering og reduserte cellelevedyktigheten i cellelinjer som uttrykker genetiske FGFR-endringer, inkludert punktmutasjoner, amplifikasjoner og fusjoner.» Engelsk originaltekst: "Erdafitinib is a kinase inhibitor that binds to and inhibits enzymatic activity of FGFR1, FGFR2, FGFR3 and FGFR4 based on in vitro data. Erdafitinib inhibited FGFR phosphorylation and signaling and decreased cell viability in cell lines expressing FGFR genetic alterations, including point mutations, amplifications, and fusions." ([DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee), versjon av 2025-10-24; hentet 2026-11-19). Erdafitinib er likevel kjent som en pan-FGFR-hemmer (FGFR1–4). Effekten ved urologiske neoplasmer er knyttet til hemming av FGFR-signalering i tumorceller.
 
 FGF/FGFR-signalering er koblet til remodellering av lungekar samt proliferasjon av glatt muskulatur og endotel ved pulmonal arteriell hypertensjon. Det finnes dermed en biologisk plausibel kobling. Koblingen bygger imidlertid kun på TxGNN-prediksjonen, uten støttende studier eller litteratur i de innsamlede dataene.
 
@@ -140,6 +140,19 @@ Prediksjonen for pulmonal hypertensjon (score 0,9938) støttes av en biologisk p
 - Prekliniske studier av FGFR-hemming i modeller for pulmonal hypertensjon
 - Vurdering av sikkerhetsprofilen (hyperfosfatemi, øyetoksisitet, væskeretensjon) i kardiopulmonale pasienter
 - Avklaring av markedsstatus og tilgjengelighet i Norge gitt at tillatelsen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

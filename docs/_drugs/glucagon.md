@@ -54,7 +54,7 @@ Glukagon er et peptidhormon som er markedsført i Norge til behandling av diabet
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om glukagons opprinnelige virkningsmekanisme (MOA) foreligger ikke i de innsamlede dataene. Glukagon har likevel en etablert klinisk bruk som avslappende middel for glatt muskulatur i mage-tarmkanalen ved endoskopiske og radiologiske undersøkelser. Det gir en plausibel, men indirekte kobling til IBS-symptomer som økt tarmmotilitet og magesmerter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Glucagon (uoffisiell oversettelse): «Glukagon øker blodglukosekonsentrasjonen ved å aktivere glukagonreseptorer i leveren, og stimulerer dermed nedbrytning av glykogen og frigjøring av glukose fra leveren. Glykogenlagre i leveren er nødvendige for at glukagon skal gi en antihypoglykemisk effekt.» Engelsk originaltekst: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), versjon av 2020-09-16; hentet 2026-11-19). Glukagon har likevel en etablert klinisk bruk som avslappende middel for glatt muskulatur i mage-tarmkanalen ved endoskopiske og radiologiske undersøkelser. Det gir en plausibel, men indirekte kobling til IBS-symptomer som økt tarmmotilitet og magesmerter.
 
 Studiene som er funnet gjelder GLP-1 og analogen ROSE-010. Disse stammer fra samme proglukagon-peptidfamilie og hemmer mage-tarm-motilitet via GLP-1-reseptoren. Glukagon virker derimot via en annen reseptor (GCGR). Ekstrapolering fra GLP-1-data må derfor gjøres med stor forsiktighet, og TxGNN-scoren er en modellprediksjon som ikke erstatter klinisk evidens.
 
@@ -108,6 +108,18 @@ Ingen studier har testet glukagon ved irritabelt tarmsyndrom. Den tilgjengelige 
 - Preklinisk eller klinisk evidens for glukagon (GCGR-signalering) ved IBS, ikke bare for GLP-1
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Vurdering av administrasjonsvei og formulering som passer for IBS
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

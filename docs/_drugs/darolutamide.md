@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **homozygot familiær h
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Darolutamid er en androgenreseptorantagonist. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten, så mekanismeanalysen er begrenset.
+Darolutamid er en androgenreseptorantagonist. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Darolutamide (uoffisiell oversettelse): «Darolutamid er en androgenreseptorhemmer (AR-hemmer). Darolutamid hemmer kompetitivt androgenbinding, nukleær translokasjon av AR og AR-mediert transkripsjon. En hovedmetabolitt, ketodarolutamid, viste lignende in vitro-aktivitet som darolutamid.» Engelsk originaltekst: "Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide." ([DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e), versjon av 2026-09-28; hentet 2026-11-19).
 
 Homozygot familiær hyperkolesterolemi skyldes defekter i LDL-reseptorveien. Det finnes ingen opplagt kobling til androgenreseptorsignalering i de tilgjengelige dataene. Den høye scoren (0,9911) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk eller klinisk dokumentasjon.
 
@@ -140,6 +140,19 @@ Prediksjonen bygger kun på modellscore uten kliniske studier, litteratur eller 
 | HIV-infeksjon | 0,9904 | L5 | Hold |
 
 For multippel endokrin neoplasi er to studier registrert (NCT07795177 og NCT03878524), men begge gjelder prostatakreft eller presisjonsonkologi, har lav relevans og gir ingen tolkbar evidens for denne indikasjonen. For HIV-infeksjon finnes ingen studier eller litteratur, og de mange registrerte legemiddelinteraksjonene måtte vurderes nøye før videre utforskning.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

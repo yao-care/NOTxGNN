@@ -58,7 +58,7 @@ Hydrokortison er et kortikosteroid (glukokortikoid) med antiinflammatorisk og im
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Hydrokortison tilhører imidlertid gruppen glukokortikoider, som demper betennelse og immunrespons lokalt og systemisk.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Hydrocortisone (uoffisiell oversettelse): «Hydrokortison er et glukokortikoid. Glukokortikoider, binyrebarksteroider, gir varierte metabolske effekter. I tillegg modifiserer de kroppens immunrespons på ulike stimuli..» Engelsk originaltekst: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), versjon av 2026-04-21; hentet 2026-11-19). Hydrokortison tilhører imidlertid gruppen glukokortikoider, som demper betennelse og immunrespons lokalt og systemisk.
 
 Alopecia areata regnes som en T-celle-mediert autoimmun sykdom, der immunsystemet angriper hårsekkene og gir flekkvis hårtap. Å dempe immunangrepet rundt hårsekkene er derfor biologisk plausibelt, og kortikosteroider brukes allerede i praksis ved tilstanden.
 
@@ -126,6 +126,18 @@ Prediksjonsscoren er høy (0,9997), og det finnes én fullført fase 3-studie p�
 - Data om virkningsmekanisme (MOA) for en mer detaljert mekanistisk vurdering
 - En kontrollert studie der hydrokortison er den aktive behandlingen, helst mot placebo, med tydelig definert administrasjonsvei (lokal krem eller intralesjonal injeksjon)
 - En vurdering av om lavpotent hydrokortison har noen klinisk fordel over eksisterende, mer potente steroider ved alopecia areata
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

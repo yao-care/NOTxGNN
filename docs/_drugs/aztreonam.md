@@ -54,7 +54,7 @@ Aztreonam er et monobaktam-antibiotikum som hemmer bakteriell celleveggsyntese h
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Aztreonam er likevel kjent som et monobaktam som hemmer penicillinbindende protein 3 (PBP3) hos gramnegative aerobe bakterier.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Aztreonam (uoffisiell oversettelse): «Aztreonam er et baktericid middel som virker ved å hemme syntesen av bakteriecelleveggen. Aztreonam har aktivitet i nærvær av enkelte betalaktamaser, både penicillinaser og cefalosporinaser, hos gramnegative og grampositive bakterier.» Engelsk originaltekst: "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), versjon av 2024-06-03; hentet 2026-11-19). Aztreonam er likevel kjent som et monobaktam som hemmer penicillinbindende protein 3 (PBP3) hos gramnegative aerobe bakterier.
 
 Hyperamylasemi er et laboratoriefunn (forhøyet amylase i blod), ikke en infeksjonssykdom. Det finnes ingen plausibel mekanistisk kobling mellom en antibakteriell virkning og senking av serumamylase. Den høye skåren (0,9973) ser ut til å være et artefakt fra modellens grafbaserte læring og bør ikke tolkes som klinisk støtte. Det finnes heller ingen forskjell i skåre som skiller denne prediksjonen fra den neste på listen (polyklonalt hyperviskositetssyndrom, samme skåre), noe som styrker inntrykket av at skåren i seg selv er lite informativ her.
 
@@ -99,6 +99,19 @@ Hyperamylasemi er et laboratoriefunn uten plausibel mekanistisk kobling til et a
 - En klar klinisk hypotese som skiller en eventuell effekt fra et rent artefakt i modellen
 - Preparatomtale med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
 - Verifisering av gjeldende markedsstatus og lisensstatus i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

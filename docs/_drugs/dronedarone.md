@@ -58,7 +58,7 @@ Dronedaron er et antiarytmikum som blokkerer flere ionekanaler i hjertet. TxGNN-
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget. Dronedaron er likevel kjent som et antiarytmikum med flere ionekanaleffekter. Hjerneslag er en velkjent komplikasjon av den hjerterytmelidelsen legemidlet brukes mot, fordi blodpropper fra hjertet kan føre til slag. Bedre rytmekontroll kan derfor tenkes å redusere slagrisikoen indirekte. Den høye modellscoren gjenspeiler trolig denne sammenhengen mellom rytmelidelse og slag, ikke en påvist direkte nevrobeskyttende effekt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Dronedarone (uoffisiell oversettelse): «Virkningsmekanismen til dronedaron er ukjent. Dronedaron har antiarytmiske egenskaper som tilhører alle fire Vaughan-Williams-klassene, men bidraget fra hver av disse aktivitetene til den kliniske effekten er ukjent.» Engelsk originaltekst: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), versjon av 2026-01-27; hentet 2026-11-19). Dronedaron er likevel kjent som et antiarytmikum med flere ionekanaleffekter. Hjerneslag er en velkjent komplikasjon av den hjerterytmelidelsen legemidlet brukes mot, fordi blodpropper fra hjertet kan føre til slag. Bedre rytmekontroll kan derfor tenkes å redusere slagrisikoen indirekte. Den høye modellscoren gjenspeiler trolig denne sammenhengen mellom rytmelidelse og slag, ikke en påvist direkte nevrobeskyttende effekt.
 
 Ett prekliniske studie (PMID 28992468) tyder på at dronedaron kan ha antikoagulerende og blodplatehemmende effekter uavhengig av den antiarytmiske virkningen. Det kan være en mulig direkte mekanisme, men det er ikke bekreftet hos pasienter.
 
@@ -121,6 +121,18 @@ Prediksjonen er først og fremst støttet av sammenhengen mellom hjerterytmelide
 - Fullstendig gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - En vurdering av hvilke pasientgrupper som i praksis kan være aktuelle, gitt begrensningene ved permanent rytmelidelse og dekompensert hjertesvikt
 - En plan for oppfølging av interaksjoner, særlig med antikoagulantia
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

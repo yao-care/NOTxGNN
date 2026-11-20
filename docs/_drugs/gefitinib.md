@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **gingival fibromatose*
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Gefitinib er kjent som en hemmer av EGFR-tyrosinkinase, og effekten ved EGFR-mutert ikke-småcellet lungekreft er godt dokumentert. Mekanistisk kunne en antiproliferativ effekt på fibroblaster tenkes, men dette er rent spekulativt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Gefitinib (uoffisiell oversettelse): «Epidermal vekstfaktorreseptor (EGFR) uttrykkes på celleoverflaten av både normale celler og kreftceller og spiller en rolle i prosessene for cellevekst og proliferasjon. Enkelte aktiverende EGFR-mutasjoner (delesjon i ekson 19 eller punktmutasjonen L858R i ekson 21) i NSCLC-celler er identifisert som bidragsytende til å fremme tumorcellevekst, blokkere apoptose, øke produksjonen av angiogene faktorer og legge til rette for metastaseprosessene. […] Gefitinib hemmer reversibelt kinaseaktiviteten til villtype-EGFR og visse aktiverende mutasjoner av EGFR, og forhindrer autofosforylering av tyrosinrester knyttet til reseptoren, og hemmer dermed videre nedstrøms signalering og blokkerer EGFR-avhengig proliferasjon.» Engelsk originaltekst: "The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation." ([DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41), versjon av 2023-02-28; hentet 2026-11-19). Gefitinib er kjent som en hemmer av EGFR-tyrosinkinase, og effekten ved EGFR-mutert ikke-småcellet lungekreft er godt dokumentert. Mekanistisk kunne en antiproliferativ effekt på fibroblaster tenkes, men dette er rent spekulativt.
 
 Den høye TxGNN-scoren (0.9989) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den er ikke støttet av noen kliniske studier eller litteratur for gingival fibromatose. Det finnes ingen direkte, datastøttet kobling mellom den opprinnelige indikasjonen (kreft) og den nye (en fibrøs overvekst i tannkjøttet). Prediksjonen bør derfor sees på som en hypotese og ikke som en terapeutisk begrunnelse.
 
@@ -130,6 +130,19 @@ Prediksjonen for gingival fibromatose bygger kun på modellscore (evidensnivå L
 ---
 
 **Merknad om andre prediksjoner:** De øvrige ni toppkandidatene (blant annet lungehilus-karsinom, godartet lungeneoplasme, lungegerminalcelletumor, pulmonal sulcus-neoplasme og junksjonell epidermolysis bullosa) har også anbefalingen Hold. De har enten ingen evidens eller bare indirekte evidens (evidensnivå L4–L5). Lungehilus-karsinom og pulmonal sulcus-neoplasme er anatomisk beslektet med den eksisterende lungekreftindikasjonen, men støttes bare av et enkelt kasuistisk tilfelle og indirekte litteratur.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

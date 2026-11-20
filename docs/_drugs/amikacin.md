@@ -58,7 +58,7 @@ Amikacin er et aminoglykosid-antibiotikum med bred aktivitet mot gramnegative ba
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er ikke tilgjengelige i det innsamlede materialet. Amikacin tilhører aminoglykosidene, som hemmer bakteriell proteinsyntese og har bred aktivitet mot gramnegative bakterier. *Salmonella* Paratyphi er en gramnegativ enterobakterie, så aktivitet er biologisk plausibel.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Amikacin (uoffisiell oversettelse): «Amikacin, et aminoglykosid, binder seg til det prokaryote ribosomet og hemmer proteinsyntesen i følsomme bakterier. Det er baktericid in vitro mot grampositive og gramnegative bakterier.» Engelsk originaltekst: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), versjon av 2026-07-27; hentet 2026-11-19). Amikacin tilhører aminoglykosidene, som hemmer bakteriell proteinsyntese og har bred aktivitet mot gramnegative bakterier. *Salmonella* Paratyphi er en gramnegativ enterobakterie, så aktivitet er biologisk plausibel.
 
 Det er likevel viktige begrensninger. Aminoglykosider trenger dårlig inn i celler, mens *Salmonella* lever intracellulært. Standardbehandling av enterisk feber bygger på fluorokinoloner, azitromycin eller tredjegenerasjons cefalosporiner. Den funnede litteraturen består hovedsakelig av epidemiologi og antibiogramdata, samt en rapport fra 1989 om antibiotika ved resistent paratyfus B. Det er ikke identifisert direkte evidens for amikacins effekt ved paratyfoidfeber.
 
@@ -115,6 +115,19 @@ Prediksjonen har høy modellscore, men ingen klinisk studie eller publikasjon un
 - Data om virkningsmekanisme
 - Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner)
 - Vurdering av administrasjonsvei og dosering for systemisk behandling av enterisk feber
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

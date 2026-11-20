@@ -74,7 +74,7 @@ Anakinra er en rekombinant interleukin-1-reseptorantagonist (IL-1Ra) som opprinn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon er anakinra en IL-1-reseptorantagonist som blokkerer IL-1α og IL-1β fra å binde seg til IL-1-reseptoren. Effekten ved revmatoid artritt er etablert, og mekanistisk kan den være aktuell ved sykdommer drevet av IL-1-mediert betennelse.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Anakinra (uoffisiell oversettelse): «KINERET blokkerer den biologiske aktiviteten til IL-1 alfa og beta ved kompetitivt å hemme bindingen av IL-1 til interleukin-1-reseptor type I (IL-1RI), som uttrykkes i en rekke ulike vev og organer. IL-1-produksjon induseres som respons på inflammatoriske stimuli og medierer ulike fysiologiske responser, inkludert inflammatoriske og immunologiske responser.» Engelsk originaltekst: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), versjon av 2026-04-03; hentet 2026-11-19). Basert på kjent informasjon er anakinra en IL-1-reseptorantagonist som blokkerer IL-1α og IL-1β fra å binde seg til IL-1-reseptoren. Effekten ved revmatoid artritt er etablert, og mekanistisk kan den være aktuell ved sykdommer drevet av IL-1-mediert betennelse.
 
 For **ekstrakutan mastocytom** er koblingen kun en plausibel, men ubekreftet hypotese om IL-1-mediert betennelse ved mastcellesykdommer. Det finnes ingen støttende studier eller litteratur. For **leverinfarkt**, **hepatisk venookklusiv sykdom** og **peliosis hepatis** er koblingen uklar eller spekulativ (eventuelt via endotelbetennelse).
 
@@ -165,11 +165,12 @@ Informasjon om advarsler og kontraindikasjoner er ikke tilgjengelig i datagrunnl
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «(avregistrert lisens)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
 
 <!-- review:end log -->
 

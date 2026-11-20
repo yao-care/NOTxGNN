@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at det kan ha effekt mot **urotelkarsinom i prostatisk
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er mogamulizumab et humanisert monoklonalt antistoff rettet mot kjemokinreseptoren CCR4. Det fjerner CCR4-positive celler, inkludert effektor-regulatoriske T-celler (Treg), gjennom antistoffavhengig cellemediert cytotoksisitet (ADCC). Effekten er dokumentert ved Sézarys syndrom og mycosis fungoides.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mogamulizumab (uoffisiell oversettelse): «Mogamulizumab-kpkc er et defukosylert, humanisert monoklonalt IgG1 kappa-antistoff som bindes til CCR4, en G-proteinkoblet reseptor for CC-kjemokiner som er involvert i transporten av lymfocytter til ulike organer. Ikke-kliniske in vitro-studier viser at binding av mogamulizumab-kpkc gjør en celle til mål for antistoffavhengig cellulær cytotoksisitet (ADCC), noe som fører til deplesjon av målcellene.» Engelsk originaltekst: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f), versjon av 2026-03-02; hentet 2026-11-19). Basert på kjent informasjon er mogamulizumab et humanisert monoklonalt antistoff rettet mot kjemokinreseptoren CCR4. Det fjerner CCR4-positive celler, inkludert effektor-regulatoriske T-celler (Treg), gjennom antistoffavhengig cellemediert cytotoksisitet (ADCC). Effekten er dokumentert ved Sézarys syndrom og mycosis fungoides.
 
 Den foreslåtte koblingen til urotelkarsinom er hypotetisk: Treg-depletering i tumormikromiljøet kan teoretisk lette immunsuppresjon. Det finnes ingen direkte evidens for dette i urotelkreft, og CCR4-uttrykk i denne tumortypen er ikke etablert i dataene. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og den er ikke en validert CCR4-avhengighet.
 
@@ -152,11 +152,12 @@ Alle predikerte indikasjoner bygger kun på modellprediksjon (L5), uten kliniske
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Det eneste norske markedsføringstillatelsen er avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
 
 <!-- review:end log -->
 

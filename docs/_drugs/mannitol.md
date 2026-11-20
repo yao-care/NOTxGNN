@@ -58,7 +58,7 @@ Mannitol er et osmotisk middel som opprinnelig ble godkjent (som Bronchitol, inh
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon er mannitol et osmotisk diuretikum, og effekten ved cystisk fibrose skyldes at det trekker vann inn i luftveisslimet og bedrer slimtransporten.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mannitol (uoffisiell oversettelse): «Mannitol utøver, når det gis intravenøst, sin osmotiske diuretiske effekt som et oppløst stoff med relativt liten molekylstørrelse som i stor grad er begrenset til det ekstracellulære rommet. Mannitol hemmer tubulær reabsorpsjon av vann og øker utskillelsen av natrium og klorid ved å øke osmolariteten i glomerulusfiltratet.» Engelsk originaltekst: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), versjon av 2025-08-26; hentet 2026-11-19). Basert på kjent informasjon er mannitol et osmotisk diuretikum, og effekten ved cystisk fibrose skyldes at det trekker vann inn i luftveisslimet og bedrer slimtransporten.
 
 Mekanismen gir liten støtte for den predikerte indikasjonen. NSIAD skyldes aktiverende mutasjoner i vasopressin V2-reseptoren, så defekten ligger på reseptornivå og er ikke osmotisk. Mannitol kan i tillegg forverre hyponatremi gjennom osmotiske vannforskyvninger. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -124,6 +124,19 @@ Den høye TxGNN-scoren (0,9997) er ikke støttet av kliniske studier eller relev
 - Prekliniske eller kliniske data som direkte undersøker mannitol ved den predikerte indikasjonen
 - Avklaring av doseringsform og administrasjonsvei som kan være aktuell for den nye indikasjonen
 - Vurdering av om andre predikerte indikasjoner (for eksempel akutt pulmonal hjertesykdom) er mer lovende enn rang 1
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

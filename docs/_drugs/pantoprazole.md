@@ -58,7 +58,7 @@ Pantoprazol er en protonpumpehemmer som opprinnelig brukes mot **gastroøsofagea
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen (MOA) er for tiden ikke tilgjengelige i det sammenstilte datamaterialet. Likevel er pantoprazol kjent som en protonpumpehemmer (PPI): den hemmer irreversibelt det gastriske H+/K+-ATPase-enzymet (protonpumpen) i parietalcellene og reduserer dermed syresekresjonen. Dette er det etablerte farmakologiske grunnlaget for behandling av syrerelaterte sykdommer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pantoprazole (uoffisiell oversettelse): «Pantoprazol er en PPI som hemmer det siste trinnet i produksjonen av magesyre ved å binde seg kovalent til (H +, K + )-ATPase-enzymsystemet på den sekretoriske overflaten av parietalcellene i magesekken. Denne effekten fører til hemming av både basal og stimulert magesyresekresjon, uavhengig av stimulus.» Engelsk originaltekst: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), versjon av 2026-11-06; hentet 2026-11-19). Likevel er pantoprazol kjent som en protonpumpehemmer (PPI): den hemmer irreversibelt det gastriske H+/K+-ATPase-enzymet (protonpumpen) i parietalcellene og reduserer dermed syresekresjonen. Dette er det etablerte farmakologiske grunnlaget for behandling av syrerelaterte sykdommer.
 
 Gastroøsofageal reflukssykdom og magesår er begge syremedierte tilstander. Dermed er syrehemming mekanistisk direkte relevant for sårtilheling. Det betyr også at den predikerte indikasjonen i praksis ligger tett opp mot den opprinnelige, og at prediksjonen er biologisk godt begrunnet.
 
@@ -141,11 +141,12 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «(avregistrerte godkjenninger)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

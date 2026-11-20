@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **lepra**, men det finn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Lonafarnib hemmer farnesyltransferase, et enzym som fester en farnesylgruppe til proteiner. Ved progeri og progeroide laminopatier reduserer dette opphopningen av det giftige, farnesylerte proteinet progerin. Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene, så beskrivelsen over bygger på kjent kunnskap om legemiddelklassen.
+Lonafarnib hemmer farnesyltransferase, et enzym som fester en farnesylgruppe til proteiner. Ved progeri og progeroide laminopatier reduserer dette opphopningen av det giftige, farnesylerte proteinet progerin. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lonafarnib (uoffisiell oversettelse): «Lonafarnib hemmer farnesyltransferase for å hindre farnesylering og påfølgende opphopning av progerin og progerinlignende proteiner i den indre kjernemembranen.» Engelsk originaltekst: "Lonafarnib inhibits farnesyltransferase to prevent farnesylation and subsequent accumulation of progerin and progerin-like proteins in the inner nuclear membrane." ([DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50), versjon av 2025-07-02; hentet 2026-11-19).
 
 Det finnes ingen dokumentert mekanistisk kobling mellom farnesyltransferasehemming og infeksjon med *Mycobacterium leprae* eller verts-responsen ved lepra (for eksempel infeksjon av Schwann-celler, immunmodulering i makrofager eller reaksjoner som ENL). Teoretisk kan prenyleringsavhengig signalering (Ras/Rho-GTPaser) påvirke samspillet mellom vert og patogen eller betennelse, men dette er spekulativt og ikke støttet av dataene. Den høye modellscoren (0,9914) alene er ikke tilstrekkelig til å vurdere prediksjonen som biologisk plausibel.
 
@@ -124,11 +124,12 @@ Prediksjonen for lepra bygger utelukkende på modellscore (evidensnivå L5), ute
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50) |
 
 <!-- review:end log -->
 

@@ -62,7 +62,7 @@ men evidensen er svak: **ingen kliniske studier** og **én kasuistikk** direkte 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme var ikke tilgjengelig i de innsamlede dataene for denne rapporten. Basert på kjent informasjon er ziconotid en selektiv blokker av N-type (Cav2.2) spenningsstyrte kalsiumkanaler. Den hemmer frisetting av nociseptive signalstoffer (som substans P, CGRP og glutamat) i ryggmargens bakhorn.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ziconotide (uoffisiell oversettelse): «Ziconotid bindes til kalsiumkanaler av N-type som finnes på de primære nociseptive (A-δ- og C-) afferente nervene i de overfladiske lagene (Rexed laminae I og II) av dorsalhornet i ryggmargen. Selv om virkningsmekanismen til ziconotid ikke er fastslått hos mennesker, tyder resultater hos dyr på at bindingen blokkerer kalsiumkanaler av N-type, noe som fører til en blokkering av frisetting av eksitatoriske nevrotransmittere fra de primære afferente nerveterminalene og til antinosisepsjon.» Engelsk originaltekst: "Ziconotide binds to N-type calcium channels located on the primary nociceptive (A-δ and C) afferent nerves in the superficial layers (Rexed laminae I and II) of the dorsal horn in the spinal cord. Although the mechanism of action of ziconotide has not been established in humans, results in animals suggest that its binding blocks N-type calcium channels, which leads to a blockade of excitatory neurotransmitter release from the primary afferent nerve terminals and antinociception." ([DailyMed: Prialt (ziconotide acetate) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe), versjon av 2026-09-15; hentet 2026-11-19). Basert på kjent informasjon er ziconotid en selektiv blokker av N-type (Cav2.2) spenningsstyrte kalsiumkanaler. Den hemmer frisetting av nociseptive signalstoffer (som substans P, CGRP og glutamat) i ryggmargens bakhorn.
 
 Siden CGRP og beslektet signaloverføring spiller en sentral rolle i trigeminovaskulære og sentrale smertebaner ved migrene, finnes en indirekte mekanistisk begrunnelse. Smerte er den opprinnelige indikasjonen, og migrene er en smertetilstand, noe som støtter koblingen.
 
@@ -140,12 +140,13 @@ Evidensen består kun av to kasuistikker og én modellprediksjon, uten kontrolle
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er produktet avregistrert i Norge, t» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden eneste tillatelse er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Prialt (ziconotide acetate) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe) |
 
 <!-- review:end log -->
 

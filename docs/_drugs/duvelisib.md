@@ -54,7 +54,7 @@ Duvelisib er en oral hemmer av PI3K-delta og PI3K-gamma som brukes mot visse B-c
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Basert på kjent informasjon hemmer duvelisib PI3K-delta og PI3K-gamma, som understøtter B-cellereseptorsignalering og tumormikromiljøet ved lymfoide maligniteter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Duvelisib (uoffisiell oversettelse): «Duvelisib er en PI3K-hemmer med hemmende aktivitet hovedsakelig mot isoformene PI3K-δ og PI3K-γ, som uttrykkes i normale og maligne B-celler. Duvelisib induserte veksthemming og reduserte viabiliteten i cellelinjer avledet fra maligne B-celler og i primære KLL-tumorceller.» Engelsk originaltekst: "Duvelisib is an inhibitor of PI3K with inhibitory activity predominantly against PI3K-δ and PI3K-γ isoforms expressed in normal and malignant B-cells. Duvelisib induced growth inhibition and reduced viability in cell lines derived from malignant B-cells and in primary CLL tumor cells." ([DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780), versjon av 2025-12-18; hentet 2026-11-19). Basert på kjent informasjon hemmer duvelisib PI3K-delta og PI3K-gamma, som understøtter B-cellereseptorsignalering og tumormikromiljøet ved lymfoide maligniteter.
 
 Siden Hodgkins lymfom også er en lymfoid malignitet, er det mekanistisk tenkelig at PI3K-hemming kan ha en effekt. Studiene i dataene gjelder likevel indolent non-Hodgkin-lymfom, T-cellelymfom og KLL, ikke klassisk Hodgkins lymfom. Den svært høye modellscoren er dermed ikke bekreftet av noen direkte studie, og evidensen er indirekte. Ingen av de siterte studiene undersøker Hodgkins lymfom, og evidensnivået settes derfor til L5.
 
@@ -114,6 +114,19 @@ Ingen studie undersøker Hodgkins lymfom direkte. Støtten er begrenset til en h
 - Data om virkningsmekanisme (MOA)
 - Gjennomgang av pakningsvedlegg med advarsler og kontraindikasjoner
 - Vurdering av sikkerhetsprofil (inkl. immunrelaterte og infeksjonsrelaterte bivirkninger) og av interaksjoner med CYP3A-hemmere
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

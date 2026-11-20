@@ -59,7 +59,7 @@ Rasburikase er et rekombinant urat-oksidaseenzym som opprinnelig ble brukt mot *
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er rasburikase et urat-oksidaseenzym som omdanner urinsyre til allantoin og dermed senker serumnivået av urinsyre. Effekten ved hyperurikemi, særlig i forbindelse med tumorlysesyndrom, er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rasburicase (uoffisiell oversettelse): «Hos mennesker er urinsyre det siste trinnet i den katabolske nedbrytningsveien for puriner. Rasburikase katalyserer enzymatisk oksidasjon av tungt løselig urinsyre til en inaktiv og mer løselig metabolitt (allantoin).» Engelsk originaltekst: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), versjon av 2026-07-30; hentet 2026-11-19). Basert på kjent informasjon er rasburikase et urat-oksidaseenzym som omdanner urinsyre til allantoin og dermed senker serumnivået av urinsyre. Effekten ved hyperurikemi, særlig i forbindelse med tumorlysesyndrom, er godt etablert.
 
 Renal hypourikemi er imidlertid allerede en tilstand med lav serumurinsyre, forårsaket av defekt renal reabsorpsjon av urat (for eksempel varianter i SLC22A12/URAT1 eller SLC2A9). Ytterligere nedbryting av urinsyre gir ingen terapeutisk begrunnelse og kan være skadelig. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og ikke en reell behandlingseffekt.
 
@@ -123,11 +123,12 @@ Prediksjonen om renal hypourikemi mangler både klinisk evidens og mekanistisk s
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Produktet er dessuten avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
 
 <!-- review:end log -->
 

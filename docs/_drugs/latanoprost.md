@@ -54,7 +54,7 @@ Latanoprost er en prostaglandin-analog til øyedråper. Modellen TxGNN predikere
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) for latanoprost er ikke tilgjengelig i de samlede dataene. Latanoprost tilhører klassen prostaglandin F2α-analoger og brukes lokalt i øyet.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Latanoprost (uoffisiell oversettelse): «Latanoprost er en prostaglandin F 2α-analog som antas å redusere det intraokulære trykket (IOP) ved å øke utstrømningen av kammervann. Studier på dyr og mennesker tyder på at den viktigste virkningsmekanismen er økt uveoskleral utstrømning.» Engelsk originaltekst: "Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow." ([DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded), versjon av 2025-12-18; hentet 2026-11-19). Latanoprost tilhører klassen prostaglandin F2α-analoger og brukes lokalt i øyet.
 
 Kalsifylaksi innebærer karforkalkning og mikrovaskulær trombose. Prostaglandin-analoger har vasodilaterende effekter, men latanoprost gis som øyedråper og gir minimal systemisk eksponering. Det er derfor ikke identifisert noen klar mekanistisk sammenheng mellom legemidlet og sykdommen. Likheten med den opprinnelige indikasjonen er ikke vurdert (venter). Prediksjonen er ikke støttet av kliniske data og bør betraktes som en modellgenerert hypotese.
 
@@ -93,6 +93,19 @@ Prediksjonen har svært høy modellscore, men ingen kliniske studier, ingen litt
 - Preparatomtale med advarsler og kontraindikasjoner
 - Prekliniske eller kliniske data som direkte undersøker visceral kalsifylaksi
 - Vurdering av administrasjonsvei og systemisk eksponering som kreves for den nye indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -59,7 +59,7 @@ Epinefrin er en adrenerg agonist som opprinnelig brukes til behandling av anafyl
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innhentede dataene. Epinefrin er imidlertid en kjent ikke-selektiv adrenerg agonist. Stimulering av beta-2-reseptorer gir avslapning av bronkial glatt muskulatur og dermed bronkodilatasjon, mens alfa-1-stimulering reduserer slimhinneødem.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Epinephrine (uoffisiell oversettelse): «Adrenalin virker på både alfa- og beta-adrenerge reseptorer. Gjennom sin virkning på alfa-adrenerge reseptorer reduserer adrenalin vasodilatasjonen og den økte karpermeabiliteten som oppstår under anafylaksi, og som kan føre til tap av intravaskulært væskevolum og hypotensjon.» Engelsk originaltekst: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), versjon av 2026-09-18; hentet 2026-11-19). Epinefrin er imidlertid en kjent ikke-selektiv adrenerg agonist. Stimulering av beta-2-reseptorer gir avslapning av bronkial glatt muskulatur og dermed bronkodilatasjon, mens alfa-1-stimulering reduserer slimhinneødem.
 
 Den opprinnelige indikasjonen, anafylaksi, innebærer ofte bronkospasme og luftveisødem. De samme reseptoreffektene som reverserer disse symptomene ved anafylaksi, er direkte relevante ved reversibel luftveisobstruksjon som astma. Inhalert epinefrin (E004, Primatene Mist) er utviklet spesifikt for astma.
 
@@ -163,11 +163,12 @@ Kardiovaskulær sikkerhet (takykardi, hypertensjon, arytmi) må overvåkes, sær
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden eneste tillatelse er annullert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

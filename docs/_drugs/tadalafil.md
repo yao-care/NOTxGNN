@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hyp
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Tadalafil er imidlertid kjent som en PDE5-hemmer som øker cGMP og gir vasodilatasjon. Dette er grunnlaget for effekten ved erektil dysfunksjon og pulmonal arteriell hypertensjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tadalafil (uoffisiell oversettelse): «Penil ereksjon under seksuell stimulering forårsakes av økt blodstrøm i penis som følge av relaksasjon av penisarteriene og den glatte muskulaturen i corpus cavernosum. Denne responsen medieres av frigjøring av nitrogenoksid (NO) fra nerveender og endotelceller, som stimulerer syntesen av cGMP i glatte muskelceller. […] Tadalafil hemmer PDE5.» Engelsk originaltekst: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), versjon av 2026-06-03; hentet 2026-11-19). Tadalafil er imidlertid kjent som en PDE5-hemmer som øker cGMP og gir vasodilatasjon. Dette er grunnlaget for effekten ved erektil dysfunksjon og pulmonal arteriell hypertensjon.
 
 Ambras syndrom er en sjelden genetisk lidelse med økt hårvekst, knyttet til kromosomale omleiringer som påvirker reguleringen av TRPS1. Det er ikke påvist noen mekanistisk sammenheng med PDE5-hemming. En kobling via hårsekkenes blodforsyning eller cGMP-signalering er spekulativ.
 
@@ -157,12 +157,13 @@ Prediksjonen for Ambras-type hypertrichosis bygger kun på modellscore (L5), ute
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Totalt finnes 6 godkjenninger, og alle er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Alle norske godkjenninger er dessuten opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->
 

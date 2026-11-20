@@ -54,7 +54,7 @@ Eribulin er en mikrotubulihemmer (cytostatikum) som er brukt i kreftbehandling. 
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Eribulin er kjent som en hemmer av mikrotubulidynamikk. Colchicin, som også virker på mikrotubuli, er standardbehandling ved familiær Middelhavsfeber, og dette kan forklare hvorfor modellen knytter de to sammen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Eribulin (uoffisiell oversettelse): «Eribulin hemmer vekstfasen til mikrotubuli uten å påvirke forkortingsfasen, og sekvestrerer tubulin i ikke-produktive aggregater. Eribulin utøver sine effekter via en tubulinbasert antimitotisk mekanisme som fører til G 2 /M-cellesyklusblokk, forstyrrelse av mitotiske spindler og til slutt apoptotisk celledød etter langvarig mitotisk blokkering.» Engelsk originaltekst: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), versjon av 2025-11-07; hentet 2026-11-19). Eribulin er kjent som en hemmer av mikrotubulidynamikk. Colchicin, som også virker på mikrotubuli, er standardbehandling ved familiær Middelhavsfeber, og dette kan forklare hvorfor modellen knytter de to sammen.
 
 Likevel er det ingen åpenbar mekanistisk begrunnelse for at eribulin egner seg her. Eribulins cytotoksiske profil gjør det uegnet for en kronisk autoinflammatorisk sykdom som krever langtidsbehandling. Den høye scoren er en beregningsbasert prediksjon uten støtte fra studier.
 
@@ -103,6 +103,19 @@ Prediksjonen har svært høy modellscore, men ingen kliniske studier eller litte
 - Prekliniske data eller en tidlig klinisk studie som direkte adresserer sykdommen
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av nytte–risiko sammenlignet med etablert behandling (colchicin)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

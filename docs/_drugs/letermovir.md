@@ -58,7 +58,7 @@ Letermovir er et antiviralt middel som opprinnelig brukes mot **cytomegalovirusi
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent kunnskap hemmer letermovir det virale terminasekomplekset (pUL56/UL89/UL51) hos CMV. Dette er en mekanisme som er spesifikk for viruset.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Letermovir (uoffisiell oversettelse): «PREVYMIS er et antiviralt legemiddel mot CMV. […] Letermovir hemmer CMV-DNA-terminasekomplekset (pUL51, pUL56 og pUL89), som er nødvendig for prosessering og pakking av viralt DNA. Biokjemisk karakterisering og elektronmikroskopi viste at letermovir påvirker produksjonen av genomer med korrekt enhetslengde og forstyrrer virionmodningen.» Engelsk originaltekst: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), versjon av 2026-01-14; hentet 2026-11-19). Basert på kjent kunnskap hemmer letermovir det virale terminasekomplekset (pUL56/UL89/UL51) hos CMV. Dette er en mekanisme som er spesifikk for viruset.
 
 Det er ingen kjent fungal homolog til dette målet. Aktivitet mot *Candida*-arter er derfor ikke biologisk sannsynlig ut fra dagens kunnskap. Det foreligger heller ingen in vitro-, in vivo- eller kliniske data om antifungal effekt.
 
@@ -131,11 +131,12 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, li
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste godkjenningen i Norge opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
 
 <!-- review:end log -->
 

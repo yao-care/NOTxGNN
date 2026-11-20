@@ -58,7 +58,7 @@ Verteporfin er et lysaktivert legemiddel (fotosensibilisator) som opprinnelig br
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige for denne rapporten. Verteporfin er kjent som en fotosensibilisator som brukes sammen med lysaktivering (fotodynamisk terapi) ved neovaskulær makuladegenerasjon og beslektede øyetilstander.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Verteporfin (uoffisiell oversettelse): «DNA-hemmer» Engelsk originaltekst: "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; hentet 2026-11-19). Verteporfin er kjent som en fotosensibilisator som brukes sammen med lysaktivering (fotodynamisk terapi) ved neovaskulær makuladegenerasjon og beslektede øyetilstander.
 
 I prekliniske arbeider hemmer verteporfin også samspillet mellom YAP og TEAD, og det kan danne reaktive oksygenforbindelser (ROS) og påvirke autofagi. Disse egenskapene kan i teorien berøre mitokondriebiologi.
 
@@ -130,12 +130,13 @@ Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Fjernet: «Den eneste norske godkjenningen er dessuten opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
 
 <!-- review:end log -->
 

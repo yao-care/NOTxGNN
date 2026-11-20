@@ -61,7 +61,7 @@ Dette er i realiteten en undergruppe av den opprinnelige indikasjonen, ikke en r
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon er pertuzumab en HER2-dimeriseringshemmer. Den binder HER2 (ERBB2) og hindrer dimerisering med andre HER-reseptorer. Effekten i HER2-positiv brystkreft er dokumentert, ofte i kombinasjon med trastuzumab og docetaksel.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pertuzumab (uoffisiell oversettelse): «Pertuzumab retter seg mot det ekstracellulære dimeriseringsdomenet (subdomene II) av humant epidermal vekstfaktorreseptor 2-protein (HER2) og blokkerer dermed ligandavhengig heterodimerisering av HER2 med andre medlemmer av HER-familien, inkludert EGFR, HER3 og HER4. Som et resultat hemmer pertuzumab ligandinitiert intracellulær signalering via to hovedsignalveier, mitogenaktivert protein (MAP)-kinase og fosfoinositid-3-kinase (PI3K).» Engelsk originaltekst: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), versjon av 2026-04-30; hentet 2026-11-19). Ut fra kjent informasjon er pertuzumab en HER2-dimeriseringshemmer. Den binder HER2 (ERBB2) og hindrer dimerisering med andre HER-reseptorer. Effekten i HER2-positiv brystkreft er dokumentert, ofte i kombinasjon med trastuzumab og docetaksel.
 
 Brystkreft med positiv progesteronreseptor (PR+) er en undergruppe av brystkreft. Rundt halvparten av HER2-positive svulster har samtidig uttrykk for østrogen- og/eller progesteronreseptor (HR+/HER2+). Pertuzumabs HER2-blokade er derfor mekanistisk relevant også her. Prediksjonen bør dermed forstås som en presisering av subtype, ikke som reell repurposing.
 
@@ -169,12 +169,13 @@ Pertuzumab har etablert effekt ved HER2-positiv brystkreft, og PR+-sykdom er en 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Begge godkjenningene er registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden begge godkjenningene står som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->
 

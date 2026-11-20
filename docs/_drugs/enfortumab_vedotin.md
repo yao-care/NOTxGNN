@@ -60,7 +60,7 @@ Prediksjonen er derfor kun modellbasert og har ingen støtte i faktiske studier.
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er enfortumab vedotin et Nectin-4-rettet ADC med MMAE som cytotoksisk nyttelast, godkjent for urotelialt karsinom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Enfortumab Vedotin (uoffisiell oversettelse): «Enfortumab vedotin-ejfv er et ADC. Antistoffet er et humant IgG1 kappa rettet mot Nectin-4, et adhesjonsprotein som finnes på celleoverflaten. Småmolekylet, MMAE, er et mikrotubuliforstyrrende middel som er bundet til antistoffet via en proteasespaltbar linker.» Engelsk originaltekst: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), versjon av 2026-08-04; hentet 2026-11-19). Basert på kjent informasjon er enfortumab vedotin et Nectin-4-rettet ADC med MMAE som cytotoksisk nyttelast, godkjent for urotelialt karsinom.
 
 Det er ikke etablert noen mekanistisk kobling mellom dette legemidlet og lepra, som er en mykobakteriell infeksjon. Et cytotoksisk ADC har ingen plausibel rolle i behandling av en slik infeksjon. Den høye TxGNN-scoren er en ren grafbasert prediksjon uten støtte fra studier eller litteratur. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -141,6 +141,19 @@ Prediksjonen for lepra er kun modellbasert (L5), uten kliniske studier eller lit
 - Advarsler og kontraindikasjoner fra pakningsvedlegget (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske data som viser et biologisk grunnlag, f.eks. Nectin-4-uttrykk ved den predikerte sykdommen
 - Avklaring av kanselleringen av den norske godkjenningen og dagens markedstilgjengelighet
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

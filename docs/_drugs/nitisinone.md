@@ -60,7 +60,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet inn for denne rapporten. Basert på kjent informasjon hemmer nitisinon HPPD i nedbrytningen av tyrosin. Ved arvelig tyrosinemi type 1 oppstår nyretubulær dysfunksjon som følge av opphopning av giftig succinylaceton, noe nitisinon forhindrer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nitisinone (uoffisiell oversettelse): «Nitisinon er en kompetitiv hemmer av 4-hydroksyfenylpyruvatdioksygenase, et enzym som ligger oppstrøms for fumarylacetoacetathydrolase (FAH) i tyrosinets katabolske reaksjonsvei. Ved å hemme den normale katabolismen av tyrosin hos pasienter med HT-1 forhindrer nitisinon akkumulering av de katabolske intermediatene maleylacetoacetat og fumarylacetoacetat.» Engelsk originaltekst: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), versjon av 2026-10-21; hentet 2026-11-19). Basert på kjent informasjon hemmer nitisinon HPPD i nedbrytningen av tyrosin. Ved arvelig tyrosinemi type 1 oppstår nyretubulær dysfunksjon som følge av opphopning av giftig succinylaceton, noe nitisinon forhindrer.
 
 Dette er imidlertid en sekundær effekt innenfor den opprinnelige indikasjonen, og ikke uavhengig evidens for primær renal tubulær acidose. Den høye TxGNN-scoren er en ren modellprediksjon, og det foreligger ingen støttende litteratur eller studier.
 
@@ -118,6 +118,19 @@ Prediksjonen for renal tubulær acidose er kun modellbasert (L5), uten kliniske 
 - Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig for sikkerhetsscreening
 - Prekliniske eller mekanistiske studier som kobler HPPD-hemming til renal tubulær acidose
 - Avklaring av markedsstatus og tilgjengelighet i Norge gitt at godkjenningene er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

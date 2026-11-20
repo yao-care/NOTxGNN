@@ -58,7 +58,7 @@ Kolsyre (cholic acid) er en gallesyre som brukes til å behandle sjeldne forstyr
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er for tiden ikke tilgjengelig i selve legemiddeldatabasen. Farmakologidata viser likevel at kolsyre er en naturlig gallesyre og binder seg til reseptorene **GPBA (TGR5)** og **farnesoid X-reseptoren (FXR)**. Disse styrer gallesyre-, lipid- og energiomsetning. Ved syntesedefekter erstatter kolsyre den manglende gallesyren og reduserer toksiske mellomprodukter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cholic Acid (uoffisiell oversettelse): «Kolsyre er en primær gallesyre som syntetiseres fra kolesterol i leveren. Ved gallesyresyntesesykdommer som skyldes SED-er i biosynteseveien, og ved PD-er inkludert Zellweger-spektrumforstyrrelser, fører mangel på primære gallesyrer til uregulert akkumulering av intermediære gallesyrer og kolestase.» Engelsk originaltekst: "Cholic acid is a primary bile acid synthesized from cholesterol in the liver. In bile acid synthesis disorders due to SEDs in the biosynthetic pathway, and in PDs including Zellweger spectrum disorders, deficiency of primary bile acids leads to unregulated accumulation of intermediate bile acids and cholestasis." ([DailyMed: Cholbam (cholic acid) prescribing information, Mirum Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5c6e4c9d-b85e-493f-9420-ab2fd0ff3723), versjon av 2026-01-26; hentet 2026-11-19). Farmakologidata viser likevel at kolsyre er en naturlig gallesyre og binder seg til reseptorene **GPBA (TGR5)** og **farnesoid X-reseptoren (FXR)**. Disse styrer gallesyre-, lipid- og energiomsetning. Ved syntesedefekter erstatter kolsyre den manglende gallesyren og reduserer toksiske mellomprodukter.
 
 Koblingen til HIV er svak. Gallesyrer er ikke kjent som antivirale midler i klinisk praksis. Det finnes to indirekte laboratoriefunn:
 
@@ -133,11 +133,12 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Orphacol er i tillegg avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cholbam (cholic acid) prescribing information, Mirum Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5c6e4c9d-b85e-493f-9420-ab2fd0ff3723) |
 
 <!-- review:end log -->
 

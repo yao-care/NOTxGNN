@@ -54,7 +54,7 @@ Insulin degludec er en langtidsvirkende insulinanalog som brukes til behandling 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Insulin degludec er en insulinanalog som virker via insulinreseptoren, og det er ingen kjent mekanistisk kobling mellom dette og autoimmun ooforitt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Insulin Degludec (uoffisiell oversettelse): «Den primære aktiviteten til insulin, inkludert TRESIBA, er regulering av glukosemetabolismen. Insulin og dets analoger senker blodglukose ved å stimulere perifert glukoseopptak, særlig i skjelettmuskulatur og fettvev, og ved å hemme glukoseproduksjonen i leveren.» Engelsk originaltekst: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), versjon av 2024-02-22; hentet 2026-11-19). Insulin degludec er en insulinanalog som virker via insulinreseptoren, og det er ingen kjent mekanistisk kobling mellom dette og autoimmun ooforitt.
 
 Den høye scoren (0,9923) kan trolig skyldes nettverksassosiasjoner med autoimmun endokrin sykdom, for eksempel polyglandulær autoimmunitet som opptrer sammen med type 1-diabetes. Uten støtte fra studier bør prediksjonen regnes som et modellartefakt inntil det motsatte er vist. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -99,6 +99,19 @@ Prediksjonen bygger kun på en høy modellscore uten kliniske studier, publikasj
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Prekliniske eller mekanistiske studier som direkte belyser autoimmun ooforitt
 - Vurdering av likhet med den opprinnelige indikasjonen og av administrasjonsvei
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

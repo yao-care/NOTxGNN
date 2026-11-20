@@ -54,7 +54,7 @@ Desloratadin er et antihistamin som blokkerer H1-reseptorer. TxGNN-modellen pred
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Desloratadin er kjent som en selektiv H1-histaminreseptorantagonist. Histamin er en sentral mediator ved allergiske reaksjoner i nesen, og mekanistisk kan H1-blokkade derfor være relevant for sykdommer i nesehulen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Desloratadine (uoffisiell oversettelse): «Desloratadin er en langtidsvirkende trisyklisk histaminantagonist med selektiv histamin H1-reseptorantagonistisk aktivitet. Data for reseptorbinding indikerer at desloratadin ved en konsentrasjon på 2-3 ng/ml (7 nanomolar) viser signifikant interaksjon med den humane histamin H1-reseptoren.» Engelsk originaltekst: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), versjon av 2025-10-23; hentet 2026-11-19). Desloratadin er kjent som en selektiv H1-histaminreseptorantagonist. Histamin er en sentral mediator ved allergiske reaksjoner i nesen, og mekanistisk kan H1-blokkade derfor være relevant for sykdommer i nesehulen.
 
 «Nesehulesykdom» er en bred og uspesifikk kategori. Den høye scoren gjenspeiler trolig i stor grad overlapp med allerede kjent bruk ved allergisk rhinitt, og ikke nødvendigvis en ny anvendelse. Prediksjonen bør derfor tolkes med forsiktighet.
 
@@ -100,6 +100,19 @@ Prediksjonen er bred og uspesifikk og overlapper trolig med kjent bruk ved aller
 - Data om virkningsmekanisme (MOA)
 - Gjennomgang av pakningsvedlegg for advarsler og kontraindikasjoner
 - Klassifisering av alvorlighetsgrad for de rapporterte legemiddelinteraksjonene
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

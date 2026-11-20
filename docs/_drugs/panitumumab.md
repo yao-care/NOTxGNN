@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at det kan være effektivt mot **legemiddelindusert ost
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er panitumumab et anti-EGFR-antistoff, og effekten ved kolorektal kreft er dokumentert. Mekanistisk er koblingen til legemiddelindusert osteoporose usikker.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Panitumumab (uoffisiell oversettelse): «EGFR er et transmembrant glykoprotein som tilhører en underfamilie av type I-reseptortyrosinkinaser, inkludert EGFR, HER2, HER3 og HER4. EGFR uttrykkes konstitutivt i normalt epitelvev, inkludert huden og hårfolliklene. […] Panitumumab bindes spesifikt til EGFR på både normale celler og tumorceller, og hemmer kompetitivt bindingen av ligander for EGFR.» Engelsk originaltekst: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), versjon av 2026-06-23; hentet 2026-11-19). Basert på kjent informasjon er panitumumab et anti-EGFR-antistoff, og effekten ved kolorektal kreft er dokumentert. Mekanistisk er koblingen til legemiddelindusert osteoporose usikker.
 
 EGFR-signalering kan ha en rolle i osteoblastdifferensiering og benombygging, men effektretningen er uklar. EGFR-hemming kan tvert imot svekke beindannelse i stedet for å beskytte mot tap av benmasse. Anti-EGFR-behandling er også forbundet med hypomagnesemi og hypokalsemi, som kan påvirke benhelsen negativt. Den mekanistiske koblingen er derfor spekulativ og muligens motstridende.
 
@@ -157,7 +157,7 @@ Begge prediksjonene bygger kun på modellberegning (L5) uten kliniske studier el
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
@@ -165,6 +165,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | 2026-11-06 | Fjernet: «Produktet har dessuten kun en trukket tilbake tillatelse, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
 
 <!-- review:end log -->
 

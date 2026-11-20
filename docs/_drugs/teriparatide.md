@@ -60,7 +60,7 @@ Her finnes **ingen registrerte kliniske studier**, men **20 publikasjoner** (hov
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er teriparatid et anabolt PTH(1-34)-analog som virker på PTH1-reseptoren (PTH1R) og stimulerer osteoblastmediert beinnydannelse. Effekten ved osteoporose er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Teriparatide (uoffisiell oversettelse): «Endogent parathyreoideahormon (PTH), som består av 84 aminosyrer, er den primære regulatoren av kalsium- og fosfatmetabolismen i ben og nyrer. De fysiologiske virkningene av PTH omfatter regulering av benmetabolismen, renal tubulær reabsorpsjon av kalsium og fosfat samt intestinal kalsiumabsorpsjon. […] De biologiske virkningene av PTH og teriparatid medieres via binding til spesifikke celleoverflatereseptorer med høy affinitet.» Engelsk originaltekst: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), versjon av 2026-08-31; hentet 2026-11-19). Basert på kjent informasjon er teriparatid et anabolt PTH(1-34)-analog som virker på PTH1-reseptoren (PTH1R) og stimulerer osteoblastmediert beinnydannelse. Effekten ved osteoporose er godt dokumentert.
 
 Graviditets- og laktasjonsassosiert osteoporose (PLO) er en sjelden tilstand med alvorlig beinskjørhet og ofte multiple ryggvirvelbrudd. Siden tilstanden er en form for osteoporose med samme underliggende problem (lav beinmasse og høy bruddrisiko), er det mekanistisk rimelig at et anabolt middel kan bedre beintettheten. Teriparatid er i litteraturen den mest brukte medikamentelle behandlingen ved PLO. Dette ligger tett opptil den opprinnelige indikasjonen, men kontrollerte PLO-spesifikke studier mangler.
 
@@ -146,11 +146,12 @@ Evidensen for graviditetsassosiert osteoporose er på nivå L3 (observasjons- og
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

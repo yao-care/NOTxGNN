@@ -54,7 +54,7 @@ Nevirapin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) mot HIV-1. TxG
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Nevirapin er kjent som en NNRTI som binder seg til en allosterisk lomme i HIV-1 revers transkriptase og hemmer enzymet.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nevirapine (uoffisiell oversettelse): «Nevirapin er et antiretroviralt legemiddel. […] Nevirapin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) av HIV-1. Nevirapin bindes direkte til revers transkriptase (RT) og blokkerer den RNA-avhengige og DNA-avhengige DNA-polymeraseaktiviteten ved å forstyrre enzymets katalytiske sete.» Engelsk originaltekst: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), versjon av 2026-10-08; hentet 2026-11-19). Nevirapin er kjent som en NNRTI som binder seg til en allosterisk lomme i HIV-1 revers transkriptase og hemmer enzymet.
 
 Felint immunsviktvirus (FIV) er et lentivirus som, i likhet med HIV, har en revers transkriptase. Det gir et mekanistisk grunnlag for prediksjonen. NNRTI-er har imidlertid ofte svak aktivitet mot FIV fordi bindingslommen er strukturelt forskjellig fra HIV-1. Den eneste publikasjonen (2023) sammenligner NNRTI-er mot felint og humant immunsviktvirus på biokjemisk og strukturelt nivå. Utdraget i de innsamlede dataene viser ikke hva resultatet ble, så retningen på funnet kan ikke bekreftes.
 
@@ -101,6 +101,19 @@ Prediksjonen bygger på én in vitro-studie uten kliniske data, og NNRTI-er er g
 - Data om virkningsmekanisme fra DrugBank
 - Dyrestudier (veterinære) som viser effekt mot FIV hos katt
 - Gjennomgang av pakningsvedleggets advarsler og kontraindikasjoner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

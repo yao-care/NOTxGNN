@@ -54,7 +54,7 @@ Entekavir er en guanosin-nukleosidanalog som hemmer DNA-polymerasen til hepatitt
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent farmakologi hemmer entekavir hepatitt B-virusets polymerase (priming, revers transkripsjon og DNA-syntese).
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Entecavir (uoffisiell oversettelse): «Entekavir er et antiviralt legemiddel mot hepatitt B-virus. […] Entekavir, en deoksyguanosin-nukleosidanalog med aktivitet mot HBV revers transkriptase (rt), fosforyleres effektivt til den aktive trifosfatformen, som har en intracellulær halveringstid på 15 timer. Ved å konkurrere med det naturlige substratet deoksyguanosintrifosfat hemmer entekavirtrifosfat funksjonelt alle tre aktivitetene til HBV revers transkriptase: basepriming, revers transkripsjon av den negative tråden fra pregenomisk budbringer-RNA og syntese av den positive tråden av HBV-DNA.» Engelsk originaltekst: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), versjon av 2019-11-06; hentet 2026-11-19). Ut fra kjent farmakologi hemmer entekavir hepatitt B-virusets polymerase (priming, revers transkripsjon og DNA-syntese).
 
 Hepatitt C-viruset er et RNA-virus som replikerer via NS5B RNA-avhengig RNA-polymerase. Det finnes dermed ingen sannsynlig direkte antiviral mekanisme for entekavir mot hepatitt C. Den høye prediksjonsscoren gjenspeiler trolig at hepatittvirusene ligger nær hverandre i modellens nettverk, ikke reell aktivitet mot hepatitt C.
 
@@ -118,6 +118,18 @@ Det er ikke funnet data fra pakningsvedlegg om advarsler eller kontraindikasjone
 - Avklaring av virkningsmekanisme.
 - Hvis målet er samtidig infeksjon, må det formuleres som kontroll av hepatitt B ved siden av DAA-behandling, ikke som behandling av hepatitt C.
 - Sikkerhetsdata fra preparatomtalen, inkludert vurdering av interaksjoner.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -61,7 +61,7 @@ Foreløpig støttes retningen av **45 kliniske studier** og **20 publikasjoner**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent kunnskap stabiliserer paklitaksel mikrotubuli, noe som gir mitotisk arrest og apoptose i raskt delende kreftceller. Mekanismen er uavhengig av hormonreseptorstatus.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Paclitaxel (uoffisiell oversettelse): «Paklitaksel proteinbundne partikler til injeksjonsvæske, suspensjon (albuminbundet) er en mikrotubulihemmer som fremmer sammensetningen av mikrotubuli fra tubulindimerer og stabiliserer mikrotubuli ved å forhindre depolymerisering. Denne stabiliteten fører til hemming av den normale dynamiske omorganiseringen av mikrotubulinettverket som er essensiell for vitale cellefunksjoner i interfase og mitose.» Engelsk originaltekst: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), versjon av 2025-09-17; hentet 2026-11-19). Ut fra kjent kunnskap stabiliserer paklitaksel mikrotubuli, noe som gir mitotisk arrest og apoptose i raskt delende kreftceller. Mekanismen er uavhengig av hormonreseptorstatus.
 
 Brystkreft er allerede en godkjent indikasjon, så dette er bruk innenfor godkjenningen og ikke sann ompropulsering. Prediksjonen bekrefter i hovedsak en kjent bruk. Studielisten som er levert, inneholder hovedsakelig fase 1/2-studier, så evidensnivået L2 gjenspeiler de foreliggende dataene, ikke hele den fase 3-evidensen som finnes for paklitaksel ved brystkreft.
 
@@ -108,7 +108,6 @@ Flere av publikasjonene er eldre oversikter eller prekliniske studier. Det er in
 ---
 
 ## Markedsinformasjon for Norge
-
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -158,6 +157,19 @@ Brystkreft er en etablert, godkjent indikasjon for paklitaksel, og flere fase 2-
 - Evaluere fase 3-evidens der paklitaksel er den testede komponenten, ikke bare en del av regimet
 
 **Merknad om øvrige predikerte indikasjoner:** ER-negativ og ER-positiv brystkreft støttes av fase 2/3-kombinasjonsstudier (anbefaling: fortsett med sikkerhetstiltak). Hormonresistent brystkarsinom og genekspresjonsdefinert brystkarsinom er kun forskningsspørsmål. Ehrlich-tumor, bilateralt brystkarsinom, brystvortekarsinom og de to rabdomyosarkom-indikasjonene anbefales satt på vent (Hold), siden evidensen er prekliniske data, kasuistikker eller kun modellprediksjon.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

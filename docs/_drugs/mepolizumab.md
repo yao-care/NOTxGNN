@@ -61,7 +61,7 @@ men foreløpig støttes dette kun av **én kasuistikk** og **ingen kliniske stud
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Mepolizumab er imidlertid kjent som et anti-IL-5-antistoff som reduserer eosinofile granulocytter, og effekten er dokumentert ved astma.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mepolizumab (uoffisiell oversettelse): «Mepolizumab er en IL-5-antagonist (IgG1 kappa). IL-5 er det viktigste cytokinet som er ansvarlig for vekst og differensiering, rekruttering, aktivering og overlevelse av eosinofiler. Mepolizumab bindes til IL-5 med en dissosiasjonskonstant på 100 pM, og hemmer bioaktiviteten til IL-5 ved å blokkere bindingen til alfakjeden i IL-5-reseptorkomplekset som uttrykkes på eosinofilenes celleoverflate.» Engelsk originaltekst: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), versjon av 2025-08-06; hentet 2026-11-19). Mepolizumab er imidlertid kjent som et anti-IL-5-antistoff som reduserer eosinofile granulocytter, og effekten er dokumentert ved astma.
 
 Den eneste støtten for den nye indikasjonen er en kasuistikk (PMID 28648630) om et steroidresistent hypereosinofilt immunsyndrom som gikk i regress med mepolizumab, samtidig med bedring av en blandet trombotisk mikroangiopati. Immunmedierte cytopenier kan ha vært en del av det kliniske bildet, men det er ikke vist at effekten skyldes en direkte virkning på patofysiologien ved immun trombocytopeni (autoantistoffmediert plateødeleggelse). Koblingen er derfor indirekte og forstyrret av samtidig behandling.
 
@@ -123,6 +123,19 @@ Evidensen for den nye indikasjonen er svak: én kasuistikk med forstyrrende samt
 - Prekliniske eller mekanistiske studier som viser en sammenheng mellom IL-5-blokade og immun trombocytopeni
 - Kliniske studier eller systematiske litteraturgjennomganger spesifikt for immun trombocytopeni
 - Avklaring av markedsstatus i Norge og eventuell reregistrering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

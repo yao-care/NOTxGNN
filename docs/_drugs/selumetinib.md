@@ -59,7 +59,7 @@ Selumetinib (handelsnavn Koselugo) er en MEK-hemmer som opprinnelig brukes mot *
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Selumetinib hemmer MEK1 (MAP2K1), et sentralt ledd i RAS/RAF/MEK/ERK-signalveien. Ved NF1 er denne signalveien overaktivert. Legemidlet er godkjent for barn fra 1 år med symptomatiske, inoperable plexiforme nevrofibromer, og i USA ble indikasjonen utvidet til voksne i november 2025. Detaljerte opplysninger om virkningsmekanisme utover målmolekylet er ikke tilgjengelige i de innhentede dataene.
+Selumetinib hemmer MEK1 (MAP2K1), et sentralt ledd i RAS/RAF/MEK/ERK-signalveien. Ved NF1 er denne signalveien overaktivert. Legemidlet er godkjent for barn fra 1 år med symptomatiske, inoperable plexiforme nevrofibromer, og i USA ble indikasjonen utvidet til voksne i november 2025. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Selumetinib (uoffisiell oversettelse): «Selumetinib er en hemmer av mitogenaktivert proteinkinasekinase 1 og 2 (MEK1/2). MEK1/2-proteiner er oppstrøms regulatorer av signalveien for ekstracellulær signalrelatert kinase (ERK). Både MEK og ERK er kritiske komponenter i den RAS-regulerte RAF-MEK-ERK-signalveien, som ofte er aktivert ved ulike typer kreft.» Engelsk originaltekst: "Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers." ([DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff), versjon av 2026-05-26; hentet 2026-11-19).
 
 Lentiginose-syndromer kan innebære dysregulering av RAS/MAPK-signalveien, som ved RASopatier. Det gir et mulig, men uverifisert, grunnlag for MEK-hemming. Modellen ekstrapolerer sannsynligvis fra overlappende hudfunn (pigmentforandringer) mellom NF1 og lentiginose. Den høye scoren er ikke i seg selv klinisk evidens.
 
@@ -106,6 +106,19 @@ Prediksjonen bygger kun på modellen (evidensnivå L5). Det finnes verken klinis
 
 **Merknad om andre kandidater:**
 Blant de andre predikerte indikasjonene har **perifer nerveskjeden-schwannom** (NF2-relatert) klart sterkere støtte (evidensnivå L3). Der finnes en avsluttet fase 2-studie av selumetinib ([NCT03095248](https://clinicaltrials.gov/study/NCT03095248), 10 pasienter, tidlig avsluttet), to fase 2-studier som ennå ikke har startet rekruttering ([NCT07707947](https://clinicaltrials.gov/study/NCT07707947) og [NCT07713745](https://clinicaltrials.gov/study/NCT07713745)), samt en kasuistikk med delvis respons ([PMID 38058737](https://pubmed.ncbi.nlm.nih.gov/38058737/)). Denne kandidaten bør prioriteres foran lentiginose i det videre arbeidet, men årsaken til at NCT03095248 ble avsluttet bør først avklares.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

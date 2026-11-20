@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypotrichosis 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er spironolakton en mineralokortikoidreseptorantagonist med betydelig antiandrogen aktivitet, det vil si blokkering av androgenreseptoren og redusert androgensyntese.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Spironolactone (uoffisiell oversettelse): «Spironolakton og dets aktive metabolitter er spesifikke farmakologiske antagonister av aldosteron, og virker hovedsakelig gjennom kompetitiv binding av reseptorer på det aldosteronavhengige natrium-kalium-utvekslingsstedet i den distale kronglete nyretubulus. Spironolakton fører til at økte mengder natrium og vann skilles ut, mens kalium holdes tilbake.» Engelsk originaltekst: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), versjon av 2025-11-28; hentet 2026-11-19). Ut fra kjent informasjon er spironolakton en mineralokortikoidreseptorantagonist med betydelig antiandrogen aktivitet, det vil si blokkering av androgenreseptoren og redusert androgensyntese.
 
 Denne antiandrogene effekten er plausibel ved hårtap der androgensignalering bidrar til miniaturisering av hårsekkene, og spironolakton brukes utenfor godkjent indikasjon (off-label) ved kvinnelig hårtap av mønstertype. Hypotrichosis simplex i hodebunnen er imidlertid en sjelden arvelig hårtapslidelse, som vanligvis skyldes varianter i gener som CDSN, APCDD1 eller RPL21, og den er ikke primært androgendrevet.
 
@@ -112,6 +112,19 @@ Prediksjonen støttes kun av en modellscore (evidensnivå L5), uten kliniske stu
 - Advarsler og kontraindikasjoner fra preparatomtalen, som i dag mangler og blokkerer sikkerhetsscreeningen
 - Litteratursøk og prekliniske data for hypotrichosis simplex og medfødt hypotrichosis med milia
 - Avklaring av administrasjonsvei og formulering (f.eks. topikal vs. oral), siden doseringsform og rutekompatibilitet ikke er vurdert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

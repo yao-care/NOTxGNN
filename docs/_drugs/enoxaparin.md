@@ -54,7 +54,7 @@ Enoxaparin er et lavmolekylært heparin som brukes til å forebygge og behandle 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene. Ut fra generell kunnskap om legemiddelklassen er enoxaparin et lavmolekylært heparin som forsterker antitrombin III og hemmer faktor Xa, i mindre grad også trombin.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Enoxaparin (uoffisiell oversettelse): «Enoksaparin er et lavmolekylært heparin som har antitrombotiske egenskaper.» Engelsk originaltekst: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), versjon av 2026-05-28; hentet 2026-11-19). Ut fra generell kunnskap om legemiddelklassen er enoxaparin et lavmolekylært heparin som forsterker antitrombin III og hemmer faktor Xa, i mindre grad også trombin.
 
 Alvorlig autosomal recessiv protein C-mangel (for eksempel neonatal purpura fulminans) gir tap av protein C-banen, som vanligvis inaktiverer faktor Va og VIIIa. Resultatet er ukontrollert trombindannelse. Siden lavmolekylært heparin virker nedstrøms og uavhengig av protein C, finnes et plausibelt mekanistisk grunnlag for å forebygge eller behandle trombose.
 
@@ -93,6 +93,19 @@ Prediksjonen bygger kun på modellscore og generelle mekanistiske resonnementer.
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
 - Vurdering av enoxaparins rolle sammenlignet med eller som tillegg til protein C-erstatning
 - Avklaring av administrasjonsveier og doseringsformer
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

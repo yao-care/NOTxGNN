@@ -60,7 +60,7 @@ Tolvaptan er en selektiv vasopressin V2-reseptorantagonist. Den er opprinnelig g
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (original virkningsmekanisme) var ikke tilgjengelige i de kompilerte dataene. Tolvaptan er kjent som en selektiv V2-reseptorantagonist. Ved polycystisk nyresykdom driver forhøyet cAMP-signalering i tubulære epitelceller cystevekst og væskesekresjon. Blokkade av V2-reseptoren senker intracellulær cAMP og kan bremse cystevekst og nedgang i nyrefunksjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tolvaptan (uoffisiell oversettelse): «Tolvaptan er en selektiv vasopressin V 2 -reseptorantagonist med en affinitet for V 2 -reseptoren som er 1,8 ganger affiniteten til nativt argininvasopressin (AVP). Tolvaptans affinitet for V 2 -reseptoren er 29 ganger affiniteten for V 1a -reseptoren.» Engelsk originaltekst: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), versjon av 2026-09-30; hentet 2026-11-19). Tolvaptan er kjent som en selektiv V2-reseptorantagonist. Ved polycystisk nyresykdom driver forhøyet cAMP-signalering i tubulære epitelceller cystevekst og væskesekresjon. Blokkade av V2-reseptoren senker intracellulær cAMP og kan bremse cystevekst og nedgang i nyrefunksjon.
 
 Polycystisk nyresykdom 3 (PKD3, GANAB-relatert) deler denne cystogene mekanismen med ADPKD, som allerede er en godkjent indikasjon. Prediksjonen gjenspeiler dermed i stor grad kjent biologi. Forbehold: fase 3-dataene stammer fra ADPKD, og effekt på leverCyster er ikke etablert. Overvåkning av leverskade er nødvendig.
 
@@ -125,6 +125,19 @@ Tolvaptan har robust fase 3-evidens ved ADPKD, og PKD3 deler den cAMP-drevne cys
 - Klinisk evidens spesifikt for GANAB-relatert PKD3, inkludert effekt på levercyster
 - Plan for leverovervåkning og håndtering av legemiddelinteraksjoner
 - Avklaring av markedssituasjonen i Norge, siden alle tre godkjenninger er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

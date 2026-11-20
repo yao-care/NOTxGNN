@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at den kan ha effekt mot **HIV-infeksjon**, men dette e
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om toremifens detaljerte virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er toremifen en selektiv østrogenreseptormodulator (SERM) i samme klasse som tamoxifen. Effekten er dokumentert ved brystkreft, men mekanismen gir ingen opplagt forbindelse til HIV.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Toremifene (uoffisiell oversettelse): «Toremifen er et ikke-steroid trifenyletylenderivat. Toremifen bindes til østrogenreseptorer og kan utøve østrogen eller antiøstrogen aktivitet, eller begge deler, avhengig av behandlingsvarighet, dyreart, kjønn, målorgan eller valgt endepunkt.» Engelsk originaltekst: "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected." ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), versjon av 2024-11-13; hentet 2026-11-19). Basert på kjent informasjon er toremifen en selektiv østrogenreseptormodulator (SERM) i samme klasse som tamoxifen. Effekten er dokumentert ved brystkreft, men mekanismen gir ingen opplagt forbindelse til HIV.
 
 TxGNN-scoren er svært høy (0,9941), men den er utelukkende en modellprediksjon. Den eneste støttende publikasjonen (PMID 24520056, 2014) viser at østrogenreseptorantagonister, inkludert toremifen og tamoxifen, har aktivitet mot *Cryptococcus*. De binder seg til EF-hand kalsiumbindende proteiner som kalmodulin, og virker synergistisk med flukonazol. Kryptokokkose er en vanlig opportunistisk soppinfeksjon ved avansert HIV (kryptokokkmeningitt), men det er ikke det samme som HIV-infeksjon.
 
@@ -141,11 +141,12 @@ Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->
 

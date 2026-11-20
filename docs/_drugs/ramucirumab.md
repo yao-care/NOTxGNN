@@ -56,7 +56,7 @@ men for øyeblikket finnes **ingen registrerte kliniske studier og ingen publika
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på generell kunnskap er ramucirumab en VEGFR-2-antagonist (hemmer av vaskulær endotelial vekstfaktorreseptor 2). Effekten ved magekreft er etablert, og mekanistisk kan angiogenesehemming være aktuelt også for adenokarsinomer i kvinnelige kjønnsorganer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ramucirumab (uoffisiell oversettelse): «Ramucirumab er en VEGFR2-antagonist som binder seg spesifikt til VEGFR2 og blokkerer binding av VEGFR-ligandene VEGF-A, VEGF-C og VEGF-D. Som et resultat hemmer ramucirumab ligandstimulert aktivering av VEGFR2, og hemmer dermed ligandindusert proliferasjon og migrasjon av humane endotelceller. Ramucirumab hemmet angiogenese i en in vivo-dyremodell.» Engelsk originaltekst: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), versjon av 2026-06-09; hentet 2026-11-19). Basert på generell kunnskap er ramucirumab en VEGFR-2-antagonist (hemmer av vaskulær endotelial vekstfaktorreseptor 2). Effekten ved magekreft er etablert, og mekanistisk kan angiogenesehemming være aktuelt også for adenokarsinomer i kvinnelige kjønnsorganer.
 
 Kreftformene har til felles at de er adenokarsinomer der tumorvekst kan avhenge av nydannelse av blodkar. Dette gir en biologisk plausibel, men uverifisert kobling. Høy TxGNN-score kan delvis gjenspeile nærhet i sykdomsontologien til andre karsinomer i livmorhals og kjønnsorganer, snarere enn sykdomsspesifikk evidens.
 
@@ -111,6 +111,19 @@ Prediksjonen bygger kun på TxGNN-score (evidensnivå L5), uten kliniske studier
 - Gjennomføre litteratur- og studiesøk spesifikt for ramucirumab ved gynekologiske adenokarsinomer
 - Avklare årsaken til at godkjenningen i Norge er kansellert og om tilgang er mulig
 - Vurdere prekliniske data eller en tidlig klinisk studie dersom prediksjonen skal følges opp
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

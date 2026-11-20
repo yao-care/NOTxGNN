@@ -60,7 +60,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i de inn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Ut fra generell kunnskap er selinexor en selektiv hemmer av nukleær eksport (SINE) som blokkerer XPO1 (eksportin-1). Dette gir økt kjernretensjon av tumorsuppressorproteiner og signalproteiner. Effekten på multippelt myelom er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Selinexor (uoffisiell oversettelse): «I ikke-kliniske studier hemmer selineksor reversibelt nukleær eksport av tumorsuppressorproteiner (TSP), vekstregulatorer og mRNA for onkogene proteiner ved å blokkere exportin 1 (XPO1). XPO1-hemming med selineksor fører til akkumulering av TSP i cellekjernen og reduksjon av flere onkoproteiner, som c-myc og cyklin D1, cellesyklusstans og apoptose av kreftceller.» Engelsk originaltekst: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), versjon av 2026-05-12; hentet 2026-11-19). Ut fra generell kunnskap er selinexor en selektiv hemmer av nukleær eksport (SINE) som blokkerer XPO1 (eksportin-1). Dette gir økt kjernretensjon av tumorsuppressorproteiner og signalproteiner. Effekten på multippelt myelom er etablert.
 
 Et mulig, men ubekreftet, mekanistisk bindeledd til benvev er at XPO1-hemming kan påvirke signalveier som regulerer benombygging, for eksempel osteoklast- og osteoblastregulering, NF-kB og Wnt. Dette er spekulativt. Multippelt myelom gir betydelig benpåvirkning, så eventuelle benrelaterte effekter sett hos myelompasienter vil være forstyrret av selve sykdommen og av samtidig behandling.
 
@@ -144,11 +144,12 @@ Den eneste støtten for prediksjonen er en høy TxGNN-score uten klinisk valider
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
 
 <!-- review:end log -->
 

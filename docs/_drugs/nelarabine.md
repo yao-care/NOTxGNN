@@ -61,7 +61,7 @@ Nelarabin er dessuten kjent for alvorlig nevrotoksisitet, noe som utgjør en bet
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Nelarabin er et prodrug av ara-G, en deoksyguanosin-analog som er særlig toksisk for T-lymfocytter. Virkningen skjer ved opphopning av ara-GTP, som hemmer DNA-syntesen. Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene, noe som begrenser den mekanistiske vurderingen.
+Nelarabin er et prodrug av ara-G, en deoksyguanosin-analog som er særlig toksisk for T-lymfocytter. Virkningen skjer ved opphopning av ara-GTP, som hemmer DNA-syntesen. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nelarabine (uoffisiell oversettelse): «Nelarabin er et prodrug av deoksyguanosinanalogen 9-β- D -arabinofuranosylguanin (ara-G), en nukleosidmetabolismehemmer. Nelarabin demetyleres av ADA til ara-G, monofosforyleres av deoksyguanosinkinase og deoksycytidinkinase, og omdannes deretter til det aktive 5’-trifosfatet, ara-GTP.» Engelsk originaltekst: "Nelarabine is a prodrug of the deoxyguanosine analogue 9-β- D -arabinofuranosylguanine (ara-G), a nucleoside metabolic inhibitor. Nelarabine is demethylated by ADA to ara-G, mono-phosphorylated by deoxyguanosine kinase and deoxycytidine kinase, and subsequently converted to the active 5’-triphosphate, ara-GTP." ([DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca), versjon av 2025-03-31; hentet 2026-11-19).
 
 En mulig, men ubekreftet, begrunnelse er at utarming av patogene lymfocyttpopulasjoner kan være relevant ved multippel sklerose. Andre purinanaloger, som kladribin, er godkjent for relapsing MS, og det gir en viss mekanistisk analogi.
 
@@ -130,6 +130,19 @@ Det eneste som støtter prediksjonen er en høy TxGNN-score (evidensnivå L5), u
 - Prekliniske data eller studier som viser at nevrotoksisiteten kan håndteres ved MS
 - Systematisk litteratursøk og søk etter kliniske studier
 - En grundig nytte-risikovurdering mot godkjente alternativer, som kladribin
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -54,7 +54,7 @@ Givosiran er en siRNA-behandling rettet mot enzymet ALAS1 i leverceller. Modelle
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene. Givosiran er kjent som en siRNA rettet mot ALAS1 i hepatocytter, og dermed reduseres produksjonen av hemforløpere.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Givosiran (uoffisiell oversettelse): «Givosiran er et dobbelttrådet lite interfererende RNA som forårsaker nedbrytning av mRNA for aminolevulinatsyntase 1 ( ALAS1 ) i hepatocytter gjennom RNA-interferens, og reduserer de forhøyede nivåene av ALAS1 -mRNA i leveren. Dette fører til reduserte sirkulerende nivåer av de nevrotoksiske intermediatene aminolevulinsyre (ALA) og porfobilinogen (PBG), faktorer som er forbundet med anfall og andre sykdomsmanifestasjoner av AHP.» Engelsk originaltekst: "Givosiran is a double-stranded small interfering RNA that causes degradation of aminolevulinate synthase 1 ( ALAS1 ) mRNA in hepatocytes through RNA interference, reducing the elevated levels of liver ALAS1 mRNA. This leads to reduced circulating levels of neurotoxic intermediates aminolevulinic acid (ALA) and porphobilinogen (PBG), factors associated with attacks and other disease manifestations of AHP." ([DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa), versjon av 2025-09-10; hentet 2026-11-19). Givosiran er kjent som en siRNA rettet mot ALAS1 i hepatocytter, og dermed reduseres produksjonen av hemforløpere.
 
 Hepatoportal sklerose er en tilstand med ikke-cirrhotisk portal hypertensjon, kjennetegnet av vaskulære og fibrotiske forandringer i portalområdet. Det er ikke etablert noen plausibel mekanistisk kobling mellom ALAS1-hemming og disse patologiske prosessene. Den høye scoren gjenspeiler trolig likheter i modellens nettverksstruktur for leversykdommer, snarere enn en mekanisme som givosiran faktisk påvirker.
 
@@ -95,6 +95,19 @@ Prediksjonen bygger kun på en modellscore uten kliniske studier, publikasjoner 
 - Prekliniske data eller litteraturgjennomgang som direkte omhandler hepatoportal sklerose
 - Innhenting og analyse av advarsler og kontraindikasjoner fra preparatomtalen
 - Vurdering av klinisk relevans av interaksjonen med eliglustat og andre registrerte interaksjoner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

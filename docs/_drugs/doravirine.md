@@ -54,7 +54,7 @@ Doravirin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) mot HIV-1. Mod
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er for øyeblikket ikke tilgjengelige i de innsamlede dataene. Doravirin er kjent som en NNRTI som hemmer revers transkriptase hos HIV-1. Felint immunsviktvirus (FIV) er et lentivirus som er i slekt med HIV, og i prinsippet finnes derfor en mekanistisk begrunnelse.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Doravirine (uoffisiell oversettelse): «Doravirin er et antiretroviralt legemiddel. […] Doravirin er en pyridinon-ikke-nukleosid revers transkriptasehemmer av HIV-1 og hemmer HIV-1-replikasjon ved ikke-kompetitiv hemming av HIV-1 revers transkriptase (RT). Den hemmende konsentrasjonen ved 50 % (IC 50 ) av doravirin for RNA-avhengig DNA-polymerisering av rekombinant villtype HIV-1 RT i en biokjemisk analyse var 12,2±2,0 nM (n=3).» Engelsk originaltekst: "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), versjon av 2026-07-09; hentet 2026-11-19). Doravirin er kjent som en NNRTI som hemmer revers transkriptase hos HIV-1. Felint immunsviktvirus (FIV) er et lentivirus som er i slekt med HIV, og i prinsippet finnes derfor en mekanistisk begrunnelse.
 
 Det er imidlertid en vesentlig begrensning: NNRTI-er er generelt dårlig virksomme mot FIV, fordi revers transkriptase hos FIV har en annen struktur i NNRTI-bindingslommen. Den høye scoren (0,9993) ser ut til å gjenspeile sykdommens nærhet til HIV i nettverket, ikke validert aktivitet. Ingen doravirinspesifikke data for FIV er tilgjengelige.
 
@@ -95,6 +95,19 @@ Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur (
 - Data om virkningsmekanisme (MOA)
 - Gjennomgang av preparatomtale for advarsler og kontraindikasjoner
 - Vurdering av om en veterinærmedisinsk tilnærming er relevant
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

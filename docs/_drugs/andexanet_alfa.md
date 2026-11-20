@@ -60,7 +60,7 @@ Prediksjonen kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likhete
 
 ## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Andexanet alfa er et rekombinant, katalytisk inaktivt faktor Xa-lokkemiddel («decoy»). Det binder og fjerner direkte FXa-hemmere, og også antitrombin III–LMWH-komplekset. Data om detaljert virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene, men den generelle farmakologien er godt kjent.
+Andexanet alfa er et rekombinant, katalytisk inaktivt faktor Xa-lokkemiddel («decoy»). Det binder og fjerner direkte FXa-hemmere, og også antitrombin III–LMWH-komplekset. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Andexanet Alfa (uoffisiell oversettelse): «Koagulasjonsfaktor Xa (rekombinant), inaktivert-zhzo utøver sin prokoagulerende effekt ved å binde og sekvestrere FXa-hemmerne rivaroksaban og apiksaban. En annen observert prokoagulerende effekt av ANDEXXA-proteinet er evnen til å binde seg til og hemme aktiviteten til vevsfaktorveihemmer (Tissue Factor Pathway Inhibitor, TFPI).» Engelsk originaltekst: "Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)." ([DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c), versjon av 2025-05-23; hentet 2026-11-19).
 
 Glanzmanns trombasteni er en arvelig defekt i plateleintegrinet αIIbβ3 (GPIIb/IIIa), som hindrer blodplateaggregasjon. Andexanet alfa virker kun på koagulasjonskaskaden og påvirker ikke blodplateaggregasjon eller fibrinogenbinding. Det finnes dermed ingen plausibel mekanistisk sammenheng mellom den opprinnelige og den nye indikasjonen.
 
@@ -142,11 +142,12 @@ Prediksjonen mangler mekanistisk støtte, kliniske studier og direkte litteratur
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste norske godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
 
 <!-- review:end log -->
 

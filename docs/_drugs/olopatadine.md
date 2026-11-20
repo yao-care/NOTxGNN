@@ -60,7 +60,7 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er det ikke tilgjengelige data om detaljert virkningsmekanisme i datagrunnlaget. Ut fra generell kunnskap er olopatadin en histamin H1-reseptorantagonist og mastcellestabilisator, og effekten ved allergisk konjunktivitt er godt kjent.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Olopatadine (uoffisiell oversettelse): «Olopatadin er en histamin H 1 -reseptorantagonist. Den antihistaminerge aktiviteten til olopatadin er dokumentert i isolerte vev, dyremodeller og mennesker.» Engelsk originaltekst: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), versjon av 2026-09-15; hentet 2026-11-19). Ut fra generell kunnskap er olopatadin en histamin H1-reseptorantagonist og mastcellestabilisator, og effekten ved allergisk konjunktivitt er godt kjent.
 
 Okulær rosacea drives hovedsakelig av dysfunksjon i meibomske kjertler, ustabil tårefilm, kolonisering med *Demodex* og inflammatoriske mediatorer som IL-1, MMP-er og nøytrofilrelaterte faktorer. Mastceller er implisert i hudrosacea, så en rolle for histamin og mastceller er plausibel, og olopatadin kan muligens lindre kløe og overflateinflammasjon i øyet.
 
@@ -112,6 +112,19 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten støtte fra kl
 - Litteratursøk og søk etter kliniske studier på olopatadin ved okulær rosacea / meibomsk kjertel-dysfunksjon
 - Vurdering av administrasjonsvei og formulering (øyedråper) for den nye indikasjonen
 - Avklaring av markedsstatus, siden dagens godkjenning er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

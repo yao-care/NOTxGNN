@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hypertrikose**, men d
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er degarelix en GnRH-reseptorantagonist som hemmer LH og FSH og dermed reduserer produksjonen av androgener fra gonadene. Dette er grunnlaget for effekten ved hormonavhengig prostatakreft.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Degarelix (uoffisiell oversettelse): «Degareliks er en GnRH-reseptorantagonist. Det bindes reversibelt til GnRH-reseptorene i hypofysen og reduserer dermed frisettingen av gonadotropiner og følgelig testosteron.» Engelsk originaltekst: "Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone." ([DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b), versjon av 2024-01-30; hentet 2026-11-19). Basert på kjent informasjon er degarelix en GnRH-reseptorantagonist som hemmer LH og FSH og dermed reduserer produksjonen av androgener fra gonadene. Dette er grunnlaget for effekten ved hormonavhengig prostatakreft.
 
 Sammenhengen mellom den opprinnelige og den nye indikasjonen er svak. Hypertrikose er generelt ikke androgendrevet (i motsetning til hirsutisme). Kjemisk kastrering ville snarere forventes å redusere enn å fremkalle androgenavhengig hårvekst. Den svært høye scoren (0,9999) er en grafbasert prediksjon uten støtte fra kliniske data eller litteratur, og den biologiske plausibiliteten er tvilsom.
 
@@ -143,6 +143,19 @@ Prediksjonen om hypertrikose har kun modellstøtte (evidensnivå L5), uten klini
 - Systematisk litteratur- og studiesøk for de predikerte indikasjonene
 - Dersom man vil forfølge en hypotese, bør sentral tidlig pubertet prioriteres, med prekliniske og pediatriske sikkerhetsdata
 - Avklaring av årsaken til de kansellerte godkjenningene og eventuell tilgjengelighet i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

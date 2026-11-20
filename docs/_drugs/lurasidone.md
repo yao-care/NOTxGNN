@@ -56,7 +56,7 @@ men de innsamlede dataene viser **0 kliniske studier** og **0 publikasjoner** so
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om detaljert virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Lurasidon er en antipsykotisk forbindelse med virkning på dopamin- og serotoninreseptorer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lurasidone (uoffisiell oversettelse): «Virkningsmekanismen til lurasidon ved behandling av schizofreni og bipolar depresjon er uklar. Effekten ved schizofreni og bipolar depresjon kan imidlertid være mediert gjennom en kombinasjon av sentral antagonisme av dopamin D 2- og serotonin type 2 (5HT 2A )-reseptorer.» Engelsk originaltekst: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), versjon av 2025-01-31; hentet 2026-11-19). Lurasidon er en antipsykotisk forbindelse med virkning på dopamin- og serotoninreseptorer.
 
 Vi finner ingen identifiserbar mekanistisk kobling mellom lurasidons reseptorfarmakologi og patofysiologien ved arvelig retinal dystrofi. Den høye prediksjonsscoren er utelukkende en beregningsmessig prediksjon, og det finnes ingen kliniske eller litteraturmessige holdepunkter som underbygger den. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -94,6 +94,19 @@ Prediksjonen bygger kun på en modellberegning uten støttende kliniske studier 
 - Prekliniske studier i relevante modeller for retinal dystrofi
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsvurdering
 - Vurdering av administrasjonsvei og formulering som egner seg for okulær bruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

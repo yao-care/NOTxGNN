@@ -60,7 +60,7 @@ men dette støttes foreløpig kun av **2 fase 2-studier** (begge med indirekte r
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i dataene som er samlet for denne rapporten. Daunorubicin er imidlertid et antracyklin som er kjent som topoisomerase II-hemmer og DNA-interkalator, og effekten er godt dokumentert ved akutt myeloid leukemi.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Daunorubicin (uoffisiell oversettelse): «Daunorubicin har antimitotisk og cytotoksisk aktivitet gjennom en rekke foreslåtte virkningsmekanismer. Daunorubicin danner komplekser med DNA ved interkalering mellom basepar. Det hemmer topoisomerase II-aktiviteten ved å stabilisere DNA-topoisomerase II-komplekset, og forhindrer dermed religeringsdelen av ligerings-religeringsreaksjonen som topoisomerase II katalyserer.» Engelsk originaltekst: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), versjon av 2025-05-21; hentet 2026-11-19). Daunorubicin er imidlertid et antracyklin som er kjent som topoisomerase II-hemmer og DNA-interkalator, og effekten er godt dokumentert ved akutt myeloid leukemi.
 
 Antracykliner (i standardregimer for Hodgkins lymfom er det doxorubicin, som i ABVD) er en bærebjelke i behandlingen av lymfoide maligniteter. Mekanistisk er det derfor plausibelt at daunorubicin kan ha aktivitet også her.
 
@@ -161,12 +161,13 @@ Evidensen for Hodgkins lymfom er indirekte: to fase 2-studier i andre lymfomtype
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og preparatet er i tillegg trukket tilbake fra markedet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste norske godkjenningen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
 
 <!-- review:end log -->
 

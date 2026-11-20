@@ -61,7 +61,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er abaloparatid en PTHrP-analog som aktiverer PTH1-reseptoren (PTH1R) og stimulerer beindannelse. Effekten ved postmenopausal osteoporose er dokumentert, blant annet i fase 3-studien NCT01343004, der legemidlet reduserte risikoen for nye brudd sammenlignet med placebo.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Abaloparatide (uoffisiell oversettelse): «Abaloparatid er en PTHrP(1-34)-analog som virker som agonist på PTH1-reseptoren (PTH1R). Dette fører til aktivering av cAMP-signalveien i målceller. Administrering av abaloparatid én gang daglig stimulerer ny bendannelse på trabekulære og kortikale benoverflater ved stimulering av osteoblastaktivitet.» Engelsk originaltekst: "Abaloparatide is a PTHrP(1-34) analog which acts as an agonist at the PTH1 receptor (PTH1R). This results in activation of the cAMP signaling pathway in target cells. Once-daily administration of abaloparatide stimulates new bone formation on trabecular and cortical bone surfaces by stimulation of osteoblastic activity." ([DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8), versjon av 2026-08-11; hentet 2026-11-19). Basert på kjent informasjon er abaloparatid en PTHrP-analog som aktiverer PTH1-reseptoren (PTH1R) og stimulerer beindannelse. Effekten ved postmenopausal osteoporose er dokumentert, blant annet i fase 3-studien NCT01343004, der legemidlet reduserte risikoen for nye brudd sammenlignet med placebo.
 
 Det er ikke funnet noen plausibel farmakologisk sammenheng mellom PTH1R-agonisme og korrigering av medfødte misdannelser i spiserøret, som er utviklingsmessige defekter. Den høye TxGNN-scoren (0,9984) er en ren modellprediksjon uten støtte i studier eller litteratur.
 
@@ -130,11 +130,12 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier, litteratur eller pl
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste godkjenningen i Norge avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), ikke nasjonale 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Ut fra kjent farmakologi er koffein en adenosinreseptorantagonist (A1, A2A, A2B, A3) og fosfodiesterasehemmer. Det påvirker også kalsiumfrigjøring via IP3R1 og ryanodinreseptorene (RyR1–3).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Caffeine (uoffisiell oversettelse): «Koffein er strukturelt beslektet med andre metylxantiner, teofyllin og teobromin. Det er et middel som relakserer glatt muskulatur i bronkiene, et CNS-stimulerende middel, et hjertemuskelstimulerende middel og et diuretikum. Selv om virkningsmekanismen til koffein ved apné hos premature ikke er kjent, er det fremsatt hypoteser om flere mekanismer.» Engelsk originaltekst: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), versjon av 2026-07-29; hentet 2026-11-19). Ut fra kjent farmakologi er koffein en adenosinreseptorantagonist (A1, A2A, A2B, A3) og fosfodiesterasehemmer. Det påvirker også kalsiumfrigjøring via IP3R1 og ryanodinreseptorene (RyR1–3).
 
 Koblingen mellom apné og nesehulesykdom er svak. Apné behandles via stimulering av respirasjonssenteret, mens nesehulesykdom er et lokalt slimhinne- eller anatomisk problem. Den eneste mekanistiske tråden er at bitre smaksreseptorer (TAS2R) i luftveisepitelet, inkludert nesehulen, responderer på koffein og kan modulere medfødt forsvar. Dette er en hypotese på prekliniske nivå. Den eneste nesespesifikke studien gjelder nasal levering av koffein for kognisjon (en studie av administrasjonsvei, ikke behandling av nesesykdom).
 
@@ -122,6 +122,19 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon, siden omtalen med adva
 - Avklare hvilken nesehulesykdom som menes, og om lokal (nasal) administrasjon er aktuelt
 
 **Andre prediksjoner med noe sterkere støtte (til informasjon):** Hypnisk hodepine (L4, trinn S1, anbefalt som «Research Question»), nevralgi og trigeminal autonom cefalalgi (begge L4). For hypnisk hodepine beskriver oversiktsartikler koffein som førstelinjebehandling basert på kasuistikker og små serier, uten randomiserte kontrollerte studier. Medikamentoverbrukshodepine er en relevant sikkerhetsrisiko.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

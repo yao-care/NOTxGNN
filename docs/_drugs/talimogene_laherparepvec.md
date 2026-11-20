@@ -58,7 +58,7 @@ Talimogene laherparepvec er et onkolytisk virusbasert legemiddel som er markedsf
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er foreløpig ikke tilgjengelige i de innsamlede dataene. Talimogene laherparepvec er et onkolytisk virus som injiseres direkte i tumorlesjoner. Mekanistisk kan en slik tilnærming tenkes å være anvendelig ved andre svulster som er tilgjengelige for injeksjon.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Talimogene Laherparepvec (uoffisiell oversettelse): «IMLYGIC er genetisk modifisert for å replikere i tumorer og for å produsere det immunstimulerende proteinet GM-CSF. IMLYGIC forårsaker lysis av tumorer, etterfulgt av frigjøring av tumorderiverte antigener, som sammen med viralt derivert GM-CSF kan fremme en antitumoral immunrespons.» Engelsk originaltekst: "IMLYGIC has been genetically modified to replicate within tumors and to produce the immune stimulatory protein GM-CSF. IMLYGIC causes lysis of tumors, followed by release of tumor-derived antigens, which together with virally derived GM-CSF may promote an antitumor immune response." ([DailyMed: Imlygic (talimogene laherparepvec) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=64ffb680-ea8c-42fc-9649-9e8c0eb77ddb), versjon av 2024-11-29; hentet 2026-11-19). Talimogene laherparepvec er et onkolytisk virus som injiseres direkte i tumorlesjoner. Mekanistisk kan en slik tilnærming tenkes å være anvendelig ved andre svulster som er tilgjengelige for injeksjon.
 
 Plateepitelkarsinom i hode- og halsregionen er et plausibelt mål for onkolytiske virus, fordi lesjonene kan injiseres direkte, og onkolytisk herpes simplex-virus er utforsket ved hode- og halskreft mer generelt. Likevel inneholder de innsamlede dataene ingen studier eller litteratur om sykdom i glottis.
 
@@ -115,6 +115,18 @@ Prediksjonen for plateepitelkarsinom i glottis støttes ikke av noen kliniske st
 - Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
 - Vurdering av administrasjonsvei og luftveissikkerhet ved injeksjon i strupen
 - Plan for sikkerhetsmonitorering, inkludert vurdering av legemiddelinteraksjoner med kortikosteroider og antivirale midler
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Imlygic (talimogene laherparepvec) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=64ffb680-ea8c-42fc-9649-9e8c0eb77ddb) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

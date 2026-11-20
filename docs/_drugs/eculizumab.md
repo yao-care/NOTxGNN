@@ -58,7 +58,7 @@ Eculizumab er en komplementhemmer (C5-hemmer) som opprinnelig brukes til behandl
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) er ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon er eculizumab et monoklonalt antistoff som hemmer komplementprotein C5 og dermed blokkerer den terminale komplementveien. Effekten ved PNH er godt dokumentert, ettersom sykdommen skyldes ukontrollert komplementaktivering etter tap av CD55 og CD59.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Eculizumab (uoffisiell oversettelse): «Ekulizumab, virkestoffet i SOLIRIS, er et monoklonalt antistoff som bindes spesifikt og med høy affinitet til komplementproteinet C5, og hemmer dermed spaltingen til C5a og C5b og forhindrer dannelsen av det terminale komplementkomplekset C5b-9. SOLIRIS hemmer terminal komplementmediert intravaskulær hemolyse hos pasienter med PNH og komplementmediert trombotisk mikroangiopati (TMA) hos pasienter med aHUS.» Engelsk originaltekst: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), versjon av 2026-07-08; hentet 2026-11-19). Basert på kjent informasjon er eculizumab et monoklonalt antistoff som hemmer komplementprotein C5 og dermed blokkerer den terminale komplementveien. Effekten ved PNH er godt dokumentert, ettersom sykdommen skyldes ukontrollert komplementaktivering etter tap av CD55 og CD59.
 
 Syklisk nøytropeni skyldes derimot hovedsakelig ELANE-mutasjoner og syklisk svikt i benmargen. Det er ikke påvist noen komplementmediert mekanisme som C5-hemming kan påvirke. Den høye modellscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -113,6 +113,19 @@ Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller 
 - Prekliniske eller mekanistiske studier som viser en komplementrolle ved syklisk nøytropeni
 - Avklaring av gjeldende markedsstatus i Norge, siden alle godkjenninger er registrert som kansellert
 - Vurdering av andre kandidatindikasjoner med sterkere komplementrelatert begrunnelse
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

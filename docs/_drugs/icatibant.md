@@ -56,7 +56,7 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige fra legemiddeldatabasen. Farmakologidataene som er samlet inn for rapporten viser likevel at icatibant er en peptidantagonist som virker på bradykininreseptorene B1 (BDKRB1) og B2 (BDKRB2). Legemidlet hemmer dermed bradykininsignalering nedstrøms.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Icatibant (uoffisiell oversettelse): «Ikatibant er en kompetitiv antagonist som er selektiv for bradykinin B2-reseptoren, med en affinitet tilsvarende bradykinin. Hereditært angioødem skyldes fravær eller dysfunksjon av C1-esterasehemmer, en sentral regulator av den proteolytiske kaskaden faktor XII/kallikrein som fører til produksjon av bradykinin.» Engelsk originaltekst: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), versjon av 2025-07-07; hentet 2026-11-19). Farmakologidataene som er samlet inn for rapporten viser likevel at icatibant er en peptidantagonist som virker på bradykininreseptorene B1 (BDKRB1) og B2 (BDKRB2). Legemidlet hemmer dermed bradykininsignalering nedstrøms.
 
 Den høye modellscoren skyldes trolig nettverksnærhet til serpin-relaterte gener i modellens biologiske nettverk. Sykdommen er definert av at feilfoldede serpiner polymeriserer og blir toksiske. Icatibant påvirker verken serpinfolding eller polymerisering, siden det virker på reseptornivå og ikke på selve proteinet.
 
@@ -109,6 +109,18 @@ Prediksjonen bygger kun på modellscore (0,9999) uten kliniske studier, litterat
 - Publiserte studier eller registrerte kliniske studier som direkte omhandler denne sykdommen
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som mangler i datagrunnlaget
 - Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

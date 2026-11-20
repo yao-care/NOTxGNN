@@ -60,7 +60,7 @@ men det finnes foreløpig **ingen registrerte kliniske studier**. Støtten komme
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme var ikke tilgjengelige i de innsamlede dataene. Basert på kjent kunnskap om legemiddelklassen hemmer mikafungin, som ekinokandin, enzymet 1,3-beta-D-glukansyntase og forstyrrer dermed syntesen av soppens cellevegg. Legemidlet er allerede godkjent for candidiasis.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Micafungin (uoffisiell oversettelse): «Mikafungin tilhører echinokandinklassen av antimykotika. […] Mikafungin hemmer syntesen av 1,3-beta-D-glukan, en essensiell bestanddel i soppcellevegger, som ikke finnes i pattedyrceller. Aktivitet i dyremodeller for candidiasis Aktiviteten til mikafungin er påvist i både mukosale og disseminerte muse- og kaninmodeller for candidiasis.» Engelsk originaltekst: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), versjon av 2025-11-08; hentet 2026-11-19). Basert på kjent kunnskap om legemiddelklassen hemmer mikafungin, som ekinokandin, enzymet 1,3-beta-D-glukansyntase og forstyrrer dermed syntesen av soppens cellevegg. Legemidlet er allerede godkjent for candidiasis.
 
 Candida-arter er en anerkjent årsak til urinveisinfeksjon (candiduri). Soppmekanismen er derfor direkte relevant. En viktig farmakologisk forbehold er at ekinokandiner historisk har vist lav utskillelse av aktivt legemiddel i urin. Én studie (PMID 27424599) rapporterer imidlertid at urinkonsentrasjonene av mikafungin er tilstrekkelige til å behandle Candida-urinveisinfeksjoner, noe som delvis adresserer denne bekymringen.
 
@@ -138,12 +138,13 @@ Evidensen består hovedsakelig av kasuistikker, kasusserier og retrospektive koh
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Lav urinutskillelse av aktivt legemiddel er et reelt farmakologisk forbehold, og preparatet er kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
 
 <!-- review:end log -->
 

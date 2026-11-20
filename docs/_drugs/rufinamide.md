@@ -61,7 +61,7 @@ Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i det innsamlede materialet. Ut fra generell farmakologi antas rufinamid å forlenge den inaktive tilstanden til spenningsstyrte natriumkanaler, noe som kan dempe anfallsaktivitet. Legemidlet har dokumentert effekt ved epilepsi, og mekanistisk kan det tenkes å være relevant for andre epilepsiformer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rufinamide (uoffisiell oversettelse): «Den/de nøyaktige mekanismen(e) som rufinamid utøver sin antiepileptiske effekt gjennom, er ukjent. Resultatene fra in vitro-studier tyder på at den viktigste virkningsmekanismen til rufinamid er modulering av aktiviteten til natriumkanaler, og spesielt forlengelse av kanalens inaktive tilstand.» Engelsk originaltekst: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), versjon av 2022-12-15; hentet 2026-11-19). Ut fra generell farmakologi antas rufinamid å forlenge den inaktive tilstanden til spenningsstyrte natriumkanaler, noe som kan dempe anfallsaktivitet. Legemidlet har dokumentert effekt ved epilepsi, og mekanistisk kan det tenkes å være relevant for andre epilepsiformer.
 
 FIRES er en behandlingsresistent epileptisk encefalopati som oppstår etter feber, og har en tydelig nevroinflammatorisk komponent. Natriumkanalmodulering kan derfor trolig gi bare symptomatisk anfallsdemping, ikke behandling av selve inflammasjonen.
 
@@ -138,12 +138,13 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier ell
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske tillatelsen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden Inovelon er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
 
 <!-- review:end log -->
 

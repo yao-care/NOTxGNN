@@ -58,7 +58,7 @@ Oktreotid er en somatostatinanalog som opprinnelig brukes til behandling av akro
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Oktreotid er en somatostatinanalog (peptid) som virker på somatostatinreseptorene SSTR2, SSTR3 og SSTR5. Gjennom disse hemmer det blant annet utskillelsen av veksthormon og IGF-1, noe som er grunnlaget for bruken ved akromegali. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten.
+Oktreotid er en somatostatinanalog (peptid) som virker på somatostatinreseptorene SSTR2, SSTR3 og SSTR5. Gjennom disse hemmer det blant annet utskillelsen av veksthormon og IGF-1, noe som er grunnlaget for bruken ved akromegali. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Octreotide (uoffisiell oversettelse): «Sandostatin injeksjonsvæske har farmakologiske virkninger som ligner det naturlige hormonet somatostatin. Det er en enda mer potent hemmer av GH, glukagon og insulin enn somatostatin. […] I kraft av disse farmakologiske virkningene har oktreotid blitt brukt til å behandle symptomene forbundet med metastatiske karsinoide tumorer (flushing og diaré) og VIP-utskillende adenomer (vandig diaré).» Engelsk originaltekst: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), versjon av 2026-07-22; hentet 2026-11-19).
 
 Det er ikke påvist noen etablert mekanistisk sammenheng mellom akromegali og vulvær inversert follikulær keratose. En teoretisk kobling forutsetter at somatostatinreseptorer uttrykkes i follikulære keratinocyttlesjoner, eller at IGF-1/vekstfaktorsignalering spiller en rolle i lesjonenes proliferasjon. Ingen av delene er støttet av de tilgjengelige dataene.
 
@@ -114,6 +114,19 @@ Prediksjonen bygger kun på en modellscore uten kliniske studier, litteratur ell
 - Dokumentasjon på somatostatinreseptoruttrykk (SSTR2/SSTR5) eller IGF-1-involvering i vulvær inversert follikulær keratose og seboreisk keratose
 - Prekliniske eller første kliniske studier som kan støtte hypotesen
 - Vurdering av administrasjonsvei og formulering (topisk versus injeksjon), som ikke er avklart
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

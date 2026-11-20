@@ -58,7 +58,7 @@ Etanercept er et biologisk legemiddel som blokkerer tumornekrosefaktor (TNF) og 
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Etanercept er kjent som en TNF-hemmer, og effekten bygger på å dempe TNF-drevet betennelse.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Etanercept (uoffisiell oversettelse): «TNF er et naturlig forekommende cytokin som er involvert i normale inflammatoriske responser og immunresponser. Det spiller en viktig rolle i de inflammatoriske prosessene ved RA, polyartikulær JIA, PsA og AS og den resulterende leddpatologien. […] Etanercept er en dimerisk løselig form av p75 TNF-reseptoren som kan binde TNF-molekyler.» Engelsk originaltekst: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), versjon av 2026-05-11; hentet 2026-11-19). Etanercept er kjent som en TNF-hemmer, og effekten bygger på å dempe TNF-drevet betennelse.
 
 Hypermobilitet i halebenet er først og fremst en mekanisk og strukturell tilstand. Det er ikke påvist noen TNF-drevet mekanisme som kan forklare en nytteeffekt her. Den høye modellscoren (0,9963) er en ren modellprediksjon uten støtte i biologiske eller kliniske data. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
@@ -109,6 +109,19 @@ Prediksjonen bygger kun på en modellscore. Det finnes ingen kliniske studier el
 - En begrunnet hypotese for hvordan TNF-hemming kan påvirke tilstanden.
 - Data om virkningsmekanisme og sikkerhetsopplysninger fra preparatomtalen (advarsler og kontraindikasjoner).
 - Vurdering av administrasjonsvei og dosering for den aktuelle tilstanden.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

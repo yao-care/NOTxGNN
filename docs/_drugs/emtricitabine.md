@@ -56,7 +56,7 @@ men dette støttes foreløpig kun av **1 publikasjon** (veterinær/prekliniske d
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er sammenstilt for denne rapporten. Emtricitabin tilhører klassen nukleosid revers transkriptasehemmere, som stopper forlengelsen av viralt DNA. Felint immunsviktvirus (FIV) er et lentivirus med en revers transkriptase som likner på hiv sin, så en biologisk sammenheng er plausibel.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Emtricitabine (uoffisiell oversettelse): «Emtricitabin er et antiretroviralt legemiddel. […] FTC, en syntetisk nukleosidanalog av cytidin, fosforyleres av cellulære enzymer til emtricitabin-5'-trifosfat (FTC-TP), som hemmer aktiviteten til HIV-1 revers transkriptase (RT) ved å konkurrere med det naturlige substratet deoksycytidin-5'-trifosfat og ved å bli inkorporert i nydannet viralt DNA, noe som resulterer i kjedeterminering. FTC-TP er en svak hemmer av DNA-polymerasene α, β og ε hos pattedyr og av mitokondriell DNA-polymerase γ.» Engelsk originaltekst: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), versjon av 2026-11-06; hentet 2026-11-19). Emtricitabin tilhører klassen nukleosid revers transkriptasehemmere, som stopper forlengelsen av viralt DNA. Felint immunsviktvirus (FIV) er et lentivirus med en revers transkriptase som likner på hiv sin, så en biologisk sammenheng er plausibel.
 
 Den eneste tilgjengelige publikasjonen (2023) undersøker kombinasjonsbehandling med antiretrovirale midler (dolutegravir, tenofovir og emtricitabin) hos FIV-infiserte katter. Studien er indirekte, veterinær og preklinisk, og tittelen alene lar ikke studiedesignet vurderes. Den høye scoren (0,9992) gjenspeiler trolig likheten med hiv-indikasjonen, ikke uavhengig klinisk validering.
 
@@ -104,6 +104,19 @@ Støtten er begrenset til én indirekte veterinærstudie av en kombinasjonsbehan
 - Data om virkningsmekanisme
 - Avklaring av om en veterinær indikasjon er relevant for dette programmet
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

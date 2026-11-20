@@ -58,7 +58,7 @@ Fenfluramin ble opprinnelig godkjent for behandling av myoklonisk epilepsi (mark
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de samlede dataene. Ut fra kjent informasjon er fenfluramin en serotoninfrigjørende substans med aktivitet på sigma-1-reseptoren. Det er etablert som antiepileptisk behandling ved utviklingsrelaterte og epileptiske encefalopatier, som Dravets syndrom og Lennox-Gastauts syndrom. Farmakologidata knytter legemidlet også til enzymene tryptofanhydroksylase 1 og 2 (TPH1 og TPH2), men det finnes ikke offentlig tilgjengelige bioaktivitetsdata som underbygger et primært mål.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fenfluramine (uoffisiell oversettelse): «Den nøyaktige mekanismen som fenfluramin utøver sine terapeutiske effekter gjennom ved behandling av anfall assosiert med Dravets syndrom og Lennox-Gastauts syndrom, er ukjent. Fenfluramin og metabolitten norfenfluramin viser agonistaktivitet ved serotonin 5-HT2-reseptorer.» Engelsk originaltekst: "The precise mechanism by which fenfluramine exerts its therapeutic effects in the treatment of seizures associated with Dravet syndrome and Lennox-Gastaut syndrome is unknown. Fenfluramine and the metabolite, norfenfluramine, exhibit agonist activity at serotonin 5-HT2 receptors." ([DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d), versjon av 2026-10-22; hentet 2026-11-19). Ut fra kjent informasjon er fenfluramin en serotoninfrigjørende substans med aktivitet på sigma-1-reseptoren. Det er etablert som antiepileptisk behandling ved utviklingsrelaterte og epileptiske encefalopatier, som Dravets syndrom og Lennox-Gastauts syndrom. Farmakologidata knytter legemidlet også til enzymene tryptofanhydroksylase 1 og 2 (TPH1 og TPH2), men det finnes ikke offentlig tilgjengelige bioaktivitetsdata som underbygger et primært mål.
 
 16p11.2-mikrodelesjon er forbundet med epilepsi, autismespektertrekk og nevroutviklingsforstyrrelser. Det finnes dermed en plausibel biologisk kobling via serotonerg modulering av nevronal eksitabilitet.
 
@@ -110,6 +110,19 @@ Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier ell
 - Gjennomføre systematisk litteratursøk og søk i studieregistre for fenfluramin ved 16p11.2-mikrodelesjon
 - Vurdere kardiovaskulære risikoer (blant annet pulmonal hypertensjon) i en populasjon med nevroutviklingsforstyrrelser
 - Avklare regulatorisk status og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

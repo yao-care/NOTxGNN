@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **hypoalfalipopro
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon er prukaloprid en selektiv agonist på 5-HT4-reseptoren (HTR4) som stimulerer tarmmotilitet. Effekten ved kronisk forstoppelse er godt dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Prucalopride (uoffisiell oversettelse): «Prukaloprid, en selektiv serotonin type 4 (5-HT 4 )-reseptoragonist, er et gastrointestinalt (GI) prokinetisk middel som stimulerer peristaltikken i tykktarmen (høyamplitude propagerende kontraksjoner [HAPC-er]), noe som øker tarmmotiliteten. Prukaloprid var uten effekter mediert via 5-HT 2A-, 5-HT 2B-, 5-HT 3-, motilin- eller CCK-A-reseptorer in vitro ved konsentrasjoner som oversteg affiniteten for 5-HT 4 -reseptoren med 150 ganger eller mer.» Engelsk originaltekst: "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b), versjon av 2025-07-17; hentet 2026-11-19). Ut fra kjent informasjon er prukaloprid en selektiv agonist på 5-HT4-reseptoren (HTR4) som stimulerer tarmmotilitet. Effekten ved kronisk forstoppelse er godt dokumentert.
 
 Det finnes ingen kjent sammenheng mellom 5-HT4-agonisme og HDL-metabolisme eller lipoproteinregulering. Den høye TxGNN-scoren er en grafbasert prediksjon uten støtte fra studier eller litteratur. Det samme gjelder de øvrige topp-10-prediksjonene, som homozygot familiær hyperkolesterolemi, oral candidiasis, strongyloidiasis og HIV, der det ikke finnes noen troverdig mekanistisk kobling.
 
@@ -128,11 +128,12 @@ Prediksjonen for hypoalfalipoproteinemi bygger kun på modellscore (evidensnivå
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden eneste tillatelse er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
 
 <!-- review:end log -->
 

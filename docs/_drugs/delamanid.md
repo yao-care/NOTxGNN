@@ -54,7 +54,7 @@ Delamanid er et legemiddel mot tuberkulose som brukes ved multiresistent tuberku
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Delamanid er et antimykobakterielt middel, og virkningen er knyttet til tuberkulosebehandling.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Delamanid (uoffisiell oversettelse): «Mycobacterium tuberculosis H37Rv-hemmer» Engelsk originaltekst: "Mycobacterium tuberculosis H37Rv inhibitor" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; hentet 2026-11-19). Delamanid er et antimykobakterielt middel, og virkningen er knyttet til tuberkulosebehandling.
 
 Det er ikke funnet noen plausibel mekanistisk sammenheng mellom delamanids antimykobakterielle virkning og allergisk urticaria. Den eneste identifiserte publikasjonen er en kasuistikk om urticaria og angioødem utløst av piperacillin-tazobaktam, som ikke gjelder delamanid. Prediksjonen er trolig et artefakt av modellen og bør tolkes med stor forsiktighet.
 
@@ -90,6 +90,19 @@ Prediksjonen bygger kun på modellscore uten direkte kliniske studier eller litt
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Prekliniske eller kliniske data som direkte undersøker delamanid ved allergisk urticaria
 - Vurdering av om prediksjonen er et modellartefakt
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

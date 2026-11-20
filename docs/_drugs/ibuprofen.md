@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **akromesomelisk 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i datagrunnlaget. Ibuprofen er kjent som en ikke-selektiv COX-hemmer med antiinflammatorisk og smertestillende effekt. Ved PDA fører COX-hemming til redusert prostaglandinsyntese, som igjen fremmer lukking av ductus.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ibuprofen (uoffisiell oversettelse): «Ibuprofen har analgetiske, antiinflammatoriske og antipyretiske egenskaper. Virkningsmekanismen til CALDOLOR er, i likhet med andre NSAIDs, ikke fullstendig klarlagt, men involverer hemming av syklooksygenase (COX-1 og COX-2).» Engelsk originaltekst: "Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684), versjon av 2026-01-29; hentet 2026-11-19). Ibuprofen er kjent som en ikke-selektiv COX-hemmer med antiinflammatorisk og smertestillende effekt. Ved PDA fører COX-hemming til redusert prostaglandinsyntese, som igjen fremmer lukking av ductus.
 
 Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjelden genetisk skjelettsykdom forårsaket av funksjonstapsmutasjoner i CDMP1/GDF5, som påvirker beinvekst. Ibuprofen virker ikke på GDF5/BMP-signalveien, og det er ikke identifisert noen troverdig mekanistisk kobling til den opprinnelige indikasjonen. Den høye TxGNN-scoren (0,9974) er kun en prediksjon fra TxGNN-modellen (dyp læring). Ved ytterligere bruk kan ibuprofen i beste fall gi symptomatisk smertelindring, noe som ikke er en sykdomsmodifiserende indikasjon.
 
@@ -121,6 +121,19 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og
 - Preparatomtale med advarsler og kontraindikasjoner fra den relevante godkjenningsmyndigheten
 - Prekliniske eller mekanistiske studier som viser en mulig effekt på GDF5/BMP-signalveien eller på sykdomsforløpet
 - Vurdering av om symptomatisk smertelindring er det eneste realistiske bruksområdet, og i så fall om dette er relevant som repurposing-mål
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

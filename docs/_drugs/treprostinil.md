@@ -62,7 +62,7 @@ Dette støttes foreløpig av **19 publikasjoner** (hovedsakelig små kohortstudi
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er treprostinil et syntetisk prostacyklinanalogt stoff. Farmakologidata viser at det binder seg til prostanoidreseptorer, blant annet IP-reseptoren (PTGIR) samt EP1–EP4 og DP1. Prostacyklinbanen gir vasodilatasjon i lungekretsløpet, hemmer blodplateaggregasjon og motvirker proliferasjon av glatt muskulatur.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Treprostinil (uoffisiell oversettelse): «Treprostinil er en prostasyklinanalog. De viktigste farmakologiske virkningene av treprostinil er direkte vasodilatasjon av pulmonale og systemiske arterielle karsenger samt hemming av blodplateaggregasjon.» Engelsk originaltekst: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), versjon av 2026-04-14; hentet 2026-11-19). Basert på kjent informasjon er treprostinil et syntetisk prostacyklinanalogt stoff. Farmakologidata viser at det binder seg til prostanoidreseptorer, blant annet IP-reseptoren (PTGIR) samt EP1–EP4 og DP1. Prostacyklinbanen gir vasodilatasjon i lungekretsløpet, hemmer blodplateaggregasjon og motvirker proliferasjon av glatt muskulatur.
 
 Pulmonal hypertensjon, som er den opprinnelige indikasjonen, omfatter PAH. PAH-CHD er en undergruppe av PAH (gruppe 1) og deler den samme patofysiologien: vaskulær remodellering, vasokonstriksjon og økt pulmonal vaskulær motstand. Den mekanistiske sammenhengen med den godkjente indikasjonen er derfor sterk.
 
@@ -129,6 +129,19 @@ PAH-CHD er en undergruppe av den godkjente indikasjonen (PAH), og mekanismen pas
 
 **Andre prediksjoner (kort oversikt):**
 - **Pulmonal arteriovenøs malformasjon, hypotrikose, medfødt hypotrikose milia, misdannelsessyndrom med tann-/periodontal komponent og Ambras hypertrikose** (L5, Hold): ingen støtte eller plausibel mekanisme; trolig grafartefakter.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -58,7 +58,7 @@ Pentosanpolysulfat er et sulfatert polysakkarid som opprinnelig ble godkjent for
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er pentosanpolysulfat et sulfatert polysakkarid med svak heparinlignende antikoagulerende og antitrombotisk aktivitet. Effekten ved interstitiell cystitt er knyttet til en annen virkning (beskyttelse av blæreslimhinnen), og denne har ingen åpenbar sammenheng med blodplatefunksjon.
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pentosan Polysulfate (uoffisiell oversettelse): «Virkningsmekanismen til pentosanpolysulfatnatrium ved interstitiell cystitt er ikke kjent.» Engelsk originaltekst: "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593), versjon av 2024-09-18; hentet 2026-11-19). Basert på kjent informasjon er pentosanpolysulfat et sulfatert polysakkarid med svak heparinlignende antikoagulerende og antitrombotisk aktivitet. Effekten ved interstitiell cystitt er knyttet til en annen virkning (beskyttelse av blæreslimhinnen), og denne har ingen åpenbar sammenheng med blodplatefunksjon.
 
 En frigjøringsforstyrrelse i blodplater er en blødningsforstyrrelse. Et middel med antikoagulerende egenskaper ville teoretisk forventes å forverre blødningstendensen, ikke behandle den. Den høye TxGNN-scoren (0,9971) er en beregnet prediksjon uten klinisk støtte, og effektretningen er trolig motsatt av terapeutisk nytte.
 
@@ -128,11 +128,12 @@ Prediksjonene bygger kun på en grafmodell uten kliniske studier eller litteratu
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og godkjenningen i Norge er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Indikasjonen er dessuten veterinær og har liten relevans for humant bruk.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i det innsamlede datagrunnlaget. Rilpivirin er likevel kjent som en NNRTI som hemmer HIV-1 revers transkriptase. Effekten ved HIV-infeksjon er etablert, og legemidlet inngår i flere kombinasjonsprodukter (blant annet med emtricitabin og tenofovir, og med dolutegravir eller kabotegravir).
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Rilpivirine (uoffisiell oversettelse): «Rilpivirin er et antiviralt legemiddel. […] Rilpivirin er en diarylpyrimidin ikke-nukleosid revers transkriptasehemmer (NNRTI) av humant immunsviktvirus type 1 (HIV-1) og hemmer HIV-1-replikasjon ved ikke-kompetitiv hemming av HIV-1 revers transkriptase (RT). Rilpivirin hemmer ikke de humane cellulære DNA-polymerasene α, β og γ.» Engelsk originaltekst: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), versjon av 2025-08-28; hentet 2026-11-19). Rilpivirin er likevel kjent som en NNRTI som hemmer HIV-1 revers transkriptase. Effekten ved HIV-infeksjon er etablert, og legemidlet inngår i flere kombinasjonsprodukter (blant annet med emtricitabin og tenofovir, og med dolutegravir eller kabotegravir).
 
 Katte-immunsviktvirus (FIV) er et lentivirus som er i slekt med HIV. Det gir en plausibel mekanisme på klasseivå. En studie fra 2023 (PMID 38031646) sammenlignet NNRTI-er, inkludert rilpivirin, biokjemisk og strukturelt mot revers transkriptase fra FIV og HIV. Revers transkriptase hos FIV er imidlertid strukturelt forskjellig fra den hos HIV-1, og NNRTI-er har generelt begrenset aktivitet mot den. Det finnes ingen data fra dyr eller klinikk.
 
@@ -85,7 +85,6 @@ For toppindikasjonen (felint ervervet immunsviktsyndrom) er det for øyeblikket 
 ---
 
 ## Markedsinformasjon for Norge
-
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -123,6 +122,19 @@ Evidensen er kun preklinisk (L4), og indikasjonen er veterinær med begrenset bi
 - Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig før sikkerhetsscreening
 - In vitro- og in vivo-data som viser faktisk aktivitet mot FIV revers transkriptase
 - En avklaring av om en veterinær indikasjon er relevant for prosjektets formål, eller om en human indikasjon bør prioriteres
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

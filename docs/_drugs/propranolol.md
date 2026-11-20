@@ -58,7 +58,7 @@ Propranolol er en ikke-selektiv betablokker som i Norge er godkjent for behandli
 
 ## Hvorfor er prediksjonen rimelig?
 
-Data om legemidlets virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Ifølge farmakologidata virker propranolol på β2- og β3-adrenoseptorer. Det er en ikke-selektiv betablokker, som ved hemangiom antas å virke via antiproliferative og antiangiogene effekter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Propranolol (uoffisiell oversettelse): «Mekanismen for den antihypertensive effekten av propranolol er ikke fastslått. Blant faktorene som bidrar til den antihypertensive virkningen er: redusert hjerteminuttvolum, hemming av reninfrigjøring fra nyrene og reduksjon av tonisk sympatisk nerveaktivitet fra vasomotoriske sentre i hjernen.» Engelsk originaltekst: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), versjon av 2026-08-27; hentet 2026-11-19). Ifølge farmakologidata virker propranolol på β2- og β3-adrenoseptorer. Det er en ikke-selektiv betablokker, som ved hemangiom antas å virke via antiproliferative og antiangiogene effekter.
 
 Distal myopati av Tateyama-type er en sjelden caveolinopati (CAV3-relatert). Det er ikke etablert noen plausibel mekanisme for betablokade ved denne sykdommen, og koblingen til hemangiom er spekulativ. Den høye modellscoren bør derfor ikke tolkes som klinisk støtte.
 
@@ -148,6 +148,19 @@ Data fra preparatomtalen er ikke tilgjengelige i datagrunnlaget. Se preparatomta
 - Utføre en systematisk litteratur- og mekanismegjennomgang for CAV3-relaterte myopatier og betaadrenerg signalering
 - Vurdere prioritering av kardiomyopati og cirrotisk kardiomyopati som alternative kandidater, inkludert bekreftelse av studiedesign for de identifiserte artiklene
 - Avklare markedsstatus i Norge, siden den eneste godkjenningen er kansellert, og vurdere administrasjonsvei og formulering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

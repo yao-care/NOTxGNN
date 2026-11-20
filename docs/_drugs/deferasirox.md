@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **HIV-infeksjon**, men 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Deferasirox er kjent som en jernchelator, og effekten ved jernoverskudd er etablert. Mekanistisk kan jernets rolle i virusbiologi gjøre en ny anvendelse tenkelig.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Deferasirox (uoffisiell oversettelse): «Exjade (deferasiroks) er en oralt aktiv kelator som er selektiv for jern (som Fe 3+ ). Det er en tridentat ligand som binder jern med høy affinitet i forholdet 2:1. Selv om deferasiroks har svært lav affinitet for sink og kobber, ses varierende reduksjoner i serumkonsentrasjonen av disse sporelementene etter administrering av deferasiroks.» Engelsk originaltekst: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), versjon av 2026-01-28; hentet 2026-11-19). Deferasirox er kjent som en jernchelator, og effekten ved jernoverskudd er etablert. Mekanistisk kan jernets rolle i virusbiologi gjøre en ny anvendelse tenkelig.
 
 En studie fra 2021 (PMID 34550543) viser at jern i endolysosomer hemmer Tat-mediert transaktivering av HIV-1 LTR ved å øke Tat-oligomerisering og β-catenin-uttrykk. Koblingen mellom jern og HIV er dermed biologisk plausibel.
 
@@ -116,6 +116,19 @@ Prediksjonen har høy modellscore, men ingen kliniske studier, og den eneste mek
 - Prekliniske data (celle-/dyremodeller) som avklarer om jernchelering hemmer eller fremmer HIV-replikasjon
 - Vurdering av regulatorisk status, siden legemidlet er markedsført med 3 gyldige godkjenninger av 3
 - Sikkerhetsplan for nyre-, lever- og blodtallsovervåking samt interaksjoner, særlig med kortikosteroider og NSAID
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

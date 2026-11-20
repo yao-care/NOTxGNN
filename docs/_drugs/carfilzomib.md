@@ -60,7 +60,7 @@ Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner** for
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er karfilzomib en proteasomhemmer. Effekten ved multippelt myelom er godt dokumentert, og mekanistisk kan den tenkes å være relevant for melanom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Carfilzomib (uoffisiell oversettelse): «Karfilzomib er en tetrapeptid-epoksyketon-proteasomhemmer som bindes irreversibelt til de N-terminale treoninholdige aktive setene i 20S-proteasomet, den proteolytiske kjernepartikkelen i 26S-proteasomet. Karfilzomib hadde antiproliferativ og proapoptotisk aktivitet in vitro i solide og hematologiske tumorceller.» Engelsk originaltekst: "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6), versjon av 2025-06-18; hentet 2026-11-19). Basert på kjent informasjon er karfilzomib en proteasomhemmer. Effekten ved multippelt myelom er godt dokumentert, og mekanistisk kan den tenkes å være relevant for melanom.
 
 Et mulig resonnement er at proteasomhemming gir proteotoksisk stress og apoptose i kreftceller. Dette er likevel ikke testet for CMM7. Subtypen antas å være en familiær form for kutant malignt melanom, og det finnes ingen direkte evidens.
 
@@ -153,11 +153,12 @@ CMM7-prediksjonen bygger kun på TxGNN-modellen (deep learning) (L5), uten klini
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden eneste godkjenning er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->
 

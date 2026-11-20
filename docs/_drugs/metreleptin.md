@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **familiær generalise
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Metreleptin er imidlertid kjent som en rekombinant leptin-analog som virker på leptinreseptorer og korrigerer leptinmangel ved lipodystrofi.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Metreleptin (uoffisiell oversettelse): «Adipocytter lagrer lipider for å dekke brenselbehovet til ikke-adipøst vev under faste. Hos pasienter med generalisert lipodystrofi fører mangelen på fettvev til hypertriglyseridemi og ektopisk fettavleiring i ikke-adipøst vev som lever og muskel, noe som bidrar til metabolske avvik, inkludert insulinresistens. […] MYALEPT (metreleptin) pulver til injeksjonsvæske utøver sin funksjon ved å binde seg til og aktivere den humane leptinreseptoren (ObR), som tilhører klasse I-familien av cytokinreseptorer og signaliserer via JAK/STAT-signalveien.» Engelsk originaltekst: "Adipocytes store lipids to meet the fuel requirements of non-adipose tissues during fasting. In patients with generalized lipodystrophy, the deficiency of adipose tissue leads to hypertriglyceridemia and ectopic deposition of fat in non-adipose tissues such as liver and muscle, contributing to metabolic abnormalities including insulin resistance. […] MYALEPT (metreleptin) for injection exerts its function by binding to and activating the human leptin receptor (ObR), which belongs to the Class I cytokine family of receptors that signals through the JAK/STAT transduction pathway." ([DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc), versjon av 2024-03-25; hentet 2026-11-19). Metreleptin er imidlertid kjent som en rekombinant leptin-analog som virker på leptinreseptorer og korrigerer leptinmangel ved lipodystrofi.
 
 Familiær generalisert lentiginose er en pigmentforstyrrelse uten kjent leptinavhengig signalvei. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige indikasjonen (leptinmangel ved lipodystrofi) og den predikerte indikasjonen. Den høye scoren (0,9971) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den understøttes ikke av biologiske eller kliniske data.
 
@@ -127,12 +127,13 @@ Prediksjonen har evidensnivå L5: kun modellprediksjon uten kliniske studier, li
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Tillatelsen har status avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er den eneste tillatelsen i Norge avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc) |
 
 <!-- review:end log -->
 

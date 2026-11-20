@@ -56,7 +56,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i de inn
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelige i de innsamlede dataene. Lusutrombopag er likevel kjent som en TPO-R-agonist, en legemiddelklasse som stimulerer produksjonen av blodplater i benmargen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lusutrombopag (uoffisiell oversettelse): «Lusutrombopag er en oralt biotilgjengelig småmolekylær TPO-reseptoragonist som interagerer med det transmembrane domenet til humane TPO-reseptorer uttrykt på megakaryocytter, og induserer proliferasjon og differensiering av megakaryocytære progenitorceller fra hematopoetiske stamceller samt modning av megakaryocytter.» Engelsk originaltekst: "Lusutrombopag is an orally bioavailable, small molecule TPO receptor agonist that interacts with the transmembrane domain of human TPO receptors expressed on megakaryocytes to induce the proliferation and differentiation of megakaryocytic progenitor cells from hematopoietic stem cells and megakaryocyte maturation." ([DailyMed: Mulpleta (lusutrombopag) prescribing information, VANCOCIN ITALIA SRL](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a390aec3-6e77-45f8-95d3-d4b8c2eeee40), versjon av 2025-12-09; hentet 2026-11-19). Lusutrombopag er likevel kjent som en TPO-R-agonist, en legemiddelklasse som stimulerer produksjonen av blodplater i benmargen.
 
 Mekanismen kan i prinsippet være relevant ved arvelige former for trombocytopeni der blodplateproduksjonen er redusert. Det er imidlertid en svakhet at den predikerte tilstanden er definert ved normale blodplatetall eller normal funksjon. Det mekanistiske grunnlaget er derfor svakt, og den høye prediksjonsscoren er kun en modellberegning uten støtte fra studier eller litteratur.
 
@@ -109,6 +109,19 @@ Prediksjonen bygger kun på en modellberegning (evidensnivå L5) uten kliniske s
 - Litteratursøk og gjennomgang av relevante studier for denne arvelige tilstanden
 - Vurdering av om tilstanden faktisk innebærer lave blodplatetall som kan behandles med en TPO-R-agonist
 - Sikkerhetsvurdering, særlig knyttet til risiko for trombose
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mulpleta (lusutrombopag) prescribing information, VANCOCIN ITALIA SRL](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a390aec3-6e77-45f8-95d3-d4b8c2eeee40) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

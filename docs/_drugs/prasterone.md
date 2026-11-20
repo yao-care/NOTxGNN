@@ -60,7 +60,7 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene som e
 
 ## Hvorfor kan prediksjonen være rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig. Prasteron er et endogent steroid-forstadium (DHEA) som omdannes til androgener og østrogener i kroppen. Den opprinnelige indikasjonen er postmenopause, og det finnes ingen kjent direkte mekanistisk kobling til heparinkofaktor II (SERPIND1).
+Ifølge avsnittet «Clinical Pharmacology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Prasterone (uoffisiell oversettelse): «Prasteron er et inaktivt endogent steroid og omdannes til aktive androgener og/eller østrogener. Virkningsmekanismen til INTRAROSA hos postmenopausale kvinner med vulvovaginal atrofi er ikke fullstendig fastslått.» Engelsk originaltekst: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), versjon av 2026-07-17; hentet 2026-11-19). Prasteron er et endogent steroid-forstadium (DHEA) som omdannes til androgener og østrogener i kroppen. Den opprinnelige indikasjonen er postmenopause, og det finnes ingen kjent direkte mekanistisk kobling til heparinkofaktor II (SERPIND1).
 
 Eventuelle mekanismer er spekulative, for eksempel indirekte effekter på koagulasjon eller lipidveier via kjønnshormonsignalering. Den høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -138,11 +138,12 @@ Prediksjonen er utelukkende beregningsbasert (evidensnivå L5) uten støtte fra 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er legemidlet ikke lenger markedsført i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
 
 <!-- review:end log -->
 

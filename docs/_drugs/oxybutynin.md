@@ -61,7 +61,7 @@ Prediksjonen er kun modellbasert (evidensnivå L5).
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Oksybutynin er kjent som en muskarin antagonist med antikolinerg og direkte glattmuskelavslappende (antispasmodisk) effekt, og effekten ved urge-inkontinens er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Oxybutynin (uoffisiell oversettelse): «Oksybutynin relakserer glatt muskulatur i blæren. Oksybutyninklorid har en direkte spasmolytisk effekt på glatt muskulatur og hemmer den muskarine virkningen av acetylkolin på glatt muskulatur. Det forekommer ingen blokkerende effekter i nevromuskulære forbindelser i skjelettmuskulatur eller i autonome ganglier (antinikotinerge effekter).» Engelsk originaltekst: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), versjon av 2026-11-11; hentet 2026-11-19). Oksybutynin er kjent som en muskarin antagonist med antikolinerg og direkte glattmuskelavslappende (antispasmodisk) effekt, og effekten ved urge-inkontinens er etablert.
 
 Restless legs-syndrom (RLS) er hovedsakelig knyttet til jernmangel i hjernen og dysfunksjon i dopaminsystemet. Antikolinerg aktivitet er ikke en etablert behandlingsvei, og antikolinergika kan tvert imot forverre RLS-symptomer eller søvnkvalitet. Det finnes derfor ingen mekanistisk kobling mellom oksybutynin og RLS som støttes av dataene.
 
@@ -149,11 +149,12 @@ Prediksjonen for restless legs-syndrom støttes kun av en datamodell (L5), uten 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske/europeiske tillatelsen trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
 
 <!-- review:end log -->
 

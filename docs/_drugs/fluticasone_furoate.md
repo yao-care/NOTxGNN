@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at det kan ha effekt ved **atopisk eksem** (score 0,999
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig. Basert på kjent informasjon er flutikasonfuroat et høypotent glukokortikoid (agonist på glukokortikoidreseptoren) med antiinflammatorisk effekt. Effekten er etablert ved allergisk rhinitt, astma og KOLS, og kan mekanistisk være relevant for inflammatoriske hudtilstander som atopisk eksem.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fluticasone Furoate (uoffisiell oversettelse): «Flutikasonfuroat er et syntetisk trifluorert kortikosteroid med antiinflammatorisk aktivitet. Flutikasonfuroat har in vitro vist en bindingsaffinitet for den humane glukokortikoidreseptoren som er omtrent 29,9 ganger så høy som for deksametason og 1,7 ganger så høy som for flutikasonpropionat.» Engelsk originaltekst: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440), versjon av 2025-03-06; hentet 2026-11-19). Basert på kjent informasjon er flutikasonfuroat et høypotent glukokortikoid (agonist på glukokortikoidreseptoren) med antiinflammatorisk effekt. Effekten er etablert ved allergisk rhinitt, astma og KOLS, og kan mekanistisk være relevant for inflammatoriske hudtilstander som atopisk eksem.
 
 Atopisk eksem, allergisk rhinitt og astma er alle atopiske sykdommer som ofte forekommer sammen, og som deler en allergisk, inflammatorisk komponent. Det gir et biologisk rimelig utgangspunkt for prediksjonen.
 
@@ -141,6 +141,19 @@ Prediksjonen for atopisk eksem bygger kun på modellscore (L5). Det finnes ingen
 - Vurdering av formuleringsmuligheter og administrasjonsvei, siden dagens produkter er inhalasjon/nesespray
 - Avklaring av regulatorisk status i Norge, siden alle godkjenninger er kansellert
 - Vurdering av risiko for systemisk eksponering og binyrebarksuppresjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

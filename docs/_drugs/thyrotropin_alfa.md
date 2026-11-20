@@ -60,7 +60,7 @@ Prediksjonen bygger kun på TxGNN-modellen (dyp læring) og er ikke støttet av 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er thyrotropin alfa rekombinant humant TSH, som virker på TSH-reseptorer i skjoldbruskkjertelvev. Legemidlet brukes ved skjoldbruskkjertelkreft til å stimulere opptak av radiojod og tyreoglobulinfrigjøring.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Thyrotropin Alfa (uoffisiell oversettelse): «Tyrotropin (TSH) er et hypofysehormon som stimulerer skjoldbruskkjertelen til å produsere tyreoideahormon. Binding av tyrotropin alfa til TSH-reseptorer på normale tyreoideaepitelceller eller på vev fra høyt differensiert tyreoideakreft stimulerer jodopptak og organifisering samt syntese og sekresjon av tyreoglobulin (Tg), trijodtyronin (T3) og tyroksin (T4).» Engelsk originaltekst: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), versjon av 2023-02-24; hentet 2026-11-19). Basert på kjent informasjon er thyrotropin alfa rekombinant humant TSH, som virker på TSH-reseptorer i skjoldbruskkjertelvev. Legemidlet brukes ved skjoldbruskkjertelkreft til å stimulere opptak av radiojod og tyreoglobulinfrigjøring.
 
 Det er ingen etablert mekanistisk kobling til migrenepatofysiologi (CGRP, kortikal spredningsdepresjon, trigeminovaskulær aktivering). Den høye scoren (0,9998) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -125,6 +125,19 @@ Prediksjonen for migrene støttes kun av en score fra TxGNN-modellen (dyp lærin
 - Prekliniske eller mekanistiske studier som kan belyse en mulig kobling mellom TSH-reseptorstimulering og migrenepatofysiologi
 - En vurdering av administrasjonsvei og formulering (kompatibilitet er ikke vurdert)
 - Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

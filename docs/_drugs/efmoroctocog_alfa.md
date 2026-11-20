@@ -59,7 +59,7 @@ Efmoroctocog alfa er et rekombinant FVIII-Fc-fusjonsprotein (Elocta) som opprinn
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Basert på kjent informasjon er efmoroctocog alfa et rekombinant FVIII som er koblet til en Fc-del for lengre halveringstid. Effekten ved hemofili A er godt dokumentert, fordi legemidlet erstatter manglende faktor VIII.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Efmoroctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er efmoroctocog alfa et rekombinant FVIII som er koblet til en Fc-del for lengre halveringstid. Effekten ved hemofili A er godt dokumentert, fordi legemidlet erstatter manglende faktor VIII.
 
 Pseudo-von Willebrands sykdom er en blodplatesykdom som skyldes en gain-of-function-mutasjon i GP1BA, noe som øker blodplatenes affinitet for VWF. FVIII-erstatning korrigerer ikke denne blodplatedefekten. Koblingen hviler derfor kun på TxGNN-grafprediksjonen og har ingen klar mekanistisk begrunnelse.
 
@@ -121,6 +121,19 @@ Prediksjonene støttes kun av TxGNN-modellen (L5), uten kliniske studier eller l
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Systematisk litteratur- og studiesøk for «ervervet koagulasjonsfaktormangel», som er den biologisk mest plausible kandidaten
 - Avklaring av tilgjengelighet, siden markedsstatus er «Cancelled only»
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -62,7 +62,7 @@ og dette støttes foreløpig av **2 kliniske studier** (inkludert én fullført 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelige. Basert på kjent informasjon hemmer tacrolimus kalsineurin, noe som blokkerer NFAT-avhengig T-celleaktivering og produksjonen av IL-2 og andre proinflammatoriske cytokiner.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tacrolimus (uoffisiell oversettelse): «Takrolimus bindes til et intracellulært protein, FKBP-12. Et kompleks av takrolimus-FKBP-12, kalsium, kalmodulin og kalsineurin (et allestedsnærværende intracellulært enzym hos pattedyr) dannes deretter, og fosfataseaktiviteten til kalsineurin hemmes.» Engelsk originaltekst: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), versjon av 2025-02-26; hentet 2026-11-19). Basert på kjent informasjon hemmer tacrolimus kalsineurin, noe som blokkerer NFAT-avhengig T-celleaktivering og produksjonen av IL-2 og andre proinflammatoriske cytokiner.
 
 Seboreisk dermatitt er en kronisk, relapserende betennelsestilstand i huden, med en T-cellemediert og cytokindrevet komponent som delvis utløses av gjær av slekten *Malassezia*. Atopisk dermatitt, som tacrolimus allerede er godkjent for, har en tilsvarende betennelsesmekanisme. Koblingen er derfor mekanistisk plausibel.
 
@@ -97,7 +97,6 @@ Topisk bruk gir i tillegg antiinflammatorisk effekt uten hudatrofien som forbind
 ---
 
 ## Markedsinformasjon for Norge
-
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -135,6 +134,19 @@ Det finnes en fullført fase 3-studie og en fase 4-studie direkte på seboreisk 
 ---
 
 *Merknad om øvrige prediksjoner:* Parapsoriasis (score 0,9924, kun kasuistikker, evidensnivå L4) er et forskningsspørsmål og ikke modent for beslutning. Generell «dermatitt» er ikke en prediksjon på denne siden, siden den domineres av den allerede godkjente indikasjonen atopisk dermatitt og derfor ikke er en reell ny indikasjon.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

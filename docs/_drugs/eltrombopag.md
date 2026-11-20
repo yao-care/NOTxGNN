@@ -60,7 +60,7 @@ Evidensen består av **1 klinisk studie** (avsluttet i förtid, uten bekreftet H
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) var ikke tilgjengelig i datamaterialet som er samlet inn for denne rapporten. Basert på kjent farmakologi er eltrombopag en trombopoietinreseptoragonist (TPO-R) som stimulerer megakaryocyttenes proliferasjon og differensiering, og dermed øker antall blodplater og andre blodceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Eltrombopag (uoffisiell oversettelse): «Eltrombopag er en TPO-reseptoragonist som interagerer med det transmembrane domenet til den humane TPO-reseptoren (også kjent som cMpl) og initierer signalkaskader som induserer proliferasjon og differensiering av megakaryocytter, noe som fører til økt blodplateproduksjon.» Engelsk originaltekst: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versjon av 2026-05-20; hentet 2026-11-19). Basert på kjent farmakologi er eltrombopag en trombopoietinreseptoragonist (TPO-R) som stimulerer megakaryocyttenes proliferasjon og differensiering, og dermed øker antall blodplater og andre blodceller.
 
 Koblingen til HIV er indirekte. Legemidlet kan behandle HIV-assosiert trombocytopeni (inkludert refraktær HIV-relatert immuntrombocytopeni) og HIV-assosiert aplastisk anemi ved å øke celletallene, ikke ved å virke på viruset. Den høye TxGNN-scoren (0,9926) er en beregnet prediksjon og gjenspeiler sannsynligvis den kjente sammenhengen med HIV-relaterte cytopenier snarere enn antiviral effekt.
 
@@ -129,6 +129,19 @@ Evidensen for HIV består i hovedsak av kasuistikker, oversikter og en preklinis
 - Presisere om den aktuelle indikasjonen er HIV-assosiert trombocytopeni/aplastisk anemi eller antiviral bruk, og definere denne som et konkret forskningsspørsmål
 - Avklare regulatorisk status i Norge, siden den eneste registrerte godkjenningen er kansellert
 - Vurdere leverfunksjon og risiko for levertoksisitet og trombose, gitt kontraindikasjonssignalene fra kunnskapsgrafen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

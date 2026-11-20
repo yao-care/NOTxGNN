@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Romiplostim binder seg til TPO-reseptoren (MPL) og øker produksjonen av blodplater. Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene, men målet (MPL) er bekreftet i farmakologidata.
+Romiplostim binder seg til TPO-reseptoren (MPL) og øker produksjonen av blodplater. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Romiplostim (uoffisiell oversettelse): «Nplate øker blodplateproduksjonen gjennom binding til og aktivering av TPO-reseptoren, en mekanisme analog med endogent TPO.» Engelsk originaltekst: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), versjon av 2026-06-23; hentet 2026-11-19).
 
 Den predikerte sykdommen er en funksjonsforstyrrelse av blodplatene, ikke en mangel på antall. Å øke antallet blodplater korrigerer vanligvis ikke funksjonsdefekter, og nydannede blodplater vil bære den samme defekten. Den eneste funnede publikasjonen (PMID 25682608) gjelder autoantistoffers hemming av blodplatedannelse ved ITP, som er den allerede godkjente indikasjonen. Den mekanistiske begrunnelsen er derfor svak, og den svært høye TxGNN-scoren må tolkes som en ren prediksjon.
 
@@ -142,12 +142,13 @@ Den predikerte indikasjonen mangler kliniske studier og direkte litteratur, og m
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske godkjenningen opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Avklaring av hvorfor den norske godkjenningen er opphevet, og av dagens reguleringsstatus» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
 
 <!-- review:end log -->
 

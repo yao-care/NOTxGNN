@@ -54,7 +54,7 @@ Cemiplimab er et antistoff som blokkerer PD-1, og det er markedsført i Norge un
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Det som er kjent, er at cemiplimab er et monoklonalt antistoff som binder det humane PD-1-reseptorproteinet (PDCD1, CD279) og blokkerer samspillet mellom PD-1 og PD-L1, med en IC50 under 1 nM i en ELISA-analyse. Dermed kan T-cellenes immunrespons mot svulsten gjenopprettes.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cemiplimab (uoffisiell oversettelse): «Binding av PD-1-ligandene PD-L1 og PD-L2 til PD-1-reseptoren på T-celler hemmer T-celleproliferasjon og cytokinproduksjon. Oppregulering av PD-1-ligander forekommer i enkelte tumorer, og signalering via denne signalveien kan bidra til hemming av aktiv immunovervåking av tumorer via T-celler. […] Cemiplimab-rwlc er et rekombinant humant monoklonalt immunglobulin G4 (IgG4)-antistoff som bindes til PD-1 og blokkerer dets interaksjon med PD-L1 og PD-L2, og opphever dermed PD-1-signalveismediert hemming av immunresponsen, inkludert antitumor-immunresponsen.» Engelsk originaltekst: "Binding of the PD-1 ligands PD-L1 and PD-L2 to the PD-1 receptor found on T cells inhibits T-cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a), versjon av 2026-08-31; hentet 2026-11-19). Det som er kjent, er at cemiplimab er et monoklonalt antistoff som binder det humane PD-1-reseptorproteinet (PDCD1, CD279) og blokkerer samspillet mellom PD-1 og PD-L1, med en IC50 under 1 nM i en ELISA-analyse. Dermed kan T-cellenes immunrespons mot svulsten gjenopprettes.
 
 Galleblæreadenoskvamøst karsinom er en sjelden blandet histologi med en plateepitelkomponent. Et tenkelig resonnement er at PD-1-blokade kan overføres til plateepitelkomponenten, siden legemidlet allerede har dokumentert effekt ved plateepitelkarsinom i huden. Dette er imidlertid kun en ekstrapolering. Prediksjonen bygger på modellscoren alene, og det finnes ingen kliniske data som bekrefter at mekanismen virker i denne svulsttypen.
 
@@ -113,6 +113,18 @@ Prediksjonen støttes bare av modellscoren (evidensnivå L5). Det finnes ingen k
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Vurdering av PD-L1-uttrykk og andre biomarkører i denne svulsttypen
 - Plan for en eventuell liten eksplorativ studie, dersom tidlige data støtter videre arbeid
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

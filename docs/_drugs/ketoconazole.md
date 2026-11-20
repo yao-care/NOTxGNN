@@ -60,7 +60,7 @@ men støtten er foreløpig svak: **1 klinisk studie** (aktiv, ikke rekrutterende
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) for legemidlet er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent farmakologi hemmer ketokonazol soppenzymet CYP51 (ergosterolsyntese), og i høyere doser også humane steroidogene enzymer (CYP17A1, CYP11A1, CYP11B1). Dette senker produksjonen av androgener og kortisol, og forklarer bruken ved Cushings syndrom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ketoconazole (uoffisiell oversettelse): «Ketokonazol blokkerer syntesen av ergosterol, en sentral komponent i soppcellemembranen, gjennom hemming av det cytokrom P-450-avhengige enzymet lanosterol-14α-demetylase, som er ansvarlig for omdannelsen av lanosterol til ergosterol i soppcellemembranen. Dette fører til en akkumulering av metylerte sterolforløpere og en uttømming av ergosterol i cellemembranen, noe som svekker strukturen og funksjonen til soppcellemembranen.» Engelsk originaltekst: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), versjon av 2025-11-18; hentet 2026-11-19). Ut fra kjent farmakologi hemmer ketokonazol soppenzymet CYP51 (ergosterolsyntese), og i høyere doser også humane steroidogene enzymer (CYP17A1, CYP11A1, CYP11B1). Dette senker produksjonen av androgener og kortisol, og forklarer bruken ved Cushings syndrom.
 
 Redusert androgensignalering kan i teorien redusere talgproduksjonen ved androgendrevet akne, for eksempel ved hyperandrogene tilstander som PCOS. Ved lokal bruk kan den antisoppvirkningen mot *Malassezia* (*Pityrosporum*) og en mild antiinflammatorisk effekt være nyttig ved akneliknende eller follikulære utbrudd der gjær spiller en rolle. Laboratoriestudier viser også at ketokonazol hemmer vekst og lipaseaktivitet hos *Propionibacterium acnes*.
 
@@ -141,11 +141,12 @@ Evidensen er på nivå L4: én liten, ikke-faset studie uten publiserte resultat
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Den eneste norske/europeiske godkjenningen er opphevet, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

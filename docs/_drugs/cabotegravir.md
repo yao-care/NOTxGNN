@@ -58,7 +58,7 @@ Kabotegravir er en integrasehemmer som opprinnelig brukes til behandling og fore
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Kabotegravir er kjent som en HIV-integrase-strengoverføringshemmer (INSTI), og effekten ved HIV er godt etablert.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cabotegravir (uoffisiell oversettelse): «Kabotegravir er et antiretroviralt legemiddel mot HIV-1. […] Kabotegravir hemmer HIV-integrase ved å binde seg til integrasens aktive sete og blokkere trådoverføringstrinnet i integrasjonen av retroviral deoksyribonukleinsyre (DNA), som er avgjørende for HIVs replikasjonssyklus. Gjennomsnittlig 50 % hemmende konsentrasjon (IC 50 ) for kabotegravir i en trådoverføringsanalyse med renset rekombinant HIV-1-integrase var 3,0 nM.» Engelsk originaltekst: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), versjon av 2025-04-11; hentet 2026-11-19). Kabotegravir er kjent som en HIV-integrase-strengoverføringshemmer (INSTI), og effekten ved HIV er godt etablert.
 
 Revmatoid artritt er en autoimmun sykdom drevet av cytokiner og betennelse i synovialvev. Det finnes ingen kjent mekanisme som kobler hemming av HIV-integrase til disse prosessene. Den høye TxGNN-scoren (0,9945) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
@@ -138,11 +138,12 @@ Prediksjonen for revmatoid artritt bygger utelukkende på en modellscore uten kl
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden begge godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
 
 <!-- review:end log -->
 

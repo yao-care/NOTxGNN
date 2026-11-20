@@ -62,7 +62,7 @@ Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C-nu
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Fentanyl er kjent som en mu-opioidagonist, og effekten ved smerte, inkludert gjennombruddssmerte hos kreftpasienter, er veletablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Fentanyl (uoffisiell oversettelse): «Fentanylsitrat injeksjonsvæske er en opioidagonist, hvis viktigste virkninger av terapeutisk verdi er analgesi og sedasjon.» Engelsk originaltekst: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), versjon av 2026-10-23; hentet 2026-11-19). Fentanyl er kjent som en mu-opioidagonist, og effekten ved smerte, inkludert gjennombruddssmerte hos kreftpasienter, er veletablert.
 
 NSIAD skyldes gain-of-function-mutasjoner i vasopressin V2-reseptoren (AVPR2), som gir vannretensjon uavhengig av vasopressin. Fentanyl har ingen kjent direkte virkning på V2-reseptoren eller nyrenes vannhåndtering. Opioider kan dessuten påvirke vasopressinfrisetting sentralt og gi SIADH-lignende effekter, noe som ville forverret snarere enn behandlet antidiurese.
 
@@ -134,11 +134,12 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske stud
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Fentanyl har dessuten betydelige sikkerhetsrisikoer, mange interaksjoner, og kun avregistrerte godkjenninger i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

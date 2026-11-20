@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **retinal dystrofi med
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Ut fra farmakologiske data virker asenapin på flere reseptorer: serotonin 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E og 5-HT2A, dopamin D2 og histamin H1. Dette er en typisk profil for et atypisk antipsykotikum, med sterkere affinitet for 5-HT2A enn for D2.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Asenapine (uoffisiell oversettelse): «Virkningsmekanismen til asenapin ved schizofreni og bipolar lidelse type I er ukjent. Det er foreslått at effekten av asenapin ved schizofreni kan være mediert gjennom en kombinasjon av antagonistaktivitet ved D 2- og 5-HT 2A-reseptorer.» Engelsk originaltekst: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), versjon av 2025-01-31; hentet 2026-11-19). Ut fra farmakologiske data virker asenapin på flere reseptorer: serotonin 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E og 5-HT2A, dopamin D2 og histamin H1. Dette er en typisk profil for et atypisk antipsykotikum, med sterkere affinitet for 5-HT2A enn for D2.
 
 Det er ikke påvist noen mekanistisk sammenheng mellom denne reseptorprofilen og arvelig retinal dystrofi. Den høye modellscoren (0,9977) er en beregnet prediksjon uten støtte i studier eller publikasjoner. Forholdet mellom den opprinnelige og den nye indikasjonen er ikke vurdert (ikke fastslått), og ruteforenlighet er heller ikke vurdert.
 
@@ -153,12 +153,13 @@ Prediksjonen for retinal dystrofi bygger utelukkende på modellscoren (evidensni
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske tillatelsen trukket tilbake, og k» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
 
 <!-- review:end log -->
 

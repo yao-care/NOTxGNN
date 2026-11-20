@@ -61,7 +61,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Regadenoson er kjent som en selektiv A2A-adenosinreseptoragonist, og dataene viser også binding til A1-, A2B- og A3-reseptorer. Effekten er godt dokumentert for koronar vasodilatasjon ved myokardperfusjonsavbildning.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Regadenoson (uoffisiell oversettelse): «Regadenoson er en agonist med lav affinitet (K i ≈ 1,3 µM) for A 2A -adenosinreseptoren, med minst 10 ganger lavere affinitet for A 1 -adenosinreseptoren (K i > 16,5 µM), og svak, om noen, affinitet for A 2B - og A 3 -adenosinreseptorene. Aktivering av A 2A -adenosinreseptoren av regadenoson gir koronar vasodilatasjon og øker koronar blodstrøm (CBF).» Engelsk originaltekst: "Regadenoson is a low affinity agonist (K i ≈ 1.3 µM) for the A 2A adenosine receptor, with at least 10-fold lower affinity for the A 1 adenosine receptor (K i > 16.5 µM), and weak, if any, affinity for the A 2B and A 3 adenosine receptors. Activation of the A 2A adenosine receptor by regadenoson produces coronary vasodilation and increases coronary blood flow (CBF)." ([DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16), versjon av 2018-12-21; hentet 2026-11-19). Regadenoson er kjent som en selektiv A2A-adenosinreseptoragonist, og dataene viser også binding til A1-, A2B- og A3-reseptorer. Effekten er godt dokumentert for koronar vasodilatasjon ved myokardperfusjonsavbildning.
 
 Den teoretiske koblingen til anafylaksi er at A2A-signalering generelt har antiinflammatoriske effekter og kan dempe aktivering av mastceller og andre immunceller i prekliniske modeller. Samtidig kan adenosinreseptoraktivitet på mastceller (særlig A2B og A3) fremme degranulering, så effektretningen er usikker. Legemidlets vasodilaterende og blodtrykkssenkende virkning kan dessuten forverre hemodynamikken ved anafylaksi.
 
@@ -130,11 +130,12 @@ Prediksjonen er kun beregningsbasert (evidensnivå L5) uten kliniske studier ell
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16) |
 
 <!-- review:end log -->
 

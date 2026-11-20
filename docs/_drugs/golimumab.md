@@ -58,7 +58,7 @@ Golimumab er et biologisk legemiddel som hemmer TNF (tumornekrosefaktor). Modell
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Golimumab er et monoklonalt antistoff som er kjent for å hemme TNF, og tilhører klassen TNF-hemmere som brukes ved immunmedierte inflammatoriske sykdommer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Golimumab (uoffisiell oversettelse): «Golimumab er et humant monoklonalt antistoff som bindes til både de løselige og de transmembrane bioaktive formene av humant TNFα. Denne interaksjonen hindrer binding av TNFα til reseptorene, og hemmer dermed den biologiske aktiviteten til TNFα (et cytokinprotein).» Engelsk originaltekst: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), versjon av 2026-11-02; hentet 2026-11-19). Golimumab er et monoklonalt antistoff som er kjent for å hemme TNF, og tilhører klassen TNF-hemmere som brukes ved immunmedierte inflammatoriske sykdommer.
 
 Hypermobilitet i halebenet er derimot vanligvis en mekanisk eller traumatisk tilstand, ikke en TNF-drevet inflammatorisk sykdom. Koblingen til golimumab er dermed ikke støttet av mekanistiske eller kliniske data. Den høye scoren (0,9967) er en ren modellprediksjon, trolig drevet av nærhet til noder knyttet til spondyloartropati-lignende tilstander.
 
@@ -112,6 +112,19 @@ Prediksjonen bygger kun på en modellscore, uten kliniske studier eller publikas
 - Preparatomtale med advarsler og kontraindikasjoner
 - Mekanistisk begrunnelse og prekliniske eller kliniske data som direkte omhandler hypermobilitet i halebenet
 - Vurdering av administrasjonsvei og aktuell pasientgruppe
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

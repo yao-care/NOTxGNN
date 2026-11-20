@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **dermatitt**. Evidensen best
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon blokkerer risankizumab IL-23 (p19), som driver Th17/Th22-betennelse ved psoriasis, og dette kan også bidra ved enkelte former for dermatitt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Risankizumab (uoffisiell oversettelse): «Risankizumab-rzaa er et humanisert monoklonalt IgG1-antistoff som selektivt bindes til p19-subenheten av humant IL-23-cytokin og hemmer dets interaksjon med IL-23-reseptoren. IL-23 er et naturlig forekommende cytokin som er involvert i inflammatoriske og immunologiske responser.» Engelsk originaltekst: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), versjon av 2026-10-23; hentet 2026-11-19). Basert på kjent informasjon blokkerer risankizumab IL-23 (p19), som driver Th17/Th22-betennelse ved psoriasis, og dette kan også bidra ved enkelte former for dermatitt.
 
 Atopisk dermatitt er hovedsakelig Th2-drevet. En fase 2-studie viste ikke klar effekt av IL-23-blokade alene. Rapporter om kombinasjonsbruk med dupilumab ved samtidig atopisk dermatitt og psoriasis tyder på en nisjerolle ved blandet fenotype, snarere enn ved atopisk dermatitt generelt.
 
@@ -134,11 +134,12 @@ Den eneste fullførte RCT-en (fase 2, atopisk dermatitt) viste begrenset effekt,
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «(godkjenningen er annullert)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->
 

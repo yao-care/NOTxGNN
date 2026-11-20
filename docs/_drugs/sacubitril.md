@@ -54,7 +54,7 @@ Sacubitril er en nepriylsinhemmer som brukes sammen med valsartan. TxGNN-modelle
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Sacubitril er en prodrug som gir nepriylsinhemming, noe som øker nivået av natriuretiske peptider. Det gis i kombinasjon med valsartan, en angiotensinreseptorblokker.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for sacubitril and valsartan (kombinasjonspreparat med Sacubitril) (uoffisiell oversettelse): «Sakubitril og valsartan inneholder en neprilysinhemmer, sakubitril, og en angiotensinreseptorblokker, valsartan. Sakubitril og valsartan hemmer neprilysin (nøytral endopeptidase; NEP) via LBQ657, den aktive metabolitten av prodrugen sakubitril, og blokkerer angiotensin II type 1 (AT 1 )-reseptoren via valsartan.» Engelsk originaltekst: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), versjon av 2026-10-30; hentet 2026-11-19). Sacubitril er en prodrug som gir nepriylsinhemming, noe som øker nivået av natriuretiske peptider. Det gis i kombinasjon med valsartan, en angiotensinreseptorblokker.
 
 Sykdommen er en monogen, COL4A1-relatert tilstand med defekter i basalmembran og karintegritet. Ut fra de tilgjengelige dataene finnes det ingen påvist biologisk mekanisme som kobler nepriylsinhemming eller angiotensinreseptorblokkade til denne patologien. Den høye modellscoren er derfor ikke støttet av noe mekanistisk grunnlag i de sammenstilte dataene.
 
@@ -96,6 +96,18 @@ Prediksjonen er kun modellbasert (evidensnivå L5). Ingen studie har undersøkt 
 - Data om virkningsmekanisme (MOA) og en eventuell biologisk kobling til COL4A1-relatert karpatologi
 - Prekliniske studier som direkte undersøker sykdommen
 - Gjennomgang av preparatomtale for advarsler og kontraindikasjoner, særlig med tanke på hypotensjon og hyperkalemi
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

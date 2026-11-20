@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **autosomal recessiv al
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Ravulizumab er likevel kjent som en hemmer av komplementfaktor C5, og effekten ved paroksysmal nattlig hemoglobinuri, en komplementmediert hemolytisk sykdom, er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ravulizumab (uoffisiell oversettelse): «Ravulizumab-cwvz er en terminal komplementhemmer som bindes spesifikt og med høy affinitet til komplementproteinet C5, og hemmer dermed spaltningen av det til C5a (det proinflammatoriske anafylatoksinet) og C5b (den initierende subenheten i membranangrepskomplekset [MAC eller C5b-9]), og forhindrer slik dannelse av MAC. ULTOMIRIS hemmer terminal komplementmediert intravaskulær hemolyse hos pasienter med PNH og komplementmediert trombotisk mikroangiopati (TMA) hos pasienter med aHUS.» Engelsk originaltekst: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), versjon av 2026-10-29; hentet 2026-11-19). Ravulizumab er likevel kjent som en hemmer av komplementfaktor C5, og effekten ved paroksysmal nattlig hemoglobinuri, en komplementmediert hemolytisk sykdom, er etablert.
 
 Datagrunnlaget som er samlet for rapporten, støtter **ikke** en mekanistisk kobling til den predikerte indikasjonen. G6PC3-mangel er en metabolsk defekt i modning av myeloide celler, med økt nøytrofil apoptose og stress i endoplasmatisk retikulum. Den er ikke primært komplementdrevet. TxGNN-scoren er derfor å regne som en ren modellprediksjon.
 
@@ -122,6 +122,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 - Prekliniske eller mekanistiske studier som viser en rolle for komplement (C5) ved den predikerte sykdommen
 - Avklaring av administrasjonsvei og markedsstatus i Norge
 - Vurdering av infeksjonsrisiko (særlig meningokokker) hos nøytropene og immunsvekkede pasienter
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

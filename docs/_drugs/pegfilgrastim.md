@@ -62,7 +62,7 @@ Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C), 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) for pegfilgrastim er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Pegfilgrastim er en pegylert form av filgrastim (G-CSF). Effekten ved nøytropeni hos kreftpasienter er veldokumentert, og legemidlet stimulerer produksjon og modning av nøytrofile granulocytter i benmargen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pegfilgrastim (uoffisiell oversettelse): «Pegfilgrastimpreparater er kolonistimulerende faktor som virker på hematopoetiske celler ved å binde seg til spesifikke celleoverflatereseptorer, og stimulerer dermed proliferasjon, differensiering, determinering og funksjonell aktivering av modne celler.» Engelsk originaltekst: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), versjon av 2026-10-29; hentet 2026-11-19). Pegfilgrastim er en pegylert form av filgrastim (G-CSF). Effekten ved nøytropeni hos kreftpasienter er veldokumentert, og legemidlet stimulerer produksjon og modning av nøytrofile granulocytter i benmargen.
 
 En mulig, men spekulativ, kobling til diabetisk retinopati er at G-CSF mobiliserer benmargsavledede progenitorceller, som kan påvirke reparasjon av retinale kar. Retningen på effekten er imidlertid usikker: G-CSF kan også fremme betennelse og nydannelse av kar (neovaskularisering), noe som kan være skadelig, særlig ved proliferativ sykdom. Koblingen støttes ikke av noen studie eller publikasjon i dataene.
 
@@ -131,6 +131,19 @@ Prediksjonen støttes kun av en høy TxGNN-score (evidensnivå L5). Det finnes i
 - Systematisk litteratur- og studiesøk om G-CSF og diabetisk retinopati, inkludert prekliniske data
 - Vurdere risikoen for pro-angiogene og pro-inflammatoriske effekter i øyet
 - Avklare faktisk markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **primær frigjøringsforstyr
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på generell kunnskap er catridecacog rekombinant faktor XIII A-subenhet. FXIII tverrbinder fibrin og stabiliserer blodproppen, noe som i teorien kan gi en beskjeden støtte nedstrøms ved blodplatesykdommer med svekket sekundær hemostase.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catridecacog (uoffisiell oversettelse): «Koagulasjonsfaktor XIII, eksogent protein» Engelsk originaltekst: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; hentet 2026-11-19). Basert på generell kunnskap er catridecacog rekombinant faktor XIII A-subenhet. FXIII tverrbinder fibrin og stabiliserer blodproppen, noe som i teorien kan gi en beskjeden støtte nedstrøms ved blodplatesykdommer med svekket sekundær hemostase.
 
 Primære frigjøringsforstyrrelser i blodplater skyldes imidlertid oppstrøms avvik i granula eller signalveier, som FXIII ikke korrigerer. Koblingen mellom original og ny indikasjon er derfor spekulativ og hviler utelukkende på modellens prediksjonsscore.
 
@@ -127,12 +127,13 @@ Prediksjonene hviler kun på en modellscore (evidensnivå L5), uten kliniske stu
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Produktet er dessuten kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «ettersom markedsføringstillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
 
 <!-- review:end log -->
 

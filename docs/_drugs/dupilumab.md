@@ -60,7 +60,7 @@ men dette støttes foreløpig bare av **1 klinisk studie** (i et tilstøtende sy
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Dupilumab blokkerer IL-4Rα-underenheten og hemmer dermed både IL-4- og IL-13-signalering, som er kjernen i type 2-betennelse. Denne veien driver eosinofil luftveisbetennelse, slimhypersekresjon og eosinofil «plastic bronchitis». Detaljerte data om virkningsmekanisme fra legemiddeldatabasen mangler i det innsamlede datagrunnlaget, så beskrivelsen bygger på kjent farmakologi.
+Dupilumab blokkerer IL-4Rα-underenheten og hemmer dermed både IL-4- og IL-13-signalering, som er kjernen i type 2-betennelse. Denne veien driver eosinofil luftveisbetennelse, slimhypersekresjon og eosinofil «plastic bronchitis». Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Dupilumab (uoffisiell oversettelse): «Dupilumab er et humant monoklonalt IgG4-antistoff som hemmer signalering via interleukin-4 (IL-4) og interleukin-13 (IL-13) ved å binde seg spesifikt til IL-4Rα-subenheten som deles av reseptorkompleksene for IL-4 og IL-13. Dupilumab hemmer IL-4-signalering via type I-reseptoren og både IL-4- og IL-13-signalering via type II-reseptoren.» Engelsk originaltekst: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), versjon av 2026-04-22; hentet 2026-11-19).
 
 Litteraturen som er knyttet til prediksjonen gjelder hovedsakelig astma (TRAVERSE-forlengelsesstudien og en metaanalyse av randomiserte studier) og type 2-KOLS med kronisk bronkitt-fenotype (reelle kohorter og en indirekte sammenligning med mepolizumab). Det finnes også en oversiktsartikkel om eosinofil pediatrisk «plastic bronchitis». Bare en type 2-/eosinofil undergruppe er sannsynlig å respondere; bronkitt generelt støttes ikke.
 
@@ -123,6 +123,19 @@ Modellscoren er høy, men ingen studier undersøker dupilumab direkte ved bronki
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Detaljerte data om virkningsmekanisme
 - Vurdering av interaksjonsrisiko, særlig med andre immunmodulerende legemidler
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

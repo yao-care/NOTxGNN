@@ -54,7 +54,7 @@ Darunavir er en proteasehemmer som brukes mot HIV-infeksjon. TxGNN-modellen foru
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Darunavir tilhører klassen HIV-1-proteasehemmere. SIV er et lentivirus som er nært beslektet med HIV, så aktivitet mot SIV-protease er mekanistisk plausibelt.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Darunavir (uoffisiell oversettelse): «Darunavir er et antiviralt legemiddel mot HIV-1. […] Darunavir er en hemmer av HIV-1-protease. Det hemmer selektivt spaltingen av HIV-1-kodede Gag-Pol-polyproteiner i infiserte celler, og forhindrer dermed dannelsen av modne viruspartikler.» Engelsk originaltekst: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), versjon av 2025-08-29; hentet 2026-11-19). Darunavir tilhører klassen HIV-1-proteasehemmere. SIV er et lentivirus som er nært beslektet med HIV, så aktivitet mot SIV-protease er mekanistisk plausibelt.
 
 Dette er i praksis en utvidelse av HIV-bruken til en dyremodell hos ikke-menneskelige primater, ikke en reell repurposing mot en ny sykdom. Den høye prediksjonsscoren sier noe om modellens likhetsvurdering, ikke om klinisk dokumentasjon.
 
@@ -97,6 +97,19 @@ Det finnes ingen kliniske studier, og de fire publikasjonene er prekliniske maka
 - Data om virkningsmekanisme (MOA)
 - Preparatomtalens advarsler og kontraindikasjoner
 - En vurdering av om SIV-modeller er relevante for et reelt behov hos mennesker
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

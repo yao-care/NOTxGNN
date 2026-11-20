@@ -59,7 +59,7 @@ Busulfan er et alkylerende cellegiftmiddel som opprinnelig brukes som kondisjone
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i dataene som er samlet for denne rapporten. Basert på kjent informasjon er busulfan et alkylerende middel som brukes som ryggrad i myeloablativ eller dosereduserte kondisjoneringsregimer før allogen stamcelletransplantasjon. Effekten ved transplantasjon er godt etablert, og mekanistisk kan den være anvendelig ved MDS.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Busulfan (uoffisiell oversettelse): «Busulfan er et bifunksjonelt alkyleringsmiddel der to labile metansulfonatgrupper er bundet til motsatte ender av en alkylkjede med fire karbonatomer. I vandige medier hydrolyseres busulfan, slik at metansulfonatgruppene frigjøres.» Engelsk originaltekst: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), versjon av 2026-07-29; hentet 2026-11-19). Basert på kjent informasjon er busulfan et alkylerende middel som brukes som ryggrad i myeloablativ eller dosereduserte kondisjoneringsregimer før allogen stamcelletransplantasjon. Effekten ved transplantasjon er godt etablert, og mekanistisk kan den være anvendelig ved MDS.
 
 Allogen stamcelletransplantasjon er den eneste potensielt kurative behandlingen for MDS. Busulfan fjerner den ondartede klonale bloddannelsen og skaper plass i benmargen slik at donorceller kan feste seg. Dette adresserer direkte den underliggende MDS-patologien. Busulfan kombineres ofte med fludarabin, klofarabin, kladribin eller venetoklaks. Publiserte randomiserte sammenligninger (treosulfan mot busulfan) støtter at busulfan fungerer som referansemiddel for kondisjonering.
 
@@ -167,6 +167,19 @@ Detaljerte data fra preparatomtalen (advarsler og kontraindikasjoner) er ikke ti
 - Avklare regulatorisk status og tilgjengelig produkt i Norge
 - Plan for sikkerhetsovervåking, inkludert målstyrt dosering, benmargssuppresjon, veno-okklusiv leversykdom og langtidsrisiko
 - Verifisere de kunnskapsgrafbaserte kontraindikasjonene mot preparatomtalen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

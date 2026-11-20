@@ -61,7 +61,7 @@ men det finnes **ingen kliniske studier og ingen relevant litteratur** som støt
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Aprepitant er kjent som en NK1-reseptorantagonist, og effekten ved kvalme og oppkast er godt dokumentert. Om den kan overføres til NSIAD, er likevel høyst usikkert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Aprepitant (uoffisiell oversettelse): «Aprepitant er en selektiv antagonist med høy affinitet for humane substans P/nevrokinin 1 (NK 1 )-reseptorer. Aprepitant har liten eller ingen affinitet for serotonin (5-HT 3 )-, dopamin- og kortikosteroidreseptorer. Aprepitant har i dyremodeller vist seg å hemme brekninger indusert av cytotoksiske kjemoterapeutiske midler, som cisplatin, via sentrale virkninger.» Engelsk originaltekst: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), versjon av 2026-04-01; hentet 2026-11-19). Aprepitant er kjent som en NK1-reseptorantagonist, og effekten ved kvalme og oppkast er godt dokumentert. Om den kan overføres til NSIAD, er likevel høyst usikkert.
 
 Prekliniske arbeider antyder at substans P/NK1-signalering kan påvirke regulering av vasopressin og vannbalanse. NSIAD skyldes imidlertid aktiverende mutasjoner i V2-reseptoren (AVPR2), som virker nedstrøms for frisetting av vasopressin. NK1-blokade forventes derfor ikke å påvirke selve grunnfeilen. Koblingen er spekulativ og støttes kun av TxGNN-scoren.
 
@@ -134,6 +134,19 @@ Prediksjonen for NSIAD har kun modellscore som støtte (evidensnivå L5). Det fi
 - Prekliniske data som støtter NK1-blokade ved NSIAD, eller alternativt prioritering av subaraknoidalblødning for preklinisk oppfølging
 - Avklaring av doseringsformer og administrasjonsveier
 - Avklaring av legemidlets regulatoriske status i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

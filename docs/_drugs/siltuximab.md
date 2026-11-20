@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan være virksomt mot **ekstrakutant mas
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Siltuksimab blokkerer IL-6, en sentral betennelsescytokin. Detaljerte opplysninger om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er siltuksimab et anti-IL-6-antistoff, og effekten ved Castlemans sykdom, en lymfoproliferativ lidelse drevet av IL-6, er godt etablert.
+Siltuksimab blokkerer IL-6, en sentral betennelsescytokin. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Siltuximab (uoffisiell oversettelse): «Siltuksimab binder humant IL-6 og forhindrer binding av IL-6 til både løselige og membranbundne IL-6-reseptorer. IL-6 har vist seg å være involvert i ulike normale fysiologiske prosesser, som induksjon av immunglobulinsekresjon.» Engelsk originaltekst: "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), versjon av 2024-08-27; hentet 2026-11-19). Ut fra kjent informasjon er siltuksimab et anti-IL-6-antistoff, og effekten ved Castlemans sykdom, en lymfoproliferativ lidelse drevet av IL-6, er godt etablert.
 
 Koblingen til mastcellesvulster er foreløpig bare en grafbasert prediksjon fra TxGNN. IL-6 kan bidra til mastcellebiologi og det inflammatoriske mikromiljøet, men det er ikke levert klinisk dokumentasjon eller litteratur som støtter denne indikasjonen. Likheten mellom den opprinnelige og den nye indikasjonen er ikke vurdert.
 
@@ -116,6 +116,19 @@ Prediksjonen for ekstrakutant mastocytom støttes bare av TxGNN-modellen (eviden
 - Gjennomføre litteratursøk og prekliniske studier som undersøker IL-6s rolle i mastcellesvulster
 - Avklare tilgjengelighet og status for markedsføringstillatelse i Norge
 - Vurdere om Kaposis sarkom bør prioriteres som et alternativt forskningsspørsmål, siden den mekanistiske begrunnelsen der er sterkere (evidensnivå L4)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

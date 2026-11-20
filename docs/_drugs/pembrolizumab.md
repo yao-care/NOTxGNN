@@ -61,7 +61,7 @@ Prediksjonen er derfor kun modellbasert og har svært svakt evidensgrunnlag.
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Pembrolizumab er kjent som et monoklonalt antistoff mot PD-1-reseptoren (PDCD1/CD279). Ved å blokkere PD-1 løsnes bremsen på T-cellene, slik at immunsystemet lettere angriper kreftceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pembrolizumab (uoffisiell oversettelse): «Binding av PD-1-ligandene, PD-L1 og PD-L2, til PD-1-reseptoren som finnes på T-celler, hemmer T-celleproliferasjon og cytokinproduksjon. Oppregulering av PD-1-ligander forekommer i enkelte tumorer, og signalering via denne signalveien kan bidra til hemming av aktiv T-cellemediert immunovervåking av tumorer. […] Pembrolizumab er et monoklonalt antistoff som binder seg til PD-1-reseptoren og blokkerer dens interaksjon med PD-L1 og PD-L2, og opphever dermed PD-1-signalveimediert hemming av immunresponsen, inkludert antitumor-immunresponsen.» Engelsk originaltekst: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), versjon av 2026-10-16; hentet 2026-11-19). Pembrolizumab er kjent som et monoklonalt antistoff mot PD-1-reseptoren (PDCD1/CD279). Ved å blokkere PD-1 løsnes bremsen på T-cellene, slik at immunsystemet lettere angriper kreftceller.
 
 Gingival fibromatose er en godartet, fibrotisk tilstand i tannkjøttet, ofte genetisk eller legemiddelutløst. Den har ingen opplagt kobling til PD-1-banen, og immunaktivering ventes ikke å være gunstig. Den høye prediksjonsscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -128,6 +128,19 @@ Prediksjonen for gingival fibromatose bygger kun på modellscore (L5), uten klin
 - Gjennomgang av pakningsvedlegget (advarsler og kontraindikasjoner), som mangler i datagrunnlaget
 - Avklaring av norsk markedsstatus, siden den registrerte tillatelsen er kansellert
 - Vurdering av om en annen prediksjon (for eksempel hilært lungekarsinom) er en mer realistisk kandidat, siden den ligger innenfor eksisterende godkjent bruk
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

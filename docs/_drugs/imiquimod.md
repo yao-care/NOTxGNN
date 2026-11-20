@@ -58,7 +58,7 @@ Imiquimod er en topisk immunmodulator som brukes på huden. TxGNN-modellen spår
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Ut fra kjent farmakologi er imiquimod en agonist av Toll-like reseptor 7 (TLR7). Den utløser lokale medfødte og adaptive immunresponser (blant annet IFN-alfa, TNF-alfa og IL-12), som kan fjerne dysplastisk epitel.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Imiquimod (uoffisiell oversettelse): «Virkningsmekanismen til ZYCLARA ved behandling av AK og EGW er ukjent.» Engelsk originaltekst: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), versjon av 2025-05-23; hentet 2026-11-19). Ut fra kjent farmakologi er imiquimod en agonist av Toll-like reseptor 7 (TLR7). Den utløser lokale medfødte og adaptive immunresponser (blant annet IFN-alfa, TNF-alfa og IL-12), som kan fjerne dysplastisk epitel.
 
 Premaligne lesjoner som aktinisk keratose, og intraepiteliale neoplasier i anal-, vulva- og cervixområdet, deler et felles trekk: de er epiteliale forstadier til kreft, ofte knyttet til HPV. En immunstimulerende lokalbehandling er derfor mekanistisk plausibel. Gjennomgangsartikler omtaler imiquimod for forstadier til hudkreft og for intraepiteliale neoplasier.
 
@@ -119,6 +119,19 @@ Imiquimod har en plausibel immunologisk virkningsmekanisme og er allerede brukt 
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner)
 - Større, kontrollerte studier for spesifikke typer premaligne lesjoner (for eksempel cervikal, vulvær og anal intraepitelial neoplasi)
 - Tydelig avgrensning av hvilke lesjonstyper og lokalisasjoner som skal vurderes
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

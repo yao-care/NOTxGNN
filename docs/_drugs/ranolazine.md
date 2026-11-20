@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at det kan være effektivt mot **nefrogent syndrom med 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanismen er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Ranolazin beskrives generelt som en hemmer av sen natriumstrøm (late INa) med tilleggseffekter på andre ionekanaler, men dette er ikke underbygget av de foreliggende dataene.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Ranolazine (uoffisiell oversettelse): «Virkningsmekanismen for ranolazins antianginøse effekter er ikke fastslått. Ranolazin har anti-iskemiske og antianginøse effekter som ikke avhenger av reduksjon i hjertefrekvens eller blodtrykk. Det påvirker ikke frekvens-trykk-produktet, et mål på myokardarbeid, ved maksimal belastning.» Engelsk originaltekst: "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), versjon av 2025-01-29; hentet 2026-11-19). Ranolazin beskrives generelt som en hemmer av sen natriumstrøm (late INa) med tilleggseffekter på andre ionekanaler, men dette er ikke underbygget av de foreliggende dataene.
 
 NSIAD er en ultrasjelden sykdom forårsaket av aktiverende mutasjoner i vasopressin V2-reseptoren (AVPR2), eller i noen tilfeller GNAS-relatert signalering. Dette gir konstant antidiurese uavhengig av vasopressin, med hyponatremi som hovedutfordring.
 
@@ -118,6 +118,19 @@ Prediksjonen bygger kun på modellberegning (evidensnivå L5) uten kliniske stud
 - Prekliniske data (for eksempel cellemodeller med AVPR2-mutasjoner) som kan underbygge hypotesen
 - Vurdering av QT-risiko og nyrefunksjon hos en så sjelden og sårbar pasientgruppe
 - Avklaring av regulatorisk status og tilgjengelighet i Norge, siden godkjenningen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

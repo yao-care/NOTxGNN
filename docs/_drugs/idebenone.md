@@ -58,7 +58,7 @@ Idebenon er en syntetisk kortkjedet benzokinon, en analog av koenzym Q10, som vi
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Idebenon er kjent som en antioksidant og elektronbærer i mitokondriets respirasjonskjede, og dette er det eneste mekanistiske utgangspunktet vi har.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Idebenone (uoffisiell oversettelse): «Antioksidant og elektronbærer i mitokondriene» Engelsk originaltekst: "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; hentet 2026-11-19). Idebenon er kjent som en antioksidant og elektronbærer i mitokondriets respirasjonskjede, og dette er det eneste mekanistiske utgangspunktet vi har.
 
 En mulig, men spekulativ kobling går via oksidativt stress og mitokondriell dysfunksjon ved forstyrrelser i hembiosyntesen, som er sentralt ved hepatisk porfyri. Denne koblingen kan ikke understøttes av de foreliggende dataene. Det finnes ingen studier som undersøker idebenon ved hepatisk porfyri, og den høye scoren må derfor ses som et grafbasert signal, ikke som biologisk dokumentasjon.
 
@@ -106,6 +106,19 @@ Prediksjonen bygger kun på en grafbasert modellscore uten støtte fra kliniske 
 - Advarsler og kontraindikasjoner fra preparatomtalen, som er en forutsetning for sikkerhetsscreening
 - Prekliniske data eller litteraturgjennomgang som direkte undersøker idebenon ved hepatisk porfyri
 - Avklaring av reguleringsstatus for lisensen i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -58,7 +58,7 @@ Levofloksacin er et antibakterielt legemiddel i fluorokinolongruppen. TxGNN-mode
 
 ## Hvorfor kan denne prediksjonen være rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige for dette legemidlet. Levofloksacin tilhører fluorokinolonene, som hemmer bakterielle DNA-enzymer og har bredt antibakterielt spektrum. Det finnes ingen data i materialet som knytter denne mekanismen til punktformet epitelial keratokonjunktivitt.
+Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Levofloxacin (uoffisiell oversettelse): «Levofloksacin tilhører fluorokinolonklassen av antibakterielle midler. […] Levofloksacin er L-isomeren av racematet ofloksacin, et antimikrobielt kinolonmiddel. Den antibakterielle aktiviteten til ofloksacin ligger hovedsakelig i L-isomeren. Virkningsmekanismen til levofloksacin og andre antimikrobielle fluorokinoloner omfatter hemming av bakteriell topoisomerase IV og DNA-gyrase (begge er type II-topoisomeraser), enzymer som er nødvendige for DNA-replikasjon, transkripsjon, reparasjon og rekombinasjon.» Engelsk originaltekst: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), versjon av 2026-11-05; hentet 2026-11-19). Levofloksacin tilhører fluorokinolonene, som hemmer bakterielle DNA-enzymer og har bredt antibakterielt spektrum. Det finnes ingen data i materialet som knytter denne mekanismen til punktformet epitelial keratokonjunktivitt.
 
 Den eneste publikasjonen som er funnet, omhandler mikrosporidiell keratokonjunktivitt etter forurenset vann i svømmebassenger. Mikrosporidier er eukaryote parasitter i slekt med sopp, og fluorokinoloner forventes ikke å være aktive mot dem. Den høye prediksjonsscoren støttes dermed ikke av noen påvist mekanistisk eller klinisk begrunnelse. En eventuell rolle ville i beste fall være å forebygge sekundær bakteriell infeksjon, og det er ikke dokumentert her.
 
@@ -111,6 +111,18 @@ Det finnes ingen kliniske studier og ingen publikasjon som undersøker levofloks
 - Data om virkningsmekanisme
 - Preparatomtale med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
 - Vurdering av administrasjonsvei, siden den godkjente formen ikke er laget for øyebehandling
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

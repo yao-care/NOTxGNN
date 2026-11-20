@@ -57,7 +57,7 @@ det finnes **0 kliniske studier** og **0 publikasjoner** i de innsamlede dataene
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i datagrunnlaget. Risdiplam er kjent som en SMN2-spleisingsmodulator, godkjent for spinal muskelatrofi. Dette er imidlertid bakgrunnskunnskap og ikke en del av de innsamlede dataene, og bør verifiseres.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Risdiplam (uoffisiell oversettelse): «Risdiplam er en spleisemodifikator for survival of motor neuron 2 (SMN2) utviklet for å behandle pasienter med spinal muskelatrofi (SMA) forårsaket av mutasjoner i kromosom 5q som fører til SMN-proteinmangel. Ved bruk av in vitro-analyser og studier i transgene dyremodeller av SMA ble det vist at risdiplam øker inklusjonen av ekson 7 i SMN2-budbringer-ribonukleinsyre (mRNA)-transkripter og produksjonen av fullengde SMN-protein i hjernen.» Engelsk originaltekst: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), versjon av 2026-11-02; hentet 2026-11-19). Risdiplam er kjent som en SMN2-spleisingsmodulator, godkjent for spinal muskelatrofi. Dette er imidlertid bakgrunnskunnskap og ikke en del av de innsamlede dataene, og bør verifiseres.
 
 Den eneste støtten for akne er en høy score fra TxGNN-modellen (deep learning) (0,9945). Scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, og er ikke biologisk evidens. Dette er en beregnet prediksjon og ikke klinisk eller eksperimentell evidens. Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom risdiplam og akne (for eksempel talgproduksjon, kolonisering med *C. acnes*, follikulær hyperkeratinisering eller betennelse). En eventuell kobling, for eksempel via modulering av alternativ spleising som påvirker andre gener, er spekulativ.
 
@@ -112,11 +112,12 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studi
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Dessuten er den eneste tillatelsen i Norge avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **skleroserende kolangi
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene. Dabigatran er kjent som en direkte trombinhemmer. En teoretisk forbindelse til fibrose og betennelse via trombin/PAR-1-signalering finnes, men den er ikke støttet av kliniske data for skleroserende kolangitt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Dabigatran Etexilate (uoffisiell oversettelse): «Dabigatran og dets acylglukuronider er kompetitive, direkte trombinhemmere. Ettersom trombin (serinprotease) muliggjør omdannelsen av fibrinogen til fibrin i koagulasjonskaskaden, forhindrer hemming av trombin utvikling av en trombe.» Engelsk originaltekst: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), versjon av 2026-11-02; hentet 2026-11-19). Dabigatran er kjent som en direkte trombinhemmer. En teoretisk forbindelse til fibrose og betennelse via trombin/PAR-1-signalering finnes, men den er ikke støttet av kliniske data for skleroserende kolangitt.
 
 Prediksjonsscoren er svært høy (0,9982), men den er utelukkende et resultat av modellen. Ingen etablert mekanisme eller studie viser at trombinhemming gir nytte ved denne sykdommen. Prediksjonen bør derfor ses som en hypotese som krever videre undersøkelse.
 
@@ -92,6 +92,19 @@ Prediksjonen bygger kun på modellscore uten direkte kliniske studier eller litt
 - Data om virkningsmekanisme (MOA) og en vurdering av om trombinhemming er biologisk relevant ved skleroserende kolangitt
 - Prekliniske studier eller observasjonsstudier som direkte undersøker dabigatran ved sykdommen
 - Pakningsvedlegg med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering, særlig blødningsrisiko hos pasienter med leversykdom
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

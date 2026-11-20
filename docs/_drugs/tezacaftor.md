@@ -54,7 +54,7 @@ Tezacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Tezacaftor er kjent som en CFTR-korrektor som forbedrer foldingen og transporten av CFTR-proteinet til cellemembranen. Det er godkjent som del av kombinasjonsbehandlinger (Symkevi, Kaftrio, Alyftrek) ved cystisk fibrose.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for vanzacaftor, tezacaftor, and deutivacaftor (kombinasjonspreparat med Tezacaftor) (uoffisiell oversettelse): «Vanzakaftor og tezakaftor bindes til ulike seter på CFTR-proteinet og har en additiv effekt når det gjelder å fremme cellulær prosessering og transport av utvalgte mutante former av CFTR (inkludert F508del-CFTR), slik at mengden CFTR-protein som leveres til celleoverflaten øker sammenlignet med hvert av molekylene alene. Den kombinerte effekten av vanzakaftor, tezakaftor og deutivakaftor er økt mengde og funksjon av CFTR på celleoverflaten, noe som gir økt CFTR-aktivitet målt både ved CFTR-mediert kloridtransport in vitro og ved svettekloridkonsentrasjon hos pasienter med CF.» Engelsk originaltekst: "Vanzacaftor and tezacaftor bind to different sites on the CFTR protein and have an additive effect in facilitating the cellular processing and trafficking of select mutant forms of CFTR (including F508del- CFTR) to increase the amount of CFTR protein delivered to the cell surface compared to either molecule alone. The combined effect of vanzacaftor, tezacaftor and deutivacaftor is increased quantity and function of CFTR at the cell surface, resulting in increased CFTR activity as measured both by CFTR-mediated chloride transport in vitro and by sweat chloride in patients with CF." ([DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20), versjon av 2026-08-26; hentet 2026-11-19). Tezacaftor er kjent som en CFTR-korrektor som forbedrer foldingen og transporten av CFTR-proteinet til cellemembranen. Det er godkjent som del av kombinasjonsbehandlinger (Symkevi, Kaftrio, Alyftrek) ved cystisk fibrose.
 
 Det er ikke påvist noen mekanistisk sammenheng mellom CFTR-korreksjon og HIV-patofysiologi (virusreplikasjon, tap av CD4-T-celler). Den høye scoren (0,9924) er en ren beregningsmessig prediksjon, og likheten med den opprinnelige indikasjonen er ikke vurdert. Prediksjonen bør derfor betraktes som en hypotese uten støtte i foreliggende data.
 
@@ -102,6 +102,19 @@ Prediksjonen om HIV-infeksjon bygger kun på en modellscore, uten kliniske studi
 - Prekliniske data (f.eks. in vitro-studier av tezacaftor i HIV-modeller) som kan gi grunnlag for en mekanistisk hypotese
 - Avklaring av den nåværende markedsstatusen for tezacaftor-holdige preparater i Norge
 - Vurdering av administrasjonsvei og forenlighet med den nye indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

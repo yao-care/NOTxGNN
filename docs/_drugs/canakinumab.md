@@ -54,7 +54,7 @@ Kanakinumab er et monoklonalt antistoff som blokkerer interleukin-1β. Modellen 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Kanakinumab nøytraliserer interleukin-1β, en sentral mediator i steril betennelse.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Canakinumab (uoffisiell oversettelse): «Kanakinumab er et humant monoklonalt anti-humant IL-1β-antistoff av isotypen IgG1/κ. Kanakinumab bindes til humant IL-1β og nøytraliserer dets aktivitet ved å blokkere interaksjonen med IL-1-reseptorer, men det bindes ikke til IL-1α eller IL-1-reseptorantagonist (IL-1ra).» Engelsk originaltekst: "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e), versjon av 2026-06-08; hentet 2026-11-19). Kanakinumab nøytraliserer interleukin-1β, en sentral mediator i steril betennelse.
 
 Teoretisk kan IL-1β-blokade dempe den sterile betennelsesreaksjonen som følger etter iskemisk skade i leveren. Dette er en spekulativ hypotese. Det er ikke framlagt mekanistiske eller kliniske data for denne indikasjonen, og likheten med de opprinnelige bruksområdene er ikke vurdert.
 
@@ -95,6 +95,19 @@ Prediksjonen for leverinfarkt støttes ikke av noen kliniske studier eller publi
 - Prekliniske data eller en systematisk litteraturgjennomgang som direkte omhandler leverinfarkt
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Vurdering av administrasjonsvei og aktuell pasientpopulasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

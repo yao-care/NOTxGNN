@@ -58,7 +58,7 @@ Insulin lispro er et hurtigvirkende insulinanalog som opprinnelig brukes til beh
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er insulin lispro et hurtigvirkende insulinanalog, og effekten ved diabetes mellitus er godt dokumentert gjennom metabolsk blodsukkerregulering.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Insulin Lispro (uoffisiell oversettelse): «Regulering av glukosemetabolismen er den primære aktiviteten til insuliner og insulinanaloger, inkludert insulin lispro-produkter. Insuliner senker blodglukosen ved å stimulere perifert glukoseopptak i skjelettmuskulatur og fett, og ved å hemme glukoseproduksjonen i leveren.» Engelsk originaltekst: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), versjon av 2026-09-03; hentet 2026-11-19). Basert på kjent informasjon er insulin lispro et hurtigvirkende insulinanalog, og effekten ved diabetes mellitus er godt dokumentert gjennom metabolsk blodsukkerregulering.
 
 Det finnes imidlertid ingen klar mekanistisk kobling til autoimmun oophoritt. Tilstanden innebærer immunmediert skade på eggstokkene, og insulinets metabolske virkning har ingen kjent sykdomsmodifiserende rolle her. En eventuell sammenheng er indirekte, for eksempel gjennom autoimmune polyglandulære syndromer som også omfatter type 1-diabetes. Den høye scoren bør derfor tolkes som en beregningsmessig prediksjon, ikke som et biologisk signal.
 
@@ -121,6 +121,19 @@ Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten klinis
 - Sikkerhetsopplysninger fra preparatomtalen (advarsler og kontraindikasjoner)
 - Prekliniske eller kliniske data som viser en faktisk effekt ved autoimmun oophoritt
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

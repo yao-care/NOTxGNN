@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Scheie syndrom** (hø
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er satt sammen for denne rapporten. Basert på kjent informasjon er vestronidase alfa en rekombinant beta-glukuronidase (GUSB) som bryter ned glykosaminoglykaner (GAG): dermatansulfat, heparansulfat og kondroitinsulfat. Effekten ved MPS VII er dokumentert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Vestronidase Alfa (uoffisiell oversettelse): «Mukopolysakkaridose VII (MPS VII eller Slys syndrom) er en lysosomal sykdom som kjennetegnes av mangel på GUS, noe som fører til opphopning av GAG i celler i hele kroppen og dermed vevs- og organskade i flere organsystemer. Vestronidase alfa-vjbk er en rekombinant form av humant GUS og er ment å tilføre eksogent GUS-enzym for opptak i cellulære lysosomer.» Engelsk originaltekst: "Mucopolysaccharidosis VII (MPS VII or Sly syndrome) is a lysosomal disorder characterized by the deficiency of GUS that results in GAG accumulation in cells throughout the body leading to multisystem tissue and organ damage. Vestronidase alfa-vjbk is a recombinant form of human GUS and is intended to provide exogenous GUS enzyme for uptake into cellular lysosomes." ([DailyMed: Mepsevii (vestronidase alfa) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=925d4e21-fd98-474d-a34d-a0b3558ed750), versjon av 2026-10-26; hentet 2026-11-19). Basert på kjent informasjon er vestronidase alfa en rekombinant beta-glukuronidase (GUSB) som bryter ned glykosaminoglykaner (GAG): dermatansulfat, heparansulfat og kondroitinsulfat. Effekten ved MPS VII er dokumentert.
 
 Scheie syndrom (mild form av MPS I) skyldes mangel på enzymet IDUA, noe som gir opphopning av dermatan- og heparansulfat. Vestronidase alfa virker på de samme GAG-substratene, men i et nedstrøms trinn, og erstatter ikke det manglende IDUA-enzymet. Det direkte enzymatiske grunnlaget er derfor svakt. Den høye TxGNN-scoren (0.9990) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -140,12 +140,13 @@ Prediksjonen for Scheie syndrom er kun modellbasert (L5). Det finnes ingen klini
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste norske godkjenningen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mepsevii (vestronidase alfa) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=925d4e21-fd98-474d-a34d-a0b3558ed750) |
 
 <!-- review:end log -->
 

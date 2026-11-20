@@ -60,7 +60,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er gilteritinib en hemmer av FLT3 og AXL, og effekten er vist ved residivert/refraktær AML med FLT3-mutasjon. Prekliniske studier viser at legemidlet hemmer FLT3 (villtype og mutert) med IC50 på omtrent 2–5 nM, og at det også binder seg til andre reseptortyrosinkinaser, blant annet NTRK1, MERTK, LTK, ALK, ROS1 og RET.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Gilteritinib (uoffisiell oversettelse): «Gilteritinib er et småmolekyl som hemmer flere reseptortyrosinkinaser, inkludert FMS-lignende tyrosinkinase 3 (FLT3). Gilteritinib viste evne til å hemme FLT3-reseptorsignalering og proliferasjon i celler som eksogent uttrykker FLT3, inkludert FLT3-ITD og mutasjonene i tyrosinkinasedomenet (TKD) FLT3-D835Y og FLT3-ITD-D835Y, og det induserte apoptose i leukemiceller som uttrykker FLT3-ITD.» Engelsk originaltekst: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), versjon av 2026-10-01; hentet 2026-11-19). Ut fra kjent informasjon er gilteritinib en hemmer av FLT3 og AXL, og effekten er vist ved residivert/refraktær AML med FLT3-mutasjon. Prekliniske studier viser at legemidlet hemmer FLT3 (villtype og mutert) med IC50 på omtrent 2–5 nM, og at det også binder seg til andre reseptortyrosinkinaser, blant annet NTRK1, MERTK, LTK, ALK, ROS1 og RET.
 
 Bulbær polio er en virusinfeksjon i motoriske nerveceller i hjernestammen, forårsaket av poliovirus. Det er ikke etablert noen mekanistisk sammenheng mellom kinasehemming og polio, for eksempel gjennom vertsfaktorer for virusinntrengning eller -replikasjon, eller gjennom modulering av nevroinflammasjon. Enhver slik kobling vil være spekulativ. Den høye scoren (0,991) er et resultat av modellens grafbaserte prediksjon og er ikke støttet av kliniske eller litterære data.
 
@@ -120,6 +120,19 @@ Prediksjonen er rent beregningsbasert (evidensnivå L5) uten kliniske studier, l
 - Prekliniske data (for eksempel in vitro-studier av poliovirusreplikasjon) som kan støtte hypotesen
 - Pakningsvedlegg med advarsler og kontraindikasjoner for sikkerhetsscreening
 - Avklaring av regulatorisk status, siden den eneste godkjenningen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -61,7 +61,7 @@ men støtten er svak: de tre registrerte kliniske studiene er tidlige eller avsl
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig i de innsamlede dataene. Topotecan er imidlertid kjent som en topoisomerase I-hemmer. Den forårsaker DNA-brudd i celler som deler seg raskt, og effekten er dokumentert ved livmorhalskreft og småcellet lungekreft.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Topotecan (uoffisiell oversettelse): «Topoisomerase I avlaster torsjonsspenning i DNA ved å indusere reversible enkelttrådbrudd. Topotekan bindes til topoisomerase I–DNA-komplekset og hindrer religering av disse enkelttrådbruddene. Cytotoksisiteten til topotekan antas å skyldes dobbelttrådete DNA-skader som oppstår under DNA-syntesen, når replikasjonsenzymer interagerer med det ternære komplekset som dannes av topotekan, topoisomerase I og DNA.» Engelsk originaltekst: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), versjon av 2023-09-18; hentet 2026-11-19). Topotecan er imidlertid kjent som en topoisomerase I-hemmer. Den forårsaker DNA-brudd i celler som deler seg raskt, og effekten er dokumentert ved livmorhalskreft og småcellet lungekreft.
 
 Prekliniske data tyder på at enkelte brystkreftsubtyper, særlig MYC-drevne og trippelnegative, kan være følsomme for TOP1-hemming gjennom opphopning av R-løkker og replikasjonsstress (PMID 37987734). Samtidig transporteres topotecan av effluks-transportøren BCRP/ABCG2, som er uttrykt i brystkreftceller og kan gi resistens og begrense effekten (PMID 25236865, PMID 10930538).
 
@@ -150,6 +150,19 @@ TxGNN-scoren er svært høy, men den kliniske støtten for brystkreft er svak: �
 ---
 
 *Merknad om øvrige prediksjoner:* Rangene 2–10 (kjønnscelletumor hos voksne og ulike mønstre av testikulær plommesekksvulst) har enten indirekte evidens (L2, hovedsakelig fra pediatrisk nevroblastom, retinoblastom og gliom) eller ingen studier (L5). De er ikke vurdert i detalj her.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

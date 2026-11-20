@@ -60,7 +60,7 @@ men de innsamlede dataene inneholder **1 klinisk studie** (med alirokumab, ikke 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon hemmer pravastatin HMG-CoA-reduktase og oppregulerer LDL-reseptorer i leveren. Dette er grunnlaget for effekten ved dyslipidemi.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pravastatin (uoffisiell oversettelse): «Pravastatin er en reversibel hemmer av HMG-CoA-reduktase, det hastighetsbegrensende enzymet som omdanner HMG-CoA til mevalonat, et forstadium til kolesterol.» Engelsk originaltekst: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), versjon av 2026-10-23; hentet 2026-11-19). Basert på kjent informasjon hemmer pravastatin HMG-CoA-reduktase og oppregulerer LDL-reseptorer i leveren. Dette er grunnlaget for effekten ved dyslipidemi.
 
 Ved homozygot familiær hyperkolesterolemi er det alvorlig mangel på LDL-reseptorfunksjon (null- eller defekte alleler). Statineffekten er derfor begrenset av gjenværende reseptorfunksjon. Mekanismen er biologisk plausibel, men bare delvis effektiv, og pravastatin er en svak statin for denne pasientgruppen. En av de innsamlede oversiktsartiklene (Prescrire, 2004) uttaler også at statiner ikke er særlig effektive ved homozygot familiær hyperkolesterolemi.
 
@@ -125,6 +125,19 @@ Data fra pakningsvedlegg om advarsler og kontraindikasjoner mangler, og må innh
 - Søke etter direkte kliniske data for pravastatin ved homozygot familiær hyperkolesterolemi, og vurdere sammenligning med mer potente statiner og PCSK9-hemmere
 - Vurdere HIV-assosiert dyslipidemi og kardiovaskulær risiko som et mer evidensbasert alternativ (Research Question), med tanke på interaksjoner med antiretrovirale midler
 - Avklare regulatorisk status i Norge, siden den eneste godkjenningen er kansellert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

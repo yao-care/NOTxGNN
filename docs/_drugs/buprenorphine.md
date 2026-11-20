@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **akutt intermitterend
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er for tiden ikke tilgjengelig i de innsamlede dataene. Ut fra allmenn kunnskap er buprenorfin en partiell mu-opioidagonist og kappa-antagonist, med dokumentert effekt ved opioidavhengighet.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Buprenorphine (uoffisiell oversettelse): «SUBLOCADE injeksjonsvæske inneholder buprenorfin. Buprenorfin er en partiell agonist ved my-opioidreseptoren og en antagonist ved kappa-opioidreseptoren.» Engelsk originaltekst: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), versjon av 2026-07-27; hentet 2026-11-19). Ut fra allmenn kunnskap er buprenorfin en partiell mu-opioidagonist og kappa-antagonist, med dokumentert effekt ved opioidavhengighet.
 
 Det finnes ingen tydelig mekanistisk kobling mellom opioidavhengighet og akutt intermitterende porfyri. Den eneste publikasjonen er en japansk kasuistikk om anestesihåndtering hos en pasient med porfyri. Den gjelder legemiddelhåndtering og sikkerhet rundt operasjon, ikke buprenorfins effekt på selve sykdommen.
 
@@ -141,11 +141,12 @@ De øvrige predikerte indikasjonene har også anbefalingen **Hold**:
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Fjernet: «med 4 gyldige markedsføringstillatelser av 4» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ For akkurat denne sykdommen er det **ingen kliniske studier og ingen publikasjon
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Atezolizumab er imidlertid kjent som en PD-L1-hemmer, som kan gjenopprette T-cellenes evne til å angripe kreftceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Atezolizumab (uoffisiell oversettelse): «PD L1 kan uttrykkes på tumorceller og/eller tumorinfiltrerende immunceller og kan bidra til hemming av den antitumorale immunresponsen i tumormikromiljøet. Binding av PD L1 til PD 1- og B7.1-reseptorene på T-celler og antigenpresenterende celler undertrykker cytotoksisk T-celleaktivitet, T-celleproliferasjon og cytokinproduksjon. […] Atezolizumab er et monoklonalt antistoff som binder seg til PD L1 og blokkerer dets interaksjoner med både PD 1- og B7.1-reseptorer.» Engelsk originaltekst: "PD L1 may be expressed on tumor cells and/or tumor infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD L1 to the PD 1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation and cytokine production. […] Atezolizumab is a monoclonal antibody that binds to PD L1 and blocks its interactions with both PD 1 and B7.1 receptors." ([DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee), versjon av 2026-10-13; hentet 2026-11-19). Atezolizumab er imidlertid kjent som en PD-L1-hemmer, som kan gjenopprette T-cellenes evne til å angripe kreftceller.
 
 En mulig forklaring er at PD-L1-blokade kan være relevant også ved gynekologiske adenokarsinomer. Dette er imidlertid spekulativt og støttes ikke av noen direkte data om denne sykdommen. Prediksjonen bør derfor betraktes som en hypotese som krever videre undersøkelse.
 
@@ -110,6 +110,19 @@ Prediksjonen har en høy modellscore, men ingen kliniske studier eller publikasj
 - Data om virkningsmekanisme (MOA)
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av om sykdommen er så sjelden at prekliniske eller registerbaserte data er det mest realistiske neste trinnet
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

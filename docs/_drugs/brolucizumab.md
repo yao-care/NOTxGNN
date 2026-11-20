@@ -61,7 +61,7 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om legemidlets detaljerte virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er brolucizumab et anti-VEGF-A-antistoffragment som er gitt intravitrealt, og effekten ved våt makuladegenerasjon bygger på hemming av VEGF-drevet karnydannelse og lekkasje.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Brolucizumab (uoffisiell oversettelse): «Brolucizumab er en human VEGF-hemmer. Brolucizumab bindes til de tre hovedisoformene av VEGF-A (f.eks. VEGF 110, VEGF 121 og VEGF 165 ), og forhindrer dermed interaksjon med reseptorene VEGFR-1 og VEGFR-2. Ved å hemme VEGF-A undertrykker brolucizumab endotelcelleproliferasjon, neovaskularisering og vaskulær permeabilitet.» Engelsk originaltekst: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d), versjon av 2026-10-26; hentet 2026-11-19). Basert på kjent informasjon er brolucizumab et anti-VEGF-A-antistoffragment som er gitt intravitrealt, og effekten ved våt makuladegenerasjon bygger på hemming av VEGF-drevet karnydannelse og lekkasje.
 
 Det ble ikke identifisert noen tydelig mekanistisk sammenheng mellom VEGF-A-hemming og oksidative fosforyleringsforstyrrelser som skyldes kjerne-DNA-avvik. Den høye scoren (0,9967) er utelukkende grafbasert og er ikke underbygget av kliniske studier eller litteratur. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -133,11 +133,12 @@ Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra klini
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
 
 <!-- review:end log -->
 

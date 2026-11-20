@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt på **diabetisk retinopati
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Pegvaliase er kjent som et PEGylert fenylalaninammoniakklyase-enzym som bryter ned fenylalanin, og effekten ved fenylketonuri er etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pegvaliase (uoffisiell oversettelse): «Pegvaliase-pqpz er et PEGylert fenylalanin-ammoniakklyase (PAL)-enzym som omdanner fenylalanin til ammoniakk og trans -kanelsyre. Det erstatter den manglende enzymaktiviteten til fenylalaninhydroksylase (PAH) hos pasienter med PKU og reduserer konsentrasjonen av fenylalanin i blodet.» Engelsk originaltekst: "Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations." ([DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c), versjon av 2026-03-02; hentet 2026-11-19). Pegvaliase er kjent som et PEGylert fenylalaninammoniakklyase-enzym som bryter ned fenylalanin, og effekten ved fenylketonuri er etablert.
 
 Det finnes ingen kjent sammenheng mellom senking av fenylalanin og den vaskulære og nevrodegenerative patologien ved diabetisk retinopati. Den høye TxGNN-scoren (0,9917) er en beregningsmessig prediksjon og er ikke støttet av kliniske studier eller litteratur. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
@@ -145,12 +145,13 @@ Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur, o
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Tillatelsen er registrert som avregistrert (BioMarin International Limited)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «I tillegg er legemidlet ikke lenger markedsført i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c) |
 
 <!-- review:end log -->
 

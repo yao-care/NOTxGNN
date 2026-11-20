@@ -56,7 +56,7 @@ men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter de
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er eftrenonacog alfa et rekombinant faktor IX-Fc-fusjonsprotein (rFIXFc) som erstatter manglende faktor IX i den intrinsiske koagulasjonsveien. Effekten ved hemofili B er etablert.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Eftrenonacog Alfa (uoffisiell oversettelse): «Koagulasjonsfaktor IX eksogent protein» Engelsk originaltekst: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er eftrenonacog alfa et rekombinant faktor IX-Fc-fusjonsprotein (rFIXFc) som erstatter manglende faktor IX i den intrinsiske koagulasjonsveien. Effekten ved hemofili B er etablert.
 
 Pseudo-von Willebrands sykdom (trombocytt-type VWD) skyldes en «gain-of-function»-defekt i trombocyttenes GPIbα. Denne gir økt affinitet for VWF, klarering av trombocytter og tap av høymolekylære VWF-multimerer. Defekten ligger i samspillet mellom trombocytter og VWF, ikke i mangel på faktor IX. Det finnes derfor ingen klar mekanistisk begrunnelse for faktor IX-erstatning.
 
@@ -102,6 +102,19 @@ Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, o
 - Prekliniske eller mekanistiske data som viser et biologisk grunnlag for faktor IX ved trombocyttrelaterte blødningssykdommer
 - Avklaring av markedsstatus og tilgjengelighet i Norge, siden godkjenningen er kansellert
 - Sammenligning med etablerte alternativer, som rekombinant faktor VIIa ved Glanzmanns trombasteni
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

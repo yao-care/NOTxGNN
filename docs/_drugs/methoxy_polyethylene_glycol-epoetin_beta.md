@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at det kan være effektivt mot **primær frigjøringsf
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er metoksypolyetylenglykol-epoetin beta en pegylert agonist for erytropoietinreseptoren (EPO-reseptoren). Effekten er dokumentert ved anemi hos pasienter med kronisk nyresvikt.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Methoxy Polyethylene Glycol-Epoetin Beta (uoffisiell oversettelse): «Mircera er en erytropoietinreseptoraktivator som, i motsetning til erytropoietin, har høyere aktivitet in vivo og forlenget halveringstid. Erytropoietin er en primær vekstfaktor for erytroid utvikling. Det produseres i nyrene og frigjøres til blodbanen som respons på hypoksi.» Engelsk originaltekst: "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia." ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88), versjon av 2026-08-14; hentet 2026-11-19). Basert på kjent informasjon er metoksypolyetylenglykol-epoetin beta en pegylert agonist for erytropoietinreseptoren (EPO-reseptoren). Effekten er dokumentert ved anemi hos pasienter med kronisk nyresvikt.
 
 Det er ingen etablert mekanisme som kobler EPO-reseptoragonisme til korrigering av defekter i blodplatenes sekresjon/frigjøring. Den høye scoren er kun en prediksjon fra TxGNN-modellen (dyp læring). Et eventuelt samband vil være spekulativt, for eksempel indirekte effekter via hematokrit og blodets reologi på samspillet mellom blodplater og karvegg. Erytropoiesestimulerende midler er dessuten forbundet med økt risiko for trombose, noe som ikke understøtter bruk ved en blødningstype blodplatefunksjonsforstyrrelse.
 
@@ -122,6 +122,19 @@ Alle predikerte indikasjoner er kun modellbaserte (L5), uten kliniske studier el
 - Systematisk litteratur- og studiesøk for den predikerte indikasjonen
 - Nærmere vurdering av diabetisk retinopati, med særlig oppmerksomhet på om effekten er gunstig eller skadelig
 - Avklaring av administrasjonsvei og forenlighet med den nye indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

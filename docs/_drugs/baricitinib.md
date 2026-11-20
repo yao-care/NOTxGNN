@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at det kan være effektivt mot **kolobomatøs mikroftal
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Baricitinib er generelt kjent som en JAK1/JAK2-hemmer, og effekten ved revmatoid artritt skyldes dempet immunsignalering via JAK-STAT-banen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Baricitinib (uoffisiell oversettelse): «Baricitinib er en Janus-kinase (JAK)-hemmer. JAK er intracellulære enzymer som overfører signaler fra cytokin- eller vekstfaktor-reseptorinteraksjoner på cellemembranen for å påvirke cellulære prosesser i hematopoesen og immuncellefunksjonen.» Engelsk originaltekst: "Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf), versjon av 2026-10-09; hentet 2026-11-19). Baricitinib er generelt kjent som en JAK1/JAK2-hemmer, og effekten ved revmatoid artritt skyldes dempet immunsignalering via JAK-STAT-banen.
 
 Den predikerte sykdommen er et ekstremt sjeldent utviklingssyndrom. Det foreligger ingen opplysninger i dataene som tilsier at JAK-STAT-signalering spiller en rolle i sykdommens patogenese. Det kan derfor ikke etableres noen mekanistisk kobling mellom den opprinnelige og den nye indikasjonen.
 
@@ -114,6 +114,19 @@ Prediksjonen støttes kun av modellskår (evidensnivå L5), uten kliniske studie
 - Biologisk belegg for at JAK-STAT-signalering er involvert i sykdommen
 - Prekliniske studier eller litteraturgjennomgang som kan støtte hypotesen
 - Avklaring av administrasjonsvei og markedstilgjengelighet
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

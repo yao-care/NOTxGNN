@@ -60,7 +60,7 @@ Prediksjonen er kun modellbasert, og biologisk begrunnelse taler snarere mot den
 
 ## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon blokkerer brodalumab IL-17RA og dermed signalering via IL-17A, IL-17F og IL-25. Effekten ved psoriasis er godt etablert.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Brodalumab (uoffisiell oversettelse): «Brodalumab er et humant monoklonalt IgG2-antistoff som bindes selektivt til humant IL-17RA og hemmer dets interaksjoner med cytokinene IL-17A, IL-17F, IL-17C, IL-17A/F-heterodimer og IL-25. IL-17RA er et protein som uttrykkes på celleoverflaten og er en nødvendig komponent i reseptorkomplekser som benyttes av flere cytokiner i IL-17-familien.» Engelsk originaltekst: "Brodalumab is a human monoclonal IgG2 antibody that selectively binds to human IL-17RA and inhibits its interactions with cytokines IL-17A, IL-17F, IL-17C, IL-17A/F heterodimer, and IL-25. IL-17RA is a protein expressed on the cell surface and is a required component of receptor complexes utilized by multiple IL-17 family cytokines." ([DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688), versjon av 2026-05-28; hentet 2026-11-19). Basert på kjent informasjon blokkerer brodalumab IL-17RA og dermed signalering via IL-17A, IL-17F og IL-25. Effekten ved psoriasis er godt etablert.
 
 For strongyloidiasis, en parasittinfeksjon forårsaket av rundorm (helminter), er den biologiske begrunnelsen svak. IL-17 bidrar til vertens forsvar ved slimhinne- og barrieroverflater, og IL-25 fremmer type 2-immunitet mot helminter. Blokkering av denne signalveien kan derfor plausibelt svekke, ikke styrke, immunforsvaret mot parasitten. Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -127,11 +127,12 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er preparatet avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688) |
 
 <!-- review:end log -->
 
