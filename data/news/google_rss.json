@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-20T10:59:57.614802+00:00",
+  "fetched_at": "2026-11-20T19:02:52.336709+00:00",
   "source": "Google News Health RSS",
-  "count": 22,
+  "count": 21,
   "articles": [
+    {
+      "id": "79910d53ff5f",
+      "title": "Mangel på reseptbelagt medisin hele vinteren - Oppland Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYTE3RW5UQ0FkRlpwZHpzdUY2UkVWRVhUVXQwR0N2VFpfenAtdmZUenJadUdJS21lVVo4TkVMamR1ZlZ6blFKVFNOSG5HNlVzNlBxclBIYTMwNnFqVldvZ2JDQU9iMHRicWxuQjVfV2pZa0thQ0dfdl8zb28yMmNGYUJ3?oc=5",
+      "published": "2026-11-20T12:54:10+00:00",
+      "source": {
+        "name": "Oppland Arbeiderblad",
+        "url": "https://www.oa.no"
+      }
+    },
     {
       "id": "6212beef0d07",
       "title": "Bare én depresjonsmedisin er godkjent for barn. Likevel får de fleste en annen - Forskning.no",
@@ -14,16 +24,6 @@
       }
     },
     {
-      "id": "6acfd229bd52",
-      "title": "Mangel på reseptbelagt hostesaft hele vinteren - Radio Haugaland",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyVHpSaDVFN1JSMUhoUmtlLTA4TWJja3FWOWpnQWVuQWI4ODVxQmh0Y2NoMzg2bkJZMDB1ckVxeXNTUFVzNDR0RGx0d2o0b0E2NVhOem45cFBjMWZ6aUdaVmltZWxMXzR3aGFqc1N2bC1Kd28?oc=5",
-      "published": "2026-11-20T05:13:36+00:00",
-      "source": {
-        "name": "Radio Haugaland",
-        "url": "https://radioh.no"
-      }
-    },
-    {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
@@ -31,6 +31,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "8a18b0bc2ec3",
+      "title": "Sønnen fikk dobbel medisindose: – Pårørende betaler prisen for kommunekutt - Tønsbergs Blad",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVWVHMW9IU3g3dUVhTmVMZ0Vody1jaXZxNGVpNTRkMHBTaGZiaGtWZ1V0aHg3OWxpMGcySzBmWGhOY0pwb1JVNzU5US15cUlOckZfQjhzSUZiNnVtRUVyNERmYU80QTYxMUJ2MUFET0NQRUoxU2dMaU9xM1FfeDBHSTlZSzhoQzQ0Rl9yTXMtU09XNWN3RV9GR0NmcjgyZXVQRVJJM01R?oc=5",
+      "published": "2026-11-18T00:05:00+00:00",
+      "source": {
+        "name": "Tønsbergs Blad",
+        "url": "https://www.tb.no"
       }
     },
     {
@@ -54,16 +64,6 @@
       }
     },
     {
-      "id": "ff3d6f1ac13e",
-      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
-      "published": "2026-11-13T04:37:40+00:00",
-      "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
-      }
-    },
-    {
       "id": "417bbfd35de6",
       "title": "Ny strategi skal gi bedre og tryggere bruk av legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmhUOC1HclNsYmQwVzNxaWkyQWJfWkNJdkFiMnlCM3pFWlk2THVIQ0VNVGY3MU9JYVRUdDdBVUdrSWgwaHg0dHRiaXI0eFd3ZldKb0p4Qno0ZGhMS2Yzd3J1d3RsalNQTmxvNkR2a3RSMVBSMEdRcUZVTC1vT2wxaTlEV2NLN3ZrekFnc09xN0pYbkwxNmhoSEFPejlMNm9JS29yc3lHNXo0YUpPVHo3OFJwbHVWQ2tpbnhCX1hNUlpmZFpxbWpIQnVYSDlGNG52MVpZ?oc=5",
@@ -71,6 +71,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "a000830bbe4c",
+      "title": "Helse, Rus | – Alvorlige bivirkninger og fare for overdose - Fredriksstad Blad",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYjZYWW9fY29YUmpwZzNKVExwcHhIYTJrT0tteEloXzA1RXhzWHcyTlFQT21JdUhCamxUTTNSLS1zZ3ZhaTByajA4TmpHMVNZeGwtU0J1QlRHV3U3aXV1NUZGaV9aUEJPQnQ2TXg4R3JlV0k0LUJQVURNTGp1X3RoQ00xRQ?oc=5",
+      "published": "2026-11-19T09:17:40+00:00",
+      "source": {
+        "name": "Fredriksstad Blad",
+        "url": "https://www.f-b.no"
       }
     },
     {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "787ea84a529c",
-      "title": "(+) Studie: Nye legemidler fortrenger mer helse enn de genererer - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZWppZTdqcEdaLXVQQVpnU0d2dnEzTzBJMU9BSDB2OXg5NUJ3MndpSklZUTVUNGxiR3lpU3VxbE01Q3JRMXBIVFhJQkVjcU40V3VzUjV1UlRHSW93U3pwWTZDS29xWXVqbXlFMG15Z3V2X29GTGtfb0M3Y0JpdmE0LVp4TEhoWUZub1M5Z0VYZVFuZU0wbE5tWmczc3JjdUhjTVlxSDA0Wm1kbTBST1ppZlhZNWVRLS1JRkR2Y05jNFFTREhld3ZxZnhfeHJEMTVmQVZrOTN3dV95enZVT1pMeWNTOXNtc2o2M3EyOUFyT1NQZw?oc=5",
-      "published": "2025-02-07T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "157d6d6c599d",
       "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
@@ -184,6 +184,16 @@
       }
     },
     {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
+      }
+    },
+    {
       "id": "d5b00741f05f",
       "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDl0M3pSbzZOTlBjLVNBUk5WRVJxUU5GU1kwLVFLS3pLd1QzZ2pseFJPMkNqTDFXR2Z2cllDcGRqb0xPY3o1cUhnbl9BeDhDcXlYdTVzLXZwYWM1TU9YMFZ0MXgzakkzMU5KeTVpc0lvQm90VzFaOGhVQzdYV1k5ZzczSTVkQ0s0Ul9WalJsVUd3eHNZY09jemIwMDFYLVpwQTJfNWF3QU4tZGFsNE00ZEIxZmlUNjE5X0RqcllXWE4yQ0EzTjlJSFZEYw?oc=5",
@@ -191,26 +201,6 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "263bf9da95d7",
-      "title": "Flere dør av en overdose sterke smertestillende medisiner - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1lYeDRvSUNCVC1FMU9VWWN6SUJ2Zmc4S2xwXzBkX0sxWDdibXF1dURJeXdCakFfejR2ZUV6TTVFdmYxaTZnaE9jRU4xT2VWRjlQLWVtUDVIdnI1anJEZG5XNlgxN0Q0MkFXZEdQVDVkY1NvemtJLURzcWdQN0Zrdjh1UmZmaUpxZzJuSmI0Qm5LT3hT?oc=5",
-      "published": "2022-10-25T07:00:00+00:00",
-      "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
