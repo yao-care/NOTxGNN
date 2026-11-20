@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 240
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L3). Opprinnelig indikasjon: Thyroid Neoplasms"
@@ -60,7 +60,7 @@ Retningen støttes foreløpig av **1 klinisk studie** (fase Ib/II, enkeltarmet) 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata fra legemiddeldatabasene er ikke tilgjengelige. Basert på kjent farmakologi hemmer lenvatinib flere reseptortyrosinkinaser som driver tumorangiogenese og vekstfaktorsignalering. Slike signalveier er også aktuelle i bløtdelssarkomer.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lenvatinib (uoffisiell oversettelse): «Lenvatinib er en kinasehemmer som hemmer kinaseaktiviteten til vaskulær endotelial vekstfaktor (VEGF)-reseptorene VEGFR1 (FLT1), VEGFR2 (KDR) og VEGFR3 (FLT4). Lenvatinib hemmer andre kinaser som, i tillegg til sine normale cellulære funksjoner, er satt i sammenheng med patogen angiogenese, tumorvekst og kreftprogresjon, inkludert fibroblastvekstfaktor (FGF)-reseptorene FGFR1, 2, 3 og 4, blodplateavledet vekstfaktorreseptor alfa (PDGFRA), KIT og RET.» Engelsk originaltekst: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), versjon av 2026-10-14; hentet 2026-11-20). Basert på kjent farmakologi hemmer lenvatinib flere reseptortyrosinkinaser som driver tumorangiogenese og vekstfaktorsignalering. Slike signalveier er også aktuelle i bløtdelssarkomer.
 
 I den kliniske studien ble lenvatinib kombinert med eribulin, et mikrotubuli-rettet cytostatikum. Kombinasjonen gir et utfyllende angrep: lenvatinib virker på tumorens karforsyning og vekstsignaler, mens eribulin virker på celledelingen. Prekliniske data tyder på at eribulin kombineres godt med andre kreftmedisiner.
 
@@ -133,6 +133,18 @@ Evidensnivået er L3: Én enkeltarmet fase Ib/II-studie (LEADER, NCT03526679; PM
 - Gjennomgang av advarsler og kontraindikasjoner i preparatomtalen
 - Plan for sikkerhetsovervåking og håndtering av legemiddelinteraksjoner, særlig for midler som kan forlenge QT-tid
 - Mer detaljerte data om virkningsmekanisme
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

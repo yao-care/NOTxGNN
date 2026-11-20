@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cladribine: predikert ny indikasjon Parameningeal embryonal rabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis"
 ---
 
@@ -56,7 +56,7 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte st�
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata er ikke tilgjengelige i de sammenstilte dataene. Ut fra generell kunnskap er kladribin (2-klordeoksyadenosin) en purinnukleosidanalog som er motstandsdyktig mot enzymet adenosindeaminase. Den fører til DNA-trådbrudd og apoptose i lymfocytter og monocytter. Virkningen avhenger av et høyt forhold mellom deoksycytidinkinase og 5'-nukleotidase, som er typisk for lymfoide celler.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cladribine (uoffisiell oversettelse): «Mekanismen som kladribin utøver sin terapeutiske effekt gjennom hos pasienter med multippel sklerose er ikke fullstendig klarlagt, men antas å involvere cytotoksiske effekter på B- og T-lymfocytter gjennom svekket DNA-syntese, noe som fører til deplesjon av lymfocytter.» Engelsk originaltekst: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), versjon av 2026-05-27; hentet 2026-11-20). Ut fra generell kunnskap er kladribin (2-klordeoksyadenosin) en purinnukleosidanalog som er motstandsdyktig mot enzymet adenosindeaminase. Den fører til DNA-trådbrudd og apoptose i lymfocytter og monocytter. Virkningen avhenger av et høyt forhold mellom deoksycytidinkinase og 5'-nukleotidase, som er typisk for lymfoide celler.
 
 Det finnes ingen holdepunkter for at en tilsvarende mekanisme gjelder ved rabdomyosarkom, som er en solid svulst av bløtvev. Den høye scoren skyldes sannsynligvis nærhet til andre kreftmidler i modellens nettverk, ikke en validert sammenheng. Standardbehandling av rabdomyosarkom bygger på vinkristin, daktinomycin, cyklofosfamid og lignende regimer, og kladribin har ingen etablert rolle.
 
@@ -106,6 +106,19 @@ Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller
 - Data om virkningsmekanisme og uttrykk av deoksycytidinkinase og 5'-nukleotidase i rabdomyosarkomceller
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner, spesielt med tanke på myelosuppresjon
 - Vurdering av nytte opp mot etablerte behandlingsregimer
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

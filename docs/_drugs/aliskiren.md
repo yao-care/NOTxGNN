@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Aliskiren: predikert ny indikasjon pulmonal hypertensjon som følge av lungesykdom og/eller hypoksi (pulmonary hypertension owing to lung disease and/or hy… (evidensnivå L5). Opprinnelig indikasjon: H…"
 ---
 
@@ -60,7 +60,7 @@ Det finnes **ingen kliniske studier** og **4 publikasjoner** i de samlede dataen
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Aliskiren hemmer renin og dermed det første, hastighetsbegrensende trinnet i RAS. Detaljerte mekanismedata fra legemiddeldatabasen mangler i de samlede dataene, men den farmakologiske virkningen som reninhemmer er godt kjent.
+Aliskiren hemmer renin og dermed det første, hastighetsbegrensende trinnet i RAS. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Aliskiren (uoffisiell oversettelse): «Renin skilles ut av nyrene som respons på reduksjon i blodvolum og nyreperfusjon. Renin spalter angiotensinogen og danner det inaktive dekapeptidet angiotensin I (Ang I). Ang I omdannes til det aktive oktapeptidet angiotensin II (Ang II) via ACE- og ikke-ACE-avhengige reaksjonsveier.» Engelsk originaltekst: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), versjon av 2022-12-30; hentet 2026-11-20).
 
 Prekliniske studier knytter kronisk intermitterende hypoksi til RAS-aktivering: økt sirkulerende angiotensin II, sympatisk overaktivitet og atrial remodellering hos rotter. En rottestudie antyder at aliskiren kan dempe hypoksiindusert atrial remodellering. Dette gir et plausibelt, men indirekte mekanistisk grunnlag.
 
@@ -117,6 +117,19 @@ Prediksjonen bygger på en høy modellscore og et plausibelt, men indirekte, RAS
 - Detaljerte data om virkningsmekanisme
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av sikkerhet ved kombinasjon med ACE-hemmere/ARB, særlig hos diabetikere, og ved nedsatt nyrefunksjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

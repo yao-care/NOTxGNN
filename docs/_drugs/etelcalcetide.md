@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 165
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide: predikert ny indikasjon Hyperfosfatemi (hyperphosphatemia (disease)) (evidensnivå L4). Opprinnelig indikasjon: Hyperparathyroidism, Secondary"
@@ -58,7 +58,7 @@ Etelcalcetid binder og aktiverer CaSR og senker dermed PTH. Lavere PTH gir mindr
 
 Hyperfosfatemi og legemidlets godkjente bruk er tett knyttet sammen gjennom mineral- og beinforstyrrelser ved kronisk nyresykdom, så det biologiske grunnlaget er sterkt. En preklinisk studie fra 2026 (PMID 42044867) tyder dessuten på at etelcalcetid kan gjenopprette hjertefunksjon ved kronisk hyperfosfatemi via CaSR-cAMP-signalering.
 
-Fosfatsenking er likevel en sekundær effekt og ikke den primære terapeutiske virkningen. Etelcalcetid er ikke en fosfatbinder. Detaljerte mekanismedata var ikke tilgjengelige i de innsamlede dataene, og vurderingen bygger på kjent farmakologi.
+Fosfatsenking er likevel en sekundær effekt og ikke den primære terapeutiske virkningen. Etelcalcetid er ikke en fosfatbinder. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Etelcalcetide (uoffisiell oversettelse): «Etelkalsetid er et kalsimimetisk middel som modulerer den kalsiumfølsomme reseptoren (CaSR) allosterisk. Etelkalsetid bindes til CaSR og forsterker aktiveringen av reseptoren av ekstracellulært kalsium. Aktivering av CaSR på hovedcellene i parathyreoidea reduserer PTH-sekresjonen.» Engelsk originaltekst: "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion." ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), versjon av 2026-03-08; hentet 2026-11-20).
 
 ## Klinisk evidens
 
@@ -99,6 +99,18 @@ Det biologiske grunnlaget er plausibelt, og en preklinisk studie støtter en eff
 - Detaljerte data om virkningsmekanisme (MOA)
 - Gjennomgang av pakningsvedlegget for advarsler og kontraindikasjoner
 - Vurdering av nytte i forhold til eksisterende fosfatbindere
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

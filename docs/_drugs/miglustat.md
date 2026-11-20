@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Miglustat: predikert ny indikasjon Autosomalt ikthyosesyndrom med dødelig sykdomsforløp (autosomal ichthyosis syndrome with fatal disease course) (evidensnivå L5). Opprinnelig indikasjon: Gaucher Dis…"
 ---
 
@@ -56,7 +56,7 @@ Prediksjonen er foreløpig **uten støtte fra kliniske studier eller publikasjon
 
 ## Hvorfor kan prediksjonen være rimelig?
 
-Detaljerte mekanismedata (original MOA) er ikke tilgjengelige i dataene. Ut fra kjent farmakologi hemmer miglustat glukosylceramidsyntase (UGCG), og dermed dannelsen av glukosylceramid og de glykosfingolipidene som avledes fra det.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Miglustat (uoffisiell oversettelse): «Gauchers sykdom type 1 skyldes funksjonell mangel på glukocerebrosidase, enzymet som medierer nedbrytningen av glykosfingolipidet glukosylceramid. Miglustat virker som en kompetitiv og reversibel hemmer av enzymet glukosylceramidsyntase, det første enzymet i en rekke reaksjoner som fører til syntesen av de fleste glykosfingolipider.» Engelsk originaltekst: "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids." ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), versjon av 2025-12-17; hentet 2026-11-20). Ut fra kjent farmakologi hemmer miglustat glukosylceramidsyntase (UGCG), og dermed dannelsen av glukosylceramid og de glykosfingolipidene som avledes fra det.
 
 Hudens barrierefunksjon avhenger av et nøye balansert stoffskifte av ceramider og glykosfingolipider i epidermis. Det er derfor tenkelig at hemming av dette enzymet kan påvirke sykdomsprosesser ved ikthyoseliknende tilstander. Dette er imidlertid **spekulativt**. Det finnes ingen kliniske data, ingen publikasjoner og ingen vurdering av likhet med de øvrige sykdomsområdene der legemidlet brukes. Prediksjonen bør derfor regnes som en hypotese og ikke som en støttet behandlingsmulighet.
 
@@ -92,6 +92,19 @@ Prediksjonen har en høy modellscore (0,9983), men hverken kliniske studier elle
 - Fullstendige mekanismedata (MOA) og preparatomtalens advarsler og kontraindikasjoner
 - Vurdering av administrasjonsvei og formulering som passer for en hudrelatert sykdom
 - Sikkerhetsvurdering i den aktuelle pasientgruppen, med særlig oppmerksomhet på perifer nevropati og nyrefunksjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Efavirenz: predikert ny indikasjon Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -56,7 +56,7 @@ Det finnes **ingen kliniske studier** og **14 publikasjoner**, nesten utelukkend
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Efavirenz hemmer revers transkriptase hos HIV-1. Villtype SIV er naturlig resistent mot NNRTI-er, så effekt sees bare i det kimære viruset RT-SHIV, som bærer HIV-1 sin revers transkriptase. Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige i de innsamlede dataene.
+Efavirenz hemmer revers transkriptase hos HIV-1. Villtype SIV er naturlig resistent mot NNRTI-er, så effekt sees bare i det kimære viruset RT-SHIV, som bærer HIV-1 sin revers transkriptase. Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Efavirenz (uoffisiell oversettelse): «Efavirenz er et antiviralt legemiddel. […] Efavirenz er en NNRTI av HIV-1. Aktiviteten til efavirenz medieres hovedsakelig av ikke-kompetitiv hemming av HIV-1 revers transkriptase. HIV-2 revers transkriptase og humane cellulære DNA-polymeraser α, β, γ og δ hemmes ikke av efavirenz.» Engelsk originaltekst: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), versjon av 2024-06-28; hentet 2026-11-20).
 
 Studiene som er funnet, bruker RT-SHIV-infiserte makaker som modell for HIV-1-behandling. De undersøker altså ikke SIV-infeksjon som en egen sykdom, men er en dyremodell for den eksisterende HIV-indikasjonen. SIV-infeksjon hos dyr har ingen egen klinisk anvendelse for mennesker. Prediksjonen er derfor mekanistisk forståelig, men ikke en reell ny humanindikasjon.
 
@@ -109,6 +109,19 @@ Evidensen består av prekliniske makakstudier med et kimært virus og ingen klin
 - Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
 - Klar definisjon av om målet er en veterinær eller en translasjonell modellanvendelse
 - Direkte studier av villtype-SIV hvis indikasjonen skal forfølges videre
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

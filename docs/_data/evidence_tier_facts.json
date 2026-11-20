@@ -9,7 +9,7 @@
   "with_current": 26,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 20,
+  "with_reviews": 24,
   "rows": [
    {
     "t": "Bupropion",
@@ -29,8 +29,8 @@
     "i": "Myeloid leukemi",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -172,8 +172,8 @@
     "i": "Myelogen leukemi",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -183,8 +183,8 @@
     "i": "HIV-infeksjon",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -227,7 +227,7 @@
     "i": "pleural adenomatoid tumor",
     "lt": 4,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Fjernet: «legemidlet er markedsført med 4 gyldige godkjenninger av 4»",
     "x": 0
    },
@@ -238,8 +238,8 @@
     "i": "Liposarkom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -272,7 +272,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "rs": "\"Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Vurderingen bygger derfor på…",
     "x": 0
    },
    {
@@ -317,7 +317,7 @@
   "with_current": 37,
   "none_current": 1,
   "without_data": 0,
-  "with_reviews": 35,
+  "with_reviews": 38,
   "rows": [
    {
     "t": "Abatacept",
@@ -392,8 +392,8 @@
     "i": "Liposarkom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -458,8 +458,8 @@
     "i": "Nyrecellekarsinom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "Hyperfosfatemi",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -761,7 +761,7 @@
   "with_current": 364,
   "none_current": 4,
   "without_data": 1,
-  "with_reviews": 340,
+  "with_reviews": 347,
   "rows": [
    {
     "t": "Denosumab",
@@ -1221,8 +1221,8 @@
     "i": "Autosomalt ikthyosesyndrom med dødelig sykdomsforløp",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -1265,8 +1265,8 @@
     "i": "Simian immunsviktvirus-infeksjon",
     "lt": 5,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -1738,7 +1738,7 @@
     "i": "liposarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Fjernet: «Begge godkjenningene er registrert som avregistrert»",
     "x": 0
    },
@@ -1760,8 +1760,8 @@
     "i": "Parameningeal embryonal rabdomyosarkom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -2057,8 +2057,8 @@
     "i": "CMM7",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -2123,7 +2123,7 @@
     "i": "Liposarkom",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Fjernet: «Markedsstatusen i Norge er «kun avregistrert», og sikkerhetsdata fra pakningsvedlegget mangler»",
     "x": 0
    },
@@ -2233,8 +2233,8 @@
     "i": "uten steroidsulfatasemangel",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -2244,8 +2244,8 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -2387,7 +2387,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Fjernet: «siden eneste autorisasjon er avregistrert»",
     "x": 0
    },
@@ -2453,8 +2453,8 @@
     "i": "Primært kutant B-cellelymfom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -4356,7 +4356,7 @@
     "i": "bilateral parasagittal parieto-occipital polymicrogyria",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt»",
     "x": 0
    },
@@ -4697,7 +4697,7 @@
     "i": "medulloblastoma with extensive nodularity",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
     "x": 0
    },

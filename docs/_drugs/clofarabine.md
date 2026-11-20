@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Clofarabine: predikert ny indikasjon Myeloid leukemi (myeloid leukemia) (evidensnivå L1). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
@@ -60,7 +60,7 @@ Retningen støttes av **flere kliniske studier i de innsamlede dataene, blant de
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata for legemidlet var ikke tilgjengelige i de innsamlede dataene. Ut fra litteraturen er klofarabin en andregenerasjons purinnukleosidanalog, utviklet for å kombinere de beste egenskapene til kladribin og fludarabin. Stoffet hemmer ribonukleotidreduktase og DNA-polymerase, og utarmer dermed tilgangen på deoksynukleosidtrifosfater som trengs til DNA-replikasjon. I tillegg induserer det apoptose via mitokondrielle signalveier.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Clofarabine (uoffisiell oversettelse): «Klofarabin metaboliseres sekvensielt intracellulært til 5’-monofosfatmetabolitten av deoksycytidinkinase, og av mono- og difosfokinaser til den aktive 5’-trifosfatmetabolitten. Klofarabin har en affinitet for det aktiverende fosforylerende enzymet deoksycytidinkinase som er lik eller større enn affiniteten til det naturlige substratet, deoksycytidin.» Engelsk originaltekst: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), versjon av 2026-08-24; hentet 2026-11-20). Ut fra litteraturen er klofarabin en andregenerasjons purinnukleosidanalog, utviklet for å kombinere de beste egenskapene til kladribin og fludarabin. Stoffet hemmer ribonukleotidreduktase og DNA-polymerase, og utarmer dermed tilgangen på deoksynukleosidtrifosfater som trengs til DNA-replikasjon. I tillegg induserer det apoptose via mitokondrielle signalveier.
 
 Disse mekanismene virker på raskt delende bloster i bloddannende vev. Det er derfor biologisk rimelig at effekten strekker seg fra lymfoblastisk leukemi, der legemidlet er godkjent, til myeloide leukemier. Den svært høye TxGNN-scoren er i samsvar med det kliniske signalet i studiene.
 
@@ -139,6 +139,19 @@ To fullførte fase 3-studier (NCT02085408 og NCT00317642) og flere fase 2-studie
 - Preparatomtale med advarsler og kontraindikasjoner
 - Detaljerte mekanismedata (MOA)
 - Overvåkingsplan for blodtelling samt lever- og nyrefunksjon, og gjennomgang av interaksjoner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

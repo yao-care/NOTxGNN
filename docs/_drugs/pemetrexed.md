@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 319
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predikert ny indikasjon Pleural adenomatoid tumor (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung"
@@ -61,7 +61,7 @@ Pemetreksed er et antifolat-cellegift som opprinnelig brukes mot **ikke-småcell
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de data som er sammenstilt for denne rapporten. Basert på kjent informasjon hemmer pemetreksed tymidylatsyntase, DHFR og GARFT. Dermed blokkeres nukleotidsyntesen i raskt delende kreftceller.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pemetrexed (uoffisiell oversettelse): «Pemetreksed er en metabolsk hemmer som er en folatanalog, og som forstyrrer folatavhengige metabolske prosesser som er essensielle for cellereplikasjon. In vitro-studier viser at pemetreksed hemmer tymidylatsyntase (TS), dihydrofolatreduktase (DHFR) og glysinamidribonukleotidformyltransferase (GARFT), som er folatavhengige enzymer involvert i de novo-biosyntesen av tymidin- og purinnukleotider.» Engelsk originaltekst: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), versjon av 2026-06-18; hentet 2026-11-20). Basert på kjent informasjon hemmer pemetreksed tymidylatsyntase, DHFR og GARFT. Dermed blokkeres nukleotidsyntesen i raskt delende kreftceller.
 
 Bukhinnemesoteliom har samme histologi og kjemosensitivitet som mesoteliom i brysthinnen, som er en godkjent indikasjon. Mekanismen kan derfor overføres direkte. I praksis brukes pemetreksed pluss platina allerede som førstelinjebehandling ved bukhinnemesoteliom, selv om spesifikke studier er få. Gjennomgangsartikler peker på at anbefalingene i stor grad er ekstrapolert fra studier av pleuralt mesoteliom (PMID 39413826).
 
@@ -161,12 +161,13 @@ Mekanismen er biologisk plausibel, og pemetreksed pluss platina brukes allerede 
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle fire godkjenninger er gyldige, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «legemidlet er markedsført med 4 gyldige godkjenninger av 4» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

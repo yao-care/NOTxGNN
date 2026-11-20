@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 352
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L2). Opprinnelig indikasjon: Colorectal Neoplasms"
@@ -54,7 +54,7 @@ Regorafenib er en oral multikinasehemmer. Den KI-baserte TxGNN-modellen prediker
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (MOA) er ikke tilgjengelige i datagrunnlaget. Regorafenib er likevel kjent som en multikinasehemmer som blokkerer VEGFR1–3, TIE2, PDGFR, FGFR, KIT, RET og RAF. Disse signalveiene driver angiogenese og tumorvekst ved bløtvevssarkomer, deriblant liposarkom, og dette er det mekanistiske grunnlaget for prediksjonen.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Regorafenib (uoffisiell oversettelse): «Regorafenib er en småmolekylær hemmer av flere membranbundne og intracellulære kinaser som er involvert i normale cellulære funksjoner og i patologiske prosesser som onkogenese, tumorangiogenese, metastasering og tumorimmunitet. I biokjemiske eller cellulære analyser in vitro hemmet regorafenib eller dets viktigste aktive humane metabolitter M-2 og M-5 aktiviteten til RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alfa, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl og CSF1R ved konsentrasjoner av regorafenib som er oppnådd klinisk.» Engelsk originaltekst: "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically." ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), versjon av 2026-02-09; hentet 2026-11-20). Regorafenib er likevel kjent som en multikinasehemmer som blokkerer VEGFR1–3, TIE2, PDGFR, FGFR, KIT, RET og RAF. Disse signalveiene driver angiogenese og tumorvekst ved bløtvevssarkomer, deriblant liposarkom, og dette er det mekanistiske grunnlaget for prediksjonen.
 
 Den randomiserte, placebokontrollerte fase 2-studien REGOSARC viste forlenget progresjonsfri overlevelse ved ikke-adipocytære sarkomer (for eksempel leiomyosarkom og synovialt sarkom), men ikke ved liposarkom. Liposarkomspesifikk aktivitet er derfor biologisk plausibel, men ikke bekreftet. Den liposarkomspesifikke fase 2-studien SARC024 støtter heller ikke rutinemessig bruk.
 
@@ -115,6 +115,18 @@ Evidensnivået er L2: to randomiserte placebokontrollerte fase 2-studier (SARC02
 - Data om kombinasjonsbehandling
 - Mekanismedata (MOA) og full gjennomgang av sikkerhetsinformasjon fra preparatomtalen, inkludert interaksjoner og leverpåvirkning
 - Plan for sikkerhetsmonitorering
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

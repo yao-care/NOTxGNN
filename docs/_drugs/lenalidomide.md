@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Lenalidomide: predikert ny indikasjon Myelogen leukemi (myeloid leukemia) (evidensnivå L2). Opprinnelig indikasjon: Multiple Myeloma"
 ---
 
@@ -60,7 +60,7 @@ Dette støttes for øyeblikket av **44 kliniske studier** (hovedsakelig fase 1 o
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (original MOA) er ikke tilgjengelige i de sammenstilte dataene. Ut fra kjent informasjon er lenalidomid en cereblon E3-ligase-modulator som bryter ned transkripsjonsfaktorene IKZF1 og IKZF3 samt CK1alfa, og den har immunmodulerende effekter, blant annet aktivering av NK- og T-celler.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lenalidomide (uoffisiell oversettelse): «Lenalidomid er en analog av talidomid med immunmodulerende, antiangiogene og antineoplastiske egenskaper. Lenalidomids cellulære aktiviteter medieres via målproteinet cereblon, en komponent i et cullin-ring E3-ubikvitinligase-enzymkompleks.» Engelsk originaltekst: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), versjon av 2023-03-24; hentet 2026-11-20). Ut fra kjent informasjon er lenalidomid en cereblon E3-ligase-modulator som bryter ned transkripsjonsfaktorene IKZF1 og IKZF3 samt CK1alfa, og den har immunmodulerende effekter, blant annet aktivering av NK- og T-celler.
 
 Nedbrytning av CK1alfa er grunnlaget for aktiviteten ved myeloide neoplasier med del(5q). Dette gir en rimelig begrunnelse for at legemidlet kan ha effekt også ved akutt myelogen leukemi (AML). Flere fase 1/2-studier kombinerer lenalidomid med azacitidin, cytarabin/idarubicin eller bruker det som vedlikeholdsbehandling etter remisjon.
 
@@ -147,6 +147,19 @@ Evidensen for myelogen leukemi består hovedsakelig av små, ikke-randomiserte f
 - Hente mekanismedata (MOA) fra DrugBank
 - Randomisert kontrollert studie som isolerer lenalidomids bidrag, helst i en genetisk definert undergruppe (f.eks. del(5q))
 - Plan for sikkerhetsovervåking av blodverdier og tromboserisiko
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

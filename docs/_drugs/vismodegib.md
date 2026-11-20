@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Vismodegib: predikert ny indikasjon Medulloblastom med utbredt nodularitet (evidensnivå L5). Opprinnelig indikasjon: Basalcellekarsinom"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -58,7 +58,7 @@ Vismodegib er en Hedgehog-hemmer som opprinnelig brukes mot basalcellekarsinom. 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata er foreløpig ikke tilgjengelige i datagrunnlaget for denne rapporten. Vismodegib er imidlertid kjent som en hemmer av Smoothened (SMO), en sentral komponent i Hedgehog-signalveien. Effekten ved basalcellekarsinom er påvist, og denne kreftformen drives av aktivering av Hedgehog-signalveien (PTCH1/SMO-mutasjoner).
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Vismodegib (uoffisiell oversettelse): «Vismodegib er en hemmer av Hedgehog-signalveien. Vismodegib bindes til og hemmer Smoothened, et transmembranprotein som er involvert i Hedgehog-signaltransduksjon.» Engelsk originaltekst: "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), versjon av 2024-12-02; hentet 2026-11-20). Vismodegib er imidlertid kjent som en hemmer av Smoothened (SMO), en sentral komponent i Hedgehog-signalveien. Effekten ved basalcellekarsinom er påvist, og denne kreftformen drives av aktivering av Hedgehog-signalveien (PTCH1/SMO-mutasjoner).
 
 Medulloblastom med utbredt nodularitet er en undertype av den SHH-aktiverte gruppen, der Hedgehog-signalering (endringer i PTCH1/SUFU) driver tumorutviklingen. Mekanistisk er det derfor plausibelt at en SMO-hemmer kan ha effekt.
 
@@ -145,12 +145,13 @@ Til sammenligning har andre prediksjoner for vismodegib bedre støtte i datagrun
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte go» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
 
 <!-- review:end log -->
 

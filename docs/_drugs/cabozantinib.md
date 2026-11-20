@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cabozantinib: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom og hepatocellulært karsinom"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -60,7 +60,7 @@ Støtten er foreløpig begrenset: **1 klinisk studie** (fase 2, pågår) og **1 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Cabozantinib hemmer VEGFR2, MET og AXL. Disse reseptorene driver angiogenese og overlevelsessignalering i svulster, også i bløtvevssarkomer. Detaljerte mekanismedata utover dette er ikke tilgjengelige i datagrunnlaget for rapporten.
+Cabozantinib hemmer VEGFR2, MET og AXL. Disse reseptorene driver angiogenese og overlevelsessignalering i svulster, også i bløtvevssarkomer. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cabozantinib (uoffisiell oversettelse): «Biokjemiske og/eller cellulære analyser in vitro har vist at kabozantinib hemmer tyrosinkinaseaktiviteten til MET, VEGFR-1, -2 og -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 og TIE-2. Disse reseptortyrosinkinasene er involvert både i normal cellefunksjon og i patologiske prosesser som onkogenese, metastasering, tumorangiogenese, legemiddelresistens og opprettholdelse av tumormikromiljøet.» Engelsk originaltekst: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), versjon av 2025-10-19; hentet 2026-11-20).
 
 Legemidlets effekt i nyrecellekarsinom og skjoldbruskkjertelkreft er godt dokumentert. Begge er solide svulster med avhengighet av angiogenese. Det gir et mekanistisk resonnement for at stoffet også kan virke i sarkomer. TxGNN-scoren er svært høy (0,998), men den er modellbasert.
 
@@ -150,11 +150,12 @@ Den høye TxGNN-scoren (0,9983) kommer fra TxGNN-modellen (deep learning) og kan
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Begge godkjenningene er registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
 
 <!-- review:end log -->
 

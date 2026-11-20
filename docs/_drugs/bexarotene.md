@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Bexarotene: predikert ny indikasjon Primært kutant B-cellelymfom (primary cutaneous B-cell lymphoma) (evidensnivå L5). Opprinnelig indikasjon: Lymphoma, T-Cell, Cutaneous"
 ---
 
@@ -58,7 +58,7 @@ Bexaroten er en selektiv retinoid X-reseptor-agonist (rexinoid) som påvirker ce
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de innsamlede dataene. Bexaroten er likevel kjent som en RXR-agonist. RXR er en ligandaktivert transkripsjonsfaktor som styrer genuttrykk knyttet til celledeling, differensiering og apoptose. Legemidlet induserer apoptose og differensiering i maligne T-lymfocytter.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bexarotene (uoffisiell oversettelse): «Beksaroten bindes selektivt til og aktiverer retinoid X-reseptorsubtyper (RXRα, RXRß, RXRγ). RXR kan danne heterodimerer med ulike reseptorpartnere, som retinsyrereseptorer (RAR), vitamin D-reseptor, thyreoideareseptor og peroksisomproliferatoraktiverte reseptorer (PPAR).» Engelsk originaltekst: "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs)." ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), versjon av 2020-04-30; hentet 2026-11-20). Bexaroten er likevel kjent som en RXR-agonist. RXR er en ligandaktivert transkripsjonsfaktor som styrer genuttrykk knyttet til celledeling, differensiering og apoptose. Legemidlet induserer apoptose og differensiering i maligne T-lymfocytter.
 
 Den mekanistiske koblingen til B-cellelymfom er svak. Det er ikke beskrevet noen RXR-avhengig mekanisme i primært kutant B-cellelymfom i de innsamlede dataene. Den svært høye prediksjonsscoren gjenspeiler trolig at sykdommen ligger nær kutane T-cellelymfomer i modellens nettverk, og ikke B-cellespesifikk biologi. Prediksjonen bør derfor tolkes som en hypotese og ikke som støtte for klinisk effekt.
 
@@ -136,6 +136,18 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 - Preparatomtalens advarsler og kontraindikasjoner, som ennå ikke er innhentet og er nødvendige for sikkerhetsvurderingen.
 - Mekanismedata (MOA) fra en egnet legemiddeldatabase.
 - En sikkerhetsovervåkingsplan som dekker skjoldbruskkjertel, lipider og lever.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

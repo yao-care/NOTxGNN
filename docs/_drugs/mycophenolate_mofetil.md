@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Mycophenolate Mofetil: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L2). Opprinnelig indikasjon: Graft Rejection"
 ---
 
@@ -56,7 +56,7 @@ Dette støttes foreløpig av **4 registrerte kliniske studier** (ingen med brukb
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent farmakologi hemmer mykofenolsyre enzymet inosinmonofosfat-dehydrogenase (IMPDH). Dette tømmer guanosinnukleotidpoolen, reduserer lymfocyttproliferasjon og begrenser substratet for revers transkripsjon av virus.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mycophenolate Mofetil (uoffisiell oversettelse): «Mykofenolatmofetil (MMF) absorberes etter oral administrering og hydrolyseres til mykofenolsyre (MPA), den aktive metabolitten. MPA er en selektiv ukompetitiv hemmer av de to isoformene (type I og type II) av inosinmonofosfatdehydrogenase (IMPDH), noe som fører til hemming av de novo-syntesveien for guanosinnukleotider, og blokkerer DNA-syntesen.» Engelsk originaltekst: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), versjon av 2026-07-31; hentet 2026-11-20). Ut fra kjent farmakologi hemmer mykofenolsyre enzymet inosinmonofosfat-dehydrogenase (IMPDH). Dette tømmer guanosinnukleotidpoolen, reduserer lymfocyttproliferasjon og begrenser substratet for revers transkripsjon av virus.
 
 Mykofenolat kan også forsterke den antivirale effekten av nukleosidanaloger som abakavir og didanosin, trolig via nedgang i intracellulært dGTP. Dette gir en plausibel «virostatisk» begrunnelse. Klinisk dokumentasjon er imidlertid begrenset til små studier, uten påvist varig nytte.
 
@@ -112,6 +112,19 @@ Mykofenolat har en plausibel mekanistisk begrunnelse ved HIV, men de registrerte
 - Randomiserte studier som direkte tester mykofenolat ved HIV med kliniske endepunkter
 - Data om virkningsmekanisme (MOA) og preparatomtale (advarsler og kontraindikasjoner)
 - Plan for sikkerhetsovervåking, særlig infeksjonsrisiko og interaksjoner med antiretroviral behandling
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

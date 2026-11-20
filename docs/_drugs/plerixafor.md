@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Multiple Myeloma"
@@ -59,7 +59,7 @@ For denne diagnosen foreligger det **0 kliniske studier** og **0 publikasjoner**
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Plerixafor er en CXCR4-antagonist. Den blokkerer samspillet mellom CXCR4 og CXCL12, som holder blodstamceller, og trolig også myelomceller, forankret i beinmargsnisjen. Detaljerte mekanismedata fra legemiddeldatabasen mangler, men CXCR4 er bekreftet som legemidlets primære mål, i tillegg til ACKR3.
+Plerixafor er en CXCR4-antagonist. Den blokkerer samspillet mellom CXCR4 og CXCL12, som holder blodstamceller, og trolig også myelomceller, forankret i beinmargsnisjen. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Plerixafor (uoffisiell oversettelse): «Pleriksafor er en hemmer av kjemokinreseptoren CXCR4 og blokkerer bindingen av dens tilhørende ligand, stromacelleavledet faktor-1α (SDF-1α). SDF-1α og CXCR4 er kjent for å spille en rolle i migrasjonen og «homing» av humane hematopoetiske stamceller (HSC) til margkompartmentet.» Engelsk originaltekst: "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment." ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), versjon av 2025-09-22; hentet 2026-11-20).
 
 Mekanismen kan i teorien forstyrre myelomcellenes tilknytning til beinmargen. Bruken ved myelom i dag er imidlertid mobilisering av stamceller til høydosebehandling, ikke en sykdomsmodifiserende behandling. Det finnes ingen studier som viser effekt på selve sykdommen i den indolente undergruppen.
 
@@ -107,7 +107,6 @@ Blant de øvrige prediksjonene er **myeloid leukemi** (rang 7, score 0,9902) den
 | EMEA/H/C/001030 | Mozobil (Sanofi B.V.) | Kansellert | Myelomatose, stamcelletransplantasjon, lymfom |
 | EMEA/H/C/005943 | Plerixafor Accord (Accord Healthcare S.L.U.) | Kansellert | Myelomatose, stamcelletransplantasjon |
 
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -131,6 +130,19 @@ Prediksjonen for indolent plasmacellemyelom bygger kun på modellscore og nærhe
 - Hente detaljerte mekanismedata (MOA) fra legemiddeldatabasen
 - Prekliniske eller kliniske data som viser effekt av CXCR4-blokade ved indolent plasmacellemyelom
 - Vurdere om myeloid leukemi, som har et større tidligfase-studiegrunnlag, bør prioriteres som forskningsspørsmål, med kontrollerte randomiserte studier som neste steg
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

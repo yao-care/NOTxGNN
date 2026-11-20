@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L5). Opprinnelig indikasjon: Graft Rejection"
@@ -58,7 +58,7 @@ Sirolimus er en mTOR-hemmer med immundempende og vekstdempende egenskaper. TxGNN
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (MOA) var ikke tilgjengelige i datamaterialet som er samlet inn for denne rapporten. Sirolimus er likevel kjent som en hemmer av mTOR-kinasen (mammalian target of rapamycin), som styrer cellevekst, celledeling og overlevelse.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sirolimus (uoffisiell oversettelse): «Sirolimus i FYARRO er en hemmer av mechanistic target of rapamycin-kinase (mTOR, tidligere kjent som mammalian target of rapamycin). mTOR, en serin-treoninkinase, befinner seg nedstrøms for PI3K/AKT-signalveien, kontrollerer sentrale cellulære prosesser som celleoverlevelse, vekst og proliferasjon, og er ofte dysregulert ved flere krefttyper hos mennesker. I celler bindes sirolimus til immunofilinet FK-bindende protein-12 (FKBP-12) og danner et immunsuppressivt kompleks.» Engelsk originaltekst: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), versjon av 2026-09-09; hentet 2026-11-20). Sirolimus er likevel kjent som en hemmer av mTOR-kinasen (mammalian target of rapamycin), som styrer cellevekst, celledeling og overlevelse.
 
 Liposarkom viser ofte aktivering av PI3K/AKT/mTOR-signalveien. Hemming av mTOR er derfor en biologisk plausibel antiproliferativ strategi. Dyremodeller antyder at mTOR-hemming kan redusere tumorvekst, men dette er ikke bekreftet i kontrollerte kliniske studier ved liposarkom.
 
@@ -127,11 +127,12 @@ For øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, vis
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Markedsstatusen i Norge er «kun avregistrert», og sikkerhetsdata fra pakningsvedlegget mangler» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Azathioprine: predikert ny indikasjon Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr… (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
@@ -74,7 +74,7 @@ TxGNN-modellen rangerer flere nye indikasjoner høyt. Den best underbygde er **i
 
 ## Hvorfor er prediksjonen rimelig?
 
-Detaljerte mekanismedata (original MOA) er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon omdannes azatioprin til 6-merkaptopurin og tioguaninnukleotider. Disse hemmer purinsyntesen og fremmer apoptose av T-celler (blant annet via Rac1-hemming). Dette er den samme immundempende mekanismen som brukes ved transplantasjon.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Azathioprine (uoffisiell oversettelse): «Amidofosforibosyltransferasehemmer; DNA-hemmer». Engelsk originaltekst: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; hentet 2026-11-20). Ut fra kjent informasjon omdannes azatioprin til 6-merkaptopurin og tioguaninnukleotider. Disse hemmer purinsyntesen og fremmer apoptose av T-celler (blant annet via Rac1-hemming). Dette er den samme immundempende mekanismen som brukes ved transplantasjon.
 
 **IBD og ulcerøs kolitt:** Ved IBD driver overaktivering av slimhinneimmunsystemet sykdommen. Azatioprin demper denne aktiveringen og brukes til å vedlikeholde remisjon og i kombinasjon med TNF-hemmere som infliximab. Mekanismen er derfor godt forenlig med den opprinnelige immundempende bruken. Bruken er allerede veletablert i klinisk praksis.
 
@@ -165,11 +165,12 @@ Det mangler data fra preparatomtalen om advarsler og kontraindikasjoner. Se prep
 
 ## Kontrollogg
 
-Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden eneste autorisasjon er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

@@ -11519,9 +11519,9 @@
    "drug": "nilotinib",
    "file": "nilotinib.md",
    "action": "mechanism",
-   "claim": "Merk: Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene.",
-   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nilotinib (uoffisiell oversettelse): «Nilotinib er en hemmer av BCR-ABL-kinasen. Nilotinib bindes til og stabiliserer den inaktive konformasjonen av kinasedomenet i ABL-proteinet. In vitro hemmet nilotinib BCR-ABL-mediert proliferasjon av murine leukemicellelinjer og humane cellelinjer avledet fra pasienter med Ph+ KML.» Engelsk originaltekst: \"Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML.\" ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), versjon av 2026-07-20; hentet 2026-11-19).",
-   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "claim": "Merk: Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Mekanismebeskrivelsen over bygger derfor på generell farmakologisk kunnskap om nilotinib og ikke på de leverte dataene.",
+   "replacement": "Mekanismebeskrivelsen over bygger derfor på generell farmakologisk kunnskap om nilotinib og ikke på de leverte dataene. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nilotinib (uoffisiell oversettelse): «Nilotinib er en hemmer av BCR-ABL-kinasen. Nilotinib bindes til og stabiliserer den inaktive konformasjonen av kinasedomenet i ABL-proteinet. In vitro hemmet nilotinib BCR-ABL-mediert proliferasjon av murine leukemicellelinjer og humane cellelinjer avledet fra pasienter med Ph+ KML.» Engelsk originaltekst: \"Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML.\" ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), versjon av 2026-07-20; hentet 2026-11-19).",
+   "summary": "\"Merk: Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Mekanismebeskrivelsen over bygger derfor på generell farmakologisk kunnskap om nilotinib og ikke på de leverte dataene\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -11538,8 +11538,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "no-moa-20261119-nilotinib-1",
+     "drug": "nilotinib",
+     "file": "nilotinib.md",
+     "action": "mechanism",
+     "claim": "Merk: Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene.",
+     "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Nilotinib (uoffisiell oversettelse): «Nilotinib er en hemmer av BCR-ABL-kinasen. Nilotinib bindes til og stabiliserer den inaktive konformasjonen av kinasedomenet i ABL-proteinet. In vitro hemmet nilotinib BCR-ABL-mediert proliferasjon av murine leukemicellelinjer og humane cellelinjer avledet fra pasienter med Ph+ KML.» Engelsk originaltekst: \"Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML.\" ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), versjon av 2026-07-20; hentet 2026-11-19).",
+     "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc",
+       "accessed": "2026-11-19",
+       "excerpt": "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML.",
+       "label_version": "2026-07-20",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "98b197ea-bca4-427e-8737-97f70a3262bc",
+       "translation": "Nilotinib er en hemmer av BCR-ABL-kinasen. Nilotinib bindes til og stabiliserer den inaktive konformasjonen av kinasedomenet i ABL-proteinet. In vitro hemmet nilotinib BCR-ABL-mediert proliferasjon av murine leukemicellelinjer og humane cellelinjer avledet fra pasienter med Ph+ KML.",
+       "translation_lang": "no",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-nintedanib-1",
@@ -13903,9 +13934,9 @@
    "drug": "solriamfetol",
    "file": "solriamfetol.md",
    "action": "mechanism",
-   "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene.",
-   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Solriamfetol (uoffisiell oversettelse): «Virkningsmekanismen til solriamfetol for å bedre våkenhet hos pasienter med overdreven søvnighet på dagtid forbundet med narkolepsi eller obstruktiv søvnapné er uklar. Effekten kan imidlertid være mediert gjennom dets aktivitet som en dopamin- og noradrenalinreopptakshemmer (DNRI).» Engelsk originaltekst: \"The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI).\" ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), versjon av 2026-05-05; hentet 2026-11-19).",
-   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Vurderingen bygger derfor på kjent farmakologi.",
+   "replacement": "Vurderingen bygger derfor på kjent farmakologi. Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Solriamfetol (uoffisiell oversettelse): «Virkningsmekanismen til solriamfetol for å bedre våkenhet hos pasienter med overdreven søvnighet på dagtid forbundet med narkolepsi eller obstruktiv søvnapné er uklar. Effekten kan imidlertid være mediert gjennom dets aktivitet som en dopamin- og noradrenalinreopptakshemmer (DNRI).» Engelsk originaltekst: \"The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI).\" ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), versjon av 2026-05-05; hentet 2026-11-19).",
+   "summary": "\"Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Vurderingen bygger derfor på kjent farmakologi\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -13922,8 +13953,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "no-moa-20261119-solriamfetol-1",
+     "drug": "solriamfetol",
+     "file": "solriamfetol.md",
+     "action": "mechanism",
+     "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene.",
+     "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Solriamfetol (uoffisiell oversettelse): «Virkningsmekanismen til solriamfetol for å bedre våkenhet hos pasienter med overdreven søvnighet på dagtid forbundet med narkolepsi eller obstruktiv søvnapné er uklar. Effekten kan imidlertid være mediert gjennom dets aktivitet som en dopamin- og noradrenalinreopptakshemmer (DNRI).» Engelsk originaltekst: \"The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI).\" ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), versjon av 2026-05-05; hentet 2026-11-19).",
+     "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab",
+       "accessed": "2026-11-19",
+       "excerpt": "The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI).",
+       "label_version": "2026-05-05",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "362f206b-73e7-4009-8c34-5a9df55679ab",
+       "translation": "Virkningsmekanismen til solriamfetol for å bedre våkenhet hos pasienter med overdreven søvnighet på dagtid forbundet med narkolepsi eller obstruktiv søvnapné er uklar. Effekten kan imidlertid være mediert gjennom dets aktivitet som en dopamin- og noradrenalinreopptakshemmer (DNRI).",
+       "translation_lang": "no",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-sorafenib-1",
@@ -15562,7 +15624,7 @@
    "file": "caspofungin.md",
    "action": "mechanism",
    "claim": "Siden data om opprinnelig virkningsmekanisme mangler, kunne prediksjonen heller ikke kontrolleres mot en dokumentert målprofil.",
-   "replacement": "Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Caspofungin (uoffisiell oversettelse): «Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.» Engelsk originaltekst: \"Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells.\" ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), versjon av 2024-10-11; hentet 2026-11-20).",
+   "replacement": "Virkningsmekanismen er sitert ovenfor med kildehenvisning ([DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c)).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15576,6 +15638,575 @@
      "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
      "set_id": "3bad23a6-09a6-4194-9182-093ed61bc71c",
      "translation": "Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "no-moa-20261120-caspofungin-2",
+     "drug": "caspofungin",
+     "file": "caspofungin.md",
+     "action": "mechanism",
+     "claim": "Siden data om opprinnelig virkningsmekanisme mangler, kunne prediksjonen heller ikke kontrolleres mot en dokumentert målprofil.",
+     "replacement": "Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Caspofungin (uoffisiell oversettelse): «Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.» Engelsk originaltekst: \"Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells.\" ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), versjon av 2024-10-11; hentet 2026-11-20).",
+     "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c",
+       "accessed": "2026-11-20",
+       "excerpt": "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells.",
+       "label_version": "2024-10-11",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3bad23a6-09a6-4194-9182-093ed61bc71c",
+       "translation": "Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.",
+       "translation_lang": "no",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
+  },
+  {
+   "id": "no-moa-20261120-alirocumab-1",
+   "drug": "alirocumab",
+   "file": "alirocumab.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige, men denne virkemåten er godt kjent.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Alirocumab (uoffisiell oversettelse): «Alirokumab er et humant monoklonalt antistoff som bindes til proproteinkonvertase subtilisin/kexin type 9 (PCSK9). PCSK9 bindes til lavdensitetslipoprotein (LDL)-reseptorene (LDLR) på overflaten av hepatocytter og fremmer nedbrytning av LDLR i leveren.» Engelsk originaltekst: \"Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver.\" ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), versjon av 2026-07-16; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172",
+     "accessed": "2026-11-20",
+     "excerpt": "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver.",
+     "label_version": "2026-07-16",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "7bcfbac2-e8ac-4569-8edc-bcde3b1fd172",
+     "translation": "Alirokumab er et humant monoklonalt antistoff som bindes til proproteinkonvertase subtilisin/kexin type 9 (PCSK9). PCSK9 bindes til lavdensitetslipoprotein (LDL)-reseptorene (LDLR) på overflaten av hepatocytter og fremmer nedbrytning av LDLR i leveren.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-aliskiren-1",
+   "drug": "aliskiren",
+   "file": "aliskiren.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata fra legemiddeldatabasen mangler i de samlede dataene, men den farmakologiske virkningen som reninhemmer er godt kjent.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Aliskiren (uoffisiell oversettelse): «Renin skilles ut av nyrene som respons på reduksjon i blodvolum og nyreperfusjon. Renin spalter angiotensinogen og danner det inaktive dekapeptidet angiotensin I (Ang I). Ang I omdannes til det aktive oktapeptidet angiotensin II (Ang II) via ACE- og ikke-ACE-avhengige reaksjonsveier.» Engelsk originaltekst: \"Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways.\" ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), versjon av 2022-12-30; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: aliskiren prescribing information, Par Health USA, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb",
+     "accessed": "2026-11-20",
+     "excerpt": "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways.",
+     "label_version": "2022-12-30",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f3fd2503-25ef-4660-a29a-f62c491e28fb",
+     "translation": "Renin skilles ut av nyrene som respons på reduksjon i blodvolum og nyreperfusjon. Renin spalter angiotensinogen og danner det inaktive dekapeptidet angiotensin I (Ang I). Ang I omdannes til det aktive oktapeptidet angiotensin II (Ang II) via ACE- og ikke-ACE-avhengige reaksjonsveier.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-azathioprine-1",
+   "drug": "azathioprine",
+   "file": "azathioprine.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (original MOA) er foreløpig ikke tilgjengelige i datagrunnlaget.",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Azathioprine (uoffisiell oversettelse): «Amidofosforibosyltransferasehemmer; DNA-hemmer». Engelsk originaltekst: \"Amidophosphoribosyltransferase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL1542 (azathioprine): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542",
+     "accessed": "2026-11-20",
+     "excerpt": "Amidophosphoribosyltransferase inhibitor; DNA inhibitor",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL1542",
+     "translation": "Amidofosforibosyltransferasehemmer; DNA-hemmer",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-bexarotene-1",
+   "drug": "bexarotene",
+   "file": "bexarotene.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de innsamlede dataene.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Bexarotene (uoffisiell oversettelse): «Beksaroten bindes selektivt til og aktiverer retinoid X-reseptorsubtyper (RXRα, RXRß, RXRγ). RXR kan danne heterodimerer med ulike reseptorpartnere, som retinsyrereseptorer (RAR), vitamin D-reseptor, thyreoideareseptor og peroksisomproliferatoraktiverte reseptorer (PPAR).» Engelsk originaltekst: \"Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs).\" ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), versjon av 2020-04-30; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc",
+     "accessed": "2026-11-20",
+     "excerpt": "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs).",
+     "label_version": "2020-04-30",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "1d056725-0576-4338-8089-6336e768ccdc",
+     "translation": "Beksaroten bindes selektivt til og aktiverer retinoid X-reseptorsubtyper (RXRα, RXRß, RXRγ). RXR kan danne heterodimerer med ulike reseptorpartnere, som retinsyrereseptorer (RAR), vitamin D-reseptor, thyreoideareseptor og peroksisomproliferatoraktiverte reseptorer (PPAR).",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-cabozantinib-1",
+   "drug": "cabozantinib",
+   "file": "cabozantinib.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata utover dette er ikke tilgjengelige i datagrunnlaget for rapporten.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cabozantinib (uoffisiell oversettelse): «Biokjemiske og/eller cellulære analyser in vitro har vist at kabozantinib hemmer tyrosinkinaseaktiviteten til MET, VEGFR-1, -2 og -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 og TIE-2. Disse reseptortyrosinkinasene er involvert både i normal cellefunksjon og i patologiske prosesser som onkogenese, metastasering, tumorangiogenese, legemiddelresistens og opprettholdelse av tumormikromiljøet.» Engelsk originaltekst: \"In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment.\" ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), versjon av 2025-10-19; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "accessed": "2026-11-20",
+     "excerpt": "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment.",
+     "label_version": "2025-10-19",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "translation": "Biokjemiske og/eller cellulære analyser in vitro har vist at kabozantinib hemmer tyrosinkinaseaktiviteten til MET, VEGFR-1, -2 og -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 og TIE-2. Disse reseptortyrosinkinasene er involvert både i normal cellefunksjon og i patologiske prosesser som onkogenese, metastasering, tumorangiogenese, legemiddelresistens og opprettholdelse av tumormikromiljøet.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-cladribine-1",
+   "drug": "cladribine",
+   "file": "cladribine.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata er ikke tilgjengelige i de sammenstilte dataene.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Cladribine (uoffisiell oversettelse): «Mekanismen som kladribin utøver sin terapeutiske effekt gjennom hos pasienter med multippel sklerose er ikke fullstendig klarlagt, men antas å involvere cytotoksiske effekter på B- og T-lymfocytter gjennom svekket DNA-syntese, noe som fører til deplesjon av lymfocytter.» Engelsk originaltekst: \"The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes.\" ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), versjon av 2026-05-27; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes.",
+     "label_version": "2026-05-27",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "9c75e30a-a410-40f1-b653-04d532bd9144",
+     "translation": "Mekanismen som kladribin utøver sin terapeutiske effekt gjennom hos pasienter med multippel sklerose er ikke fullstendig klarlagt, men antas å involvere cytotoksiske effekter på B- og T-lymfocytter gjennom svekket DNA-syntese, noe som fører til deplesjon av lymfocytter.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-clofarabine-1",
+   "drug": "clofarabine",
+   "file": "clofarabine.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata for legemidlet var ikke tilgjengelige i de innsamlede dataene.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Clofarabine (uoffisiell oversettelse): «Klofarabin metaboliseres sekvensielt intracellulært til 5’-monofosfatmetabolitten av deoksycytidinkinase, og av mono- og difosfokinaser til den aktive 5’-trifosfatmetabolitten. Klofarabin har en affinitet for det aktiverende fosforylerende enzymet deoksycytidinkinase som er lik eller større enn affiniteten til det naturlige substratet, deoksycytidin.» Engelsk originaltekst: \"Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine.\" ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), versjon av 2026-08-24; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873",
+     "accessed": "2026-11-20",
+     "excerpt": "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine.",
+     "label_version": "2026-08-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "26b2de66-6518-49ab-820e-492454cbc873",
+     "translation": "Klofarabin metaboliseres sekvensielt intracellulært til 5’-monofosfatmetabolitten av deoksycytidinkinase, og av mono- og difosfokinaser til den aktive 5’-trifosfatmetabolitten. Klofarabin har en affinitet for det aktiverende fosforylerende enzymet deoksycytidinkinase som er lik eller større enn affiniteten til det naturlige substratet, deoksycytidin.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-efavirenz-1",
+   "drug": "efavirenz",
+   "file": "efavirenz.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige i de innsamlede dataene.",
+   "replacement": "Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Efavirenz (uoffisiell oversettelse): «Efavirenz er et antiviralt legemiddel. […] Efavirenz er en NNRTI av HIV-1. Aktiviteten til efavirenz medieres hovedsakelig av ikke-kompetitiv hemming av HIV-1 revers transkriptase. HIV-2 revers transkriptase og humane cellulære DNA-polymeraser α, β, γ og δ hemmes ikke av efavirenz.» Engelsk originaltekst: \"Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz.\" ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), versjon av 2024-06-28; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358",
+     "accessed": "2026-11-20",
+     "excerpt": "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz.",
+     "label_version": "2024-06-28",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "13ca3456-e5bf-4bb1-af95-b1378658a358",
+     "translation": "Efavirenz er et antiviralt legemiddel. […] Efavirenz er en NNRTI av HIV-1. Aktiviteten til efavirenz medieres hovedsakelig av ikke-kompetitiv hemming av HIV-1 revers transkriptase. HIV-2 revers transkriptase og humane cellulære DNA-polymeraser α, β, γ og δ hemmes ikke av efavirenz.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-etelcalcetide-1",
+   "drug": "etelcalcetide",
+   "file": "etelcalcetide.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata var ikke tilgjengelige i de innsamlede dataene, og vurderingen bygger på kjent farmakologi.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Etelcalcetide (uoffisiell oversettelse): «Etelkalsetid er et kalsimimetisk middel som modulerer den kalsiumfølsomme reseptoren (CaSR) allosterisk. Etelkalsetid bindes til CaSR og forsterker aktiveringen av reseptoren av ekstracellulært kalsium. Aktivering av CaSR på hovedcellene i parathyreoidea reduserer PTH-sekresjonen.» Engelsk originaltekst: \"Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion.\" ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), versjon av 2026-03-08; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c",
+     "accessed": "2026-11-20",
+     "excerpt": "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion.",
+     "label_version": "2026-03-08",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c",
+     "translation": "Etelkalsetid er et kalsimimetisk middel som modulerer den kalsiumfølsomme reseptoren (CaSR) allosterisk. Etelkalsetid bindes til CaSR og forsterker aktiveringen av reseptoren av ekstracellulært kalsium. Aktivering av CaSR på hovedcellene i parathyreoidea reduserer PTH-sekresjonen.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-lenalidomide-1",
+   "drug": "lenalidomide",
+   "file": "lenalidomide.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (original MOA) er ikke tilgjengelige i de sammenstilte dataene.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lenalidomide (uoffisiell oversettelse): «Lenalidomid er en analog av talidomid med immunmodulerende, antiangiogene og antineoplastiske egenskaper. Lenalidomids cellulære aktiviteter medieres via målproteinet cereblon, en komponent i et cullin-ring E3-ubikvitinligase-enzymkompleks.» Engelsk originaltekst: \"Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.\" ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), versjon av 2023-03-24; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be",
+     "accessed": "2026-11-20",
+     "excerpt": "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.",
+     "label_version": "2023-03-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "5fa97bf5-28a2-48f1-8955-f56012d296be",
+     "translation": "Lenalidomid er en analog av talidomid med immunmodulerende, antiangiogene og antineoplastiske egenskaper. Lenalidomids cellulære aktiviteter medieres via målproteinet cereblon, en komponent i et cullin-ring E3-ubikvitinligase-enzymkompleks.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-lenvatinib-1",
+   "drug": "lenvatinib",
+   "file": "lenvatinib.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata fra legemiddeldatabasene er ikke tilgjengelige.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Lenvatinib (uoffisiell oversettelse): «Lenvatinib er en kinasehemmer som hemmer kinaseaktiviteten til vaskulær endotelial vekstfaktor (VEGF)-reseptorene VEGFR1 (FLT1), VEGFR2 (KDR) og VEGFR3 (FLT4). Lenvatinib hemmer andre kinaser som, i tillegg til sine normale cellulære funksjoner, er satt i sammenheng med patogen angiogenese, tumorvekst og kreftprogresjon, inkludert fibroblastvekstfaktor (FGF)-reseptorene FGFR1, 2, 3 og 4, blodplateavledet vekstfaktorreseptor alfa (PDGFRA), KIT og RET.» Engelsk originaltekst: \"Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET.\" ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), versjon av 2026-10-14; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "accessed": "2026-11-20",
+     "excerpt": "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET.",
+     "label_version": "2026-10-14",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "translation": "Lenvatinib er en kinasehemmer som hemmer kinaseaktiviteten til vaskulær endotelial vekstfaktor (VEGF)-reseptorene VEGFR1 (FLT1), VEGFR2 (KDR) og VEGFR3 (FLT4). Lenvatinib hemmer andre kinaser som, i tillegg til sine normale cellulære funksjoner, er satt i sammenheng med patogen angiogenese, tumorvekst og kreftprogresjon, inkludert fibroblastvekstfaktor (FGF)-reseptorene FGFR1, 2, 3 og 4, blodplateavledet vekstfaktorreseptor alfa (PDGFRA), KIT og RET.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-miglustat-1",
+   "drug": "miglustat",
+   "file": "miglustat.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (original MOA) er ikke tilgjengelige i dataene.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Miglustat (uoffisiell oversettelse): «Gauchers sykdom type 1 skyldes funksjonell mangel på glukocerebrosidase, enzymet som medierer nedbrytningen av glykosfingolipidet glukosylceramid. Miglustat virker som en kompetitiv og reversibel hemmer av enzymet glukosylceramidsyntase, det første enzymet i en rekke reaksjoner som fører til syntesen av de fleste glykosfingolipider.» Engelsk originaltekst: \"Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids.\" ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), versjon av 2025-12-17; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87",
+     "accessed": "2026-11-20",
+     "excerpt": "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids.",
+     "label_version": "2025-12-17",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "2b371dfe-e2b0-47fe-b677-a7bde7149f87",
+     "translation": "Gauchers sykdom type 1 skyldes funksjonell mangel på glukocerebrosidase, enzymet som medierer nedbrytningen av glykosfingolipidet glukosylceramid. Miglustat virker som en kompetitiv og reversibel hemmer av enzymet glukosylceramidsyntase, det første enzymet i en rekke reaksjoner som fører til syntesen av de fleste glykosfingolipider.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-mycophenolate_mofetil-1",
+   "drug": "mycophenolate_mofetil",
+   "file": "mycophenolate_mofetil.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de innsamlede dataene.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Mycophenolate Mofetil (uoffisiell oversettelse): «Mykofenolatmofetil (MMF) absorberes etter oral administrering og hydrolyseres til mykofenolsyre (MPA), den aktive metabolitten. MPA er en selektiv ukompetitiv hemmer av de to isoformene (type I og type II) av inosinmonofosfatdehydrogenase (IMPDH), noe som fører til hemming av de novo-syntesveien for guanosinnukleotider, og blokkerer DNA-syntesen.» Engelsk originaltekst: \"Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis.\" ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), versjon av 2026-07-31; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9",
+     "accessed": "2026-11-20",
+     "excerpt": "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis.",
+     "label_version": "2026-07-31",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9",
+     "translation": "Mykofenolatmofetil (MMF) absorberes etter oral administrering og hydrolyseres til mykofenolsyre (MPA), den aktive metabolitten. MPA er en selektiv ukompetitiv hemmer av de to isoformene (type I og type II) av inosinmonofosfatdehydrogenase (IMPDH), noe som fører til hemming av de novo-syntesveien for guanosinnukleotider, og blokkerer DNA-syntesen.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-pemetrexed-1",
+   "drug": "pemetrexed",
+   "file": "pemetrexed.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de data som er sammenstilt for denne rapporten.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Pemetrexed (uoffisiell oversettelse): «Pemetreksed er en metabolsk hemmer som er en folatanalog, og som forstyrrer folatavhengige metabolske prosesser som er essensielle for cellereplikasjon. In vitro-studier viser at pemetreksed hemmer tymidylatsyntase (TS), dihydrofolatreduktase (DHFR) og glysinamidribonukleotidformyltransferase (GARFT), som er folatavhengige enzymer involvert i de novo-biosyntesen av tymidin- og purinnukleotider.» Engelsk originaltekst: \"Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides.\" ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), versjon av 2026-06-18; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0",
+     "accessed": "2026-11-20",
+     "excerpt": "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides.",
+     "label_version": "2026-06-18",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "caef07ce-066b-4c48-98dc-974b05ebbbe0",
+     "translation": "Pemetreksed er en metabolsk hemmer som er en folatanalog, og som forstyrrer folatavhengige metabolske prosesser som er essensielle for cellereplikasjon. In vitro-studier viser at pemetreksed hemmer tymidylatsyntase (TS), dihydrofolatreduktase (DHFR) og glysinamidribonukleotidformyltransferase (GARFT), som er folatavhengige enzymer involvert i de novo-biosyntesen av tymidin- og purinnukleotider.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-plerixafor-1",
+   "drug": "plerixafor",
+   "file": "plerixafor.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata fra legemiddeldatabasen mangler, men CXCR4 er bekreftet som legemidlets primære mål, i tillegg til ACKR3.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Plerixafor (uoffisiell oversettelse): «Pleriksafor er en hemmer av kjemokinreseptoren CXCR4 og blokkerer bindingen av dens tilhørende ligand, stromacelleavledet faktor-1α (SDF-1α). SDF-1α og CXCR4 er kjent for å spille en rolle i migrasjonen og «homing» av humane hematopoetiske stamceller (HSC) til margkompartmentet.» Engelsk originaltekst: \"Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.\" ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), versjon av 2025-09-22; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+     "accessed": "2026-11-20",
+     "excerpt": "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.",
+     "label_version": "2025-09-22",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+     "translation": "Pleriksafor er en hemmer av kjemokinreseptoren CXCR4 og blokkerer bindingen av dens tilhørende ligand, stromacelleavledet faktor-1α (SDF-1α). SDF-1α og CXCR4 er kjent for å spille en rolle i migrasjonen og «homing» av humane hematopoetiske stamceller (HSC) til margkompartmentet.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-regorafenib-1",
+   "drug": "regorafenib",
+   "file": "regorafenib.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) er ikke tilgjengelige i datagrunnlaget.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Regorafenib (uoffisiell oversettelse): «Regorafenib er en småmolekylær hemmer av flere membranbundne og intracellulære kinaser som er involvert i normale cellulære funksjoner og i patologiske prosesser som onkogenese, tumorangiogenese, metastasering og tumorimmunitet. I biokjemiske eller cellulære analyser in vitro hemmet regorafenib eller dets viktigste aktive humane metabolitter M-2 og M-5 aktiviteten til RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alfa, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl og CSF1R ved konsentrasjoner av regorafenib som er oppnådd klinisk.» Engelsk originaltekst: \"Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.\" ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), versjon av 2026-02-09; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "accessed": "2026-11-20",
+     "excerpt": "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.",
+     "label_version": "2026-02-09",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "translation": "Regorafenib er en småmolekylær hemmer av flere membranbundne og intracellulære kinaser som er involvert i normale cellulære funksjoner og i patologiske prosesser som onkogenese, tumorangiogenese, metastasering og tumorimmunitet. I biokjemiske eller cellulære analyser in vitro hemmet regorafenib eller dets viktigste aktive humane metabolitter M-2 og M-5 aktiviteten til RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alfa, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl og CSF1R ved konsentrasjoner av regorafenib som er oppnådd klinisk.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-sirolimus-1",
+   "drug": "sirolimus",
+   "file": "sirolimus.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) var ikke tilgjengelige i datamaterialet som er samlet inn for denne rapporten.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Sirolimus (uoffisiell oversettelse): «Sirolimus i FYARRO er en hemmer av mechanistic target of rapamycin-kinase (mTOR, tidligere kjent som mammalian target of rapamycin). mTOR, en serin-treoninkinase, befinner seg nedstrøms for PI3K/AKT-signalveien, kontrollerer sentrale cellulære prosesser som celleoverlevelse, vekst og proliferasjon, og er ofte dysregulert ved flere krefttyper hos mennesker. I celler bindes sirolimus til immunofilinet FK-bindende protein-12 (FKBP-12) og danner et immunsuppressivt kompleks.» Engelsk originaltekst: \"Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex.\" ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), versjon av 2026-09-09; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf",
+     "accessed": "2026-11-20",
+     "excerpt": "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex.",
+     "label_version": "2026-09-09",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "0f9bb784-53e2-46f9-a65d-1c6c2a230eaf",
+     "translation": "Sirolimus i FYARRO er en hemmer av mechanistic target of rapamycin-kinase (mTOR, tidligere kjent som mammalian target of rapamycin). mTOR, en serin-treoninkinase, befinner seg nedstrøms for PI3K/AKT-signalveien, kontrollerer sentrale cellulære prosesser som celleoverlevelse, vekst og proliferasjon, og er ofte dysregulert ved flere krefttyper hos mennesker. I celler bindes sirolimus til immunofilinet FK-bindende protein-12 (FKBP-12) og danner et immunsuppressivt kompleks.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-tasimelteon-1",
+   "drug": "tasimelteon",
+   "file": "tasimelteon.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata er ikke tilgjengelige i datagrunnlaget, så beskrivelsen bygger på kjent farmakologi.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Tasimelteon (uoffisiell oversettelse): «Mekanismen som tasimelteon utøver sin terapeutiske effekt gjennom hos pasienter med Non-24 eller nattlige søvnforstyrrelser ved SMS er uklar. Tasimelteon er imidlertid en agonist ved melatoninreseptorene MT 1 og MT 2, som antas å være involvert i reguleringen av døgnrytmen.» Engelsk originaltekst: \"The mechanism by which tasimelteon exerts its therapeutic effect in patients with Non-24 or nighttime sleep disturbances in SMS is unclear. However, tasimelteon is an agonist at melatonin MT 1 and MT 2 receptors which are thought to be involved in the control of circadian rhythms.\" ([DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90), versjon av 2026-08-04; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism by which tasimelteon exerts its therapeutic effect in patients with Non-24 or nighttime sleep disturbances in SMS is unclear. However, tasimelteon is an agonist at melatonin MT 1 and MT 2 receptors which are thought to be involved in the control of circadian rhythms.",
+     "label_version": "2026-08-04",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "ca4a9b63-708e-49e9-8f9b-010625443b90",
+     "translation": "Mekanismen som tasimelteon utøver sin terapeutiske effekt gjennom hos pasienter med Non-24 eller nattlige søvnforstyrrelser ved SMS er uklar. Tasimelteon er imidlertid en agonist ved melatoninreseptorene MT 1 og MT 2, som antas å være involvert i reguleringen av døgnrytmen.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-vandetanib-1",
+   "drug": "vandetanib",
+   "file": "vandetanib.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata (MOA) er ikke tilgjengelige i datagrunnlaget for denne rapporten.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Vandetanib (uoffisiell oversettelse): «In vitro-studier har vist at vandetanib hemmer tyrosinkinaseaktiviteten til EGFR- og VEGFR-familiene, RET, BRK, TIE2 og medlemmer av EPH-reseptorfamilien og Src-kinasefamilien. Disse reseptortyrosinkinasene er involvert både i normal cellefunksjon og i patologiske prosesser som onkogenese, metastasering, tumorangiogenese og opprettholdelse av tumormikromiljøet.» Engelsk originaltekst: \"In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment.\" ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03), versjon av 2026-10-30; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03",
+     "accessed": "2026-11-20",
+     "excerpt": "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment.",
+     "label_version": "2026-10-30",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "e5721cb8-4185-47b9-bbb3-1c587e558a03",
+     "translation": "In vitro-studier har vist at vandetanib hemmer tyrosinkinaseaktiviteten til EGFR- og VEGFR-familiene, RET, BRK, TIE2 og medlemmer av EPH-reseptorfamilien og Src-kinasefamilien. Disse reseptortyrosinkinasene er involvert både i normal cellefunksjon og i patologiske prosesser som onkogenese, metastasering, tumorangiogenese og opprettholdelse av tumormikromiljøet.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-vismodegib-1",
+   "drug": "vismodegib",
+   "file": "vismodegib.md",
+   "action": "mechanism",
+   "claim": "Detaljerte mekanismedata er foreløpig ikke tilgjengelige i datagrunnlaget for denne rapporten.",
+   "replacement": "Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Vismodegib (uoffisiell oversettelse): «Vismodegib er en hemmer av Hedgehog-signalveien. Vismodegib bindes til og hemmer Smoothened, et transmembranprotein som er involvert i Hedgehog-signaltransduksjon.» Engelsk originaltekst: \"Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.\" ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), versjon av 2024-12-02; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+     "accessed": "2026-11-20",
+     "excerpt": "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.",
+     "label_version": "2024-12-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+     "translation": "Vismodegib er en hemmer av Hedgehog-signalveien. Vismodegib bindes til og hemmer Smoothened, et transmembranprotein som er involvert i Hedgehog-signaltransduksjon.",
      "translation_lang": "no",
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }

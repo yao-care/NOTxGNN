@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 444
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: predikert ny indikasjon Nyrecellekarsinom (renal cell carcinoma (disease)) (evidensnivå L3). Opprinnelig indikasjon: Thyroid Neoplasms"
@@ -54,7 +54,7 @@ Vandetanib er en multikinasehemmer som blokkerer VEGFR2, EGFR og RET. TxGNN-mode
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanismedata (MOA) er ikke tilgjengelige i datagrunnlaget for denne rapporten. Ut fra det som er kjent hemmer vandetanib VEGFR2, EGFR og RET. VEGFR-drevet angiogenese er et godt validert terapeutisk mål ved nyrecellekarsinom.
+Ifølge avsnittet «Mechanism of Action» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Vandetanib (uoffisiell oversettelse): «In vitro-studier har vist at vandetanib hemmer tyrosinkinaseaktiviteten til EGFR- og VEGFR-familiene, RET, BRK, TIE2 og medlemmer av EPH-reseptorfamilien og Src-kinasefamilien. Disse reseptortyrosinkinasene er involvert både i normal cellefunksjon og i patologiske prosesser som onkogenese, metastasering, tumorangiogenese og opprettholdelse av tumormikromiljøet.» Engelsk originaltekst: "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment." ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03), versjon av 2026-10-30; hentet 2026-11-20). Ut fra det som er kjent hemmer vandetanib VEGFR2, EGFR og RET. VEGFR-drevet angiogenese er et godt validert terapeutisk mål ved nyrecellekarsinom.
 
 Ved klarcellet nyrecellekarsinom fører tap av VHL-genet til økt HIF- og VEGF-signalering. Det gir en biologisk plausibel kobling til hemming av VEGFR. En fullført fase 2-studie hos pasienter med von Hippel-Lindau-sykdom og nyretumorer underbygger at tilnærmingen er gjennomførbar. En oversiktsartikkel fra 2025 om fumaratthydratase-defekt nyrecellekarsinom støtter også en metabolsk og angiogen begrunnelse for kombinasjonen vandetanib og metformin.
 
@@ -127,6 +127,18 @@ Evidensnivået er L3. Det bygger på én fullført fase 2-studie ved von Hippel-
 - Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner)
 - En plan for sikkerhetsovervåking og håndtering av interaksjoner
 - En vurdering av en ny, tilstrekkelig stor fase 2-studie ved klarcellet eller VHL-assosiert nyrecellekarsinom
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 
