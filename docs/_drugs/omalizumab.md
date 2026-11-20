@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predikert ny indikasjon Bronkitt (bronchitis) (evidensnivå L5). Opprinnelig indikasjon: Asthma"

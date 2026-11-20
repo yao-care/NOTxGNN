@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Formoterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Opprinnelig indikasjon: Pulmonary Disease, Chronic Obstructive"
 ---
 

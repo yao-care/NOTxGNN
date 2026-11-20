@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Idiopathic Pulmonary Fibrosis"

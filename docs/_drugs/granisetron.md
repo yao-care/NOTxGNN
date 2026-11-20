@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Granisetron: predikert ny indikasjon Manisk bipolar lidelse (evidensnivå L5). Opprinnelig indikasjon: Oppkast"
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"

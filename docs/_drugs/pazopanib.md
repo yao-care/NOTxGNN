@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 313
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Renal Cell"

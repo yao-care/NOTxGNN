@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Myelogenous, Chronic, BCR-ABL Positive"

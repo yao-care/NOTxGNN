@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: predikert ny indikasjon Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"

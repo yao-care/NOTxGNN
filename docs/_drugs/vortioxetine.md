@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Vortioxetine: predikert ny indikasjon Nevrotisk lidelse (neurotic disorder) (evidensnivå L5). Opprinnelig indikasjon: Alvorlig depressiv lidelse (Depressive Disorder, Major)"
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]

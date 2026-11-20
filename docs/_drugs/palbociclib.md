@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predikert ny indikasjon Hyperthyroidism (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"

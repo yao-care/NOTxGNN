@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Lasmiditan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Lasmiditan: predikert ny indikasjon atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Opprinnelig indikasjon: Migraine Disorders"
 ---
 

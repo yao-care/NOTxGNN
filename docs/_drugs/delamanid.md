@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DELAMANID"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Delamanid: predikert ny indikasjon Allergisk urticaria (allergic urticaria) (evidensnivå L5). Opprinnelig indikasjon: Tuberculosis, Multidrug-Resistant"
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Abaloparatide: predikert ny indikasjon Non-syndromisk esofagusmisdannelse (evidensnivå L5). Opprinnelig indikasjon: Postmenopausal osteoporose / osteoporose"
 monitor_inn: "ABALOPARATIDE"
 drugbank_id: DB05084

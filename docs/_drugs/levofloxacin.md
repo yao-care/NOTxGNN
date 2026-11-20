@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predikert ny indikasjon Punktformet epitelial keratokonjunktivitt (punctate epithelial keratoconjunctivitis) (evidensnivå L5). Opprinnelig indikasjon: Cystic Fibrosis"

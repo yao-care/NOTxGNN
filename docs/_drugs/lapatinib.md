@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Lapatinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 

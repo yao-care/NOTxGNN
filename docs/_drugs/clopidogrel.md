@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Clopidogrel: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Perifer karsykdom, hjerneslag, hjerteinfarkt…"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Temsirolimus: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]

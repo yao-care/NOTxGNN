@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 description: "Lanadelumab: predikert ny indikasjon Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"

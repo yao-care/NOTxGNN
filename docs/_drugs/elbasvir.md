@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "ELBASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Elbasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Melphalan: predikert ny indikasjon Kvinnelig brystkarsinom (female breast carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Multiple Myeloma"
 ---
 

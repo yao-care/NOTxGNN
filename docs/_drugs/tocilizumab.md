@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predikert ny indikasjon Ankyloserende spondylitt (ankylosing spondylitis) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"

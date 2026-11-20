@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 133
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "DRONEDARONE"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L4). Opprinnelig indikasjon: Atrial Fibrillation"
