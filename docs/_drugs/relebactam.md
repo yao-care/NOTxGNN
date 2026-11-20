@@ -59,7 +59,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hyperamylasemi**, men
 
 ## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Relebactam (uoffisiell oversettelse): «Betalaktamase SHV-1-hemmer; bakteriell betalaktamase TEM-hemmer; betalaktamasehemmer; karbapenemhydrolyserende betalaktamase KPC-hemmer» Engelsk originaltekst: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er relebactam en betalaktamasehemmer (diazabicyclooktan) som gis sammen med imipenem/cilastatin for å gjenopprette karbapenemets effekt mot resistente gramnegative bakterier.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Relebactam (uoffisiell oversettelse): «Betalaktamase SHV-1-hemmer; bakteriell betalaktamase TEM-hemmer; betalaktamasehemmer; karbapenemhydrolyserende betalaktamase KPC-hemmer». Engelsk originaltekst: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er relebactam en betalaktamasehemmer (diazabicyclooktan) som gis sammen med imipenem/cilastatin for å gjenopprette karbapenemets effekt mot resistente gramnegative bakterier.
 
 Det er ikke funnet noen plausibel mekanistisk sammenheng mellom dette og hyperamylasemi. Relebactam har ingen kjent virkning på regulering av amylase eller på håndtering av bukspytt- og spyttkjertelenzymer.
 
@@ -117,7 +117,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
 
 <!-- review:end log -->
 

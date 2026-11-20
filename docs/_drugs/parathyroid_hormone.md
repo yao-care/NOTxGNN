@@ -61,7 +61,7 @@ Støtten er svak: det finnes **ingen kliniske studier** og **5 publikasjoner**, 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Parathyroid Hormone (uoffisiell oversettelse): «Parathyreoideahormonreseptoragonist» Engelsk originaltekst: "Parathyroid hormone receptor agonist" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er PTH et kroppseget hormon som regulerer kalsium- og fosfatbalansen, og effekten ved hypoparatyreoidisme er etablert. Mekanistisk kan det tenkes å ha relevans for migrene, men koblingen er indirekte.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Parathyroid Hormone (uoffisiell oversettelse): «Parathyreoideahormonreseptoragonist». Engelsk originaltekst: "Parathyroid hormone receptor agonist" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er PTH et kroppseget hormon som regulerer kalsium- og fosfatbalansen, og effekten ved hypoparatyreoidisme er etablert. Mekanistisk kan det tenkes å ha relevans for migrene, men koblingen er indirekte.
 
 En genetisk studie fra 2025 (PMID 40297711) peker på reseptorer for PTH-relatert peptid (PTHrP, via PTH1R-signalveien) som mulige drivere for migrenedisposisjon. Det gir en plausibel, men indirekte kobling til PTH-reseptorsignalering. Øvrig litteratur består av observasjonelle sammenhenger mellom kalsium-, vitamin D- og magnesiumstatus og migrene.
 
@@ -135,7 +135,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
 
 <!-- review:end log -->
 

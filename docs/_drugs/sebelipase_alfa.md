@@ -58,7 +58,7 @@ Sebelipase alfa er en rekombinant enzymerstatningsterapi (lysosomal sur lipase) 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Sebelipase Alfa (uoffisiell oversettelse): «Kolesterolesterhydrolyserende enzym; Triglyseridhydrolyserende enzym» Engelsk originaltekst: "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er legemidlet en enzymerstatning for lysosomal sur lipase, som bryter ned kolesterolestere og triglyserider i lysosomene.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Sebelipase Alfa (uoffisiell oversettelse): «Kolesterolesterhydrolyserende enzym; Triglyseridhydrolyserende enzym». Engelsk originaltekst: "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er legemidlet en enzymerstatning for lysosomal sur lipase, som bryter ned kolesterolestere og triglyserider i lysosomene.
 
 Scheie syndrom er en mild form av mukopolysakkaridose type I (MPS I) og skyldes mangel på enzymet alfa-L-iduronidase. Dette er et annet enzym med andre substrater (glykosaminoglykaner) enn det sebelipase alfa erstatter. Det finnes derfor ingen direkte mekanistisk begrunnelse for prediksjonen.
 
@@ -113,7 +113,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
 
 <!-- review:end log -->
 

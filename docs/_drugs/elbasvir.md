@@ -60,7 +60,7 @@ Ingen studier har undersøkt elbasvir ved hepatitt B, så dette er en ren modell
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Elbasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; hentet 2026-11-19). Elbasvir er kjent som en NS5A-hemmer mot hepatitt C-viruset (HCV). Hepatitt B-viruset (HBV) har ingen kjent NS5A-homolog, og det finnes dermed ikke noe tydelig felles målprotein.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Elbasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A». Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; hentet 2026-11-19). Elbasvir er kjent som en NS5A-hemmer mot hepatitt C-viruset (HCV). Hepatitt B-viruset (HBV) har ingen kjent NS5A-homolog, og det finnes dermed ikke noe tydelig felles målprotein.
 
 Den høye scoren gjenspeiler trolig nærhet mellom virussykdommer i nettverket modellen bygger på, ikke en påvist antiviral effekt mot HBV. Den mekanistiske sammenhengen er derfor svak og bør betraktes som en hypotese.
 
@@ -131,7 +131,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514) |
 
 <!-- review:end log -->
 

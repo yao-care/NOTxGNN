@@ -60,7 +60,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt mot **hepatitt B-virusinfe
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Voxilaprevir (uoffisiell oversettelse): «Hepatitt C-virus serinprotease, NS3/NS4A-hemmer» Engelsk originaltekst: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; hentet 2026-11-19). Voksilaprevir er kjent som en hemmer av HCV NS3/4A-serinprotease, og effekten ved kronisk hepatitt C er godt dokumentert gjennom kombinasjonsregimet med sofosbuvir og velpatasvir.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Voxilaprevir (uoffisiell oversettelse): «Hepatitt C-virus serinprotease, NS3/NS4A-hemmer». Engelsk originaltekst: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; hentet 2026-11-19). Voksilaprevir er kjent som en hemmer av HCV NS3/4A-serinprotease, og effekten ved kronisk hepatitt C er godt dokumentert gjennom kombinasjonsregimet med sofosbuvir og velpatasvir.
 
 Hepatitt B-viruset mangler imidlertid NS3/4A-proteasehomolog. Det replikerer via revers transkriptase/polymerase og har en annen replikasjonssyklus. Den høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det finnes heller ingen kliniske studier eller litteratur som underbygger prediksjonen.
 
@@ -130,7 +130,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden eneste tillatelse er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
 
 <!-- review:end log -->
 

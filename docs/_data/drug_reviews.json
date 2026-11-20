@@ -5593,7 +5593,7 @@
    "file": "agomelatine.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innhentede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Agomelatine (uoffisiell oversettelse): «Melatoninreseptoragonist; serotonin 2c (5-HT2c)-reseptorantagonist» Engelsk originaltekst: \"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Agomelatine (uoffisiell oversettelse): «Melatoninreseptoragonist; serotonin 2c (5-HT2c)-reseptorantagonist». Engelsk originaltekst: \"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -5610,7 +5610,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Agomelatine (uoffisiell oversettelse): «Melatoninreseptoragonist; serotonin 2c (5-HT2c)-reseptorantagonist» Engelsk originaltekst: \"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-alectinib-1",
@@ -6131,7 +6138,7 @@
    "file": "avatrombopag.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i den sammenstilte informasjonen.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Avatrombopag (uoffisiell oversettelse): «Trombopoietinreseptoragonist» Engelsk originaltekst: \"Thrombopoietin receptor agonist\" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Avatrombopag (uoffisiell oversettelse): «Trombopoietinreseptoragonist». Engelsk originaltekst: \"Thrombopoietin receptor agonist\" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -6148,7 +6155,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Avatrombopag (uoffisiell oversettelse): «Trombopoietinreseptoragonist» Engelsk originaltekst: \"Thrombopoietin receptor agonist\" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-avelumab-1",
@@ -6426,7 +6440,7 @@
    "file": "bictegravir.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Bictegravir (uoffisiell oversettelse): «Integrasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: \"Human immunodeficiency virus type 1 integrase inhibitor\" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Bictegravir (uoffisiell oversettelse): «Integrasehemmer for humant immunsviktvirus type 1». Engelsk originaltekst: \"Human immunodeficiency virus type 1 integrase inhibitor\" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -6443,7 +6457,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Bictegravir (uoffisiell oversettelse): «Integrasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: \"Human immunodeficiency virus type 1 integrase inhibitor\" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-bimatoprost-1",
@@ -6964,7 +6985,7 @@
    "file": "catridecacog.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catridecacog (uoffisiell oversettelse): «Koagulasjonsfaktor XIII, eksogent protein» Engelsk originaltekst: \"Coagulation factor XIII exogenous protein\" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catridecacog (uoffisiell oversettelse): «Koagulasjonsfaktor XIII, eksogent protein». Engelsk originaltekst: \"Coagulation factor XIII exogenous protein\" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -6981,7 +7002,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catridecacog (uoffisiell oversettelse): «Koagulasjonsfaktor XIII, eksogent protein» Engelsk originaltekst: \"Coagulation factor XIII exogenous protein\" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-catumaxomab-1",
@@ -6989,7 +7017,7 @@
    "file": "catumaxomab.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) var ikke tilgjengelige i datagrunnlaget, så vurderingen bygger på generell kunnskap om legemidlet.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catumaxomab (uoffisiell oversettelse): «Kryssbindende middel for T-celleoverflateglykoprotein CD3; kryssbindende middel for epitelcelleadhesjonsmolekyl» Engelsk originaltekst: \"T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent\" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catumaxomab (uoffisiell oversettelse): «Kryssbindende middel for T-celleoverflateglykoprotein CD3; kryssbindende middel for epitelcelleadhesjonsmolekyl». Engelsk originaltekst: \"T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent\" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7006,7 +7034,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catumaxomab (uoffisiell oversettelse): «Kryssbindende middel for T-celleoverflateglykoprotein CD3; kryssbindende middel for epitelcelleadhesjonsmolekyl» Engelsk originaltekst: \"T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent\" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-cemiplimab-1",
@@ -7176,7 +7211,7 @@
    "file": "cholecalciferol.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cholecalciferol (uoffisiell oversettelse): «Vitamin D-reseptoragonist» Engelsk originaltekst: \"Vitamin D receptor agonist\" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cholecalciferol (uoffisiell oversettelse): «Vitamin D-reseptoragonist». Engelsk originaltekst: \"Vitamin D receptor agonist\" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7193,7 +7228,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cholecalciferol (uoffisiell oversettelse): «Vitamin D-reseptoragonist» Engelsk originaltekst: \"Vitamin D receptor agonist\" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-cholic_acid-1",
@@ -7228,7 +7270,7 @@
    "file": "cilastatin.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cilastatin (uoffisiell oversettelse): «Renal dipeptidasehemmer» Engelsk originaltekst: \"Renal dipeptidase inhibitor\" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cilastatin (uoffisiell oversettelse): «Renal dipeptidasehemmer». Engelsk originaltekst: \"Renal dipeptidase inhibitor\" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7245,7 +7287,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Cilastatin (uoffisiell oversettelse): «Renal dipeptidasehemmer» Engelsk originaltekst: \"Renal dipeptidase inhibitor\" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-clopidogrel-1",
@@ -7334,7 +7383,7 @@
    "file": "corifollitropin_alfa.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Corifollitropin Alfa (uoffisiell oversettelse): «Follikkelstimulerende hormon-reseptoragonist» Engelsk originaltekst: \"Follicle stimulating hormone receptor agonist\" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Corifollitropin Alfa (uoffisiell oversettelse): «Follikkelstimulerende hormon-reseptoragonist». Engelsk originaltekst: \"Follicle stimulating hormone receptor agonist\" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7351,7 +7400,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Corifollitropin Alfa (uoffisiell oversettelse): «Follikkelstimulerende hormon-reseptoragonist» Engelsk originaltekst: \"Follicle stimulating hormone receptor agonist\" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-crizotinib-1",
@@ -7791,7 +7847,7 @@
    "file": "delamanid.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Delamanid (uoffisiell oversettelse): «Mycobacterium tuberculosis H37Rv-hemmer» Engelsk originaltekst: \"Mycobacterium tuberculosis H37Rv inhibitor\" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Delamanid (uoffisiell oversettelse): «Mycobacterium tuberculosis H37Rv-hemmer». Engelsk originaltekst: \"Mycobacterium tuberculosis H37Rv inhibitor\" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7808,7 +7864,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Delamanid (uoffisiell oversettelse): «Mycobacterium tuberculosis H37Rv-hemmer» Engelsk originaltekst: \"Mycobacterium tuberculosis H37Rv inhibitor\" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-denosumab-1",
@@ -7870,7 +7933,7 @@
    "file": "dibotermin_alfa.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Dibotermin Alfa (uoffisiell oversettelse): «Agonist for benmorfogenetisk proteinreseptor type 1A; agonist for aktivinreseptor type 2B; agonist for benmorfogenetisk proteinreseptor type 2; agonist for benmorfogenetisk proteinreseptor type 1B» Engelsk originaltekst: \"Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist\" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Dibotermin Alfa (uoffisiell oversettelse): «Agonist for benmorfogenetisk proteinreseptor type 1A; agonist for aktivinreseptor type 2B; agonist for benmorfogenetisk proteinreseptor type 2; agonist for benmorfogenetisk proteinreseptor type 1B». Engelsk originaltekst: \"Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist\" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7887,7 +7950,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Dibotermin Alfa (uoffisiell oversettelse): «Agonist for benmorfogenetisk proteinreseptor type 1A; agonist for aktivinreseptor type 2B; agonist for benmorfogenetisk proteinreseptor type 2; agonist for benmorfogenetisk proteinreseptor type 1B» Engelsk originaltekst: \"Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist\" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-diflunisal-1",
@@ -8219,7 +8289,7 @@
    "file": "efmoroctocog_alfa.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Efmoroctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Efmoroctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -8236,7 +8306,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Efmoroctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-eftrenonacog_alfa-1",
@@ -8244,7 +8321,7 @@
    "file": "eftrenonacog_alfa.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Eftrenonacog Alfa (uoffisiell oversettelse): «Koagulasjonsfaktor IX eksogent protein» Engelsk originaltekst: \"Coagulation factor IX exogenous protein\" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Eftrenonacog Alfa (uoffisiell oversettelse): «Koagulasjonsfaktor IX eksogent protein». Engelsk originaltekst: \"Coagulation factor IX exogenous protein\" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -8261,7 +8338,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Eftrenonacog Alfa (uoffisiell oversettelse): «Koagulasjonsfaktor IX eksogent protein» Engelsk originaltekst: \"Coagulation factor IX exogenous protein\" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-elafibranor-1",
@@ -8296,7 +8380,7 @@
    "file": "elbasvir.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Elbasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Elbasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A». Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -8313,7 +8397,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Elbasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-eltrombopag-1",
@@ -9698,7 +9789,7 @@
    "file": "idebenone.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Idebenone (uoffisiell oversettelse): «Antioksidant og elektronbærer i mitokondriene» Engelsk originaltekst: \"Antioxidant and mitochondrial electron carrier\" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Idebenone (uoffisiell oversettelse): «Antioksidant og elektronbærer i mitokondriene». Engelsk originaltekst: \"Antioxidant and mitochondrial electron carrier\" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9715,7 +9806,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Idebenone (uoffisiell oversettelse): «Antioksidant og elektronbærer i mitokondriene» Engelsk originaltekst: \"Antioxidant and mitochondrial electron carrier\" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-idelalisib-1",
@@ -9831,7 +9929,7 @@
    "file": "imipenem.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Imipenem (uoffisiell oversettelse): «Hemmer av bakterielt penicillinbindende protein» Engelsk originaltekst: \"Bacterial penicillin-binding protein inhibitor\" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Imipenem (uoffisiell oversettelse): «Hemmer av bakterielt penicillinbindende protein». Engelsk originaltekst: \"Bacterial penicillin-binding protein inhibitor\" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9848,7 +9946,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Imipenem (uoffisiell oversettelse): «Hemmer av bakterielt penicillinbindende protein» Engelsk originaltekst: \"Bacterial penicillin-binding protein inhibitor\" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-imiquimod-1",
@@ -10423,7 +10528,7 @@
    "file": "ledipasvir.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelig i dataene som er samlet inn for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Ledipasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Ledipasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A». Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10440,7 +10545,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Ledipasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-leflunomide-1",
@@ -10610,7 +10722,7 @@
    "file": "lipegfilgrastim.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lipegfilgrastim (uoffisiell oversettelse): «Granulocyttkolonistimulerende faktor-reseptoragonist» Engelsk originaltekst: \"Granulocyte colony stimulating factor receptor agonist\" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lipegfilgrastim (uoffisiell oversettelse): «Granulocyttkolonistimulerende faktor-reseptoragonist». Engelsk originaltekst: \"Granulocyte colony stimulating factor receptor agonist\" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10627,7 +10739,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lipegfilgrastim (uoffisiell oversettelse): «Granulocyttkolonistimulerende faktor-reseptoragonist» Engelsk originaltekst: \"Granulocyte colony stimulating factor receptor agonist\" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-lomitapide-1",
@@ -10689,7 +10808,7 @@
    "file": "lonoctocog_alfa.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lonoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lonoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10706,7 +10825,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lonoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-lopinavir-1",
@@ -10714,7 +10840,7 @@
    "file": "lopinavir.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige i dataene som er sammenstilt for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lopinavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: \"Human immunodeficiency virus type 1 protease inhibitor\" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lopinavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1». Engelsk originaltekst: \"Human immunodeficiency virus type 1 protease inhibitor\" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10731,7 +10857,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lopinavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: \"Human immunodeficiency virus type 1 protease inhibitor\" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-lorlatinib-1",
@@ -11927,7 +12060,7 @@
    "file": "parathyroid_hormone.md",
    "action": "mechanism",
    "claim": "For tiden er det ikke tilgjengelige data om detaljert virkningsmekanisme for legemidlet.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Parathyroid Hormone (uoffisiell oversettelse): «Parathyreoideahormonreseptoragonist» Engelsk originaltekst: \"Parathyroid hormone receptor agonist\" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Parathyroid Hormone (uoffisiell oversettelse): «Parathyreoideahormonreseptoragonist». Engelsk originaltekst: \"Parathyroid hormone receptor agonist\" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -11944,7 +12077,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Parathyroid Hormone (uoffisiell oversettelse): «Parathyreoideahormonreseptoragonist» Engelsk originaltekst: \"Parathyroid hormone receptor agonist\" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-pazopanib-1",
@@ -12195,7 +12335,7 @@
    "file": "pibrentasvir.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige for dette legemidlet.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Pibrentasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Pibrentasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A». Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12212,7 +12352,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Pibrentasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-pioglitazone-1",
@@ -12814,7 +12961,7 @@
    "file": "relebactam.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme for relebactam er ikke tilgjengelige i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Relebactam (uoffisiell oversettelse): «Betalaktamase SHV-1-hemmer; bakteriell betalaktamase TEM-hemmer; betalaktamasehemmer; karbapenemhydrolyserende betalaktamase KPC-hemmer» Engelsk originaltekst: \"Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor\" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Relebactam (uoffisiell oversettelse): «Betalaktamase SHV-1-hemmer; bakteriell betalaktamase TEM-hemmer; betalaktamasehemmer; karbapenemhydrolyserende betalaktamase KPC-hemmer». Engelsk originaltekst: \"Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor\" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12831,7 +12978,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Relebactam (uoffisiell oversettelse): «Betalaktamase SHV-1-hemmer; bakteriell betalaktamase TEM-hemmer; betalaktamasehemmer; karbapenemhydrolyserende betalaktamase KPC-hemmer» Engelsk originaltekst: \"Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor\" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-remdesivir-1",
@@ -12920,7 +13074,7 @@
    "file": "reteplase.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Reteplase (uoffisiell oversettelse): «Eksogent protein av vevstype-plasminogenaktivator» Engelsk originaltekst: \"Tissue-type plasminogen activator exogenous protein\" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Reteplase (uoffisiell oversettelse): «Eksogent protein av vevstype-plasminogenaktivator». Engelsk originaltekst: \"Tissue-type plasminogen activator exogenous protein\" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12937,7 +13091,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Reteplase (uoffisiell oversettelse): «Eksogent protein av vevstype-plasminogenaktivator» Engelsk originaltekst: \"Tissue-type plasminogen activator exogenous protein\" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-rilpivirine-1",
@@ -13269,7 +13430,7 @@
    "file": "roxadustat.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datamaterialet som er sammenstilt for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Roxadustat (uoffisiell oversettelse): «Hypoksiinduserbar faktor-prolylhydroksylasehemmer» Engelsk originaltekst: \"Hypoxia-inducible factor prolyl hydroxylase inhibitor\" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Roxadustat (uoffisiell oversettelse): «Hypoksiinduserbar faktor-prolylhydroksylasehemmer». Engelsk originaltekst: \"Hypoxia-inducible factor prolyl hydroxylase inhibitor\" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13286,7 +13447,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Roxadustat (uoffisiell oversettelse): «Hypoksiinduserbar faktor-prolylhydroksylasehemmer» Engelsk originaltekst: \"Hypoxia-inducible factor prolyl hydroxylase inhibitor\" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-rufinamide-1",
@@ -13456,7 +13624,7 @@
    "file": "sebelipase_alfa.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige for sebelipase alfa.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Sebelipase Alfa (uoffisiell oversettelse): «Kolesterolesterhydrolyserende enzym; Triglyseridhydrolyserende enzym» Engelsk originaltekst: \"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Sebelipase Alfa (uoffisiell oversettelse): «Kolesterolesterhydrolyserende enzym; Triglyseridhydrolyserende enzym». Engelsk originaltekst: \"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13473,7 +13641,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Sebelipase Alfa (uoffisiell oversettelse): «Kolesterolesterhydrolyserende enzym; Triglyseridhydrolyserende enzym» Engelsk originaltekst: \"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-selinexor-1",
@@ -13616,7 +13791,7 @@
    "file": "simoctocog_alfa.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Simoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Simoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13633,7 +13808,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Simoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-simvastatin-1",
@@ -13857,7 +14039,7 @@
    "file": "susoctocog_alfa.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Susoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Susoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13874,7 +14056,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Susoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-tacrolimus-1",
@@ -13990,7 +14179,7 @@
    "file": "tasonermin.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tasonermin (uoffisiell oversettelse): «Ukjent» Engelsk originaltekst: \"Unknown\" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tasonermin (uoffisiell oversettelse): «Ukjent». Engelsk originaltekst: \"Unknown\" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14007,7 +14196,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tasonermin (uoffisiell oversettelse): «Ukjent» Engelsk originaltekst: \"Unknown\" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-tecovirimat-1",
@@ -14015,7 +14211,7 @@
    "file": "tecovirimat.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tecovirimat (uoffisiell oversettelse): «Hemmer av kappefosfolipase OPG057» Engelsk originaltekst: \"Envelope phospholipase OPG057 inhibitor\" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tecovirimat (uoffisiell oversettelse): «Hemmer av kappefosfolipase OPG057». Engelsk originaltekst: \"Envelope phospholipase OPG057 inhibitor\" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14032,7 +14228,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tecovirimat (uoffisiell oversettelse): «Hemmer av kappefosfolipase OPG057» Engelsk originaltekst: \"Envelope phospholipase OPG057 inhibitor\" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-tegafur-1",
@@ -14040,7 +14243,7 @@
    "file": "tegafur.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tegafur (uoffisiell oversettelse): «RNA-hemmer; Tymidylatsyntasehemmer; DNA-hemmer» Engelsk originaltekst: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tegafur (uoffisiell oversettelse): «RNA-hemmer; Tymidylatsyntasehemmer; DNA-hemmer». Engelsk originaltekst: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14057,7 +14260,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tegafur (uoffisiell oversettelse): «RNA-hemmer; Tymidylatsyntasehemmer; DNA-hemmer» Engelsk originaltekst: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-telmisartan-1",
@@ -14092,7 +14302,7 @@
    "file": "temoporfin.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelig for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Temoporfin (uoffisiell oversettelse): «Fotosensibilisator» Engelsk originaltekst: \"Photosensitizer\" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Temoporfin (uoffisiell oversettelse): «Fotosensibilisator». Engelsk originaltekst: \"Photosensitizer\" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14109,7 +14319,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Temoporfin (uoffisiell oversettelse): «Fotosensibilisator» Engelsk originaltekst: \"Photosensitizer\" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-temozolomide-1",
@@ -14414,7 +14631,7 @@
    "file": "tipranavir.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tipranavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: \"Human immunodeficiency virus type 1 protease inhibitor\" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tipranavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1». Engelsk originaltekst: \"Human immunodeficiency virus type 1 protease inhibitor\" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14431,7 +14648,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tipranavir (uoffisiell oversettelse): «Proteasehemmer for humant immunsviktvirus type 1» Engelsk originaltekst: \"Human immunodeficiency virus type 1 protease inhibitor\" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-tivozanib-1",
@@ -14520,7 +14744,7 @@
    "file": "tocofersolan.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tocofersolan (uoffisiell oversettelse): «Ernæringsstøtte» Engelsk originaltekst: \"Nutritional support\" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tocofersolan (uoffisiell oversettelse): «Ernæringsstøtte». Engelsk originaltekst: \"Nutritional support\" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14537,7 +14761,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tocofersolan (uoffisiell oversettelse): «Ernæringsstøtte» Engelsk originaltekst: \"Nutritional support\" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-tolcapone-1",
@@ -14815,7 +15046,7 @@
    "file": "turoctocog_alfa.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Turoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Turoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14832,7 +15063,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Turoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: \"Coagulation factor VIII exogenous protein\" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-upadacitinib-1",
@@ -14948,7 +15186,7 @@
    "file": "velpatasvir.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Velpatasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Velpatasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A». Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14965,7 +15203,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Velpatasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-venetoclax-1",
@@ -15000,7 +15245,7 @@
    "file": "verteporfin.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme er ikke tilgjengelige for denne rapporten.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Verteporfin (uoffisiell oversettelse): «DNA-hemmer» Engelsk originaltekst: \"DNA inhibitor\" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Verteporfin (uoffisiell oversettelse): «DNA-hemmer». Engelsk originaltekst: \"DNA inhibitor\" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15017,7 +15262,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Verteporfin (uoffisiell oversettelse): «DNA-hemmer» Engelsk originaltekst: \"DNA inhibitor\" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-vestronidase_alfa-1",
@@ -15079,7 +15331,7 @@
    "file": "vildagliptin.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vildagliptin (uoffisiell oversettelse): «Dipeptidylpeptidase IV-hemmer» Engelsk originaltekst: \"Dipeptidyl peptidase IV inhibitor\" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vildagliptin (uoffisiell oversettelse): «Dipeptidylpeptidase IV-hemmer». Engelsk originaltekst: \"Dipeptidyl peptidase IV inhibitor\" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15096,7 +15348,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vildagliptin (uoffisiell oversettelse): «Dipeptidylpeptidase IV-hemmer» Engelsk originaltekst: \"Dipeptidyl peptidase IV inhibitor\" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-vonicog_alfa-1",
@@ -15104,7 +15363,7 @@
    "file": "vonicog_alfa.md",
    "action": "mechanism",
    "claim": "Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vonicog Alfa (uoffisiell oversettelse): «Eksogent von Willebrand-faktorprotein» Engelsk originaltekst: \"von Willebrand factor exogenous protein\" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vonicog Alfa (uoffisiell oversettelse): «Eksogent von Willebrand-faktorprotein». Engelsk originaltekst: \"von Willebrand factor exogenous protein\" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15121,7 +15380,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vonicog Alfa (uoffisiell oversettelse): «Eksogent von Willebrand-faktorprotein» Engelsk originaltekst: \"von Willebrand factor exogenous protein\" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-vortioxetine-1",
@@ -15156,7 +15422,7 @@
    "file": "voxilaprevir.md",
    "action": "mechanism",
    "claim": "Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige fra de innhentede kildene.",
-   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Voxilaprevir (uoffisiell oversettelse): «Hepatitt C-virus serinprotease, NS3/NS4A-hemmer» Engelsk originaltekst: \"Hepatitis C virus serine protease, NS3/NS4A inhibitor\" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; hentet 2026-11-19).",
+   "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Voxilaprevir (uoffisiell oversettelse): «Hepatitt C-virus serinprotease, NS3/NS4A-hemmer». Engelsk originaltekst: \"Hepatitis C virus serine protease, NS3/NS4A inhibitor\" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; hentet 2026-11-19).",
    "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15173,7 +15439,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Voxilaprevir (uoffisiell oversettelse): «Hepatitt C-virus serinprotease, NS3/NS4A-hemmer» Engelsk originaltekst: \"Hepatitis C virus serine protease, NS3/NS4A inhibitor\" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; hentet 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "no-moa-20261119-zanamivir-1",
@@ -15281,6 +15554,33 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "no-moa-20261120-caspofungin-2",
+   "drug": "caspofungin",
+   "file": "caspofungin.md",
+   "action": "mechanism",
+   "claim": "Siden data om opprinnelig virkningsmekanisme mangler, kunne prediksjonen heller ikke kontrolleres mot en dokumentert målprofil.",
+   "replacement": "Ifølge avsnittene «Mechanism of Action» og «Microbiology» i preparatomtalen som er godkjent av amerikanske FDA (Prescribing Information), for Caspofungin (uoffisiell oversettelse): «Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.» Engelsk originaltekst: \"Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells.\" ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), versjon av 2024-10-11; hentet 2026-11-20).",
+   "summary": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c",
+     "accessed": "2026-11-20",
+     "excerpt": "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells.",
+     "label_version": "2024-10-11",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3bad23a6-09a6-4194-9182-093ed61bc71c",
+     "translation": "Kaspofungin er et antimykotisk legemiddel av typen ekinokandin. […] Kaspofungin, et ekinokandin, hemmer syntesen av beta (1,3)-D-glukan, en essensiell komponent i celleveggen hos følsomme Aspergillus-arter og Candida-arter. Beta (1,3)-D-glukan finnes ikke i pattedyrceller.",
+     "translation_lang": "no",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

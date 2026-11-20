@@ -57,7 +57,7 @@ Agomelatin er et antidepressivum som opprinnelig ble godkjent for behandling av 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Agomelatine (uoffisiell oversettelse): «Melatoninreseptoragonist; serotonin 2c (5-HT2c)-reseptorantagonist» Engelsk originaltekst: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er agomelatin en agonist på melatoninreseptorene MT1 og MT2 og en antagonist på serotoninreseptoren 5-HT2C. Det er også registrert binding mot 5-HT2A og 5-HT2B. Effekten ved depresjon antas å knytte seg til normalisering av døgnrytme og økt frigjøring av dopamin og noradrenalin i prefrontal cortex.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Agomelatine (uoffisiell oversettelse): «Melatoninreseptoragonist; serotonin 2c (5-HT2c)-reseptorantagonist». Engelsk originaltekst: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er agomelatin en agonist på melatoninreseptorene MT1 og MT2 og en antagonist på serotoninreseptoren 5-HT2C. Det er også registrert binding mot 5-HT2A og 5-HT2B. Effekten ved depresjon antas å knytte seg til normalisering av døgnrytme og økt frigjøring av dopamin og noradrenalin i prefrontal cortex.
 
 Benign paroksysmal torticollis hos spedbarn er en sjelden tilstand i migrenespekteret hos små barn, og den er assosiert med ionekanal-relaterte mekanismer. Ut fra dataene som er sammenstilt, finnes det ingen opplagt mekanistisk kobling mellom agomelatins farmakologi og denne tilstanden. Prediksjonen er derfor kun modellbasert og bør tolkes med stor forsiktighet. Pasientgruppen (spedbarn) er dessuten et sikkerhetsmessig problem, siden det ikke foreligger pediatriske data for legemidlet.
 
@@ -122,7 +122,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Legemidlet er dessuten avregistrert i Norge, og m» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
 
 <!-- review:end log -->
 

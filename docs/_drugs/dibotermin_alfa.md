@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at det kan være effektivt ved **esotropi**, men det f
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Dibotermin Alfa (uoffisiell oversettelse): «Agonist for benmorfogenetisk proteinreseptor type 1A; agonist for aktivinreseptor type 2B; agonist for benmorfogenetisk proteinreseptor type 2; agonist for benmorfogenetisk proteinreseptor type 1B» Engelsk originaltekst: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon virker diboterminalfa (BMP-2) gjennom osteogen og kondrogen signalering, og er godkjent som benvekstfremmende tillegg ved frakturer og spinal fusjon.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Dibotermin Alfa (uoffisiell oversettelse): «Agonist for benmorfogenetisk proteinreseptor type 1A; agonist for aktivinreseptor type 2B; agonist for benmorfogenetisk proteinreseptor type 2; agonist for benmorfogenetisk proteinreseptor type 1B». Engelsk originaltekst: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon virker diboterminalfa (BMP-2) gjennom osteogen og kondrogen signalering, og er godkjent som benvekstfremmende tillegg ved frakturer og spinal fusjon.
 
 For esotropi (innoverskjeling) finnes det ingen tydelig mekanistisk kobling til ekstraokulære muskler eller nevral kontroll av øyestilling i de samlede dataene. Den høye scoren (0,9997) gjenspeiler en datamaskinbasert prediksjon, ikke klinisk støtte.
 
@@ -125,7 +125,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
 
 <!-- review:end log -->
 

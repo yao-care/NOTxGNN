@@ -59,7 +59,7 @@ TxGNN-modellen rangerer **hordeolum (byller på øyelokket)** øverst, men dette
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tecovirimat (uoffisiell oversettelse): «Hemmer av kappefosfolipase OPG057» Engelsk originaltekst: "Envelope phospholipase OPG057 inhibitor" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon hemmer tecovirimat orthopoxvirusets envelope-protein p37 (VP37), som er nødvendig for dannelse av omhyllede viruspartikler og spredning av viruset mellom celler.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tecovirimat (uoffisiell oversettelse): «Hemmer av kappefosfolipase OPG057». Engelsk originaltekst: "Envelope phospholipase OPG057 inhibitor" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon hemmer tecovirimat orthopoxvirusets envelope-protein p37 (VP37), som er nødvendig for dannelse av omhyllede viruspartikler og spredning av viruset mellom celler.
 
 **Hordeolum (rang 1):** Hordeolum er vanligvis en lokal bakteriell infeksjon (oftest *Staphylococcus aureus*) i en kjertel i øyelokket. Tecovirimat har ingen kjent antibakteriell virkning, og den høye scoren er mest sannsynlig en artefakt fra grafprediksjonen. Det samme gjelder de andre toppredikerte bakterielle tilstandene (vibrio-infeksjon, Klebsiella-infeksjon, noma, *E. coli*-infeksjon), samt HTLV-1-assosiert infektiøs dermatitt, arterivirus- og arbovirusinfeksjoner. Alle disse mangler mekanistisk grunnlag, kliniske studier og relevant litteratur.
 
@@ -134,7 +134,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «siden den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073) |
 
 <!-- review:end log -->
 

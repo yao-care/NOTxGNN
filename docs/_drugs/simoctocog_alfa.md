@@ -59,7 +59,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebran
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Simoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er simoktokog alfa en rekombinant faktor VIII som erstatter manglende FVIII ved hemofili A, og effekten ved den opprinnelige indikasjonen er etablert.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Simoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er simoktokog alfa en rekombinant faktor VIII som erstatter manglende FVIII ved hemofili A, og effekten ved den opprinnelige indikasjonen er etablert.
 
 Pseudo-von Willebrand sykdom er en blodplatelidelse forårsaket av gain-of-function-mutasjon i GP1BA. Den fører til økt binding av høymolekylære VWF-multimerer og økt klaring av blodplater. FVIII-erstatning korrigerer ikke denne defekten i blodplatenes GPIb-reseptor. Den svært høye TxGNN-scoren (0,99997) er trolig drevet av delte assosiasjoner i koagulasjonsnettverket og ikke av en påvist biologisk mekanisme.
 
@@ -144,7 +144,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
 
 <!-- review:end log -->
 

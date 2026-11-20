@@ -61,7 +61,7 @@ Prediksjonen er derfor ren modellberegning uten klinisk støtte.
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vildagliptin (uoffisiell oversettelse): «Dipeptidylpeptidase IV-hemmer» Engelsk originaltekst: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; hentet 2026-11-19). Vildagliptin hemmer enzymet DPP-4. Dermed øker aktivt GLP-1 og GIP, noe som gir økt glukoseavhengig insulinsekresjon og redusert glukagonsekresjon. Dette er veldokumentert ved type 2-diabetes.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Vildagliptin (uoffisiell oversettelse): «Dipeptidylpeptidase IV-hemmer». Engelsk originaltekst: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; hentet 2026-11-19). Vildagliptin hemmer enzymet DPP-4. Dermed øker aktivt GLP-1 og GIP, noe som gir økt glukoseavhengig insulinsekresjon og redusert glukagonsekresjon. Dette er veldokumentert ved type 2-diabetes.
 
 Stiff person-syndrom er derimot en autoimmun sykdom i det GABAerge systemet, typisk med anti-GAD65-antistoffer. DPP-4-hemming har ingen etablert rolle i denne sykdommen.
 
@@ -163,7 +163,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

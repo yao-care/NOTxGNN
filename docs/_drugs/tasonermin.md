@@ -60,7 +60,7 @@ det finnes for øyeblikket **ingen kliniske studier** og **ingen publikasjoner**
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tasonermin (uoffisiell oversettelse): «Ukjent» Engelsk originaltekst: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19). Tasonermin er kjent som rekombinant humant TNF-alfa, brukt sammen med isolert lemperfusjon ved bløtdelssarkom. Virkningen i denne bruken antas å skyldes vaskulær skade i svulsten, men dette er ikke dokumentert i dataene som er samlet for denne rapporten.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tasonermin (uoffisiell oversettelse): «Ukjent». Engelsk originaltekst: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19). Tasonermin er kjent som rekombinant humant TNF-alfa, brukt sammen med isolert lemperfusjon ved bløtdelssarkom. Virkningen i denne bruken antas å skyldes vaskulær skade i svulsten, men dette er ikke dokumentert i dataene som er samlet for denne rapporten.
 
 Det er ikke mulig å etablere en mekanistisk kobling mellom sarkom og urotelkarsinom i prostatisk uretra ut fra de foreliggende dataene. Den høye scoren (0,998) er en prediksjon fra TxGNN-modellen (dyp læring) alene. Systemisk TNF-alfa-toksisitet begrenser dessuten bruk utenfor regional administrering, og isolert lemperfusjon lar seg ikke overføre til svulster i urinveiene.
 
@@ -145,7 +145,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Godkjenningen er avregistrert (innehaver: Belpharma s.a.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden eneste godkjenning er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
 
 <!-- review:end log -->
 

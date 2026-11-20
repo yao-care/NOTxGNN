@@ -60,7 +60,7 @@ Det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retn
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Catumaxomab er et trifunksjonelt bispesifikt antistoff rettet mot EpCAM og CD3. Det rekrutterer T-celler og tilleggsimmunceller (via Fc-regionen) til EpCAM-uttrykkende celler. Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catumaxomab (uoffisiell oversettelse): «Kryssbindende middel for T-celleoverflateglykoprotein CD3; kryssbindende middel for epitelcelleadhesjonsmolekyl» Engelsk originaltekst: "T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19). Farmakologidata peker på CD3E som primært molekylært mål.
+Catumaxomab er et trifunksjonelt bispesifikt antistoff rettet mot EpCAM og CD3. Det rekrutterer T-celler og tilleggsimmunceller (via Fc-regionen) til EpCAM-uttrykkende celler. Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Catumaxomab (uoffisiell oversettelse): «Kryssbindende middel for T-celleoverflateglykoprotein CD3; kryssbindende middel for epitelcelleadhesjonsmolekyl». Engelsk originaltekst: "T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19). Farmakologidata peker på CD3E som primært molekylært mål.
 
 Diabetisk retinopati drives hovedsakelig av hyperglykemi-indusert mikrovaskulær skade, VEGF-mediert økt karpermeabilitet og inflammasjon, ikke av EpCAM-positive tumorceller. Det er derfor ikke identifisert noen plausibel mekanistisk kobling mellom T-celle-omdirigering mot EpCAM og sykdomsbildet ved diabetisk retinopati. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
@@ -135,7 +135,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581) |
 
 <!-- review:end log -->
 

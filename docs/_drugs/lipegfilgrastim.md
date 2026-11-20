@@ -60,7 +60,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **primær frigjøringsf
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lipegfilgrastim (uoffisiell oversettelse): «Granulocyttkolonistimulerende faktor-reseptoragonist» Engelsk originaltekst: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; hentet 2026-11-19). Lipegfilgrastim er en pegylert G-CSF-analog som virker på nøytrofil-linjen via G-CSF-reseptoren.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lipegfilgrastim (uoffisiell oversettelse): «Granulocyttkolonistimulerende faktor-reseptoragonist». Engelsk originaltekst: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; hentet 2026-11-19). Lipegfilgrastim er en pegylert G-CSF-analog som virker på nøytrofil-linjen via G-CSF-reseptoren.
 
 Primær frigjøringsforstyrrelse i blodplater er en kvalitativ funksjonsdefekt i blodplatene. Det er ikke påvist noen etablert mekanistisk sammenheng mellom G-CSF-signalering og denne tilstanden. Den høye TxGNN-scoren (0,9993) er en prediksjon fra TxGNN-modellen (dyp læring), uten støtte fra studier eller litteratur. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
@@ -130,7 +130,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «I tillegg er den eneste kjente tillatelsen avregistrert, og sikkerhetsdata mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
 
 <!-- review:end log -->
 

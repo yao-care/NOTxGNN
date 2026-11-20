@@ -56,7 +56,7 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Avatrombopag (uoffisiell oversettelse): «Trombopoietinreseptoragonist» Engelsk originaltekst: "Thrombopoietin receptor agonist" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; hentet 2026-11-19). Avatrombopag er likevel kjent som en agonist på trombopoietinreseptoren (MPL), som stimulerer megakaryocyttenes proliferasjon og dermed trombocyttproduksjonen. I cellestudier fremmer stoffet proliferasjon av celler som uttrykker human TPO-reseptor, med EC50 på 3,3 nM.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Avatrombopag (uoffisiell oversettelse): «Trombopoietinreseptoragonist». Engelsk originaltekst: "Thrombopoietin receptor agonist" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; hentet 2026-11-19). Avatrombopag er likevel kjent som en agonist på trombopoietinreseptoren (MPL), som stimulerer megakaryocyttenes proliferasjon og dermed trombocyttproduksjonen. I cellestudier fremmer stoffet proliferasjon av celler som uttrykker human TPO-reseptor, med EC50 på 3,3 nM.
 
 En arvelig makrotrombocytopeni kan i prinsippet respondere på TPO-R-agonisme dersom trombocyttproduksjonen er redusert. Samtidig tyder den tilknyttede mitralklaffinsuffisiensen på en syndromisk årsak som en TPO-R-agonist neppe adresserer. Modellscoren er ikke klinisk evidens, og mekanismen er derfor kun en hypotese.
 
@@ -101,7 +101,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
 
 <!-- review:end log -->
 

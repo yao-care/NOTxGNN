@@ -59,7 +59,7 @@ Velpatasvir er en hemmer av NS5A-proteinet i hepatitt C-viruset (HCV) og brukes 
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Velpatasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A» Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er velpatasvir en NS5A-hemmer som brukes sammen med sofosbuvir (NS5B-polymerasehemmer) og i trippelkombinasjon med voksilaprevir mot HCV.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Velpatasvir (uoffisiell oversettelse): «Hemmer av ikke-strukturelt protein 5A». Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; hentet 2026-11-19). Ut fra kjent informasjon er velpatasvir en NS5A-hemmer som brukes sammen med sofosbuvir (NS5B-polymerasehemmer) og i trippelkombinasjon med voksilaprevir mot HCV.
 
 HBV er et DNA-virus med en annen replikasjonsmaskineri og har ingen kjent NS5A-motpart. Velpatasvir har derfor ingen etablert direkte aktivitet mot HBV. Det kliniske signalet er indirekte: HBV kan reaktiveres under behandling med direktevirkende antivirale midler (DAA) hos pasienter med HCV/HBV-saminfeksjon. I studien NCT04997564 gis SOF/VEL sammen med forebyggende tenofovir alafenamid (TAF), og det er TAF som gir anti-HBV-effekten, mens velpatasvir behandler HCV.
 
@@ -144,7 +144,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->
 

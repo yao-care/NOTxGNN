@@ -57,7 +57,7 @@ Susoctocog alfa er en rekombinant faktor VIII-erstatning med svinesekvens og ute
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Susoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19). Susoctocog alfa er et rekombinant faktor VIII-produkt (B-domene-deletert, svinesekvens). Det erstatter manglende FVIII-aktivitet og kan, på grunn av svinesekvensen, i liten grad nøytraliseres av hemmende autoantistoffer mot humant FVIII.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Susoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19). Susoctocog alfa er et rekombinant faktor VIII-produkt (B-domene-deletert, svinesekvens). Det erstatter manglende FVIII-aktivitet og kan, på grunn av svinesekvensen, i liten grad nøytraliseres av hemmende autoantistoffer mot humant FVIII.
 
 Prediksjonen «hemofili» ligger svært nær den opprinnelige indikasjonen. Legemidlet er godkjent for behandling av blødningsepisoder ved ervervet hemofili A, en tilstand der autoantistoffer hemmer FVIII. Dette er i praksis den opprinnelige indikasjonen og dens ervervede variant, ikke en reell reposisjonering. Den høye scoren er dermed godt forenlig med kjent biologi.
 
@@ -137,7 +137,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «Produktet står oppført som kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «(avregistrert)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
 
 <!-- review:end log -->
 

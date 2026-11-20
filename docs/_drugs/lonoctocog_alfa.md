@@ -61,7 +61,7 @@ Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europ
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lonoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein» Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er lonoktokog alfa et rekombinant faktor VIII-preparat (rVIII-SingleChain) med bevist effekt ved hemofili A, der det erstatter manglende faktor VIII i koagulasjonskaskaden.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Lonoctocog Alfa (uoffisiell oversettelse): «Eksogent koagulasjonsfaktor VIII-protein». Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er lonoktokog alfa et rekombinant faktor VIII-preparat (rVIII-SingleChain) med bevist effekt ved hemofili A, der det erstatter manglende faktor VIII i koagulasjonskaskaden.
 
 Pseudo-von Willebrand sykdom (blodplatetype VWD) skyldes funksjonsøkende varianter i GP1BA. Disse øker blodplatenes GPIb-affinitet for von Willebrand-faktor (VWF) og fører til økt opprydding av høymolekylære VWF-multimerer. Faktor VIII-erstatning korrigerer ikke denne reseptordefekten. Plasmanivået av FVIII kan imidlertid bli sekundært redusert på grunn av tap av VWF, så det finnes en teoretisk kobling, men den er indirekte.
 
@@ -127,7 +127,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
 
 <!-- review:end log -->
 

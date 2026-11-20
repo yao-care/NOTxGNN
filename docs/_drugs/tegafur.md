@@ -58,7 +58,7 @@ Tegafur er en oral fluorpyrimidin-prodrug som omdannes til 5-fluorouracil og bru
 
 ## Hvorfor kan prediksjonen være rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tegafur (uoffisiell oversettelse): «RNA-hemmer; Tymidylatsyntasehemmer; DNA-hemmer» Engelsk originaltekst: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19). Tegafur er en prodrug av 5-fluorouracil. Etter omdanning i kroppen hemmer virkestoffet DNA-syntese i celler som deler seg raskt, og dette er grunnlaget for effekten i kreftbehandling.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Tegafur (uoffisiell oversettelse): «RNA-hemmer; Tymidylatsyntasehemmer; DNA-hemmer». Engelsk originaltekst: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19). Tegafur er en prodrug av 5-fluorouracil. Etter omdanning i kroppen hemmer virkestoffet DNA-syntese i celler som deler seg raskt, og dette er grunnlaget for effekten i kreftbehandling.
 
 Villøst adenom er en godartet, prekankrøs svulst i tykktarmen. Den kan i prinsippet dele celleveksttrekk med kreftformer som behandles med fluorpyrimidiner. Den vanlige behandlingen er imidlertid endoskopisk eller kirurgisk fjerning, og cytostatika er normalt ikke aktuelt for godartede lesjoner. Den høye scoren er derfor et modellsignal uten støtte i kliniske eller mekanistiske data. En biologisk begrunnelse for å bruke et cellegiftmiddel mot denne tilstanden er svak.
 
@@ -123,7 +123,7 @@ Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkning
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
 
 <!-- review:end log -->
 

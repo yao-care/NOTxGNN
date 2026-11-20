@@ -61,7 +61,7 @@ men det finnes foreløpig **ingen registrerte kliniske studier** og **ingen publ
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Roxadustat (uoffisiell oversettelse): «Hypoksiinduserbar faktor-prolylhydroksylasehemmer» Engelsk originaltekst: "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er roxadustat en HIF-prolylhydroksylasehemmer (HIF-PH) som stabiliserer HIF-alfa. Data om legemidlets mål viser interaksjon med EGLN2 (egl-9 family hypoxia inducible factor 2). Effekten ved anemi ved kronisk nyresvikt er dokumentert, og EMA godkjente legemidlet for denne indikasjonen i august 2021.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Roxadustat (uoffisiell oversettelse): «Hypoksiinduserbar faktor-prolylhydroksylasehemmer». Engelsk originaltekst: "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er roxadustat en HIF-prolylhydroksylasehemmer (HIF-PH) som stabiliserer HIF-alfa. Data om legemidlets mål viser interaksjon med EGLN2 (egl-9 family hypoxia inducible factor 2). Effekten ved anemi ved kronisk nyresvikt er dokumentert, og EMA godkjente legemidlet for denne indikasjonen i august 2021.
 
 Den mulige koblingen til tørrøyesyndrom er at HIF-aktivering kan påvirke hornhinnens og konjunktivas epitelrespons på hypoksi, betennelse og sårheling. Denne koblingen er **spekulativ**. Det er heller ikke dokumentert likhet mellom den opprinnelige og den nye indikasjonen. Systemisk HIF-stabilisering medfører dessuten teoretiske risikoer, for eksempel økt angiogenese, som må vurderes før okulær bruk.
 
@@ -136,7 +136,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
 
 <!-- review:end log -->
 

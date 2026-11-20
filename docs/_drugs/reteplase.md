@@ -55,7 +55,7 @@ TxGNN-modellen predikerer at det kan være effektivt ved **posteroinferiørt myo
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Reteplase (uoffisiell oversettelse): «Eksogent protein av vevstype-plasminogenaktivator» Engelsk originaltekst: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er reteplase en rekombinant vevsplasminogenaktivator som omdanner plasminogen til plasmin og dermed løser opp blodpropper i kransarteriene. Effekten ved akutt myokardinfarkt er etablert, og mekanismen kan i prinsippet også gjelde for anatomiske undertyper av infarkt.
+Ifølge ChEMBL (EMBL-EBI) er den registrerte virkningsmekanismen for Reteplase (uoffisiell oversettelse): «Eksogent protein av vevstype-plasminogenaktivator». Engelsk originaltekst: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; hentet 2026-11-19). Basert på kjent informasjon er reteplase en rekombinant vevsplasminogenaktivator som omdanner plasminogen til plasmin og dermed løser opp blodpropper i kransarteriene. Effekten ved akutt myokardinfarkt er etablert, og mekanismen kan i prinsippet også gjelde for anatomiske undertyper av infarkt.
 
 Posteroinferiørt myokardinfarkt er en anatomisk undertype av den godkjente indikasjonen. Dette er derfor ikke en reell ompakking av legemidlet (repurposing), men faller inn under den opprinnelige indikasjonen.
 
@@ -128,7 +128,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «P u t t kk nger N g» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
+| 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
 
 <!-- review:end log -->
 
