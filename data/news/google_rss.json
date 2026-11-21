@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-21T09:19:36.501898+00:00",
+  "fetched_at": "2026-11-21T17:09:16.464416+00:00",
   "source": "Google News Health RSS",
-  "count": 19,
+  "count": 17,
   "articles": [
     {
       "id": "79910d53ff5f",
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "157d6d6c599d",
-      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
-      "published": "2026-11-16T12:19:44+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "90921fcbbc80",
       "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
@@ -181,16 +171,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "23b37b0c3d4b",
-      "title": "Helse, legemiddel | – Jeg ville ikke at andre skulle ha det livet jeg har hatt - Gjengangeren",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR09SUVN5aTVHdEJYOVVhTXNGWmpKblhQYmtTUjNVWnc5bFlZQ25rM1hRdWpYcV9hQ3U5NmVuaWVnYkpKVnd0bndfUl96eld5RXpJMnNhekk2LWdDdURHRDdJdnBMUkxLNUs0blR3OXB5ZHNZQlBjZHFrbThya0l5cjFXUVBRSVNMVFZZMTBVTFM0SWQwOTlNZVI2NVZPcExoR2dMbUgwMWNuQzdybW5yaGxOWkduMFFVVFhKZ01oWnBfTjBZ?oc=5",
-      "published": "2017-03-08T08:00:00+00:00",
-      "source": {
-        "name": "Gjengangeren",
-        "url": "https://www.gjengangeren.no"
       }
     }
   ]
