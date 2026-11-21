@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T01:08:12.428074+00:00",
+  "fetched_at": "2026-11-21T09:19:36.501898+00:00",
   "source": "Google News Health RSS",
   "count": 19,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "6212beef0d07",
-      "title": "Bare én depresjonsmedisin er godkjent for barn. Likevel får de fleste en annen - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONzEzb2ZldFhTVmdEX0tCRjM4azBzNWtFeUk0dlNwZEFUdld4NWd2TW9rSy11UWdQdS16VmotRlNhN2RuRkd6UGhyVzg0d0lHVV9INVNYblRqTE9LSXhSLWZNNEVQOF9hNUN5VThuVHlXMWJLalBiMDQ3NEpwUEt4N2tkeC1qbDdHdnhtV1FXVVpHWFBYQWRNTVhYemdkSU1VVHZic1htQzRzLWxiMFJIaVlkaVZ6QlUyVDdXTVNoM1VNV2xXdGNsamE1Nl8xMzRzNjk4Y3BnRGlMYVU?oc=5",
-      "published": "2026-11-20T08:24:22+00:00",
-      "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
-      }
-    },
-    {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "5a3d98d166f4",
+      "title": "(+) Grønt lys for fire medisiner - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVEFld1piMUt4Sm9yX1BRYmpSRFpWc25FRzNKVlZQUGQwZER6MTlXc1VlSTFGejI2NXV1MWtxek1xcGxfcExhTWJrZUlGT0tLWjVWdjhrbE82SWFjdEVuWjFJeHAwOGlYYVI4TkVLVEdEX2I2cTc2VndnQUcwb0NWQzdHM2RKYVoySWxMRC1rYVhIS0pUS0RWSlpfS3BweW01UGlRUlZvWHc?oc=5",
+      "published": "2026-11-16T09:18:45+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -61,16 +61,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "a000830bbe4c",
-      "title": "Helse, Rus | – Alvorlige bivirkninger og fare for overdose - Fredriksstad Blad",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYjZYWW9fY29YUmpwZzNKVExwcHhIYTJrT0tteEloXzA1RXhzWHcyTlFQT21JdUhCamxUTTNSLS1zZ3ZhaTByajA4TmpHMVNZeGwtU0J1QlRHV3U3aXV1NUZGaV9aUEJPQnQ2TXg4R3JlV0k0LUJQVURNTGp1X3RoQ00xRQ?oc=5",
-      "published": "2026-11-19T09:17:40+00:00",
-      "source": {
-        "name": "Fredriksstad Blad",
-        "url": "https://www.f-b.no"
       }
     },
     {
@@ -144,13 +134,13 @@
       }
     },
     {
-      "id": "25180b752ec4",
-      "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
-      "published": "2025-04-10T12:27:34+00:00",
+      "id": "157d6d6c599d",
+      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
+      "published": "2026-11-16T12:19:44+00:00",
       "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -191,6 +181,16 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "23b37b0c3d4b",
+      "title": "Helse, legemiddel | – Jeg ville ikke at andre skulle ha det livet jeg har hatt - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR09SUVN5aTVHdEJYOVVhTXNGWmpKblhQYmtTUjNVWnc5bFlZQ25rM1hRdWpYcV9hQ3U5NmVuaWVnYkpKVnd0bndfUl96eld5RXpJMnNhekk2LWdDdURHRDdJdnBMUkxLNUs0blR3OXB5ZHNZQlBjZHFrbThya0l5cjFXUVBRSVNMVFZZMTBVTFM0SWQwOTlNZVI2NVZPcExoR2dMbUgwMWNuQzdybW5yaGxOWkduMFFVVFhKZ01oWnBfTjBZ?oc=5",
+      "published": "2017-03-08T08:00:00+00:00",
+      "source": {
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
       }
     }
   ]
