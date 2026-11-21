@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-21T17:09:16.464416+00:00",
+  "fetched_at": "2026-11-21T22:52:16.588533+00:00",
   "source": "Google News Health RSS",
-  "count": 17,
+  "count": 18,
   "articles": [
     {
       "id": "79910d53ff5f",
@@ -64,10 +64,10 @@
       }
     },
     {
-      "id": "d9b0563a36b3",
-      "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
+      "id": "3c7d33d8f638",
+      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
@@ -94,10 +94,10 @@
       }
     },
     {
-      "id": "3c7d33d8f638",
-      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
+      "id": "d9b0563a36b3",
+      "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
@@ -154,6 +154,16 @@
       }
     },
     {
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
+      }
+    },
+    {
       "id": "d5b00741f05f",
       "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDl0M3pSbzZOTlBjLVNBUk5WRVJxUU5GU1kwLVFLS3pLd1QzZ2pseFJPMkNqTDFXR2Z2cllDcGRqb0xPY3o1cUhnbl9BeDhDcXlYdTVzLXZwYWM1TU9YMFZ0MXgzakkzMU5KeTVpc0lvQm90VzFaOGhVQzdYV1k5ZzczSTVkQ0s0Ul9WalJsVUd3eHNZY09jemIwMDFYLVpwQTJfNWF3QU4tZGFsNE00ZEIxZmlUNjE5X0RqcllXWE4yQ0EzTjlJSFZEYw?oc=5",
@@ -164,13 +174,13 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
+      "id": "23b37b0c3d4b",
+      "title": "Helse, legemiddel | – Jeg ville ikke at andre skulle ha det livet jeg har hatt - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR09SUVN5aTVHdEJYOVVhTXNGWmpKblhQYmtTUjNVWnc5bFlZQ25rM1hRdWpYcV9hQ3U5NmVuaWVnYkpKVnd0bndfUl96eld5RXpJMnNhekk2LWdDdURHRDdJdnBMUkxLNUs0blR3OXB5ZHNZQlBjZHFrbThya0l5cjFXUVBRSVNMVFZZMTBVTFM0SWQwOTlNZVI2NVZPcExoR2dMbUgwMWNuQzdybW5yaGxOWkduMFFVVFhKZ01oWnBfTjBZ?oc=5",
+      "published": "2017-03-08T08:00:00+00:00",
       "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
       }
     }
   ]
