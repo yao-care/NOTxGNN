@@ -38,6 +38,12 @@ Lokale data: [EMA Medicines report](https://www.ema.europa.eu/en/documents/repor
 
 <!-- local-facts:end -->
 
+<p class="key-answer" data-question="Finnes det et gratis datasett med prediksjoner for legemiddelreposisjonering som kan lastes ned?">
+Ja &mdash; NOTxGNN publiserer sine TxGNN-prediksjoner for legemiddelreposisjonering som et åpent,
+gratis nedlastbart datasett. Se siden <a href="{{ '/downloads/' | relative_url }}">Nedlastinger</a> for
+filer og format, og <a href="{{ '/sources/' | relative_url }}">Datakilder</a> for lisensvilkår.
+</p>
+
 ## Bakgrunn
 
 <p class="key-answer" data-question="Hva er NOTxGNN?">
