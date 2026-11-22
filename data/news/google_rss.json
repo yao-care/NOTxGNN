@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-22T10:50:36.774844+00:00",
+  "fetched_at": "2026-11-22T18:17:08.390428+00:00",
   "source": "Google News Health RSS",
-  "count": 18,
+  "count": 19,
   "articles": [
+    {
+      "id": "6212beef0d07",
+      "title": "Bare én depresjonsmedisin er godkjent for barn. Likevel får de fleste en annen - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONzEzb2ZldFhTVmdEX0tCRjM4azBzNWtFeUk0dlNwZEFUdld4NWd2TW9rSy11UWdQdS16VmotRlNhN2RuRkd6UGhyVzg0d0lHVV9INVNYblRqTE9LSXhSLWZNNEVQOF9hNUN5VThuVHlXMWJLalBiMDQ3NEpwUEt4N2tkeC1qbDdHdnhtV1FXVVpHWFBYQWRNTVhYemdkSU1VVHZic1htQzRzLWxiMFJIaVlkaVZ6QlUyVDdXTVNoM1VNV2xXdGNsamE1Nl8xMzRzNjk4Y3BnRGlMYVU?oc=5",
+      "published": "2026-11-20T08:24:22+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
+      }
+    },
     {
       "id": "79910d53ff5f",
       "title": "Mangel på reseptbelagt medisin hele vinteren - Oppland Arbeiderblad",
@@ -21,6 +31,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "7b3f5e7d0972",
+      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
+      "published": "2026-11-17T19:07:52+00:00",
+      "source": {
+        "name": "Drangedalsposten",
+        "url": "https://www.drangedalsposten.no"
       }
     },
     {
@@ -121,16 +141,6 @@
       "source": {
         "name": "UiO Det medisinske fakultet",
         "url": "https://www.med.uio.no"
-      }
-    },
-    {
-      "id": "25180b752ec4",
-      "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
-      "published": "2025-04-10T12:27:34+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
       }
     },
     {
