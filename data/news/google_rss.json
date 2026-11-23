@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-11-23T08:40:02.978077+00:00",
+  "fetched_at": "2026-11-23T20:56:17.063247+00:00",
   "source": "Google News Health RSS",
-  "count": 19,
+  "count": 22,
   "articles": [
-    {
-      "id": "79910d53ff5f",
-      "title": "Mangel på reseptbelagt medisin hele vinteren - Oppland Arbeiderblad",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYTE3RW5UQ0FkRlpwZHpzdUY2UkVWRVhUVXQwR0N2VFpfenAtdmZUenJadUdJS21lVVo4TkVMamR1ZlZ6blFKVFNOSG5HNlVzNlBxclBIYTMwNnFqVldvZ2JDQU9iMHRicWxuQjVfV2pZa0thQ0dfdl8zb28yMmNGYUJ3?oc=5",
-      "published": "2026-11-20T12:54:10+00:00",
-      "source": {
-        "name": "Oppland Arbeiderblad",
-        "url": "https://www.oa.no"
-      }
-    },
     {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
@@ -34,13 +24,13 @@
       }
     },
     {
-      "id": "7b3f5e7d0972",
-      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
-      "published": "2026-11-17T19:07:52+00:00",
+      "id": "79910d53ff5f",
+      "title": "Mangel på reseptbelagt medisin hele vinteren - Oppland Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYTE3RW5UQ0FkRlpwZHpzdUY2UkVWRVhUVXQwR0N2VFpfenAtdmZUenJadUdJS21lVVo4TkVMamR1ZlZ6blFKVFNOSG5HNlVzNlBxclBIYTMwNnFqVldvZ2JDQU9iMHRicWxuQjVfV2pZa0thQ0dfdl8zb28yMmNGYUJ3?oc=5",
+      "published": "2026-11-20T12:54:10+00:00",
       "source": {
-        "name": "Drangedalsposten",
-        "url": "https://www.drangedalsposten.no"
+        "name": "Oppland Arbeiderblad",
+        "url": "https://www.oa.no"
       }
     },
     {
@@ -51,6 +41,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "7b3f5e7d0972",
+      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
+      "published": "2026-11-17T19:07:52+00:00",
+      "source": {
+        "name": "Drangedalsposten",
+        "url": "https://www.drangedalsposten.no"
       }
     },
     {
@@ -114,6 +114,26 @@
       }
     },
     {
+      "id": "0420dec8e978",
+      "title": "12,3 millioner til forskning på legemiddelberedskap - UiO Det medisinske fakultet",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGlnakF2RXZHcXhsTTg5dEwzLWk2SUlGQ2ZrSXFEQUU3X1VXcnRnanllc0lJcUcxbUJSMGVXUHVJeXExWmo2TWxkRDhOWlotS0NVTXNZSS02ZVdTQUx1eEVFNUZkQTJBSE50UjlmWXp6RnBGQzdsd0lsby1jd21xZG1XR0U2ZWlmQlNseV9KQUxMdGtTWkZYN09tYw?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "UiO Det medisinske fakultet",
+        "url": "https://www.med.uio.no"
+      }
+    },
+    {
+      "id": "43c045e7d1e1",
+      "title": "Anbefalte prioriteringer innen digital legemiddelhåndtering - KS",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlhzTldIRTFEV0dESVNlaS1YNDJVWHFNa25BUnlHTHFMMnZkcThZcGVMYXpNVFBhM3JGbnZUUnBRN3BYUmtnZVFPbi1vaFhvc2xsQ2w3eDFOTlVWaHJ5SkU4TjNFNnA3NjRId3cyaUFrQWtVRldGZ19FakNzSUpmb3p4NU9hUUVOV01iRmhzajk5SG1YUUdFbkVTcUh4OGpudWlqYzRtRkY0SkpiSmU4Y0hR?oc=5",
+      "published": "2026-04-20T16:58:15+00:00",
+      "source": {
+        "name": "KS",
+        "url": "https://www.ks.no"
+      }
+    },
+    {
       "id": "6bae80839252",
       "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
@@ -134,23 +154,23 @@
       }
     },
     {
-      "id": "0420dec8e978",
-      "title": "12,3 millioner til forskning på legemiddelberedskap - UiO Det medisinske fakultet",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGlnakF2RXZHcXhsTTg5dEwzLWk2SUlGQ2ZrSXFEQUU3X1VXcnRnanllc0lJcUcxbUJSMGVXUHVJeXExWmo2TWxkRDhOWlotS0NVTXNZSS02ZVdTQUx1eEVFNUZkQTJBSE50UjlmWXp6RnBGQzdsd0lsby1jd21xZG1XR0U2ZWlmQlNseV9KQUxMdGtTWkZYN09tYw?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "id": "25180b752ec4",
+      "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
+      "published": "2025-04-10T12:27:34+00:00",
       "source": {
-        "name": "UiO Det medisinske fakultet",
-        "url": "https://www.med.uio.no"
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
+      "id": "157d6d6c599d",
+      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
+      "published": "2026-11-16T12:19:44+00:00",
       "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -191,6 +211,16 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
       }
     }
   ]
