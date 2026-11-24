@@ -106,24 +106,38 @@ Se preparatomtalen for sikkerhetsinformasjon. Det er ikke funnet registrerte int
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle tre prediksjonene er på evidensnivå L5 uten kliniske studier, litteratur eller mekanistisk begrunnelse. I tillegg er den eneste godkjenningen i Norge kansellert.
+Alle tre prediksjonene er på evidensnivå L5 uten kliniske studier, litteratur eller mekanistisk begrunnelse.
+
+<!-- review:begin no-lic-20261124b-relebactam-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste godkjenningen i Norge kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-relebactam-1 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (mangler, og blokkerer sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Vurdering av om hyperamylasemi er en bivirkning/assosiasjon snarere enn et terapeutisk mål
 - Prekliniske eller mekanistiske data som kan underbygge en eventuell sammenheng
-- Avklaring av administrasjonsvei og markedsstatus (godkjenningen er kansellert)
+- Avklaring av administrasjonsvei og markedsstatus
+
+<!-- review:begin no-lic-20261124b-relebactam-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av administrasjonsvei og markedsstatus (godkjenningen er kansellert)» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-relebactam-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
+| 2026-11-24 | Fjernet: «I tillegg er den eneste godkjenningen i Norge kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av administrasjonsvei og markedsstatus (godkjenningen er kansellert)» → «Avklaring av administrasjonsvei og markedsstatus» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

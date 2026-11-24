@@ -146,24 +146,38 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se pakningsv
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5) uten kliniske studier eller litteratur. Legemidlet har dessuten kun en kansellert autorisasjon i Norge, og systemisk MEK-hemming har tolerabilitetsutfordringer i en nevrodegenerativ pasientgruppe.
+Prediksjonen bygger kun på modellscore (evidensnivå L5) uten kliniske studier eller litteratur. Systemisk MEK-hemming har dessuten tolerabilitetsutfordringer i en nevrodegenerativ pasientgruppe.
+
+<!-- review:begin no-lic-20261124b-cobimetinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Legemidlet har dessuten kun en kansellert autorisasjon i Norge, og systemisk MEK-hemming har tolerabilitetsutfordringer i en nevrodegenerativ pasientgruppe.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-cobimetinib-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Pakningsvedlegg med advarsler og kontraindikasjoner fra DMP
 - Prekliniske data eller litteratursøk som kobler MEK/ERK-hemming til ALS-patofysiologi
-- Vurdering av markedstilgjengelighet i Norge gitt at autorisasjonen er kansellert
+- Vurdering av markedstilgjengelighet i Norge
 - Sikkerhetsvurdering for MEK-hemmer i motornevronsykdom (CK-økning, retinopati, utslett)
+
+<!-- review:begin no-lic-20261124b-cobimetinib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Vurdering av markedstilgjengelighet i Norge gitt at autorisasjonen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-cobimetinib-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
+| 2026-11-24 | Rettet: «Legemidlet har dessuten kun en kansellert autorisasjon i Norge, og systemisk MEK-hemming har tolerabilitetsutfordringer i en nevrodegenerativ pasientgruppe.» → «Systemisk MEK-hemming har dessuten tolerabilitetsutfordringer i en nevrodegenerativ pasientgruppe.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Vurdering av markedstilgjengelighet i Norge gitt at autorisasjonen er kansellert» → «Vurdering av markedstilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

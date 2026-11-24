@@ -140,23 +140,37 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se pakningsv
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for lepra er kun modellbasert (L5), uten kliniske studier eller litteratur, og det finnes ingen plausibel mekanisme for et cytotoksisk Nectin-4-rettet ADC ved en mykobakteriell infeksjon. I tillegg er den eneste godkjenningen i Norge kansellert, og de øvrige prediksjonene mangler terapeutisk støtte.
+Prediksjonen for lepra er kun modellbasert (L5), uten kliniske studier eller litteratur, og det finnes ingen plausibel mekanisme for et cytotoksisk Nectin-4-rettet ADC ved en mykobakteriell infeksjon. I tillegg mangler de øvrige prediksjonene terapeutisk støtte.
+
+<!-- review:begin no-lic-20261124b-enfortumab_vedotin-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste godkjenningen i Norge kansellert, og de øvrige prediksjonene mangler terapeutisk støtte.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-enfortumab_vedotin-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Advarsler og kontraindikasjoner fra pakningsvedlegget (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske data som viser et biologisk grunnlag, f.eks. Nectin-4-uttrykk ved den predikerte sykdommen
-- Avklaring av kanselleringen av den norske godkjenningen og dagens markedstilgjengelighet
+- Avklaring av dagens markedstilgjengelighet
+
+<!-- review:begin no-lic-20261124b-enfortumab_vedotin-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av kanselleringen av den norske godkjenningen og dagens markedstilgjengelighet» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-enfortumab_vedotin-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+| 2026-11-24 | Rettet: «I tillegg er den eneste godkjenningen i Norge kansellert, og de øvrige prediksjonene mangler terapeutisk støtte.» → «I tillegg mangler de øvrige prediksjonene terapeutisk støtte.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av kanselleringen av den norske godkjenningen og dagens markedstilgjengelighet» → «Avklaring av dagens markedstilgjengelighet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

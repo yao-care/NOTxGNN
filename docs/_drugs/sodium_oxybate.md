@@ -122,24 +122,38 @@ Detaljerte advarsler og kontraindikasjoner fra preparatomtalen mangler i de inns
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes kun én liten, direkte relevant fase 2-studie (n=48) ved insomni, og resultatene er ikke verifisert. Samtidig er misbrukspotensial, respirasjonsdepresjon og omfattende CNS-interaksjoner betydelige sikkerhetshindringer. Den eneste norske godkjenningen er dessuten kansellert, og sikkerhetsdata fra preparatomtalen mangler (blokkerende datamangel).
+Det finnes kun én liten, direkte relevant fase 2-studie (n=48) ved insomni, og resultatene er ikke verifisert. Samtidig er misbrukspotensial, respirasjonsdepresjon og omfattende CNS-interaksjoner betydelige sikkerhetshindringer. Sikkerhetsdata fra preparatomtalen mangler dessuten (blokkerende datamangel).
+
+<!-- review:begin no-lic-20261124b-sodium_oxybate-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Den eneste norske godkjenningen er dessuten kansellert, og sikkerhetsdata fra preparatomtalen mangler (blokkerende datamangel).» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sodium_oxybate-1 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende)
 - Innhente data om virkningsmekanisme fra DrugBank
 - Gjennomgå de publiserte resultatene fra NCT00383643, inkludert effekt og bivirkninger mot zolpidem
 - Større, kontrollerte fase 3-studier ved insomni, med en risikoreduserende plan (misbruk, respirasjon, interaksjoner)
-- Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert
+- Avklare regulatorisk status i Norge
+
+<!-- review:begin no-lic-20261124b-sodium_oxybate-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sodium_oxybate-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca) |
+| 2026-11-24 | Rettet: «Den eneste norske godkjenningen er dessuten kansellert, og sikkerhetsdata fra preparatomtalen mangler (blokkerende datamangel).» → «Sikkerhetsdata fra preparatomtalen mangler dessuten (blokkerende datamangel).» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert» → «Avklare regulatorisk status i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

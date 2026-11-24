@@ -153,17 +153,24 @@ Data fra preparatomtalen er ikke tilgjengelige i datagrunnlaget. Se preparatomta
 - Hente data om virkningsmekanisme fra DrugBank
 - Utføre en systematisk litteratur- og mekanismegjennomgang for CAV3-relaterte myopatier og betaadrenerg signalering
 - Vurdere prioritering av kardiomyopati og cirrotisk kardiomyopati som alternative kandidater, inkludert bekreftelse av studiedesign for de identifiserte artiklene
-- Avklare markedsstatus i Norge, siden den eneste godkjenningen er kansellert, og vurdere administrasjonsvei og formulering
+- Avklare markedsstatus i Norge og vurdere administrasjonsvei og formulering
+
+<!-- review:begin no-lic-20261124b-propranolol-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare markedsstatus i Norge, siden den eneste godkjenningen er kansellert, og vurdere administrasjonsvei og formulering» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-propranolol-1 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+| 2026-11-24 | Rettet: «Avklare markedsstatus i Norge, siden den eneste godkjenningen er kansellert, og vurdere administrasjonsvei og formulering» → «Avklare markedsstatus i Norge og vurdere administrasjonsvei og formulering» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

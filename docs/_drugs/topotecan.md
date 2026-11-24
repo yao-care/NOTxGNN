@@ -54,8 +54,13 @@ men støtten er svak: de tre registrerte kliniske studiene er tidlige eller avsl
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
 | Antall godkjenninger | 3 (gyldige: 3) |
-| Antall tillatelser | 3 (alle kansellert) |
 | Anbefalt beslutning | Hold |
+
+<!-- review:begin no-lic-20261124b-topotecan-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall tillatelser / 3 (alle kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-topotecan-1 -->
 
 ---
 
@@ -144,14 +149,26 @@ Advarsler og kontraindikasjoner fra preparatomtalen mangler i de innsamlede data
 **Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-scoren er svært høy, men den kliniske støtten for brystkreft er svak: én avsluttet fase 2-studie med høydose kombinasjon, en fase 2-studie uten tegn til økt effekt og fase 1-studier der topotecan ikke er hovedmiddel. I tillegg er det mulig BCRP-mediert resistens, og alle norske tillatelser er kansellert.
+TxGNN-scoren er svært høy, men den kliniske støtten for brystkreft er svak: én avsluttet fase 2-studie med høydose kombinasjon, en fase 2-studie uten tegn til økt effekt og fase 1-studier der topotecan ikke er hovedmiddel. I tillegg er det mulig BCRP-mediert resistens.
+
+<!-- review:begin no-lic-20261124b-topotecan-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er det mulig BCRP-mediert resistens, og alle norske tillatelser er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-topotecan-2 -->
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
 - Detaljerte data om virkningsmekanisme fra legemiddeldatabasen
 - Kontrollerte kliniske studier som tester topotecan spesifikt ved brystkreft, gjerne i utvalgte subtyper (MYC-drevet, trippelnegativ)
 - Vurdering av BCRP-uttrykk som mulig prediktiv biomarkør
-- Avklaring av tilgjengelighet i Norge, siden alle tillatelser er kansellert
+- Avklaring av tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261124b-topotecan-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av tilgjengelighet i Norge, siden alle tillatelser er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-topotecan-3 -->
 
 ---
 
@@ -161,11 +178,14 @@ TxGNN-scoren er svært høy, men den kliniske støtten for brystkreft er svak: �
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+| 2026-11-24 | Fjernet: «&#124; Antall tillatelser &#124; 3 (alle kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «I tillegg er det mulig BCRP-mediert resistens, og alle norske tillatelser er kansellert.» → «I tillegg er det mulig BCRP-mediert resistens.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av tilgjengelighet i Norge, siden alle tillatelser er kansellert» → «Avklaring av tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

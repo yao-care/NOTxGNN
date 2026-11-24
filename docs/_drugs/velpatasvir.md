@@ -52,8 +52,13 @@ Velpatasvir er en hemmer av NS5A-proteinet i hepatitt C-viruset (HCV) og brukes 
 | Evidensnivå | L3 (kun observasjonsstudier og oversiktsarbeider; ingen studie viser anti-HBV-effekt) |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Antall autorisasjoner | 2 (begge kansellert) |
 | Anbefalt beslutning | Hold |
+
+<!-- review:begin no-lic-20261124b-velpatasvir-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall autorisasjoner / 2 (begge kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-velpatasvir-1 -->
 
 ---
 
@@ -131,14 +136,26 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Velpatasvir har ingen kjent direkte aktivitet mot HBV, og de tilgjengelige studiene gjelder HCV-behandling. Det anti-HBV-relaterte signalet kommer fra TAF-profylakse og overvåking av HBV-reaktivering, ikke fra velpatasvir. I tillegg er alle norske autorisasjoner kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Velpatasvir har ingen kjent direkte aktivitet mot HBV, og de tilgjengelige studiene gjelder HCV-behandling. Det anti-HBV-relaterte signalet kommer fra TAF-profylakse og overvåking av HBV-reaktivering, ikke fra velpatasvir. I tillegg mangler sikkerhetsdata fra preparatomtalen.
+
+<!-- review:begin no-lic-20261124b-velpatasvir-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er alle norske autorisasjoner kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-velpatasvir-2 -->
 
 **For å gå videre trengs følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank.
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening).
 - In vitro-data som viser eventuell anti-HBV-aktivitet av velpatasvir.
 - Resultater fra NCT04997564 og lignende studier, for å skille effekten av TAF fra velpatasvir.
-- Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.
+- Avklaring av markedsstatus i Norge.
+
+<!-- review:begin no-lic-20261124b-velpatasvir-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-velpatasvir-3 -->
 
 **Merknad om de øvrige predikerte indikasjonene:** Hepatitt E, hepatitt A, hepatitt hos dyr, Omsk hemoragisk feber, Kyasanur-skogsykdom, feline immunsviktsyndrom, simian immunsviktvirus og en sjelden nevroutviklingsforstyrrelse har alle evidensnivå L4–L5 og anbefalingen «Hold». Det finnes ingen plausibel mekanisme, og de høye scorene ser ut til å være modellartefakter. For HIV-infeksjon (L3) gjelder dokumentasjonen behandling av HCV hos pasienter med HIV/HCV-samInfeksjon, ikke behandling av HIV.
 
@@ -146,11 +163,14 @@ Velpatasvir har ingen kjent direkte aktivitet mot HBV, og de tilgjengelige studi
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+| 2026-11-24 | Fjernet: «&#124; Antall autorisasjoner &#124; 2 (begge kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «I tillegg er alle norske autorisasjoner kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.» → «Avklaring av markedsstatus i Norge.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

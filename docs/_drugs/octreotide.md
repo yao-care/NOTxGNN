@@ -112,7 +112,13 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten kliniske studier, litteratur eller en påvist mekanistisk kobling. I tillegg er den eneste norske/europeiske godkjenningen kansellert, og sikkerhetsdata fra preparatomtale mangler.
+Prediksjonen bygger kun på en modellscore uten kliniske studier, litteratur eller en påvist mekanistisk kobling. I tillegg mangler sikkerhetsdata fra preparatomtale.
+
+<!-- review:begin no-lic-20261124b-octreotide-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske/europeiske godkjenningen kansellert, og sikkerhetsdata fra preparatomtale mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-octreotide-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
@@ -125,11 +131,12 @@ Prediksjonen bygger kun på en modellscore uten kliniske studier, litteratur ell
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
+| 2026-11-24 | Rettet: «I tillegg er den eneste norske/europeiske godkjenningen kansellert, og sikkerhetsdata fra preparatomtale mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtale.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

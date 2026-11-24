@@ -132,8 +132,14 @@ Evidensen for HIV-infeksjon er begrenset til én preklinisk mekanistisk studie o
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
 - Hente data om virkningsmekanisme fra DrugBank
 - Utvide prekliniske studier (in vitro og dyremodeller) av fulvestrants effekt på HIV-latens i CD4+ T-celler
-- Avklare regulatorisk status og tilgjengelighet i Norge, siden begge godkjenninger er kansellert
+- Avklare regulatorisk status og tilgjengelighet i Norge
 - Vurdere sikkerhet ved langtidsbruk i en ikke-onkologisk populasjon med tanke på hormonell nedregulering
+
+<!-- review:begin no-lic-20261124b-fulvestrant-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare regulatorisk status og tilgjengelighet i Norge, siden begge godkjenninger er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-fulvestrant-1 -->
 
 ---
 
@@ -143,11 +149,12 @@ Evidensen for HIV-infeksjon er begrenset til én preklinisk mekanistisk studie o
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
+| 2026-11-24 | Rettet: «Avklare regulatorisk status og tilgjengelighet i Norge, siden begge godkjenninger er kansellert» → «Avklare regulatorisk status og tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

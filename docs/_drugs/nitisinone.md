@@ -117,23 +117,37 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for renal tubulær acidose er kun modellbasert (L5), uten kliniske studier eller litteratur, og mekanismen er ikke støttet utover sekundære nyreeffekter ved tyrosinemi. I tillegg har legemidlet kun kansellerte godkjenninger i Norge.
+Prediksjonen for renal tubulær acidose er kun modellbasert (L5), uten kliniske studier eller litteratur, og mekanismen er ikke støttet utover sekundære nyreeffekter ved tyrosinemi.
+
+<!-- review:begin no-lic-20261124b-nitisinone-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg har legemidlet kun kansellerte godkjenninger i Norge.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-nitisinone-1 -->
 
 **For å gå videre kreves:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig for sikkerhetsscreening
 - Prekliniske eller mekanistiske studier som kobler HPPD-hemming til renal tubulær acidose
-- Avklaring av markedsstatus og tilgjengelighet i Norge gitt at godkjenningene er kansellert
+- Avklaring av markedsstatus og tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261124b-nitisinone-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av markedsstatus og tilgjengelighet i Norge gitt at godkjenningene er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-nitisinone-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
+| 2026-11-24 | Fjernet: «I tillegg har legemidlet kun kansellerte godkjenninger i Norge.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge gitt at godkjenningene er kansellert» → «Avklaring av markedsstatus og tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

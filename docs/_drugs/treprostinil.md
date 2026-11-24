@@ -122,14 +122,26 @@ Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i datagru
 **Beslutning: Proceed with Guardrails (fortsett med forholdsregler)**
 
 **Begrunnelse:**
-PAH-CHD er en undergruppe av den godkjente indikasjonen (PAH), og mekanismen passer godt. Det finnes direkte, men begrenset, observasjonell evidens (L3) og ingen registrerte kliniske studier. Preparatet er i tillegg kun registrert som kansellert i Norge, noe som begrenser umiddelbar praktisk bruk.
+PAH-CHD er en undergruppe av den godkjente indikasjonen (PAH), og mekanismen passer godt. Det finnes direkte, men begrenset, observasjonell evidens (L3) og ingen registrerte kliniske studier.
+
+<!-- review:begin no-lic-20261124b-treprostinil-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Preparatet er i tillegg kun registrert som kansellert i Norge, noe som begrenser umiddelbar praktisk bruk.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-treprostinil-1 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datagap)
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Gjennomgang av shuntrisiko og valg av administrasjonsvei hos pasienter med CHD
 - Verifisere de kliniske studiene i pivotprogrammet for undergrupper og søke etter prospektive eller randomiserte studier
-- Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier
+- Avklare markedsstatus i Norge og tilgjengelige administrasjonsveier
+
+<!-- review:begin no-lic-20261124b-treprostinil-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-treprostinil-2 -->
 
 ---
 
@@ -140,11 +152,13 @@ PAH-CHD er en undergruppe av den godkjente indikasjonen (PAH), og mekanismen pas
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
+| 2026-11-24 | Fjernet: «Preparatet er i tillegg kun registrert som kansellert i Norge, noe som begrenser umiddelbar praktisk bruk.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier» → «Avklare markedsstatus i Norge og tilgjengelige administrasjonsveier» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

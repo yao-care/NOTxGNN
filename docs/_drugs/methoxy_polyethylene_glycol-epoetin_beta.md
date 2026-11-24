@@ -120,7 +120,13 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle predikerte indikasjoner er kun modellbaserte (L5), uten kliniske studier eller litteratur, og uten plausibel mekanistisk kobling. I tillegg er den eneste norske autorisasjonen kansellert, og tromboserisikoen ved ESA taler imot bruk i de predikerte tilstandene.
+Alle predikerte indikasjoner er kun modellbaserte (L5), uten kliniske studier eller litteratur, og uten plausibel mekanistisk kobling. I tillegg taler tromboserisikoen ved ESA imot bruk i de predikerte tilstandene.
+
+<!-- review:begin no-lic-20261124b-methoxy_polyethylene_glycol-epoetin_beta-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske autorisasjonen kansellert, og tromboserisikoen ved ESA taler imot bruk i de predikerte tilstandene.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-methoxy_polyethylene_glycol-epoetin_beta-1 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (mangler, og blokkerer videre sikkerhetsscreening)
@@ -133,11 +139,12 @@ Alle predikerte indikasjoner er kun modellbaserte (L5), uten kliniske studier el
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
+| 2026-11-24 | Rettet: «I tillegg er den eneste norske autorisasjonen kansellert, og tromboserisikoen ved ESA taler imot bruk i de predikerte tilstandene.» → «I tillegg taler tromboserisikoen ved ESA imot bruk i de predikerte tilstandene.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

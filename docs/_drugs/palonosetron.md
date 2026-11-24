@@ -89,7 +89,13 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ## Informasjon om det norske markedet
 
-Alle tre registrerte godkjenninger er kansellert. Dosering/legemiddelform er ikke oppgitt i dataene.
+Dosering/legemiddelform er ikke oppgitt i dataene.
+
+<!-- review:begin no-lic-20261124b-palonosetron-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Alle tre registrerte godkjenninger er kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-palonosetron-1 -->
 
 <!-- licenses:begin -->
 
@@ -125,7 +131,13 @@ Moderate interaksjoner omfatter blant annet abirateron, dihydrokodein, kodein, f
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger på en høy modellscore, men den eneste litteraturen er en kasuistikk om et bivirkningssignal (migrenelignende hodepine), som går i motsatt retning av ønsket effekt. Det finnes ingen kliniske studier, og alle norske/europeiske godkjenninger er kansellert.
+Prediksjonen bygger på en høy modellscore, men den eneste litteraturen er en kasuistikk om et bivirkningssignal (migrenelignende hodepine), som går i motsatt retning av ønsket effekt. Det finnes ingen kliniske studier.
+
+<!-- review:begin no-lic-20261124b-palonosetron-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Det finnes ingen kliniske studier, og alle norske/europeiske godkjenninger er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-palonosetron-2 -->
 
 **For å gå videre trengs følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
@@ -139,11 +151,13 @@ Prediksjonen bygger på en høy modellscore, men den eneste litteraturen er en k
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
+| 2026-11-24 | Fjernet: «Alle tre registrerte godkjenninger er kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Det finnes ingen kliniske studier, og alle norske/europeiske godkjenninger er kansellert.» → «Det finnes ingen kliniske studier.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

@@ -138,24 +138,38 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for pulmonal hypertensjon (score 0,9938) støttes av en biologisk plausibel FGFR-kobling, men har ingen kliniske studier eller litteratur (evidensnivå L5). I tillegg er den norske tillatelsen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for pulmonal hypertensjon (score 0,9938) støttes av en biologisk plausibel FGFR-kobling, men har ingen kliniske studier eller litteratur (evidensnivå L5). I tillegg mangler sikkerhetsdata fra preparatomtalen.
+
+<!-- review:begin no-lic-20261124b-erdafitinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den norske tillatelsen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-erdafitinib-1 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel)
 - Innhente detaljerte data om virkningsmekanisme
 - Prekliniske studier av FGFR-hemming i modeller for pulmonal hypertensjon
 - Vurdering av sikkerhetsprofilen (hyperfosfatemi, øyetoksisitet, væskeretensjon) i kardiopulmonale pasienter
-- Avklaring av markedsstatus og tilgjengelighet i Norge gitt at tillatelsen er kansellert
+- Avklaring av markedsstatus og tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261124b-erdafitinib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av markedsstatus og tilgjengelighet i Norge gitt at tillatelsen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-erdafitinib-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
+| 2026-11-24 | Rettet: «I tillegg er den norske tillatelsen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge gitt at tillatelsen er kansellert» → «Avklaring av markedsstatus og tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

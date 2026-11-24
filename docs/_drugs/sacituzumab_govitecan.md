@@ -144,7 +144,13 @@ For advarsler og kontraindikasjoner, se preparatomtalen.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen er rent modellbasert (L5) uten kliniske studier eller publikasjoner, og det finnes ingen plausibel mekanistisk kobling til legemiddelindusert osteoporose. Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand, og den norske godkjenningen er kansellert.
+Prediksjonen er rent modellbasert (L5) uten kliniske studier eller publikasjoner, og det finnes ingen plausibel mekanistisk kobling til legemiddelindusert osteoporose. Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand.
+
+<!-- review:begin no-lic-20261124b-sacituzumab_govitecan-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand, og den norske godkjenningen er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sacituzumab_govitecan-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
@@ -156,11 +162,12 @@ Prediksjonen er rent modellbasert (L5) uten kliniske studier eller publikasjoner
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+| 2026-11-24 | Rettet: «Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand, og den norske godkjenningen er kansellert.» → «Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

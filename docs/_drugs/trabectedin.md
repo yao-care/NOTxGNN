@@ -136,24 +136,38 @@ Utover dette henvises det til preparatomtalen for informasjon om advarsler og ko
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes biologisk rimelige argumenter og flere fase 2-studier i avansert brystkreft, særlig ved BRCA-mutasjon, men ingen fullførte fase 3-studier. Den eneste registrerte studien handler om QT-effekt, ikke effekt. Sikkerhetsdata fra preparatomtalen mangler, og begge godkjenningene i Norge er kansellert. Samlet sett er dette på forskningsspørsmålsstadiet.
+Det finnes biologisk rimelige argumenter og flere fase 2-studier i avansert brystkreft, særlig ved BRCA-mutasjon, men ingen fullførte fase 3-studier. Den eneste registrerte studien handler om QT-effekt, ikke effekt. Sikkerhetsdata fra preparatomtalen mangler. Samlet sett er dette på forskningsspørsmålsstadiet.
+
+<!-- review:begin no-lic-20261124b-trabectedin-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Sikkerhetsdata fra preparatomtalen mangler, og begge godkjenningene i Norge er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-trabectedin-1 -->
 
 **For å gå videre trengs følgende:**
 - Innhenting og gjennomgang av preparatomtalens advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Gjennomgang av resultatene fra fase 2-studiene (PMID 25239225, 24692579, 27266804) for effektdata og sikkerhetsprofil
 - Avklaring av hvilke undergrupper (BRCA-mutert, trippelnegativ, XPG-uttrykk) som kan ha nytte
-- Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken administrasjonsvei som kreves
+- Vurdering av tilgjengelighet i Norge og av hvilken administrasjonsvei som kreves
+
+<!-- review:begin no-lic-20261124b-trabectedin-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken administrasjonsvei som kreves» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-trabectedin-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+| 2026-11-24 | Rettet: «Sikkerhetsdata fra preparatomtalen mangler, og begge godkjenningene i Norge er kansellert.» → «Sikkerhetsdata fra preparatomtalen mangler.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken administrasjonsvei som kreves» → «Vurdering av tilgjengelighet i Norge og av hvilken administrasjonsvei som kreves» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

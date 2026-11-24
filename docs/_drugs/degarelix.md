@@ -141,24 +141,38 @@ Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om hypertrikose har kun modellstøtte (evidensnivå L5), uten kliniske studier eller litteratur, og den biologiske plausibiliteten er svak. I tillegg har legemidlet i dag kun kansellerte godkjenninger i Norge.
+Prediksjonen om hypertrikose har kun modellstøtte (evidensnivå L5), uten kliniske studier eller litteratur, og den biologiske plausibiliteten er svak.
+
+<!-- review:begin no-lic-20261124b-degarelix-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg har legemidlet i dag kun kansellerte godkjenninger i Norge.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-degarelix-1 -->
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Systematisk litteratur- og studiesøk for de predikerte indikasjonene
 - Dersom man vil forfølge en hypotese, bør sentral tidlig pubertet prioriteres, med prekliniske og pediatriske sikkerhetsdata
-- Avklaring av årsaken til de kansellerte godkjenningene og eventuell tilgjengelighet i Norge
+- Avklaring av eventuell tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261124b-degarelix-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av årsaken til de kansellerte godkjenningene og eventuell tilgjengelighet i Norge» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-degarelix-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+| 2026-11-24 | Fjernet: «I tillegg har legemidlet i dag kun kansellerte godkjenninger i Norge.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av årsaken til de kansellerte godkjenningene og eventuell tilgjengelighet i Norge» → «Avklaring av eventuell tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

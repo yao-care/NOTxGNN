@@ -9,7 +9,7 @@
   "with_current": 26,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 24,
+  "with_reviews": 25,
   "rows": [
    {
     "t": "Bupropion",
@@ -51,8 +51,8 @@
     "i": "Hodepinelidelse",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Produktet har dessuten bare en kansellert godkjenning i Norge.»",
     "x": 0
    },
    {
@@ -73,8 +73,8 @@
     "i": "hepatitis E virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Rettet: «Verifisere tilgjengelighet og regulatorisk status (godkjenningen er kansellert)» → «Verifisere…",
     "x": 0
    },
    {
@@ -84,8 +84,8 @@
     "i": "Seboreisk dermatitt",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse, og…",
     "x": 0
    },
    {
@@ -150,8 +150,8 @@
     "i": "mantle cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av regulatorisk vei, siden preparatet er kansellert i Norge» → «Avklaring av regulatorisk…",
     "x": 0
    },
    {
@@ -260,8 +260,8 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert» → «Avklare regulatorisk…",
     "x": 0
    },
    {
@@ -282,8 +282,8 @@
     "i": "Liposarkom",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert» →…",
     "x": 0
    },
    {
@@ -293,8 +293,8 @@
     "i": "Dermatitt",
     "lt": 13,
     "lv": 12,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske…",
     "x": 0
    }
   ],
@@ -381,8 +381,8 @@
     "i": "HIV-infeksjon",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklare regulatorisk status i Norge, siden den eneste registrerte godkjenningen er kansellert» →…",
     "x": 0
    },
    {
@@ -469,8 +469,8 @@
     "i": "Hepatitt B-virusinfeksjon",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.» → «Avklaring av…",
     "x": 0
    },
    {
@@ -502,8 +502,8 @@
     "i": "acute intermittent porphyria",
     "lt": 4,
     "lv": 3,
-    "r": 2,
-    "rs": "Fjernet: «med 4 gyldige markedsføringstillatelser av 4»",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av regulatorisk status, siden alle godkjenninger er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -579,8 +579,8 @@
     "i": "HIV infectious disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklare regulatorisk status og tilgjengelighet i Norge, siden begge godkjenninger er kansellert» →…",
     "x": 0
    },
    {
@@ -623,8 +623,8 @@
     "i": "Migrene",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Det finnes ingen kliniske studier, og alle norske/europeiske godkjenninger er kansellert.» → «Det…",
     "x": 0
    },
    {
@@ -645,8 +645,8 @@
     "i": "sclerosing cholangitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Fjernet: «Denne godkjenningen er registrert som avsluttet/tilbakekalt»",
+    "r": 2,
+    "rs": "Rettet: «inngår i et produkt som tidligere var godkjent ved lønnesirupsykdom» → «inngår i et produkt som er…",
     "x": 0
    },
    {
@@ -689,8 +689,8 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklare regulatorisk status i Norge, siden den eneste godkjenningen er kansellert» → «Avklare…",
     "x": 0
    },
    {
@@ -761,7 +761,7 @@
   "with_current": 364,
   "none_current": 4,
   "without_data": 1,
-  "with_reviews": 347,
+  "with_reviews": 354,
   "rows": [
    {
     "t": "Denosumab",
@@ -836,8 +836,8 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Fjernet: «Dessuten er alle europeiske godkjenninger i dataene kansellert.»",
     "x": 0
    },
    {
@@ -1122,8 +1122,8 @@
     "i": "Glaukom",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Alle norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtale mangler, så prediksjonen…",
     "x": 0
    },
    {
@@ -1166,8 +1166,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: « Antall tillatelser  5 (alle kansellert) »",
     "x": 0
    },
    {
@@ -1177,8 +1177,8 @@
     "i": "atopic eczema",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av regulatorisk status i Norge, siden alle godkjenninger er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -1232,8 +1232,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 5,
+    "rs": "Rettet: «Avklaring av årsaken til at alle godkjenninger er kansellert og av gjeldende regulatorisk status» →…",
     "x": 0
    },
    {
@@ -1342,8 +1342,8 @@
     "i": "parameningeal embryonal rhabdomyosarcoma",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Fjernet: «Avklare hvorfor norske tillatelser er kansellert, og om et alternativt preparat er tilgjengelig»",
     "x": 0
    },
    {
@@ -1353,8 +1353,8 @@
     "i": "rheumatoid arthritis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Dessuten har alle fire godkjenningene i Norge status som kansellert.»",
     "x": 0
    },
    {
@@ -1441,8 +1441,8 @@
     "i": "cyclic hematopoiesis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av gjeldende markedsstatus i Norge, siden alle godkjenninger er registrert som kansellert»…",
     "x": 0
    },
    {
@@ -1584,8 +1584,8 @@
     "i": "HIV infectious disease",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget registrert som kansellert.»",
     "x": 0
    },
    {
@@ -1595,8 +1595,8 @@
     "i": "renal-hepatic-pancreatic dysplasia",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av markedssituasjonen i Norge, siden alle tre godkjenninger er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -1606,8 +1606,8 @@
     "i": "Brystkreft hos kvinner",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av tilgjengelighet i Norge, siden alle tillatelser er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -1804,8 +1804,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av årsaken til de kansellerte godkjenningene og eventuell tilgjengelighet i Norge» →…",
     "x": 0
    },
    {
@@ -1969,8 +1969,8 @@
     "i": "bronchitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 5,
+    "rs": "Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert» →…",
     "x": 0
    },
    {
@@ -1991,8 +1991,8 @@
     "i": "epiglottis neoplasm",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklare tillatelsesstatus i Norge, siden begge tillatelser er kansellert» → «Avklare…",
     "x": 0
    },
    {
@@ -2002,8 +2002,8 @@
     "i": "renal tubular acidosis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge gitt at godkjenningene er kansellert» →…",
     "x": 0
    },
    {
@@ -2057,8 +2057,8 @@
     "i": "CMM7",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Begge godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «Sikkerhetsdata…",
     "x": 0
    },
    {
@@ -2090,8 +2090,8 @@
     "i": "uterine corpus perivascular epithelioid cell tumor",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av regulatorisk status i Norge, siden begge godkjenningene er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -2134,8 +2134,8 @@
     "i": "Brystkreft hos kvinner",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken…",
     "x": 0
    },
    {
@@ -2156,8 +2156,8 @@
     "i": "Tourette syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Rettet: «Avklaring av regulatorisk vei, siden begge godkjenningene er kansellert.» → «Avklaring av…",
     "x": 0
    },
    {
@@ -2211,8 +2211,8 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Fjernet: «Avklaring av årsaken til kansellert status i Norge/EØS»",
     "x": 0
    },
    {
@@ -2222,8 +2222,8 @@
     "i": "adult polyglucosan body disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av tilgjengelighet og administrasjonsvei i Norge, gitt at produktet er kansellert» →…",
     "x": 0
    },
    {
@@ -2332,8 +2332,8 @@
     "i": "renal tubular acidosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen…",
     "x": 0
    },
    {
@@ -2398,8 +2398,8 @@
     "i": "Hyperamylasemi",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Merk: Denne godkjenningen gjelder et produkt som oppføres som enkeltstoff i de lokale dataene, og…",
     "x": 0
    },
    {
@@ -2409,8 +2409,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Den norske godkjenningen er i tillegg kansellert, og sikkerhetsdata fra preparatomtalen mangler.» →…",
     "x": 0
    },
    {
@@ -2475,8 +2475,8 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Fjernet: «I tillegg er den eneste norske tillatelsen kansellert.»",
     "x": 0
    },
    {
@@ -2563,8 +2563,8 @@
     "i": "Abnormal gastrinsekresjon",
     "lt": 1,
     "lv": 1,
-    "r": 2,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Fjernet: «I tillegg er den norske godkjenningen kansellert.»",
     "x": 0
    },
    {
@@ -2629,8 +2629,8 @@
     "i": "Scheie syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av administrasjonsvei og markedstilgang i Norge, siden tillatelsen er kansellert» →…",
     "x": 0
    },
    {
@@ -2684,8 +2684,8 @@
     "i": "amyotrophic lateral sclerosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Vurdering av markedstilgjengelighet i Norge gitt at autorisasjonen er kansellert» → «Vurdering av…",
     "x": 0
    },
    {
@@ -2706,8 +2706,8 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av hvorfor godkjenningen i Norge er kansellert, og av hvilke administrasjonsveier som er…",
     "x": 0
    },
    {
@@ -2772,8 +2772,8 @@
     "i": "esotropia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Produktet er i tillegg kansellert i Norge.»",
     "x": 0
    },
    {
@@ -2849,8 +2849,8 @@
     "i": "Pseudo-von Willebrands sykdom",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden godkjenningen er kansellert» →…",
     "x": 0
    },
    {
@@ -2893,8 +2893,8 @@
     "i": "leprosy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av kanselleringen av den norske godkjenningen og dagens markedstilgjengelighet» →…",
     "x": 0
    },
    {
@@ -2937,8 +2937,8 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge gitt at tillatelsen er kansellert» →…",
     "x": 0
    },
    {
@@ -2992,8 +2992,8 @@
     "i": "symptomatic form of hemophilia in female carriers",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Produktet har dessuten kun kansellert registrering i Norge.»",
     "x": 0
    },
    {
@@ -3047,8 +3047,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: « Antall tillatelser  1 (0 gyldige, 1 kansellert) »",
     "x": 0
    },
    {
@@ -3058,8 +3058,8 @@
     "i": "autosomal thrombocytopenia with normal platelets",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Fjernet: «Avklaring av hvorfor godkjenningen i Norge ble kansellert, og om en ny godkjenning er aktuell»",
     "x": 0
    },
    {
@@ -3091,8 +3091,8 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Den eneste norske godkjenningen er kansellert, og sikkerhetsprofilen (blant annet interstitiell…",
     "x": 0
    },
    {
@@ -3102,8 +3102,8 @@
     "i": "bulbar polio",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av regulatorisk status, siden den eneste godkjenningen er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -3234,8 +3234,8 @@
     "i": "Hepatisk porfyri",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Merk: Lisensen er oppført med status «kansellert» i de lokale postene, mens samlet markedsstatus er…",
     "x": 0
    },
    {
@@ -3333,8 +3333,8 @@
     "i": "bulbar polio",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Fjernet: «Avklaring av hvorfor den norske tillatelsen er kansellert, og om en ny søknad er aktuell»",
     "x": 0
    },
    {
@@ -3366,8 +3366,8 @@
     "i": "Sanfilippo syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Fjernet: «Avklaring av hvorfor godkjenningen i Norge er kansellert»",
     "x": 0
    },
    {
@@ -3476,8 +3476,8 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Fjernet: «I tillegg er den eneste godkjenningen kansellert.»",
     "x": 0
    },
    {
@@ -3553,8 +3553,8 @@
     "i": "monosomy X",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av hvorfor godkjenningen i Norge er kansellert, og av tilgjengelige administrasjonsveier»…",
     "x": 0
    },
    {
@@ -3597,8 +3597,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «I tillegg er den eneste norske autorisasjonen kansellert, og tromboserisikoen ved ESA taler imot…",
     "x": 0
    },
    {
@@ -3641,8 +3641,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
-    "rs": "Fjernet: «og den norske/europeiske godkjenningen er opphevet»",
+    "r": 3,
+    "rs": "Rettet: «som i Norge/EØS var godkjent som en del av» → «som i Norge/EØS er godkjent som en del av»",
     "x": 0
    },
    {
@@ -3718,8 +3718,8 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «I tillegg er den eneste norske/europeiske godkjenningen kansellert, og sikkerhetsdata fra…",
     "x": 0
    },
    {
@@ -3729,8 +3729,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av markedsstatus, siden dagens godkjenning er kansellert» → «Avklaring av markedsstatus»",
     "x": 0
    },
    {
@@ -3784,8 +3784,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklare hvorfor markedsføringstillatelsen er kansellert og om preparater med paliperidon er…",
     "x": 0
    },
    {
@@ -3839,8 +3839,8 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av norsk markedsstatus, siden den registrerte tillatelsen er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -3949,8 +3949,8 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklare markedsstatus i Norge, siden den eneste godkjenningen er kansellert, og vurdere…",
     "x": 0
    },
    {
@@ -3971,8 +3971,8 @@
     "i": "Sykdom i nesehulen",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av den regulatoriske statusen og årsaken til kanselleringen» → «Avklaring av den…",
     "x": 0
    },
    {
@@ -3982,8 +3982,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av gjeldende regulatorisk status i Norge, siden autorisasjonen er kansellert» → «Avklaring…",
     "x": 0
    },
    {
@@ -3993,8 +3993,8 @@
     "i": "Adenokarsinom i livmorligamentet",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklare årsaken til at godkjenningen i Norge er kansellert og om tilgang er mulig» → «Avklare om…",
     "x": 0
    },
    {
@@ -4004,8 +4004,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av regulatorisk status og tilgjengelighet i Norge, siden godkjenningen er kansellert» →…",
     "x": 0
    },
    {
@@ -4026,8 +4026,8 @@
     "i": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Markedsføringstillatelsen i Norge er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» →…",
     "x": 0
    },
    {
@@ -4048,8 +4048,8 @@
     "i": "Hyperamylasemi",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av administrasjonsvei og markedsstatus (godkjenningen er kansellert)» → «Avklaring av…",
     "x": 0
    },
    {
@@ -4059,8 +4059,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Remdesivir har dessuten kun en kansellert godkjenning i Norge.»",
     "x": 0
    },
    {
@@ -4070,8 +4070,8 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av godkjenningsstatus i Norge, siden eksisterende godkjenning er kansellert» → «Avklaring…",
     "x": 0
    },
    {
@@ -4180,8 +4180,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand, og den…",
     "x": 0
    },
    {
@@ -4191,8 +4191,8 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Dessuten er den norske godkjenningen kansellert, og viktige sikkerhetsdata mangler.» → «Dessuten…",
     "x": 0
    },
    {
@@ -4235,8 +4235,8 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Legemidlet har dessuten en betydelig interaksjonsbyrde og kun kansellert markedsføringstillatelse i…",
     "x": 0
    },
    {
@@ -4246,8 +4246,8 @@
     "i": "familial generalized lentiginosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: « Antall tillatelser  1 (kansellert) »",
     "x": 0
    },
    {
@@ -4301,8 +4301,8 @@
     "i": "acute lymphoblastic leukemia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Fjernet: «Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge»",
     "x": 0
    },
    {
@@ -4312,8 +4312,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Sykdommen er en sjelden genetisk tilstand som ikke primært er androgendrevet, og den eneste…",
     "x": 0
    },
    {
@@ -4334,8 +4334,8 @@
     "i": "esotropia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og legemidlets kjente toksisitet gir en…",
     "x": 0
    },
    {
@@ -4444,8 +4444,8 @@
     "i": "gastroparesis (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen…",
     "x": 0
    },
    {
@@ -4455,8 +4455,8 @@
     "i": "Migrene",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet» →…",
     "x": 0
    },
    {
@@ -4466,8 +4466,8 @@
     "i": "intracranial arteriosclerosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 4,
+    "rs": "Rettet: «Avklaring av regulatorisk status, siden den norske godkjenningen er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -4477,8 +4477,8 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Den mekanistiske koblingen er spekulativ, og legemidlet har dessuten kun en kansellert godkjenning i…",
     "x": 0
    },
    {
@@ -4510,8 +4510,8 @@
     "i": "endocervical carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av markedsstatus i Norge, siden godkjenningen er kansellert» → «Avklaring av markedsstatus…",
     "x": 0
    },
    {
@@ -4554,8 +4554,8 @@
     "i": "choroideremia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er kansellert» → «Avklaring av…",
     "x": 0
    },
    {
@@ -4587,8 +4587,8 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier» →…",
     "x": 0
    },
    {
@@ -4598,8 +4598,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 2,
-    "rs": "Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge»",
+    "r": 3,
+    "rs": "Rettet: «Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige…",
     "x": 0
    },
    {
@@ -4642,8 +4642,8 @@
     "i": "Migrene",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge…",
     "x": 0
    },
    {
@@ -4664,8 +4664,8 @@
     "i": "Hjerneslag",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Rettet: «Avklaring av hvorfor godkjenningen ble kansellert, og om legemidlet i praksis er tilgjengelig i…",
     "x": 0
    },
    {
@@ -4741,8 +4741,8 @@
     "i": "pyelonephritis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «I tillegg er den eneste norske/europeiske godkjenningen kansellert.»",
     "x": 0
    },
    {

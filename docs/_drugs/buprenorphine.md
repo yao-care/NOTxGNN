@@ -96,7 +96,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Alle fire godkjenningene har status kansellert.
+<!-- review:begin no-lic-20261124b-buprenorphine-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Alle fire godkjenningene har status kansellert.» Fjernet: opplysningen om at alle godkjenningene er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12); de fleste står som gyldige (Authorised), og status for hver godkjenning står i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-buprenorphine-1 -->
 
 ---
 
@@ -127,7 +131,13 @@ Prediksjonen bygger på modellscore alene. Det finnes ingen kliniske studier, de
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Vurdering av buprenorfins porfyrinogene risiko
 - Prekliniske eller kliniske data som viser en faktisk sammenheng mellom buprenorfin og akutt intermitterende porfyri
-- Avklaring av regulatorisk status, siden alle godkjenninger er kansellert
+- Avklaring av regulatorisk status
+
+<!-- review:begin no-lic-20261124b-buprenorphine-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av regulatorisk status, siden alle godkjenninger er kansellert» Rettet: opplysningen om at alle godkjenningene er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12); de fleste står som gyldige (Authorised), og status for hver godkjenning står i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-buprenorphine-2 -->
 
 ---
 
@@ -153,6 +163,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-11-12 | Fjernet: «med 4 gyldige markedsføringstillatelser av 4» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+| 2026-11-24 | Fjernet: «Alle fire godkjenningene har status kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av regulatorisk status, siden alle godkjenninger er kansellert» → «Avklaring av regulatorisk status» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

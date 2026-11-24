@@ -54,8 +54,13 @@ Evidensen består av **16 publikasjoner** (10 er vist her), alle prekliniske stu
 | Evidensnivå | L5 (prekliniske studier og mekanismestudier) |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål, ikke klinisk reposisjonering) |
+
+<!-- review:begin no-lic-20261124b-raltegravir-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall autorisasjoner / 1 (kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-raltegravir-1 -->
 
 ---
 
@@ -122,24 +127,39 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen er utelukkende preklinisk (dyre- og in vitro-studier), og det finnes ingen kliniske studier. SIV er en ikke-human infeksjon, så verdien er først og fremst som forskningsmodell for hiv, ikke som ny human indikasjon. I tillegg er den eneste norske autorisasjonen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Evidensen er utelukkende preklinisk (dyre- og in vitro-studier), og det finnes ingen kliniske studier. SIV er en ikke-human infeksjon, så verdien er først og fremst som forskningsmodell for hiv, ikke som ny human indikasjon. I tillegg mangler sikkerhetsdata fra preparatomtalen.
+
+<!-- review:begin no-lic-20261124b-raltegravir-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske autorisasjonen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-raltegravir-2 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme fra legemiddeldatabasen
 - Avklaring av om en veterinær eller translasjonell forskningsanvendelse er relevant, siden SIV og felin immunsvikt ikke er humane indikasjoner
 - Vurdering av muskelrelaterte sikkerhetssignaler fra kunnskapsgrafen
-- Avklaring av gjeldende regulatorisk status i Norge, siden autorisasjonen er kansellert
+- Avklaring av gjeldende regulatorisk status i Norge
+
+<!-- review:begin no-lic-20261124b-raltegravir-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av gjeldende regulatorisk status i Norge, siden autorisasjonen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-raltegravir-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+| 2026-11-24 | Fjernet: «&#124; Antall autorisasjoner &#124; 1 (kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «I tillegg er den eneste norske autorisasjonen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av gjeldende regulatorisk status i Norge, siden autorisasjonen er kansellert» → «Avklaring av gjeldende regulatorisk status i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

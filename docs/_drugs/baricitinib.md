@@ -112,7 +112,13 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen støttes kun av modellskår (evidensnivå L5), uten kliniske studier, litteratur eller kjent mekanistisk kobling til en utviklingsforstyrrelse. Den norske godkjenningen er i tillegg kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen støttes kun av modellskår (evidensnivå L5), uten kliniske studier, litteratur eller kjent mekanistisk kobling til en utviklingsforstyrrelse. I tillegg mangler sikkerhetsdata fra preparatomtalen.
+
+<!-- review:begin no-lic-20261124b-baricitinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Den norske godkjenningen er i tillegg kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-baricitinib-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
@@ -125,11 +131,12 @@ Prediksjonen støttes kun av modellskår (evidensnivå L5), uten kliniske studie
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+| 2026-11-24 | Rettet: «Den norske godkjenningen er i tillegg kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

@@ -119,23 +119,37 @@ Se pakningsvedlegget for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er rent beregningsbasert (evidensnivå L5) uten kliniske studier, litteratur eller en etablert mekanistisk sammenheng. Gilteritinibs immunsuppressive profil kan dessuten være skadelig ved akutt virusinfeksjon. I tillegg er markedsføringsgodkjenningen i Norge kansellert.
+Prediksjonen er rent beregningsbasert (evidensnivå L5) uten kliniske studier, litteratur eller en etablert mekanistisk sammenheng. Gilteritinibs immunsuppressive profil kan dessuten være skadelig ved akutt virusinfeksjon.
+
+<!-- review:begin no-lic-20261124b-gilteritinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er markedsføringsgodkjenningen i Norge kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-gilteritinib-1 -->
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA) og en plausibel biologisk hypotese for kinasehemming ved poliovirusinfeksjon
 - Prekliniske data (for eksempel in vitro-studier av poliovirusreplikasjon) som kan støtte hypotesen
 - Pakningsvedlegg med advarsler og kontraindikasjoner for sikkerhetsscreening
-- Avklaring av regulatorisk status, siden den eneste godkjenningen er kansellert
+- Avklaring av regulatorisk status
+
+<!-- review:begin no-lic-20261124b-gilteritinib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av regulatorisk status, siden den eneste godkjenningen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-gilteritinib-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+| 2026-11-24 | Fjernet: «I tillegg er markedsføringsgodkjenningen i Norge kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av regulatorisk status, siden den eneste godkjenningen er kansellert» → «Avklaring av regulatorisk status» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

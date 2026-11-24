@@ -55,7 +55,13 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebran
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse, og den er kansellert.
+Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse.
+
+<!-- review:begin no-lic-20261124b-lonoctocog_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse, og den er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-lonoctocog_alfa-1 -->
 
 ---
 
@@ -101,7 +107,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Status: kansellert.
+<!-- review:begin no-lic-20261124b-lonoctocog_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Status: kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-lonoctocog_alfa-2 -->
 
 ---
 
@@ -116,7 +126,13 @@ Se pakningsvedlegget for sikkerhetsinformasjon. Data om advarsler og kontraindik
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle fire prediksjonene er på evidensnivå L5, uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er svak eller indirekte, fordi de predikerte sykdommene primært skyldes blodplate- eller VWF-relaterte defekter som FVIII-erstatning ikke korrigerer. I tillegg er den eneste godkjenningen kansellert.
+Alle fire prediksjonene er på evidensnivå L5, uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er svak eller indirekte, fordi de predikerte sykdommene primært skyldes blodplate- eller VWF-relaterte defekter som FVIII-erstatning ikke korrigerer.
+
+<!-- review:begin no-lic-20261124b-lonoctocog_alfa-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste godkjenningen kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-lonoctocog_alfa-3 -->
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, hindrer sikkerhetsscreening)
@@ -129,11 +145,14 @@ Alle fire prediksjonene er på evidensnivå L5, uten kliniske studier eller publ
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
+| 2026-11-24 | Rettet: «Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse, og den er kansellert.» → «Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Status: kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «I tillegg er den eneste godkjenningen kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

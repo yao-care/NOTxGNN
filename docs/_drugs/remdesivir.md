@@ -130,7 +130,13 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonene er kun støttet av modellscore. Den eneste studien er en farmakokinetikkstudie uten effektdata for HIV, og litteraturen dreier seg om COVID-19. Remdesivir har dessuten kun en kansellert godkjenning i Norge.
+Prediksjonene er kun støttet av modellscore. Den eneste studien er en farmakokinetikkstudie uten effektdata for HIV, og litteraturen dreier seg om COVID-19.
+
+<!-- review:begin no-lic-20261124b-remdesivir-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Remdesivir har dessuten kun en kansellert godkjenning i Norge.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-remdesivir-1 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
@@ -142,11 +148,12 @@ Prediksjonene er kun støttet av modellscore. Den eneste studien er en farmakoki
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+| 2026-11-24 | Fjernet: «Remdesivir har dessuten kun en kansellert godkjenning i Norge.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

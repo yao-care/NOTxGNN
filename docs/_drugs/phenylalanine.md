@@ -59,7 +59,13 @@ TxGNN-modellen forutsier at det kan ha effekt ved **skleroserende kolangitt**, m
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er fenylalanin en aminosyre som inngår i et produkt som tidligere var godkjent ved lønnesirupsykdom, en sykdom med forstyrret aminosyrestoffskifte.
+Data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er fenylalanin en aminosyre som inngår i et produkt som er godkjent ved lønnesirupsykdom, en sykdom med forstyrret aminosyrestoffskifte.
+
+<!-- review:begin no-lic-20261124b-phenylalanine-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «inngår i et produkt som tidligere var godkjent ved lønnesirupsykdom» Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-12) er godkjenningen av Maapliv gyldig (Authorised), så «tidligere var godkjent» er endret til «er godkjent». Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-phenylalanine-1 -->
 
 Det finnes ingen direkte mekanistisk begrunnelse for fenylalanin som behandling av skleroserende kolangitt i de innsamlede dataene. De hentede publikasjonene er bare indirekte relevante:
 
@@ -143,6 +149,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Denne godkjenningen er registrert som avsluttet/tilbakekalt» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «inngår i et produkt som tidligere var godkjent ved lønnesirupsykdom» → «inngår i et produkt som er godkjent ved lønnesirupsykdom» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

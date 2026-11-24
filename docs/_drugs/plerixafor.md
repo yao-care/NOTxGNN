@@ -129,7 +129,13 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen for indolent plasmacellemyelom bygger kun på modellscore og nærhet til den godkjente myelomindikasjonen, uten studier eller litteratur. I tillegg er plerixafor et mobiliseringsmiddel og ikke en sykdomsmodifiserende behandling. Begge godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for indolent plasmacellemyelom bygger kun på modellscore og nærhet til den godkjente myelomindikasjonen, uten studier eller litteratur. I tillegg er plerixafor et mobiliseringsmiddel og ikke en sykdomsmodifiserende behandling. Sikkerhetsdata fra preparatomtalen mangler.
+
+<!-- review:begin no-lic-20261124b-plerixafor-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Begge godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-plerixafor-1 -->
 
 **For å gå videre kreves følgende:**
 - Hente preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel)
@@ -141,11 +147,12 @@ Prediksjonen for indolent plasmacellemyelom bygger kun på modellscore og nærhe
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003) |
+| 2026-11-24 | Rettet: «Begge godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «Sikkerhetsdata fra preparatomtalen mangler.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

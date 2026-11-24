@@ -91,3 +91,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 另寫的寬偵測（同句有許可字樣、數字不在事實層 {total, valid, cancelled}，或「alle／begge … gyldig」而有效≠總數，或寫 kansellert 等註銷字而事實沒有註銷）全量掃公開頁：改前 115 句、改後 114 句，剩下全是
   「kansellert」類：正文 136 句（86 頁）與表格裡另一列 AI 寫的張數列 15 格（例 alectinib「Antall autorisasjoner | 1 (kansellert)」、duloxetine「5 (alle kansellert)」；標準的「Antall godkjenninger」列是對的）把 EMA Authorised 的許可寫成 kansellert（11 月 AI 重產時照證據包「Cancelled only」寫的），
   checker 的 no `_CANC_NO` 不含 kansellert、count_row 只驗標準的「Antall godkjenninger」列，所以沒擋。數量超過交付門檻，未在這次處理，待用戶決定（母目錄 `.claude/license_labels/NOTxGNN.json` 也把「Kansellert」記成 valid）。
+
+## 正文「kansellert」的舊錯句更正（2026-11-24 第二輪）
+
+用戶 2026-11-24 決定（第二輪：第一輪列進待查的舊錯句逐句寫查核紀錄更正）：11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），
+正文照著寫「kansellert」（「den eneste norske godkjenningen er kansellert」「begge tillatelser er kansellert」等），概覽表另多一列 AI 寫的張數列（「| Antall tillatelser | 5 (alle kansellert) |」）。
+同一 Release（data-20261112-163044）的證據包 tfda.records（EMA 集中許可）與快照事實層都是 Authorised／有效。
+- 全量掃公開頁（排除 noindex、轉址頁、查核框、程式區塊）：「kansell」155 處（88 頁）；其中 reteplase「den eneste godkjenningen er kansellert」成立（EMA Withdrawn），不改；
+  buprenorphine（4 張中 1 張 Withdrawn）、ustekinumab（13 張中 1 張 Withdrawn）的「alle … kansellert」不成立。
+- 154 筆 `no-lic-20261124b-<藥>-N`：只拿掉「kansellert」的子句或前提，其他文字不動；整句只講註銷的句子、概覽表重複的 AI 張數列（15 格，留程式維護的「Antall godkjenninger」列）、
+  只建立在註銷前提上的待辦條目（「Avklaring av hvorfor godkjenningen er kansellert」等）刪除；待辦條目的「, siden … er kansellert」前提拿掉、建議保留。
+  aztreonam 的「enkeltstoff」說法也不成立（Emblaveo＝avibactam＋aztreonam），整段 Merk 刪除。更正說明不寫張數，指向概覽表與程式許可證表。
+  另 2 筆（phenylalanine「tidligere var godkjent」、mometasone「var godkjent」）照 EMA Authorised 改成「er godkjent」。
+- 待查清單裡第一輪 B 判斷不了的 19 句全部由上面的紀錄更正，標 resolved（record_ids）。
+- 驗證：checker 全量前後 0；母目錄 checker 的 no `_CANC_NO`／`cw`／row 狀態字加上 kansellert 的暫時副本：改前 M3 126 句（82 頁）、改後 0（建議母目錄照這樣加）。gate exit 0。

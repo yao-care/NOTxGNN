@@ -105,7 +105,13 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Merk: Denne registreringen har status **kansellert**. Innehaver er Merck Sharp & Dohme B.V.
+Innehaver er Merck Sharp & Dohme B.V.
+
+<!-- review:begin no-lic-20261124b-sotatercept-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Merk: Denne registreringen har status **kansellert**.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sotatercept-1 -->
 
 ---
 
@@ -122,7 +128,13 @@ Det kan likevel nevnes at sotatercept i den mekanistiske vurderingen er knyttet 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle predikerte indikasjoner har evidensnivå L5, det vil si kun modellprediksjon uten kliniske studier eller publikasjoner. I tillegg er den norske registreringen kansellert, og sikkerhetsdata fra preparatomtalen mangler, noe som blokkerer videre sikkerhetsscreening.
+Alle predikerte indikasjoner har evidensnivå L5, det vil si kun modellprediksjon uten kliniske studier eller publikasjoner. I tillegg mangler sikkerhetsdata fra preparatomtalen, noe som blokkerer videre sikkerhetsscreening.
+
+<!-- review:begin no-lic-20261124b-sotatercept-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den norske registreringen kansellert, og sikkerhetsdata fra preparatomtalen mangler, noe som blokkerer videre sikkerhetsscreening.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sotatercept-2 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) fra legemiddelmyndighetenes kilde
@@ -130,17 +142,25 @@ Alle predikerte indikasjoner har evidensnivå L5, det vil si kun modellprediksjo
 - Systematisk litteratur- og studiesøk for de høyest rangerte indikasjonene
 - Prekliniske data som kan underbygge koblingen mellom aktivin/GDF-fangst og den aktuelle sykdommen
 - Avklaring av administrasjonsvei og forenlighet for hver ny indikasjon
-- Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge
+
+<!-- review:begin no-lic-20261124b-sotatercept-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge» Fjernet: oppfølgingspunktet bygde på at godkjenningen(e) er kansellert, noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sotatercept-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
+| 2026-11-24 | Fjernet: «Merk: Denne registreringen har status **kansellert**.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «I tillegg er den norske registreringen kansellert, og sikkerhetsdata fra preparatomtalen mangler, noe som blokkerer videre sikkerhetsscreening.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen, noe som blokkerer videre sikkerhetsscreening.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

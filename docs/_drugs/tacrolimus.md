@@ -129,7 +129,13 @@ Advarsler og kontraindikasjoner fra preparatomtalen er ikke innhentet; se prepar
 **Beslutning: Proceed with Guardrails (fortsett med forhåndsregler)**
 
 **Begrunnelse:**
-Det finnes en fullført fase 3-studie og en fase 4-studie direkte på seboreisk dermatitt, og mekanismen er den samme som ved den etablerte indikasjonen atopisk dermatitt. Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse, og alle norske godkjenninger er kansellert.
+Det finnes en fullført fase 3-studie og en fase 4-studie direkte på seboreisk dermatitt, og mekanismen er den samme som ved den etablerte indikasjonen atopisk dermatitt. Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse.
+
+<!-- review:begin no-lic-20261124b-tacrolimus-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse, og alle norske godkjenninger er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-tacrolimus-1 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere resultatene fra NCT02004860 og NCT01591070 (effekt og residivrate)
@@ -145,11 +151,12 @@ Det finnes en fullført fase 3-studie og en fase 4-studie direkte på seboreisk 
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+| 2026-11-24 | Rettet: «Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse, og alle norske godkjenninger er kansellert.» → «Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

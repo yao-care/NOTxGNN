@@ -123,14 +123,40 @@ For øvrig sikkerhetsinformasjon, inkludert varsler og kontraindikasjoner, vises
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren gjenspeiler i hovedsak nærhet til den eksisterende indikasjonen. Evidensen for sykdom i nesehulen er preklinisk (L4), uten kliniske studier, og den eneste godkjenningen i Norge er kansellert. Signalet kan derfor ikke regnes som en reell ny repurposing-mulighet foreløpig, og det egner seg best som et forskningsspørsmål.
+Den høye TxGNN-scoren gjenspeiler i hovedsak nærhet til den eksisterende indikasjonen. Evidensen for sykdom i nesehulen er preklinisk (L4), uten kliniske studier. Signalet kan derfor ikke regnes som en reell ny repurposing-mulighet foreløpig, og det egner seg best som et forskningsspørsmål.
+
+<!-- review:begin no-lic-20261124b-pseudoephedrine-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Evidensen for sykdom i nesehulen er preklinisk (L4), uten kliniske studier, og den eneste godkjenningen i Norge er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-pseudoephedrine-1 -->
 
 **For å gå videre trengs følgende:**
 - Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner fra DMP (nødvendig for sikkerhetsscreening)
-- Avklaring av den regulatoriske statusen og årsaken til kanselleringen
+- Avklaring av den regulatoriske statusen
 - Kontrollerte kliniske studier av pseudoefedrin ved konkrete tilstander i nesehulen, f.eks. ikke-allergisk rhinitt
 - Sikkerhetsplan for pasienter med hypertensjon, hjerte- og karsykdom og diabetes, samt vurdering av interaksjoner (bl.a. MAO-hemmere)
+
+<!-- review:begin no-lic-20261124b-pseudoephedrine-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av den regulatoriske statusen og årsaken til kanselleringen» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-pseudoephedrine-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Rettet: «Evidensen for sykdom i nesehulen er preklinisk (L4), uten kliniske studier, og den eneste godkjenningen i Norge er kansellert.» → «Evidensen for sykdom i nesehulen er preklinisk (L4), uten kliniske studier.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av den regulatoriske statusen og årsaken til kanselleringen» → «Avklaring av den regulatoriske statusen» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

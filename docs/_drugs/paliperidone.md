@@ -52,8 +52,13 @@ Paliperidon er et antipsykotikum som opprinnelig brukes mot schizofreni og psyko
 | Evidensnivå | L5 (kun modellprediksjon) |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall markedsføringstillatelser | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
+
+<!-- review:begin no-lic-20261124b-paliperidone-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall markedsføringstillatelser / 1 (kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-paliperidone-1 -->
 
 ---
 
@@ -134,24 +139,39 @@ Pakningsvedlegg med advarsler og kontraindikasjoner mangler i dataene, så det m
 
 **Begrunnelse:**
 - Toppredikasjonene er rene modellprediksjoner (L5) uten kliniske studier, litteratur eller plausibel mekanisme. Behandlingsresistent schizofreni har noe støtte (L4), men er en utvidelse av den eksisterende indikasjonen med kun indirekte fase 4-evidens, og klozapin er standard behandling.
-- Den eneste norske tillatelsen er kansellert, og kritiske sikkerhetsdata mangler.
+- Kritiske sikkerhetsdata mangler.
+
+<!-- review:begin no-lic-20261124b-paliperidone-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Den eneste norske tillatelsen er kansellert, og kritiske sikkerhetsdata mangler.» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-paliperidone-2 -->
 
 **For å gå videre kreves følgende:**
 - Hente pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel)
 - Hente data om virkningsmekanisme fra DrugBank
 - For behandlingsresistent schizofreni: avklare om paliperidon er en studert arm i NCT07047651 og NCT06060886, og vurdere direkte komparative studier mot klozapin
-- Avklare hvorfor markedsføringstillatelsen er kansellert og om preparater med paliperidon er tilgjengelige i Norge
+- Avklare om preparater med paliperidon er tilgjengelige i Norge
 - Vurdere om de høyest rangerte prediksjonene (netthinnesykdom, nærsynthet m.fl.) skal forkastes som grafartefakter, med mindre ny mekanistisk støtte fremkommer
+
+<!-- review:begin no-lic-20261124b-paliperidone-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare hvorfor markedsføringstillatelsen er kansellert og om preparater med paliperidon er tilgjengelige i Norge» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-paliperidone-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+| 2026-11-24 | Fjernet: «&#124; Antall markedsføringstillatelser &#124; 1 (kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Den eneste norske tillatelsen er kansellert, og kritiske sikkerhetsdata mangler.» → «Kritiske sikkerhetsdata mangler.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklare hvorfor markedsføringstillatelsen er kansellert og om preparater med paliperidon er tilgjengelige i Norge» → «Avklare om preparater med paliperidon er tilgjengelige i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

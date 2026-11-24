@@ -38,9 +38,15 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 ## Oppsummering i én setning
 
-Mometason er et potent kortikosteroid som i Norge/EØS var godkjent som en del av en kombinasjonsbehandling mot astma.
+Mometason er et potent kortikosteroid som i Norge/EØS er godkjent som en del av en kombinasjonsbehandling mot astma.
 TxGNN-modellen predikerer at det kan være effektivt mot **primært kutant T-cellelymfom**,
 men det finnes foreløpig **ingen registrerte kliniske studier** og bare **2 kasuistikker** i litteraturen. Evidensen er dermed svært begrenset.
+
+<!-- review:begin no-lic-20261124b-mometasone-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «som i Norge/EØS var godkjent som en del av» Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-12) er godkjenningen gyldig (Authorised), så «var godkjent» er endret til «er godkjent». Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-mometasone-1 -->
 
 ---
 
@@ -139,6 +145,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og den norske/europeiske godkjenningen er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
+| 2026-11-24 | Rettet: «som i Norge/EØS var godkjent som en del av» → «som i Norge/EØS er godkjent som en del av» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

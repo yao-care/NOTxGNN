@@ -140,14 +140,26 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Proceed with Guardrails (Fortsett med sikkerhetstiltak)**
 
 **Begrunnelse:**
-Hepatitt B er allerede en godkjent indikasjon, og evidensen er omfattende (fase 3- og fase 4-studier samt en banebrytende RCT). Markedsstatusen i Norge er imidlertid «kun kansellert», så tilgjengelighet må avklares.
+Hepatitt B er allerede en godkjent indikasjon, og evidensen er omfattende (fase 3- og fase 4-studier samt en banebrytende RCT).
+
+<!-- review:begin no-lic-20261124b-peginterferon_alfa-2a-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Markedsstatusen i Norge er imidlertid «kun kansellert», så tilgjengelighet må avklares.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-peginterferon_alfa-2a-1 -->
 
 **For å gå videre kreves:**
-- Verifisere tilgjengelighet og regulatorisk status (godkjenningen er kansellert)
+- Verifisere tilgjengelighet og regulatorisk status
 - Hente inn preparatomtale med advarsler og kontraindikasjoner
 - Hente inn data om virkningsmekanisme
 - Pasientutvelgelse (HBeAg-status, HBV-DNA, ALT, genotype) og stoppregler under behandling (PMID 30865588)
 - Overvåkingsplan for interferonrelaterte bivirkninger
+
+<!-- review:begin no-lic-20261124b-peginterferon_alfa-2a-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Verifisere tilgjengelighet og regulatorisk status (godkjenningen er kansellert)» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-peginterferon_alfa-2a-2 -->
 
 ---
 
@@ -164,6 +176,19 @@ Hepatitt B er allerede en godkjent indikasjon, og evidensen er omfattende (fase 
 | Hjertesvulst | 0,9937 | L5 | Hold |
 | Hjerteklaffsykdom | 0,9936 | L5 | Hold |
 | Medfødt ventrikkelseptumdefekt | 0,9923 | L5 | Hold |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Fjernet: «Markedsstatusen i Norge er imidlertid «kun kansellert», så tilgjengelighet må avklares.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Verifisere tilgjengelighet og regulatorisk status (godkjenningen er kansellert)» → «Verifisere tilgjengelighet og regulatorisk status» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

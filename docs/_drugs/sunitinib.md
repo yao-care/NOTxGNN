@@ -101,7 +101,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Begge godkjenningene har status «kansellert».
+<!-- review:begin no-lic-20261124b-sunitinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Begge godkjenningene har status «kansellert».» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sunitinib-1 -->
 
 ---
 
@@ -149,7 +153,13 @@ Kombinasjon med QT-forlengende legemidler (f.eks. dolasetron) krever særlig opp
 - Gjennomgå resultatene fra NCT00474994 og NCT00400569 spesifikt for liposarkom-subgruppen (responsrate, progresjonsfri overlevelse)
 - Avklare hvilke liposarkomsubtyper (veldifferensiert/dedifferensiert, myksoid, pleomorf) som kan ha nytte
 - Vurdere hjerte- og leversikkerhet gitt signalene i kunnskapsgrafen, samt en plan for interaksjonsovervåking
-- Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert
+- Avklare tilgjengelighet og regulatorisk status i Norge
+
+<!-- review:begin no-lic-20261124b-sunitinib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-sunitinib-2 -->
 
 ---
 
@@ -166,11 +176,13 @@ Blant de øvrige topp 10-prediksjonene er følgende mest interessante:
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+| 2026-11-24 | Fjernet: «Begge godkjenningene har status «kansellert».» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert» → «Avklare tilgjengelighet og regulatorisk status i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

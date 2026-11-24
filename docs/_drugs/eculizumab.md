@@ -111,24 +111,38 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller sykdomsspesifikk litteratur, og det finnes ingen plausibel mekanistisk kobling mellom C5-hemming og syklisk nøytropeni. I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget kansellert, og infeksjonsrisikoen ved komplementhemming er en bekymring hos nøytropene pasienter.
+Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller sykdomsspesifikk litteratur, og det finnes ingen plausibel mekanistisk kobling mellom C5-hemming og syklisk nøytropeni. I tillegg er infeksjonsrisikoen ved komplementhemming en bekymring hos nøytropene pasienter.
+
+<!-- review:begin no-lic-20261124b-eculizumab-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget kansellert, og infeksjonsrisikoen ved komplementhemming er en bekymring hos nøytropene pasienter.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-eculizumab-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner fra DMP (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske studier som viser en komplementrolle ved syklisk nøytropeni
-- Avklaring av gjeldende markedsstatus i Norge, siden alle godkjenninger er registrert som kansellert
+- Avklaring av gjeldende markedsstatus i Norge
 - Vurdering av andre kandidatindikasjoner med sterkere komplementrelatert begrunnelse
+
+<!-- review:begin no-lic-20261124b-eculizumab-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av gjeldende markedsstatus i Norge, siden alle godkjenninger er registrert som kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-eculizumab-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
+| 2026-11-24 | Rettet: «I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget kansellert, og infeksjonsrisikoen ved komplementhemming er en bekymring hos nøytropene pasienter.» → «I tillegg er infeksjonsrisikoen ved komplementhemming en bekymring hos nøytropene pasienter.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av gjeldende markedsstatus i Norge, siden alle godkjenninger er registrert som kansellert» → «Avklaring av gjeldende markedsstatus i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

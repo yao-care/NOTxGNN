@@ -56,7 +56,13 @@ Støtten er begrenset til **11 publikasjoner** (hovedsakelig dyre- og in vitro-s
 | Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 
-Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), og alle fem er kansellert.
+Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...).
+
+<!-- review:begin no-lic-20261124b-ritonavir-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), og alle fem er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ritonavir-1 -->
 
 ---
 
@@ -113,7 +119,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Alle fem godkjenninger har status kansellert.
+<!-- review:begin no-lic-20261124b-ritonavir-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Alle fem godkjenninger har status kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ritonavir-2 -->
 
 ---
 
@@ -140,23 +150,39 @@ Interaksjonsmønsteret er forenlig med ritonavirs kraftige CYP3A4-hemming.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-SIV er en dyremodell for HIV, og den foreslåtte indikasjonen er i praksis en gjentakelse av den eksisterende HIV-indikasjonen, uten kliniske studier. Evidensen er preklinisk (L4), alle norske/europeiske godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+SIV er en dyremodell for HIV, og den foreslåtte indikasjonen er i praksis en gjentakelse av den eksisterende HIV-indikasjonen, uten kliniske studier. Evidensen er preklinisk (L4), og sikkerhetsdata fra preparatomtalen mangler.
+
+<!-- review:begin no-lic-20261124b-ritonavir-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Evidensen er preklinisk (L4), alle norske/europeiske godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ritonavir-3 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme fra DrugBank
 - Avklaring av om en slik prediksjon har noen reell terapeutisk verdi utover den eksisterende HIV-indikasjonen (f.eks. som forskningsmodell)
-- Avklaring av årsaken til at alle godkjenninger er kansellert og av gjeldende regulatorisk status
+- Avklaring av gjeldende regulatorisk status
+
+<!-- review:begin no-lic-20261124b-ritonavir-4 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av årsaken til at alle godkjenninger er kansellert og av gjeldende regulatorisk status» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ritonavir-4 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+| 2026-11-24 | Rettet: «Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), og alle fem er kansellert.» → «Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...).» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Alle fem godkjenninger har status kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Evidensen er preklinisk (L4), alle norske/europeiske godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «Evidensen er preklinisk (L4), og sikkerhetsdata fra preparatomtalen mangler.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av årsaken til at alle godkjenninger er kansellert og av gjeldende regulatorisk status» → «Avklaring av gjeldende regulatorisk status» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

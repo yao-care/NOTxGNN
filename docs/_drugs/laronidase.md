@@ -110,13 +110,24 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget/preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den predikerte indikasjonen overlapper i stor grad med den allerede godkjente MPS I-indikasjonen og representerer ikke en reell ny bruk. Evidensen er på nivå L4 uten registrerte kliniske studier, og skjelettnytten av intravenøs behandling forventes å være begrenset. Den eneste norske godkjenningen er kansellert.
+Den predikerte indikasjonen overlapper i stor grad med den allerede godkjente MPS I-indikasjonen og representerer ikke en reell ny bruk. Evidensen er på nivå L4 uten registrerte kliniske studier, og skjelettnytten av intravenøs behandling forventes å være begrenset.
+
+<!-- review:begin no-lic-20261124b-laronidase-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Den eneste norske godkjenningen er kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-laronidase-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
 - Advarsler og kontraindikasjoner fra preparatomtalen
-- Avklaring av hvorfor godkjenningen i Norge er kansellert
 - Data på skjelettutfall (f.eks. leddbevegelighet, røntgen) ved ERT for å vurdere reell tilleggsverdi
+
+<!-- review:begin no-lic-20261124b-laronidase-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av hvorfor godkjenningen i Norge er kansellert» Fjernet: oppfølgingspunktet bygde på at godkjenningen(e) er kansellert, noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-laronidase-2 -->
 
 ---
 
@@ -143,11 +154,13 @@ All litteratur gjelder MPS I og er indirekte evidens for Sanfilippo syndrom.
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+| 2026-11-24 | Fjernet: «Den eneste norske godkjenningen er kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Avklaring av hvorfor godkjenningen i Norge er kansellert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

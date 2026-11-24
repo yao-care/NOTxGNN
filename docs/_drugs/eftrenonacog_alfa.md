@@ -100,24 +100,38 @@ Se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon. Data om advars
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og den mekanistiske sammenhengen er svak fordi defekten ligger i samspillet mellom trombocytter og VWF, ikke i faktor IX. I tillegg er den eneste godkjenningen i Norge kansellert.
+Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og den mekanistiske sammenhengen er svak fordi defekten ligger i samspillet mellom trombocytter og VWF, ikke i faktor IX.
+
+<!-- review:begin no-lic-20261124b-eftrenonacog_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste godkjenningen i Norge kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-eftrenonacog_alfa-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen
 - Prekliniske eller mekanistiske data som viser et biologisk grunnlag for faktor IX ved trombocyttrelaterte blødningssykdommer
-- Avklaring av markedsstatus og tilgjengelighet i Norge, siden godkjenningen er kansellert
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 - Sammenligning med etablerte alternativer, som rekombinant faktor VIIa ved Glanzmanns trombasteni
+
+<!-- review:begin no-lic-20261124b-eftrenonacog_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden godkjenningen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-eftrenonacog_alfa-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
+| 2026-11-24 | Fjernet: «I tillegg er den eneste godkjenningen i Norge kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden godkjenningen er kansellert» → «Avklaring av markedsstatus og tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

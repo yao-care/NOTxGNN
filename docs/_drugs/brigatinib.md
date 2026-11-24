@@ -98,7 +98,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Den eneste tillatelsen er registrert som kansellert (produsent: Takeda Pharma A/S).
+<!-- review:begin no-lic-20261124b-brigatinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Den eneste tillatelsen er registrert som kansellert (produsent: Takeda Pharma A/S).» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-brigatinib-1 -->
 
 ---
 
@@ -133,7 +137,13 @@ Se pakningsvedlegget for fullstendig informasjon om advarsler og kontraindikasjo
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for gingival fibromatose er utelukkende modellbasert (evidensnivå L5), uten kliniske studier, litteratur eller en dokumentert mekanistisk sammenheng. I tillegg er den eneste norske tillatelsen kansellert.
+Prediksjonen for gingival fibromatose er utelukkende modellbasert (evidensnivå L5), uten kliniske studier, litteratur eller en dokumentert mekanistisk sammenheng.
+
+<!-- review:begin no-lic-20261124b-brigatinib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske tillatelsen kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-brigatinib-2 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
@@ -141,6 +151,20 @@ Prediksjonen for gingival fibromatose er utelukkende modellbasert (evidensnivå 
 - Prekliniske studier som kan teste en mekanistisk hypotese for gingival fibromatose
 - Avklaring av rutekompatibilitet og administrasjonsvei
 - Vurdering av om andre rangerte kandidater med indirekte støtte (for eksempel NF2-relatert schwannomatose) bør undersøkes som egne forskningsspørsmål
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Fjernet: «Den eneste tillatelsen er registrert som kansellert (produsent: Takeda Pharma A/S).» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «I tillegg er den eneste norske tillatelsen kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -54,8 +54,13 @@ men støtten er foreløpig begrenset til **0 kliniske studier** og **3 publikasj
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
 | Antall godkjenninger | 6 (gyldige: 6) |
-| Antall tillatelser | 6 (alle kansellert) |
 | Anbefalt beslutning | Hold |
+
+<!-- review:begin no-lic-20261124b-rivastigmine-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall tillatelser / 6 (alle kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-rivastigmine-1 -->
 
 ---
 
@@ -96,7 +101,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-En sjette tillatelse (EMEA/H/C/001183, Rivastigmine Sandoz) er også kansellert.
+<!-- review:begin no-lic-20261124b-rivastigmine-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «En sjette tillatelse (EMEA/H/C/001183, Rivastigmine Sandoz) er også kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-rivastigmine-2 -->
 
 ---
 
@@ -119,7 +128,13 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtale er ikke tilgje
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen er begrenset til én kaninstudie og to oversiktsarbeider, uten kliniske studier eller humane data. Alle norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtale mangler, så prediksjonen kan ikke gå videre til sikkerhetsscreening.
+Evidensen er begrenset til én kaninstudie og to oversiktsarbeider, uten kliniske studier eller humane data. Sikkerhetsdata fra preparatomtale mangler, så prediksjonen kan ikke gå videre til sikkerhetsscreening.
+
+<!-- review:begin no-lic-20261124b-rivastigmine-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Alle norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtale mangler, så prediksjonen kan ikke gå videre til sikkerhetsscreening.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-rivastigmine-3 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
@@ -131,11 +146,14 @@ Evidensen er begrenset til én kaninstudie og to oversiktsarbeider, uten klinisk
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+| 2026-11-24 | Fjernet: «&#124; Antall tillatelser &#124; 6 (alle kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «En sjette tillatelse (EMEA/H/C/001183, Rivastigmine Sandoz) er også kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Alle norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtale mangler, så prediksjonen kan ikke gå videre til sikkerhetsscreening.» → «Sikkerhetsdata fra preparatomtale mangler, så prediksjonen kan ikke gå videre til sikkerhetsscreening.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

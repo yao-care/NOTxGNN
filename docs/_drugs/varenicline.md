@@ -122,24 +122,38 @@ Utfyllende advarsler og kontraindikasjoner i preparatomtalen må gjennomgås fø
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen for migrene bygger utelukkende på en beregningsbasert modell (evidensnivå L5), uten kliniske studier og uten litteratur som støtter terapeutisk effekt. Hodepine er dessuten en kjent bivirkning av vareniklin, og markedsføringstillatelsen i Norge er kansellert. Kunnskapsgrafen peker i tillegg på flere psykiatriske og kardiovaskulære kontraindikasjoner.
+Prediksjonen for migrene bygger utelukkende på en beregningsbasert modell (evidensnivå L5), uten kliniske studier og uten litteratur som støtter terapeutisk effekt. Hodepine er dessuten en kjent bivirkning av vareniklin. Kunnskapsgrafen peker i tillegg på flere psykiatriske og kardiovaskulære kontraindikasjoner.
+
+<!-- review:begin no-lic-20261124b-varenicline-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Hodepine er dessuten en kjent bivirkning av vareniklin, og markedsføringstillatelsen i Norge er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-varenicline-1 -->
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner) må innhentes. Dette er en blokkerende datamangel for sikkerhetsscreening.
 - Data om virkningsmekanisme (MOA) må hentes fra DrugBank.
 - Prekliniske studier som undersøker nikotinerg modulering i migrenemodeller (trigeminovaskulære veier, «cortical spreading depression»).
 - En vurdering av om hodepine som bivirkning er forenlig med en migrenebehandling.
-- En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge er kansellert.
+- En avklaring av regulatorisk status og tilgjengelige administrasjonsveier.
+
+<!-- review:begin no-lic-20261124b-varenicline-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge er kansellert.» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-varenicline-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+| 2026-11-24 | Rettet: «Hodepine er dessuten en kjent bivirkning av vareniklin, og markedsføringstillatelsen i Norge er kansellert.» → «Hodepine er dessuten en kjent bivirkning av vareniklin.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge er kansellert.» → «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

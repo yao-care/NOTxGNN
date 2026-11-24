@@ -131,7 +131,13 @@ Alle predikerte indikasjoner har kun modellbasert støtte (L5), uten kliniske st
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Verifisering av uklare sykdomsenheter (f.eks. «flood factor deficiency»)
 - Nærmere vurdering av «ervervet koagulasjonsfaktormangel» som den mest plausible kandidaten, inkludert betydningen av inhibitorer
-- Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige administrasjonsveier
+- Avklaring av forholdet til gjeldende markedsstatus og tilgjengelige administrasjonsveier
+
+<!-- review:begin no-lic-20261124b-turoctocog_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige administrasjonsveier» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-turoctocog_alfa-1 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +149,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
+| 2026-11-24 | Rettet: «Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige administrasjonsveier» → «Avklaring av forholdet til gjeldende markedsstatus og tilgjengelige administrasjonsveier» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

@@ -131,7 +131,26 @@ Prediksjonen for hjerneslag kommer fra TxGNN-modellen (deep learning) og kan gje
 - Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner), som er et blokkerende datagap
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Studier eller registerdata som undersøker slagforekomst etter vernakalant-kardioversjon
-- Avklaring av hvorfor godkjenningen ble kansellert, og om legemidlet i praksis er tilgjengelig i Norge
+- Avklaring av om legemidlet i praksis er tilgjengelig i Norge
+
+<!-- review:begin no-lic-20261124b-vernakalant-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av hvorfor godkjenningen ble kansellert, og om legemidlet i praksis er tilgjengelig i Norge» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-vernakalant-1 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Rettet: «Avklaring av hvorfor godkjenningen ble kansellert, og om legemidlet i praksis er tilgjengelig i Norge» → «Avklaring av om legemidlet i praksis er tilgjengelig i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

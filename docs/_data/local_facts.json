@@ -21,11 +21,11 @@
   "items_current": 943
  },
  "reviews": {
-  "records": 609,
-  "pages": 410,
-  "public_pages_with_records": 409,
+  "records": 765,
+  "pages": 418,
+  "public_pages_with_records": 417,
   "by_action": {
-   "correct": 220,
+   "correct": 376,
    "mechanism": 389
   }
  },
@@ -85,7 +85,7 @@
    "l": "L2",
    "lt": 13,
    "lv": 12,
-   "r": 1,
+   "r": 2,
    "i": "Dermatitt"
   },
   {
@@ -103,7 +103,7 @@
    "l": "L5",
    "lt": 11,
    "lv": 11,
-   "r": 1,
+   "r": 3,
    "i": "severe nonproliferative diabetic retinopathy"
   }
  ],
@@ -157,6 +157,15 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Natalizumab",
+   "u": "/drugs/natalizumab/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 5,
+   "i": "bronchitis"
+  },
+  {
    "t": "Panitumumab",
    "u": "/drugs/panitumumab/",
    "l": "L5",
@@ -164,6 +173,24 @@
    "lv": 1,
    "r": 5,
    "i": "drug-induced osteoporosis"
+  },
+  {
+   "t": "Ritonavir",
+   "u": "/drugs/ritonavir/",
+   "l": "L5",
+   "lt": 5,
+   "lv": 5,
+   "r": 5,
+   "i": "feline acquired immunodeficiency syndrome"
+  },
+  {
+   "t": "Alectinib",
+   "u": "/drugs/alectinib/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "fibromatosis, gingival"
   },
   {
    "t": "Asfotase Alfa",
@@ -175,40 +202,13 @@
    "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
   },
   {
-   "t": "Eptifibatide",
-   "u": "/drugs/eptifibatide/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 1,
+   "t": "Buprenorphine",
+   "u": "/drugs/buprenorphine/",
+   "l": "L4",
+   "lt": 4,
+   "lv": 3,
    "r": 4,
-   "i": "rheumatoid arthritis"
-  },
-  {
-   "t": "Inclisiran",
-   "u": "/drugs/inclisiran/",
-   "l": "L5",
-   "lt": 1,
-   "lv": 1,
-   "r": 4,
-   "i": "Kaliummangelsykdom"
-  },
-  {
-   "t": "Pitolisant",
-   "u": "/drugs/pitolisant/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 2,
-   "r": 4,
-   "i": "insomnia (disease)"
-  },
-  {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "l": "L5",
-   "lt": 3,
-   "lv": 2,
-   "r": 4,
-   "i": "duodenal ulcer (disease)"
+   "i": "acute intermittent porphyria"
   }
  ],
  "example": {
@@ -217,203 +217,203 @@
   "l": "L1",
   "lt": 5,
   "lv": 5,
-  "r": 1,
+  "r": 2,
   "i": "Seboreisk dermatitt"
  },
  "recent_reviews": [
   {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Fjernet: «De to siste er Icandra … og Vildagliptin / Metformin hydrochloride Accord …»",
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Rettet: «Avklaring av regulatorisk vei, siden begge godkjenningene er kansellert.» → «Avklaring av…",
    "d": "2026-11-24"
   },
   {
-   "t": "Rilpivirine",
-   "u": "/drugs/rilpivirine/",
-   "s": "Fjernet: «Ytterligere én kansellert godkjenning (…EMEA/H/C/006491) er ikke vist i tabellen»",
+   "t": "Zanamivir",
+   "u": "/drugs/zanamivir/",
+   "s": "Fjernet: «I tillegg er den eneste norske/europeiske godkjenningen kansellert.»",
    "d": "2026-11-24"
   },
   {
-   "t": "Formoterol",
-   "u": "/drugs/formoterol/",
-   "s": "Rettet: «Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter» → alle gjelder…",
+   "t": "Vernakalant",
+   "u": "/drugs/vernakalant/",
+   "s": "Rettet: «Avklaring av hvorfor godkjenningen ble kansellert, og om legemidlet i praksis er tilgjengelig i…",
    "d": "2026-11-24"
   },
   {
-   "t": "Verteporfin",
-   "u": "/drugs/verteporfin/",
-   "s": "Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt»",
-   "d": "2026-11-12"
+   "t": "Velpatasvir",
+   "u": "/drugs/velpatasvir/",
+   "s": "Rettet: «Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.» → «Avklaring av…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tobramycin",
-   "u": "/drugs/tobramycin/",
-   "s": "Fjernet: «Begge norske godkjenninger er avsluttet»",
-   "d": "2026-11-12"
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "Rettet: «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tasimelteon",
-   "u": "/drugs/tasimelteon/",
-   "s": "Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt»",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Roxadustat",
-   "u": "/drugs/roxadustat/",
-   "s": "Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket»",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Ranibizumab",
-   "u": "/drugs/ranibizumab/",
-   "s": "Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt»",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Cetrorelix",
-   "u": "/drugs/cetrorelix/",
-   "s": "Fjernet: «og legemidlets markedsstatus i Norge er «kun trukket tilbake»»",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Buprenorphine",
-   "u": "/drugs/buprenorphine/",
-   "s": "Fjernet: «med 4 gyldige markedsføringstillatelser av 4»",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Fjernet: «De to registrerte tillatelsene er trukket tilbake»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Ziconotide",
-   "u": "/drugs/ziconotide/",
-   "s": "Fjernet: «siden eneste tillatelse er avregistrert»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Zanubrutinib",
-   "u": "/drugs/zanubrutinib/",
-   "s": "Fjernet: «siden eksisterende autorisasjon er opphevet»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Voxilaprevir",
-   "u": "/drugs/voxilaprevir/",
-   "s": "Fjernet: «siden eneste tillatelse er avregistrert»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "Fjernet: «siden den eneste tillatelsen er avregistrert»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vestronidase Alfa",
-   "u": "/drugs/vestronidase-alfa/",
-   "s": "Fjernet: «siden godkjenningen er avregistrert»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Valsartan",
-   "u": "/drugs/valsartan/",
-   "s": "Fjernet: «I tillegg er alle norske/europeiske godkjenninger opphevet, og v»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Upadacitinib",
-   "u": "/drugs/upadacitinib/",
-   "s": "Fjernet: «I tillegg er den eneste norske godkjenningen avregistrert»",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Fjernet: «Tillatelsen er avregistrert»",
-   "d": "2026-11-06"
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "s": "Rettet: «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske…",
+   "d": "2026-11-24"
   },
   {
    "t": "Turoctocog Alfa",
    "u": "/drugs/turoctocog-alfa/",
-   "s": "Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge»",
-   "d": "2026-11-06"
+   "s": "Rettet: «Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tryptophan",
-   "u": "/drugs/tryptophan/",
-   "s": "Fjernet: «Denne godkjenningen er avregistrert (status: cancelled)»",
-   "d": "2026-11-06"
+   "t": "Treprostinil",
+   "u": "/drugs/treprostinil/",
+   "s": "Rettet: «Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier» →…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Fjernet: «siden de norske godkjenningene er avregistrert»",
-   "d": "2026-11-06"
+   "t": "Trametinib",
+   "u": "/drugs/trametinib/",
+   "s": "Rettet: «Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er kansellert» → «Avklaring av…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Trastuzumab Deruxtecan",
-   "u": "/drugs/trastuzumab-deruxtecan/",
-   "s": "Fjernet: «siden tillatelsen er avregistrert»",
-   "d": "2026-11-06"
+   "t": "Trabectedin",
+   "u": "/drugs/trabectedin/",
+   "s": "Rettet: «Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Trastuzumab",
-   "u": "/drugs/trastuzumab/",
-   "s": "Fjernet: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt)»",
-   "d": "2026-11-06"
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Rettet: «Avklaring av tilgjengelighet i Norge, siden alle tillatelser er kansellert» → «Avklaring av…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tolvaptan",
+   "u": "/drugs/tolvaptan/",
+   "s": "Rettet: «Avklaring av markedssituasjonen i Norge, siden alle tre godkjenninger er kansellert» → «Avklaring av…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tivozanib",
+   "u": "/drugs/tivozanib/",
+   "s": "Rettet: «Avklaring av markedsstatus i Norge, siden godkjenningen er kansellert» → «Avklaring av markedsstatus…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tildrakizumab",
+   "u": "/drugs/tildrakizumab/",
+   "s": "Rettet: «Den mekanistiske koblingen er spekulativ, og legemidlet har dessuten kun en kansellert godkjenning i…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ticagrelor",
+   "u": "/drugs/ticagrelor/",
+   "s": "Rettet: «Avklaring av regulatorisk status, siden den norske godkjenningen er kansellert» → «Avklaring av…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Thyrotropin Alfa",
+   "u": "/drugs/thyrotropin-alfa/",
+   "s": "Rettet: «Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet» →…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Threonine",
+   "u": "/drugs/threonine/",
+   "s": "Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Fjernet: «I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget registrert som kansellert.»",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tagraxofusp",
+   "u": "/drugs/tagraxofusp/",
+   "s": "Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og legemidlets kjente toksisitet gir en…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "Rettet: «Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse, og…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sunitinib",
+   "u": "/drugs/sunitinib/",
+   "s": "Rettet: «Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert» →…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Spironolactone",
+   "u": "/drugs/spironolactone/",
+   "s": "Rettet: «Sykdommen er en sjelden genetisk tilstand som ikke primært er androgendrevet, og den eneste…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sotatercept",
+   "u": "/drugs/sotatercept/",
+   "s": "Fjernet: «Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge»",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sodium Oxybate",
+   "u": "/drugs/sodium-oxybate/",
+   "s": "Rettet: «Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert» → «Avklare regulatorisk…",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Fjernet: «De to siste er Icandra … og Vildagliptin / Metformin hydrochloride Accord …»",
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Rettet: «Avklaring av regulatorisk vei, siden begge godkjenningene er kansellert.» → «Avklaring av…",
    "d": "2026-11-24"
   },
   {
-   "t": "Rilpivirine",
-   "u": "/drugs/rilpivirine/",
-   "s": "Fjernet: «Ytterligere én kansellert godkjenning (…EMEA/H/C/006491) er ikke vist i tabellen»",
+   "t": "Zanamivir",
+   "u": "/drugs/zanamivir/",
+   "s": "Fjernet: «I tillegg er den eneste norske/europeiske godkjenningen kansellert.»",
    "d": "2026-11-24"
   },
   {
-   "t": "Formoterol",
-   "u": "/drugs/formoterol/",
-   "s": "Rettet: «Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter» → alle gjelder…",
+   "t": "Vernakalant",
+   "u": "/drugs/vernakalant/",
+   "s": "Rettet: «Avklaring av hvorfor godkjenningen ble kansellert, og om legemidlet i praksis er tilgjengelig i…",
    "d": "2026-11-24"
   },
   {
-   "t": "Verteporfin",
-   "u": "/drugs/verteporfin/",
-   "s": "Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt»",
-   "d": "2026-11-12"
+   "t": "Velpatasvir",
+   "u": "/drugs/velpatasvir/",
+   "s": "Rettet: «Avklaring av markedsstatus i Norge etter kansellering av autorisasjonene.» → «Avklaring av…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tobramycin",
-   "u": "/drugs/tobramycin/",
-   "s": "Fjernet: «Begge norske godkjenninger er avsluttet»",
-   "d": "2026-11-12"
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "Rettet: «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tasimelteon",
-   "u": "/drugs/tasimelteon/",
-   "s": "Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt»",
-   "d": "2026-11-12"
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "s": "Rettet: «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Roxadustat",
-   "u": "/drugs/roxadustat/",
-   "s": "Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket»",
-   "d": "2026-11-12"
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "Rettet: «Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ranibizumab",
-   "u": "/drugs/ranibizumab/",
-   "s": "Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt»",
-   "d": "2026-11-12"
+   "t": "Treprostinil",
+   "u": "/drugs/treprostinil/",
+   "s": "Rettet: «Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier» →…",
+   "d": "2026-11-24"
   }
  ],
  "files": {

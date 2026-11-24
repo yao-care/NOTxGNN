@@ -86,8 +86,6 @@ Merk: Den samme litteraturen er koblet til både «atopic eczema» og «dermatit
 
 ## Markedsinformasjon for Norge
 
-Alle godkjenninger i de innsamlede dataene er kansellert.
-
 <!-- licenses:begin -->
 
 | Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
@@ -101,6 +99,12 @@ Alle godkjenninger i de innsamlede dataene er kansellert.
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
 <!-- licenses:end -->
+
+<!-- review:begin no-lic-20261124b-fluticasone_furoate-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Alle godkjenninger i de innsamlede dataene er kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-fluticasone_furoate-1 -->
 
 ---
 
@@ -138,25 +142,40 @@ Litteraturen peker også på risiko for binyrebarksuppresjon (HPA-aksen) ved kor
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for atopisk eksem bygger kun på modellscore (L5). Det finnes ingen kliniske studier eller litteratur med effektdata, legemidlet er ikke tilgjengelig i dermatologisk formulering, og alle godkjenninger i Norge er kansellert. Bronkitt har noe indirekte støtte (L4), men via allerede godkjente indikasjoner.
+Prediksjonen for atopisk eksem bygger kun på modellscore (L5). Det finnes ingen kliniske studier eller litteratur med effektdata, og legemidlet er ikke tilgjengelig i dermatologisk formulering. Bronkitt har noe indirekte støtte (L4), men via allerede godkjente indikasjoner.
+
+<!-- review:begin no-lic-20261124b-fluticasone_furoate-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Det finnes ingen kliniske studier eller litteratur med effektdata, legemidlet er ikke tilgjengelig i dermatologisk formulering, og alle godkjenninger i Norge er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-fluticasone_furoate-2 -->
 
 **For å gå videre trengs følgende:**
 - Informasjon fra preparatomtale om advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Prekliniske eller kliniske data for flutikasonfuroat ved atopisk eksem, inkludert vurdering av en topikal formulering
 - Vurdering av formuleringsmuligheter og administrasjonsvei, siden dagens produkter er inhalasjon/nesespray
-- Avklaring av regulatorisk status i Norge, siden alle godkjenninger er kansellert
+- Avklaring av regulatorisk status i Norge
 - Vurdering av risiko for systemisk eksponering og binyrebarksuppresjon
+
+<!-- review:begin no-lic-20261124b-fluticasone_furoate-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av regulatorisk status i Norge, siden alle godkjenninger er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-fluticasone_furoate-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
+| 2026-11-24 | Fjernet: «Alle godkjenninger i de innsamlede dataene er kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Det finnes ingen kliniske studier eller litteratur med effektdata, legemidlet er ikke tilgjengelig i dermatologisk formulering, og alle godkjenninger i Norge er kansellert.» → «Det finnes ingen kliniske studier eller litteratur med effektdata, og legemidlet er ikke tilgjengelig i dermatologisk formulering.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av regulatorisk status i Norge, siden alle godkjenninger er kansellert» → «Avklaring av regulatorisk status i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

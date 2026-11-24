@@ -84,7 +84,13 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Alle 11 godkjenninger er kansellert. Doseringsform er ikke oppgitt i dataene.
+Doseringsform er ikke oppgitt i dataene.
+
+<!-- review:begin no-lic-20261124b-pegfilgrastim-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Alle 11 godkjenninger er kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-pegfilgrastim-1 -->
 
 <!-- licenses:begin -->
 
@@ -135,7 +141,13 @@ Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen støttes kun av en høy TxGNN-score (evidensnivå L5). Det finnes ingen kliniske studier, ingen litteratur og ingen MOA-data. Retningen på en eventuell effekt er usikker og kan være skadelig. Dessuten er alle europeiske godkjenninger i dataene kansellert.
+Prediksjonen støttes kun av en høy TxGNN-score (evidensnivå L5). Det finnes ingen kliniske studier, ingen litteratur og ingen MOA-data. Retningen på en eventuell effekt er usikker og kan være skadelig.
+
+<!-- review:begin no-lic-20261124b-pegfilgrastim-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Dessuten er alle europeiske godkjenninger i dataene kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-pegfilgrastim-2 -->
 
 **For å gå videre kreves følgende:**
 - Hente inn data om virkningsmekanisme (MOA), f.eks. fra DrugBank
@@ -148,11 +160,13 @@ Prediksjonen støttes kun av en høy TxGNN-score (evidensnivå L5). Det finnes i
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
+| 2026-11-24 | Fjernet: «Alle 11 godkjenninger er kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Dessuten er alle europeiske godkjenninger i dataene kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

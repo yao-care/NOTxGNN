@@ -54,8 +54,13 @@ Foreløpig støttes retningen av **45 kliniske studier** og **20 publikasjoner**
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
 | Antall godkjenninger | 4 (gyldige: 4) |
-| Antall tillatelser | 4 (alle kansellert) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
+
+<!-- review:begin no-lic-20261124b-paclitaxel-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall tillatelser / 4 (alle kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-paclitaxel-1 -->
 
 ---
 
@@ -153,14 +158,25 @@ Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i de i
 **Beslutning: Proceed with Guardrails (fortsett med sikkerhetstiltak)**
 
 **Begrunnelse:**
-Brystkreft er en etablert, godkjent indikasjon for paklitaksel, og flere fase 2- og fase 3-studier i de innsamlede dataene støtter bruken, selv om de fleste er kombinasjonsregimer. Siden alle fire tillatelser i Norge er kansellert og sikkerhetsdata fra preparatomtalen mangler, må bruken ledsages av sikkerhetstiltak.
+Brystkreft er en etablert, godkjent indikasjon for paklitaksel, og flere fase 2- og fase 3-studier i de innsamlede dataene støtter bruken, selv om de fleste er kombinasjonsregimer. Siden sikkerhetsdata fra preparatomtalen mangler, må bruken ledsages av sikkerhetstiltak.
+
+<!-- review:begin no-lic-20261124b-paclitaxel-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Siden alle fire tillatelser i Norge er kansellert og sikkerhetsdata fra preparatomtalen mangler, må bruken ledsages av sikkerhetstiltak.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-paclitaxel-2 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Hente detaljerte data om virkningsmekanisme fra DrugBank
-- Avklare hvorfor norske tillatelser er kansellert, og om et alternativt preparat er tilgjengelig
 - Plan for overvåking av blodstatus, nevropati og legemiddelinteraksjoner
 - Evaluere fase 3-evidens der paklitaksel er den testede komponenten, ikke bare en del av regimet
+
+<!-- review:begin no-lic-20261124b-paclitaxel-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare hvorfor norske tillatelser er kansellert, og om et alternativt preparat er tilgjengelig» Fjernet: oppfølgingspunktet bygde på at godkjenningen(e) er kansellert, noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-paclitaxel-3 -->
 
 **Merknad om øvrige predikerte indikasjoner:** ER-negativ og ER-positiv brystkreft støttes av fase 2/3-kombinasjonsstudier (anbefaling: fortsett med sikkerhetstiltak). Hormonresistent brystkarsinom og genekspresjonsdefinert brystkarsinom er kun forskningsspørsmål. Ehrlich-tumor, bilateralt brystkarsinom, brystvortekarsinom og de to rabdomyosarkom-indikasjonene anbefales satt på vent (Hold), siden evidensen er prekliniske data, kasuistikker eller kun modellprediksjon.
 
@@ -168,11 +184,14 @@ Brystkreft er en etablert, godkjent indikasjon for paklitaksel, og flere fase 2-
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+| 2026-11-24 | Fjernet: «&#124; Antall tillatelser &#124; 4 (alle kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Siden alle fire tillatelser i Norge er kansellert og sikkerhetsdata fra preparatomtalen mangler, må bruken ledsages av sikkerhetstiltak.» → «Siden sikkerhetsdata fra preparatomtalen mangler, må bruken ledsages av sikkerhetstiltak.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Avklare hvorfor norske tillatelser er kansellert, og om et alternativt preparat er tilgjengelig» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

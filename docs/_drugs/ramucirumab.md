@@ -82,7 +82,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Godkjenningen er registrert som kansellert (produsent: Eli Lilly Nederland B.V.).
+<!-- review:begin no-lic-20261124b-ramucirumab-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Godkjenningen er registrert som kansellert (produsent: Eli Lilly Nederland B.V.).» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ramucirumab-1 -->
 
 ## Cytotoksisitet
 
@@ -109,24 +113,39 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på TxGNN-score (evidensnivå L5), uten kliniske studier eller litteratur. Markedsgodkjenningen i Norge er kansellert, og mekanismedata og preparatomtale mangler.
+Prediksjonen bygger kun på TxGNN-score (evidensnivå L5), uten kliniske studier eller litteratur. Mekanismedata og preparatomtale mangler.
+
+<!-- review:begin no-lic-20261124b-ramucirumab-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Markedsgodkjenningen i Norge er kansellert, og mekanismedata og preparatomtale mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ramucirumab-2 -->
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsvurdering)
 - Supplere data om virkningsmekanisme (MOA) fra DrugBank
 - Gjennomføre litteratur- og studiesøk spesifikt for ramucirumab ved gynekologiske adenokarsinomer
-- Avklare årsaken til at godkjenningen i Norge er kansellert og om tilgang er mulig
+- Avklare om tilgang er mulig
 - Vurdere prekliniske data eller en tidlig klinisk studie dersom prediksjonen skal følges opp
+
+<!-- review:begin no-lic-20261124b-ramucirumab-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare årsaken til at godkjenningen i Norge er kansellert og om tilgang er mulig» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ramucirumab-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
+| 2026-11-24 | Fjernet: «Godkjenningen er registrert som kansellert (produsent: Eli Lilly Nederland B.V.).» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Markedsgodkjenningen i Norge er kansellert, og mekanismedata og preparatomtale mangler.» → «Mekanismedata og preparatomtale mangler.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklare årsaken til at godkjenningen i Norge er kansellert og om tilgang er mulig» → «Avklare om tilgang er mulig» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

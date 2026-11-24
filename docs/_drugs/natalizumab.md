@@ -52,8 +52,13 @@ Natalizumab er et monoklonalt antistoff som opprinnelig brukes til behandling av
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Antall tillatelser | 2 (begge trukket tilbake/kansellert) |
 | Anbefalt beslutning | Hold (avvent) |
+
+<!-- review:begin no-lic-20261124b-natalizumab-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall tillatelser / 2 (begge trukket tilbake/kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-natalizumab-1 -->
 
 **Merknad:** Den høyest rangerte prediksjonen er bronkitt (score 0,9946, evidensnivå L5, ingen studier eller litteratur). Psoriasis er valgt som hovedfokus her fordi den har mest tilgjengelig litteratur. Øvrige prediksjoner (bronkitt, parapsoriasis, alvorlig ikke-proliferativ diabetisk retinopati og akutt lichenoid pityriasis) har ingen støtte fra kliniske studier og er kort omtalt under konklusjonen.
 
@@ -107,7 +112,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Begge tillatelsene har status «kansellert».
+<!-- review:begin no-lic-20261124b-natalizumab-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Begge tillatelsene har status «kansellert».» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-natalizumab-2 -->
 
 ---
 
@@ -130,24 +139,40 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler i de 
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen for psoriasis støttes bare av kasuistikker og en liten kasusserie med motstridende resultater, og ingen kliniske studier er registrert. Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig, og begge norske tillatelser er kansellert. De øvrige prediksjonene (bronkitt, parapsoriasis, diabetisk retinopati, akutt lichenoid pityriasis) har enten ingen evidens eller bare bivirkningsrapporter, og er heller ikke grunnlag for å gå videre.
+Prediksjonen for psoriasis støttes bare av kasuistikker og en liten kasusserie med motstridende resultater, og ingen kliniske studier er registrert. Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig. De øvrige prediksjonene (bronkitt, parapsoriasis, diabetisk retinopati, akutt lichenoid pityriasis) har enten ingen evidens eller bare bivirkningsrapporter, og er heller ikke grunnlag for å gå videre.
+
+<!-- review:begin no-lic-20261124b-natalizumab-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig, og begge norske tillatelser er kansellert.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-natalizumab-3 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel som må løses før sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Større observasjonsstudier eller kontrollerte studier som avklarer om natalizumab hjelper eller forverrer psoriasis
 - Vurdering av nytte-risiko opp mot eksisterende godkjent psoriasisbehandling
-- Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert
+- Avklaring av markedsstatus og tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261124b-natalizumab-4 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-natalizumab-4 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+| 2026-11-24 | Fjernet: «&#124; Antall tillatelser &#124; 2 (begge trukket tilbake/kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Begge tillatelsene har status «kansellert».» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig, og begge norske tillatelser er kansellert.» → «Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert» → «Avklaring av markedsstatus og tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

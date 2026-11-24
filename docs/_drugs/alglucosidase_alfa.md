@@ -125,24 +125,38 @@ For sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget). Data om advar
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modell uten kliniske studier eller litteratur (evidensnivå L5). Mekanismen er svak fordi polyglukosan ligger i cytosol og enzymet krysser blod-hjerne-barrieren dårlig. I tillegg er den eneste norske godkjenningen kansellert.
+Prediksjonen bygger kun på en modell uten kliniske studier eller litteratur (evidensnivå L5). Mekanismen er svak fordi polyglukosan ligger i cytosol og enzymet krysser blod-hjerne-barrieren dårlig.
+
+<!-- review:begin no-lic-20261124b-alglucosidase_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske godkjenningen kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-alglucosidase_alfa-1 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Prekliniske data som viser at enzymet kan nå cytosolisk polyglukosan i nervevev, inkludert vurdering av hjernepenetrasjon
 - Litteraturgjennomgang og eventuelle kasuistikker ved GBE1-relaterte sykdommer
-- Avklaring av tilgjengelighet og administrasjonsvei i Norge, gitt at produktet er kansellert
+- Avklaring av tilgjengelighet og administrasjonsvei i Norge
+
+<!-- review:begin no-lic-20261124b-alglucosidase_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av tilgjengelighet og administrasjonsvei i Norge, gitt at produktet er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-alglucosidase_alfa-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
+| 2026-11-24 | Fjernet: «I tillegg er den eneste norske godkjenningen kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av tilgjengelighet og administrasjonsvei i Norge, gitt at produktet er kansellert» → «Avklaring av tilgjengelighet og administrasjonsvei i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

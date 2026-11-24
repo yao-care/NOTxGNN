@@ -55,8 +55,13 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **lung benign ne
 | Evidensnivå | L5 formelt, men gjelder malign NSCLC og overføres ikke; reelt L5 for den predikerte indikasjonen |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold (vent) |
+
+<!-- review:begin no-lic-20261124b-alectinib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall autorisasjoner / 1 (kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-alectinib-1 -->
 
 ---
 
@@ -149,24 +154,38 @@ Legemiddelinteraksjoner: Ingen konkrete legemiddel–legemiddel-interaksjoner er
 **Beslutning: Hold (vent)**
 
 **Begrunnelse:**
-Alle prediksjonene er rent modellbaserte uten støtte fra kliniske studier eller litteratur for de predikerte sykdommene. L1-nivået for «lung benign neoplasm» gjelder malign ALK-positiv NSCLC og overføres ikke til godartede svulster. I tillegg er den eneste autorisasjonen i Norge/EØS kansellert.
+Alle prediksjonene er rent modellbaserte uten støtte fra kliniske studier eller litteratur for de predikerte sykdommene. L1-nivået for «lung benign neoplasm» gjelder malign ALK-positiv NSCLC og overføres ikke til godartede svulster.
+
+<!-- review:begin no-lic-20261124b-alectinib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste autorisasjonen i Norge/EØS kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-alectinib-2 -->
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA)
 - Biologisk rasjonale og prekliniske data som kobler ALK/MET-hemming til en av de predikerte sykdommene
 - Vurdering av om en ALK-drevet undergruppe finnes (f.eks. ALK-positive nevroendokrine svulster), og eventuelt nye studier der
-- Avklaring av årsaken til kansellert status i Norge/EØS
+
+<!-- review:begin no-lic-20261124b-alectinib-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av årsaken til kansellert status i Norge/EØS» Fjernet: oppfølgingspunktet bygde på at godkjenningen(e) er kansellert, noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-alectinib-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+| 2026-11-24 | Fjernet: «&#124; Antall autorisasjoner &#124; 1 (kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «I tillegg er den eneste autorisasjonen i Norge/EØS kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Avklaring av årsaken til kansellert status i Norge/EØS» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

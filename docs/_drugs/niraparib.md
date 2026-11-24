@@ -50,8 +50,13 @@ Niraparib er en PARP-hemmer som opprinnelig brukes mot kreft i eggstokk, egglede
 | Evidensnivå | L5 (for cystisk neoplasme); L5 for øvrige prediksjoner |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Antall tillatelser | 2 (begge kansellert) |
 | Anbefalt beslutning | Hold (utsett); kan vurderes som forskningsspørsmål |
+
+<!-- review:begin no-lic-20261124b-niraparib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Antall tillatelser / 2 (begge kansellert)» Fjernet: raden gjentok antallet godkjenninger med status «kansellert», noe som ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); antall og status står i raden «Antall godkjenninger» og i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-niraparib-1 -->
 
 *Merknad: Dataene rangerer epiglottis-neoplasme som nr. 1, men uten kliniske studier eller litteratur (L5). Rapporten fokuserer på cystisk neoplasme (nr. 2), som er den første prediksjonen med faktisk evidens.*
 
@@ -125,24 +130,39 @@ For advarsler og kontraindikasjoner henvises det til preparatomtalen.
 **Beslutning: Hold (utsett)**
 
 **Begrunnelse:**
-Den eneste prediksjonen med reell evidens («cystisk neoplasme») støttes av en pågående fase 2-studie og prekliniske/kohortdata i serøse karsinomer, ikke av data for selve sykdomsetiketten. Begge norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtalen mangler. De øvrige ni prediksjonene (L5) har ingen kliniske data og i flere tilfeller ingen biologisk rasjonale, for eksempel godartede svulster.
+Den eneste prediksjonen med reell evidens («cystisk neoplasme») støttes av en pågående fase 2-studie og prekliniske/kohortdata i serøse karsinomer, ikke av data for selve sykdomsetiketten. Sikkerhetsdata fra preparatomtalen mangler. De øvrige ni prediksjonene (L5) har ingen kliniske data og i flere tilfeller ingen biologisk rasjonale, for eksempel godartede svulster.
+
+<!-- review:begin no-lic-20261124b-niraparib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Begge norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-niraparib-2 -->
 
 **For å gå videre kreves følgende:**
 - Hente og gjennomgå preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Hente detaljerte data om virkningsmekanisme fra legemiddeldatabasen
 - Avklare hvilken konkret tumortype «cystisk neoplasme» tilsvarer, og om endometrie-serøst karsinom er relevant
 - Følge resultatene fra fase 2-studien NCT04716686 (forventet avsluttet 2026)
-- Avklare tillatelsesstatus i Norge, siden begge tillatelser er kansellert
+- Avklare tillatelsesstatus i Norge
+
+<!-- review:begin no-lic-20261124b-niraparib-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklare tillatelsesstatus i Norge, siden begge tillatelser er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-niraparib-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
+| 2026-11-24 | Fjernet: «&#124; Antall tillatelser &#124; 2 (begge kansellert) &#124;» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Begge norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «Sikkerhetsdata fra preparatomtalen mangler.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklare tillatelsesstatus i Norge, siden begge tillatelser er kansellert» → «Avklare tillatelsesstatus i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

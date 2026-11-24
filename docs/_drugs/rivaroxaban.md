@@ -121,7 +121,13 @@ Ved samtidig behandling med forsterkede (ritonavir- eller kobicistat-) antiretro
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren er en ren beregningsmessig prediksjon uten klinisk støtte. Det finnes ingen kliniske studier eller litteratur som viser effekt av rivaroksaban ved revmatoid artritt. Dessuten har alle fire godkjenningene i Norge status som kansellert.
+Den høye TxGNN-scoren er en ren beregningsmessig prediksjon uten klinisk støtte. Det finnes ingen kliniske studier eller litteratur som viser effekt av rivaroksaban ved revmatoid artritt.
+
+<!-- review:begin no-lic-20261124b-rivaroxaban-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Dessuten har alle fire godkjenningene i Norge status som kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-rivaroxaban-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) for å kunne analysere den mekanistiske koblingen
@@ -134,11 +140,12 @@ Den høye TxGNN-scoren er en ren beregningsmessig prediksjon uten klinisk støtt
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+| 2026-11-24 | Fjernet: «Dessuten har alle fire godkjenningene i Norge status som kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

@@ -100,7 +100,11 @@ Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); p
 
 <!-- licenses:end -->
 
-Godkjenningen har status kansellert.
+<!-- review:begin no-lic-20261124b-ticagrelor-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Godkjenningen har status kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ticagrelor-1 -->
 
 ---
 
@@ -133,24 +137,39 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den ledende prediksjonen (intrakraniell arteriosklerose) er mekanistisk plausibel og har en stor Phase 3-studie, men CAPTIVA har ikke rapporterte resultater og kan ikke isolere tikagrelors effekt. Preparatomtalens advarsler og kontraindikasjoner mangler, og kunnskapsgrafen peker på intrakraniell blødning som en mulig kontraindikasjon. Markedsføringstillatelsen i Norge er kansellert.
+Den ledende prediksjonen (intrakraniell arteriosklerose) er mekanistisk plausibel og har en stor Phase 3-studie, men CAPTIVA har ikke rapporterte resultater og kan ikke isolere tikagrelors effekt. Preparatomtalens advarsler og kontraindikasjoner mangler, og kunnskapsgrafen peker på intrakraniell blødning som en mulig kontraindikasjon.
+
+<!-- review:begin no-lic-20261124b-ticagrelor-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Markedsføringstillatelsen i Norge er kansellert.» Fjernet: opplysningen om at godkjenningen(e) er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ticagrelor-2 -->
 
 **For å gå videre trengs:**
 - Resultater fra CAPTIVA (forventet fullført 2027) og fra genotypestudien
 - Preparatomtalens advarsler og kontraindikasjoner (innhenting fra DMP)
 - Data om virkningsmekanisme fra DrugBank
 - Plan for blødningsrisiko, pasientutvalg (blant annet CYP2C19-status) og varighet av dobbel platehemming
-- Avklaring av regulatorisk status, siden den norske godkjenningen er kansellert
+- Avklaring av regulatorisk status
+
+<!-- review:begin no-lic-20261124b-ticagrelor-3 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av regulatorisk status, siden den norske godkjenningen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ticagrelor-3 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+| 2026-11-24 | Fjernet: «Godkjenningen har status kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Fjernet: «Markedsføringstillatelsen i Norge er kansellert.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av regulatorisk status, siden den norske godkjenningen er kansellert» → «Avklaring av regulatorisk status» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

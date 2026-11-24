@@ -116,24 +116,38 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellberegning (evidensnivå L5) uten kliniske studier eller publikasjoner, og det finnes ingen påvist mekanistisk kobling mellom ranolazin og NSIAD. I tillegg er den eneste godkjenningen i Norge kansellert, og kunnskapsgrafen indikerer flere potensielle kontraindikasjoner (blant annet QT-forlengelse og nyresykdom).
+Prediksjonen bygger kun på modellberegning (evidensnivå L5) uten kliniske studier eller publikasjoner, og det finnes ingen påvist mekanistisk kobling mellom ranolazin og NSIAD. I tillegg indikerer kunnskapsgrafen flere potensielle kontraindikasjoner (blant annet QT-forlengelse og nyresykdom).
+
+<!-- review:begin no-lic-20261124b-ranolazine-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste godkjenningen i Norge kansellert, og kunnskapsgrafen indikerer flere potensielle kontraindikasjoner (blant annet QT-forlengelse og nyresykdom).» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ranolazine-1 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank, og en mekanistisk analyse av en mulig kobling til AVPR2/GNAS-signalering
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Prekliniske data (for eksempel cellemodeller med AVPR2-mutasjoner) som kan underbygge hypotesen
 - Vurdering av QT-risiko og nyrefunksjon hos en så sjelden og sårbar pasientgruppe
-- Avklaring av regulatorisk status og tilgjengelighet i Norge, siden godkjenningen er kansellert
+- Avklaring av regulatorisk status og tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261124b-ranolazine-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av regulatorisk status og tilgjengelighet i Norge, siden godkjenningen er kansellert» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ranolazine-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+| 2026-11-24 | Rettet: «I tillegg er den eneste godkjenningen i Norge kansellert, og kunnskapsgrafen indikerer flere potensielle kontraindikasjoner (blant annet QT-forlengelse og nyresykdom).» → «I tillegg indikerer kunnskapsgrafen flere potensielle kontraindikasjoner (blant annet QT-forlengelse og nyresykdom).» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av regulatorisk status og tilgjengelighet i Norge, siden godkjenningen er kansellert» → «Avklaring av regulatorisk status og tilgjengelighet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

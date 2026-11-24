@@ -143,7 +143,13 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren støttes bare av to små fase 2-studier ved atopisk dermatitt, som ikke viser klar fordel framfor placebo. Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske godkjenninger er kansellert.
+Den høye TxGNN-scoren støttes bare av to små fase 2-studier ved atopisk dermatitt, som ikke viser klar fordel framfor placebo. Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet.
+
+<!-- review:begin no-lic-20261124b-ustekinumab-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske godkjenninger er kansellert.» Rettet: opplysningen om at alle godkjenningene er kansellert, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-12); de fleste står som gyldige (Authorised), og status for hver godkjenning står i lisenstabellen. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-ustekinumab-1 -->
 
 **For å gå videre trengs følgende:**
 - Detaljerte data om virkningsmekanisme
@@ -156,11 +162,12 @@ Den høye TxGNN-scoren støttes bare av to små fase 2-studier ved atopisk derma
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
+| 2026-11-24 | Rettet: «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske godkjenninger er kansellert.» → «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

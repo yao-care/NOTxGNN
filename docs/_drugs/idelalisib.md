@@ -138,24 +138,38 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den kliniske evidensen for MCL består hovedsakelig av små fase 1-studier med kombinasjonsregimer og én avbrutt fase 2-studie, så evidensnivået er i praksis svakere enn L2 tilsier. Legemidlet har alvorlige sikkerhetsutfordringer, er kansellert på det norske markedet, og er i stor grad erstattet av nyere BTK-hemmere.
+Den kliniske evidensen for MCL består hovedsakelig av små fase 1-studier med kombinasjonsregimer og én avbrutt fase 2-studie, så evidensnivået er i praksis svakere enn L2 tilsier. Legemidlet har alvorlige sikkerhetsutfordringer og er i stor grad erstattet av nyere BTK-hemmere.
+
+<!-- review:begin no-lic-20261124b-idelalisib-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Legemidlet har alvorlige sikkerhetsutfordringer, er kansellert på det norske markedet, og er i stor grad erstattet av nyere BTK-hemmere.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-idelalisib-1 -->
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (kritisk datamangel som i dag blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA)
 - Resultater fra NCT01838434 (randomisert fase 2 med lenalidomid) for MCL-spesifikk effekt
 - Sammenligning med dagens standardbehandling (BTK-hemmere) og en vurdering av nytte/risiko gitt de kjente toksisitetene
-- Avklaring av regulatorisk vei, siden preparatet er kansellert i Norge
+- Avklaring av regulatorisk vei
+
+<!-- review:begin no-lic-20261124b-idelalisib-2 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av regulatorisk vei, siden preparatet er kansellert i Norge» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-idelalisib-2 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
+| 2026-11-24 | Rettet: «Legemidlet har alvorlige sikkerhetsutfordringer, er kansellert på det norske markedet, og er i stor grad erstattet av nyere BTK-hemmere.» → «Legemidlet har alvorlige sikkerhetsutfordringer og er i stor grad erstattet av nyere BTK-hemmere.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-24 | Rettet: «Avklaring av regulatorisk vei, siden preparatet er kansellert i Norge» → «Avklaring av regulatorisk vei» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

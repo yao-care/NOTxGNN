@@ -130,17 +130,24 @@ Prediksjonen for migrene støttes kun av en score fra TxGNN-modellen (dyp lærin
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
 - Prekliniske eller mekanistiske studier som kan belyse en mulig kobling mellom TSH-reseptorstimulering og migrenepatofysiologi
 - En vurdering av administrasjonsvei og formulering (kompatibilitet er ikke vurdert)
-- Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet
+- Avklaring av markedsstatusen i Norge og eventuell tilgjengelighet av produktet
+
+<!-- review:begin no-lic-20261124b-thyrotropin_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet» Rettet: begrunnelsen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); selve oppfølgingspunktet er beholdt. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-thyrotropin_alfa-1 -->
 
 <!-- review:begin log -->
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
+| 2026-11-24 | Rettet: «Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet» → «Avklaring av markedsstatusen i Norge og eventuell tilgjengelighet av produktet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

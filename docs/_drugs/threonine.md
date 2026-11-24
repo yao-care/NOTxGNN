@@ -104,7 +104,13 @@ Det er ikke funnet noen kjente legemiddelinteraksjoner i de innhentede dataene. 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for gastroparese bygger utelukkende på en modellskår (evidensnivå L5), uten kliniske studier, litteratur eller en påviselig mekanistisk kobling. I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for gastroparese bygger utelukkende på en modellskår (evidensnivå L5), uten kliniske studier, litteratur eller en påviselig mekanistisk kobling. I tillegg mangler sikkerhetsdata fra preparatomtalen.
+
+<!-- review:begin no-lic-20261124b-threonine-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-threonine-1 -->
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende mangel for sikkerhetsscreening)
@@ -112,6 +118,19 @@ Prediksjonen for gastroparese bygger utelukkende på en modellskår (evidensniv�
 - Prekliniske eller mekanistiske studier som kan knytte treonin til mage-tarm-motilitet
 - Avklaring av kontraindikasjonssignalet knyttet til fenylketonuri og forstyrrelser i fenylalaninmetabolismen
 - Vurdering av administrasjonsvei og doseringsform for den nye indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

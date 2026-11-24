@@ -125,7 +125,13 @@ Det ble ikke funnet data om legemiddelinteraksjoner.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske studier og uten litteratur som vurderer asparaginsyre som behandling av renal tubulær acidose. I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske studier og uten litteratur som vurderer asparaginsyre som behandling av renal tubulær acidose. I tillegg mangler sikkerhetsdata fra preparatomtalen.
+
+<!-- review:begin no-lic-20261124b-aspartic_acid-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» Rettet: opplysningen om at godkjenningen(e) er kansellert, er tatt ut fordi den ikke stemte med EMAs data om sentrale EU-godkjenninger (2026-11-12), der godkjenningene står som gyldige (Authorised); resten av setningen er uendret. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261124b-aspartic_acid-1 -->
 
 **For å gå videre trengs følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) for å kunne gjøre sikkerhetsscreening
@@ -133,6 +139,19 @@ Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske
 - Systematisk litteratursøk etter prekliniske eller kliniske data om asparaginsyre og syre-base-regulering/ammoniakkdannelse i nyrene
 - Vurdere kontraindikasjonssignalet for nyresykdom opp mot den foreslåtte indikasjonen
 - Avklare tilgjengelige administrasjonsveier og doseringsformer, siden status for disse er ukjent
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Rettet: «I tillegg er den eneste norske godkjenningen kansellert, og sikkerhetsdata fra preparatomtalen mangler.» → «I tillegg mangler sikkerhetsdata fra preparatomtalen.» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
