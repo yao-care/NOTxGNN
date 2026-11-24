@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-24T05:11:21.885674+00:00",
+  "fetched_at": "2026-11-24T17:07:18.315323+00:00",
   "source": "Google News Health RSS",
-  "count": 21,
+  "count": 23,
   "articles": [
     {
       "id": "c39dd6ee39f8",
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "7b3f5e7d0972",
-      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
-      "published": "2026-11-17T19:07:52+00:00",
-      "source": {
-        "name": "Drangedalsposten",
-        "url": "https://www.drangedalsposten.no"
-      }
-    },
-    {
       "id": "417bbfd35de6",
       "title": "Ny strategi skal gi bedre og tryggere bruk av legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmhUOC1HclNsYmQwVzNxaWkyQWJfWkNJdkFiMnlCM3pFWlk2THVIQ0VNVGY3MU9JYVRUdDdBVUdrSWgwaHg0dHRiaXI0eFd3ZldKb0p4Qno0ZGhMS2Yzd3J1d3RsalNQTmxvNkR2a3RSMVBSMEdRcUZVTC1vT2wxaTlEV2NLN3ZrekFnc09xN0pYbkwxNmhoSEFPejlMNm9JS29yc3lHNXo0YUpPVHo3OFJwbHVWQ2tpbnhCX1hNUlpmZFpxbWpIQnVYSDlGNG52MVpZ?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "7b3f5e7d0972",
+      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
+      "published": "2026-11-17T19:07:52+00:00",
+      "source": {
+        "name": "Drangedalsposten",
+        "url": "https://www.drangedalsposten.no"
       }
     },
     {
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "055bde4d929d",
-      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Bergen kommune",
-        "url": "https://www.bergen.kommune.no"
-      }
-    },
-    {
       "id": "53cf2cca23b4",
       "title": "Handlingsplan for å heve levealderen hos mennesker med alvorlige psykiske lidelser og/eller rusmiddelproblemer - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeVRlOU1Nb2p6TkJYVko2enVvUzdzVFJSWGlVUWtRd1BoUzZibEh2dWVnVS10R290bS1mUk9OdjN1WDQwejNwdUF5Y29BZm5ZV3Zja3NwQ28wOGloTDJjUy1BaXhMRG1NX0JzZGxjYVlPSFdtUTA0VGdkSmhBbWNPUjZkdU5hekU1YnM0NV9qWUxIRmVpTGdEa0NOS0EtT2sySDFGOWc1WUJQQmVCZHpVU3ZmRzdkbE1BbEY0WFZEUS1mOUdPZGk3RDllTWY0Ty1yVmlST3A1ekNRaTJhVldjRUlfZks1aHBNSDVxRkRFdUFualJQLXcxUjd3?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "055bde4d929d",
+      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Bergen kommune",
+        "url": "https://www.bergen.kommune.no"
       }
     },
     {
@@ -154,6 +154,16 @@
       }
     },
     {
+      "id": "ff3d6f1ac13e",
+      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
+      "published": "2026-11-13T08:00:00+00:00",
+      "source": {
+        "name": "NRK",
+        "url": "https://www.nrk.no"
+      }
+    },
+    {
       "id": "25180b752ec4",
       "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
@@ -191,6 +201,16 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "9bd024ad65fe",
+      "title": "DHL Express vokser i Europa drevet av teknologi, industri, biovitenskap, helse og energi - Mynewsdesk",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQU3RFeHJfTHd0NnZHV280N3ljZVFaSWRpeXN3UmVwN0hQMXFqYjBJalFSdVprR2twVEtncFVLNlk2bUpxR2V1eVRnZzVDUmtqU1hVNW9ZWkVPUTdoREJKSzhBdl9RTWJCNE1EcFVBaWhocmtDaEpzLUhRRXFtUHhweFNneDFaUGRLZ0Z0Q0lQOXpmMU5WNlZPeEpUM2c4QjlXM1ZUendKNjBZelczdjN2M2JobW1UcVhHRzFiMEEwNEdibmVveUlxWm1VMjNXVzNfWkVkcEUtS2FETlNjMlNSdHNDZFh2QzhtZFUySUpVQnlUN0JseVo0SHhEYWpZNDItNUlrRExXS3BpS0U1WDRid0xLS1A0VmprV05INUlVWXNfMHlKcG4wekhFV3A0WVNuR0Rzb1V3cXd5SkUyclhEUnNQNGN1QQ?oc=5",
+      "published": "2026-11-24T13:36:42+00:00",
+      "source": {
+        "name": "Mynewsdesk",
+        "url": "https://www.mynewsdesk.com"
       }
     },
     {
