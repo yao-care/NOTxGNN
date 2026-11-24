@@ -7,13 +7,15 @@ dump_license_facts 依證據包算）產生的。gate（scripts/check_seo_docs.p
 狀態列與張數列跟事實一致，所以把驗證要用的部分存成快照放進 git。
 
 內容（鍵＝藥物頁檔名去 .md）：bundle（證據包鍵）、facts（事實層那一筆）、own（本藥所有許可證號：證據包裡每個含 records 的區塊的
-license_id，跟事實層同一套來源）；meta：產生日、Release tag。內容相同時檔案位元組相同（gzip mtime=0）。
+license_id，跟事實層同一套來源）、rows／total（程式許可證表的表格列（最多 20 列）與總數，scripts/sync_license_tables.py rows_of；
+2026-11-24 起）；meta：產生日、Release tag。內容相同時檔案位元組相同（gzip mtime=0）。
 什麼時候跑：證據包或事實層變了之後（每週許可證排程與依成分重建都會自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
   python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
 """
 import datetime as dt
 import gzip
+import importlib.util
 import json
 import re
 import sys
@@ -24,6 +26,9 @@ sys.path.insert(0, str(ROOT / "src"))
 from notxgnn.regulatory import site as C  # noqa: E402
 
 OUT = ROOT / "snapshots" / f"{C.CODE}_licenses.json.gz"
+_spec = importlib.util.spec_from_file_location("sync_license_tables", ROOT / "scripts" / "sync_license_tables.py")
+SLT = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(SLT)
 
 
 def bundle_for(stem):
@@ -60,6 +65,9 @@ def build(ws, tag=""):
             continue
         fc = fs.get(key) or fs.get(page.stem) or fs.get(page.stem.replace("-", "_")) or fs.get(page.stem.replace("_", "-"))
         drugs[page.stem] = {"bundle": key, "facts": fc, "own": own_ids(b)}
+        # 2026-11-24：程式許可證表（scripts/sync_license_tables.py rows_of）的表格列與總數
+        r, total = SLT.rows_of(b.get("tfda") or {}, fc)
+        drugs[page.stem]["rows"], drugs[page.stem]["total"] = r[:SLT.MAX_ROWS], total
     meta = {"built": dt.date.today().isoformat(), "release_tag": tag, "pages": len(drugs),
             "rule": "own：證據包含 records 的區塊的 license_id；facts：tools/txgnn/.claude/dump_license_facts_20261021.py"}
     OUT.parent.mkdir(exist_ok=True)
@@ -86,8 +94,17 @@ if __name__ == "__main__":
     _dl_p = _lf_os.path.join(_dl_root, "tools", "txgnn", ".claude", "drug_meta_description.py")
     _lf_ax.register(lambda: "--check" in _lf_sys.argv or not _lf_os.path.exists(_dl_p) or _lf_chk(_lf_sp.run([_lf_sys.executable, _dl_p, "--apply", "--root", _dl_root]), "drug_meta_description.py --apply"))
     a = sys.argv[1:]
-    ws = a[a.index("--ws") + 1]
+    ws = a[a.index("--ws") + 1] if "--ws" in a else str(ROOT / "tools" / "txgnn")  # 不給 --ws：用 tools/txgnn（要先在那裡算過事實層）
     tag = a[a.index("--release-tag") + 1] if "--release-tag" in a else ""
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24：快照換了，程式許可證表與正文許可證張數跟著依新快照改寫（--no-rewrite 不跑）。
+    # 母目錄每週排程在 checker 前就跑這支（--ws <母目錄>），所以這裡只改程式表與張數句。
+    if "--no-rewrite" not in a:
+        import subprocess
+        for _s in ("sync_license_tables.py", "rewrite_license_counts.py"):
+            _r = subprocess.run([sys.executable, str(ROOT / "scripts" / _s)])
+            if _r.returncode:
+                print(f"  ✗ 結尾自動改寫失敗：{_s}（exit {_r.returncode}）", file=sys.stderr)
+                _lf_fail.append(_s)

@@ -23,7 +23,9 @@ DESC_LEVEL_DEFAULT = "evidensnivå"
 NA_DESC = "kun kjente bruksområder"
 
 # ---- 許可證（licenses）----
-MARKET_SECTIONS = ["Markedsinformasjon for Norge", "Informasjon om det norske markedet", "Informasjon om markedet i Norge"]
+MARKET_SECTIONS = ["Markedsinformasjon for Norge", "Informasjon om det norske markedet", "Informasjon om markedet i Norge",
+                   # 2026-11-24：另外三種寫法（2＋2＋1 頁）以前沒驗，程式許可證表也要放進去，一併列入
+                   "Norsk markedsinformasjon", "Markedsinformasjon i Norge", "Markedsinformasjon for Norge/EØS"]
 
 # ---- 查核框與查核紀錄表（apply_drug_reviews）----
 DISCLAIMER_RE = re.compile(r"^## Ansvarsfraskrivelse\b", re.M)
@@ -81,7 +83,9 @@ NOTES = {
     "count": "Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger ({date}).",
     "generic": "Fjernet: opplysningen stemte ikke med EMAs godkjenningsdata ({date}).",
 }
-FIGURES = " Antall godkjenninger i dataene: {total}, hvorav gyldige: {valid}; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen."
+# 2026-11-24（用戶決定）：figures 原本寫死「Antall godkjenninger i dataene: {total}, hvorav gyldige: {valid}」，會跟每週資料過期；
+# 改成不寫數字、指向概覽表與程式許可證表（既有紀錄同 id 重發）
+FIGURES = " Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen."
 SUMMARY = "Fjernet: «{text}»"
 STRIP_CHARS = " ,;.\n-"
 REGEN_NOTE = "rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen"

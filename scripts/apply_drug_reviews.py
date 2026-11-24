@@ -414,6 +414,16 @@ def run(check=False, only=None, touch_date=False):
             changed.append(fname)
             if not check:
                 path.write_text(touch(new) if touch_date else new, encoding="utf-8")
+    if not check:
+        # 2026-11-24：市場段落的程式許可證表依快照重排（scripts/sync_license_tables.py），正文許可證張數依快照事實層改寫
+        # （scripts/rewrite_license_counts.py）；全頁，不只有紀錄的頁。sync_notes_to_docs.py 整頁重寫、每週排程 4b 都會跑到這裡。
+        import importlib.util as _ilu
+        for _name in ("sync_license_tables", "rewrite_license_counts"):
+            _spec = _ilu.spec_from_file_location(_name, Path(__file__).resolve().parent / f"{_name}.py")
+            _m = _ilu.module_from_spec(_spec)
+            _spec.loader.exec_module(_m)
+            _r = _m.run(only=only) if _name == "sync_license_tables" else _m.run(only=only, touch_date=touch_date)[0]
+            changed += [f for f in _r if f not in changed]
     return problems, changed
 
 

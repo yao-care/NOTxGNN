@@ -5,8 +5,9 @@
   2. 概覽表的狀態列與張數列＝事實層的寫法：本站 tools/txgnn/.claude/check_drug_page.py 的 M1／M4 同一套函式
      （marketed_text／not_marketed_text／unknown_status_text／not_reg_text／NO_CENTRAL、count_text）。
   3. 表格列寫的狀態不跟事實相反（checker：有效許可證寫成註銷、row_status_conflicts）。
-本站的許可證表是報告裡的表格（沒有程式產生的許可證表），所以不驗表格列內容；事實層只涵蓋部分來源時（checker X_SCOPE），
-跟 checker 一樣只驗資料能證明的部分。
+  4. 程式許可證表（2026-11-24 起，scripts/sync_license_tables.py；<!-- licenses:begin/end -->）＝依快照 rows／total 重算的結果；
+     快照有 rows 的頁，市場段落一定要有程式表。
+事實層只涵蓋部分來源時（checker X_SCOPE），跟 checker 一樣只驗資料能證明的部分。
 修法：資料變了→跑每週排程（重排狀態格、狀態列、張數列並重建快照）；正文或表格寫錯→寫查核紀錄（docs/_data/drug_reviews.json）
 再跑 scripts/apply_drug_reviews.py。
 """
@@ -31,6 +32,14 @@ SITE = C.SITE
 def CK():
     p = ROOT / "tools" / "txgnn" / ".claude" / "check_drug_page.py"
     s = importlib.util.spec_from_file_location(f"{SITE}_check_drug_page", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return m
+
+
+@lru_cache(maxsize=None)
+def SLT():
+    s = importlib.util.spec_from_file_location(f"{SITE}_sync_license_tables", ROOT / "scripts" / "sync_license_tables.py")
     m = importlib.util.module_from_spec(s)
     s.loader.exec_module(m)
     return m
@@ -102,6 +111,11 @@ def page_problems(stem: str, text: str) -> list[str]:
     lines = body.split("\n")
     errs = []
     own = {ck.mv2.norm_id(y) for x in e.get("own") or [] for y in (x, x.split("//")[0])}  # 「RVG 120202//33414」（Nl：註冊號//產品號）也認主號碼
+    secs = _sections(lines)
+    for a, b in secs:
+        errs += SLT().block_problems(lines[a:b], e)
+    if "rows" in e and secs and SLT().BEGIN not in lines:
+        errs.append("市場段落沒有程式許可證表（跑 python3 scripts/sync_license_tables.py）")
     if own:
         for a, b in _sections(lines):
             for t in _tables(lines[a:b]):

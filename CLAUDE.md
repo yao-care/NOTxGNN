@@ -67,3 +67,27 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：acetylsalicylic_acid「Opprinnelig indikasjon: Ikke registrert i de lokale dataene」→「Sentrale EU-godkjenninger (EMA): 3 (gyldige: 3)」；2026-11-19 改了 12 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site NOTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 許可證表與正文張數由程式產生（2026-11-24）
+
+用戶 2026-11-24 決定（各站同日，本站做表＋B）：每週許可證排程只改得到概覽表的狀態列／張數列，AI 寫在市場段落的自由格式許可證表（適應症格是 AI 翻成挪威文的 EMA 治療領域）與正文張數句會跟著 EMA 資料過期、讓 checker 擋整頁；改成程式產生、每週自動同步。
+- A. 程式許可證表：`scripts/sync_license_tables.py`（範本 DETxGNN／FITxGNN，同為 EMA 資料）依證據包 tfda.records（EMA 集中許可，人用）產生
+  「| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |」：品名、成分、治療領域照 EMA 英文原文、不翻譯（表頭註明語言）；
+  狀態照 EMA Medicine status（Authorised→Gyldig、Withdrawn→Trukket tilbake、Lapsed→Bortfalt、Expired→Utløpt、Revoked→Tilbakekalt、Suspended→Suspendert、Refused→Avslått）；
+  有效在前、最多 20 列（partial 頁加「Tabellen viser N av M …」）、表後來源句；沒有人用集中許可時一句 NONE_LINE。前後 `<!-- licenses:begin -->`／`<!-- licenses:end -->`。
+  取代市場段落（site.MARKET_SECTIONS；這次另加 Norsk markedsinformasjon、Markedsinformasjon i Norge、Markedsinformasjon for Norge/EØS 三種寫法，以前 gate 沒驗）的第一張許可證表；段落沒有表時放在段落結尾。
+  `--migrate`（第一次換表時用）拿掉緊鄰舊表、只講舊表列了幾筆的說明句或子句（CAPTION：「De fem første er vist nedenfor.」「Tabellen viser fem av dem.」「Utvalg på 5:」「Et utvalg:」等），查核紀錄更正文字所在的句子不動。
+  快照 `snapshots/no_licenses.json.gz` 另存 rows／total；gate 第 18 項（`src/notxgnn/regulatory/licenses.py`）擋程式區塊≠快照重算、市場段落沒有程式表。
+  每週排程由 `scripts/license_adapter.py` 的 `sync_tables`（--bundles）重排，PAGE_NOTE 讓 3b 自我檢查接受區塊標記與說明句。
+- B. 正文張數改寫：`scripts/rewrite_license_counts.py`＋`src/notxgnn/regulatory/count_prose.py`（移植 Kr／My，句型照 DE 改成挪威文：「N av M godkjenninger er gyldige」「N gyldige tillatelser (av M)」「Det finnes N gyldig tillatelse av M」「Totalt er det N tillatelser」）；
+  有保留、講證據包或查詢、相對數、劑型或單方／複方、獸用、國家許可、廠商、表格顯示筆數的句子不動，partial 頁與事實總數 0 的頁整頁不動；0／1 張跨越（單複數）、文字數詞、「alle／begge … gyldig／kansellert」而事實不符的不改、列待查。不寫查核框；gate 第 22 項擋「再跑一次會變」。
+- 誰會跑：`scripts/apply_drug_reviews.py`（非 --check）結尾依快照跑 A、B；`scripts/build_license_snapshot.py` 寫完快照再跑一次（`--no-rewrite` 不跑；不給 `--ws` 時用 tools/txgnn）；sync_notes_to_docs.py 整頁重寫後經 apply 也會跑。
+- 2026-11-24 套用（資料 data-20261112-163044）：程式表 443 頁（公開頁 444 頁中有市場段落的 443 頁全部換掉；irbesartan 沒有市場段落不加；noindex 頁沒有市場段落）；拿掉舊表說明句 11 處；
+  正文張數程式改寫 0 句（現行正文張數 210 句全部跟事實層一致）；判斷不了的 19 句列進待查清單（zero-result 18、word 1，全是下面的「kansellert」句）。
+  查核紀錄：被取代表上錨著的 7 筆（6 筆 `no-row-20261112-*`、`no-lic-20261112-tasimelteon-1`）標 superseded（superseded_by programmatic-license-table-2026-11-24）；
+  說明框寫死張數（site.FIGURES「Antall godkjenninger i dataene: N, hvorav gyldige: V」）的 209 筆同 id 重發成不寫數字、指向概覽表與程式表（FIGURES 樣板同步改，免得新紀錄又寫死）；
+  舊表筆數說明句在更正文字裡的 4 筆（amlodipine、trastuzumab、tadalafil、indacaterol）同 id 重發一併刪除；新紀錄 3 筆：rilpivirine（「另一張 kansellert、沒列在表上」，EMA 為 Authorised）、
+  vildagliptin（「De to siste er …」講舊表沒列的兩張）、formoterol（「Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter」→ 證據包 10 張全是複方）。last_modified_at：正文有變的 443 頁改 2026-11-24。
+- 另寫的寬偵測（同句有許可字樣、數字不在事實層 {total, valid, cancelled}，或「alle／begge … gyldig」而有效≠總數，或寫 kansellert 等註銷字而事實沒有註銷）全量掃公開頁：改前 115 句、改後 114 句，剩下全是
+  「kansellert」類：正文 136 句（86 頁）與表格裡另一列 AI 寫的張數列 15 格（例 alectinib「Antall autorisasjoner | 1 (kansellert)」、duloxetine「5 (alle kansellert)」；標準的「Antall godkjenninger」列是對的）把 EMA Authorised 的許可寫成 kansellert（11 月 AI 重產時照證據包「Cancelled only」寫的），
+  checker 的 no `_CANC_NO` 不含 kansellert、count_row 只驗標準的「Antall godkjenninger」列，所以沒擋。數量超過交付門檻，未在這次處理，待用戶決定（母目錄 `.claude/license_labels/NOTxGNN.json` 也把「Kansellert」記成 valid）。
