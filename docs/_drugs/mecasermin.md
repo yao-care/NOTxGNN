@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Mecasermin: predikert ny indikasjon Monosomi X (evidensnivå L5). Opprinnelig indikasjon: Laron syndrom"
 monitor_inn: "MECASERMIN"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
@@ -87,9 +87,15 @@ Det er for tiden ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000704 | Increlex | – | Laron syndrom (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000704 | Increlex | Mecasermin | Laron Syndrome | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

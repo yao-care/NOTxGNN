@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metformin: predikert ny indikasjon Fokal stiv-lem-syndrom (focal stiff limb syndrome) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus, Type 2"
 ---
 
@@ -72,13 +72,33 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 Dataene viser at metformin er markedsført i Norge. Alle de registrerte godkjenningene i de lokale dataene gjelder kombinasjonsprodukter som inneholder metformin sammen med andre virkestoffer, og de beskriver derfor ikke hvordan metformin som enkeltstoff er godkjent.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | Ikke oppgitt | Diabetes mellitus type 2 |
-| EMEA/H/C/002654 | Vipdomet | Ikke oppgitt | Diabetes mellitus type 2 |
-| EMEA/H/C/001049 | Zomarist | Ikke oppgitt | Diabetes mellitus type 2 |
-| EMEA/H/C/004162 | Ebymect | Ikke oppgitt | Diabetes mellitus type 2 |
-| EMEA/H/C/005778 | Sitagliptin / Metformin hydrochloride Sun | Ikke oppgitt | Diabetes mellitus type 2 |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000655 | Competact | pioglitazone; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000807 | Eucreas | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000861 | Janumet | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000862 | Velmetia | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000896 | Efficib | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001049 | Zomarist | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001050 | Icandra (previously Vildagliptin / metformin hydrochloride… | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001235 | Ristfor | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002059 | Komboglyze | metformin hydrochloride; saxagliptin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002279 | Jentadueto | linagliptin; metformin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002654 | Vipdomet | alogliptin benzoate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002656 | Vokanamet | canagliflozin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002672 | Xigduo | metformin hydrochloride; dapagliflozin propanediol monohydrate | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/003770 | Synjardy | empagliflozin; metformin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/004162 | Ebymect | dapagliflozin propanediol monohydrate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/004314 | Segluromet | ertugliflozin l-pyroglutamic acid; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/005678 | Sitagliptin / Metformin hydrochloride Mylan | sitagliptin hydrochloride monohydrate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | metformin hydrochloride; vildagliptin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/005778 | Sitagliptin / Metformin hydrochloride Sun | sitagliptin fumarate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

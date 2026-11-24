@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predikert ny indikasjon Bronkitt (bronchitis) (evidensnivå L5). Opprinnelig indikasjon: Asthma"
@@ -77,10 +77,16 @@ Koblingen til bronkitt er **indirekte**. Den hviler hovedsakelig på at kroniske
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000606 | Xolair (Novartis Europharm Limited) | Ikke oppgitt | Astma, urticaria, rhinitt |
-| EMEA/H/C/005958 | Omlyclo (Celltrion Healthcare Hungary Kft.) | Ikke oppgitt | Astma, urticaria |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000606 | Xolair | omalizumab | Asthma; Urticaria; Rhinitis | Gyldig |
+| EMEA/H/C/005958 | Omlyclo | omalizumab | Asthma; Urticaria | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge godkjenningene er gyldige.
 

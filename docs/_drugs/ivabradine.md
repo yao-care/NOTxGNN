@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivabradine: predikert ny indikasjon Hypertrikose (hypertrichosis (disease)) (evidensnivå L5). Opprinnelig indikasjon: Angina Pectoris"
 ---
 
@@ -80,13 +80,19 @@ Foreløpig er ingen relevant litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004187 | Ivabradine Anpharm | Ikke angitt | Angina Pectoris; Heart Failure |
-| EMEA/H/C/004241 | Ivabradine Accord | Ikke angitt | Angina Pectoris; Heart Failure |
-| EMEA/H/C/000597 | Procoralan | Ikke angitt | Angina Pectoris; Heart Failure |
-| EMEA/H/C/000598 | Corlentor | Ikke angitt | Angina Pectoris; Heart Failure |
-| EMEA/H/C/004117 | Ivabradine Zentiva | Ikke angitt | Angina Pectoris; Heart Failure |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000597 | Procoralan | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gyldig |
+| EMEA/H/C/000598 | Corlentor | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gyldig |
+| EMEA/H/C/004117 | Ivabradine Zentiva | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gyldig |
+| EMEA/H/C/004187 | Ivabradine Anpharm | ivabradine | Angina Pectoris; Heart Failure | Gyldig |
+| EMEA/H/C/004241 | Ivabradine Accord | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

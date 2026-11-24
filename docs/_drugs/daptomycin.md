@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daptomycin: predikert ny indikasjon Slitasjegikt (osteoarthritis) (evidensnivå L5). Opprinnelig indikasjon: Soft Tissue Infections"
 ---
 
@@ -83,10 +83,16 @@ Tabellen viser de mest relevante publikasjonene. Ingen av dem undersøker daptom
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004310 | Daptomycin Hospira | Ikke angitt | Se produktinformasjon |
-| EMEA/H/C/000637 | Cubicin | Ikke angitt | Se produktinformasjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000637 | Cubicin | daptomycin | Gram-Positive Bacterial Infections; Bacteremia; Soft Tissue Infections; Endocarditis, Bacterial | Gyldig |
+| EMEA/H/C/004310 | Daptomycin Hospira | daptomycin | Soft Tissue Infections; Skin Diseases, Bacterial | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

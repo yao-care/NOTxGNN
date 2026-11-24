@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lacosamide: predikert ny indikasjon Manisk bipolar lidelse (manic bipolar affective disorder) (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"
 ---
 
@@ -88,6 +88,19 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 ## Informasjon om det norske markedet
 
 Lokale data viser fire preparater (Lacosamide Accord, Lacosamide UCB, Lacosamide Adroiq og Vimpat). Statusen for enkeltlisensene er ikke entydig i de innhentede dataene, så markedsstatus er oppgitt kun slik den fremgår av oversikten ovenfor.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000863 | Vimpat | lacosamide | Epilepsy | Gyldig |
+| EMEA/H/C/004443 | Lacosamide Accord | lacosamide | Epilepsy | Gyldig |
+| EMEA/H/C/005243 | Lacosamide UCB | lacosamide | Epilepsies, Partial | Gyldig |
+| EMEA/H/C/006047 | Lacosamide Adroiq | lacosamide | Epilepsy | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

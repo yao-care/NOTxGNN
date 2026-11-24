@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pirfenidone: predikert ny indikasjon Ekstrakutant mastocytom (evidensnivå L5). Opprinnelig indikasjon: Idiopatisk lungefibrose"
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
@@ -92,11 +92,17 @@ For sammenligning har den nærmeste prediksjonen med litteratur, fibroblastisk n
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005873 | Pirfenidone axunio (tidligere Pirfenidone AET) | Ikke oppgitt | Idiopatisk lungefibrose |
-| EMEA/H/C/005862 | Pirfenidone Viatris | Ikke oppgitt | Idiopatisk lungefibrose; lungesykdommer; luftveissykdommer |
-| EMEA/H/C/002154 | Esbriet | Ikke oppgitt | Idiopatisk lungefibrose; lungesykdommer; luftveissykdommer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002154 | Esbriet | Pirfenidone | Idiopathic Pulmonary Fibrosis; Lung Diseases; Respiratory Tract Diseases | Gyldig |
+| EMEA/H/C/005862 | Pirfenidone Viatris | Pirfenidone | Idiopathic Pulmonary Fibrosis; Lung Diseases; Respiratory Tract Diseases | Gyldig |
+| EMEA/H/C/005873 | Pirfenidone axunio (previously Pirfenidone AET) | Pirfenidone | Idiopathic Pulmonary Fibrosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle tre godkjenningene er gyldige i dag, og legemidlet er markedsført.
 

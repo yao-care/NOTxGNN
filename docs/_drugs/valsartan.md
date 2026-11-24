@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 443
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predikert ny indikasjon Malign hypertensiv nyresykdom (malignant hypertensive renal disease) (evidensnivå L4). Opprinnelig indikasjon: Hypertension"
@@ -101,17 +101,27 @@ Dosering/legemiddelform er ikke oppgitt i dataene.
 
 <!-- review:begin no-lic-20261106-valsartan-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 9 godkjenninger er opphevet. Dosering/legemiddelform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 9, hvorav gyldige: 9; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 9 godkjenninger er opphevet. Dosering/legemiddelform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-valsartan-1 -->
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000716 | Exforge | – | Hypertensjon |
-| EMEA/H/C/000776 | Dafiro | – | Hypertensjon |
-| EMEA/H/C/000774 | Copalia | – | Hypertensjon |
-| EMEA/H/C/004343 | Neparvis | – | Hjertesvikt |
-| EMEA/H/C/004062 | Entresto | – | Hjertesvikt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000716 | Exforge | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gyldig |
+| EMEA/H/C/000774 | Copalia | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gyldig |
+| EMEA/H/C/000776 | Dafiro | amlodipine; valsartan | Hypertension | Gyldig |
+| EMEA/H/C/001068 | Exforge HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gyldig |
+| EMEA/H/C/001159 | Copalia HCT | amlodipine; valsartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/001160 | Dafiro HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gyldig |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | amlodipine besilate; valsartan | Hypertension | Gyldig |
+| EMEA/H/C/004062 | Entresto | sacubitril; valsartan | Heart Failure | Gyldig |
+| EMEA/H/C/004343 | Neparvis | sacubitril; valsartan | Heart Failure | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,7 +146,7 @@ Prediksjonen bygger på en høy modellscore og et plausibelt mekanistisk grunnla
 
 <!-- review:begin no-lic-20261106-valsartan-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 9, hvorav gyldige: 9; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-valsartan-2 -->
 
@@ -155,8 +165,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle 9 godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «I tillegg er alle norske/europeiske godkjenninger opphevet, og v» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle 9 godkjenninger er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er alle norske/europeiske godkjenninger opphevet, og v» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
 
 <!-- review:end log -->

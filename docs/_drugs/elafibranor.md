@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elafibranor: predikert ny indikasjon Amenoré (evidensnivå L5). Opprinnelig indikasjon: Biliær levercirrhose (Liver Cirrhosis, Biliary)"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
@@ -80,9 +80,15 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006231 | Iqirvo | – | Liver Cirrhosis, Biliary (biliær levercirrhose) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006231 | Iqirvo | Elafibranor | Liver Cirrhosis, Biliary | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig i dataene.
 
@@ -109,7 +115,7 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra k
 
 <!-- review:begin no-lic-20261106-elafibranor-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist. I tillegg er den norske godkjenningen registrert som avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist. I tillegg er den norske godkjenningen registrert som avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-elafibranor-1 -->
 
@@ -129,7 +135,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «I tillegg er den norske godkjenningen registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er den norske godkjenningen registrert som avregistrert» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
 
 <!-- review:end log -->

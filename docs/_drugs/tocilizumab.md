@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predikert ny indikasjon Ankyloserende spondylitt (ankylosing spondylitis) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
@@ -86,12 +86,18 @@ Den høye modellscoren er en prediksjon og ikke et bevis. Kliniske data peker sn
 
 ## Markedsinformasjon i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000955 | RoActemra | Ikke oppgitt | Revmatoid artritt, juvenil revmatoid artritt, cytokinfrigjøringssyndrom, kjempecellearteritt, COVID-19 |
-| EMEA/H/C/005984 | Tocilizumab STADA (tidligere Tofidence) | Ikke oppgitt | Revmatoid artritt, COVID-19, juvenil revmatoid artritt |
-| EMEA/H/C/006196 | Avtozma | Ikke oppgitt | Revmatoid artritt, juvenil revmatoid artritt, cytokinfrigjøringssyndrom, COVID-19 |
-| EMEA/H/C/005781 | Tyenne | Ikke oppgitt | Revmatoid artritt, cytokinfrigjøringssyndrom, juvenil revmatoid artritt, COVID-19, kjempecellearteritt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000955 | RoActemra | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Cytokine Release Syndrome; Giant Cell Arteritis; COVID… | Gyldig |
+| EMEA/H/C/005781 | Tyenne | tocilizumab | Arthritis, Rheumatoid; Cytokine Release Syndrome; Arthritis, Juvenile Rheumatoid; COVID-19 virus infection; G… | Gyldig |
+| EMEA/H/C/005984 | Tocilizumab STADA (previously Tofidence) | tocilizumab | Arthritis, Rheumatoid; COVID-19 virus infection; Arthritis, Juvenile Rheumatoid | Gyldig |
+| EMEA/H/C/006196 | Avtozma | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Cytokine Release Syndrome; COVID-19 virus infection | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

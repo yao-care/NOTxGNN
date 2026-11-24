@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imatinib: predikert ny indikasjon Hjertefibrosarkom (heart fibrosarcoma) (evidensnivå L5). Opprinnelig indikasjon: Akutt lymfatisk leukemi (prekursor-B-celle), dermatofibrosarkom…"
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
@@ -118,11 +118,17 @@ Currently no related clinical trials registered for heart fibrosarcoma. Det finn
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000406 | Glivec (Novartis Europharm) | Ikke oppgitt | Akutt lymfatisk leukemi, GIST, dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi, hypereosinofilt syndrom |
-| EMEA/H/C/002681 | Imatinib Accord (Accord Healthcare) | Ikke oppgitt | Akutt lymfatisk leukemi, dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi, hypereosinofilt syndrom |
-| EMEA/H/C/002585 | Imatinib Teva (Teva B.V.) | Ikke oppgitt | Kronisk myelogen leukemi, akutt lymfatisk leukemi, myelodysplastiske/myeloproliferative sykdommer, hypereosinofilt syndrom, dermatofibrosarkom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000406 | Glivec | imatinib | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Gastrointestinal Stromal Tumors; Dermatofibrosarcoma; Myelody… | Gyldig |
+| EMEA/H/C/002585 | Imatinib Teva | imatinib | Leukemia, Myelogenous, Chronic, BCR-ABL Positive; Precursor Cell Lymphoblastic Leukemia-Lymphoma; Myelodyspla… | Gyldig |
+| EMEA/H/C/002681 | Imatinib Accord | imatinib | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Dermatofibrosarcoma; Myelodysplastic-Myeloproliferative Disea… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og 3 av 3 godkjenninger (markedsføringstillatelser) er gyldige.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: predikert ny indikasjon Malformasjonssyndrom med tann- og/eller tannkjøttkomponent (malformation syndrome with odontal and/or periodontal compo… (evidensnivå L5). Opprinnelig indikasjon:…"
 ---
 
@@ -72,10 +72,16 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000391 | Lumigan | Ikke oppgitt | Åpenvinklet glaukom; okulær hypertensjon |
-| EMEA/H/C/000668 | Ganfort | Ikke oppgitt | Åpenvinklet glaukom; okulær hypertensjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000391 | Lumigan | bimatoprost | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+| EMEA/H/C/000668 | Ganfort | bimatoprost; timolol | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsmomenter
 

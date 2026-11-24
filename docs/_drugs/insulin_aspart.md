@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Aspart: predikert ny indikasjon Autoimmun ooforitt (autoimmune oophoritis) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus"
 ---
 
@@ -81,6 +81,22 @@ Foreløpig finnes det ingen relevant litteratur.
 ## Markedsinformasjon for Norge
 
 Legemidlet har markedsstatus **Markedsført** i Norge ifølge de lokale reguleringsdataene. Detaljert lisensoversikt genereres av programmet og er ikke gjentatt her.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000258 | NovoRapid | insulin aspart | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000308 | NovoMix | insulin aspart | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/002499 | Ryzodeg | insulin aspart; insulin degludec | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/004046 | Fiasp | insulin aspart | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/004965 | Kirsty (previously Kixelle) | insulin aspart | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/005033 | Insulin aspart Sanofi | insulin aspart | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/005635 | Truvelog Mix 30 | insulin aspart | Diabetes Mellitus | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

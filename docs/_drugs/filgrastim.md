@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (primary release disorder of platelets) (evidensnivå L5). Opprinnelig indikasjon: Hematopoietic Stem Cell Transplantati…"
 ---
 
@@ -82,13 +82,21 @@ For den predikerte hovedindikasjonen finnes det for øyeblikket ingen relatert l
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001142 | Nivestim | – | Hematopoietic Stem Cell Transplantation;Cancer |
-| EMEA/H/C/006400 | Zefylti | – | Neutropenia;Hematopoietic Stem Cell Transplantation;Cancer |
-| EMEA/H/C/000827 | Tevagrastim | – | Hematopoietic Stem Cell Transplantation;Cancer |
-| EMEA/H/C/000917 | Zarzio | – | Hematopoietic Stem Cell Transplantation;Cancer |
-| EMEA/H/C/000918 | Filgrastim Hexal | – | Hematopoietic Stem Cell Transplantation;Cancer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000825 | Ratiograstim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gyldig |
+| EMEA/H/C/000827 | Tevagrastim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gyldig |
+| EMEA/H/C/000917 | Zarzio | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gyldig |
+| EMEA/H/C/000918 | Filgrastim Hexal | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gyldig |
+| EMEA/H/C/001142 | Nivestim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gyldig |
+| EMEA/H/C/003956 | Accofil | filgrastim | – | Gyldig |
+| EMEA/H/C/006400 | Zefylti | filgrastim | Neutropenia; Hematopoietic Stem Cell Transplantation; Cancer | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

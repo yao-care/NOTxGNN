@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lapatinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 
@@ -80,9 +80,15 @@ Foreløpig er ingen relevant litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000795 | Tyverb | Ikke angitt | Ikke angitt i lokale data |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000795 | Tyverb | lapatinib | Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Latanoprost: predikert ny indikasjon Visceral kalsifylaksi (visceral calciphylaxis) (evidensnivå L5). Opprinnelig indikasjon: Glaucoma, Open-Angle"
 ---
 
@@ -68,10 +68,16 @@ Foreløpig finnes ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005933 | Catiolanze | Ikke oppgitt | Glaukom, åpenvinklet |
-| EMEA/H/C/005107 | Roclanda | Ikke oppgitt | Glaukom, åpenvinklet; okulær hypertensjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005107 | Roclanda | Latanoprost; netarsudil mesilate | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+| EMEA/H/C/005933 | Catiolanze | Latanoprost | Glaucoma, Open-Angle | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

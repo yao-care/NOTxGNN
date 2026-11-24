@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 63
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin: predikert ny indikasjon Follikulært lymfom (evidensnivå L3). Opprinnelig indikasjon: Non-Hodgkin-lymfom og Hodgkin-lymfom"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -98,9 +98,15 @@ Det finnes ingen randomiserte studier eller kohortstudier som direkte viser effe
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002455 | Adcetris (Takeda Pharma A/S) | Ikke oppgitt | Non-Hodgkin-lymfom, Hodgkin-lymfom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002455 | Adcetris | Brentuximab vedotin | Lymphoma, Non-Hodgkin; Hodgkin Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og 1 av 1 tillatelse er gyldig.
 

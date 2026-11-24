@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Vernakalant: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L5). Opprinnelig indikasjon: Atrieflimmer"
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
@@ -85,9 +85,15 @@ Merk: Ingen av publikasjonene viser at vernakalant reduserer hjerneslag direkte.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001215 | Brinavess | Ikke oppgitt | Atrieflimmer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001215 | Brinavess | vernakalant hydrochloride | Atrial Fibrillation | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og den ene markedsføringstillatelsen (1 av 1) er gyldig.
 

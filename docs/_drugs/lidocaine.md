@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LIDOCAINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine: predikert ny indikasjon Punktformet epitelial keratokonjunktivitt (evidensnivå L5). Opprinnelig indikasjon: Fysiologisk seksuell dysfunksjon"
 ---
 
@@ -68,9 +68,15 @@ Foreløpig er ingen relevant litteratur tilgjengelig for denne indikasjonen.
 
 ## Norsk markedsinformasjon
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002693 | Fortacin | – | Fysiologisk seksuell dysfunksjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002693 | Fortacin | lidocaine; prilocaine | Sexual Dysfunction, Physiological | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Godkjenningen er en sentral europeisk godkjenning (EMEA).
 

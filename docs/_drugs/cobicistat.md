@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "COBICISTAT"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat: predikert ny indikasjon Simianimmunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -69,13 +69,20 @@ Foreløpig finnes ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002572 | Tybost | Ikke oppgitt | Se lokale lisensposter |
-| EMEA/H/C/003904 | Evotaz | Ikke oppgitt | Se lokale lisensposter |
-| EMEA/H/C/002819 | Rezolsta | Ikke oppgitt | Se lokale lisensposter |
-| EMEA/H/C/004042 | Genvoya | Ikke oppgitt | Se lokale lisensposter |
-| EMEA/H/C/002574 | Stribild | Ikke oppgitt | Se lokale lisensposter |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002572 | Tybost | cobicistat | HIV Infections | Gyldig |
+| EMEA/H/C/002574 | Stribild | elvitegravir; cobicistat; emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/002819 | Rezolsta | darunavir; cobicistat | HIV Infections | Gyldig |
+| EMEA/H/C/003904 | Evotaz | cobicistat; atazanavir | HIV Infections | Gyldig |
+| EMEA/H/C/004042 | Genvoya | elvitegravir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

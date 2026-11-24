@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Varenicline: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L5). Opprinnelig indikasjon: Tobakksavvenning"
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -93,9 +93,15 @@ Det finnes ingen litteratur som viser at vareniklin behandler migrene. Relatert 
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000699 | Champix (Pfizer Europe MA EEIG) | Ikke oppgitt | Tobakksavvenning |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000699 | Champix | varenicline | Tobacco Use Cessation | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Tillatelsen har status **gyldig**. Det finnes 1 gyldig tillatelse av 1, og legemidlet er markedsført.
 

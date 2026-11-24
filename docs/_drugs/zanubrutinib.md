@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanubrutinib: predikert ny indikasjon Myeloid leukemi (evidensnivå L5). Opprinnelig indikasjon: Waldenströms makroglobulinemi"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
@@ -97,9 +97,15 @@ Merk: Ingen av publikasjonene viser effekt av zanubrutinib ved myeloid leukemi. 
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004978 | Brukinsa | Ikke oppgitt | Waldenströms makroglobulinemi (status: opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004978 | Brukinsa | zanubrutinib | Waldenstrom Macroglobulinemia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -144,7 +150,7 @@ Prediksjonen for myeloid leukemi bygger i hovedsak på modellscore. Den eneste s
 
 <!-- review:begin no-lic-20261106-zanubrutinib-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «De øvrige predikerte indikasjonene (bl.a. ganglionevroblastom, Ewing-sarkom og nevroblastom) har ingen eller ingen relevant støtte (evidensnivå L5). Dessuten er den norske autorisasjonen opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «De øvrige predikerte indikasjonene (bl.a. ganglionevroblastom, Ewing-sarkom og nevroblastom) har ingen eller ingen relevant støtte (evidensnivå L5). Dessuten er den norske autorisasjonen opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-zanubrutinib-1 -->
 
@@ -157,7 +163,7 @@ Prediksjonen for myeloid leukemi bygger i hovedsak på modellscore. Den eneste s
 
 <!-- review:begin no-lic-20261106-zanubrutinib-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge, siden eksisterende autorisasjon er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge, siden eksisterende autorisasjon er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-zanubrutinib-2 -->
 
@@ -169,8 +175,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Dessuten er den norske autorisasjonen opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «siden eksisterende autorisasjon er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Dessuten er den norske autorisasjonen opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden eksisterende autorisasjon er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
 
 <!-- review:end log -->

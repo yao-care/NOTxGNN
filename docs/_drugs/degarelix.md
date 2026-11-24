@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Degarelix: predikert ny indikasjon Hypertrikose (hypertrichosis) (evidensnivå L5). Opprinnelig indikasjon: Prostatakreft (Prostatic Neoplasms)"
 monitor_inn: "DEGARELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -95,10 +95,16 @@ Det foreligger foreløpig ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006048 | Degarelix Accord | – | Prostatakreft (kansellert) |
-| EMEA/H/C/000986 | Firmagon | – | Prostatakreft (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000986 | Firmagon | degarelix | Prostatic Neoplasms | Gyldig |
+| EMEA/H/C/006048 | Degarelix Accord | degarelix acetate | Prostatic Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og begge godkjenningene (2 av 2) er gyldige i dag.
 

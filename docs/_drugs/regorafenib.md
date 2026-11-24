@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 352
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L2). Opprinnelig indikasjon: Colorectal Neoplasms"
@@ -80,9 +80,15 @@ Den randomiserte, placebokontrollerte fase 2-studien REGOSARC viste forlenget pr
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002573 | Stivarga (Bayer Pharma AG) | Ikke oppgitt | Kolorektal kreft (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002573 | Stivarga | regorafenib | Colorectal Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

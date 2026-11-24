@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L5). Opprinnelig indikasjon: Graft Rejection"
@@ -92,10 +92,16 @@ All litteratur er indirekte. Den omhandler sarkomer generelt eller kreftrisiko h
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000273 | Rapamune | Ikke oppgitt | Transplantatavstøtning, nyretransplantasjon (godkjent) |
-| EMEA/H/C/005896 | Hyftor | Ikke oppgitt | Angiofibrom, tuberøs sklerose (godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000273 | Rapamune | sirolimus | Graft Rejection; Kidney Transplantation | Gyldig |
+| EMEA/H/C/005896 | Hyftor | sirolimus | Angiofibroma; Tuberous Sclerosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +137,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-10-31 | Fjernet: «Markedsstatusen i Norge er «kun avregistrert», og sikkerhetsdata fra pakningsvedlegget mangler» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-10-31 | Fjernet: «Markedsstatusen i Norge er «kun avregistrert», og sikkerhetsdata fra pakningsvedlegget mangler» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten)) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
 
 <!-- review:end log -->

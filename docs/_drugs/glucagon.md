@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: predikert ny indikasjon Irritabelt tarmsyndrom (irritable bowel syndrome) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus"
@@ -83,10 +83,16 @@ Ingen publikasjon undersøker glukagon ved IBS. Utvalg av de mest relevante:
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005391 | Ogluo | Ikke oppgitt | Diabetes mellitus |
-| EMEA/H/C/003848 | Baqsimi | Ikke oppgitt | Diabetes mellitus |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003848 | Baqsimi | Glucagon | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/005391 | Ogluo | Glucagon | Diabetes Mellitus | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge godkjenningene er gyldige.
 

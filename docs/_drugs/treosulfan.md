@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treosulfan: predikert ny indikasjon Diabetisk katarakt (evidensnivå L5). Opprinnelig indikasjon: Hematopoetisk stamcelletransplantasjon"
 monitor_inn: "TREOSULFAN"
 predicted_indications: ["diabetic cataract"]
@@ -82,9 +82,15 @@ Foreløpig finnes ingen relevant litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004751 | Trecondi | Ikke oppgitt | Hematopoetisk stamcelletransplantasjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004751 | Trecondi | treosulfan | Hematopoietic Stem Cell Transplantation | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 

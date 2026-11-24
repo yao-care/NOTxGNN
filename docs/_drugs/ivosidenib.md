@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivosidenib: predikert ny indikasjon Bulbær polio (evidensnivå L5). Opprinnelig indikasjon: Akutt myeloid leukemi"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
@@ -83,9 +83,15 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005936 | Tibsovo | Ikke oppgitt | Akutt myeloid leukemi; kolangiokarsinom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005936 | Tibsovo | Ivosidenib | Leukemia, Myeloid, Acute; Cholangiocarcinoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og 1 av 1 tillatelser er gyldig. Innehaver: Les Laboratoires Servier.
 

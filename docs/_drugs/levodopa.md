@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: predikert ny indikasjon Rasmussens subakutte encefalitt (evidensnivå L5). Opprinnelig indikasjon: Parkinsons sykdom"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -84,16 +84,22 @@ Dosageform er ikke oppgitt i dataene.
 
 <!-- review:begin no-lic-20261106-levodopa-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle fire godkjenninger er registrert som opphevet. Dosageform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 4, hvorav gyldige: 4; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle fire godkjenninger er registrert som opphevet. Dosageform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-levodopa-1 -->
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004786 | Inbrija | Ikke oppgitt | Parkinsons sykdom |
-| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | Ikke oppgitt | Parkinsons sykdom |
-| EMEA/H/C/000511 | Stalevo | Ikke oppgitt | Parkinsons sykdom |
-| EMEA/H/C/002785 | Corbilta (tidligere Levodopa/Carbidopa/Entacapone Sandoz) | Ikke oppgitt | Parkinsons sykdom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000511 | Stalevo | levodopa; carbidopa; entacapone | Parkinson Disease | Gyldig |
+| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | levodopa; carbidopa; entacapone | Parkinson Disease | Gyldig |
+| EMEA/H/C/002785 | Corbilta (previously Levodopa/Carbidopa/Entacapone Sandoz) | levodopa; carbidopa; entacapone | Parkinson Disease | Gyldig |
+| EMEA/H/C/004786 | Inbrija | levodopa | Parkinson Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +131,7 @@ Prediksjonen er kun modellbasert (L5) uten støtte fra kliniske studier eller li
 
 <!-- review:begin no-lic-20261106-levodopa-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Mekanismen er spekulativ, og levodopa har potensielt uheldige egenskaper ved epilepsi, som er en sentral del av sykdomsbildet ved Rasmussens encefalitt. I tillegg er alle godkjenninger i Norge opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 4, hvorav gyldige: 4; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Mekanismen er spekulativ, og levodopa har potensielt uheldige egenskaper ved epilepsi, som er en sentral del av sykdomsbildet ved Rasmussens encefalitt. I tillegg er alle godkjenninger i Norge opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-levodopa-2 -->
 
@@ -144,8 +150,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle fire godkjenninger er registrert som opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «I tillegg er alle godkjenninger i Norge opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle fire godkjenninger er registrert som opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er alle godkjenninger i Norge opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 183
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fulvestrant: predikert ny indikasjon HIV-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -85,10 +85,16 @@ Det er for tiden ingen kliniske studier registrert for HIV-infeksjon.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000540 | Faslodex (AstraZeneca AB) | Ikke oppgitt | Brystkreft (kansellert) |
-| EMEA/H/C/004649 | Fulvestrant Mylan (Mylan Pharmaceuticals Limited) | Ikke oppgitt | Brystkreft (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000540 | Faslodex | fulvestrant | Breast Neoplasms | Gyldig |
+| EMEA/H/C/004649 | Fulvestrant Mylan | fulvestrant | Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

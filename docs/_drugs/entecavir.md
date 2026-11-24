@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: predikert ny indikasjon Kronisk hepatitt C-virusinfeksjon (chronic hepatitis C virus infection) (evidensnivå L5). Opprinnelig indikasjon: Hepatitis B"
@@ -86,11 +86,17 @@ Studiene som er koblet til prediksjonen gjelder samtidig infeksjon med hepatitt 
 
 Legemidlet er markedsført. Alle tre registrerte tillatelser er gyldige.
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004377 | Entecavir Viatris (tidligere Entecavir Mylan) | Ikke oppgitt | Hepatitt B |
-| EMEA/H/C/000623 | Baraclude | Ikke oppgitt | Kronisk hepatitt B |
-| EMEA/H/C/004458 | Entecavir Accord | Ikke oppgitt | Kronisk hepatitt B |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000623 | Baraclude | Entecavir | Hepatitis B, Chronic | Gyldig |
+| EMEA/H/C/004377 | Entecavir Viatris (previously Entecavir Mylan) | entecavir monohydrate | Hepatitis B | Gyldig |
+| EMEA/H/C/004458 | Entecavir Accord | Entecavir | Hepatitis B, Chronic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

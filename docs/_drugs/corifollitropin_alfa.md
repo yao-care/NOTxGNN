@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Corifollitropin Alfa: predikert ny indikasjon Gastroduodenitt (evidensnivå L5). Opprinnelig indikasjon: Assistert reproduksjonsteknikk"
 monitor_inn: "CORIFOLLITROPIN ALFA"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -92,9 +92,15 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001106 | Elonva | – | Assistert reproduksjonsteknikk; ovulasjonsinduksjon; undersøkelsesteknikker (status: godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001106 | Elonva | corifollitropin alfa | Reproductive Techniques, Assisted; Ovulation Induction; Investigative Techniques | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -116,7 +122,7 @@ Alle åtte prediksjonene er rent modellbaserte (L5) uten kliniske studier, litte
 
 <!-- review:begin no-lic-20261106-corifollitropin_alfa-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste norske tillatelsen er trukket tilbake, og den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste norske tillatelsen er trukket tilbake, og den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-corifollitropin_alfa-1 -->
 
@@ -135,7 +141,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «en eneste norske tillatelsen er trukket tilbake, og d» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «en eneste norske tillatelsen er trukket tilbake, og d» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
 
 <!-- review:end log -->

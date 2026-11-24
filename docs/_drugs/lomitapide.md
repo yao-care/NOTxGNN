@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LOMITAPIDE"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lomitapide: predikert ny indikasjon Makrotrombocytopeni med mitralklaffinsuffisiens (marcothrombocytopenia with mitral valve insufficiency) (evidensnivå L5). Opprinnelig indikasjon: Hypercholesterole…"
 ---
 
@@ -70,9 +70,15 @@ Foreløpig finnes ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002578 | Lojuxta | – | Hypercholesterolemia |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002578 | Lojuxta | Lomitapide | Hypercholesterolemia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

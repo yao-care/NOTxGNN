@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: predikert ny indikasjon Esotropi (esotropia) (evidensnivå L5). Opprinnelig indikasjon: Wet Macular Degeneration"
 ---
 
@@ -81,13 +81,28 @@ Foreløpig finnes det ingen relevant litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006438 | Mynzepli | – | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascularization |
-| EMEA/H/C/005899 | Eydenzelt | – | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascularization |
-| EMEA/H/C/002392 | Eylea | – | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascularization |
-| EMEA/H/C/006339 | Pavblu | – | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Complications |
-| EMEA/H/C/002532 | Zaltrap | – | Colorectal Neoplasms |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002392 | Eylea | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
+| EMEA/H/C/002532 | Zaltrap | aflibercept | Colorectal Neoplasms | Gyldig |
+| EMEA/H/C/005899 | Eydenzelt | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
+| EMEA/H/C/005980 | Baiama | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Gyldig |
+| EMEA/H/C/006022 | Yesafili | aflibercept | Macular Edema; Retinal Vein Occlusion; Diabetic Retinopathy; Myopia, Degenerative; Diabetes Complications | Gyldig |
+| EMEA/H/C/006056 | Opuviz | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Gyldig |
+| EMEA/H/C/006150 | Afqlir | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Gyldig |
+| EMEA/H/C/006192 | Vgenfli | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
+| EMEA/H/C/006282 | Eyluxvi | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Gyldig |
+| EMEA/H/C/006339 | Pavblu | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Gyldig |
+| EMEA/H/C/006438 | Mynzepli | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
+| EMEA/H/C/006607 | Ahzantive | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Gyldig |
+| EMEA/H/C/006745 | Eiyzey | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
+| EMEA/H/C/006761 | Afiveg | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

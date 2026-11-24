@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: predikert ny indikasjon Atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 3 (gyldige: 3)"
 ---
 
@@ -70,11 +70,17 @@ Foreløpig finnes ingen relatert litteratur.
 
 Lokale data viser 3 gyldige godkjenninger. Alle er kombinasjonsprodukter med klopidogrel. De sier derfor ikke noe om status for acetylsalisylsyre som enkeltstoff.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001143 | DuoPlavin | – | Ikke gjengitt her |
-| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (tidligere DuoCover) | – | Ikke gjengitt her |
-| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (tidligere Clopidogrel / Acetylsalicylic acid Mylan) | – | Ikke gjengitt her |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001143 | DuoPlavin | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (previously DuoCov… | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (previously Clop… | acetylsalicylic acid; clopidogrel hydrogen sulfate | Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

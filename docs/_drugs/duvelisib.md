@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duvelisib: predikert ny indikasjon Hodgkins lymfom (Hodgkins lymphoma) (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
@@ -92,9 +92,15 @@ Ingen av studiene nedenfor gjelder Hodgkins lymfom direkte.
 
 ## Markedsinformasjon for Norge
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005381 | Copiktra | Ikke oppgitt | Se lokale lisensdata |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005381 | Copiktra | duvelisib | Leukemia, Lymphocytic, Chronic, B-Cell; Lymphoma, Follicular | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

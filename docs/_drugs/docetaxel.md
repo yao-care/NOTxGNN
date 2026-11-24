@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L2). Opprinnelig indikasjon: Head and Neck Neoplasms"
 ---
 
@@ -96,11 +96,17 @@ Gemcitabin etterfulgt av docetaxel har vist synergistisk cytotoksisitet i labora
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000073 | Taxotere | – | Hode- og halskreft, ikke-småcellet lungekreft, adenokarsinom, prostatakreft, magekreft, brystkreft |
-| EMEA/H/C/002539 | Docetaxel Accord | – | Hode- og halskreft, ikke-småcellet lungekreft, adenokarsinom, prostatakreft, brystkreft |
-| EMEA/H/C/002325 | Docetaxel Kabi | – | Hode- og halskreft, ikke-småcellet lungekreft, adenokarsinom, prostatakreft, brystkreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000073 | Taxotere | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Stomach Neoplas… | Gyldig |
+| EMEA/H/C/002325 | Docetaxel Kabi | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/002539 | Docetaxel Accord | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

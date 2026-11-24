@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cladribine: predikert ny indikasjon Parameningeal embryonal rabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis"
 ---
 
@@ -72,10 +72,16 @@ Det er for tiden ingen relatert litteratur tilgjengelig for den predikerte indik
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004230 | Mavenclad | Ikke oppgitt | Multippel sklerose |
-| EMEA/H/C/000504 | Litak | Ikke oppgitt | Hårcelleleukemi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000504 | Litak | Cladribine | Leukemia, Hairy Cell | Gyldig |
+| EMEA/H/C/004230 | Mavenclad | Cladribine | Multiple Sclerosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

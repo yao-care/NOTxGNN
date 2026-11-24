@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 88
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Catumaxomab: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Ascites"
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
@@ -84,9 +84,15 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005697 | Korjuny | Ikke oppgitt | Ascites |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005697 | Korjuny | catumaxomab | Ascites | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Godkjenningen er registrert som gyldig (1 av 1 gyldige godkjenninger), produsent: Atnahs Pharma Netherlands B.V. Merk at farmakologikilden opplyser at EMA trakk den tidligere godkjenningen (Removab) i 2017 av kommersielle årsaker, og at full godkjenning for malign ascites ble gitt på nytt tidlig i 2025.
 

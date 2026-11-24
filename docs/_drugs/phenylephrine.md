@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 325
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenylephrine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L4). Opprinnelig indikasjon: Intraokulær linseimplantasjon"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -94,9 +94,15 @@ Ingen av publikasjonene viser direkte effekt av fenylefrin alene ved sykdom i ne
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003702 | Omidria | Ikke oppgitt | Intraokulær linseimplantasjon; postoperativ smerte (status: opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003702 | Omidria | ketorolac; phenylephrine | Lens Implantation, Intraocular; Pain, Postoperative | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

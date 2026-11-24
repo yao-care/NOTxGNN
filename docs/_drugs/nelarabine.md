@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: predikert ny indikasjon Relapsing-remitting multippel sklerose (relapsing-remitting multiple sclerosis) (evidensnivå L5). Opprinnelig indikasjon: Precursor T-Cell Lymphoblastic Leukemia-L…"
@@ -83,9 +83,15 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.) | – | Prekursor T-celle lymfoblastisk leukemi/lymfom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000752 | Atriance | nelarabine | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelse er gyldig.
 

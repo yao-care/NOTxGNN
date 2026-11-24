@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imiquimod: predikert ny indikasjon Premaligne neoplasmer (pre-malignant neoplasm) (evidensnivå L5). Opprinnelig indikasjon: Keratosis"
 ---
 
@@ -92,10 +92,16 @@ Begrepet «premalign neoplasme» er imidlertid bredt, og effekten varierer med l
 
 ## Markedsinformasjon for Norge
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002387 | Zyclara | – | Keratosis; Keratosis, Actinic |
-| EMEA/H/C/000179 | Aldara | – | Condylomata Acuminata; Keratosis; Keratosis, Actinic; Carcinoma, Basal Cell |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000179 | Aldara | imiquimod | Condylomata Acuminata; Keratosis; Keratosis, Actinic; Carcinoma, Basal Cell | Gyldig |
+| EMEA/H/C/002387 | Zyclara | imiquimod | Keratosis; Keratosis, Actinic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

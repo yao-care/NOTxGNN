@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: predikert ny indikasjon kolesterolester-transferproteinmangel (cholesterol-ester transfer protein deficiency) (evidensnivå L5)"
 ---
 
@@ -73,9 +73,15 @@ Ingen av publikasjonene studerer ezetimib ved CETP-mangel direkte.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004959 | Nustendi | – | Hyperkolesterolemi, dyslipidemi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004959 | Nustendi | bempedoic acid; ezetimibe | Hypercholesterolemia; Dyslipidemias | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Nustendi er godkjent som sentral europeisk godkjenning, og denne oppføringen er den eneste i datagrunnlaget.
 

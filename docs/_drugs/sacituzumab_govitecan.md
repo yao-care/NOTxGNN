@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacituzumab Govitecan: predikert ny indikasjon Legemiddelindusert osteoporose (evidensnivå L5). Opprinnelig indikasjon: Brystkreft"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -89,9 +89,15 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005182 | Trodelvy | – | Brystkreft; trippelnegativ brystkreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005182 | Trodelvy | sacituzumab govitecan | Breast Neoplasms; Triple Negative Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 

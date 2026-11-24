@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cerliponase Alfa: predikert ny indikasjon Scheie syndrom (evidensnivå L5). Opprinnelig indikasjon: Nevronale ceroid-lipofuscinoser"
 monitor_inn: "CERLIPONASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
@@ -89,9 +89,15 @@ For sammenhengen kan nevnes at for den femte predikerte indikasjonen (Gaucher sy
 
 ## Informasjon om markedet i Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004065 | Brineura | Ikke oppgitt | Nevronale ceroid-lipofuscinoser (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004065 | Brineura | cerliponase alfa | Neuronal Ceroid-Lipofuscinoses | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

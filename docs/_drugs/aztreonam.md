@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZTREONAM"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aztreonam: predikert ny indikasjon Hyperamylasemi (hyperamylasemia) (evidensnivå L5). Opprinnelig indikasjon: Gram-Negative Bacterial Infections"
 ---
 
@@ -68,9 +68,15 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006113 | Emblaveo | Ikke oppgitt | Ikke oppgitt i de lokale dataene |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006113 | Emblaveo | avibactam; aztreonam | Gram-Negative Bacterial Infections; Urinary Tract Infections; Healthcare-Associated Pneumonia; Soft Tissue In… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Denne godkjenningen gjelder et produkt som oppføres som enkeltstoff i de lokale dataene, og lisensposten er markert som kansellert, mens samlet markedsstatus i dataene er «Markedsført». Statusen bør verifiseres mot oppdatert kilde før en eventuell beslutning.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: predikert ny indikasjon Hypermobilitet i halebenet (hypermobility of coccyx) (evidensnivå L5). Opprinnelig indikasjon: Hidradenitis Suppurativa"
 ---
 
@@ -79,6 +79,26 @@ Foreløpig finnes ingen relatert litteratur.
 ## Informasjon om det norske markedet
 
 Adalimumab er markedsført i Norge. Detaljer om de enkelte godkjenningene settes inn av programmet fra de lokale lisensregistrene.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000481 | Humira | adalimumab | Spondylitis, Ankylosing; Arthritis, Juvenile Rheumatoid; Uveitis; Colitis, Ulcerative; Psoriasis; Arthritis,… | Gyldig |
+| EMEA/H/C/004212 | Amgevita | adalimumab | Arthritis, Psoriatic; Colitis, Ulcerative; Arthritis, Juvenile Rheumatoid; Spondylitis, Ankylosing; Psoriasis… | Gyldig |
+| EMEA/H/C/004279 | Imraldi | adalimumab | Spondylitis, Ankylosing; Arthritis, Rheumatoid; Uveitis; Colitis, Ulcerative; Psoriasis; Arthritis, Psoriatic… | Gyldig |
+| EMEA/H/C/004320 | Hyrimoz | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppurativa; Coli… | Gyldig |
+| EMEA/H/C/004429 | Hulio | adalimumab | Hidradenitis Suppurativa; Psoriasis; Uveitis; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Crohn Disease;… | Gyldig |
+| EMEA/H/C/004475 | Idacio | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Gyldig |
+| EMEA/H/C/004865 | Hefiya | adalimumab | Spondylitis, Ankylosing; Hidradenitis Suppurativa; Psoriasis; Arthritis, Juvenile Rheumatoid; Uveitis | Gyldig |
+| EMEA/H/C/004879 | Amsparity | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Gyldig |
+| EMEA/H/C/005188 | Yuflyma | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Gyldig |
+| EMEA/H/C/005548 | Hukyndra | adalimumab | Arthritis, Psoriatic; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disea… | Gyldig |
+| EMEA/H/C/005947 | Libmyris | adalimumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Spondylitis, Ankylosing; Arthritis, Psoriatic; Psorias… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

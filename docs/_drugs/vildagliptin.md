@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: predikert ny indikasjon Classic stiff person syndrome (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus, Type 2"
@@ -115,19 +115,33 @@ Doseringsform er ikke oppgitt i dataene.
 
 <!-- review:begin no-lic-20261106-vildagliptin-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Doseringsform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Doseringsform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-vildagliptin-1 -->
 
-| Tillatelsesnummer | Produktnavn | Innehaver | Godkjent indikasjon | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
-| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
-| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
-| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
-| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
+<!-- licenses:begin -->
 
-Totalt er det 7 tillatelser. De to siste er Icandra (EMEA/H/C/001050) og Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738).
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000771 | Galvus | vildagliptin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000807 | Eucreas | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001048 | Jalra | vildagliptin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001049 | Zomarist | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001050 | Icandra (previously Vildagliptin / metformin hydrochloride… | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/001051 | Xiliarx | vildagliptin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | metformin hydrochloride; vildagliptin | Diabetes Mellitus, Type 2 | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
+
+Totalt er det 7 tillatelser. 
+
+<!-- review:begin no-lic-20261124-vildagliptin-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «De to siste er Icandra (EMEA/H/C/001050) og Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738).» Fjernet: setningen viste til hvilke godkjenninger den tidligere tabellen (fem rader) ikke tok med; lisenstabellen lages nå av programmet og viser alle godkjenningene i dataene, også Icandra og Vildagliptin / Metformin hydrochloride Accord. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261124-vildagliptin-1 -->
 
 ---
 
@@ -162,8 +176,9 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
+| 2026-11-24 | Fjernet: «De to siste er Icandra … og Vildagliptin / Metformin hydrochloride Accord …» | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

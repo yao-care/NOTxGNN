@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATEZOLIZUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: predikert ny indikasjon Livmorligamentadenokarsinom (uterine ligament adenocarcinoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Transitional Cell"
 ---
 
@@ -80,9 +80,15 @@ Foreløpig ingen relatert litteratur tilgjengelig for denne indikasjonen.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004143 | Tecentriq | – | Se lisensdata |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004143 | Tecentriq | atezolizumab | Carcinoma, Transitional Cell; Carcinoma, Non-Small-Cell Lung; Urologic Neoplasms; Breast Neoplasms; Small Cel… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Dataene viser én gyldig lisens (enkeltstoffprodukt) for atezolizumab.
 

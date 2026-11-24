@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: predikert ny indikasjon Hypermobilitet i halebenet (hypermobility of coccyx) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 
@@ -79,6 +79,19 @@ Foreløpig er det ingen relevant litteratur som direkte undersøker denne tilsta
 ## Markedsinformasjon for Norge
 
 Legemidlet har status «på markedet» i Norge ifølge de lokale godkjenningsdataene. Godkjenningsoversikten genereres av programmet og er ikke gjentatt her.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000262 | Enbrel | etanercept | Spondylitis, Ankylosing; Arthritis, Juvenile Rheumatoid; Arthritis, Psoriatic; Psoriasis; Arthritis, Rheumato… | Gyldig |
+| EMEA/H/C/004007 | Benepali | etanercept | Arthritis, Psoriatic; Arthritis, Rheumatoid; Psoriasis | Gyldig |
+| EMEA/H/C/004192 | Erelzi | etanercept | Arthritis, Psoriatic; Psoriasis; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid; Spondylitis, Ankylosi… | Gyldig |
+| EMEA/H/C/004711 | Nepexto | etanercept | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Arthritis, Psoriatic; Spondylarthropathies; Spondyliti… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

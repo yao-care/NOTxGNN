@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brolucizumab: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Våt makuladegenerasjon"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
@@ -93,9 +93,15 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004913 | Beovu | Ikke oppgitt | Våt makuladegenerasjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004913 | Beovu | brolucizumab | Wet Macular Degeneration | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og tillatelsen er gyldig (1 av 1 gyldige tillatelser).
 
@@ -118,7 +124,7 @@ Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra klini
 
 <!-- review:begin no-lic-20261031-brolucizumab-1 -->
 
-> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra kliniske studier eller litteratur, og det er ikke identifisert noen plausibel mekanistisk sammenheng. I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra kliniske studier eller litteratur, og det er ikke identifisert noen plausibel mekanistisk sammenheng. I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261031-brolucizumab-1 -->
 
@@ -137,7 +143,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-10-31 | Fjernet: «I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-10-31 | Fjernet: «I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
 
 <!-- review:end log -->

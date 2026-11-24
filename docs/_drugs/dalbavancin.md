@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dalbavancin: predikert ny indikasjon postinfeksiøs vaskulitt (postinfectious vasculitis) (evidensnivå L5). Opprinnelig indikasjon: Soft Tissue Infections"
 ---
 
@@ -70,9 +70,15 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002840 | Xydalba | – | Bløtvevsinfeksjoner; bakterielle hudsykdommer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002840 | Xydalba | dalbavancin hydrochloride | Soft Tissue Infections; Skin Diseases, Bacterial | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsmomenter
 

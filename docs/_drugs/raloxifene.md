@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Raloxifene: predikert ny indikasjon Duodenalt sår (evidensnivå L5). Opprinnelig indikasjon: Postmenopausal osteoporose"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -87,17 +87,17 @@ Foreløpig finnes ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000184 | Evista (Substipharm) | – | Postmenopausal osteoporose (godkjent) |
-| EMEA/H/C/000185 | Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (trukket tilbake) |
-| EMEA/H/C/001075 | Raloxifene Teva (Teva B.V.) | – | Postmenopausal osteoporose (godkjent) |
+<!-- licenses:begin -->
 
-<!-- review:begin no-row-20261112-raloxifene-1 -->
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000184 | Evista | raloxifene hydrochloride | Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/001075 | Raloxifene Teva | raloxifene hydrochloride | Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/000185 | Optruma | raloxifene hydrochloride | Osteoporosis, Postmenopausal | Trukket tilbake |
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Optruma (Eli Lilly Nederland B.V.) &#124; – &#124; Postmenopausal osteoporose (godkjent)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Optruma (EMEA/H/C/000185) trukket tilbake («Withdrawn»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
-<!-- review:end no-row-20261112-raloxifene-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -119,7 +119,7 @@ Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasj
 
 <!-- review:begin no-lic-20261106-raloxifene-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ingen mekanistisk sammenheng er støttet av dataene, og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 3, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ingen mekanistisk sammenheng er støttet av dataene, og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-raloxifene-1 -->
 
@@ -133,7 +133,7 @@ Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasj
 
 <!-- review:begin no-lic-20261106-raloxifene-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status, siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 3, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status, siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-raloxifene-2 -->
 
@@ -145,9 +145,9 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-12 | Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Fjernet: «og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent | Erstattet av den programgenererte lisenstabellen (tidligere: Rettet) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
 
 <!-- review:end log -->

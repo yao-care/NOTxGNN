@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tagraxofusp: predikert ny indikasjon Esotropi (evidensnivå L5). Opprinnelig indikasjon: Lymfom"
 monitor_inn: "TAGRAXOFUSP"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
@@ -82,9 +82,15 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005031 | Elzonris | Ikke oppgitt | Lymfom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005031 | Elzonris | tagraxofusp | Lymphoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Denne godkjenningen er gyldig, og legemidlet er markedsført (1 av 1 godkjenninger er gyldige).
 

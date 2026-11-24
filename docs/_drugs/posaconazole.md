@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 333
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Posaconazole: predikert ny indikasjon pneumocystosis (evidensnivå L4)."
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -94,11 +94,17 @@ Ingen av publikasjonene er randomiserte studier som viser effekt av posakonazol 
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005005 | Posaconazole Accord | Ikke oppgitt | Mykoser (kansellert) |
-| EMEA/H/C/000610 | Noxafil | Ikke oppgitt | Candidiasis, mykoser, koksidioidomykose, aspergillose (kansellert) |
-| EMEA/H/C/005028 | Posaconazole AHCL | Ikke oppgitt | Mykoser (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000610 | Noxafil | posaconazole | Candidiasis; Mycoses; Coccidioidomycosis; Aspergillosis | Gyldig |
+| EMEA/H/C/005005 | Posaconazole Accord | posaconazole | Mycoses | Gyldig |
+| EMEA/H/C/005028 | Posaconazole AHCL | posaconazole | Mycoses | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle tre godkjenningene er gyldige.
 

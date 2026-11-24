@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranolazine: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD) (evidensnivå L5). Opprinnelig indikasjon: Angina pectoris"
 monitor_inn: "RANOLAZINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -81,9 +81,15 @@ Det er for tiden ingen relevant litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000805 | Ranexa (tidligere Latixa) | Ikke oppgitt | Angina pectoris |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000805 | Ranexa (previously Latixa) | ranolazine | Angina Pectoris | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"
@@ -86,9 +86,15 @@ Ingen av publikasjonene omhandler luftveismisdannelse direkte.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004881 | Seffalair Spiromax | Ikke angitt | Astma (status: godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004881 | Seffalair Spiromax | fluticasone propionate; salmeterol xinafoate | Asthma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 
@@ -120,7 +126,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-10-31 | Fjernet: «Siden bruken i stor grad overlapper med eksisterende praksis, og fordi preparatet i dag kun har en avregistrert godkjenning i Norge, bør bru» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-10-31 | Fjernet: «Siden bruken i stor grad overlapper med eksisterende praksis, og fordi preparatet i dag kun har en avregistrert godkjenning i Norge, bør bru» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten)) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->

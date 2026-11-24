@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Remdesivir: predikert ny indikasjon Multippel endokrin neoplasi (evidensnivå L5). Opprinnelig indikasjon: COVID-19-virusinfeksjon"
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
@@ -99,9 +99,15 @@ Litteraturen gir bare indirekte støtte for HIV; ingen publikasjoner viser anti-
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005622 | Veklury (Gilead Sciences Ireland UC) | Ikke oppgitt | COVID-19-virusinfeksjon (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005622 | Veklury | remdesivir | COVID-19 virus infection | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Chenodeoxycholic Acid: predikert ny indikasjon Homozygot familiær hyperkolesterolemi (evidensnivå L5). Opprinnelig indikasjon: Cerebrotendinøs xantomatose"
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
@@ -73,9 +73,15 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (tidligere Chenodeoxycholic acid sigma-tau) | Ikke oppgitt | Cerebrotendinøs xantomatose; medfødte stoffskiftefeil (status: godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (previously Chenodeoxycholic… | chenodeoxycholic acid | Xanthomatosis, Cerebrotendinous; Metabolism, Inborn Errors | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

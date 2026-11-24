@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan: predikert ny indikasjon pulmonal arteriovenøs malformasjon (pulmonary arteriovenous malformation (disease)) (evidensnivå L5). Opprinnelig indikasjon: Hypertension, Pulmonary"
 ---
 
@@ -80,10 +80,16 @@ Foreløpig er ingen relevante kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004985 | Ambrisentan Viatris (tidligere Ambrisentan Mylan) | Ikke oppgitt | Pulmonal hypertensjon |
-| EMEA/H/C/000839 | Volibris | Ikke oppgitt | Pulmonal hypertensjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000839 | Volibris | ambrisentan | Hypertension, Pulmonary | Gyldig |
+| EMEA/H/C/004985 | Ambrisentan Viatris (previously Ambrisentan Mylan) | ambrisentan | Hypertension, Pulmonary | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

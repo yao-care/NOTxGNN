@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Memantine: predikert ny indikasjon Pulmonal hypertensjon (pulmonary hypertension) (evidensnivå L5). Opprinnelig indikasjon: Alzheimer Disease"
@@ -71,15 +71,24 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000463 | Ebixa | – | Alzheimers sykdom |
-| EMEA/H/C/000378 | Axura | – | Alzheimers sykdom |
-| EMEA/H/C/002711 | Memantine Merz | – | Alzheimers sykdom |
-| EMEA/H/C/002671 | Memantine ratiopharm | – | Alzheimers sykdom |
-| EMEA/H/C/002658 | Marixino (tidligere Maruxa) | – | Alzheimers sykdom |
+<!-- licenses:begin -->
 
-Alle 8 registrerte tillatelser er gyldige. Listen viser de fem første.
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000378 | Axura | memantine hydrochloride | Alzheimer Disease | Gyldig |
+| EMEA/H/C/000463 | Ebixa | memantine hydrochloride | Alzheimer Disease | Gyldig |
+| EMEA/H/C/002658 | Marixino (previously Maruxa) | memantine hydrochloride | Alzheimer Disease | Gyldig |
+| EMEA/H/C/002660 | Memantine Mylan | memantine hydrochloride | Alzheimer Disease | Gyldig |
+| EMEA/H/C/002671 | Memantine ratiopharm | memantine hydrochloride | Alzheimer Disease | Gyldig |
+| EMEA/H/C/002680 | Nemdatine | memantine | Alzheimer Disease | Gyldig |
+| EMEA/H/C/002711 | Memantine Merz | memantine hydrochloride | Alzheimer Disease | Gyldig |
+| EMEA/H/C/002766 | Memantine Accord | memantine hydrochloride | Alzheimer Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
+
+Alle 8 registrerte tillatelser er gyldige.
 
 ## Sikkerhetsvurderinger
 

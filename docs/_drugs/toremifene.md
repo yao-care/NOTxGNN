@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Toremifene: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
@@ -83,9 +83,15 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000091 | Fareston | Ikke oppgitt | Brystkreft (status: opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000091 | Fareston | toremifene | Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +132,7 @@ Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste 
 
 <!-- review:begin no-lic-20261106-toremifene-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste litteraturen gjelder soppinfeksjon, ikke HIV. Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til å gå videre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste litteraturen gjelder soppinfeksjon, ikke HIV. Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til å gå videre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-toremifene-1 -->
 
@@ -145,7 +151,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->

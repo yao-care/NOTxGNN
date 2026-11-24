@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Parathyroid Hormone: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Hypoparatyreoidisme"
 monitor_inn: "PARATHYROID HORMONE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -89,15 +89,15 @@ Det er for tiden ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003861 | Natpar | Ikke oppgitt | Hypoparatyreoidisme (trukket tilbake) |
+<!-- licenses:begin -->
 
-<!-- review:begin no-row-20261112-parathyroid_hormone-1 -->
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003861 | Natpar | parathyroid hormone | Hypoparathyroidism | Trukket tilbake |
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Hypoparatyreoidisme (godkjent)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Natpar (EMEA/H/C/003861) trukket tilbake («Withdrawn»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
-<!-- review:end no-row-20261112-parathyroid_hormone-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -134,7 +134,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent | Erstattet av den programgenererte lisenstabellen (tidligere: Rettet) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
 
 <!-- review:end log -->

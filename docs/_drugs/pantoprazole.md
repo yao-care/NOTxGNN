@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predikert ny indikasjon Duodenal obstruction (evidensnivå L5). Opprinnelig indikasjon: Gastroesophageal Reflux"
@@ -93,11 +93,17 @@ Merk: Tittelen er avkortet, så nøyaktig komparator og populasjon bør verifise
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001013 | Pantozol Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
-| EMEA/H/C/001097 | Controloc Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
-| EMEA/H/C/001098 | Somac Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001013 | Pantozol Control | pantoprazole | Gastroesophageal Reflux | Gyldig |
+| EMEA/H/C/001097 | Controloc Control | pantoprazole | Gastroesophageal Reflux | Gyldig |
+| EMEA/H/C/001098 | Somac Control | pantoprazole | Gastroesophageal Reflux | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,7 +139,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 <!-- review:begin no-lic-20261106-pantoprazole-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus (avregistrerte godkjenninger) i relevant jurisdiksjon.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 3, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus (avregistrerte godkjenninger) i relevant jurisdiksjon.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-pantoprazole-1 -->
 
@@ -145,7 +151,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «(avregistrerte godkjenninger)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «(avregistrerte godkjenninger)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->

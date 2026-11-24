@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predikert ny indikasjon Duodenal ulcer (disease) (evidensnivå L5). Opprinnelig indikasjon: Osteoporosis"
@@ -97,7 +97,7 @@ Merk: Studiedesign er delvis utledet fra titler og sammendrag og bør verifisere
 
 <!-- review:begin no-lic-20261106-teriparatide-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-teriparatide-1 -->
 
@@ -105,13 +105,21 @@ Merk: Studiedesign er delvis utledet fra titler og sammendrag og bør verifisere
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000425 | Forsteo | – | Osteoporose; postmenopausal osteoporose |
-| EMEA/H/C/005087 | Livogiva | – | Osteoporose |
-| EMEA/H/C/004932 | Kauliv | – | Osteoporose; postmenopausal osteoporose |
-| EMEA/H/C/004368 | Movymia | – | Osteoporose |
-| EMEA/H/C/005793 | Teriparatide Sun | – | Osteoporose; postmenopausal osteoporose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000425 | Forsteo | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/003916 | Terrosa | teriparatide | Osteoporosis | Gyldig |
+| EMEA/H/C/004368 | Movymia | teriparatide | Osteoporosis | Gyldig |
+| EMEA/H/C/004932 | Kauliv | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/005087 | Livogiva | teriparatide | Osteoporosis | Gyldig |
+| EMEA/H/C/005793 | Teriparatide Sun | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/005827 | Sondelbay | teriparatide | Osteoporosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -150,7 +158,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->

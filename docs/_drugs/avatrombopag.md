@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avatrombopag"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avatrombopag: predikert ny indikasjon Makrotrombocytopeni med mitralklaffinsuffisiens (marcothrombocytopenia with mitral valve insufficiency) (evidensnivå L5). Opprinnelig indikasjon: Thrombocytopeni"
 ---
 
@@ -70,9 +70,15 @@ For tiden er ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004722 | Doptelet | Ikke oppgitt | Thrombocytopenia |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004722 | Doptelet | avatrombopag maleate | Thrombocytopenia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fostamatinib: predikert ny indikasjon Autosomal trombocytopeni med normale blodplater (evidensnivå L5). Opprinnelig indikasjon: Trombocytopeni"
 monitor_inn: "Fostamatinib"
 predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]
@@ -84,9 +84,15 @@ Det finnes foreløpig ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005012 | Tavlesse | – | Trombocytopeni |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005012 | Tavlesse | Fostamatinib disodium | Thrombocytopenia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Det finnes 1 gyldig godkjenning av 1 i Norge, og legemidlet er markedsført.
 

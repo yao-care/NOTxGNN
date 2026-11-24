@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guanfacine: predikert ny indikasjon Aarskog-Scott-syndrom (faciodigitogenital syndrome) (evidensnivå L5). Opprinnelig indikasjon: Attention Deficit Disorder with Hyperactivity"
 ---
 
@@ -68,10 +68,16 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006312 | Paxneury | – | – |
-| EMEA/H/C/003759 | Intuniv | – | – |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003759 | Intuniv | guanfacine hydrochloride | Attention Deficit Disorder with Hyperactivity | Gyldig |
+| EMEA/H/C/006312 | Paxneury | guanfacine hydrochloride | Attention Deficit Disorder with Hyperactivity | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Markedsstatus for guanfacin i Norge er registrert som markedsført.
 

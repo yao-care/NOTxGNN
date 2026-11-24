@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ocrelizumab: predikert ny indikasjon HER2-positiv brystkreft (evidensnivå L5). Opprinnelig indikasjon: Multippel sklerose"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
@@ -90,9 +90,15 @@ Disse publikasjonene gir ingen evidens for brystkreft. De er kun bakgrunn om leg
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004043 | Ocrevus | Ikke oppgitt | Multippel sklerose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004043 | Ocrevus | ocrelizumab | Multiple Sclerosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og 1 av 1 godkjenning er gyldig.
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluticasone Furoate: predikert ny indikasjon Atopisk eksem (evidensnivå L5). Opprinnelig indikasjon: Sesongbetinget og helårs allergisk rhinitt"
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
@@ -88,13 +88,19 @@ Merk: Den samme litteraturen er koblet til både «atopic eczema» og «dermatit
 
 Alle godkjenninger i de innsamlede dataene er kansellert.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000770 | Avamys | Ikke oppgitt | Sesongbetinget og helårs allergisk rhinitt |
-| EMEA/H/C/002673 | Relvar Ellipta | Ikke oppgitt | Kronisk obstruktiv lungesykdom (KOLS) |
-| EMEA/H/C/002745 | Revinty Ellipta | Ikke oppgitt | Astma |
-| EMEA/H/C/004363 | Trelegy Ellipta | Ikke oppgitt | Kronisk obstruktiv lungesykdom (KOLS) |
-| EMEA/H/C/004781 | Elebrato Ellipta | Ikke oppgitt | Kronisk obstruktiv lungesykdom (KOLS) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000770 | Avamys | fluticasone furoate | Rhinitis, Allergic, Seasonal; Rhinitis, Allergic, Perennial | Gyldig |
+| EMEA/H/C/002673 | Relvar Ellipta | fluticasone furoate; vilanterol | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/002745 | Revinty Ellipta | fluticasone furoate; vilanterol trifenatate | Asthma | Gyldig |
+| EMEA/H/C/004363 | Trelegy Ellipta | fluticasone furoate; umeclidinium bromide; vilanterol trifenatate | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004781 | Elebrato Ellipta | fluticasone furoate; umeclidinium bromide; vilanterol trifenatate | Pulmonary Disease, Chronic Obstructive | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

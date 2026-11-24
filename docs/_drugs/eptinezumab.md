@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 157
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Eptinezumab: kjente bruksområder og markedsstatus i Norge; foreløpig ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Alle kandidatene som TxGNN-modellen ga for Eptinezumab (score ≥ 0,99), er alle
 
 ## Informasjon om det norske markedet
 
-| Tillatelse | Produkt | Legemiddelform | Status |
-|------|------|------|------|
-| EMEA/H/C/005287 | Eptinezumab |  | Gyldig |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005287 | Vyepti | Eptinezumab | Migraine Disorders | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

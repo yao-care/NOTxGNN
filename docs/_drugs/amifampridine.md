@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amifampridine: predikert ny indikasjon Glaukom (evidensnivå L5). Opprinnelig indikasjon: Lambert-Eaton myasteniske syndrom"
 monitor_inn: "AMIFAMPRIDINE"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
@@ -81,10 +81,16 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001032 | Firdapse (tidligere Zenas) | – | Lambert-Eaton myasteniske syndrom |
-| EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eaton myasteniske syndrom; paraneoplastiske syndromer i nervesystemet; neoplasmer i nervesystemet; paraneoplastiske syndromer; sykdommer i nervesystemet; autoimmune sykdommer i nervesystemet; ... |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001032 | Firdapse (previously Zenas) | amifampridine | Lambert-Eaton Myasthenic Syndrome | Gyldig |
+| EMEA/H/C/005839 | Amifampridine SERB | amifampridine phosphate | Lambert-Eaton Myasthenic Syndrome; Paraneoplastic Syndromes, Nervous System; Nervous System Neoplasms; Parane… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge tillatelsene er gyldige (2 av 2), og legemidlet er markedsført i Norge.
 

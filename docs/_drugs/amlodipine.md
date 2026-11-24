@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: predikert ny indikasjon Hjernestamme­infarkt (brain stem infarction) (evidensnivå L5). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -80,21 +80,30 @@ Foreløpig finnes det ingen relatert litteratur for denne indikasjonen.
 
 ## Markedsinformasjon for Norge
 
-De fem første er vist nedenfor. Doseringsform er ikke oppgitt i dataene.
-
 <!-- review:begin no-lic-20261106-amlodipine-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle åtte godkjenningene er avregistrert. De fem første er vist nedenfor.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 8, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle åtte godkjenningene er avregistrert. De fem første er vist nedenfor.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Setningen om hvor mange godkjenninger den tidligere tabellen viste, er også fjernet: lisenstabellen lages nå av programmet og viser alle godkjenningene i dataene (2026-11-24). Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-amlodipine-1 -->
 
-| Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000716 | Exforge | Godkjent | Hypertensjon |
-| EMEA/H/C/000776 | Dafiro | Godkjent | Hypertensjon |
-| EMEA/H/C/000774 | Copalia | Godkjent | Hypertensjon |
-| EMEA/H/C/001224 | Twynsta | Godkjent | Hypertensjon |
-| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | Godkjent | Hypertensjon |
+Doseringsform er ikke oppgitt i dataene.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000716 | Exforge | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gyldig |
+| EMEA/H/C/000774 | Copalia | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gyldig |
+| EMEA/H/C/000776 | Dafiro | amlodipine; valsartan | Hypertension | Gyldig |
+| EMEA/H/C/001068 | Exforge HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gyldig |
+| EMEA/H/C/001159 | Copalia HCT | amlodipine; valsartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/001160 | Dafiro HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gyldig |
+| EMEA/H/C/001224 | Twynsta | telmisartan; amlodipine | Hypertension | Gyldig |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | amlodipine besilate; valsartan | Hypertension | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -150,7 +159,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle åtte godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle åtte godkjenningene er avregistrert» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->

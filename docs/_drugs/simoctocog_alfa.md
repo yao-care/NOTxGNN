@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Simoctocog Alfa: predikert ny indikasjon Pseudo-von Willebrand sykdom (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -92,10 +92,16 @@ Foreløpig finnes det ingen relevant litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002813 | Nuwiq | Ikke oppgitt | Hemofili A (godkjent) |
-| EMEA/H/C/004459 | Vihuma | Ikke oppgitt | Hemofili A (godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002813 | Nuwiq | simoctocog alfa | Hemophilia A | Gyldig |
+| EMEA/H/C/004459 | Vihuma | simoctocog alfa | Hemophilia A | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og begge markedsføringstillatelsene (2 av 2) er gyldige.
 
@@ -119,7 +125,7 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og
 
 <!-- review:begin no-lic-20261106-simoctocog_alfa-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene. I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene. I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-simoctocog_alfa-1 -->
 
@@ -130,7 +136,7 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og
 
 <!-- review:begin no-lic-20261106-simoctocog_alfa-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ved eventuell videre vurdering: avgrens til «ervervet koagulasjonsfaktormangel» (rang 5) med en målrettet litteraturgjennomgang, og utelukk TTP på sikkerhetsgrunnlag / Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ved eventuell videre vurdering: avgrens til «ervervet koagulasjonsfaktormangel» (rang 5) med en målrettet litteraturgjennomgang, og utelukk TTP på sikkerhetsgrunnlag / Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-simoctocog_alfa-2 -->
 
@@ -142,8 +148,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde (revidert 2026-11-20; tidligere versjon er lagret i posten) | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Arsenic Trioxide: predikert ny indikasjon Uklassifisert myelodysplastisk syndrom (unclassified myelodysplastic syndrome) (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Promyelocytic, Acute"
 ---
 
@@ -70,11 +70,17 @@ Foreløpig finnes ingen relatert litteratur for denne diagnosen.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005218 | Arsenic trioxide medac | – | Akutt promyelocyttleukemi |
-| EMEA/H/C/000388 | Trisenox | – | Akutt promyelocyttleukemi |
-| EMEA/H/C/005175 | Arsenic trioxide Accord | – | Akutt promyelocyttleukemi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000388 | Trisenox | arsenic trioxide | Leukemia, Promyelocytic, Acute | Gyldig |
+| EMEA/H/C/005175 | Arsenic trioxide Accord | arsenic trioxide | Leukemia, Promyelocytic, Acute | Gyldig |
+| EMEA/H/C/005218 | Arsenic trioxide medac | arsenic trioxide | Leukemia, Promyelocytic, Acute | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 145
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L3). Opprinnelig indikasjon: Idiopatisk trombocytopen purpura"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
@@ -93,9 +93,15 @@ En screening fra 2020 av FDA-godkjente stoffer antydet en mulig effekt på HIV-1
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001110 | Revolade (Novartis Europharm Limited) | Ikke oppgitt | Idiopatisk trombocytopen purpura; aplastisk anemi (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001110 | Revolade | eltrombopag | Purpura, Thrombocytopenic, Idiopathic; Anemia, Aplastic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

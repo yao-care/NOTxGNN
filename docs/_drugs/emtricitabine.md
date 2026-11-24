@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emtricitabine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -76,13 +76,32 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 Status: markedsført.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000533 | Emtriva | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/004094 | Descovy | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/004215 | Emtricitabine/Tenofovir disoproxil Krka | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/004137 | Emtricitabine/Tenofovir disoproxil Zentiva | Ikke oppgitt | Hiv-infeksjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000533 | Emtriva | emtricitabine | HIV Infections | Gyldig |
+| EMEA/H/C/000594 | Truvada | emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/002312 | Eviplera | emtricitabine; rilpivirine hydrochloride; tenofovir disoproxil fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/002574 | Stribild | elvitegravir; cobicistat; emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/004042 | Genvoya | elvitegravir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004050 | Emtricitabine/Tenofovir disoproxil Mylan | emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gyldig |
+| EMEA/H/C/004094 | Descovy | emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004137 | Emtricitabine/Tenofovir disoproxil Zentiva | emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gyldig |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004215 | Emtricitabine/Tenofovir disoproxil Krka | emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gyldig |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | efavirenz; emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gyldig |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | efavirenz; emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gyldig |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | efavirenz; emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gyldig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004449 | Biktarvy | bictegravir; emtricitabine; tenofovir alafenamide; fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/004686 | Emtricitabine/Tenofovir disoproxil Krka d.d. | emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gyldig |
+| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | emtricitabine; tenofovir alafenamide fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetshensyn
 

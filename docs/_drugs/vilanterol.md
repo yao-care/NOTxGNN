@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vilanterol: predikert ny indikasjon Hyperlusent lunge (hyperlucent lung) (evidensnivå L5). Opprinnelig indikasjon: Pulmonary Disease, Chronic Obstructive"
 ---
 
@@ -69,10 +69,16 @@ Foreløpig finnes det ingen relevant litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002673 | Relvar Ellipta | – | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/003754 | Laventair Ellipta (tidligere Laventair) | – | Kronisk obstruktiv lungesykdom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002673 | Relvar Ellipta | fluticasone furoate; vilanterol | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/003754 | Laventair Ellipta (previously Laventair) | umeclidinium bromide; vilanterol | Pulmonary Disease, Chronic Obstructive | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsmomenter
 

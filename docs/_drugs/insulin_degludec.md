@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Degludec: predikert ny indikasjon Autoimmun ooforitt (autoimmune oophoritis) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus"
 ---
 
@@ -70,11 +70,17 @@ Foreløpig finnes ingen relatert litteratur.
 
 Dataene som er samlet inn for denne rapporten, viser tre lisenser for produkter som inneholder insulin degludec. Markedsstatus er registrert som markedsført.
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002498 | Tresiba | – | Diabetes mellitus |
-| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus |
-| EMEA/H/C/002647 | Xultophy | – | Diabetes mellitus, type 2 |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002498 | Tresiba | insulin degludec | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/002499 | Ryzodeg | insulin aspart; insulin degludec | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/002647 | Xultophy | insulin degludec; liraglutide | Diabetes Mellitus, Type 2 | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

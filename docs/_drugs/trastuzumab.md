@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predikert ny indikasjon Malignant cutaneous granular cell skin tumor (evidensnivå L5). Opprinnelig indikasjon: Stomach Neoplasms"
@@ -109,21 +109,31 @@ Utvalg av de mest relevante studiene for progesteronreseptor-positiv brystkreft:
 
 ## Informasjon om det norske markedet
 
-De fem første:
-
 <!-- review:begin no-lic-20261106-trastuzumab-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt). De fem første:» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 11, hvorav gyldige: 11; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt). De fem første:» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Setningen om hvor mange godkjenninger den tidligere tabellen viste, er også fjernet: lisenstabellen lages nå av programmet og viser alle godkjenningene i dataene (2026-11-24). Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-trastuzumab-1 -->
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000278 | Herceptin | – | Magekreft, brystkreft |
-| EMEA/H/C/004916 | Ogivri | – | Magekreft, brystkreft |
-| EMEA/H/C/006219 | Dazublys | – | Brystkreft, magekreft |
-| EMEA/H/C/004361 | Kanjinti | – | Magekreft, brystkreft |
-| EMEA/H/C/004323 | Ontruzant | – | Magekreft, brystkreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000278 | Herceptin | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/002575 | Herzuma | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/004323 | Ontruzant | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/004361 | Kanjinti | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/004463 | Trazimera | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/004916 | Ogivri | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/005209 | Zercepac | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Gyldig |
+| EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Gyldig |
+| EMEA/H/C/005769 | Herwenda | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Gyldig |
+| EMEA/H/C/006219 | Dazublys | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Gyldig |
+| EMEA/H/C/006252 | Tuznue | trastuzumab | Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -176,7 +186,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->

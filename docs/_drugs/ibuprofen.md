@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ibuprofen: predikert ny indikasjon Akromesomelisk dysplasi, Hunter-Thompson-type (evidensnivå L5). Opprinnelig indikasjon: Persistent ductus arteriosus (Ductus Arteriosus, Patent)"
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -81,10 +81,16 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000549 | Pedea (Recordati Rare Diseases) | – | Persistent ductus arteriosus (opphevet) |
-| EMEA/H/C/006129 | Ibuprofen Gen.Orph (Gen.Orph) | – | Persistent ductus arteriosus (opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000549 | Pedea | Ibuprofen | Ductus Arteriosus, Patent | Gyldig |
+| EMEA/H/C/006129 | Ibuprofen Gen.Orph | Ibuprofen | Ductus Arteriosus, Patent | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

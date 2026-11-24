@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 319
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predikert ny indikasjon Pleural adenomatoid tumor (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung"
@@ -94,18 +94,24 @@ Bukhinnemesoteliom har samme histologi og kjemosensitivitet som mesoteliom i bry
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000564 | Alimta | Ikke oppgitt | Mesoteliom; ikke-småcellet lungekreft |
-| EMEA/H/C/003905 | Pemetrexed medac | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
-| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
-| EMEA/H/C/003970 | Pemetrexed Pfizer (tidligere Pemetrexed Hospira) | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000564 | Alimta | pemetrexed | Mesothelioma; Carcinoma, Non-Small-Cell Lung | Gyldig |
+| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | pemetrexed | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Gyldig |
+| EMEA/H/C/003970 | Pemetrexed Pfizer (previously Pemetrexed Hospira) | pemetrexed disodium; pemetrexed disodium hemipentahydrate | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Gyldig |
+| EMEA/H/C/003905 | Pemetrexed medac | pemetrexed | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge.
 
 <!-- review:begin no-lic-20261106-pemetrexed-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle fire godkjenninger er gyldige, og legemidlet er markedsført i Norge.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 4, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle fire godkjenninger er gyldige, og legemidlet er markedsført i Norge.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-pemetrexed-1 -->
 
@@ -153,7 +159,7 @@ Mekanismen er biologisk plausibel, og pemetreksed pluss platina brukes allerede 
 
 <!-- review:begin no-lic-20261106-pemetrexed-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Klargjøring av regulatorisk status i Norge; legemidlet er markedsført med 4 gyldige godkjenninger av 4.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 4, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Klargjøring av regulatorisk status i Norge; legemidlet er markedsført med 4 gyldige godkjenninger av 4.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-pemetrexed-2 -->
 
@@ -165,8 +171,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle fire godkjenninger er gyldige, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «legemidlet er markedsført med 4 gyldige godkjenninger av 4» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle fire godkjenninger er gyldige, og l» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «legemidlet er markedsført med 4 gyldige godkjenninger av 4» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 description: "Meropenem: predikert ny indikasjon Bakteriell artritt (bacterial arthritis) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"
@@ -93,9 +93,15 @@ Utvalg av publikasjoner (ingen RCT funnet):
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004669 | Vaborem | Ikke oppgitt | Urinveisinfeksjoner, bakteriemi, bakterielle infeksjoner, luftveisinfeksjoner, lungebetennelse, ventilatorassosiert lungebetennelse |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004669 | Vaborem | meropenem trihydrate; vaborbactam | Urinary Tract Infections; Bacteremia; Bacterial Infections; Respiratory Tract Infections; Pneumonia; Pneumoni… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

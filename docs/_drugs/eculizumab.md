@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eculizumab: predikert ny indikasjon Syklisk hematopoese (evidensnivå L5). Opprinnelig indikasjon: Paroksysmal nattlig hemoglobinuri (PNH)"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -82,11 +82,17 @@ Merk at for andre lavt rangerte prediksjoner ble det funnet publikasjoner, men d
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006036 | Epysqli | – | Paroksysmal nattlig hemoglobinuri |
-| EMEA/H/C/000791 | Soliris | – | Paroksysmal nattlig hemoglobinuri |
-| EMEA/H/C/005652 | Bekemv | – | Paroksysmal nattlig hemoglobinuri |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000791 | Soliris | Eculizumab | Hemoglobinuria, Paroxysmal | Gyldig |
+| EMEA/H/C/005652 | Bekemv | Eculizumab | Hemoglobinuria, Paroxysmal | Gyldig |
+| EMEA/H/C/006036 | Epysqli | Eculizumab | Hemoglobinuria, Paroxysmal | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og alle tre godkjenningene (3 av 3) er gyldige i datagrunnlaget.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AVIBACTAM"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Avibactam: predikert ny indikasjon Ureter-tuberkulose (ureter tuberculosis) (evidensnivå L5). Opprinnelig indikasjon: Pneumonia, Bacterial"
 ---
 
@@ -70,10 +70,16 @@ Det er foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004027 | Zavicefta | – | Bakteriell lungebetennelse, bløtdelsinfeksjoner, lungebetennelse, urinveisinfeksjoner, gramnegative bakterieinfeksjoner |
-| EMEA/H/C/006113 | Emblaveo | – | Gramnegative bakterieinfeksjoner, urinveisinfeksjoner, helsetjenesteassosiert lungebetennelse, bløtdelsinfeksjoner |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004027 | Zavicefta | avibactam sodium; ceftazidime pentahydrate | Pneumonia, Bacterial; Soft Tissue Infections; Pneumonia; Urinary Tract Infections; Gram-Negative Bacterial In… | Gyldig |
+| EMEA/H/C/006113 | Emblaveo | avibactam; aztreonam | Gram-Negative Bacterial Infections; Urinary Tract Infections; Healthcare-Associated Pneumonia; Soft Tissue In… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

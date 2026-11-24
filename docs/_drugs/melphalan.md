@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Melphalan: predikert ny indikasjon Kvinnelig brystkarsinom (female breast carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Multiple Myeloma"
 ---
 
@@ -99,9 +99,15 @@ Ingen av studiene i datagrunnlaget tester melfalan som godkjent eller etablert b
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005173 | Phelinun | Ikke oppgitt | Se lokal lisensinformasjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005173 | Phelinun | melphalan hydrochloride | Multiple Myeloma; Hodgkin Disease; Lymphoma, Non-Hodgkin; Precursor Cell Lymphoblastic Leukemia-Lymphoma; Leu… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferiprone: predikert ny indikasjon Leverporfyri (hepatic porphyria) (evidensnivå L5). Opprinnelig indikasjon: beta-Thalassemia"
 ---
 
@@ -73,10 +73,16 @@ Foreløpig ingen relaterte kliniske studier registrert.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000236 | Ferriprox | Ikke oppgitt | beta-Thalassemia; Iron Overload |
-| EMEA/H/C/004710 | Deferiprone Lipomed | Ikke oppgitt | Iron Overload; beta-Thalassemia |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000236 | Ferriprox | Deferiprone | beta-Thalassemia; Iron Overload | Gyldig |
+| EMEA/H/C/004710 | Deferiprone Lipomed | Deferiprone | Iron Overload; beta-Thalassemia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

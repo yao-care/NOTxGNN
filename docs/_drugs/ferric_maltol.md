@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "FERRIC MALTOL"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ferric Maltol: predikert ny indikasjon Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidensnivå L5). Opprinnelig indikasjon: Anemia, Iron-Deficiency"
 ---
 
@@ -70,9 +70,15 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002733 | Feraccru | Ikke oppgitt | Ikke registrert i de lokale dataene |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002733 | Feraccru | ferric maltol | Anemia, Iron-Deficiency | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

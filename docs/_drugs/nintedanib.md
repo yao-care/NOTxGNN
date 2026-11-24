@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Idiopathic Pulmonary Fibrosis"
@@ -82,12 +82,18 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, systemisk sklerose, lungefibrose (godkjent) |
-| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose (godkjent) |
-| EMEA/H/C/002569 | Vargatef | – | Ikke-småcellet lungekreft (godkjent) |
-| EMEA/H/C/003821 | Ofev | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose, systemisk sklerose (godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002569 | Vargatef | nintedanib | Carcinoma, Non-Small-Cell Lung | Gyldig |
+| EMEA/H/C/003821 | Ofev | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Pulmonary Fibrosis; Scleroderma, Systemic | Gyldig |
+| EMEA/H/C/006179 | Nintedanib Accord | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Scleroderma, Systemic; Pulmonary Fibrosis | Gyldig |
+| EMEA/H/C/006486 | Nintedanib Viatris | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Pulmonary Fibrosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

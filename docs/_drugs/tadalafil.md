@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predikert ny indikasjon Ambras type hypertrichosis universalis congenita (evidensnivå L5). Opprinnelig indikasjon: Erectile Dysfunction"
@@ -99,21 +99,26 @@ Til orientering finnes én publikasjon knyttet til en annen predikert indikasjon
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000436 | Cialis | – | Erektil dysfunksjon |
-| EMEA/H/C/004297 | Talmanco (tidligere Tadalafil Generics) | – | Pulmonal hypertensjon |
-| EMEA/H/C/003787 | Tadalafil Mylan | – | Erektil dysfunksjon |
-| EMEA/H/C/001021 | Adcirca (tidligere Tadalafil Lilly) | – | Pulmonal hypertensjon |
-| EMEA/H/C/004666 | Tadalafil Lilly | – | Erektil dysfunksjon |
-
-Den sjette (Yuvanci, pulmonal arteriell hypertensjon) er ikke vist i tabellen, som er begrenset til fem.
-
 <!-- review:begin no-lic-20261106-tadalafil-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Totalt finnes 6 godkjenninger, og alle er opphevet. Den sjette (Yuvanci, pulmonal arteriell hypertensjon) er ikke vist i tabellen, som er begrenset til fem.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Totalt finnes 6 godkjenninger, og alle er opphevet. Den sjette (Yuvanci, pulmonal arteriell hypertensjon) er ikke vist i tabellen, som er begrenset til fem.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Setningen om hvor mange godkjenninger den tidligere tabellen viste, er også fjernet: lisenstabellen lages nå av programmet og viser alle godkjenningene i dataene (2026-11-24). Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-tadalafil-1 -->
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000436 | Cialis | tadalafil | Erectile Dysfunction | Gyldig |
+| EMEA/H/C/001021 | Adcirca (previously Tadalafil Lilly) | tadalafil | Hypertension, Pulmonary | Gyldig |
+| EMEA/H/C/003787 | Tadalafil Mylan | tadalafil | Erectile Dysfunction | Gyldig |
+| EMEA/H/C/004297 | Talmanco (previously Tadalafil Generics) | tadalafil | Hypertension, Pulmonary | Gyldig |
+| EMEA/H/C/004666 | Tadalafil Lilly | tadalafil | Erectile Dysfunction | Gyldig |
+| EMEA/H/C/005001 | Yuvanci | macitentan; tadalafil | Pulmonary Arterial Hypertension | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -143,7 +148,7 @@ Prediksjonen for Ambras-type hypertrichosis bygger kun på modellscore (L5), ute
 
 <!-- review:begin no-lic-20261106-tadalafil-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen for Ambras-type hypertrichosis bygger kun på modellscore (L5), uten kliniske studier, litteratur eller plausibel mekanisme. Alle norske godkjenninger er dessuten opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen for Ambras-type hypertrichosis bygger kun på modellscore (L5), uten kliniske studier, litteratur eller plausibel mekanisme. Alle norske godkjenninger er dessuten opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-tadalafil-2 -->
 
@@ -161,8 +166,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Totalt finnes 6 godkjenninger, og alle er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «Alle norske godkjenninger er dessuten opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Totalt finnes 6 godkjenninger, og alle er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle norske godkjenninger er dessuten opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->

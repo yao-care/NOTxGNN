@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Multiple Myeloma"
@@ -102,10 +102,16 @@ Blant de øvrige prediksjonene er **myeloid leukemi** (rang 7, score 0,9902) den
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001030 | Mozobil (Sanofi B.V.) | Kansellert | Myelomatose, stamcelletransplantasjon, lymfom |
-| EMEA/H/C/005943 | Plerixafor Accord (Accord Healthcare S.L.U.) | Kansellert | Myelomatose, stamcelletransplantasjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001030 | Mozobil | Plerixafor | Multiple Myeloma; Hematopoietic Stem Cell Transplantation; Lymphoma | Gyldig |
+| EMEA/H/C/005943 | Plerixafor Accord | Plerixafor | Multiple Myeloma; Hematopoietic Stem Cell Transplantation | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

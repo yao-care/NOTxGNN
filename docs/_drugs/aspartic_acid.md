@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Aspartic Acid: predikert ny indikasjon Renal tubulær acidose (evidensnivå L5). Opprinnelig indikasjon: Ahornsirupsykdom (Maple Syrup Urine Disease)"
 monitor_inn: "aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -87,9 +87,15 @@ Kasuistikken fra 1983 er den eneste som nevner asparaginsyre, og da som en del a
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv (Recordati Rare Diseases) | Ikke oppgitt | Ahornsirupsykdom (Maple Syrup Urine Disease) – status: kansellert |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005557 | Maapliv | glycine,L-alanine,L-arginine,L-aspartic acid,L-cysteine hydrochloride monohydrate,L-histi… | Maple Syrup Urine Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

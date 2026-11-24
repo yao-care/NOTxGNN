@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oritavancin: predikert ny indikasjon Bacteroidaceae-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Bløtvevsinfeksjoner"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
@@ -84,9 +84,15 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003785 | Tenkasi (tidligere Orbactiv) | Ikke oppgitt | Bløtvevsinfeksjoner; bakterielle hudsykdommer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003785 | Tenkasi (previously Orbactiv) | oritavancin (diphosphate) | Soft Tissue Infections; Skin Diseases, Bacterial | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelser er gyldig.
 

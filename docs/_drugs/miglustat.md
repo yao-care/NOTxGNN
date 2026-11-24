@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Miglustat: predikert ny indikasjon Autosomalt ikthyosesyndrom med dødelig sykdomsforløp (autosomal ichthyosis syndrome with fatal disease course) (evidensnivå L5). Opprinnelig indikasjon: Gaucher Dis…"
 ---
 
@@ -71,6 +71,20 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig for denne indikasj
 ## Informasjon om det norske markedet
 
 Dataene som er samlet for denne rapporten oppgir at miglustat er **på markedet** i Norge. Legemidlet er markedsført for andre bruksområder enn den predikerte indikasjonen, og ingen markedsføringstillatelse dekker den predikerte indikasjonen.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000435 | Zavesca | miglustat | Gaucher Disease; Niemann-Pick Diseases | Gyldig |
+| EMEA/H/C/004016 | Yargesa | miglustat | Gaucher Disease | Gyldig |
+| EMEA/H/C/004366 | Miglustat Gen.Orph | miglustat | Gaucher Disease | Gyldig |
+| EMEA/H/C/004904 | Miglustat Dipharma | miglustat | Gaucher Disease | Gyldig |
+| EMEA/H/C/005695 | Opfolda | miglustat | Glycogen Storage Disease Type II | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

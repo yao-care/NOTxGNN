@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L5). Opprinnelig indikasjon: Arthroplasty"
@@ -76,10 +76,16 @@ Den høye scoren (0,9902) er en grafbasert modellprediksjon og viser ikke i seg 
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002148 | Eliquis (godkjent) | – | Artroplastikk; venøs tromboembolisme |
-| EMEA/H/C/005358 | Apixaban Accord (godkjent) | – | Venøs tromboembolisme; slag; artroplastikk |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002148 | Eliquis | apixaban | Arthroplasty; Venous Thromboembolism | Gyldig |
+| EMEA/H/C/005358 | Apixaban Accord | apixaban | Venous Thromboembolism; Stroke; Arthroplasty | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

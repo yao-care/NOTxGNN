@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 395
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predikert ny indikasjon Seboreisk dermatitt (seborrheic dermatitis) (evidensnivå L1). Opprinnelig indikasjon: Graft Rejection"
@@ -98,13 +98,19 @@ Topisk bruk gir i tillegg antiinflammatorisk effekt uten hudatrofien som forbind
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000712 | Advagraf | Ikke oppgitt | Avstøtning av transplantat |
-| EMEA/H/C/000374 | Protopic | Ikke oppgitt | Atopisk dermatitt |
-| EMEA/H/C/004435 | Tacforius | Ikke oppgitt | Levertransplantasjon, nyretransplantasjon |
-| EMEA/H/C/002655 | Envarsus | Ikke oppgitt | Avstøtning av transplantat |
-| EMEA/H/C/000954 | Modigraf | Ikke oppgitt | Avstøtning av transplantat |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000374 | Protopic | tacrolimus | Dermatitis, Atopic | Gyldig |
+| EMEA/H/C/000712 | Advagraf | tacrolimus | Graft Rejection | Gyldig |
+| EMEA/H/C/000954 | Modigraf | tacrolimus | Graft Rejection | Gyldig |
+| EMEA/H/C/002655 | Envarsus | tacrolimus | Graft Rejection | Gyldig |
+| EMEA/H/C/004435 | Tacforius | tacrolimus monohydrate | Liver Transplantation; Kidney Transplantation | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

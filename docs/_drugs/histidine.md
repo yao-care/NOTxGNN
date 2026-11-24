@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Histidine: predikert ny indikasjon Gastroparese (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -83,9 +83,15 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Lønnesirupsykdom (status: opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005557 | Maapliv | glycine,L-alanine,L-arginine,L-aspartic acid,L-cysteine hydrochloride monohydrate,L-histi… | Maple Syrup Urine Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

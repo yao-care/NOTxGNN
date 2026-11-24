@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: predikert ny indikasjon Uterine corpus perivascular epithelioid cell tumor (evidensnivå L5). Opprinnelig indikasjon: Vitiligo"
@@ -103,10 +103,16 @@ Det ble funnet 20 publikasjoner totalt. Studietypene er delvis utledet fra title
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005843 | Opzelura | Ikke oppgitt | Vitiligo (kansellert) |
-| EMEA/H/C/002464 | Jakavi | Ikke oppgitt | Myeloproliferative sykdommer, polycytemia vera, graft-versus-host-sykdom (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002464 | Jakavi | ruxolitinib phosphate | Myeloproliferative Disorders; Polycythemia Vera; Graft vs Host Disease | Gyldig |
+| EMEA/H/C/005843 | Opzelura | ruxolitinib phosphate | Vitiligo | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin: predikert ny indikasjon Abnormal gastrinsekresjon (gastrin secretion abnormality) (evidensnivå L5). Opprinnelig indikasjon: Candidiasis og aspergillose"
 monitor_inn: "CASPOFUNGIN"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -80,9 +80,15 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000379 | Cancidas (tidligere Caspofungin MSD), Merck Sharp & Dohme B.V. | – | Candidiasis; aspergillose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000379 | Cancidas (previously Caspofungin MSD) | caspofungin (as acetate) | Candidiasis; Aspergillosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selpercatinib: predikert ny indikasjon Pulmonal hypertensjon (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -90,9 +90,15 @@ Ingen av publikasjonene omhandler pulmonal hypertensjon.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005375 | Retsevmo (Eli Lilly Nederland B.V.) | Ikke oppgitt | Ikke-småcellet lungekreft; skjoldbruskkjertelkreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005375 | Retsevmo | selpercatinib | Carcinoma, Non-Small-Cell Lung; Thyroid Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Godkjenningen er kansellert.
 

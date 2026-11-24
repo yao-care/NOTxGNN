@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazole: predikert ny indikasjon Familiær horisontal blikkparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (evidensnivå L5)."
 ---
 
@@ -70,13 +70,20 @@ Foreløpig finnes ingen relatert litteratur.
 
 Alle 6 godkjenninger er gyldige, og det er registrert enkeltstoffprodukter.
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002755 | Abilify Maintena | – | Schizofreni |
-| EMEA/H/C/000471 | Abilify | – | Schizofreni; bipolar lidelse |
-| EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizofreni; bipolar lidelse |
-| EMEA/H/C/004008 | Aripiprazole Sandoz | – | Schizofreni; bipolar lidelse |
-| EMEA/H/C/004021 | Aripiprazole Accord | – | Schizofreni; bipolar lidelse |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000471 | Abilify | aripiprazole | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/002755 | Abilify Maintena | aripiprazole | Schizophrenia | Gyldig |
+| EMEA/H/C/003803 | Aripiprazole Mylan Pharma (previously Aripiprazole Pharmath… | aripiprazole | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/003899 | Aripiprazole Zentiva | aripiprazole | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/004008 | Aripiprazole Sandoz | aripiprazole | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/004021 | Aripiprazole Accord | aripiprazole | Schizophrenia; Bipolar Disorder | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

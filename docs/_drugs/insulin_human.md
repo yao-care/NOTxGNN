@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Insulin Human: predikert ny indikasjon Autoimmun oofoitt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -101,13 +101,19 @@ Foreløpig finnes det ingen relatert litteratur.
 
 Legemidlet er markedsført i Norge, og alle fem godkjenninger er gyldige.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000442 | Protaphane | – | Diabetes mellitus |
-| EMEA/H/C/000427 | Actraphane | – | Diabetes mellitus |
-| EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
-| EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
-| EMEA/H/C/000428 | Mixtard | – | Diabetes mellitus |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000201 | Insuman | Insulin human | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000427 | Actraphane | Insulin human | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000428 | Mixtard | Insulin human | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000441 | Insulatard | Insulin human | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000442 | Protaphane | Insulin human | Diabetes Mellitus | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +141,7 @@ Prediksjonen for autoimmun oofoitt er kun beregningsbasert (L5) uten kliniske st
 
 <!-- review:begin no-lic-20261106-insulin_human-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger. Produktene er dessuten alle avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 5, hvorav gyldige: 5; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger. Produktene er dessuten alle avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-insulin_human-1 -->
 
@@ -153,7 +159,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Produktene er dessuten alle avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Produktene er dessuten alle avregistrert i Norge» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

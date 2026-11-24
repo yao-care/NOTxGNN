@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "BICTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bictegravir: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -82,9 +82,15 @@ Foreløpig er ingen relatert litteratur tilgjengelig for denne forutsigelsen.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004449 | Biktarvy | Ikke oppgitt | Ikke registrert i lokale data |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004449 | Biktarvy | bictegravir; emtricitabine; tenofovir alafenamide; fumarate | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Biktarvy er et kombinasjonsprodukt, og denne tillatelsen beskriver ikke godkjenningen av enkeltstoffet bictegravir.
 

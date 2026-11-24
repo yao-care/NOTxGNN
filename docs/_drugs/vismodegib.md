@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vismodegib: predikert ny indikasjon Medulloblastom med utbredt nodularitet (evidensnivå L5). Opprinnelig indikasjon: Basalcellekarsinom"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -83,15 +83,15 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002602 | Erivedge | Ikke oppgitt | Basalcellekarsinom |
+<!-- licenses:begin -->
 
-<!-- review:begin no-row-20261112-vismodegib-1 -->
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002602 | Erivedge | vismodegib | Carcinoma, Basal Cell | Gyldig |
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «EMEA/H/C/002602 (avregistrert)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Erivedge (EMEA/H/C/002602) gyldig («Authorised»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
-<!-- review:end no-row-20261112-vismodegib-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +126,7 @@ Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalv
 
 <!-- review:begin no-lic-20261031-vismodegib-1 -->
 
-> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalveien, men evidensnivået er L5 uten kliniske studier eller litteratur for denne diagnosen. I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte godkjenninger i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalveien, men evidensnivået er L5 uten kliniske studier eller litteratur for denne diagnosen. I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte godkjenninger i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261031-vismodegib-1 -->
 
@@ -149,8 +149,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-10-31 | Fjernet: «I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte go» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-12 | Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Fjernet: «I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte go» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert | Erstattet av den programgenererte lisenstabellen (tidligere: Rettet) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
 
 <!-- review:end log -->

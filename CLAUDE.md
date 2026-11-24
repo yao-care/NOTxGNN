@@ -86,7 +86,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   正文張數程式改寫 0 句（現行正文張數 210 句全部跟事實層一致）；判斷不了的 19 句列進待查清單（zero-result 18、word 1，全是下面的「kansellert」句）。
   查核紀錄：被取代表上錨著的 7 筆（6 筆 `no-row-20261112-*`、`no-lic-20261112-tasimelteon-1`）標 superseded（superseded_by programmatic-license-table-2026-11-24）；
   說明框寫死張數（site.FIGURES「Antall godkjenninger i dataene: N, hvorav gyldige: V」）的 209 筆同 id 重發成不寫數字、指向概覽表與程式表（FIGURES 樣板同步改，免得新紀錄又寫死）；
-  舊表筆數說明句在更正文字裡的 4 筆（amlodipine、trastuzumab、tadalafil、indacaterol）同 id 重發一併刪除；新紀錄 3 筆：rilpivirine（「另一張 kansellert、沒列在表上」，EMA 為 Authorised）、
+  其中 4 筆（amlodipine、trastuzumab、tadalafil、indacaterol）的更正文字裡有舊表筆數說明句，同一次重發一併刪除；新紀錄 3 筆：rilpivirine（「另一張 kansellert、沒列在表上」，EMA 為 Authorised）、
   vildagliptin（「De to siste er …」講舊表沒列的兩張）、formoterol（「Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter」→ 證據包 10 張全是複方）。last_modified_at：正文有變的 443 頁改 2026-11-24。
 - 另寫的寬偵測（同句有許可字樣、數字不在事實層 {total, valid, cancelled}，或「alle／begge … gyldig」而有效≠總數，或寫 kansellert 等註銷字而事實沒有註銷）全量掃公開頁：改前 115 句、改後 114 句，剩下全是
   「kansellert」類：正文 136 句（86 頁）與表格裡另一列 AI 寫的張數列 15 格（例 alectinib「Antall autorisasjoner | 1 (kansellert)」、duloxetine「5 (alle kansellert)」；標準的「Antall godkjenninger」列是對的）把 EMA Authorised 的許可寫成 kansellert（11 月 AI 重產時照證據包「Cancelled only」寫的），

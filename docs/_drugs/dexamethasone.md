@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Dexamethasone: predikert ny indikasjon Alopecia mucinosa (evidensnivå L5). Opprinnelig indikasjon: Macular Edema"
 ---
 
@@ -70,10 +70,16 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 Deksametason er markedsført i Norge, og begge registrerte godkjenninger er gyldige.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001140 | Ozurdex | – | Makulaødem; uveitt |
-| EMEA/H/C/004071 | Neofordex | – | Multippelt myelom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001140 | Ozurdex | dexamethasone | Macular Edema; Uveitis | Gyldig |
+| EMEA/H/C/004071 | Neofordex | dexamethasone | Multiple Myeloma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

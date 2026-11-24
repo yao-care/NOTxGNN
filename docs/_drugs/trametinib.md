@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trametinib: predikert ny indikasjon Koroideremi (rangert som nr. 1) (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
@@ -114,9 +114,15 @@ For andre predikerte melanomvarianter finnes følgende (kun oversikter og kasuis
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002643 | Mekinist | – | Melanom (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002643 | Mekinist | trametinib | Melanoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
@@ -94,9 +94,15 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000860 | Isentress (Merck Sharp & Dohme B.V.) | Ikke oppgitt | HIV-infeksjon (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000860 | Isentress | raltegravir | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

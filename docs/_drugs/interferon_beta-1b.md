@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1B: predikert ny indikasjon Hårcelleleukemi (hairy cell leukemia) (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis"
 ---
 
@@ -80,9 +80,15 @@ Foreløpig er ingen relaterte publikasjoner tilgjengelige for hårcelleleukemi.
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000081 | Betaferon | Ikke oppgitt | Multippel sklerose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000081 | Betaferon | interferon beta-1b | Multiple Sclerosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

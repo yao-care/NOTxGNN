@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: predikert ny indikasjon Gastrisk adenokarsinom og proksimal polypose i magesekken (gastric adenocarcinoma and proximal polyposis of the stomach) (evidensnivå L5). Opprinnelig indikasjon…"
 ---
 
@@ -70,13 +70,19 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002568 | Capecitabine Medac | – | Kolorektale neoplasmer |
-| EMEA/H/C/002605 | Ecansya (tidligere Capecitabine Krka) | – | Kolonneoplasmer; brystneoplasmer; kolorektale neoplasmer; magesekkneoplasmer |
-| EMEA/H/C/000316 | Xeloda | – | Kolonneoplasmer; brystneoplasmer; kolorektale neoplasmer; magesekkneoplasmer |
-| EMEA/H/C/002386 | Capecitabine Accord | – | Kolonneoplasmer; brystneoplasmer; kolorektale neoplasmer; magesekkneoplasmer |
-| EMEA/H/C/002362 | Capecitabine Teva | – | Kolonneoplasmer; brystneoplasmer; kolorektale neoplasmer; magesekkneoplasmer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000316 | Xeloda | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gyldig |
+| EMEA/H/C/002362 | Capecitabine Teva | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gyldig |
+| EMEA/H/C/002386 | Capecitabine Accord | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gyldig |
+| EMEA/H/C/002568 | Capecitabine Medac | capecitabine | Colorectal Neoplasms | Gyldig |
+| EMEA/H/C/002605 | Ecansya (previously Capecitabine Krka) | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

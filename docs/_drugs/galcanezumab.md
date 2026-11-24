@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 184
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galcanezumab: predikert ny indikasjon Heparinkofaktor 2-mangel (evidensnivå L5). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -88,9 +88,15 @@ Det finnes for øyeblikket ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004648 | Emgality | – | Migrene (Migraine Disorders) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004648 | Emgality | Galcanezumab | Migraine Disorders | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Tillatelsen er gyldig. Legemidlet er markedsført i Norge, og 1 av 1 tillatelse er gyldig.
 

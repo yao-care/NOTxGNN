@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: predikert ny indikasjon Bronchitis (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis, Relapsing-Remitting"
@@ -96,10 +96,16 @@ Merk: Flere av de øvrige publikasjonene i datagrunnlaget gjelder PML knyttet ti
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005752 | Tyruko (Sandoz GmbH) | Ikke oppgitt | Multippel sklerose, relapserende-remitterende MS |
-| EMEA/H/C/000603 | Tysabri (Biogen Netherlands B.V.) | Ikke oppgitt | Multippel sklerose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000603 | Tysabri | natalizumab | Multiple Sclerosis | Gyldig |
+| EMEA/H/C/005752 | Tyruko | natalizumab | Multiple Sclerosis, Relapsing-Remitting; Multiple Sclerosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge tillatelsene har status «kansellert».
 

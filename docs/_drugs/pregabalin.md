@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predikert ny indikasjon Tendinitis (evidensnivå L5). Opprinnelig indikasjon: Anxiety Disorders"
@@ -106,7 +106,7 @@ Merknad om tendinitt: de hentede artiklene er i hovedsak case-rapporter eller st
 
 <!-- review:begin no-lic-20261106-pregabalin-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-pregabalin-1 -->
 
@@ -114,13 +114,20 @@ Merknad om tendinitt: de hentede artiklene er i hovedsak case-rapporter eller st
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003880 | Pregabalin Viatris Pharma (tidligere Pregabalin Pfizer) | – | Angstlidelser; epilepsi |
-| EMEA/H/C/000546 | Lyrica | – | Epilepsi; angstlidelser; nevralgi |
-| EMEA/H/C/004024 | Pregabalin Accord | – | Angstlidelser; epilepsi |
-| EMEA/H/C/004010 | Pregabalin Sandoz | – | Angstlidelser; nevralgi; epilepsi |
-| EMEA/H/C/004078 | Pregabalin Viatris (tidligere Pregabalin Mylan) | – | Angstlidelser; epilepsi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000546 | Lyrica | pregabalin | Epilepsy; Anxiety Disorders; Neuralgia | Gyldig |
+| EMEA/H/C/003880 | Pregabalin Viatris Pharma (previously Pregabalin Pfizer) | pregabalin | Anxiety Disorders; Epilepsy | Gyldig |
+| EMEA/H/C/003900 | Pregabalin Zentiva | pregabalin | Anxiety Disorders; Epilepsy | Gyldig |
+| EMEA/H/C/004010 | Pregabalin Sandoz | pregabalin | Anxiety Disorders; Neuralgia; Epilepsy | Gyldig |
+| EMEA/H/C/004024 | Pregabalin Accord | pregabalin | Anxiety Disorders; Epilepsy | Gyldig |
+| EMEA/H/C/004078 | Pregabalin Viatris (previously Pregabalin Mylan) | pregabalin | Anxiety Disorders; Epilepsy | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -152,7 +159,7 @@ Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ing
 
 <!-- review:begin no-lic-20261106-pregabalin-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er annullert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er annullert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-pregabalin-2 -->
 
@@ -164,8 +171,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «siden alle godkjenninger er annullert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden alle godkjenninger er annullert» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->

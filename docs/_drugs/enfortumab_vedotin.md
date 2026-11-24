@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enfortumab Vedotin: predikert ny indikasjon Lepra (evidensnivå L5). Opprinnelig indikasjon: Urotelialt karsinom (overgangscellekarsinom)"
 monitor_inn: "ENFORTUMAB VEDOTIN"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
@@ -100,9 +100,15 @@ For andre prediksjoner fant man kun sikkerhetsrelatert litteratur, som ikke stø
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005392 | Padcev | Ikke oppgitt | Urotelialt karsinom (overgangscellekarsinom); urologiske svulster (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005392 | Padcev | Enfortumab vedotin | Carcinoma, Transitional Cell; Urologic Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

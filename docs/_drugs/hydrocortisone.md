@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 201
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predikert ny indikasjon Flekkvis hårtap (alopecia areata) (evidensnivå L2). Opprinnelig indikasjon: Adrenal Insufficiency"
@@ -95,11 +95,17 @@ Det finnes en viktig begrensning. I den eneste kontrollerte studien ble hydrokor
 
 Markedsstatus: markedsført. Alle 3 registrerte godkjenninger er gyldige.
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004416 | Alkindi | Ikke oppgitt | Binyrebarksvikt (kansellert) |
-| EMEA/H/C/002185 | Plenadren | Ikke oppgitt | Binyrebarksvikt (kansellert) |
-| EMEA/H/C/005105 | Efmody | Ikke oppgitt | Medfødt binyrehyperplasi (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002185 | Plenadren | hydrocortisone | Adrenal Insufficiency | Gyldig |
+| EMEA/H/C/004416 | Alkindi | hydrocortisone | Adrenal Insufficiency | Gyldig |
+| EMEA/H/C/005105 | Efmody | hydrocortisone | Adrenal Hyperplasia, Congenital | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

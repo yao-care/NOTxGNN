@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predikert ny indikasjon Familiær horisontal blikkparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (evidensnivå L5)."
@@ -80,9 +80,15 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005406 | Okedi | Ikke oppgitt | Schizofreni |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005406 | Okedi | risperidone | Schizophrenia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Lisensen er gyldig og legemidlet er på markedet.
 

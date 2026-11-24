@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dibotermin Alfa: predikert ny indikasjon Esotropi (evidensnivå L5). Opprinnelig indikasjon: Tibiafrakturer"
 monitor_inn: "DIBOTERMIN ALFA"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
@@ -87,9 +87,15 @@ For ordens skyld: Den eneste publikasjonen i datagrunnlaget gjelder en annen pre
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000408 | Inductos | Ikke oppgitt | Tibiafrakturer; intern frakturfiksasjon; spinal fusjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000408 | Inductos | dibotermin alfa | Tibial Fractures; Fracture Fixation, Internal; Spinal Fusion | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Denne godkjenningen er gyldig, og legemidlet er markedsført (1 gyldig godkjenning av 1).
 

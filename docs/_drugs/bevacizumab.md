@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab: predikert ny indikasjon Epiglottisneoplasme (epiglottis neoplasm) (evidensnivå L5). Opprinnelig indikasjon: Colorectal Neoplasms"
 ---
 
@@ -68,13 +68,24 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig for denne sykdomme
 
 ## Informasjon om det norske markedet
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005534 | Vegzelma | – | Se lokale lisensdata |
-| EMEA/H/C/004728 | Mvasi | – | Se lokale lisensdata |
-| EMEA/H/C/005286 | Alymsys | – | Se lokale lisensdata |
-| EMEA/H/C/000582 | Avastin | – | Se lokale lisensdata |
-| EMEA/H/C/005574 | Avzivi | – | Se lokale lisensdata |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000582 | Avastin | bevacizumab | Carcinoma, Non-Small-Cell Lung; Breast Neoplasms; Ovarian Neoplasms; Colorectal Neoplasms; Carcinoma, Renal C… | Gyldig |
+| EMEA/H/C/004697 | Zirabev | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Carcinoma, Non-Small-Cell Lung; Carcinoma, Renal Cell; Uterine Cervic… | Gyldig |
+| EMEA/H/C/004728 | Mvasi | bevacizumab | Carcinoma, Renal Cell; Peritoneal Neoplasms; Ovarian Neoplasms; Breast Neoplasms; Carcinoma, Non-Small-Cell L… | Gyldig |
+| EMEA/H/C/005106 | Aybintio | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gyldig |
+| EMEA/H/C/005286 | Alymsys | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Peritoneal Neoplasms; Carcinoma, Non-Small-Cell Lu… | Gyldig |
+| EMEA/H/C/005327 | Abevmy | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gyldig |
+| EMEA/H/C/005534 | Vegzelma | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gyldig |
+| EMEA/H/C/005556 | Oyavas | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gyldig |
+| EMEA/H/C/005574 | Avzivi | bevacizumab | Colorectal Neoplasms; Carcinoma, Non-Small-Cell Lung; Carcinoma, Renal Cell; Ovarian Neoplasms; Fallopian Tub… | Gyldig |
+| EMEA/H/C/005723 | Lytenava | bevacizumab | Wet Macular Degeneration | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

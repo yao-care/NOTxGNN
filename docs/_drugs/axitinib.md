@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Renal Cell"
 ---
 
@@ -72,10 +72,16 @@ Foreløpig er ingen relevante kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006206 | Axitinib Accord | Ikke oppgitt | Carcinoma, Renal Cell |
-| EMEA/H/C/002406 | Inlyta | Ikke oppgitt | Carcinoma, Renal Cell |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002406 | Inlyta | axitinib | Carcinoma, Renal Cell | Gyldig |
+| EMEA/H/C/006206 | Axitinib Accord | axitinib | Carcinoma, Renal Cell | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

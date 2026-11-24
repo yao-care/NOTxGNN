@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Hepatocellular"
@@ -88,9 +88,15 @@ Prekliniske data gir en viss biologisk plausibilitet: sorafenib hemmet vekst og 
 
 ## Informasjon om markedet i Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000690 | Nexavar (Bayer AG) | Ikke oppgitt | Hepatocellulært karsinom; nyrecellekarsinom (status: godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000690 | Nexavar | sorafenib | Carcinoma, Hepatocellular; Carcinoma, Renal Cell | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

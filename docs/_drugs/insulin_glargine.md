@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glargine: predikert ny indikasjon Autoimmun ooforitt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -102,13 +102,19 @@ Ingen av publikasjonene er en kontrollert studie av insulin glargin ved pankreas
 
 Alle fem tillatelser er gyldige (5 av 5), og legemidlet er markedsført i Norge.
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002835 | Abasaglar (tidligere Abasria) | – | Diabetes mellitus |
-| EMEA/H/C/000309 | Toujeo (tidligere Optisulin) | – | Diabetes mellitus |
-| EMEA/H/C/004280 | Semglee | – | Diabetes mellitus |
-| EMEA/H/C/000284 | Lantus | – | Diabetes mellitus |
-| EMEA/H/C/004243 | Suliqua | – | Diabetes mellitus, type 2 |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000284 | Lantus | insulin glargine | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000309 | Toujeo (previously Optisulin) | insulin glargine | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/002835 | Abasaglar (previously Abasria) | insulin glargine | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/004243 | Suliqua | insulin glargine; lixisenatide | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/004280 | Semglee | insulin glargine | Diabetes Mellitus | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

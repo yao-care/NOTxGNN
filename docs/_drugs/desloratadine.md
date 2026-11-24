@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desloratadine: predikert ny indikasjon Nesehulesykdom (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Rhinitis, Allergic, Perennial"
 ---
 
@@ -73,13 +73,22 @@ For øyeblikket er det ikke registrert relevante kliniske studier.
 
 ## Informasjon om det norske markedet
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002310 | Dasselta | – | Se lisensdata |
-| EMEA/H/C/000314 | Neoclarityn | – | Se lisensdata |
-| EMEA/H/C/002435 | Desloratadine Actavis | – | Se lisensdata |
-| EMEA/H/C/002404 | Desloratadine ratiopharm | – | Se lisensdata |
-| EMEA/H/C/002419 | Desloratadine Teva | – | Se lisensdata |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000310 | Azomyr | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gyldig |
+| EMEA/H/C/000313 | Aerius | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gyldig |
+| EMEA/H/C/000314 | Neoclarityn | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gyldig |
+| EMEA/H/C/000772 | Aerinaze | desloratadine; pseudophedrine sulfate | Rhinitis, Allergic, Seasonal | Gyldig |
+| EMEA/H/C/002310 | Dasselta | desloratadine | Rhinitis, Allergic, Perennial; Rhinitis, Allergic, Seasonal; Urticaria | Gyldig |
+| EMEA/H/C/002404 | Desloratadine ratiopharm | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gyldig |
+| EMEA/H/C/002419 | Desloratadine Teva | desloratadine | Rhinitis, Allergic, Perennial; Rhinitis, Allergic, Seasonal | Gyldig |
+| EMEA/H/C/002435 | Desloratadine Actavis | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

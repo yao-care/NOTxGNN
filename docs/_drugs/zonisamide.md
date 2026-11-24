@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Zonisamide: predikert ny indikasjon Tourettes syndrom (evidensnivå L5). Opprinnelig indikasjon: Partiell epilepsi (fokale anfall)"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -83,10 +83,16 @@ Det foreligger for øyeblikket ingen relatert litteratur.
 
 Begge godkjenningene er sentrale europeiske (EMA) godkjenninger. Legemidlet er markedsført, og 2 av 2 godkjenninger er gyldige.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000577 | Zonegran (Amdipharm Limited), kansellert | Ikke oppgitt | Partiell epilepsi |
-| EMEA/H/C/004127 | Zonisamide Viatris, tidligere Zonisamide Mylan (Viatris Limited), kansellert | Ikke oppgitt | Epilepsi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000577 | Zonegran | zonisamide | Epilepsies, Partial | Gyldig |
+| EMEA/H/C/004127 | Zonisamide Viatris (previously Zonisamide Mylan) | zonisamide | Epilepsy | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

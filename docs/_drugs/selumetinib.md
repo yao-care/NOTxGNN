@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selumetinib: predikert ny indikasjon Familiær generalisert lentiginose (evidensnivå L5). Opprinnelig indikasjon: Nevrofibromatose type 1"
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
@@ -79,9 +79,15 @@ Foreløpig er det ingen relevant litteratur tilgjengelig for denne indikasjonen.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005244 | Koselugo (AstraZeneca AB) | Ikke oppgitt | Nevrofibromatose type 1 (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005244 | Koselugo | selumetinib sulfate | Neurofibromatosis 1 | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

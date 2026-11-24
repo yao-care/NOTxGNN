@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Siltuximab: predikert ny indikasjon Ekstrakutant mastocytom (evidensnivå L5). Opprinnelig indikasjon: Gigantisk lymfeknutehyperplasi (Castlemans sykdom)"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
@@ -81,9 +81,15 @@ Det finnes foreløpig ingen relatert litteratur for denne indikasjonen.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003708 | Sylvant | – | Gigantisk lymfeknutehyperplasi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003708 | Sylvant | siltuximab | Giant Lymph Node Hyperplasia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Godkjenningen er gyldig. Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1.
 

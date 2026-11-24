@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Lispro: predikert ny indikasjon Autoimmun oophoritt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -84,12 +84,18 @@ For den prioriterte prediksjonen (autoimmun oophoritt) foreligger det for tiden 
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000088 | Humalog | – | Diabetes mellitus |
-| EMEA/H/C/005037 | Lyumjev (tidligere Liumjev) | – | Diabetes mellitus |
-| EMEA/H/C/000393 | Liprolog | – | Diabetes mellitus |
-| EMEA/H/C/004303 | Insulin lispro Sanofi | – | Diabetes mellitus |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000088 | Humalog | insulin lispro | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/000393 | Liprolog | insulin lispro | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/004303 | Insulin lispro Sanofi | insulin lispro | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/005037 | Lyumjev (previously Liumjev) | insulin lispro | Diabetes Mellitus | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle fire godkjenningene er gyldige, og legemidlet er markedsført.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir: predikert ny indikasjon Simianimmunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -72,11 +72,17 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000494 | Reyataz | – | Se produktinformasjonen |
-| EMEA/H/C/004048 | Atazanavir Viatris (tidligere Atazanavir Mylan) | – | Se produktinformasjonen |
-| EMEA/H/C/003904 | Evotaz | – | Se produktinformasjonen |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000494 | Reyataz | atazanavir (as sulfate) | HIV Infections | Gyldig |
+| EMEA/H/C/003904 | Evotaz | cobicistat; atazanavir | HIV Infections | Gyldig |
+| EMEA/H/C/004048 | Atazanavir Viatris (previously Atazanavir Mylan) | atazanavir (as sulfate) | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

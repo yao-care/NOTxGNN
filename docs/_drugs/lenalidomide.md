@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lenalidomide: predikert ny indikasjon Myelogen leukemi (myeloid leukemia) (evidensnivå L2). Opprinnelig indikasjon: Multiple Myeloma"
 ---
 
@@ -106,11 +106,17 @@ Flere av de øvrige publikasjonene handler om MDS generelt og er kun indirekte r
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004857 | Lenalidomide Accord | Ikke oppgitt | Se pakningsvedlegg |
-| EMEA/H/C/000717 | Revlimid | Ikke oppgitt | Se pakningsvedlegg |
-| EMEA/H/C/005306 | Lenalidomide Mylan | Ikke oppgitt | Se pakningsvedlegg |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000717 | Revlimid | lenalidomide | Multiple Myeloma; Lymphoma, Mantle-Cell; Myelodysplastic Syndromes | Gyldig |
+| EMEA/H/C/004857 | Lenalidomide Accord | lenalidomide | Multiple Myeloma | Gyldig |
+| EMEA/H/C/005306 | Lenalidomide Mylan | lenalidomide | Multiple Myeloma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

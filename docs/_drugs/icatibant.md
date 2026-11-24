@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: predikert ny indikasjon Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
@@ -74,10 +74,16 @@ Foreløpig finnes ingen relatert litteratur.
 
 Begge godkjenningene i dataene er gyldige.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000899 | Firazyr (Takeda Pharmaceuticals International AG) | Ikke oppgitt | Arvelig angioødem (opphevet) |
-| EMEA/H/C/005083 | Icatibant Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Arvelig angioødem (opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000899 | Firazyr | icatibant | Angioedemas, Hereditary | Gyldig |
+| EMEA/H/C/005083 | Icatibant Accord | icatibant acetate | Angioedemas, Hereditary | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

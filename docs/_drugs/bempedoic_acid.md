@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BEMPEDOIC ACID"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bempedoic Acid: predikert ny indikasjon Hypertyreose (hyperthyroidism) (evidensnivå L5). Opprinnelig indikasjon: Hypercholesterolemia"
 ---
 
@@ -70,10 +70,16 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004958 | Nilemdo | – | Hypercholesterolemia;Dyslipidemias |
-| EMEA/H/C/004959 | Nustendi | – | Hypercholesterolemia;Dyslipidemias |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004958 | Nilemdo | bempedoic acid | Hypercholesterolemia; Dyslipidemias | Gyldig |
+| EMEA/H/C/004959 | Nustendi | bempedoic acid; ezetimibe | Hypercholesterolemia; Dyslipidemias | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsmomenter
 

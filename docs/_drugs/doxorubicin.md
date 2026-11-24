@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L1). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 
@@ -90,10 +90,16 @@ Doksorubicin er en bærebjelke i standard kombinasjonsregimer ved Ewing-sarkom (
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000297 | Myocet liposomal (tidligere Myocet) | Ikke oppgitt | Se lokale lisensdata |
-| EMEA/H/C/000089 | Caelyx pegylated liposomal | Ikke oppgitt | Se lokale lisensdata |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000089 | Caelyx pegylated liposomal | doxorubicin hydrochloride | Sarcoma, Kaposi; Multiple Myeloma; Ovarian Neoplasms; Breast Neoplasms | Gyldig |
+| EMEA/H/C/000297 | Myocet liposomal (previously Myocet) | doxorubicin hydrochloride | Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

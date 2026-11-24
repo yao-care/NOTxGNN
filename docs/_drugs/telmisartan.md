@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predikert ny indikasjon Prinzmetal angina (evidensnivå L5). Opprinnelig indikasjon: Hypertension"
@@ -120,17 +120,30 @@ Nummerne under er europeiske (EMEA) godkjenningsnumre.
 
 <!-- review:begin no-lic-20261106-telmisartan-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 12 godkjenninger er opphevet. Nummerne under er europeiske (EMEA) godkjenningsnumre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 12, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 12 godkjenninger er opphevet. Nummerne under er europeiske (EMEA) godkjenningsnumre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-telmisartan-1 -->
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000210 | Pritor | Ikke oppgitt | Hypertensjon |
-| EMEA/H/C/001168 | Telmisartan Actavis | Ikke oppgitt | Hypertensjon |
-| EMEA/H/C/001196 | Tolura | Ikke oppgitt | Hypertensjon |
-| EMEA/H/C/000209 | Micardis | Ikke oppgitt | Hypertensjon |
-| EMEA/H/C/002511 | Telmisartan Teva Pharma | Ikke oppgitt | Hypertensjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000209 | Micardis | telmisartan | Hypertension | Gyldig |
+| EMEA/H/C/000413 | MicardisPlus | telmisartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/001168 | Telmisartan Actavis | telmisartan | Hypertension | Gyldig |
+| EMEA/H/C/001196 | Tolura | telmisartan | Hypertension | Gyldig |
+| EMEA/H/C/001224 | Twynsta | telmisartan; amlodipine | Hypertension | Gyldig |
+| EMEA/H/C/002511 | Telmisartan Teva Pharma | telmisartan | Hypertension | Gyldig |
+| EMEA/H/C/002549 | Tolucombi | telmisartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/002676 | Actelsar HCT | telmisartan; hydrochlorothiazide | Essential Hypertension | Gyldig |
+| EMEA/H/C/000210 | Pritor | telmisartan | Hypertension | Trukket tilbake |
+| EMEA/H/C/000211 | Kinzalmono (previously Telmisartan Boehringer Ingelheim Pha… | telmisartan | Hypertension | Trukket tilbake |
+| EMEA/H/C/000414 | PritorPlus | telmisartan; hydrochlorothiazide | Hypertension | Trukket tilbake |
+| EMEA/H/C/000415 | Kinzalkomb | telmisartan; hydrochlorothiazide | Hypertension | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -155,7 +168,7 @@ For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier 
 
 <!-- review:begin no-lic-20261106-telmisartan-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men sikkerhetsdata fra preparatomtale mangler.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 12, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men sikkerhetsdata fra preparatomtale mangler.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-telmisartan-2 -->
 
@@ -169,7 +182,7 @@ For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier 
 
 <!-- review:begin no-lic-20261106-telmisartan-3 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklare markedsstatus og reell tilgjengelighet i Norge, siden alle godkjenninger er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 12, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklare markedsstatus og reell tilgjengelighet i Norge, siden alle godkjenninger er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-telmisartan-3 -->
 
@@ -181,9 +194,9 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Alle 12 godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «siden alle godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Alle 12 godkjenninger er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men s» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden alle godkjenninger er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->

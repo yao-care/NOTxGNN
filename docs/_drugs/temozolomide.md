@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: predikert ny indikasjon Cauda equina-neoplasme (evidensnivå L5). Opprinnelig indikasjon: Gliom"
 ---
 
@@ -84,13 +84,19 @@ Den eneste publikasjonen som er relevant, er en enkelt kasuistikk om spinalt myx
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001125 | Temozolomide Accord | – | Gliom |
-| EMEA/H/C/001124 | Temomedac | – | Gliom |
-| EMEA/H/C/001126 | Temozolomide Teva | – | Gliom |
-| EMEA/H/C/000229 | Temodal | – | Gliom |
-| EMEA/H/C/002198 | Temozolomide Sun | – | Gliom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000229 | Temodal | temozolomide | Glioma | Gyldig |
+| EMEA/H/C/001124 | Temomedac | temozolomide | Glioma | Gyldig |
+| EMEA/H/C/001125 | Temozolomide Accord | temozolomide | Glioma | Gyldig |
+| EMEA/H/C/001126 | Temozolomide Teva | temozolomide | Glioma | Gyldig |
+| EMEA/H/C/002198 | Temozolomide Sun | temozolomide | Glioma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

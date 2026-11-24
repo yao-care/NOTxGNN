@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 171
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Febuxostat: predikert ny indikasjon Renal hypourikemi (hypouricemia, renal) (evidensnivå L4). Opprinnelig indikasjon: Gikt"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -92,11 +92,17 @@ Den svært høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gje
 
 Alle tre markedsføringstillatelsene er gyldige, og legemidlet er markedsført.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000777 | Adenuric | Ikke oppgitt | Gikt |
-| EMEA/H/C/004773 | Febuxostat Krka | Ikke oppgitt | Hyperurikemi, gikt |
-| EMEA/H/C/004374 | Febuxostat Viatris (tidligere Febuxostat Mylan) | Ikke oppgitt | Hyperurikemi, urinsyregikt, gikt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000777 | Adenuric | febuxostat | Gout | Gyldig |
+| EMEA/H/C/004374 | Febuxostat Viatris (previously Febuxostat Mylan) | febuxostat | Hyperuricemia; Arthritis, Gouty; Gout | Gyldig |
+| EMEA/H/C/004773 | Febuxostat Krka | febuxostat | Hyperuricemia; Gout | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

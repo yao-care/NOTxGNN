@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Brigatinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung)"
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -88,9 +88,15 @@ Det er for øyeblikket ingen relevant litteratur tilgjengelig for gingival fibro
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004248 | Alunbrig | Ikke oppgitt | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004248 | Alunbrig | brigatinib | Carcinoma, Non-Small-Cell Lung | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Den eneste tillatelsen er registrert som kansellert (produsent: Takeda Pharma A/S).
 

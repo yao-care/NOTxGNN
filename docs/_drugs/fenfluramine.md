@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenfluramine: predikert ny indikasjon Proksimalt 16p11.2-mikrodelesjonssyndrom (evidensnivå L5). Opprinnelig indikasjon: Myoklonisk epilepsi (Epilepsies, Myoclonic)"
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
@@ -82,9 +82,15 @@ Det er for tiden ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003933 | Fintepla | Ikke oppgitt | Myoklonisk epilepsi (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003933 | Fintepla | fenfluramine hydrochloride | Epilepsies, Myoclonic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propranolol: predikert ny indikasjon Distal myopati, Tateyama-type (evidensnivå L5). Opprinnelig indikasjon: Hemangiom"
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
@@ -115,9 +115,15 @@ Flere andre treff for kardiomyopati er generelle legemiddelmonografier eller ure
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002621 | Hemangiol | Ikke oppgitt | Hemangiom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002621 | Hemangiol | propranolol hydrochloride | Hemangioma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 

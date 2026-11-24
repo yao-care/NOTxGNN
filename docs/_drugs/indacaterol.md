@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Indacaterol: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (evidensnivå L5). Opprinnelig indikasjon: Kronisk obstruktiv lungesykdom (KOLS)"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -82,21 +82,32 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Legemidlet er markedsført i Norge. Tabellen viser fem av dem.
+Legemidlet er markedsført i Norge.
 
 <!-- review:begin no-lic-20261106-indacaterol-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge, med 10 gyldige godkjenninger av 10.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 10, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge, med 10 gyldige godkjenninger av 10.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Setningen om hvor mange godkjenninger den tidligere tabellen viste, er også fjernet: lisenstabellen lages nå av programmet og viser alle godkjenningene i dataene (2026-11-24). Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-indacaterol-1 -->
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001210 | Oslif Breezhaler | Ikke oppgitt | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/001114 | Onbrez Breezhaler | Ikke oppgitt | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/001211 | Hirobriz Breezhaler | Ikke oppgitt | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/002679 | Ultibro Breezhaler | Ikke oppgitt | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/005067 | Atectura Breezhaler | Ikke oppgitt | Astma |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001114 | Onbrez Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/002679 | Ultibro Breezhaler | indacaterol; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/003755 | Xoterna Breezhaler | indacaterol; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/003875 | Ulunar Breezhaler | glycopyrronium bromide; indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/005061 | Enerzair Breezhaler | indacaterol; glycopyrronium bromide; mometasone | Asthma | Gyldig |
+| EMEA/H/C/005067 | Atectura Breezhaler | indacaterol acetate; mometasone furoate | Asthma | Gyldig |
+| EMEA/H/C/005516 | Bemrist Breezhaler | indacaterol; mometasone furoate | Asthma | Gyldig |
+| EMEA/H/C/005518 | Zimbus Breezhaler | glycopyrronium bromide; Indacaterol (acetate); mometasone furoate | Asthma | Gyldig |
+| EMEA/H/C/001210 | Oslif Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Trukket tilbake |
+| EMEA/H/C/001211 | Hirobriz Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +137,7 @@ Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller
 
 <!-- review:begin no-lic-20261106-indacaterol-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge (10 gyldige godkjenninger av 10).» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 10, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge (10 gyldige godkjenninger av 10).» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-indacaterol-2 -->
 
@@ -146,8 +157,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «med 10 gyldige godkjenninger av 10» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «(10 gyldige godkjenninger av 10)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «med 10 gyldige godkjenninger av 10» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «(10 gyldige godkjenninger av 10)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

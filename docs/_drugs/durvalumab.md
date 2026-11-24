@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Durvalumab: predikert ny indikasjon Adenokarsinom i livmorligamentet (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft"
 ---
 
@@ -87,9 +87,15 @@ For rang 2 (endocervikalt karsinom):
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004771 | Imfinzi | – | Ikke-småcellet lungekreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004771 | Imfinzi | durvalumab | Carcinoma, Non-Small-Cell Lung | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Dataene viser én gyldig godkjenning for enkeltstoffet (produsent: AstraZeneca AB).
 

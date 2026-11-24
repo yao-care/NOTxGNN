@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predikert ny indikasjon Renal-hepatic-pancreatic dysplasia (evidensnivå L5). Opprinnelig indikasjon: Inappropriate ADH Syndrome"
@@ -91,11 +91,17 @@ Det er for tiden ingen relaterte kliniske studier registrert i de kompilerte dat
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000980 | Samsca | Ikke oppgitt | Syndromet med uhensiktsmessig ADH-sekresjon (kansellert) |
-| EMEA/H/C/002788 | Jinarc | Ikke oppgitt | Autosomal dominant polycystisk nyresykdom (kansellert) |
-| EMEA/H/C/005961 | Tolvaptan Accord | Ikke oppgitt | Syndromet med uhensiktsmessig ADH-sekresjon (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000980 | Samsca | tolvaptan | Inappropriate ADH Syndrome | Gyldig |
+| EMEA/H/C/002788 | Jinarc | tolvaptan | Polycystic Kidney, Autosomal Dominant | Gyldig |
+| EMEA/H/C/005961 | Tolvaptan Accord | tolvaptan | Inappropriate ADH Syndrome | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

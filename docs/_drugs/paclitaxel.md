@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predikert ny indikasjon Parameningeal embryonal rhabdomyosarcoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
@@ -109,12 +109,18 @@ Flere av publikasjonene er eldre oversikter eller prekliniske studier. Det er in
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000778 | Abraxane | Ikke oppgitt | Brystkreft, bukspyttkjertelkreft, ikke-småcellet lungekreft |
-| EMEA/H/C/005997 | Apexelsin | Ikke oppgitt | Brystkreft, bukspyttkjertelkreft, ikke-småcellet lungekreft |
-| EMEA/H/C/006173 | Naveruclif | Ikke oppgitt | Brystkreft, bukspyttkjertelkreft, ikke-småcellet lungekreft |
-| EMEA/H/C/004441 | Pazenir | Ikke oppgitt | Brystkreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000778 | Abraxane | paclitaxel | Breast Neoplasms; Pancreatic Neoplasms; Carcinoma, Non-Small-Cell Lung | Gyldig |
+| EMEA/H/C/004441 | Pazenir | paclitaxel | Breast Neoplasms | Gyldig |
+| EMEA/H/C/005997 | Apexelsin | paclitaxel | Breast Neoplasms; Pancreatic Neoplasms; Carcinoma, Non-Small-Cell Lung | Gyldig |
+| EMEA/H/C/006173 | Naveruclif | paclitaxel | Breast Neoplasms; Pancreatic Neoplasms; Carcinoma, Non-Small-Cell Lung | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

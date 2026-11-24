@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamivudine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -86,15 +86,24 @@ Foreløpig ingen relaterte kliniske studier registrert.
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001111 | Lamivudine Teva Pharma B.V. | – | – |
-| EMEA/H/C/001113 | Lamivudine Teva | – | – |
-| EMEA/H/C/000107 | Epivir | – | – |
-| EMEA/H/C/000242 | Zeffix | – | – |
-| EMEA/H/C/000581 | Kivexa | – | – |
+<!-- licenses:begin -->
 
-Tabellen viser de fem første av i alt ti registrerte godkjenninger.
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000107 | Epivir | lamivudine | HIV Infections | Gyldig |
+| EMEA/H/C/000190 | Combivir | lamivudine; zidovudine | HIV Infections | Gyldig |
+| EMEA/H/C/000242 | Zeffix | lamivudine | Hepatitis B, Chronic | Gyldig |
+| EMEA/H/C/000581 | Kivexa | abacavir; lamivudine | HIV Infections | Gyldig |
+| EMEA/H/C/001111 | Lamivudine Teva Pharma B.V. | lamivudine | HIV Infections | Gyldig |
+| EMEA/H/C/001113 | Lamivudine Teva | lamivudine | Hepatitis B, Chronic | Gyldig |
+| EMEA/H/C/002754 | Triumeq | dolutegravir sodium; lamivudine; abacavir (as sulfate) | HIV Infections | Gyldig |
+| EMEA/H/C/004746 | Delstrigo | doravirine; lamivudine; tenofovir disoproxil fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/004909 | Dovato | dolutegravir sodium; lamivudine | HIV Infections | Gyldig |
+| EMEA/H/C/000338 | Trizivir | abacavir (as sulfate); lamivudine; zidovudine | HIV Infections | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

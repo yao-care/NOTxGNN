@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levetiracetam: predikert ny indikasjon beta-ketotiolase-mangel (beta-ketothiolase deficiency) (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"
 ---
 
@@ -72,15 +72,25 @@ Foreløpig finnes ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002244 | Levetiracetam ratiopharm | – | – |
-| EMEA/H/C/002305 | Levetiracetam Actavis Group | – | – |
-| EMEA/H/C/002783 | Levetiracetam Hospira | – | – |
-| EMEA/H/C/000277 | Keppra | – | – |
-| EMEA/H/C/002316 | Levetiracetam Teva | – | – |
+<!-- licenses:begin -->
 
-Listen viser inntil fem av i alt ni lisenser; den fullstendige oversikten genereres av programmet.
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000277 | Keppra | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002024 | Matever | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002051 | Levetiracetam Sun | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002244 | Levetiracetam ratiopharm | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002290 | Levetiracetam Accord | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002305 | Levetiracetam Actavis Group | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002316 | Levetiracetam Teva | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002355 | Levetiracetam Actavis | levetiracetam | Epilepsy | Gyldig |
+| EMEA/H/C/002783 | Levetiracetam Hospira | levetiracetam | Epilepsy | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
+
+Den fullstendige oversikten genereres av programmet.
 
 ## Sikkerhetsvurderinger
 

@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 290
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Norethisterone: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -48,9 +48,15 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005267 | Ryeqo | Ikke oppgitt | Leiomyom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005267 | Ryeqo | relugolix; norethisterone acetate; estradiol hemihydrate | Leiomyoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og 1 av 1 godkjenninger er gyldig.
 

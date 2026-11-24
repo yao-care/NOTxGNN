@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Octreotide: predikert ny indikasjon Vulvær inversert follikulær keratose (evidensnivå L5). Opprinnelig indikasjon: Akromegali"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -82,9 +82,15 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006322 (kansellert) | Oczyesa (Camurus AB) | Ikke oppgitt | Akromegali |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006322 | Oczyesa | octreotide hydrochloride | Acromegaly | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Oktreotid er markedsført, og det finnes 1 gyldig godkjenning av 1 i de sammenstilte dataene.
 

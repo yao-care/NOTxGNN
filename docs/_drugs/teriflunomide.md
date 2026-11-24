@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 412
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Teriflunomide: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Alle kandidatene som TxGNN-modellen (score ≥ 0,99) har generert for Teriflunom
 
 ## Markedsinformasjon for Norge
 
-| Tillatelse | Produkt | Legemiddelform | Status |
-|------|------|------|------|
-| EMEA/H/C/002514 | teriflunomide |  | Gyldig |
-| EMEA/H/C/005962 | teriflunomide |  | Gyldig |
-| EMEA/H/C/005960 | teriflunomide |  | Gyldig |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002514 | Aubagio | teriflunomide | Multiple Sclerosis | Gyldig |
+| EMEA/H/C/005960 | Teriflunomide Accord | teriflunomide | Multiple Sclerosis, Relapsing-Remitting | Gyldig |
+| EMEA/H/C/005962 | Teriflunomide Viatris (previously Teriflunomide Mylan) | teriflunomide | Multiple Sclerosis, Relapsing-Remitting | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

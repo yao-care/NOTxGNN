@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanamivir: predikert ny indikasjon Pyelonefritt (evidensnivå L5). Opprinnelig indikasjon: Influenza (Influenza, Human)"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -84,9 +84,15 @@ Foreløpig finnes ingen relatert litteratur for pyelonefritt.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004102 | Dectova | Ikke oppgitt | Influenza, Human |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004102 | Dectova | zanamivir | Influenza, Human | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført, og det finnes 1 gyldig markedsføringstillatelse av 1 for zanamivir i dataene.
 

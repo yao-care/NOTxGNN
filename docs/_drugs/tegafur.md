@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: predikert ny indikasjon Villøst adenom i blindtarmen (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"
@@ -78,9 +78,15 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001242 | Teysuno | tegafur; gimeracil; oteracil | Stomach Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

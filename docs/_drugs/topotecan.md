@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan: predikert ny indikasjon Brystkreft hos kvinner (female breast carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Livmorhalskreft, småcellet lungekreft"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -98,11 +98,17 @@ Klinisk støtte er begrenset. En fase 2-studie av høydose topotecan i kombinasj
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001192 | Topotecan Hospira (kansellert) | Ikke oppgitt | Livmorhalskreft, småcellet lungekreft |
-| EMEA/H/C/000123 | Hycamtin (kansellert) | Ikke oppgitt | Eggstokkreft, livmorhalskreft, småcellet lungekreft |
-| EMEA/H/C/002282 | Potactasol (kansellert) | Ikke oppgitt | Livmorhalskreft, småcellet lungekreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000123 | Hycamtin | topotecan | Ovarian Neoplasms; Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Gyldig |
+| EMEA/H/C/001192 | Topotecan Hospira | topotecan | Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Gyldig |
+| EMEA/H/C/002282 | Potactasol | topotecan | Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

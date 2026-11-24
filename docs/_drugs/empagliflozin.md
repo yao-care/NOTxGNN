@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin: predikert ny indikasjon Fokalt stiff-limb-syndrom (focal stiff limb syndrome) (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus type 2"
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
@@ -87,11 +87,17 @@ For tiden er det ingen relatert litteratur tilgjengelig.
 
 Alle tre tillatelser er gyldige i dag, og legemidlet er markedsført i Norge.
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002677 | Jardiance | Ikke oppgitt | Diabetes mellitus type 2; hjertesvikt; kronisk nyresvikt |
-| EMEA/H/C/003770 | Synjardy | Ikke oppgitt | Diabetes mellitus type 2 |
-| EMEA/H/C/003833 | Glyxambi | Ikke oppgitt | Diabetes mellitus type 2 |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002677 | Jardiance | empagliflozin | Diabetes Mellitus, Type 2; Heart Failure; Renal Insufficiency, Chronic | Gyldig |
+| EMEA/H/C/003770 | Synjardy | empagliflozin; metformin | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/003833 | Glyxambi | empagliflozin; linagliptin | Diabetes Mellitus, Type 2 | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

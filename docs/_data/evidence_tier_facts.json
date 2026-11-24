@@ -635,7 +635,7 @@
     "lt": 1,
     "lv": 0,
     "r": 2,
-    "rs": "Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent",
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -869,8 +869,8 @@
     "i": "Luftveismisdannelse",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Rettet: «Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter» → alle gjelder…",
     "x": 0
    },
    {
@@ -1034,8 +1034,8 @@
     "i": "classic stiff person syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake»",
+    "r": 3,
+    "rs": "Fjernet: «De to siste er Icandra … og Vildagliptin / Metformin hydrochloride Accord …»",
     "x": 0
    },
    {
@@ -1111,8 +1111,8 @@
     "i": "Felint ervervet immunsviktsyndrom",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 2,
+    "rs": "Fjernet: «Ytterligere én kansellert godkjenning (…EMEA/H/C/006491) er ikke vist i tabellen»",
     "x": 0
    },
    {
@@ -2069,7 +2069,7 @@
     "lt": 3,
     "lv": 2,
     "r": 4,
-    "rs": "Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent",
+    "rs": "Fjernet: «siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3»",
     "x": 0
    },
    {
@@ -3257,7 +3257,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt",
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -3323,7 +3323,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert",
+    "rs": "Fjernet: «Ipilimumabs tillatelse i Norge er dessuten avregistrert»",
     "x": 0
    },
    {
@@ -3807,7 +3807,7 @@
     "lt": 1,
     "lv": 1,
     "r": 5,
-    "rs": "Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake",
+    "rs": "Fjernet: «siden tillatelsen er trukket tilbake»",
     "x": 0
    },
    {
@@ -4698,7 +4698,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
+    "rs": "Fjernet: «I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir…",
     "x": 0
    },
    {

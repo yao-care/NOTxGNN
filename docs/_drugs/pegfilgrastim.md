@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Nøytropeni"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -84,15 +84,27 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Alle 11 godkjenninger er kansellert. De fem første er vist under; doseringsform er ikke oppgitt i dataene.
+Alle 11 godkjenninger er kansellert. Doseringsform er ikke oppgitt i dataene.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005312 | Cegfila (tidligere Pegfilgrastim Mundipharma) | – | – |
-| EMEA/H/C/006407 | Dyrupeg | – | Nøytropeni; kreft |
-| EMEA/H/C/000420 | Neulasta | – | Kreft; nøytropeni; febril nøytropeni; kjemoterapiindusert febril nøytropeni |
-| EMEA/H/C/004780 | Stimufend | – | – |
-| EMEA/H/C/004556 | Grasustek | – | – |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000420 | Neulasta | pegfilgrastim | Cancer; Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia | Gyldig |
+| EMEA/H/C/003961 | Pelgraz | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/004556 | Grasustek | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/004700 | Pelmeg | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/004780 | Stimufend | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/004802 | Ziextenzo | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/004915 | Fulphila | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/005085 | Nyvepria | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/005312 | Cegfila (previously Pegfilgrastim Mundipharma) | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/006407 | Dyrupeg | pegfilgrastim | Neutropenia; Cancer | Gyldig |
+| EMEA/H/C/006739 | Vivlipeg | pegfilgrastim | Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia; Cancer | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

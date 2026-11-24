@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enzalutamide: predikert ny indikasjon Prostataleiomyom (prostate leiomyoma) (evidensnivå L5). Opprinnelig indikasjon: Prostatic Neoplasms"
 ---
 
@@ -71,6 +71,18 @@ For tiden er det ingen relevant litteratur tilgjengelig for denne sykdommen.
 ## Markedsinformasjon for Norge
 
 Legemidlet har markedsføringstillatelser registrert i de lokale dataene, og markedsstatusen er «Markedsført». Tillatelsene gjelder enkeltstoffpreparater fra flere produsenter, blant annet Xtandi (Astellas Pharma Europe B.V.), Enzalutamide Viatris (Viatris Limited) og Enzalutamide Accordpharma (Accord Healthcare). Den detaljerte lisenstabellen genereres av programmet.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002639 | Xtandi | enzalutamide | Prostatic Neoplasms | Gyldig |
+| EMEA/H/C/006299 | Enzalutamide Viatris | enzalutamide | Prostatic Neoplasms | Gyldig |
+| EMEA/H/C/006612 | Enzalutamide Accordpharma | enzalutamide | Prostatic Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet (kun kreftlegemidler)
 

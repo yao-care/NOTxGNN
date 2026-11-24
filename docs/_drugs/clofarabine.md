@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clofarabine: predikert ny indikasjon Myeloid leukemi (myeloid leukemia) (evidensnivå L1). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
@@ -100,9 +100,15 @@ Disse mekanismene virker på raskt delende bloster i bloddannende vev. Det er de
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000613 | Evoltra | Ikke oppgitt | Ikke oppgitt i lokale data |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000613 | Evoltra | clofarabine | Precursor Cell Lymphoblastic Leukemia-Lymphoma | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

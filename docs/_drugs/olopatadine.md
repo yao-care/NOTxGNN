@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olopatadine: predikert ny indikasjon Rosacea-konjunktivitt (evidensnivå L5). Opprinnelig indikasjon: Allergisk konjunktivitt"
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -82,9 +82,15 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000407 | Opatanol | – | Allergisk konjunktivitt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000407 | Opatanol | olopatadine hydrochloride | Conjunctivitis, Allergic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Denne godkjenningen (Novartis Europharm Limited) er gyldig. Det finnes 1 gyldig godkjenning av 1, og legemidlet er markedsført.
 

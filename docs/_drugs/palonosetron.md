@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 308
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Oppkast"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -91,11 +91,17 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 Alle tre registrerte godkjenninger er kansellert. Dosering/legemiddelform er ikke oppgitt i dataene.
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000563 | Aloxi | – | Oppkast; kreft |
-| EMEA/H/C/004129 | Palonosetron Accord | – | Oppkast; kvalme; kreft |
-| EMEA/H/C/003728 | Akynzeo | – | Oppkast; neoplasmer; kvalme; kreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000563 | Aloxi | palonosetron hydrochloride | Vomiting; Cancer | Gyldig |
+| EMEA/H/C/003728 | Akynzeo | netupitant; palonosetron hydrochloride | Vomiting; Neoplasms; Nausea; Cancer | Gyldig |
+| EMEA/H/C/004129 | Palonosetron Accord | palonosetron | Vomiting; Nausea; Cancer | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

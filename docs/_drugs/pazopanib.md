@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 313
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Renal Cell"
@@ -98,9 +98,15 @@ To fase 2-studier (NCT01506596 og NCT01692496), samt publikasjonen PMID 31010343
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001141 | Votrient (Novartis Europharm Limited) | Ikke oppgitt | Nyrecellekarsinom (status: opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001141 | Votrient | pazopanib | Carcinoma, Renal Cell | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Én lisens er registrert, og den er gyldig.
 

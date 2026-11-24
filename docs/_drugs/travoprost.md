@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Travoprost: predikert ny indikasjon visceral kalsifylaksi (evidensnivå L5). Opprinnelig indikasjon: Åpenvinklet glaukom og okulær hypertensjon"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
@@ -86,11 +86,17 @@ For visceral kalcifylaksi finnes for øyeblikket ingen relatert litteratur.
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000390 | Travatan | Ikke oppgitt | Åpenvinklet glaukom, okulær hypertensjon |
-| EMEA/H/C/002738 | Izba | Ikke oppgitt | Okulær hypertensjon, åpenvinklet glaukom |
-| EMEA/H/C/000665 | DuoTrav | Ikke oppgitt | Åpenvinklet glaukom, okulær hypertensjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000390 | Travatan | travoprost | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+| EMEA/H/C/000665 | DuoTrav | travoprost; timolol | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+| EMEA/H/C/002738 | Izba | travoprost | Ocular Hypertension; Glaucoma, Open-Angle | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle tre godkjenningene (innehaver: Novartis Europharm Limited) er gyldige, og legemidlet er markedsført i Norge (3 gyldige godkjenninger av 3).
 
@@ -122,7 +128,7 @@ Prediksjonen kommer kun fra TxGNN-modellen (deep learning) (evidensnivå L5), og
 
 <!-- review:begin no-lic-20261106-travoprost-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av det regulatoriske grunnlaget, siden de norske godkjenningene er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 3, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av det regulatoriske grunnlaget, siden de norske godkjenningene er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-travoprost-1 -->
 
@@ -134,7 +140,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «siden de norske godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden de norske godkjenningene er avregistrert» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->

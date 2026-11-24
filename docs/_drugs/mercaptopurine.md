@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 263
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predikert ny indikasjon Myeloid leukemi (myeloid leukemia) (evidensnivå L3). Opprinnelig indikasjon: Leukemia, Lymphoid"
@@ -99,9 +99,15 @@ Mekanismen er ikke begrenset til én celletype. Vedlikeholdsbehandling med merka
 
 ## Markedsinformasjon i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002022 | Xaluprine (tidligere Mercaptopurine Nova Laboratories) | – | Lymfatisk leukemi (godkjenningen er godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002022 | Xaluprine (previously Mercaptopurine Nova Laboratories) | 6-mercaptopurine monohydrate | Leukemia, Lymphoid | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Legemidlet er markedsført i Norge, og én gyldig enkeltstoff-godkjenning er registrert.
 

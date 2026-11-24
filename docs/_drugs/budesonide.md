@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: predikert ny indikasjon Atopisk eksem (evidensnivå L5). Opprinnelig indikasjon: Spiserørssykdom (Esophageal Diseases)"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -95,17 +95,24 @@ Alle seks godkjenninger er gyldige.
 
 <!-- review:begin no-lic-20261106-budesonide-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-budesonide-1 -->
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004655 | Jorveza | – | Spiserørssykdom |
-| EMEA/H/C/003890 | BiResp Spiromax | – | Kols, astma |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | Kols, astma |
-| EMEA/H/C/004882 | GoResp Digihaler | – | Astma, kols |
-| EMEA/H/C/004983 | Trixeo Aerosphere | – | Kols |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002348 | DuoResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gyldig |
+| EMEA/H/C/003890 | BiResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gyldig |
+| EMEA/H/C/004655 | Jorveza | Budesonide | Esophageal Diseases | Gyldig |
+| EMEA/H/C/004882 | GoResp Digihaler (previously Budesonide/Formoterol Teva Pha… | Budesonide; formoterol fumarate dihydrate | Asthma; Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004983 | Trixeo Aerosphere | formoterol fumarate dihydrate; glycopyrronium bromide; Budesonide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/005311 | Riltrava Aerosphere | Budesonide; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +138,7 @@ Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og li
 
 <!-- review:begin no-lic-20261106-budesonide-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den høye TxGNN-scoren er ikke støttet av kliniske data, og alle norske godkjenninger er opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den høye TxGNN-scoren er ikke støttet av kliniske data, og alle norske godkjenninger er opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-budesonide-2 -->
 
@@ -152,8 +159,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «og alle norske godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «og alle norske godkjenninger er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
 
 <!-- review:end log -->

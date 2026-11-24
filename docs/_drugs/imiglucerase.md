@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase: predikert ny indikasjon Hurlers syndrom (Hurler syndrome) (evidensnivå L5). Opprinnelig indikasjon: Gaucher Disease"
@@ -80,15 +80,15 @@ Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjo
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | Ikke oppgitt | Gauchers sykdom (status: godkjent) |
+<!-- licenses:begin -->
 
-<!-- review:begin no-row-20261112-imiglucerase-1 -->
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000157 | Cerezyme | imiglucerase | Gaucher Disease | Gyldig |
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Gauchers sykdom (status: tilbakekalt)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Cerezyme (EMEA/H/C/000157) gyldig («Authorised»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
-<!-- review:end no-row-20261112-imiglucerase-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -121,7 +121,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt | Erstattet av den programgenererte lisenstabellen (tidligere: Rettet) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
 
 <!-- review:end log -->

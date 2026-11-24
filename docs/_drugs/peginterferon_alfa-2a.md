@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 316
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: predikert ny indikasjon Hepatitis E virus infection (evidensnivå L1). Opprinnelig indikasjon: Hepatitis C, Chronic"
@@ -107,10 +107,15 @@ Et utvalg av de mest relevante studiene (av 20 registrerte):
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000395 | Pegasys | Ikke angitt | Kronisk hepatitt C, kronisk hepatitt B, polycytemia vera, essensiell trombocytemi |
+<!-- licenses:begin -->
 
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000395 | Pegasys | peginterferon alfa-2a | Hepatitis C, Chronic; Hepatitis B, Chronic; Polycythemia Vera; Thrombocythemia, Essential | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

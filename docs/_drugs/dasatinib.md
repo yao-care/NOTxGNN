@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L2). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
@@ -94,10 +94,16 @@ Den kliniske effekten er derimot ikke bekreftet. En oversiktsartikkel (PMID 3565
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006251 | Dasatinib Accord Healthcare (godkjent) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
-| EMEA/H/C/000709 | Sprycel (godkjent) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000709 | Sprycel | dasatinib | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Leukemia, Myelogenous, Chronic, BCR-ABL Positive | Gyldig |
+| EMEA/H/C/006251 | Dasatinib Accord Healthcare | Dasatinib monohydrate | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Leukemia, Myelogenous, Chronic, BCR-ABL Positive | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,7 +139,7 @@ Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kl
 
 <!-- review:begin no-lic-20261031-dasatinib-1 -->
 
-> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom. Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom. Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261031-dasatinib-1 -->
 
@@ -157,7 +163,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-10-31 | Fjernet: «Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-10-31 | Fjernet: «Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->

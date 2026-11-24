@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 272
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: predikert ny indikasjon Insomni (evidensnivå L3). Opprinnelig indikasjon: Epilepsi"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -93,9 +93,15 @@ Oral midazolam ble faktisk undersøkt som sovemiddel på 1980- og 1990-tallet. M
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002267 | Buccolam | Ikke oppgitt | Epilepsi (godkjenningen er avsluttet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002267 | Buccolam | midazolam | Epilepsy | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

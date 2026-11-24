@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: predikert ny indikasjon Bilateral parasagittal parieto-oksipital polymikrogyri (bilateral parasagittal parieto-occipital polymicrogyria) (evidensnivå L5)."
@@ -82,10 +82,16 @@ Det er for tiden ingen relevant litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000109 | Rilutek | – | Amyotrofisk lateralsklerose |
-| EMEA/H/C/002622 | Riluzole Zentiva | – | Amyotrofisk lateralsklerose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000109 | Rilutek | riluzole | Amyotrophic Lateral Sclerosis | Gyldig |
+| EMEA/H/C/002622 | Riluzole Zentiva | riluzole | Amyotrophic Lateral Sclerosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge lisensene er gyldige.
 

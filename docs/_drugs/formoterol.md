@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Formoterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Opprinnelig indikasjon: Pulmonary Disease, Chronic Obstructive"
 ---
 
@@ -89,15 +89,32 @@ Ingen av disse studerer luftveismisdannelse direkte.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003745 | Duaklir Genuair | – | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/003890 | BiResp Spiromax | – | Kronisk obstruktiv lungesykdom, astma |
-| EMEA/H/C/003969 | Brimica Genuair | – | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/004245 | Bevespi Aerosphere | – | Kronisk obstruktiv lungesykdom |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | Kronisk obstruktiv lungesykdom, astma |
+<!-- licenses:begin -->
 
-Merk: Listen er et utvalg av de registrerte godkjenningene, og flere av dem gjelder kombinasjonsprodukter.
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002348 | DuoResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gyldig |
+| EMEA/H/C/003745 | Duaklir Genuair | aclidinium bromide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/003890 | BiResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gyldig |
+| EMEA/H/C/003969 | Brimica Genuair | formoterol fumarate dihydrate; aclidinium bromide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004245 | Bevespi Aerosphere | glycopyrronium; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004257 | Trimbow | beclometasone dipropionate; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004702 | Trydonis | beclometasone dipropionate; formoterol fumarate dihydrate; glycopyrronium | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004882 | GoResp Digihaler (previously Budesonide/Formoterol Teva Pha… | Budesonide; formoterol fumarate dihydrate | Asthma; Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/004983 | Trixeo Aerosphere | formoterol fumarate dihydrate; glycopyrronium bromide; Budesonide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+| EMEA/H/C/005311 | Riltrava Aerosphere | Budesonide; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
+
+Merk: Alle godkjenningene i dataene gjelder kombinasjonsprodukter.
+
+<!-- review:begin no-lic-20261124-formoterol-1 -->
+
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Merk: Listen er et utvalg av de registrerte godkjenningene, og flere av dem gjelder kombinasjonsprodukter.» Rettet: lisenstabellen lages nå av programmet og viser alle godkjenningene i dataene (ikke et utvalg), og ifølge virkestoffene i EMAs data gjelder alle kombinasjonsprodukter (formoterol sammen med budesonid, beklometason, aklidinium eller glykopyrronium). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261124-formoterol-1 -->
 
 ---
 
@@ -128,11 +145,12 @@ Det finnes ingen kliniske studier og ingen publikasjoner som direkte studerer lu
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+| 2026-11-24 | Rettet: «Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter» → alle gjelder kombinasjonsprodukter | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

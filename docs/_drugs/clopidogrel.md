@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clopidogrel: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Perifer karsykdom, hjerneslag, hjerteinfarkt…"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
@@ -111,15 +111,32 @@ For de øvrige forslagene er litteraturen i hovedsak ikke klinisk evidens for ny
 
 ## Markedsinformasjon for Norge
 
-Markedsført: 16 av 16 tillatelser er gyldige. Eksempler (opptil 5):
+Markedsført: 16 av 16 tillatelser er gyldige.
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000174 | Plavix | Ikke oppgitt | Hjerneslag, perifer karsykdom, atrieflimmer, hjerteinfarkt, akutt koronarsyndrom |
-| EMEA/H/C/000175 | Iscover | Ikke oppgitt | Hjerneslag, perifer karsykdom, atrieflimmer, hjerteinfarkt, akutt koronarsyndrom |
-| EMEA/H/C/001143 | DuoPlavin | Ikke oppgitt | Akutt koronarsyndrom, hjerteinfarkt |
-| EMEA/H/C/001058 | Zyllt | Ikke oppgitt | Perifer karsykdom, hjerneslag, akutt koronarsyndrom, hjerteinfarkt |
-| EMEA/H/C/001059 | Grepid | Ikke oppgitt | Perifer karsykdom, hjerneslag, hjerteinfarkt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000174 | Plavix | clopidogrel hydrogen sulfate | Stroke; Peripheral Vascular Diseases; Atrial Fibrillation; Myocardial Infarction; Acute Coronary Syndrome | Gyldig |
+| EMEA/H/C/000175 | Iscover | clopidogrel | Stroke; Peripheral Vascular Diseases; Atrial Fibrillation; Myocardial Infarction; Acute Coronary Syndrome | Gyldig |
+| EMEA/H/C/000975 | Clopidogrel Zentiva (previously Clopidogrel Winthrop) | clopidogrel | Stroke; Peripheral Vascular Diseases; Myocardial Infarction; Acute Coronary Syndrome | Gyldig |
+| EMEA/H/C/001053 | Clopidogrel Teva (hydrogen sulphate) | clopidogrel (as hydrogen sulfate) | Acute Coronary Syndrome; Peripheral Vascular Diseases; Myocardial Infarction; Stroke | Gyldig |
+| EMEA/H/C/001056 | Clopidogrel Krka | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001058 | Zyllt | clopidogrel (as hydrogen sulfate) | Peripheral Vascular Diseases; Stroke; Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001059 | Grepid | clopidogrel (as besilate) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001134 | Clopidogrel Taw Pharma (previously Clopidogrel Mylan) | clopidogrel hydrochloride | Peripheral Vascular Diseases; Stroke; Myocardial Infarction; Acute Coronary Syndrome | Gyldig |
+| EMEA/H/C/001136 | Clopidogrel TAD | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001137 | Clopidogrel Krka d.d. (previously Zopya) | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001138 | Clopidogrel BGR (previously Zylagren) | clopidogrel (as hydrogen sulfate) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001143 | DuoPlavin | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (previously DuoCov… | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+| EMEA/H/C/002255 | Clopidogrel HCS | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Acute Coronary Syndrome; Myocardial Infarction; Stroke | Gyldig |
+| EMEA/H/C/004006 | Clopidogrel ratiopharm | clopidogrel (as hydrogen sulfate) | Myocardial Infarction; Acute Coronary Syndrome; Peripheral Vascular Diseases; Stroke | Gyldig |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (previously Clop… | acetylsalicylic acid; clopidogrel hydrogen sulfate | Acute Coronary Syndrome; Myocardial Infarction | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

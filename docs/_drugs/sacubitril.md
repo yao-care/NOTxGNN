@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predikert ny indikasjon Brain small vessel disease 1 with or without ocular anomalies (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 2 (gyldige: 2)"
@@ -68,10 +68,16 @@ Den eneste litteraturen som ble funnet i forbindelse med denne prediksjonen, omh
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004343 | Neparvis | – | Hjertesvikt (opphevet) |
-| EMEA/H/C/004062 | Entresto | – | Hjertesvikt (opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004062 | Entresto | sacubitril; valsartan | Heart Failure | Gyldig |
+| EMEA/H/C/004343 | Neparvis | sacubitril; valsartan | Heart Failure | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

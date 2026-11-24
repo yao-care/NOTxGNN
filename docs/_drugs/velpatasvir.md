@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 446
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Velpatasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"
@@ -97,10 +97,16 @@ Ingen av publikasjonene dokumenterer at velpatasvir har direkte effekt mot HBV.
 
 ## Informasjon om det norske markedet
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004210 | Epclusa | Ikke oppgitt | Kronisk hepatitt C (kansellert) |
-| EMEA/H/C/004350 | Vosevi | Ikke oppgitt | Kronisk hepatitt C (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004210 | Epclusa | sofosbuvir; velpatasvir | Hepatitis C, Chronic | Gyldig |
+| EMEA/H/C/004350 | Vosevi | sofosbuvir; velpatasvir; voxilaprevi | Hepatitis C, Chronic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

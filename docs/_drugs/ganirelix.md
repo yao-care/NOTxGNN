@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ganirelix: predikert ny indikasjon Hypertrikose (hypertrichosis (disease)) (evidensnivå L5). Opprinnelig indikasjon: Reproductive Techniques, Assisted"
 ---
 
@@ -68,10 +68,16 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000274 | Orgalutran | Ikke oppgitt | Se lokale lisensposter |
-| EMEA/H/C/005641 | Ganirelix Gedeon Richter | Ikke oppgitt | Se lokale lisensposter |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000274 | Orgalutran | ganirelix | Reproductive Techniques, Assisted; Ovulation Induction; Infertility, Female | Gyldig |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter | ganirelix acetate | Reproductive Techniques, Assisted; Ovulation Induction; Infertility, Female | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 236
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ledipasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L2). Opprinnelig indikasjon: Kronisk hepatitt C"
 monitor_inn: "LEDIPASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -99,9 +99,15 @@ Det kliniske signalet kommer fra pasienter med HCV/HBV-koinfeksjon, der HCV-supp
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003850 | Harvoni | Ikke oppgitt | Kronisk hepatitt C (status: godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003850 | Harvoni | ledipasvir; sofosbuvir | Hepatitis C, Chronic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

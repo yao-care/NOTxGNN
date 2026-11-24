@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tezacaftor: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Cystisk fibrose"
 monitor_inn: "TEZACAFTOR"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -75,11 +75,17 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004682 | Symkevi | – | Cystisk fibrose |
-| EMEA/H/C/006382 | Alyftrek | – | Cystisk fibrose |
-| EMEA/H/C/005269 | Kaftrio | – | Cystisk fibrose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004682 | Symkevi | tezacaftor; ivacaftor | Cystic Fibrosis | Gyldig |
+| EMEA/H/C/005269 | Kaftrio | ivacaftor; tezacaftor; elexacaftor | Cystic Fibrosis | Gyldig |
+| EMEA/H/C/006382 | Alyftrek | deutivacaftor; tezacaftor; vanzacaftor calcium dihydrate | Cystic Fibrosis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle tre godkjenningene er registrert som gyldige i datagrunnlaget, og legemidlet er markedsført.
 

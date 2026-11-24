@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methotrexate: predikert ny indikasjon Lungeblastom (pulmonary blastoma) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Psoriatic"
 ---
 
@@ -68,10 +68,16 @@ Foreløpig finnes ingen relatert litteratur for lungeblastom.
 
 ## Markedsinformasjon for Norge
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003983 | Nordimet | Ikke oppgitt | Ikke oppgitt |
-| EMEA/H/C/003756 | Jylamvo | Ikke oppgitt | Ikke oppgitt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003756 | Jylamvo | methotrexate | Arthritis, Psoriatic; Precursor Cell Lymphoblastic Leukemia-Lymphoma; Psoriasis; Arthritis, Rheumatoid; Arthr… | Gyldig |
+| EMEA/H/C/003983 | Nordimet | methotrexate | Arthritis, Psoriatic; Psoriasis; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Denosumab: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Tap av benmasse, postmenopausal osteoporose, osteoporose"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -88,15 +88,38 @@ For alvorlig ikke-proliferativ diabetisk retinopati finnes ingen relevant litter
 
 ## Markedsinformasjon for Norge
 
-20 gyldige tillatelser er markedsført. Et utvalg:
+20 gyldige tillatelser er markedsført.
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001120 | Prolia | – | Tap av benmasse, postmenopausal osteoporose, osteoporose |
-| EMEA/H/C/002173 | Xgeva | – | Kjempecelletumor i bein, bentumorer |
-| EMEA/H/C/006378 | Wyost | – | Kjempecelletumor i bein, bentumorer |
-| EMEA/H/C/006507 | Rolcya | – | Osteoporose, postmenopausal osteoporose, tap av benmasse |
-| EMEA/H/C/006526 | Evfraxy | – | Tap av benmasse, osteoporose, postmenopausal osteoporose |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001120 | Prolia | denosumab | Bone Resorption; Osteoporosis, Postmenopausal; Osteoporosis | Gyldig |
+| EMEA/H/C/002173 | Xgeva | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gyldig |
+| EMEA/H/C/006152 | Izamby | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/006156 | Stoboclo | denosumab | Osteoporosis, Postmenopausal; Osteoporosis; Bone Resorption | Gyldig |
+| EMEA/H/C/006199 | Denbrayce | denosumab | Neoplasms, Bone Tissue; Giant Cell Tumor of Bone | Gyldig |
+| EMEA/H/C/006238 | Ponlimsi | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/006239 | Degevma | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gyldig |
+| EMEA/H/C/006268 | Conexxence | denosumab | Osteoporosis; Osteoporosis, Postmenopausal; Bone Resorption | Gyldig |
+| EMEA/H/C/006269 | Bomyntra | denosumab | Neoplasms, Bone Tissue; Giant Cell Tumor of Bone | Gyldig |
+| EMEA/H/C/006378 | Wyost | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gyldig |
+| EMEA/H/C/006398 | Jubereq | denosumab | Neoplasms, Bone Tissue; Giant Cell Tumor of Bone | Gyldig |
+| EMEA/H/C/006399 | Osvyrti | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/006436 | Junod | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/006437 | Yaxwer | denosumab | Neoplasms, Bone Tissue; Giant Cell Tumor of Bone | Gyldig |
+| EMEA/H/C/006468 | Xbryk | denosumab | Neoplasms, Bone Tissue; Giant Cell Tumor of Bone | Gyldig |
+| EMEA/H/C/006492 | Osqay | denosumab | Bone Resorption | Gyldig |
+| EMEA/H/C/006507 | Rolcya | denosumab | Osteoporosis; Osteoporosis, Postmenopausal; Bone Resorption | Gyldig |
+| EMEA/H/C/006526 | Evfraxy | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+| EMEA/H/C/006722 | Xbonzy | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gyldig |
+| EMEA/H/C/006797 | Denosumab Intas | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
+
+Tabellen viser 20 av 31 sentrale EU-godkjenninger i disse dataene (gyldige først).
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ticagrelor: predikert ny indikasjon Intrakraniell arteriosklerose (evidensnivå L5). Opprinnelig indikasjon: Perifere karsykdommer"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
@@ -90,9 +90,15 @@ Evidensen er likevel begrenset: Phase 3-studien CAPTIVA pågår uten rapporterte
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001241 | Brilique (AstraZeneca AB) | Ikke oppgitt | Perifere karsykdommer; akutt koronarsyndrom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001241 | Brilique | ticagrelor | Peripheral Vascular Diseases; Acute Coronary Syndrome | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Godkjenningen har status kansellert.
 

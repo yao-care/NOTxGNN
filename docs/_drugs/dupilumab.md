@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dupilumab: predikert ny indikasjon Bronkitt (bronchitis) (evidensnivå L5). Opprinnelig indikasjon: Dermatitis, Atopic"
 ---
 
@@ -96,6 +96,16 @@ Den eneste registrerte studien (NCT04362501) gjelder kronisk rinosinusitt uten n
 ## Markedsinformasjon for Norge
 
 Legemidlet har status som markedsført i de lokale dataene. Lisensoversikten genereres av programmet.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004390 | Dupixent | dupilumab | Dermatitis, Atopic; Prurigo; Esophageal Diseases; Asthma; Sinusitis | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

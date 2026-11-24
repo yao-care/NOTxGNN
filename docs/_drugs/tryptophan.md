@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 437
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tryptophan: predikert ny indikasjon Restless legs-syndrom (evidensnivå L3). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -72,7 +72,7 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 <!-- review:begin no-lic-20261106-tryptophan-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Denne godkjenningen er avregistrert (status: cancelled).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Denne godkjenningen er avregistrert (status: cancelled).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-tryptophan-2 -->
 
@@ -93,9 +93,15 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Lønnesirupsyke (Maple Syrup Urine Disease) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005557 | Maapliv | glycine,L-alanine,L-arginine,L-aspartic acid,L-cysteine hydrochloride monohydrate,L-histi… | Maple Syrup Urine Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,7 +114,7 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 <!-- review:begin no-lic-20261031-tryptophan-1 -->
 
-> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «**Sikkerhetshistorikk:** Utbruddet av eosinofili-myalgi-syndrom i 1989, knyttet til forurenset L-tryptofan, er relevant for all videre utvikling og er en del av bakgrunnen for at markedsstatusen er «kun avregistrert». / **Legemiddelinteraksjoner:** 17 interaksjoner er identifisert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «**Sikkerhetshistorikk:** Utbruddet av eosinofili-myalgi-syndrom i 1989, knyttet til forurenset L-tryptofan, er relevant for all videre utvikling og er en del av bakgrunnen for at markedsstatusen er «kun avregistrert». / **Legemiddelinteraksjoner:** 17 interaksjoner er identifisert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261031-tryptophan-1 -->
 
@@ -148,8 +154,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-10-31 | Fjernet: «**Sikkerhetshistorikk:** Utbruddet av eosinofili-myalgi-syndrom i 1989, knyttet til forurenset L-tryptofan, er relevant for all videre utvik» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «Denne godkjenningen er avregistrert (status: cancelled)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-10-31 | Fjernet: «**Sikkerhetshistorikk:** Utbruddet av eosinofili-myalgi-syndrom i 1989, knyttet til forurenset L-tryptofan, er relevant for all videre utvik» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Denne godkjenningen er avregistrert (status: cancelled)» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

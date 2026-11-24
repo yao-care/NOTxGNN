@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 433
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: kjente bruksområder og markedsstatus i Norge; for tiden ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -75,9 +75,15 @@ Alle kandidatene som TxGNN-modellen har foreslått for Trastuzumab Emtansine, er
 
 ## Informasjon om det norske markedet
 
-| Tillatelse | Produkt | Legemiddelform | Status |
-|------|------|------|------|
-| EMEA/H/C/002389 | trastuzumab emtansine |  | Gyldig |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002389 | Kadcyla | trastuzumab emtansine | Breast Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

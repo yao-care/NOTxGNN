@@ -21,11 +21,11 @@
   "items_current": 943
  },
  "reviews": {
-  "records": 606,
+  "records": 609,
   "pages": 410,
   "public_pages_with_records": 409,
   "by_action": {
-   "correct": 217,
+   "correct": 220,
    "mechanism": 389
   }
  },
@@ -222,40 +222,22 @@
  },
  "recent_reviews": [
   {
-   "t": "Vismodegib",
-   "u": "/drugs/vismodegib/",
-   "s": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
-   "d": "2026-11-12"
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Fjernet: «De to siste er Icandra … og Vildagliptin / Metformin hydrochloride Accord …»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "s": "Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent",
-   "d": "2026-11-12"
+   "t": "Rilpivirine",
+   "u": "/drugs/rilpivirine/",
+   "s": "Fjernet: «Ytterligere én kansellert godkjenning (…EMEA/H/C/006491) er ikke vist i tabellen»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Parathyroid Hormone",
-   "u": "/drugs/parathyroid-hormone/",
-   "s": "Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Panitumumab",
-   "u": "/drugs/panitumumab/",
-   "s": "Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Ipilimumab",
-   "u": "/drugs/ipilimumab/",
-   "s": "Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Imiglucerase",
-   "u": "/drugs/imiglucerase/",
-   "s": "Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt",
-   "d": "2026-11-12"
+   "t": "Formoterol",
+   "u": "/drugs/formoterol/",
+   "s": "Rettet: «Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter» → alle gjelder…",
+   "d": "2026-11-24"
   },
   {
    "t": "Verteporfin",
@@ -330,12 +312,6 @@
    "d": "2026-11-06"
   },
   {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake»",
-   "d": "2026-11-06"
-  },
-  {
    "t": "Vestronidase Alfa",
    "u": "/drugs/vestronidase-alfa/",
    "s": "Fjernet: «siden godkjenningen er avregistrert»",
@@ -364,44 +340,50 @@
    "u": "/drugs/turoctocog-alfa/",
    "s": "Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge»",
    "d": "2026-11-06"
+  },
+  {
+   "t": "Tryptophan",
+   "u": "/drugs/tryptophan/",
+   "s": "Fjernet: «Denne godkjenningen er avregistrert (status: cancelled)»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Fjernet: «siden de norske godkjenningene er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trastuzumab Deruxtecan",
+   "u": "/drugs/trastuzumab-deruxtecan/",
+   "s": "Fjernet: «siden tillatelsen er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Fjernet: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt)»",
+   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Vismodegib",
-   "u": "/drugs/vismodegib/",
-   "s": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
-   "d": "2026-11-12"
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Fjernet: «De to siste er Icandra … og Vildagliptin / Metformin hydrochloride Accord …»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "s": "Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent",
-   "d": "2026-11-12"
+   "t": "Rilpivirine",
+   "u": "/drugs/rilpivirine/",
+   "s": "Fjernet: «Ytterligere én kansellert godkjenning (…EMEA/H/C/006491) er ikke vist i tabellen»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Parathyroid Hormone",
-   "u": "/drugs/parathyroid-hormone/",
-   "s": "Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Panitumumab",
-   "u": "/drugs/panitumumab/",
-   "s": "Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Ipilimumab",
-   "u": "/drugs/ipilimumab/",
-   "s": "Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Imiglucerase",
-   "u": "/drugs/imiglucerase/",
-   "s": "Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt",
-   "d": "2026-11-12"
+   "t": "Formoterol",
+   "u": "/drugs/formoterol/",
+   "s": "Rettet: «Listen er et utvalg …, og flere av dem gjelder kombinasjonsprodukter» → alle gjelder…",
+   "d": "2026-11-24"
   },
   {
    "t": "Verteporfin",
@@ -413,6 +395,24 @@
    "t": "Tobramycin",
    "u": "/drugs/tobramycin/",
    "s": "Fjernet: «Begge norske godkjenninger er avsluttet»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tasimelteon",
+   "u": "/drugs/tasimelteon/",
+   "s": "Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Roxadustat",
+   "u": "/drugs/roxadustat/",
+   "s": "Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt»",
    "d": "2026-11-12"
   }
  ],

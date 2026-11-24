@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aliskiren: predikert ny indikasjon pulmonal hypertensjon som følge av lungesykdom og/eller hypoksi (pulmonary hypertension owing to lung disease and/or hy… (evidensnivå L5). Opprinnelig indikasjon: H…"
 ---
 
@@ -87,9 +87,15 @@ Foreløpig er det ingen relevante kliniske studier registrert.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000780 | Rasilez | Ikke angitt | Hypertensjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000780 | Rasilez | aliskiren | Hypertension | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

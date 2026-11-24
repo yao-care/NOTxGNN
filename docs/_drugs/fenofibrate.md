@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: predikert ny indikasjon Kolesterolester-transferprotein-mangel (evidensnivå L5). Opprinnelig indikasjon: Dyslipidemi"
 ---
 
@@ -76,10 +76,16 @@ Ingen av publikasjonene undersøker CETP-mangel hos mennesker, og ingen studerer
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002559 | Cholib | – | Dyslipidemi |
-| EMEA/H/C/001243 | Pravafenix | – | Dyslipidemi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001243 | Pravafenix | fenofibrate; pravastatin | Dyslipidemias | Gyldig |
+| EMEA/H/C/002559 | Cholib | fenofibrate; simvastatin | Dyslipidemias | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

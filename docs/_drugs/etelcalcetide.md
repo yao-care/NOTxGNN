@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 165
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide: predikert ny indikasjon Hyperfosfatemi (hyperphosphatemia (disease)) (evidensnivå L4). Opprinnelig indikasjon: Hyperparathyroidism, Secondary"
@@ -79,9 +79,15 @@ Bare PMID 42044867 undersøker hyperfosfatemi direkte. De øvrige publikasjonene
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003995 | Parsabiv | – | Sekundær hyperparatyreoidisme (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003995 | Parsabiv | etelcalcetide hydrochloride | Hyperparathyroidism, Secondary | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabazitaxel: predikert ny indikasjon Kvinnelig brystkarsinom (evidensnivå L5). Opprinnelig indikasjon: Prostatakreft (Prostatic Neoplasms)"
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
@@ -97,10 +97,16 @@ Resultatene fra de to fase II-studiene er ikke oppsummert i detalj i datagrunnla
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002018 | Jevtana (status: kansellert) | Ikke oppgitt | Prostatakreft |
-| EMEA/H/C/005178 | Cabazitaxel Accord (status: kansellert) | Ikke oppgitt | Kastrasjonsresistent prostatakreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002018 | Jevtana | cabazitaxel | Prostatic Neoplasms | Gyldig |
+| EMEA/H/C/005178 | Cabazitaxel Accord | cabazitaxel | Prostatic Neoplasms, Castration-Resistant | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ethinylestradiol: predikert ny indikasjon Forhøyet sinkkonsentrasjon i plasma (zinc, elevated plasma) (evidensnivå L5). Opprinnelig indikasjon: Contraception"
 ---
 
@@ -80,9 +80,15 @@ Foreløpig er ingen relevant litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000410 | Evra | Ikke oppgitt | Ikke oppgitt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000410 | Evra | norelgestromin; Ethinyl estradiol | Contraception | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

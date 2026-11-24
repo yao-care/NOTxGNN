@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 291
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Obinutuzumab: kjente bruksområder og markedsstatus i Norge; for tiden ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -73,9 +73,15 @@ TxGNN-modellens kandidater for Obinutuzumab (skåre ≥ 0,99) er alle kjente bru
 
 ## Informasjon om det norske markedet
 
-| Tillatelse | Produkt | Legemiddelform | Status |
-|------|------|------|------|
-| EMEA/H/C/002799 | obinutuzumab |  | Gyldig |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002799 | Gazyvaro | obinutuzumab | Leukemia, Lymphocytic, Chronic, B-Cell | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Cytotoksisitet
 

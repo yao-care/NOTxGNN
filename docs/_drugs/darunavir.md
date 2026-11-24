@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir: predikert ny indikasjon Infeksjon med simian immunsviktvirus (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -76,6 +76,20 @@ Ingen av studiene isolerer darunavirs bidrag, og om darunavir inngår i regimene
 ## Informasjon om markedet i Norge
 
 Markedsstatus er registrert som markedsført i de lokale dataene. Lisensoversikten genereres av programmet.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000707 | Prezista | darunavir | HIV Infections | Gyldig |
+| EMEA/H/C/002819 | Rezolsta | darunavir; cobicistat | HIV Infections | Gyldig |
+| EMEA/H/C/004068 | Darunavir Viatris (previously Darunavir Mylan) | darunavir | HIV Infections | Gyldig |
+| EMEA/H/C/004273 | Darunavir Krka | darunavir | HIV Infections | Gyldig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

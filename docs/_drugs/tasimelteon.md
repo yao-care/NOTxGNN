@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tasimelteon: predikert ny indikasjon Bilateral parasagittal parieto-occipital polymikrogyri (evidensnivå L5). Opprinnelig indikasjon: Søvnforstyrrelser, døgnrytme"
 monitor_inn: "TASIMELTEON"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
@@ -81,15 +81,15 @@ Foreløpig finnes ingen relatert litteratur for denne indikasjonen.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003870 | Hetlioz (Vanda Pharmaceuticals Netherlands B.V.) | – | Søvnforstyrrelser, døgnrytme (status: godkjent) |
+<!-- licenses:begin -->
 
-<!-- review:begin no-lic-20261112-tasimelteon-1 -->
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003870 | Hetlioz | tasimelteon | Sleep Disorders, Circadian Rhythm | Gyldig |
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Søvnforstyrrelser, døgnrytme (status: opphørt)» Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
-<!-- review:end no-lic-20261112-tasimelteon-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -113,7 +113,7 @@ Prediksjonen for polymikrogyri er kun modellbasert (L5), uten kliniske studier, 
 
 <!-- review:begin no-lic-20261112-tasimelteon-2 -->
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «uten kjent mekanistisk kobling. Legemidlet har dessuten bare en opphørt godkjenning i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «uten kjent mekanistisk kobling. Legemidlet har dessuten bare en opphørt godkjenning i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261112-tasimelteon-2 -->
 
@@ -124,7 +124,7 @@ Prediksjonen for polymikrogyri er kun modellbasert (L5), uten kliniske studier, 
 
 <!-- review:begin no-lic-20261112-tasimelteon-3 -->
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261112-tasimelteon-3 -->
 
@@ -136,9 +136,9 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Rettet i tabellen: EMEA/H/C/003870 «status: opphørt» → «status: godkjent» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-12 | Fjernet: «Legemidlet har dessuten bare en opphørt godkjenning i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-12 | Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Rettet i tabellen: EMEA/H/C/003870 «status: opphørt» → «status: godkjent» | Erstattet av den programgenererte lisenstabellen (tidligere: Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten)) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «Legemidlet har dessuten bare en opphørt godkjenning i Norge» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-20 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90) |
 
 <!-- review:end log -->

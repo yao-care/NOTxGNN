@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dantrolene: predikert ny indikasjon Moderat multiminicore-sykdom med håndaffeksjon (moderate multiminicore disease with hand involvement) (evidensnivå L5). Opprinnelig indikasjon: Malignant Hyperther…"
 ---
 
@@ -70,9 +70,15 @@ Det foreligger for tiden ingen relevant litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Produsent |
-|---------|------|------|
-| EMEA/H/C/006009 | Agilus | Norgine B.V. |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006009 | Agilus | dantrolene sodium, hemiheptahydrate | Malignant Hyperthermia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

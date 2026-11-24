@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitisinone: predikert ny indikasjon Renal tubulær acidose (evidensnivå L5). Opprinnelig indikasjon: Tyrosinemi"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -90,10 +90,16 @@ Til sammenligning fant datagrunnlaget følgende indirekte litteratur for andre p
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000555 | Orfadin (kansellert) | – | Tyrosinemi |
-| EMEA/H/C/004582 | Nityr (kansellert) | – | Tyrosinemi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000555 | Orfadin | nitisinone | Tyrosinemias | Gyldig |
+| EMEA/H/C/004582 | Nityr | nitisinone | Tyrosinemias | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

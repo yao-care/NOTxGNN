@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dabigatran Etexilate: predikert ny indikasjon Skleroserende kolangitt (sclerosing cholangitis) (evidensnivå L5). Opprinnelig indikasjon: Arthroplasty, Replacement"
 ---
 
@@ -71,11 +71,17 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000829 | Pradaxa | Ikke angitt | Arthroplasty, Replacement; Venous Thromboembolism |
-| EMEA/H/C/005922 | Dabigatran etexilate Teva (tidligere Dabigatran etexilate Leon Farma) | Ikke angitt | Venous Thromboembolism; Arthroplasty, Replacement |
-| EMEA/H/C/005639 | Dabigatran Etexilate Accord | Ikke angitt | Venous Thromboembolism; Arthroplasty, Replacement |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000829 | Pradaxa | dabigatran etexilate mesilate | Arthroplasty, Replacement; Venous Thromboembolism | Gyldig |
+| EMEA/H/C/005639 | Dabigatran Etexilate Accord | dabigatran etexilate mesilate | Venous Thromboembolism; Arthroplasty, Replacement | Gyldig |
+| EMEA/H/C/005922 | Dabigatran etexilate Teva (previously Dabigatran etexilate… | dabigatran etexilate mesilate | Venous Thromboembolism; Arthroplasty, Replacement | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

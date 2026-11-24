@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 118
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: predikert ny indikasjon HIV-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Jernoverskudd"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -84,11 +84,17 @@ Foreløpig ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005014 | Deferasirox Mylan | – | Jernoverskudd; beta-talassemi |
-| EMEA/H/C/000670 | Exjade | – | Beta-talassemi; jernoverskudd |
-| EMEA/H/C/005156 | Deferasirox Accord | – | Jernoverskudd; beta-talassemi |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000670 | Exjade | deferasirox | beta-Thalassemia; Iron Overload | Gyldig |
+| EMEA/H/C/005014 | Deferasirox Mylan | deferasirox | Iron Overload; beta-Thalassemia | Gyldig |
+| EMEA/H/C/005156 | Deferasirox Accord | deferasirox | Iron Overload; beta-Thalassemia | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Tre av tre godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 

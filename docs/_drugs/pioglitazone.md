@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: predikert ny indikasjon Opsismodysplasi (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus type 2"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -86,13 +86,20 @@ Foreløpig finnes ingen relevant litteratur for opsismodysplasi.
 
 Alle seks godkjenningene er gyldige (6 av 6 gyldige godkjenninger), og legemidlet er markedsført.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000285 | Actos | – | Diabetes mellitus type 2 |
-| EMEA/H/C/002277 | Pioglitazone Accord | – | Diabetes mellitus type 2 |
-| EMEA/H/C/002324 | Pioglitazone Actavis | – | Diabetes mellitus type 2 |
-| EMEA/H/C/000655 | Competact | – | Diabetes mellitus type 2 |
-| EMEA/H/C/000680 | Tandemact | – | Diabetes mellitus type 2 |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000285 | Actos | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000655 | Competact | pioglitazone; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/000680 | Tandemact | pioglitazone; glimepiride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002178 | Incresync | alogliptin; pioglitazone | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002277 | Pioglitazone Accord | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+| EMEA/H/C/002324 | Pioglitazone Actavis | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,7 +127,7 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litte
 
 <!-- review:begin no-lic-20261106-pioglitazone-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Systematisk litteratursøk for opsismodysplasi og vurdering av de mer plausible alternativene (lokaliserte lipodystrofier) / Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Systematisk litteratursøk for opsismodysplasi og vurdering av de mer plausible alternativene (lokaliserte lipodystrofier) / Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-pioglitazone-1 -->
 
@@ -132,7 +139,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->

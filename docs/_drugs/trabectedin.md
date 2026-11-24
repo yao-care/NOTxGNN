@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trabectedin: predikert ny indikasjon Brystkreft hos kvinner (female breast carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Eggstokkreft og sarkom"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
@@ -95,10 +95,16 @@ Den høye TxGNN-scoren (0,9973) stemmer med denne mekanistiske nærheten til de 
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000773 | Yondelis (Pharma Mar S.A.) | Ikke oppgitt | Eggstokkreft, sarkom (kansellert) |
-| EMEA/H/C/006433 | Trabectedin Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Sarkom, eggstokkreft (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000773 | Yondelis | trabectedin | Ovarian Neoplasms; Sarcoma | Gyldig |
+| EMEA/H/C/006433 | Trabectedin Accord | trabectedin | Sarcoma; Ovarian Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

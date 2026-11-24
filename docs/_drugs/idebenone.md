@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "IDEBENONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idebenone: predikert ny indikasjon Hepatisk porfyri (hepatic porphyria) (evidensnivå L5). Opprinnelig indikasjon: Optic Atrophy, Hereditary, Leber"
 ---
 
@@ -80,9 +80,15 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003834 | Raxone | Ikke oppgitt | Ikke oppgitt i lokale data |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003834 | Raxone | idebenone | Optic Atrophy, Hereditary, Leber | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Lisensen er oppført med status «kansellert» i de lokale postene, mens samlet markedsstatus er oppgitt som markedsført. Statusen bør verifiseres mot oppdatert registerinformasjon før den brukes i beslutninger.
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L2). Opprinnelig indikasjon: Graft Rejection"
 ---
 
@@ -85,12 +85,18 @@ Mykofenolat kan også forsterke den antivirale effekten av nukleosidanaloger som
 
 ## Markedsinformasjon for Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000884 | Myfenax | – | Ikke registrert i lokale data |
-| EMEA/H/C/001218 | Myclausen | – | Ikke registrert i lokale data |
-| EMEA/H/C/000082 | CellCept | – | Ikke registrert i lokale data |
-| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Ikke registrert i lokale data |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000082 | CellCept | mycophenolate mofetil | Graft Rejection | Gyldig |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | mycophenolate mofetil | Graft Rejection | Gyldig |
+| EMEA/H/C/000884 | Myfenax | mycophenolate mofetil | Graft Rejection | Gyldig |
+| EMEA/H/C/001218 | Myclausen | mycophenolate mofetil | Graft Rejection | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

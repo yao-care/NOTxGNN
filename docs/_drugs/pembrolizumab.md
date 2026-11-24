@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pembrolizumab: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -83,9 +83,15 @@ Det er for tiden ingen relevant litteratur tilgjengelig for gingival fibromatose
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003820 | Keytruda | Ikke oppgitt | Melanom; Hodgkin-lymfom; nyrecellekarsinom; ikke-småcellet lungekreft; urotelkarsinom; plateepitelkarsinom i hode og hals... (status: kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003820 | Keytruda | pembrolizumab | Melanoma; Hodgkin Disease; Carcinoma, Renal Cell; Carcinoma, Non-Small-Cell Lung; Carcinoma, Transitional Cel… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Legemidlet er markedsført i Norge, og 1 av 1 tillatelser i datagrunnlaget er gyldig.
 

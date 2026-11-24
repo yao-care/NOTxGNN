@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"
@@ -101,12 +101,18 @@ For hepatitt B er de nærmeste studiene [NCT03312023](https://clinicaltrials.gov
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002798 | Sovaldi | – | Kronisk hepatitt C |
-| EMEA/H/C/003850 | Harvoni | – | Kronisk hepatitt C |
-| EMEA/H/C/004210 | Epclusa | – | Kronisk hepatitt C |
-| EMEA/H/C/004350 | Vosevi | – | Kronisk hepatitt C |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002798 | Sovaldi | sofosbuvir | Hepatitis C, Chronic | Gyldig |
+| EMEA/H/C/003850 | Harvoni | ledipasvir; sofosbuvir | Hepatitis C, Chronic | Gyldig |
+| EMEA/H/C/004210 | Epclusa | sofosbuvir; velpatasvir | Hepatitis C, Chronic | Gyldig |
+| EMEA/H/C/004350 | Vosevi | sofosbuvir; velpatasvir; voxilaprevi | Hepatitis C, Chronic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

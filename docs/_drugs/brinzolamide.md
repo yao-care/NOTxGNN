@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 65
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Brinzolamide: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Alle kandidatene som TxGNN-modellen (skåre ≥ 0,99) har gitt for Brinzolamide,
 
 ## Markedsinformasjon for Norge
 
-| Tillatelse | Produkt | Legemiddelform | Status |
-|------|------|------|------|
-| EMEA/H/C/000267 | brinzolamide |  | Gyldig |
-| EMEA/H/C/000960 | brinzolamide;timolol maleate |  | Gyldig |
-| EMEA/H/C/003698 | brinzolamide;brimonidine tartrate |  | Gyldig |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000267 | Azopt | brinzolamide | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+| EMEA/H/C/000960 | Azarga | brinzolamide; timolol maleate | Glaucoma, Open-Angle; Ocular Hypertension | Gyldig |
+| EMEA/H/C/003698 | Simbrinza | brinzolamide; brimonidine tartrate | Ocular Hypertension; Glaucoma, Open-Angle | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

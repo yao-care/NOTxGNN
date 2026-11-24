@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "ductal or ductular proliferation", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetuximab: predikert ny indikasjon Bronkiale adenomer/karsinoider hos barn (bronchial adenomas/carcinoids childhood) (evidensnivå L5). Opprinnelig indikasjon: Head and Neck Neoplasms"
 ---
 
@@ -81,6 +81,16 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 ## Informasjon om det norske markedet
 
 Dataene som er samlet inn for rapporten, viser at legemidlet er markedsført i Norge. Detaljerte lisensopplysninger legges inn av programmet.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000558 | Erbitux | cetuximab | Head and Neck Neoplasms; Colorectal Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

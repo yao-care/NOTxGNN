@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 71
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: predikert ny indikasjon Akutt intermitterende porfyri (evidensnivå L4). Opprinnelig indikasjon: Opioidrelaterte lidelser"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
@@ -83,12 +83,18 @@ For tiden er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | Ikke oppgitt | Opioidrelaterte lidelser |
-| EMEA/H/C/004651 | Buvidal | Ikke oppgitt | Opioidrelaterte lidelser |
-| EMEA/H/C/000697 | Suboxone | Ikke oppgitt | Opioidrelaterte lidelser |
-| EMEA/H/C/004407 | Zubsolv | Ikke oppgitt | Opioidrelaterte lidelser |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004407 | Zubsolv | buprenorphine hydrochloride; naloxone hydrochloride dihydrate | Opioid-Related Disorders | Gyldig |
+| EMEA/H/C/004651 | Buvidal | buprenorphine | Opioid-Related Disorders | Gyldig |
+| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | buprenorphine hydrochloride | Opioid-Related Disorders | Gyldig |
+| EMEA/H/C/000697 | Suboxone | buprenorphine; naloxone | Opioid-Related Disorders | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle fire godkjenningene har status kansellert.
 
@@ -112,7 +118,7 @@ Prediksjonen bygger på modellscore alene. Det finnes ingen kliniske studier, de
 
 <!-- review:begin no-lic-20261112-buprenorphine-1 -->
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Legemidlet er dessuten markedsført i Norge med 4 gyldige markedsføringstillatelser av 4, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.» Fjernet: antallet gyldige godkjenninger stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09): EMEA/H/C/000697 er avregistrert. Antall godkjenninger i dataene: 4, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Legemidlet er dessuten markedsført i Norge med 4 gyldige markedsføringstillatelser av 4, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.» Fjernet: antallet gyldige godkjenninger stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09): EMEA/H/C/000697 er avregistrert. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261112-buprenorphine-1 -->
 
@@ -145,7 +151,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Fjernet: «med 4 gyldige markedsføringstillatelser av 4» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «med 4 gyldige markedsføringstillatelser av 4» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
 
 <!-- review:end log -->

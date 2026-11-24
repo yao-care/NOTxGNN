@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
@@ -86,15 +86,26 @@ For toppindikasjonen (felint ervervet immunsviktsyndrom) er det for øyeblikket 
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002264 | Edurant | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/005060 | Rekambys | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/004427 | Juluca | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/004156 | Odefsey | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/002312 | Eviplera | Ikke oppgitt | HIV-infeksjon |
+<!-- review:begin no-lic-20261124-rilpivirine-1 -->
 
-Ytterligere én kansellert godkjenning (Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris, EMEA/H/C/006491) er ikke vist i tabellen.
+> **Kontrollrettelse (2026-11-24)**: Opprinnelig sto det: «Ytterligere én kansellert godkjenning (Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris, EMEA/H/C/006491) er ikke vist i tabellen.» Fjernet: ifølge EMAs data er godkjenningen EMEA/H/C/006491 (Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris) gyldig («Authorised»), ikke kansellert, og den programgenererte lisenstabellen ovenfor viser alle godkjenningene i dataene. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261124-rilpivirine-1 -->
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002264 | Edurant | rilpivirine hydrochloride | HIV Infections | Gyldig |
+| EMEA/H/C/002312 | Eviplera | emtricitabine; rilpivirine hydrochloride; tenofovir disoproxil fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004427 | Juluca | dolutegravir sodium; rilpivirine hydrochloride | HIV Infections | Gyldig |
+| EMEA/H/C/005060 | Rekambys | rilpivirine | HIV Infections | Gyldig |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,11 +138,12 @@ Evidensen er kun preklinisk (L4), og indikasjonen er veterinær med begrenset bi
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+| 2026-11-24 | Fjernet: «Ytterligere én kansellert godkjenning (…EMEA/H/C/006491) er ikke vist i tabellen» | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

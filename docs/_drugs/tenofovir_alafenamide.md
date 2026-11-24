@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: Hepatitis B"
@@ -83,7 +83,7 @@ For FIV finnes det ingen relevant litteratur. Tabellen nedenfor gjelder den nær
 
 <!-- review:begin no-lic-20261106-tenofovir_alafenamide-1 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Viatris og Symtuza) er ikke vist.*» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 8, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Viatris og Symtuza) er ikke vist.*» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-tenofovir_alafenamide-1 -->
 
@@ -102,13 +102,22 @@ For FIV finnes det ingen relevant litteratur. Tabellen nedenfor gjelder den nær
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004169 | Vemlidy | – | Hepatitt B |
-| EMEA/H/C/004094 | Descovy | – | HIV-infeksjon |
-| EMEA/H/C/004156 | Odefsey | – | HIV-infeksjon |
-| EMEA/H/C/004449 | Biktarvy | – | HIV-infeksjon |
-| EMEA/H/C/004042 | Genvoya | – | HIV-infeksjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004042 | Genvoya | elvitegravir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004094 | Descovy | emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004169 | Vemlidy | tenofovir alafenamide fumarate | Hepatitis B | Gyldig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gyldig |
+| EMEA/H/C/004449 | Biktarvy | bictegravir; emtricitabine; tenofovir alafenamide; fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | emtricitabine; tenofovir alafenamide fumarate | HIV Infections | Gyldig |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +144,7 @@ Prediksjonen for FIV bygger bare på modellscore og klassemekanisme, uten klinis
 
 <!-- review:begin no-lic-20261106-tenofovir_alafenamide-2 -->
 
-> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell / For SIV: vurdering av om funnene tilfører noe utover den godkjente HIV-indikasjonen (forskningsspørsmål)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 8, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell / For SIV: vurdering av om funnene tilfører noe utover den godkjente HIV-indikasjonen (forskningsspørsmål)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261106-tenofovir_alafenamide-2 -->
 
@@ -147,8 +156,8 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-06 | Fjernet: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Via» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
-| 2026-11-06 | Fjernet: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Via» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->

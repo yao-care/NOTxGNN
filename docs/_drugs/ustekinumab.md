@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: predikert ny indikasjon Dermatitt (dermatitis) (evidensnivå L2). Opprinnelig indikasjon: Psoriasis"
@@ -102,15 +102,29 @@ Seks studier er registrert. Bare tre har direkte relevans for ustekinumab ved de
 
 ## Informasjon om det norske markedet
 
-Nummerne er EMA-sentrale godkjenninger. De fem første i dataene:
+Nummerne er EMA-sentrale godkjenninger.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000958 | Stelara | Ikke angitt | Psoriasis, psoriasisartritt, Crohns sykdom, ulcerøs kolitt |
-| EMEA/H/C/006444 | Yesintek | Ikke angitt | Psoriasis, psoriasisartritt, Crohns sykdom |
-| EMEA/H/C/006467 | Usymro | Ikke angitt | Crohns sykdom, psoriasis, psoriasisartritt |
-| EMEA/H/C/006544 | Otulfi | Ikke angitt | Crohns sykdom, ulcerøs kolitt |
-| EMEA/H/C/005918 | Steqeyma | Ikke angitt | Psoriasis, psoriasisartritt, Crohns sykdom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000958 | Stelara | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease; Colitis, Ulcerative | Gyldig |
+| EMEA/H/C/005805 | Fymskina | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Gyldig |
+| EMEA/H/C/005918 | Steqeyma | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Gyldig |
+| EMEA/H/C/006101 | Uzpruvo | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease; Colitis, Ulcerative | Gyldig |
+| EMEA/H/C/006132 | Wezenla | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Gyldig |
+| EMEA/H/C/006183 | Pyzchiva | ustekinumab | Crohn Disease; Colitis, Ulcerative; Arthritis, Psoriatic | Gyldig |
+| EMEA/H/C/006221 | Imuldosa | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Gyldig |
+| EMEA/H/C/006444 | Yesintek | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Gyldig |
+| EMEA/H/C/006467 | Usymro | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Gyldig |
+| EMEA/H/C/006544 | Otulfi | ustekinumab | Crohn Disease; Colitis, Ulcerative | Gyldig |
+| EMEA/H/C/006667 | Usgena | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic; Colitis, Ulcerative | Gyldig |
+| EMEA/H/C/006794 | Usrenty | ustekinumab | Crohn Disease | Gyldig |
+| EMEA/H/C/006649 | Qoyvolma | ustekinumab | Psoriasis; Arthritis, Psoriatic; Colitis, Ulcerative; Crohn Disease | Trukket tilbake |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
@@ -99,13 +99,19 @@ Merk: De fleste dyrestudiene bruker kombinasjonsregimer, og ritonavirs egen bidr
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004549 | Ritonavir Viatris (tidligere Ritonavir Mylan) | – | HIV-infeksjon |
-| EMEA/H/C/000127 | Norvir | – | HIV-infeksjon |
-| EMEA/H/C/000368 | Kaletra | – | HIV-infeksjon |
-| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (tidligere Ritonavir Mylan) | – | HIV-infeksjon |
-| EMEA/H/C/005973 | Paxlovid | – | COVID-19-infeksjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000127 | Norvir | ritonavir | HIV Infections | Gyldig |
+| EMEA/H/C/000368 | Kaletra | lopinavir; ritonavir | HIV Infections | Gyldig |
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (previously Ritonavir Mylan) | lopinavir; ritonavir | HIV Infections | Gyldig |
+| EMEA/H/C/004549 | Ritonavir Viatris (previously Ritonavir Mylan) | ritonavir | HIV Infections | Gyldig |
+| EMEA/H/C/005973 | Paxlovid | nirmatrelvir; ritonavir | COVID-19 virus infection | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Alle fem godkjenninger har status kansellert.
 

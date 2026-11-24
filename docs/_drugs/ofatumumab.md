@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ofatumumab: predikert ny indikasjon Follikulært lymfom (evidensnivå L2). Opprinnelig indikasjon: Multippel sklerose, relapserende-remitterende"
 ---
 
@@ -106,9 +106,15 @@ Ytterligere to studier (NCT01397591, avsluttet med 3 pasienter, og NCT01263418, 
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005410 | Kesimpta | Ikke oppgitt | Multippel sklerose, relapserende-remitterende |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005410 | Kesimpta | ofatumumab | Multiple Sclerosis, Relapsing-Remitting | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Merk: Godkjenningen gjelder MS. Follikulært lymfom er ikke en godkjent indikasjon for dette produktet.
 

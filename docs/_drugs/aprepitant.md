@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aprepitant: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD) (evidensnivå L5). Opprinnelig indikasjon: Oppkast"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -101,9 +101,15 @@ For informasjon: Under rang 3 (pulmonal hypertensjon) ble én publikasjon koblet
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000527 | Emend | Ikke oppgitt | Oppkast; postoperativ kvalme og oppkast; kreft |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000527 | Emend | aprepitant | Vomiting; Postoperative Nausea and Vomiting; Cancer | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Tillatelsen er gyldig. Legemidlet er markedsført i Norge, med 1 gyldig tillatelse av 1.
 

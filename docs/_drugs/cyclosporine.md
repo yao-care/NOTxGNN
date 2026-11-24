@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclosporine: predikert ny indikasjon Kronisk granulomatøs sykdom, autosomalt recessiv (evidensnivå L4). Opprinnelig indikasjon: Hornhinnesykdommer (Corneal Diseases)"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
@@ -86,11 +86,17 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 Tre av tre godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002066 | Ikervis | Ikke oppgitt | Hornhinnesykdommer |
-| EMEA/H/C/004411 | Verkazia | Ikke oppgitt | Konjunktivitt, keratitt |
-| EMEA/H/C/006250 | Vevizye | Ikke oppgitt | Keratokonjunktivitt sicca |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002066 | Ikervis | ciclosporin | Corneal Diseases | Gyldig |
+| EMEA/H/C/004411 | Verkazia | ciclosporin | Conjunctivitis; Keratitis | Gyldig |
+| EMEA/H/C/006250 | Vevizye | ciclosporin | Keratoconjunctivitis Sicca | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

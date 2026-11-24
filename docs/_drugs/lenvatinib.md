@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 240
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L3). Opprinnelig indikasjon: Thyroid Neoplasms"
@@ -89,10 +89,16 @@ For dedifferensiert liposarkom, som kjennetegnes av CDK4/MDM2-amplifikasjon, pek
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/003727 | Lenvima | Ikke oppgitt | Skjoldbruskkjertelkreft (kansellert) |
-| EMEA/H/C/004224 | Kisplyx | Ikke oppgitt | Nyrecellekarsinom (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003727 | Lenvima | lenvatinib mesilate | Thyroid Neoplasms | Gyldig |
+| EMEA/H/C/004224 | Kisplyx | lenvatinib mesilate | Carcinoma, Renal Cell | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

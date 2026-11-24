@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 389
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
 description: "Solriamfetol: predikert ny indikasjon Oppmerksomhetssvikt/hyperaktivitetsforstyrrelse, ADHD (attention deficit-hyperactivity disorder) (evidensnivå L2). Opprinnelig indikasjon: Narcolepsy"
@@ -80,9 +80,15 @@ Vurderingen bygger derfor på kjent farmakologi. Ifølge avsnittet «Mechanism o
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004893 | Sunosi | Ikke oppgitt | Narkolepsi; obstruktiv søvnapné (status: opphevet) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004893 | Sunosi | solriamfetol hydrochloride | Narcolepsy; Sleep Apnea, Obstructive | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsmomenter
 

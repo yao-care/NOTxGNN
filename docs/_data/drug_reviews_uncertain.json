@@ -282,6 +282,196 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'avibactam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1689063 has no mechanism entry"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "buprenorphine",
+   "file": "buprenorphine.md",
+   "status": "open",
+   "claim": "Alle fire godkjenningene har status kansellert.",
+   "reason": "word",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "fulvestrant",
+   "file": "fulvestrant.md",
+   "status": "open",
+   "claim": "- Avklare regulatorisk status og tilgjengelighet i Norge, siden begge godkjenninger er kansellert",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "ketorolac",
+   "file": "ketorolac.md",
+   "status": "open",
+   "claim": "Produktet har dessuten bare en kansellert godkjenning i Norge.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "natalizumab",
+   "file": "natalizumab.md",
+   "status": "open",
+   "claim": "Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig, og begge norske tillatelser er kansellert.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "natalizumab",
+   "file": "natalizumab.md",
+   "status": "open",
+   "claim": "- Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "niraparib",
+   "file": "niraparib.md",
+   "status": "open",
+   "claim": "Begge norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtalen mangler.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "niraparib",
+   "file": "niraparib.md",
+   "status": "open",
+   "claim": "- Avklare tillatelsesstatus i Norge, siden begge tillatelser er kansellert",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "palonosetron",
+   "file": "palonosetron.md",
+   "status": "open",
+   "claim": "Alle tre registrerte godkjenninger er kansellert.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "pegfilgrastim",
+   "file": "pegfilgrastim.md",
+   "status": "open",
+   "claim": "Alle 11 godkjenninger er kansellert.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "plerixafor",
+   "file": "plerixafor.md",
+   "status": "open",
+   "claim": "Begge godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "remdesivir",
+   "file": "remdesivir.md",
+   "status": "open",
+   "claim": "Remdesivir har dessuten kun en kansellert godkjenning i Norge.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "ritonavir",
+   "file": "ritonavir.md",
+   "status": "open",
+   "claim": "Alle fem godkjenninger har status kansellert.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "ruxolitinib",
+   "file": "ruxolitinib.md",
+   "status": "open",
+   "claim": "- Avklaring av regulatorisk status i Norge, siden begge godkjenningene er kansellert",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "sunitinib",
+   "file": "sunitinib.md",
+   "status": "open",
+   "claim": "- Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "tildrakizumab",
+   "file": "tildrakizumab.md",
+   "status": "open",
+   "claim": "Den mekanistiske koblingen er spekulativ, og legemidlet har dessuten kun en kansellert godkjenning i Norge.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "tolvaptan",
+   "file": "tolvaptan.md",
+   "status": "open",
+   "claim": "- Avklaring av markedssituasjonen i Norge, siden alle tre godkjenninger er kansellert",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "trabectedin",
+   "file": "trabectedin.md",
+   "status": "open",
+   "claim": "Sikkerhetsdata fra preparatomtalen mangler, og begge godkjenningene i Norge er kansellert.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "trabectedin",
+   "file": "trabectedin.md",
+   "status": "open",
+   "claim": "- Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken administrasjonsvei som kreves",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "zonisamide",
+   "file": "zonisamide.md",
+   "status": "open",
+   "claim": "- Avklaring av regulatorisk vei, siden begge godkjenningene er kansellert.",
+   "reason": "zero-result",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「alle／begge … gyldig」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、文字數詞、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
   }
  ]
 }

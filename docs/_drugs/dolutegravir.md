@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dolutegravir: predikert ny indikasjon Simianimmunsviktvirusinfeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -81,12 +81,18 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002753 | Tivicay | – | Ikke angitt i detalj |
-| EMEA/H/C/004427 | Juluca | – | Ikke angitt i detalj |
-| EMEA/H/C/004909 | Dovato | – | Ikke angitt i detalj |
-| EMEA/H/C/002754 | Triumeq | – | Ikke angitt i detalj |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002753 | Tivicay | dolutegravir | HIV Infections | Gyldig |
+| EMEA/H/C/002754 | Triumeq | dolutegravir sodium; lamivudine; abacavir (as sulfate) | HIV Infections | Gyldig |
+| EMEA/H/C/004427 | Juluca | dolutegravir sodium; rilpivirine hydrochloride | HIV Infections | Gyldig |
+| EMEA/H/C/004909 | Dovato | dolutegravir sodium; lamivudine | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

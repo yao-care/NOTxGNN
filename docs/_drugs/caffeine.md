@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caffeine: predikert ny indikasjon Nesehulesykdom (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Apné"
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
@@ -84,10 +84,16 @@ Det er for tiden ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001014 | Peyona (tidligere Nymusa) | Ikke oppgitt | Apné (godkjent) |
-| EMEA/H/C/005435 | Gencebok | Ikke oppgitt | Apné (godkjent) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001014 | Peyona (previously Nymusa) | Caffeine citrate | Apnea | Gyldig |
+| EMEA/H/C/005435 | Gencebok | Caffeine citrate | Apnea | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

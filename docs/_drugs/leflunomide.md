@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leflunomide: predikert ny indikasjon Brakydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 
@@ -78,12 +78,18 @@ Det er for tiden ingen relevant litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001129 | Leflunomide Zentiva (previously Leflunomide Winthrop) | – | Ikke angitt her |
-| EMEA/H/C/001227 | Leflunomide medac | – | Ikke angitt her |
-| EMEA/H/C/000235 | Arava | – | Ikke angitt her |
-| EMEA/H/C/002035 | Leflunomide ratiopharm | – | Ikke angitt her |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000235 | Arava | leflunomide | Arthritis, Rheumatoid; Arthritis, Psoriatic | Gyldig |
+| EMEA/H/C/001129 | Leflunomide Zentiva (previously Leflunomide Winthrop) | leflunomide | Arthritis, Rheumatoid; Arthritis, Psoriatic | Gyldig |
+| EMEA/H/C/001227 | Leflunomide medac | leflunomide | Arthritis, Rheumatoid | Gyldig |
+| EMEA/H/C/002035 | Leflunomide ratiopharm | leflunomide | Arthritis, Rheumatoid | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

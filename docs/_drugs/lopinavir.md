@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lopinavir: predikert ny indikasjon simianuvirus-immunsviktinfeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -88,10 +88,16 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ## Informasjon om markedet i Norge
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (tidligere Ritonavir Mylan) | – | HIV-infeksjon |
-| EMEA/H/C/000368 | Kaletra | – | HIV-infeksjon |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000368 | Kaletra | lopinavir; ritonavir | HIV Infections | Gyldig |
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (previously Ritonavir Mylan) | lopinavir; ritonavir | HIV Infections | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

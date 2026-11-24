@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Golimumab: predikert ny indikasjon Hypermobilitet i halebenet (hypermobility of coccyx) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 
@@ -80,11 +80,17 @@ Foreløpig finnes ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/006621 | Gotenfia | – | Ikke angitt i lokale data |
-| EMEA/H/C/000992 | Simponi | – | Ikke angitt i lokale data |
-| EMEA/H/C/006560 | Gobivaz | – | Ikke angitt i lokale data |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000992 | Simponi | golimumab | Arthritis, Psoriatic; Spondylitis, Ankylosing; Colitis, Ulcerative; Arthritis, Rheumatoid | Gyldig |
+| EMEA/H/C/006560 | Gobivaz | golimumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Colitis, Ulcerativ… | Gyldig |
+| EMEA/H/C/006621 | Gotenfia | golimumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Non-Radiographic A… | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

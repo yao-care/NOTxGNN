@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: predikert ny indikasjon Revmatoid artritt (evidensnivå L5). Opprinnelig indikasjon: Leddproteseoperasjon (artroplastikk) og venøs tromboembolisme"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -86,12 +86,18 @@ Foreløpig finnes ingen relaterte kliniske studier registrert for revmatoid artr
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000944 | Xarelto | – | Leddproteseoperasjon (artroplastikk), venøs tromboembolisme (kansellert) |
-| EMEA/H/C/005600 | Rivaroxaban Viatris (tidligere Rivaroxaban Mylan) | – | Venøs tromboembolisme, lungeemboli, akutt koronarsyndrom, hjerneslag, koronarsykdom, perifer arteriell sykdom... (kansellert) |
-| EMEA/H/C/005279 | Rivaroxaban Accord | – | Akutt koronarsyndrom, koronarsykdom, perifer arteriell sykdom, venøs tromboembolisme, hjerneslag... (kansellert) |
-| EMEA/H/C/006643 | Rivaroxaban Koanaa | – | Venøs tromboembolisme, lungeemboli, venøs trombose, hjerneslag, emboli (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000944 | Xarelto | rivaroxaban | Arthroplasty, Replacement; Venous Thromboembolism | Gyldig |
+| EMEA/H/C/005279 | Rivaroxaban Accord | rivaroxaban | Acute Coronary Syndrome; Coronary Artery Disease; Peripheral Arterial Disease; Venous Thromboembolism; Stroke… | Gyldig |
+| EMEA/H/C/005600 | Rivaroxaban Viatris (previously Rivaroxaban Mylan) | rivaroxaban | Venous Thromboembolism; Pulmonary Embolism; Acute Coronary Syndrome; Stroke; Coronary Artery Disease; Periphe… | Gyldig |
+| EMEA/H/C/006643 | Rivaroxaban Koanaa | rivaroxaban | Venous Thromboembolism; Pulmonary Embolism; Venous Thrombosis; Stroke; Embolism | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predikert ny indikasjon Benign paroxysmal torticollis of infancy (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"
@@ -90,13 +90,23 @@ Currently no related clinical trials registered (ingen registrerte kliniske stud
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000287 | Zyprexa Velotab | Ikke oppgitt | Schizofreni; bipolar lidelse |
-| EMEA/H/C/000115 | Zyprexa | Ikke oppgitt | Schizofreni; bipolar lidelse |
-| EMEA/H/C/001088 | Olazax Disperzi | Ikke oppgitt | Schizofreni; bipolar lidelse |
-| EMEA/H/C/001087 | Olazax | Ikke oppgitt | Schizofreni; bipolar lidelse |
-| EMEA/H/C/000810 | Olanzapine Teva | Ikke oppgitt | Schizofreni; bipolar lidelse |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000115 | Zyprexa | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/000287 | Zyprexa Velotab | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/000792 | Zalasta | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/000810 | Olanzapine Teva | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/000961 | Olanzapine Viatris (previously Olanzapine Mylan) | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/001085 | Olanzapine Glenmark | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/001086 | Olanzapine Glenmark Europe | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/001087 | Olazax | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+| EMEA/H/C/001088 | Olazax Disperzi | olanzapine | Schizophrenia; Bipolar Disorder | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

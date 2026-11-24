@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "GIMERACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
 description: "Gimeracil: predikert ny indikasjon Villøst adenom i cøkum (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"
@@ -68,9 +68,15 @@ Det er for tiden ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) – status: opphevet |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001242 | Teysuno | tegafur; gimeracil; oteracil | Stomach Neoplasms | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Én lisens er registrert, og den er gyldig. Teysuno er et kombinasjonspreparat. Lisensen sier derfor ikke noe om hvordan gimeracil som enkeltstoff er godkjent.
 

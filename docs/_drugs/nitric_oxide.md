@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitric Oxide: predikert ny indikasjon Misdannelsessyndrom med odontal og/eller periodontal komponent (evidensnivå L5). Opprinnelig indikasjon: Pulmonal hypertensjon"
 monitor_inn: "NITRIC OXIDE"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
@@ -94,9 +94,15 @@ Ingen av publikasjonene undersøker nitrogenoksid som legemiddel ved den predike
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000337 | INOmax (Linde Healthcare AB), status: godkjent | Ikke oppgitt | Pulmonal hypertensjon; respirasjonssvikt |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000337 | INOmax | nitric oxide | Hypertension, Pulmonary; Respiratory Insufficiency | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

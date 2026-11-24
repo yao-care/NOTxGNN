@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: predikert ny indikasjon Ankyloserende spondylitt (ankylosing spondylitis) (evidensnivå L3). Opprinnelig indikasjon: Arthritis, Psoriatic"
 ---
 
@@ -98,6 +98,16 @@ Evidensnivået er satt til L3, ikke høyere. Det finnes ingen randomisert kontro
 ## Markedsinformasjon for Norge
 
 Ifølge de innsamlede dataene er legemidlet **markedsført** i Norge, og minst én autorisasjon er gyldig.
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000701 | Orencia | abatacept | Arthritis, Psoriatic; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

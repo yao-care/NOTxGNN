@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glucarpidase: predikert ny indikasjon Diabetisk katarakt (evidensnivå L5). Opprinnelig indikasjon: Metabolske bivirkninger av legemidler og stoffer"
 monitor_inn: "GLUCARPIDASE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract"]
@@ -94,9 +94,15 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/005467 | Voraxaze | – | Metabolske bivirkninger av legemidler og stoffer |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005467 | Voraxaze | glucarpidase | Metabolic Side Effects of Drugs and Substances | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Denne godkjenningen er gyldig, og legemidlet er markedsført i Norge (1 gyldig godkjenning av 1).
 

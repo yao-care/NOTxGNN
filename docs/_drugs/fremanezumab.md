@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fremanezumab: predikert ny indikasjon Atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Opprinnelig indikasjon: Migraine Disorders"
 ---
 
@@ -68,9 +68,15 @@ Foreløpig finnes det ingen relevant litteratur.
 
 ## Markedsinformasjon for Norge
 
-| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004833 | Ajovy | Ikke oppgitt | Migraine Disorders |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004833 | Ajovy | fremanezumab | Migraine Disorders | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 

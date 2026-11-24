@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duloxetine: predikert ny indikasjon Benign paroksysmal torticollis hos spedbarn (evidensnivå L5). Opprinnelig indikasjon: Nevralgi, diabetisk nevropati, alvorlig depressiv lidelse…"
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
@@ -84,13 +84,19 @@ Det finnes foreløpig ingen relatert litteratur.
 
 Alle fem tillatelsene er sentrale EU-tillatelser (EMEA/H/C) og er gyldige. Duloksetin er markedsført, med 5 gyldige tillatelser av 5 i den kompilerte oversikten.
 
-| Tillatelsesnummer | Produktnavn | Godkjent indikasjon |
-|---------|------|-----------|
-| EMEA/H/C/003981 | Duloxetine Viatris (tidligere Duloxetine Mylan) | Nevralgi, diabetisk nevropati, alvorlig depressiv lidelse, angstlidelser |
-| EMEA/H/C/000572 | Cymbalta | Angstlidelser, diabetisk nevropati, alvorlig depressiv lidelse |
-| EMEA/H/C/003935 | Duloxetine Zentiva | Nevralgi, alvorlig depressiv lidelse, angstlidelser, diabetes mellitus |
-| EMEA/H/C/000545 | Yentreve | Stressinkontinens |
-| EMEA/H/C/004000 | Duloxetine Lilly | Nevralgi, diabetisk nevropati, alvorlig depressiv lidelse |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000545 | Yentreve | duloxetine hydrochloride | Urinary Incontinence, Stress | Gyldig |
+| EMEA/H/C/000572 | Cymbalta | duloxetine | Anxiety Disorders; Diabetic Neuropathies; Depressive Disorder, Major | Gyldig |
+| EMEA/H/C/003935 | Duloxetine Zentiva | duloxetine | Neuralgia; Depressive Disorder, Major; Anxiety Disorders; Diabetes Mellitus | Gyldig |
+| EMEA/H/C/003981 | Duloxetine Viatris (previously Duloxetine Mylan) | duloxetine | Neuralgia; Diabetic Neuropathies; Depressive Disorder, Major; Anxiety Disorders | Gyldig |
+| EMEA/H/C/004000 | Duloxetine Lilly | duloxetine | Neuralgia; Diabetic Neuropathies; Depressive Disorder, Major | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ---
 

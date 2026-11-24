@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predikert ny indikasjon Glaukom (glaucoma) (evidensnivå L5). Opprinnelig indikasjon: Dementia"
@@ -81,13 +81,20 @@ Vær oppmerksom på at dokumentasjonen kun er preklinisk og beregningsbasert. De
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000169 | Exelon | – | Demens, Alzheimers sykdom, Parkinsons sykdom |
-| EMEA/H/C/000255 | Prometax | – | Alzheimers sykdom, Parkinsons sykdom, demens |
-| EMEA/H/C/001029 | Nimvastid | – | Demens, Alzheimers sykdom, Parkinsons sykdom |
-| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimers sykdom, demens, Parkinsons sykdom |
-| EMEA/H/C/001182 | Rivastigmine Hexal | – | Demens, Alzheimers sykdom, Parkinsons sykdom |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000169 | Exelon | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gyldig |
+| EMEA/H/C/000255 | Prometax | rivastigmine | Alzheimer Disease; Parkinson Disease; Dementia | Gyldig |
+| EMEA/H/C/001029 | Nimvastid | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gyldig |
+| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | rivastigmine | Alzheimer Disease; Dementia; Parkinson Disease | Gyldig |
+| EMEA/H/C/001182 | Rivastigmine Hexal | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gyldig |
+| EMEA/H/C/001183 | Rivastigmine Sandoz | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 En sjette tillatelse (EMEA/H/C/001183, Rivastigmine Sandoz) er også kansellert.
 

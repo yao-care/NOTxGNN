@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 62
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: predikert ny indikasjon Revmatoid artritt (evidensnivå L4). Opprinnelig indikasjon: Pulmonal hypertensjon"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -92,10 +92,16 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/002644 | Stayveer | Ikke oppgitt | Pulmonal hypertensjon; systemisk sklerose (kansellert) |
-| EMEA/H/C/000401 | Tracleer | Ikke oppgitt | Systemisk sklerose; pulmonal hypertensjon (kansellert) |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000401 | Tracleer | bosentan (as monohydrate) | Scleroderma, Systemic; Hypertension, Pulmonary | Gyldig |
+| EMEA/H/C/002644 | Stayveer | bosentan (as monohydrate) | Hypertension, Pulmonary; Scleroderma, Systemic | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge godkjenningene er gyldige i dataene, og legemidlet er markedsført.
 

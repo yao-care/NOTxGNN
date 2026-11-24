@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 393
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L2). Opprinnelig indikasjon: Gastrointestinal Stromal Tumors"
@@ -90,10 +90,16 @@ Merk at prediksjonsscoren i seg selv ikke er bevis for effekt. Liposarkom omfatt
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000687 | Sutent (Pfizer Limited) | Ikke oppgitt | Gastrointestinale stromale svulster; nyrecellekarsinom; nevroendokrine svulster |
-| EMEA/H/C/005419 | Sunitinib Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Gastrointestinale stromale svulster; nyrecellekarsinom; nevroendokrine svulster |
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000687 | Sutent | sunitinib | Gastrointestinal Stromal Tumors; Carcinoma, Renal Cell; Neuroendocrine Tumors | Gyldig |
+| EMEA/H/C/005419 | Sunitinib Accord | sunitinib | Gastrointestinal Stromal Tumors; Carcinoma, Renal Cell; Neuroendocrine Tumors | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 Begge godkjenningene har status «kansellert».
 
