@@ -15,7 +15,9 @@ Produktnavn | Doseringsform／Legemiddelform | Godkjent indikasjon」，適應�
   表後一行來源句（SOURCE）；本藥沒有人用集中許可時整個區塊只有 NONE_LINE 一行。
   區塊前後各一行 <!-- licenses:begin --> <!-- licenses:end -->（查核紀錄、刪句工具與 gate 用來分辨程式寫的字）。
 放在哪：本頁市場段落（## 標題＝site.MARKET_SECTIONS）裡有許可證表的那一段，取代第一張許可證表（表頭第一格含 nummer／Tillatelse／
-  Godkjenning）；都沒有表時放在第一個市場段落結尾（段落結尾的 --- 分隔線之前）。沒有市場段落的頁不加。
+  Godkjenning）；都沒有表時放在第一個市場段落結尾（段落結尾的 --- 分隔線之前）。
+  整頁沒有市場段落、證據包有人用集中許可紀錄的公開頁：在 Sikkerhetsvurderinger／Konklusjon og neste steg／Ansvarsfraskrivelse 之前
+  補「## Markedsinformasjon for Norge」段落與程式表（add_section，2026-11-24 第三輪，用戶決定，比照 JpTxGNN 第二輪）；noindex 頁不補。
   表以外的文字不動（正文張數由 scripts/rewrite_license_counts.py 依快照改寫）。
   --migrate（2026-11-24 第一次換表時用）：市場段落裡只講舊表列了幾筆的說明句或子句（CAPTION，例「De fem første er vist nedenfor.」
   「Tabellen viser fem av dem.」「Utvalg på 5:」）一併拿掉；查核紀錄更正文字所在的句子不動（那些由紀錄同 id 重發處理）。
@@ -49,7 +51,8 @@ MAX_ROWS = 20
 STATUS_NO = {"authorised": "Gyldig", "withdrawn": "Trukket tilbake", "lapsed": "Bortfalt", "expired": "Utløpt",
              "revoked": "Tilbakekalt", "suspended": "Suspendert", "refused": "Avslått", "not authorised": "Ikke godkjent"}
 # 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份）
-PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in (BEGIN, END, SOURCE, NONE_LINE))
+# 2026-11-24 第三輪起含 add_section 補的市場段落標題
+PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in ("## " + C.MARKET_SECTIONS[0], BEGIN, END, SOURCE, NONE_LINE))
              + r"|Tabellen viser \d+ av \d+ sentrale EU-godkjenninger i disse dataene \(gyldige først\)\.)$")
 # --migrate：只講舊表列了幾筆的說明句（整句或冒號／分號前後的子句）
 NUMW = r"(?:\d+|to|tre|fire|fem|seks|sju|syv|åtte|ni|ti)"
@@ -144,12 +147,31 @@ def process(text, rows, total):
                 y += 1
             return "\n".join(_splice(lines, tb[0], y + 1, blk))
     if not secs:
-        return text
+        return add_section(text, rows, total) or text
     a, b = secs[0]
     e = b
     while e > a + 1 and (not lines[e - 1].strip() or lines[e - 1].strip() == "---"):
         e -= 1
     return "\n".join(_splice(lines, e, e, blk))
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有市場段落、但證據包有人用集中許可紀錄的，補一個段落放程式表。
+# 位置：「## Sikkerhetsvurderinger」（或 Sikkerhetsmomenter）之前（預測頁的固定順序）；沒有就「## Konklusjon og neste steg」之前；
+# 再沒有（已知用途頁）就「## Ansvarsfraskrivelse」之前。noindex 頁與證據包沒有紀錄的頁不補。
+ADD_BEFORE = ("Sikkerhetsvurderinger", "Sikkerhetsmomenter", "Konklusjon og neste steg", "Ansvarsfraskrivelse")
+
+
+def add_section(text, rows, total):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if re.search(r"^noindex:\s*true", fm, re.M) or not rows:
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = ["## " + C.MARKET_SECTIONS[0], ""] + wrap(program_block(rows, total)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def drop_captions(text, protect=()):

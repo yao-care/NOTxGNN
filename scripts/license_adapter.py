@@ -88,7 +88,7 @@ def preprocess(bundle):
 
 # 2026-11-24（用戶決定「程式產生許可證表」）：每週排程（license_refresh_20261029.py 的 sync_tables 掛鉤）在概覽表同步之後，
 # 依證據包把市場段落的程式許可證表重排（scripts/sync_license_tables.py --bundles；只寫有變的頁）。
-# PAGE_NOTE：排程 3b 自我檢查允許的非表格列（程式區塊標記、來源句、Tabellen viser 句、沒有集中許可的說明句）。
+# PAGE_NOTE：排程 3b 自我檢查允許的非表格列（程式區塊標記、來源句、Tabellen viser 句、沒有集中許可的說明句；2026-11-24 第三輪起含補的市場段落標題）。
 def _slt(site_dir):
     import importlib.util
     from pathlib import Path

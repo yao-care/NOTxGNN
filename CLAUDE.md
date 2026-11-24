@@ -105,3 +105,11 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   另 2 筆（phenylalanine「tidligere var godkjent」、mometasone「var godkjent」）照 EMA Authorised 改成「er godkjent」。
 - 待查清單裡第一輪 B 判斷不了的 19 句全部由上面的紀錄更正，標 resolved（record_ids）。
 - 驗證：checker 全量前後 0；母目錄 checker 的 no `_CANC_NO`／`cw`／row 狀態字加上 kansellert 的暫時副本：改前 M3 126 句（82 頁）、改後 0（建議母目錄照這樣加）。gate exit 0。
+
+## 整頁沒有市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 第三輪決定（比照 JpTxGNN 第二輪的 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（site.MARKET_SECTIONS 任一寫法）、但證據包有人用 EMA 集中許可紀錄的，補「## Markedsinformasjon for Norge」段落與程式表。
+- `scripts/sync_license_tables.py` 的 `add_section`：放在「## Sikkerhetsvurderinger」（或 Sikkerhetsmomenter）之前（沒有就「## Konklusjon og neste steg」、再沒有就「## Ansvarsfraskrivelse」）；表照 program_block；noindex 頁、沒有人用集中許可的頁不補。
+  apply_drug_reviews.py、build_license_snapshot.py 結尾與每週排程 sync_tables 都會跑；`PAGE_NOTE` 放行補的段落標題行。
+- gate 第 18 項（`src/notxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
+- 2026-11-24 全量量測 1 頁、補 1 頁：irbesartan（10 張 EMA 集中許可，全部 Gyldig）；正文沒有寫死張數或劑型的市場說法，沒有新紀錄。checker 全量前後都是 0；gate exit 0。

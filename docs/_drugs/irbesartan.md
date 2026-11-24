@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Irbesartan: predikert ny indikasjon Malign hypertensiv nyresykdom (malignant hypertensive renal disease) (evidensnivå L5). Opprinnelig indikasjon: Hypertension"
 ---
 
@@ -67,6 +67,27 @@ Foreløpig er det ikke registrert noen relevante kliniske studier.
 ## Litteraturevidens
 
 Foreløpig finnes det ingen relevant litteratur som direkte omhandler irbesartan ved malign hypertensiv nyresykdom.
+
+## Markedsinformasjon for Norge
+
+<!-- licenses:begin -->
+
+| Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000141 | Aprovel | irbesartan | Hypertension | Gyldig |
+| EMEA/H/C/000142 | Karvea | irbesartan | Hypertension | Gyldig |
+| EMEA/H/C/000221 | Karvezide | irbesartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/000222 | CoAprovel | irbesartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/000783 | Irbesartan Hydrochlorothiazide Zentiva (previously Irbesart… | irbesartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/000785 | Irbesartan Zentiva (previously Irbesartan Winthrop) | irbesartan | Hypertension | Gyldig |
+| EMEA/H/C/000962 | Ifirmasta (previously Irbesartan Krka) | irbesartan hydrochloride | Hypertension | Gyldig |
+| EMEA/H/C/001093 | Irbesartan Teva | irbesartan | Hypertension | Gyldig |
+| EMEA/H/C/001112 | Irbesartan/Hydrochlorothiazide Teva | irbesartan; hydrochlorothiazide | Hypertension | Gyldig |
+| EMEA/H/C/002302 | Ifirmacombi | irbesartan; hydrochlorothiazide | Hypertension | Gyldig |
+
+Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
+
+<!-- licenses:end -->
 
 ## Sikkerhetsvurderinger
 
