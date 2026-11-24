@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-23T20:56:17.063247+00:00",
+  "fetched_at": "2026-11-24T05:11:21.885674+00:00",
   "source": "Google News Health RSS",
-  "count": 22,
+  "count": 21,
   "articles": [
     {
       "id": "c39dd6ee39f8",
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "6212beef0d07",
-      "title": "Bare én depresjonsmedisin er godkjent for barn. Likevel får de fleste en annen - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONzEzb2ZldFhTVmdEX0tCRjM4azBzNWtFeUk0dlNwZEFUdld4NWd2TW9rSy11UWdQdS16VmotRlNhN2RuRkd6UGhyVzg0d0lHVV9INVNYblRqTE9LSXhSLWZNNEVQOF9hNUN5VThuVHlXMWJLalBiMDQ3NEpwUEt4N2tkeC1qbDdHdnhtV1FXVVpHWFBYQWRNTVhYemdkSU1VVHZic1htQzRzLWxiMFJIaVlkaVZ6QlUyVDdXTVNoM1VNV2xXdGNsamE1Nl8xMzRzNjk4Y3BnRGlMYVU?oc=5",
-      "published": "2026-11-20T08:24:22+00:00",
-      "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
-      }
-    },
-    {
       "id": "79910d53ff5f",
       "title": "Mangel på reseptbelagt medisin hele vinteren - Oppland Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYTE3RW5UQ0FkRlpwZHpzdUY2UkVWRVhUVXQwR0N2VFpfenAtdmZUenJadUdJS21lVVo4TkVMamR1ZlZ6blFKVFNOSG5HNlVzNlBxclBIYTMwNnFqVldvZ2JDQU9iMHRicWxuQjVfV2pZa0thQ0dfdl8zb28yMmNGYUJ3?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Oppland Arbeiderblad",
         "url": "https://www.oa.no"
+      }
+    },
+    {
+      "id": "6212beef0d07",
+      "title": "Bare én depresjonsmedisin er godkjent for barn. Likevel får de fleste en annen - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONzEzb2ZldFhTVmdEX0tCRjM4azBzNWtFeUk0dlNwZEFUdld4NWd2TW9rSy11UWdQdS16VmotRlNhN2RuRkd6UGhyVzg0d0lHVV9INVNYblRqTE9LSXhSLWZNNEVQOF9hNUN5VThuVHlXMWJLalBiMDQ3NEpwUEt4N2tkeC1qbDdHdnhtV1FXVVpHWFBYQWRNTVhYemdkSU1VVHZic1htQzRzLWxiMFJIaVlkaVZ6QlUyVDdXTVNoM1VNV2xXdGNsamE1Nl8xMzRzNjk4Y3BnRGlMYVU?oc=5",
+      "published": "2026-11-20T11:38:03+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     },
     {
@@ -161,16 +161,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "157d6d6c599d",
-      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
-      "published": "2026-11-16T12:19:44+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
       }
     },
     {
