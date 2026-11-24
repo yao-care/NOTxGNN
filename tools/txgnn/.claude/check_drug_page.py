@@ -1432,7 +1432,7 @@ _NUMW_NO = {"en": 1, "ett": 1, "én": 1, "to": 2, "tre": 3, "fire": 4, "fem": 5,
             "elleve": 11, "tolv": 12, "begge": 2}
 _NNO = r"(\d+|" + "|".join(sorted(_NUMW_NO, key=len, reverse=True)) + r")"
 _LIC_NO = r"(?:(?:markedsførings|EU-|EMA-)?(?:tillatelse(?:n|r|ne)?|godkjenning(?:en|er|ene)?)|lisens(?:en|er|ene)?|autorisasjon(?:en|er|ene)?)"
-_CANC_NO = r"(?:avregistrer\w*|trukket tilbake|tilbaketrukk\w*|tilbakekal\w*|utløpt\w*|annuller\w*|opphevet|\bcancel+ed\b|«cancelled»)"
+_CANC_NO = r"(?:avregistrer\w*|kansellert\w*|trukket tilbake|tilbaketrukk\w*|tilbakekal\w*|utløpt\w*|annuller\w*|opphevet|\bcancel+ed\b|«cancelled»)"
 X_LOCAL["no"] = dict(
     neg=re.compile(r"\b(ikke|ingen|uten)\b[^.;]{0,30}(gyldig|markedsført|godkjent)", re.I),
     valid=re.compile(r"\b(er|var) (\w+ ){0,2}gyldig(e)?\b|\bgyldige? (\w+ )?(tillatelse|godkjenning|markedsføringstillatelse)\w*", re.I),
@@ -1446,7 +1446,7 @@ X_LOCAL["no"] = dict(
         r"\b(alle|begge)\b[^.;]{0,30}\b(produktene|preparatene)\b[^.;]{0,25}" + _CANC_NO + r"|"
         r"\b(kun|bare)\b[^.;]{0,15}(en |én )?" + _CANC_NO + r"[^.;]{0,10}" + _LIC_NO + r"|\bingen gyldig\w* " + _LIC_NO + r"|\bingen " + _LIC_NO + r"\b[^.;]{0,30}\b(er )?gyldig|"
         r"\b0 (godkjenninger|tillatelser)\b|\bikke (lenger )?(markedsført|tilgjengelig|godkjent) i Norge\b", re.I),
-    canc=re.compile(r"\b" + _LIC_NO + r"\b[^.;:]{0,90}?" + _CANC_NO + r"|" + _CANC_NO + r"[e]?\s+(\w+\s+){0,2}" + _LIC_NO + r"\b|\bstatus:?\s*«?(avregistrert|trukket tilbake|cancelled)|"
+    canc=re.compile(r"\b" + _LIC_NO + r"\b[^.;:]{0,90}?" + _CANC_NO + r"|" + _CANC_NO + r"[e]?\s+(\w+\s+){0,2}" + _LIC_NO + r"\b|\bstatus:?\s*«?(avregistrert|trukket tilbake|cancelled|kansellert)|"
                     r"\bavregistrer\w*|\b(produkt|preparat|legemid)\w*\b[^.;:]{0,30}\b(trukket tilbake|tilbakekalt)", re.I),
     hist=re.compile(r"\b(19|20)\d\d\b|\btidligere\b|\bmidlertidig\b|\bsøknad\w*|\bstudie\w*\b[^.;]{0,30}(trukket|avsluttet)|\b(trukket|avsluttet)\b[^.;]{0,30}\bstudie|\bindikasjon\w*\b[^.;]{0,30}(trukket|avregistr)|veterinærpreparat|veterinær godkjenning|\bEMEA/V/", re.I),
     none_cancel=re.compile(r"\b(ingen|ikke)\s+(\w+\s+){0,2}" + _CANC_NO + r"\w*\s+(\w+\s+){0,2}" + _LIC_NO + r"|\b" + _LIC_NO + r"\b[^.;]{0,40}\bikke\s+(\w+\s+)?" + _CANC_NO, re.I),
@@ -1458,7 +1458,7 @@ X_LOCAL["no"] = dict(
     total=[re.compile(r"\b(alle|totalt|samtlige)\s+" + _NNO + r"\s+(\w+\s+)?(tillatelsene|godkjenningene|tillatelser|godkjenninger)\b|\b\d+ av " + _NNO + r" (\w+ )?(tillatelser|godkjenninger)\b", re.I)],
     partner=re.compile(r"\b(av|blant)\s*$", re.I), numw=_NUMW_NO,
     ctx=re.compile(r"NCT\d|EudraCT|ClinicalTrials|studieregister", re.I),
-    cw=r"avregistr|trukket|tilbakekal|cancel", preneg=r"\b(ikke|ingen|uten|mangler)\b[^.;]{0,30}$", postneg=r"^[^.;]{0,40}\b(ikke|mangler)\b")
+    cw=r"avregistr|trukket|tilbakekal|cancel|kansell", preneg=r"\b(ikke|ingen|uten|mangler)\b[^.;]{0,30}$", postneg=r"^[^.;]{0,40}\b(ikke|mangler)\b")
 
 
 # 義大利文（ITTxGNN，AIFA 包裝層級資料）
@@ -2587,7 +2587,7 @@ ROW_WORDS = {
     "fr": (r"active|valide|en vigueur|autorisée", r"annulée|abrogée|retirée|suspendue|caduque|archivée|non valide|abrogé|annulé"),
     "it": (r"valida|autorizzat[ao]|attiva", r"revocat[ao]|sospes[ao]|ritirat[ao]|decadut[ao]|scadut[ao]|annullat[ao]|non valida"),
     "da": (r"gyldig|godkendt|aktiv", r"afregistreret|tilbagekaldt|udløbet|ophørt|suspenderet|ugyldig"),
-    "no": (r"gyldig|godkjent|aktiv", r"opphørt|tilbakekalt|trukket tilbake|utløpt|suspendert|avregistrert|bortfalt|ugyldig"),
+    "no": (r"gyldig|godkjent|aktiv", r"opphørt|tilbakekalt|trukket tilbake|utløpt|suspendert|avregistrert|bortfalt|ugyldig|kansellert"),
     "sv": (r"godkänd|giltig|giltigt|aktiv", r"indragen|indraget|avregistrerad|återkallad|återkallat|upphörd|upphört|utgången|avförd|"
            r"(?:godkännandet|tillståndet) är (?:indraget|återkallat|upphört)|indraget godkännande"),
     "nl": (r"geldig|ingeschreven|actief", r"ingetrokken|doorgehaald|vervallen|geschorst|niet geldig|ongeldig"),
