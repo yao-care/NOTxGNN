@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-24T17:07:18.315323+00:00",
+  "fetched_at": "2026-11-25T01:58:33.134985+00:00",
   "source": "Google News Health RSS",
-  "count": 23,
+  "count": 20,
   "articles": [
     {
       "id": "c39dd6ee39f8",
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "43c045e7d1e1",
-      "title": "Anbefalte prioriteringer innen digital legemiddelhåndtering - KS",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlhzTldIRTFEV0dESVNlaS1YNDJVWHFNa25BUnlHTHFMMnZkcThZcGVMYXpNVFBhM3JGbnZUUnBRN3BYUmtnZVFPbi1vaFhvc2xsQ2w3eDFOTlVWaHJ5SkU4TjNFNnA3NjRId3cyaUFrQWtVRldGZ19FakNzSUpmb3p4NU9hUUVOV01iRmhzajk5SG1YUUdFbkVTcUh4OGpudWlqYzRtRkY0SkpiSmU4Y0hR?oc=5",
-      "published": "2026-04-20T16:58:15+00:00",
-      "source": {
-        "name": "KS",
-        "url": "https://www.ks.no"
-      }
-    },
-    {
       "id": "6bae80839252",
       "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
@@ -154,23 +144,23 @@
       }
     },
     {
-      "id": "ff3d6f1ac13e",
-      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
-      "published": "2026-11-13T08:00:00+00:00",
+      "id": "129964ae512b",
+      "title": "DHL Express vokser i Europa drevet av teknologi, industri, biovitenskap, helse og energi - Mynewsdesk",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbFRjcGVwS2lFQnkzUmk2QXh1NG4wWGhKOGs3VTFZZmc4TWo0NDY2RkNKWWE2YmdOdXhldWlXaG9xbjNVaWt4bkVXSkJneWtWRFRnWDNaQ1JoRTVtZHJvb2VQN3cwOV9sZW5maHQxNG1aZlQ5cXNPV1U3TjZ4Y1NDVW5WN2V3Nk1qOFhVQjctaF9TQ0VidHROUTQzekxXU2NpR3U3OFdydXNkcUppQ2owMi1ybVdFWVBmcnN1NnUteE5lRG1kS3A4RlhMNUl2UFR5eHBnSjFfSWtYZ0d5UFRHQTk4NA?oc=5",
+      "published": "2026-11-24T13:36:42+00:00",
       "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
+        "name": "Mynewsdesk",
+        "url": "https://www.mynewsdesk.com"
       }
     },
     {
-      "id": "25180b752ec4",
-      "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
-      "published": "2025-04-10T12:27:34+00:00",
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
       "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
       }
     },
     {
@@ -204,16 +194,6 @@
       }
     },
     {
-      "id": "9bd024ad65fe",
-      "title": "DHL Express vokser i Europa drevet av teknologi, industri, biovitenskap, helse og energi - Mynewsdesk",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQU3RFeHJfTHd0NnZHV280N3ljZVFaSWRpeXN3UmVwN0hQMXFqYjBJalFSdVprR2twVEtncFVLNlk2bUpxR2V1eVRnZzVDUmtqU1hVNW9ZWkVPUTdoREJKSzhBdl9RTWJCNE1EcFVBaWhocmtDaEpzLUhRRXFtUHhweFNneDFaUGRLZ0Z0Q0lQOXpmMU5WNlZPeEpUM2c4QjlXM1ZUendKNjBZelczdjN2M2JobW1UcVhHRzFiMEEwNEdibmVveUlxWm1VMjNXVzNfWkVkcEUtS2FETlNjMlNSdHNDZFh2QzhtZFUySUpVQnlUN0JseVo0SHhEYWpZNDItNUlrRExXS3BpS0U1WDRid0xLS1A0VmprV05INUlVWXNfMHlKcG4wekhFV3A0WVNuR0Rzb1V3cXd5SkUyclhEUnNQNGN1QQ?oc=5",
-      "published": "2026-11-24T13:36:42+00:00",
-      "source": {
-        "name": "Mynewsdesk",
-        "url": "https://www.mynewsdesk.com"
-      }
-    },
-    {
       "id": "a305842cda9e",
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
@@ -221,16 +201,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
-      "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
       }
     }
   ]
