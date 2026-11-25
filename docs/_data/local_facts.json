@@ -17,15 +17,15 @@
   "drugs_none_current": 5,
   "drugs_without_data": 1,
   "drugs_partial": 0,
-  "items_total": 964,
-  "items_current": 943
+  "items_total": 978,
+  "items_current": 957
  },
  "reviews": {
-  "records": 765,
+  "records": 769,
   "pages": 418,
   "public_pages_with_records": 417,
   "by_action": {
-   "correct": 376,
+   "correct": 380,
    "mechanism": 389
   }
  },
@@ -80,6 +80,15 @@
    "i": "Simian immunsviktvirus-infeksjon"
   },
   {
+   "t": "Pegfilgrastim",
+   "u": "/drugs/pegfilgrastim/",
+   "l": "L5",
+   "lt": 13,
+   "lv": 13,
+   "r": 3,
+   "i": "severe nonproliferative diabetic retinopathy"
+  },
+  {
    "t": "Ustekinumab",
    "u": "/drugs/ustekinumab/",
    "l": "L2",
@@ -96,15 +105,6 @@
    "lv": 11,
    "r": 1,
    "i": "Hypermobilitet i halebenet"
-  },
-  {
-   "t": "Pegfilgrastim",
-   "u": "/drugs/pegfilgrastim/",
-   "l": "L5",
-   "lt": 11,
-   "lv": 11,
-   "r": 3,
-   "i": "severe nonproliferative diabetic retinopathy"
   }
  ],
  "no_current": [
@@ -221,6 +221,24 @@
   "i": "Seboreisk dermatitt"
  },
  "recent_reviews": [
+  {
+   "t": "Insulin Lispro",
+   "u": "/drugs/insulin-lispro/",
+   "s": "Rettet: «fire gyldige godkjenninger» → uten antall",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Insulin Glargine",
+   "u": "/drugs/insulin-glargine/",
+   "s": "Rettet: «Alle fem norske tillatelser» → uten antall",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "Rettet: «registrert som opphørt» → «gyldige» (uten antall)",
+   "d": "2026-11-25"
+  },
   {
    "t": "Zonisamide",
    "u": "/drugs/zonisamide/",
@@ -346,27 +364,27 @@
    "u": "/drugs/sunitinib/",
    "s": "Rettet: «Avklare tilgjengelighet og regulatorisk status i Norge, siden begge godkjenninger er kansellert» →…",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Spironolactone",
-   "u": "/drugs/spironolactone/",
-   "s": "Rettet: «Sykdommen er en sjelden genetisk tilstand som ikke primært er androgendrevet, og den eneste…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sotatercept",
-   "u": "/drugs/sotatercept/",
-   "s": "Fjernet: «Avklaring av årsaken til og konsekvensene av den kansellerte registreringen i Norge»",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sodium Oxybate",
-   "u": "/drugs/sodium-oxybate/",
-   "s": "Rettet: «Avklare regulatorisk status i Norge, siden eneste godkjenning er kansellert» → «Avklare regulatorisk…",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Insulin Lispro",
+   "u": "/drugs/insulin-lispro/",
+   "s": "Rettet: «fire gyldige godkjenninger» → uten antall",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Insulin Glargine",
+   "u": "/drugs/insulin-glargine/",
+   "s": "Rettet: «Alle fem norske tillatelser» → uten antall",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "Rettet: «registrert som opphørt» → «gyldige» (uten antall)",
+   "d": "2026-11-25"
+  },
   {
    "t": "Zonisamide",
    "u": "/drugs/zonisamide/",
@@ -395,24 +413,6 @@
    "t": "Varenicline",
    "u": "/drugs/varenicline/",
    "s": "Rettet: «En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ustekinumab",
-   "u": "/drugs/ustekinumab/",
-   "s": "Rettet: «Det mekanistiske grunnlaget er bare delvis, siden sykdommen primært er Th2-drevet, og alle norske…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Turoctocog Alfa",
-   "u": "/drugs/turoctocog-alfa/",
-   "s": "Rettet: «Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Treprostinil",
-   "u": "/drugs/treprostinil/",
-   "s": "Rettet: «Avklare markedsstatus i Norge (kansellert godkjenning) og tilgjengelige administrasjonsveier» →…",
    "d": "2026-11-24"
   }
  ],

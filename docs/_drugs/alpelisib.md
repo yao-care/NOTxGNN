@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Alpelisib: predikert ny indikasjon Pulmonal hypertensjon (evidensnivå L5). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "ALPELISIB"
 predicted_indications: ["pulmonary hypertension"]
@@ -51,8 +51,8 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal hypertensjon
 | Predikert ny indikasjon | Pulmonal hypertensjon |
 | TxGNN-prediksjonsscore | 0,9903 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
-| Antall godkjenninger | 1 (gyldige: 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall autorisasjoner | 1 (0 gyldige, 1 opphevet) |
 | Anbefalt beslutning | Hold |
 
@@ -83,6 +83,7 @@ Den eneste tilgjengelige publikasjonen beskriver en alpelisib-indusert interstit
 | Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
 |------|------|------|------|------|
 | EMEA/H/C/004804 | Piqray | alpelisib | Breast Neoplasms | Gyldig |
+| EMEA/H/C/006539 | Vijoice | alpelisib | Genetic Diseases, Inborn; Growth Disorders | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

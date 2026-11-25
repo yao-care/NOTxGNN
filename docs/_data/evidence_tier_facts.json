@@ -819,6 +819,17 @@
     "x": 0
    },
    {
+    "t": "Pegfilgrastim",
+    "u": "/drugs/pegfilgrastim/",
+    "l": "L5",
+    "i": "severe nonproliferative diabetic retinopathy",
+    "lt": 13,
+    "lv": 13,
+    "r": 3,
+    "rs": "Fjernet: «Dessuten er alle europeiske godkjenninger i dataene kansellert.»",
+    "x": 0
+   },
+   {
     "t": "Adalimumab",
     "u": "/drugs/adalimumab/",
     "l": "L5",
@@ -827,17 +838,6 @@
     "lv": 11,
     "r": 1,
     "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
-    "x": 0
-   },
-   {
-    "t": "Pegfilgrastim",
-    "u": "/drugs/pegfilgrastim/",
-    "l": "L5",
-    "i": "severe nonproliferative diabetic retinopathy",
-    "lt": 11,
-    "lv": 11,
-    "r": 3,
-    "rs": "Fjernet: «Dessuten er alle europeiske godkjenninger i dataene kansellert.»",
     "x": 0
    },
    {
@@ -882,6 +882,17 @@
     "lv": 10,
     "r": 1,
     "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "x": 0
+   },
+   {
+    "t": "Ranibizumab",
+    "u": "/drugs/ranibizumab/",
+    "l": "L5",
+    "i": "immature cataract",
+    "lt": 10,
+    "lv": 10,
+    "r": 4,
+    "rs": "Rettet: «registrert som opphørt» → «gyldige» (uten antall)",
     "x": 0
    },
    {
@@ -984,6 +995,17 @@
     "x": 0
    },
    {
+    "t": "Teriparatide",
+    "u": "/drugs/teriparatide/",
+    "l": "L5",
+    "i": "duodenal ulcer (disease)",
+    "lt": 8,
+    "lv": 8,
+    "r": 2,
+    "rs": "Fjernet: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert»",
+    "x": 0
+   },
+   {
     "t": "Entacapone",
     "u": "/drugs/entacapone/",
     "l": "L5",
@@ -1006,25 +1028,14 @@
     "x": 0
    },
    {
-    "t": "Ranibizumab",
-    "u": "/drugs/ranibizumab/",
+    "t": "Insulin Aspart",
+    "u": "/drugs/insulin-aspart/",
     "l": "L5",
-    "i": "immature cataract",
-    "lt": 7,
+    "i": "Autoimmun ooforitt",
+    "lt": 8,
     "lv": 7,
-    "r": 4,
-    "rs": "Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt»",
-    "x": 0
-   },
-   {
-    "t": "Teriparatide",
-    "u": "/drugs/teriparatide/",
-    "l": "L5",
-    "i": "duodenal ulcer (disease)",
-    "lt": 7,
-    "lv": 7,
-    "r": 2,
-    "rs": "Fjernet: «Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert»",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -1072,14 +1083,25 @@
     "x": 0
    },
    {
-    "t": "Insulin Aspart",
-    "u": "/drugs/insulin-aspart/",
+    "t": "Insulin Glargine",
+    "u": "/drugs/insulin-glargine/",
     "l": "L5",
-    "i": "Autoimmun ooforitt",
-    "lt": 7,
+    "i": "autoimmune oophoritis",
+    "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
+    "r": 3,
+    "rs": "Rettet: «Alle fem norske tillatelser» → uten antall",
+    "x": 0
+   },
+   {
+    "t": "Levodopa",
+    "u": "/drugs/levodopa/",
+    "l": "L5",
+    "i": "Rasmussen subacute encephalitis",
+    "lt": 6,
+    "lv": 6,
+    "r": 3,
+    "rs": "Fjernet: «I tillegg er alle godkjenninger i Norge opphevet»",
     "x": 0
    },
    {
@@ -1182,17 +1204,6 @@
     "x": 0
    },
    {
-    "t": "Insulin Glargine",
-    "u": "/drugs/insulin-glargine/",
-    "l": "L5",
-    "i": "autoimmune oophoritis",
-    "lt": 5,
-    "lv": 5,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
-    "x": 0
-   },
-   {
     "t": "Insulin Human",
     "u": "/drugs/insulin-human/",
     "l": "L5",
@@ -1201,6 +1212,17 @@
     "lv": 5,
     "r": 1,
     "rs": "Fjernet: «Produktene er dessuten alle avregistrert i Norge»",
+    "x": 0
+   },
+   {
+    "t": "Insulin Lispro",
+    "u": "/drugs/insulin-lispro/",
+    "l": "L5",
+    "i": "autoimmune oophoritis",
+    "lt": 5,
+    "lv": 5,
+    "r": 3,
+    "rs": "Rettet: «fire gyldige godkjenninger» → uten antall",
     "x": 0
    },
    {
@@ -1281,17 +1303,6 @@
     "x": 0
    },
    {
-    "t": "Insulin Lispro",
-    "u": "/drugs/insulin-lispro/",
-    "l": "L5",
-    "i": "autoimmune oophoritis",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
-    "x": 0
-   },
-   {
     "t": "Lacosamide",
     "u": "/drugs/lacosamide/",
     "l": "L5",
@@ -1311,17 +1322,6 @@
     "lv": 4,
     "r": 1,
     "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
-    "x": 0
-   },
-   {
-    "t": "Levodopa",
-    "u": "/drugs/levodopa/",
-    "l": "L5",
-    "i": "Rasmussen subacute encephalitis",
-    "lt": 4,
-    "lv": 4,
-    "r": 3,
-    "rs": "Fjernet: «I tillegg er alle godkjenninger i Norge opphevet»",
     "x": 0
    },
    {
@@ -1545,6 +1545,17 @@
     "x": 0
    },
    {
+    "t": "Pertuzumab",
+    "u": "/drugs/pertuzumab/",
+    "l": "L5",
+    "i": "ectomesenchymoma",
+    "lt": 3,
+    "lv": 3,
+    "r": 3,
+    "rs": "Fjernet: «siden begge godkjenningene står som avregistrert»",
+    "x": 0
+   },
+   {
     "t": "Pirfenidone",
     "u": "/drugs/pirfenidone/",
     "l": "L5",
@@ -1619,6 +1630,17 @@
     "lv": 3,
     "r": 2,
     "rs": "Fjernet: «siden de norske godkjenningene er avregistrert»",
+    "x": 0
+   },
+   {
+    "t": "Alpelisib",
+    "u": "/drugs/alpelisib/",
+    "l": "L5",
+    "i": "pulmonary hypertension",
+    "lt": 2,
+    "lv": 2,
+    "r": 2,
+    "rs": "Fjernet: «I tillegg er den eneste norske autorisasjonen opphevet»",
     "x": 0
    },
    {
@@ -2029,14 +2051,14 @@
     "x": 0
    },
    {
-    "t": "Pertuzumab",
-    "u": "/drugs/pertuzumab/",
+    "t": "Palbociclib",
+    "u": "/drugs/palbociclib/",
     "l": "L5",
-    "i": "ectomesenchymoma",
+    "i": "hyperthyroidism",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Fjernet: «siden begge godkjenningene står som avregistrert»",
+    "r": 1,
+    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {
@@ -2246,17 +2268,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
-    "x": 0
-   },
-   {
-    "t": "Alpelisib",
-    "u": "/drugs/alpelisib/",
-    "l": "L5",
-    "i": "pulmonary hypertension",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Fjernet: «I tillegg er den eneste norske autorisasjonen opphevet»",
     "x": 0
    },
    {
@@ -3764,17 +3775,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Fjernet: «I tillegg er den eneste norske/europeiske tillatelsen trukket tilbake»",
-    "x": 0
-   },
-   {
-    "t": "Palbociclib",
-    "u": "/drugs/palbociclib/",
-    "l": "L5",
-    "i": "hyperthyroidism",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk…",
     "x": 0
    },
    {

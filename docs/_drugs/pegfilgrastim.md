@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Pegfilgrastim: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Nøytropeni"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -52,11 +52,11 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene s
 | Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
 | TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 11 av 11) |
-| Antall godkjenninger | 11 (gyldige: 11) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 13 av 13) |
+| Antall godkjenninger | 13 (gyldige: 13) |
 | Anbefalt beslutning | Hold |
 
-Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C), og legemidlet er markedsført. Alle 11 godkjenninger er gyldige.
+Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C), og legemidlet er markedsført. Alle 13 godkjenninger er gyldige.
 
 ---
 
@@ -105,8 +105,10 @@ Doseringsform er ikke oppgitt i dataene.
 | EMEA/H/C/004915 | Fulphila | pegfilgrastim | – | Gyldig |
 | EMEA/H/C/005085 | Nyvepria | pegfilgrastim | – | Gyldig |
 | EMEA/H/C/005312 | Cegfila (previously Pegfilgrastim Mundipharma) | pegfilgrastim | – | Gyldig |
+| EMEA/H/C/006085 | Nylaspeg | pegfilgrastim | Chemotherapy-Induced Febrile Neutropenia; Neutropenia | Gyldig |
 | EMEA/H/C/006407 | Dyrupeg | pegfilgrastim | Neutropenia; Cancer | Gyldig |
 | EMEA/H/C/006739 | Vivlipeg | pegfilgrastim | Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia; Cancer | Gyldig |
+| EMEA/H/C/006937 | Cavoley | pegfilgrastim | Neutropenia | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

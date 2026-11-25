@@ -10949,15 +10949,15 @@
    "file": "ranibizumab.md",
    "action": "correct",
    "claim": "Alle syv godkjenningene er registrert som opphørt.",
-   "replacement": "Alle syv godkjenningene er gyldige.",
-   "summary": "Rettet: «registrert som opphørt» → «gyldige»",
-   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
+   "replacement": "Godkjenningene i dataene er gyldige.",
+   "summary": "Rettet: «registrert som opphørt» → «gyldige» (uten antall)",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-25; også de nye godkjenningene Susvimo, Rexatilux og Vislyfa). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
    "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 7 張、註銷 0",
    "sources": [
     {
      "title": "EMA – Medicines output: medicines report",
      "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
-     "accessed": "2026-11-09"
+     "accessed": "2026-11-25"
     },
     {
      "title": "European Medicines Agency",
@@ -10965,7 +10965,7 @@
      "accessed": "2026-11-09"
     }
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）",
    "history": [
     {
@@ -10994,6 +10994,33 @@
      "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明框裡寫死的總數／有效數改成指向概覽表與程式許可證表"
+    },
+    {
+     "id": "no-lic-20261112-ranibizumab-1",
+     "drug": "ranibizumab",
+     "file": "ranibizumab.md",
+     "action": "correct",
+     "claim": "Alle syv godkjenningene er registrert som opphørt.",
+     "replacement": "Alle syv godkjenningene er gyldige.",
+     "summary": "Rettet: «registrert som opphørt» → «gyldige»",
+     "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
+     "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 7 張、註銷 0",
+     "sources": [
+      {
+       "title": "EMA – Medicines output: medicines report",
+       "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+       "accessed": "2026-11-09"
+      },
+      {
+       "title": "European Medicines Agency",
+       "url": "https://www.ema.europa.eu/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）",
+     "retired": "2026-11-25",
+     "reason": "依原收集規則補收 EMA 新集中許可後（Susvimo、Rexatilux、Vislyfa）更正文字裡的「syv」不再成立，2026-11-25 用戶決定（第五輪）：更正文字不寫死張數"
     }
    ]
   },
@@ -26345,6 +26372,86 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第二輪人工查核（正文與概覽表的「kansellert」逐句對照證據包 EMA 原始狀態與快照事實層；用戶 2026-11-24 決定）"
+  },
+  {
+   "id": "no-lic-20261125-insulin_glargine-1",
+   "drug": "insulin_glargine",
+   "file": "insulin_glargine.md",
+   "action": "correct",
+   "claim": "Alle fem tillatelser er gyldige (5 av 5), og legemidlet er markedsført i Norge.",
+   "replacement": "Tillatelsene i dataene er gyldige, og legemidlet er markedsført i Norge.",
+   "summary": "Rettet: «Alle fem tillatelser … (5 av 5)» → uten antall",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Ondibta (EMEA/H/C/006136) godkjent, så antallet fem stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
+   "finding": "補收新集中許可後證據包多 Ondibta EMEA/H/C/006136（Authorised）；「5 張、5 of 5」張數不成立，改成不寫數字",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
+  },
+  {
+   "id": "no-lic-20261125-insulin_glargine-2",
+   "drug": "insulin_glargine",
+   "file": "insulin_glargine.md",
+   "action": "correct",
+   "claim": " Alle fem norske tillatelser er gyldige.",
+   "replacement": " Tillatelsene i dataene er gyldige.",
+   "summary": "Rettet: «Alle fem norske tillatelser» → uten antall",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Ondibta (EMEA/H/C/006136) godkjent, så antallet fem stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
+   "finding": "同上，結論段張數句",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
+  },
+  {
+   "id": "no-lic-20261125-insulin_lispro-1",
+   "drug": "insulin_lispro",
+   "file": "insulin_lispro.md",
+   "action": "correct",
+   "claim": "Alle fire godkjenningene er gyldige, og legemidlet er markedsført.",
+   "replacement": "Godkjenningene i dataene er gyldige, og legemidlet er markedsført.",
+   "summary": "Rettet: «Alle fire godkjenningene» → uten antall",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Bysumlog (EMEA/H/C/006158) godkjent, så antallet fire stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
+   "finding": "補收新集中許可後證據包多 Bysumlog EMEA/H/C/006158（Authorised）；「4 張」不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
+  },
+  {
+   "id": "no-lic-20261125-insulin_lispro-2",
+   "drug": "insulin_lispro",
+   "file": "insulin_lispro.md",
+   "action": "correct",
+   "claim": "markedsført i Norge med fire gyldige godkjenninger.",
+   "replacement": "markedsført i Norge med gyldige godkjenninger.",
+   "summary": "Rettet: «fire gyldige godkjenninger» → uten antall",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Bysumlog (EMEA/H/C/006158) godkjent, så antallet fire stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen.",
+   "finding": "同上，決策理由段張數句",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
   }
  ]
 }

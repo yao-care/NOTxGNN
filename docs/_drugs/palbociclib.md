@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predikert ny indikasjon Hyperthyroidism (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
@@ -51,8 +51,8 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **revmatoid artr
 | Predikert ny indikasjon | Hyperthyroidism |
 | TxGNN-prediksjonsscore | 0.9944 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
-| Antall godkjenninger | 1 (gyldige: 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold (formuler forskningsspørsmål før videre klinisk utvikling) |
 
@@ -109,6 +109,7 @@ Trombotisk sykdom (sikkerhetssignal, ikke behandlingseffekt):
 | Godkjenningsnummer | Preparatnavn (EMA) | Virkestoff(er) (EMA, engelsk) | Terapeutisk område (EMA, engelsk) | Status |
 |------|------|------|------|------|
 | EMEA/H/C/003853 | Ibrance | Palbociclib | Breast Neoplasms | Gyldig |
+| EMEA/H/C/006624 | Palbociclib Viatris | Palbociclib | Breast Neoplasms | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

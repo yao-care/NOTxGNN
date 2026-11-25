@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predikert ny indikasjon Duodenal ulcer (disease) (evidensnivå L5). Opprinnelig indikasjon: Osteoporosis"
@@ -52,8 +52,8 @@ Her finnes **ingen registrerte kliniske studier**, men **20 publikasjoner** (hov
 | Predikert ny indikasjon | Duodenal ulcer (disease) |
 | TxGNN-prediksjonsscore | 0.9986 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
-| Antall godkjenninger | 7 (gyldige: 7) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
+| Antall godkjenninger | 8 (gyldige: 8) |
 | Anbefalt beslutning | Hold (forskningsspørsmål; videre vurdering forutsetter ytterligere data) |
 
 ---
@@ -116,6 +116,7 @@ Merk: Studiedesign er delvis utledet fra titler og sammendrag og bør verifisere
 | EMEA/H/C/005087 | Livogiva | teriparatide | Osteoporosis | Gyldig |
 | EMEA/H/C/005793 | Teriparatide Sun | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
 | EMEA/H/C/005827 | Sondelbay | teriparatide | Osteoporosis | Gyldig |
+| EMEA/H/C/006688 | Zandoriah | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

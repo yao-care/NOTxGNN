@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Levodopa: predikert ny indikasjon Rasmussens subakutte encefalitt (evidensnivå L5). Opprinnelig indikasjon: Parkinsons sykdom"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -50,8 +50,8 @@ Levodopa er en forløper for dopamin og brukes opprinnelig til behandling av Par
 | Predikert ny indikasjon | Rasmussens subakutte encefalitt |
 | TxGNN-prediksjonsscore | 0,9906 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
-| Antall godkjenninger | 4 (gyldige: 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -96,6 +96,8 @@ Dosageform er ikke oppgitt i dataene.
 | EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | levodopa; carbidopa; entacapone | Parkinson Disease | Gyldig |
 | EMEA/H/C/002785 | Corbilta (previously Levodopa/Carbidopa/Entacapone Sandoz) | levodopa; carbidopa; entacapone | Parkinson Disease | Gyldig |
 | EMEA/H/C/004786 | Inbrija | levodopa | Parkinson Disease | Gyldig |
+| EMEA/H/C/006429 | Onerji | levodopa; carbidopa | Parkinson Disease | Gyldig |
+| EMEA/H/C/006629 | Hopledo | carbidopa monohydrate; levodopa | Parkinson Disease | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

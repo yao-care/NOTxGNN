@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predikert ny indikasjon Ectomesenchymoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
@@ -53,8 +53,8 @@ Dette er i realiteten en undergruppe av den opprinnelige indikasjonen, ikke en r
 | Predikert ny indikasjon | Ectomesenchymoma |
 | TxGNN-prediksjonsscore | 0.9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
-| Antall godkjenninger | 2 (gyldige: 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---
@@ -102,6 +102,7 @@ Studiene WSG-ADAPT og WSG TP-II støtter bruk av pertuzumab + trastuzumab, med e
 |------|------|------|------|------|
 | EMEA/H/C/002547 | Perjeta | pertuzumab | Breast Neoplasms | Gyldig |
 | EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Gyldig |
+| EMEA/H/C/006583 | Poherdy | pertuzumab | Breast Neoplasms | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

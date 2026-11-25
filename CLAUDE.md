@@ -113,3 +113,16 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   apply_drug_reviews.py、build_license_snapshot.py 結尾與每週排程 sync_tables 都會跑；`PAGE_NOTE` 放行補的段落標題行。
 - gate 第 18 項（`src/notxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
 - 2026-11-24 全量量測 1 頁、補 1 頁：irbesartan（10 張 EMA 集中許可，全部 Gyldig）；正文沒有寫死張數或劑型的市場說法，沒有新紀錄。checker 全量前後都是 0；gate exit 0。
+
+## EMA 新集中許可依原規則補收（2026-11-25 第五輪）
+
+用戶 2026-11-25 決定（第五輪第 2 條「新許可補收接進每週排程」；DE、FI、NO 三站同一份 EMA medicines report，同一支邏輯逐站放）：證據包的許可是 collectors/nofda.py 依 data/processed/drug_mapping.csv（2026-03 EMA 清單、scripts/process_fda_data.py 只留 Human＋Authorised，逐成分對 DrugBank）收的，
+之後 EMA 新核准（或 2026-03 時還只有 CHMP 意見、之後才核准）的集中許可不在 drug_mapping，每週排程只更新既有號碼的狀態，永遠收不進來。
+- `scripts/add_current_ema_products.py [--download | --xlsx 檔] [--dry-run] [--report]`（DE、FI 同一支）：候選＝現行清單裡不在 drug_mapping 的產品號碼、Human、Authorised（照本站基準清單的收錄範圍）、有 Active substance；
+  用同一支 map_fda_drugs_to_drugbank 對 DrugBank ID，證據包 tfda.drugbank_ids 有交集、號碼不在證據包的補一筆（欄位照收集器 _format，另記 source、added）；20 筆上限，超過只記 records_not_stored、算進 total_matches。只加不刪、可重複執行。
+  --download 把現行清單存成 data/raw/ema_medicines_report_current.xlsx（Release 帶著）。`.github/workflows/license-refresh.yml` 在 license_refresh 前以 --download 跑，有補收就照常發新 Release。
+- 2026-11-25 第一次跑（清單 2026-11-25，2,765 筆）：現行候選 54 筆、對到 DrugBank 26 筆；17 個證據包補 23 筆（records 22、只算張數 1（denosumab）），全部 Authorised；第二次跑 0 筆。
+  mapper 不認 hemifumarate 鹽類的 ruxolitinib 學名藥（原規則一樣對不到）不補。證據包 local_regulatory 重算 10 個；概覽狀態列／張數列 10 頁、程式表 11 頁由程式同步，正文張數 B 改寫 1 句（pegfilgrastim）；data overlay 推 `claude/data-overlay-NOTxGNN-emanew`。
+- 正文跟新事實矛盾、B 判斷不了的 4 句（文字數詞）以 `no-lic-20261125-*` 更正（insulin_glargine「Alle fem tillatelser … (5 av 5)」「Alle fem norske tillatelser」、insulin_lispro「Alle fire godkjenningene」「med fire gyldige godkjenninger」），
+  `no-lic-20261112-ranibizumab-1`（更正文字「Alle syv godkjenningene er gyldige」）同 id 重發成不寫數字（前版存 history）。
+- 驗證：改到的 11 頁（都是公開頁）逐頁掃許可張數／全稱／唯一字樣；checker 前後都是 0、row-status 0；gate exit 0。

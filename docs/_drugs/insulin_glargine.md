@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Insulin Glargine: predikert ny indikasjon Autoimmun ooforitt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -52,8 +52,8 @@ Ingen av de 10 prediksjonene har kliniske studier, og for pankreasagenesi finnes
 | Predikert ny indikasjon (høyest rangert) | Autoimmun ooforitt |
 | TxGNN-prediksjonsscore | 0,9988 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
-| Antall godkjenninger | 5 (gyldige: 5) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Antall tillatelser | 5 (alle avregistrert) |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -100,7 +100,13 @@ Ingen av publikasjonene er en kontrollert studie av insulin glargin ved pankreas
 
 ## Markedsinformasjon for Norge
 
-Alle fem tillatelser er gyldige (5 av 5), og legemidlet er markedsført i Norge.
+Tillatelsene i dataene er gyldige, og legemidlet er markedsført i Norge.
+
+<!-- review:begin no-lic-20261125-insulin_glargine-1 -->
+
+> **Kontrollrettelse (2026-11-25)**: Opprinnelig sto det: «Alle fem tillatelser er gyldige (5 av 5), og legemidlet er markedsført i Norge.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Ondibta (EMEA/H/C/006136) godkjent, så antallet fem stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261125-insulin_glargine-1 -->
 
 <!-- licenses:begin -->
 
@@ -111,6 +117,7 @@ Alle fem tillatelser er gyldige (5 av 5), og legemidlet er markedsført i Norge.
 | EMEA/H/C/002835 | Abasaglar (previously Abasria) | insulin glargine | Diabetes Mellitus | Gyldig |
 | EMEA/H/C/004243 | Suliqua | insulin glargine; lixisenatide | Diabetes Mellitus, Type 2 | Gyldig |
 | EMEA/H/C/004280 | Semglee | insulin glargine | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/006136 | Ondibta | insulin glargine | Diabetes Mellitus | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
@@ -137,8 +144,14 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-- Alle prediksjonene er på evidensnivå L5, bortsett fra pankreasagenesi (L4), og ingen har kliniske studier. Høye modellscorer ser i hovedsak ut til å gjenspeile samforekomst med diabetes eller autoimmunitet, eller et bivirkningsforhold (lipodystrofi), ikke en terapeutisk effekt. Alle fem norske tillatelser er gyldige.
+- Alle prediksjonene er på evidensnivå L5, bortsett fra pankreasagenesi (L4), og ingen har kliniske studier. Høye modellscorer ser i hovedsak ut til å gjenspeile samforekomst med diabetes eller autoimmunitet, eller et bivirkningsforhold (lipodystrofi), ikke en terapeutisk effekt. Tillatelsene i dataene er gyldige.
 - Pankreasagenesi bør følges opp som et forskningsspørsmål, siden insulinerstatning er fysiologisk hensiktsmessig. Det er i praksis en forlengelse av den eksisterende diabetesindikasjonen, ikke ekte reposisjonering.
+
+<!-- review:begin no-lic-20261125-insulin_glargine-2 -->
+
+> **Kontrollrettelse (2026-11-25)**: Opprinnelig sto det: «Alle fem norske tillatelser er gyldige.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Ondibta (EMEA/H/C/006136) godkjent, så antallet fem stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261125-insulin_glargine-2 -->
 
 **For å komme videre trengs:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
@@ -151,11 +164,13 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
+| 2026-11-25 | Rettet: «Alle fem tillatelser … (5 av 5)» → uten antall | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-25 | Rettet: «Alle fem norske tillatelser» → uten antall | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

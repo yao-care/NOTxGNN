@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Insulin Lispro: predikert ny indikasjon Autoimmun oophoritt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -50,8 +50,8 @@ Insulin lispro er et hurtigvirkende insulinanalog som opprinnelig brukes til beh
 | Predikert ny indikasjon | Autoimmun oophoritt |
 | TxGNN-prediksjonsscore | 0,9978 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
-| Antall godkjenninger | 4 (gyldige: 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -92,12 +92,19 @@ For den prioriterte prediksjonen (autoimmun oophoritt) foreligger det for tiden 
 | EMEA/H/C/000393 | Liprolog | insulin lispro | Diabetes Mellitus | Gyldig |
 | EMEA/H/C/004303 | Insulin lispro Sanofi | insulin lispro | Diabetes Mellitus | Gyldig |
 | EMEA/H/C/005037 | Lyumjev (previously Liumjev) | insulin lispro | Diabetes Mellitus | Gyldig |
+| EMEA/H/C/006158 | Bysumlog | insulin lispro | Diabetes Mellitus | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
 <!-- licenses:end -->
 
-Alle fire godkjenningene er gyldige, og legemidlet er markedsført.
+Godkjenningene i dataene er gyldige, og legemidlet er markedsført.
+
+<!-- review:begin no-lic-20261125-insulin_lispro-1 -->
+
+> **Kontrollrettelse (2026-11-25)**: Opprinnelig sto det: «Alle fire godkjenningene er gyldige, og legemidlet er markedsført.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Bysumlog (EMEA/H/C/006158) godkjent, så antallet fire stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261125-insulin_lispro-1 -->
 
 ---
 
@@ -120,7 +127,13 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en klar mekanistisk kobling. Ingen av de øvrige predikerte indikasjonene representerer reell repurposing, da de enten er standard diabetesbehandling eller knyttet til bivirkninger. I tillegg er legemidlet markedsført i Norge med fire gyldige godkjenninger.
+Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en klar mekanistisk kobling. Ingen av de øvrige predikerte indikasjonene representerer reell repurposing, da de enten er standard diabetesbehandling eller knyttet til bivirkninger. I tillegg er legemidlet markedsført i Norge med gyldige godkjenninger.
+
+<!-- review:begin no-lic-20261125-insulin_lispro-2 -->
+
+> **Kontrollrettelse (2026-11-25)**: Opprinnelig sto det: «markedsført i Norge med fire gyldige godkjenninger.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger (2026-11-25) er også Bysumlog (EMEA/H/C/006158) godkjent, så antallet fire stemmer ikke lenger. Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-lic-20261125-insulin_lispro-2 -->
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA)
@@ -132,11 +145,13 @@ Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten klinis
 
 ## Kontrollogg
 
-Nedenfor er gjennomgangsloggen for denne siden. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse); modellprediksjoner, evidensnivåer og konklusjoner er ikke omskrevet.
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om. Setningen om at data om virkningsmekanismen ikke var tilgjengelige, er erstattet med et utdrag fra den oppgitte offisielle preparatomtalen (med uoffisiell oversettelse).
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
+| 2026-11-25 | Rettet: «Alle fire godkjenningene» → uten antall | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-25 | Rettet: «fire gyldige godkjenninger» → uten antall | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

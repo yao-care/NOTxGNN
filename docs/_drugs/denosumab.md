@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Denosumab: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Tap av benmasse, postmenopausal osteoporose, osteoporose"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -115,7 +115,7 @@ For alvorlig ikke-proliferativ diabetisk retinopati finnes ingen relevant litter
 | EMEA/H/C/006722 | Xbonzy | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gyldig |
 | EMEA/H/C/006797 | Denosumab Intas | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Gyldig |
 
-Tabellen viser 20 av 31 sentrale EU-godkjenninger i disse dataene (gyldige først).
+Tabellen viser 20 av 32 sentrale EU-godkjenninger i disse dataene (gyldige først).
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 

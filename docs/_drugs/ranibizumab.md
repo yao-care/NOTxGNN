@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: predikert ny indikasjon Immature cataract (evidensnivå L5). Opprinnelig indikasjon: Wet Macular Degeneration"
@@ -52,8 +52,8 @@ Dette støttes av **19 publikasjoner** (blant annet RCT-baserte analyser fra RID
 | Predikert ny indikasjon | Immature cataract |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 (bør verifiseres mot fullstendige publikasjoner, se under) |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
-| Antall godkjenninger | 7 (gyldige: 7) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 10 av 10) |
+| Antall godkjenninger | 10 (gyldige: 10) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
 ---
@@ -93,11 +93,11 @@ For den predikerte indikasjonen (alvorlig ikke-proliferativ diabetisk retinopati
 
 ## Markedsinformasjon for Norge
 
-Alle syv godkjenningene er gyldige. Dosjeringsform er ikke oppgitt i dataene.
+Godkjenningene i dataene er gyldige. Dosjeringsform er ikke oppgitt i dataene.
 
 <!-- review:begin no-lic-20261112-ranibizumab-1 -->
 
-> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Alle syv godkjenningene er registrert som opphørt.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+> **Kontrollrettelse (2026-11-25)**: Opprinnelig sto det: «Alle syv godkjenningene er registrert som opphørt.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-25; også de nye godkjenningene Susvimo, Rexatilux og Vislyfa). Oppdaterte antall og statuser for godkjenningene står i hurtigoversikten og i lisenstabellen under markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
 
 <!-- review:end no-lic-20261112-ranibizumab-1 -->
 
@@ -111,7 +111,10 @@ Alle syv godkjenningene er gyldige. Dosjeringsform er ikke oppgitt i dataene.
 | EMEA/H/C/005617 | Ximluci | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Gyldig |
 | EMEA/H/C/006055 | Rimmyrah | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Gyldig |
 | EMEA/H/C/006502 | Ranluspec | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications; Retinal Vein Occlusion… | Gyldig |
+| EMEA/H/C/006527 | Susvimo | ranibizumab | Wet Macular Degeneration | Gyldig |
 | EMEA/H/C/006528 | Epruvy (previously Ranibizumab Midas) | ranibizumab | Wet Macular Degeneration; Macular Edema; Choroidal Neovascularization; Diabetes Complications | Gyldig |
+| EMEA/H/C/006634 | Rexatilux | ranibizumab | Wet Macular Degeneration | Gyldig |
+| EMEA/H/C/006926 | Vislyfa | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gyldig |
 
 Kilde: EMA – Medicines output (sentralt godkjente legemidler til mennesker); preparatnavn, virkestoffer og terapeutisk område er gjengitt i engelsk original. Nasjonale markedsføringstillatelser (DMP) og veterinærpreparater er ikke med i disse dataene.
 
@@ -179,7 +182,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Rettet: «registrert som opphørt» → «gyldige» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-25 | Rettet: «registrert som opphørt» → «gyldige» (uten antall) | Rettet (revidert 2026-11-25; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Fjernet: «og alle norske godkjenninger er opphørt» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-12 | Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt» | Rettet (revidert 2026-11-24; tidligere versjon er lagret i posten) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-19 | Setningen «data om virkningsmekanismen er ikke tilgjengelige» erstattet med utdrag fra amerikansk preparatomtale | Setning om manglende data om virkningsmekanismen erstattet med et utdrag med kilde | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
