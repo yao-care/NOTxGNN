@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-27T23:15:43.112769+00:00",
+  "fetched_at": "2026-11-28T06:49:00.910556+00:00",
   "source": "Google News Health RSS",
-  "count": 21,
+  "count": 20,
   "articles": [
     {
       "id": "c39dd6ee39f8",
@@ -21,16 +21,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "8b2ea01b898a",
-      "title": "Persontilpasset medisin – vi har byggeklossene, men mangler koblingene - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUXB1ZFFSX2Q5UzlkRW1NSEhFTVZhNlotMFpQUUxXSVFVRWZEWlNzNTJWNklRTnM3RVMzZzdtUFlBd3N4b0FoNU9lODFfOTZUUzJreTRodlRrcTcyUmpnRi1VcGV4NWdSVmhnS0JBaFRRQldGVG5MSDRKZ3lWanNJTENwbVFuS2g2Z1ZHRDl4bFZmSWZ3WmJFZ2JjYkRaTzdjVnNvenlkRWRJRzVfbDFCWTlESjA1ek5ROTYxNWdhaXV0X0tJVDVMcS1JRGhSOUR6aW4wbA?oc=5",
-      "published": "2026-11-26T07:30:35+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -114,16 +104,6 @@
       }
     },
     {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
-      "published": "2023-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "6bae80839252",
       "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
@@ -134,6 +114,16 @@
       }
     },
     {
+      "id": "9a816f56a278",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
+      "published": "2023-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
+      }
+    },
+    {
       "id": "25180b752ec4",
       "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
@@ -141,6 +131,16 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "7acd95123b5c",
+      "title": "(+) Overraskende økonomitall i sykehusene - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTXJVVVB4Rk93RnVQa0p4amZ6YUdRcC0xckhrUWhadjVud3VtenhqU1RQcnBkcFJHSTVZcjMzUjdyZGpkem9VOGdyeFE4ZWl3VUM3YVloVl9DYnd3Z1EzTzNsNFJKTUlFMmhrcGtJZHVudG5VdHhTTjBPUHh4VDgwVUVtNldBZElSbllyWDdHbThmWlNncG04ZThQY3d2MTJmeHRIN3Z2cHpVZFVtOTlVNjk5cTRyaTFBQ0hMdDN0cC1JUVp5OEE?oc=5",
+      "published": "2026-11-26T03:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -164,33 +164,23 @@
       }
     },
     {
-      "id": "7acd95123b5c",
-      "title": "(+) Overraskende økonomitall i sykehusene - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTXJVVVB4Rk93RnVQa0p4amZ6YUdRcC0xckhrUWhadjVud3VtenhqU1RQcnBkcFJHSTVZcjMzUjdyZGpkem9VOGdyeFE4ZWl3VUM3YVloVl9DYnd3Z1EzTzNsNFJKTUlFMmhrcGtJZHVudG5VdHhTTjBPUHh4VDgwVUVtNldBZElSbllyWDdHbThmWlNncG04ZThQY3d2MTJmeHRIN3Z2cHpVZFVtOTlVNjk5cTRyaTFBQ0hMdDN0cC1JUVp5OEE?oc=5",
-      "published": "2026-11-26T03:00:00+00:00",
+      "id": "e14634d5ee7c",
+      "title": "Skapte revolusjon: Denne pillen kan gi et lengre og bedre liv - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTjlsc3lGNFNobmlMdk5oZS1EeVhHQS1VcGdidnN1YThZbE1qVi1hRW0yTG55djhpOW5NX3BYRUJiUi1MeFZyOUprVW9HRmx0NmU3dm93d3F6Mmtubmk0Nks4TndiOGxQWmJDckRTdGpRQ3BrUVVjei12dlFFVDAxVnV6QVA4QTVBTFloZ2lzWHRjaHJEYkdVekE0eUttSV80QVdxOXpRdkdwUExicEZ4WEpRbkZWZEtENzRyRXFmaTRxY2Y2NHdYNjR0ZU1WZw?oc=5",
+      "published": "2026-08-22T07:00:00+00:00",
       "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
-      "id": "61ab98edf322",
-      "title": "Én av to over 70 år bruker kolesterolsenkende legemidler - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMjRyd3R6VHN5R2t0V2NzNkJZeVl0OGN4YUpvVzlPMkFkZ0F0aGY3R21oSHdQc2JYOTlhSy12aUt4cmd2ZVN6UVJCemY0YWR5UjRhYVNzRDlKaDRQOWxESE9YSFcwTmF0X2NWXzhpRW83alExU3VvOS1IT3dldHo1RU9lQy1vTDdKaWhyMVNkbHZRWEE?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
+      "id": "e63d1f984466",
+      "title": "Forskrivning av avhengighetsskapende legemidler til eldre (avsluttet) - UiO Det medisinske fakultet",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeExnWDdNZU1nNUVZaU51d21vcVpoaFQ4NFJnWUVGNFVpNm9PdmVobzRxVUNZSTVRbUktMDhtYnVzcHRISFlzampRd1phSlV0amhJcVlFbmJneHFMVjVIZ3MxSjIyYi1NOVUwaGxsN05MaWxicEU4NllVc0FnZEFEdzItejVpNFF0bU9FREZydWhjQTg?oc=5",
+      "published": "2011-05-10T07:00:00+00:00",
       "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "444545c264bb",
-      "title": "Riksrevisoren om kommunenes manglende forberedelser: – Veldig overraskende og sjokkerende - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQemZlTWR1MS0tRVptaE9PQi1OdWVPVDFEMm5TQnQwTHlHVUVOODVBUGZIWjFUYkxadVo2ekRRcGtLSjdhb2JoZVRuTzJneDhKbmdmemV4bFgxeEMzSXhyMG1aLWJBUkgwS0s4R0NhdDFsNDRuSDNIR2ZZNnVIMENBRER3LWFRN2VqLUhGektSb3VneklLTDluc3hvZTJpYVM2YjhwakhBVVUyZ1FpMnMxRGdVYWltTWtfSE5lTi1uOUU4M0ZCaXJwWk9JREtpQTY1NDVtZkptQVItV1hRUWxOZmROZXQ2Y2xQNkd0X3RWTFZkdDhTZGd4U1lMeFFoT2lxYzhSWC1sb0R6X01kSDNfczVHdUZ1Wlg1?oc=5",
-      "published": "2026-11-26T08:44:13+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
+        "name": "UiO Det medisinske fakultet",
+        "url": "https://www.med.uio.no"
       }
     },
     {
@@ -204,13 +194,13 @@
       }
     },
     {
-      "id": "e14634d5ee7c",
-      "title": "Skapte revolusjon: Denne pillen kan gi et lengre og bedre liv - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTjlsc3lGNFNobmlMdk5oZS1EeVhHQS1VcGdidnN1YThZbE1qVi1hRW0yTG55djhpOW5NX3BYRUJiUi1MeFZyOUprVW9HRmx0NmU3dm93d3F6Mmtubmk0Nks4TndiOGxQWmJDckRTdGpRQ3BrUVVjei12dlFFVDAxVnV6QVA4QTVBTFloZ2lzWHRjaHJEYkdVekE0eUttSV80QVdxOXpRdkdwUExicEZ4WEpRbkZWZEtENzRyRXFmaTRxY2Y2NHdYNjR0ZU1WZw?oc=5",
-      "published": "2026-08-22T07:00:00+00:00",
+      "id": "61ab98edf322",
+      "title": "Én av to over 70 år bruker kolesterolsenkende legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMjRyd3R6VHN5R2t0V2NzNkJZeVl0OGN4YUpvVzlPMkFkZ0F0aGY3R21oSHdQc2JYOTlhSy12aUt4cmd2ZVN6UVJCemY0YWR5UjRhYVNzRDlKaDRQOWxESE9YSFcwTmF0X2NWXzhpRW83alExU3VvOS1IT3dldHo1RU9lQy1vTDdKaWhyMVNkbHZRWEE?oc=5",
+      "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
       }
     }
   ]
